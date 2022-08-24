@@ -1,0 +1,422 @@
+<Type Name="ArrayExtensions" FullName="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions">
+  <TypeSignature Language="C#" Value="public static class ArrayExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ArrayExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ArrayExtensions" />
+  <TypeSignature Language="F#" Value="type ArrayExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static int Count&lt;T&gt; (this T[,] array, T value) where T : IEquatable&lt;T&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 Count&lt;(class System.IEquatable`1&lt;!!T&gt;) T&gt;(!!T[,] array, !!T value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Count``1(``0[0:,0:],``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Count(Of T As IEquatable(Of T)) (array As T(,), value As T) As Integer" />
+      <MemberSignature Language="F#" Value="static member Count : 'T[,] * 'T -&gt; int (requires 'T :&gt; IEquatable&lt;'T&gt;)" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Count (array, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="value" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static int Count&lt;T&gt; (this T[] array, T value) where T : IEquatable&lt;T&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 Count&lt;(class System.IEquatable`1&lt;!!T&gt;) T&gt;(!!T[] array, !!T value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Count``1(``0[],``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Count(Of T As IEquatable(Of T)) (array As T(), value As T) As Integer" />
+      <MemberSignature Language="F#" Value="static member Count : 'T[] * 'T -&gt; int (requires 'T :&gt; IEquatable&lt;'T&gt;)" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Count (array, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[]" RefType="this" />
+        <Parameter Name="value" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DangerousGetReference&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetReference&lt;T&gt; (this T[,] array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousGetReference&lt;T&gt;(!!T[,] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReference``1(``0[0:,0:])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetReference(Of T) (array As T(,)) As T" />
+      <MemberSignature Language="F#" Value="static member DangerousGetReference : 'T[,] -&gt; 'T" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReference array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DangerousGetReference&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetReference&lt;T&gt; (this T[] array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousGetReference&lt;T&gt;(!!T[] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReference``1(``0[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetReference(Of T) (array As T()) As T" />
+      <MemberSignature Language="F#" Value="static member DangerousGetReference : 'T[] -&gt; 'T" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReference array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[]" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DangerousGetReferenceAt&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetReferenceAt&lt;T&gt; (this T[] array, int i);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousGetReferenceAt&lt;T&gt;(!!T[] array, int32 i) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReferenceAt``1(``0[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetReferenceAt(Of T) (array As T(), i As Integer) As T" />
+      <MemberSignature Language="F#" Value="static member DangerousGetReferenceAt : 'T[] * int -&gt; 'T" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReferenceAt (array, i)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[]" RefType="this" />
+        <Parameter Name="i" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="i">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DangerousGetReferenceAt&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetReferenceAt&lt;T&gt; (this T[,] array, int i, int j);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousGetReferenceAt&lt;T&gt;(!!T[,] array, int32 i, int32 j) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReferenceAt``1(``0[0:,0:],System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetReferenceAt(Of T) (array As T(,), i As Integer, j As Integer) As T" />
+      <MemberSignature Language="F#" Value="static member DangerousGetReferenceAt : 'T[,] * int * int -&gt; 'T" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.DangerousGetReferenceAt (array, i, j)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="i" Type="System.Int32" />
+        <Parameter Name="j" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="i">To be added.</param>
+        <param name="j">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enumerate&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.HighPerformance.Enumerables.SpanEnumerable&lt;T&gt; Enumerate&lt;T&gt; (this T[] array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Toolkit.HighPerformance.Enumerables.SpanEnumerable`1&lt;!!T&gt; Enumerate&lt;T&gt;(!!T[] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Enumerate``1(``0[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Enumerate(Of T) (array As T()) As SpanEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member Enumerate : 'T[] -&gt; Microsoft.Toolkit.HighPerformance.Enumerables.SpanEnumerable&lt;'T&gt;" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Enumerate array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.HighPerformance.Enumerables.SpanEnumerable&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[]" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fill&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static void Fill&lt;T&gt; (this T[,] array, T value, int row, int column, int width, int height);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Fill&lt;T&gt;(!!T[,] array, !!T value, int32 row, int32 column, int32 width, int32 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Fill``1(``0[0:,0:],``0,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Fill(Of T) (array As T(,), value As T, row As Integer, column As Integer, width As Integer, height As Integer)" />
+      <MemberSignature Language="F#" Value="static member Fill : 'T[,] * 'T * int * int * int * int -&gt; unit" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Fill (array, value, row, column, width, height)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="value" Type="T" />
+        <Parameter Name="row" Type="System.Int32" />
+        <Parameter Name="column" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="row">To be added.</param>
+        <param name="column">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetColumn&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable&lt;T&gt; GetColumn&lt;T&gt; (this T[,] array, int column);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable`1&lt;!!T&gt; GetColumn&lt;T&gt;(!!T[,] array, int32 column) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetColumn``1(``0[0:,0:],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetColumn(Of T) (array As T(,), column As Integer) As Array2DColumnEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member GetColumn : 'T[,] * int -&gt; Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable&lt;'T&gt;" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetColumn (array, column)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="column" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="column">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDjb2HashCode&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static int GetDjb2HashCode&lt;T&gt; (this T[,] array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetDjb2HashCode&lt;T&gt;(!!T[,] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetDjb2HashCode``1(``0[0:,0:])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDjb2HashCode(Of T) (array As T(,)) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetDjb2HashCode : 'T[,] -&gt; int" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetDjb2HashCode array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDjb2HashCode&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static int GetDjb2HashCode&lt;T&gt; (this T[] array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetDjb2HashCode&lt;T&gt;(!!T[] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetDjb2HashCode``1(``0[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDjb2HashCode(Of T) (array As T()) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetDjb2HashCode : 'T[] -&gt; int" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetDjb2HashCode array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[]" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRow&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.HighPerformance.Enumerables.Array2DRowEnumerable&lt;T&gt; GetRow&lt;T&gt; (this T[,] array, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Toolkit.HighPerformance.Enumerables.Array2DRowEnumerable`1&lt;!!T&gt; GetRow&lt;T&gt;(!!T[,] array, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetRow``1(``0[0:,0:],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRow(Of T) (array As T(,), row As Integer) As Array2DRowEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member GetRow : 'T[,] * int -&gt; Microsoft.Toolkit.HighPerformance.Enumerables.Array2DRowEnumerable&lt;'T&gt;" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.GetRow (array, row)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.HighPerformance.Enumerables.Array2DRowEnumerable&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="row">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tokenize&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.HighPerformance.Enumerables.SpanTokenizer&lt;T&gt; Tokenize&lt;T&gt; (this T[] array, T separator) where T : IEquatable&lt;T&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Toolkit.HighPerformance.Enumerables.SpanTokenizer`1&lt;!!T&gt; Tokenize&lt;(class System.IEquatable`1&lt;!!T&gt;) T&gt;(!!T[] array, !!T separator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Tokenize``1(``0[],``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Tokenize(Of T As IEquatable(Of T)) (array As T(), separator As T) As SpanTokenizer(Of T)" />
+      <MemberSignature Language="F#" Value="static member Tokenize : 'T[] * 'T -&gt; Microsoft.Toolkit.HighPerformance.Enumerables.SpanTokenizer&lt;'T (requires 'T :&gt; IEquatable&lt;'T&gt;)&gt; (requires 'T :&gt; IEquatable&lt;'T&gt;)" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ArrayExtensions.Tokenize (array, separator)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.HighPerformance.Enumerables.SpanTokenizer&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[]" RefType="this" />
+        <Parameter Name="separator" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <param name="separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

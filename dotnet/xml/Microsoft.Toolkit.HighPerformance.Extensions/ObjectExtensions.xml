@@ -1,0 +1,151 @@
+<Type Name="ObjectExtensions" FullName="Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions">
+  <TypeSignature Language="C#" Value="public static class ObjectExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ObjectExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ObjectExtensions" />
+  <TypeSignature Language="F#" Value="type ObjectExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DangerousGetObjectDataByteOffset&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static IntPtr DangerousGetObjectDataByteOffset&lt;T&gt; (this object obj, ref T data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig native int DangerousGetObjectDataByteOffset&lt;T&gt;(object obj, !!T&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.DangerousGetObjectDataByteOffset``1(System.Object,``0@)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetObjectDataByteOffset(Of T) (obj As Object, ByRef data As T) As IntPtr" />
+      <MemberSignature Language="F#" Value="static member DangerousGetObjectDataByteOffset : obj * 'T -&gt; nativeint" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.DangerousGetObjectDataByteOffset (obj, data)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" RefType="this" />
+        <Parameter Name="data" Type="T" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="obj">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DangerousGetObjectDataReferenceAt&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetObjectDataReferenceAt&lt;T&gt; (this object obj, IntPtr offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousGetObjectDataReferenceAt&lt;T&gt;(object obj, native int offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.DangerousGetObjectDataReferenceAt``1(System.Object,System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetObjectDataReferenceAt(Of T) (obj As Object, offset As IntPtr) As T" />
+      <MemberSignature Language="F#" Value="static member DangerousGetObjectDataReferenceAt : obj * nativeint -&gt; 'T" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.DangerousGetObjectDataReferenceAt (obj, offset)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" RefType="this" />
+        <Parameter Name="offset" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="obj">To be added.</param>
+        <param name="offset">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DangerousUnbox&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ref T DangerousUnbox&lt;T&gt; (this object obj) where T : struct;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousUnbox&lt;struct .ctor (class System.ValueType) T&gt;(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.DangerousUnbox``1(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousUnbox(Of T As Structure) (obj As Object) As T" />
+      <MemberSignature Language="F#" Value="static member DangerousUnbox : obj -&gt; 'T (requires 'T : struct)" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.DangerousUnbox obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryUnbox&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static bool TryUnbox&lt;T&gt; (this object obj, out T value) where T : struct;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryUnbox&lt;struct .ctor (class System.ValueType) T&gt;(object obj, [out] !!T&amp; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.TryUnbox``1(System.Object,``0@)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TryUnbox(Of T As Structure) (obj As Object, ByRef value As T) As Boolean" />
+      <MemberSignature Language="F#" Value="static member TryUnbox : obj * 'T -&gt; bool (requires 'T : struct)" Usage="Microsoft.Toolkit.HighPerformance.Extensions.ObjectExtensions.TryUnbox (obj, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" RefType="this" />
+        <Parameter Name="value" Type="T" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
