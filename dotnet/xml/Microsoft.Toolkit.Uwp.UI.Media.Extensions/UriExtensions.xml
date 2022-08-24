@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            An extension <see langword="class" /> for the <see cref="T:System.Uri" /> type
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,9 +37,11 @@
         <Parameter Name="path" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="path">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="path">The input relative path to convert</param>
+        <summary>
+            Returns an <see cref="T:System.Uri" /> that starts with the ms-appx:// prefix
+            </summary>
+        <returns>A <see cref="T:System.Uri" /> with <paramref name="path" /> relative to ms-appx://</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

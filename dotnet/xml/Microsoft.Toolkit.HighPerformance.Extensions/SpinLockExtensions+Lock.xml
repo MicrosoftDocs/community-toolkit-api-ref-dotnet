@@ -19,7 +19,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            A <see langword="struct" /> that is used to enter and hold a <see cref="T:System.Threading.SpinLock" /> through a <see langword="using" /> block or statement.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,7 +63,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Implements the duck-typed <see cref="M:System.IDisposable.Dispose" /> method and releases the current <see cref="T:System.Threading.SpinLock" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -19,7 +19,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            A <see langword="struct" /> that is used to enter and hold a <see cref="T:System.Threading.SpinLock" /> through a <see langword="using" /> block or statement.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -37,8 +39,10 @@
         <Parameter Name="spinLock" Type="System.Threading.SpinLock*" />
       </Parameters>
       <Docs>
-        <param name="spinLock">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="spinLock">The target <see cref="T:System.Threading.SpinLock" /> to use.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.UnsafeLock" /> struct.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,7 +62,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Implements the duck-typed <see cref="M:System.IDisposable.Dispose" /> method and releases the current <see cref="T:System.Threading.SpinLock" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

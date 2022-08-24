@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.HashCode" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,10 +47,12 @@
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="hashCode">To be added.</param>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">The type of elements in the input <see cref="T:System.ReadOnlySpan`1" /> instance.</typeparam>
+        <param name="hashCode">The input <see cref="T:System.HashCode" /> instance.</param>
+        <param name="span">The input <see cref="T:System.ReadOnlySpan`1" /> instance.</param>
+        <summary>
+            Adds a sequence of <typeparamref name="T" /> values to the hash code.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Defines a collection of extensions methods for UI.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -36,10 +38,12 @@
         <Parameter Name="type" Type="System.Type" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="type">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Child element.</param>
+        <param name="type">Type of ascendant to look for.</param>
+        <summary>
+            Find first visual ascendant control of a specified type.
+            </summary>
+        <returns>Ascendant control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,10 +72,12 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.DependencyObject" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">Type to search for.</typeparam>
+        <param name="element">Child element.</param>
+        <summary>
+            Find first visual ascendant control of a specified type.
+            </summary>
+        <returns>Ascendant control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,10 +100,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="name">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Parent element.</param>
+        <param name="name">Name of the control to find</param>
+        <summary>
+            Find visual ascendant <see cref="T:Windows.UI.Xaml.FrameworkElement" /> control using its name.
+            </summary>
+        <returns>Descendant control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,9 +133,11 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.DependencyObject" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Child element.</param>
+        <summary>
+            Find all visual ascendants for the element.
+            </summary>
+        <returns>A collection of parent elements or null if none found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,10 +160,12 @@
         <Parameter Name="type" Type="System.Type" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="type">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Parent element.</param>
+        <param name="type">Type of descendant.</param>
+        <summary>
+            Find first descendant control of a specified type.
+            </summary>
+        <returns>Descendant control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,10 +194,12 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.DependencyObject" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">Type to search for.</typeparam>
+        <param name="element">Parent element.</param>
+        <summary>
+            Find first descendant control of a specified type.
+            </summary>
+        <returns>Descendant control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -208,10 +222,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="name">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Parent element.</param>
+        <param name="name">Name of the control to find</param>
+        <summary>
+            Find descendant <see cref="T:Windows.UI.Xaml.FrameworkElement" /> control using its name.
+            </summary>
+        <returns>Descendant control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -246,10 +262,12 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.DependencyObject" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">Type to search for.</typeparam>
+        <param name="element">Parent element.</param>
+        <summary>
+            Find all descendant controls of the specified type.
+            </summary>
+        <returns>Descendant controls or empty if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

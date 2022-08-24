@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.Threading.SpinLock" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -34,10 +36,22 @@
         <Parameter Name="spinLock" Type="System.Threading.SpinLock*" />
       </Parameters>
       <Docs>
-        <param name="spinLock">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="spinLock">A pointer to the target <see cref="T:System.Threading.SpinLock" /> to use</param>
+        <summary>
+             Enters a specified <see cref="T:System.Threading.SpinLock" /> instance and returns a wrapper to use to release the lock.
+             This extension should be used though a <see langword="using" /> block or statement:
+             <code>
+             SpinLock spinLock = new SpinLock();
+            
+             using (SpinLockExtensions.Enter(&amp;spinLock))
+             {
+                 // Thread-safe code here...
+             }
+             </code>
+             The compiler will take care of releasing the SpinLock when the code goes out of that <see langword="using" /> scope.
+             </summary>
+        <returns>A wrapper type that will release <paramref name="spinLock" /> when its <see cref="M:System.IDisposable.Dispose" /> method is called.</returns>
+        <remarks>The returned <see cref="T:Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.UnsafeLock" /> value shouldn't be used directly: use this extension in a <see langword="using" /> block or statement.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Enter">

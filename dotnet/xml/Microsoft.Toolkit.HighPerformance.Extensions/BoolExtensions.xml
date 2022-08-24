@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.Boolean" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,10 +37,20 @@
         <Parameter Name="flag" Type="System.Boolean" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="flag">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="flag">The input value to convert.</param>
+        <summary>
+            Converts the given <see cref="T:System.Boolean" /> value to an <see cref="T:System.Int32" /> mask with
+            all bits representing the value of the input flag (either 0xFFFFFFFF or 0x00000000).
+            </summary>
+        <returns>0xFFFFFFFF if <paramref name="flag" /> is <see langword="true" />, 0x00000000 otherwise.</returns>
+        <remarks>
+            This method does not contain branching instructions, and it is only guaranteed to work with
+            <see cref="T:System.Boolean" /> values being either 0 or 1. Operations producing a <see cref="T:System.Boolean" /> result,
+            such as numerical comparisons, always result in a valid value. If the <see cref="T:System.Boolean" /> value is
+            produced by fields with a custom <see cref="T:System.Runtime.InteropServices.FieldOffsetAttribute" />,
+            or by using <see cref="M:System.Runtime.CompilerServices.Unsafe.As``1(System.Object)" /> or other unsafe APIs to directly manipulate the underlying
+            data though, it is responsibility of the caller to ensure the validity of the provided value.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="ToBitwiseMask64">
@@ -59,10 +71,13 @@
         <Parameter Name="flag" Type="System.Boolean" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="flag">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="flag">The input value to convert.</param>
+        <summary>
+            Converts the given <see cref="T:System.Boolean" /> value to a <see cref="T:System.Int64" /> mask with
+            all bits representing the value of the input flag (either all 1s or 0s).
+            </summary>
+        <returns>All 1s if <paramref name="flag" /> is <see langword="true" />, all 0s otherwise.</returns>
+        <remarks>This method does not contain branching instructions. See additional note in <see cref="M:Microsoft.Toolkit.HighPerformance.Extensions.BoolExtensions.ToBitwiseMask32(System.Boolean)" />.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ToInt">
@@ -83,10 +98,12 @@
         <Parameter Name="flag" Type="System.Boolean" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="flag">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="flag">The input value to convert.</param>
+        <summary>
+            Converts the given <see cref="T:System.Boolean" /> value into an <see cref="T:System.Int32" />.
+            </summary>
+        <returns>1 if <paramref name="flag" /> is <see langword="true" />, 0 otherwise.</returns>
+        <remarks>This method does not contain branching instructions.</remarks>
       </Docs>
     </Member>
   </Members>

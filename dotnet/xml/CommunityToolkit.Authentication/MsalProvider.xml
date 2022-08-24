@@ -117,9 +117,11 @@
         <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
       </Parameters>
       <Docs>
-        <param name="request">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="request">The request to authenticate.</param>
+        <summary>
+            Authenticate an outgoing request.
+            </summary>
+        <returns>A task upon completion.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -192,7 +194,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the id of the currently signed in user account.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,9 +219,11 @@
         <Parameter Name="silentOnly" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="silentOnly">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="silentOnly">Determines if the acquisition should be done without prompts to the user.</param>
+        <summary>
+            Retrieve a token for the authenticated user.
+            </summary>
+        <returns>A token string for the authenticated user.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -308,8 +314,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Sign in the user.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.Task" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -329,8 +338,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Sign out the user.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.Task" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -350,8 +362,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Tries to check if the user is logged in without prompting to login.
+            </summary>
+        <returns>A boolean indicating success or failure to sign in silently.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

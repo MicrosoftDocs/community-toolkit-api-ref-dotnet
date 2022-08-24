@@ -13,7 +13,8 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Provides attached dependency properties for the <see cref="T:Windows.UI.Xaml.UIElement" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +49,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> that indicates whether or not the contents of the target <see cref="T:Windows.UI.Xaml.UIElement" /> should always be clipped to their parent's bounds.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -70,9 +73,10 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.UIElement" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">The <see cref="T:Windows.UI.Xaml.UIElement" /> to read the property value from</param>
+        <summary>
+            Gets the value of <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.UIElementExtensions.ClipToBoundsProperty" /></summary>
+        <returns>The <see cref="T:System.Boolean" /> associated with the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,9 +99,10 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="element">The <see cref="T:Windows.UI.Xaml.UIElement" /> to set the property to</param>
+        <param name="value">The new value of the attached property</param>
+        <summary>
+            Sets the value of <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.UIElementExtensions.ClipToBoundsProperty" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

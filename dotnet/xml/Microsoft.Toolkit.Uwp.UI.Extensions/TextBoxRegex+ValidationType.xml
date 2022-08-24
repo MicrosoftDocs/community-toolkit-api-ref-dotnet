@@ -12,7 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Specify the type of validation required
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,7 +34,9 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Text only validation
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="Custom">
@@ -51,7 +55,9 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The default validation that required property Regex to be setted
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="Decimal">
@@ -70,7 +76,9 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Decimal validation
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="Email">
@@ -89,7 +97,9 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Email validation
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="Number">
@@ -108,7 +118,9 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Number validation
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="PhoneNumber">
@@ -127,7 +139,9 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Phone number validation
+            </summary>
       </Docs>
     </Member>
   </Members>

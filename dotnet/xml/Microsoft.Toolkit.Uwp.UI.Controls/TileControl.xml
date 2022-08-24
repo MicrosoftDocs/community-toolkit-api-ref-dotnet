@@ -418,7 +418,9 @@
             Gets a value indicating whether the platform supports Composition.
             </summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>
+            On platforms not supporting Composition, this <See cref="T:Microsoft.Toolkit.Uwp.UI.Controls.TileControl.UIStrategy" /> is automaticaly set to PureXaml.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="OffsetX">

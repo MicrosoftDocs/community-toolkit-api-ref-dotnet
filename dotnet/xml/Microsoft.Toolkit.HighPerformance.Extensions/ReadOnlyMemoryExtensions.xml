@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.ReadOnlyMemory`1" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,10 +37,17 @@
         <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="memory">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="memory">The input <see cref="T:System.ReadOnlyMemory`1" /> of <see cref="T:System.Byte" /> instance.</param>
+        <summary>
+            Returns a <see cref="T:System.IO.Stream" /> wrapping the contents of the given <see cref="T:System.ReadOnlyMemory`1" /> of <see cref="T:System.Byte" /> instance.
+            </summary>
+        <returns>A <see cref="T:System.IO.Stream" /> wrapping the data within <paramref name="memory" />.</returns>
+        <remarks>
+            Since this method only receives a <see cref="T:System.Memory`1" /> instance, which does not track
+            the lifetime of its underlying buffer, it is responsability of the caller to manage that.
+            In particular, the caller must ensure that the target buffer is not disposed as long
+            as the returned <see cref="T:System.IO.Stream" /> is in use, to avoid unexpected issues.
+            </remarks>
       </Docs>
     </Member>
   </Members>

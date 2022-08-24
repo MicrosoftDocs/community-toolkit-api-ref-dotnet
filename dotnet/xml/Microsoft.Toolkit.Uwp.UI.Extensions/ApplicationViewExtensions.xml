@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Provides attached properties for interacting with the <see cref="T:Windows.UI.ViewManagement.ApplicationView" /> on a window (app view).
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,9 +37,12 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets <see cref="T:Windows.UI.Core.AppViewBackButtonVisibility" /> for <see cref="P:Windows.UI.Core.SystemNavigationManager.AppViewBackButtonVisibility" /></summary>
+        <returns>
+          <see cref="T:System.String" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,9 +64,13 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets <see cref="T:System.Boolean" /> CoreApplicationView.TitleBar.ExtendViewIntoTitleBar
+            </summary>
+        <returns>
+          <see cref="T:System.String" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,9 +92,12 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets <see cref="T:System.String" /> for <see cref="P:Windows.UI.ViewManagement.ApplicationView.Title" /></summary>
+        <returns>
+          <see cref="T:System.String" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,9 +120,12 @@
         <Parameter Name="value" Type="Windows.UI.Core.AppViewBackButtonVisibility" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value">
+          <see cref="T:Windows.UI.Core.AppViewBackButtonVisibility" />
+        </param>
+        <summary>
+            Sets <see cref="T:Windows.UI.Core.AppViewBackButtonVisibility" /> to <see cref="P:Windows.UI.Core.SystemNavigationManager.AppViewBackButtonVisibility" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -133,9 +148,13 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value">
+          <see cref="T:System.Boolean" />
+        </param>
+        <summary>
+            Sets <see cref="T:System.Boolean" /> to CoreApplicationView.TitleBar.ExtendViewIntoTitleBar
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,9 +177,12 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value">
+          <see cref="T:System.String" />
+        </param>
+        <summary>
+            Sets <see cref="T:System.String" /> to <see cref="P:Windows.UI.ViewManagement.ApplicationView.Title" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

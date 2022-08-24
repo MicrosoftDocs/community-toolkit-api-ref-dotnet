@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Set of extention methods for using <see cref="T:Windows.UI.Xaml.DispatcherTimer" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,12 +40,27 @@
         <Parameter Name="immediate" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="timer">To be added.</param>
-        <param name="action">To be added.</param>
-        <param name="interval">To be added.</param>
-        <param name="immediate">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="timer">Timer instance, only one debounced function can be used per timer.</param>
+        <param name="action">Action to execute at the end of the interval.</param>
+        <param name="interval">Interval to wait before executing the action.</param>
+        <param name="immediate">Determines if the action execute on the leading edge instead of trailing edge.</param>
+        <summary>
+          <para>Used to debounce (rate-limit) an event.  The action will be postponed and executed after the interval has elapsed.  At the end of the interval, the function will be called with the arguments that were passed most recently to the debounced function.</para>
+          <para>Use this method to control the timer instead of calling Start/Interval/Stop manually.</para>
+          <para>A scheduled debounce can still be stopped by calling the stop method on the timer instance.</para>
+          <para>Each timer can only have one debounced function limited at a time.</para>
+        </summary>
         <remarks>To be added.</remarks>
+        <example>
+          <code>
+             private DispatcherTimer _typeTimer = new DispatcherTimer();
+            
+             _typeTimer.Debounce(async () =&gt;
+                 {
+                     // Only executes this code after 0.3 seconds have elapsed since last trigger.
+                 }, TimeSpan.FromSeconds(0.3));
+             </code>
+        </example>
       </Docs>
     </Member>
   </Members>

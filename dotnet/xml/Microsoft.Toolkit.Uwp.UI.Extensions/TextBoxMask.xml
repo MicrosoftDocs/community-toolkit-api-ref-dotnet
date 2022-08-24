@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            TextBox mask property allows a user to more easily enter fixed width text in TextBox control
+            where you would like them to enter the data in a certain format
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -64,7 +67,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Represents the custom mask that the user can create to add his own variable characters based on regex expression
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,9 +91,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">TextBox control</param>
+        <summary>
+            Gets CustomMask value
+            </summary>
+        <returns>CustomMask value</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -110,9 +117,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">TextBox control</param>
+        <summary>
+            Gets mask value
+            </summary>
+        <returns>mask value</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -134,9 +143,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">TextBox control</param>
+        <summary>
+            Gets placeholder value
+            </summary>
+        <returns>placeholder value</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,7 +182,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Represents a mask/format for the textbox that the user must follow
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -206,7 +219,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Represents the mask place holder which represents the variable character that the user can edit in the textbox
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,9 +244,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">TextBox Control</param>
+        <param name="value">CustomMask Value</param>
+        <summary>
+            Sets CustomMask property which represents the custom mask that the user can create to add his own variable characters based on certain regex expression
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -254,9 +271,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">TextBox Control</param>
+        <param name="value">Mask Value</param>
+        <summary>
+            Sets textbox mask property which represents mask/format for the textbox that the user must follow
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -279,9 +298,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">TextBox Control</param>
+        <param name="value">placeholder Value</param>
+        <summary>
+            Sets placeholder property which represents the variable character that the user can edit in the textbox
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

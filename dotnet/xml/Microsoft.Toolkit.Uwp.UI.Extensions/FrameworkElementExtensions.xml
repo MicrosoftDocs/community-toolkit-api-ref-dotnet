@@ -13,7 +13,8 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Provides attached dependency properties for the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +49,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:System.Double" /> for the <see cref="P:Windows.UI.Xaml.FrameworkElement.ActualHeight" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,7 +85,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:System.Double" /> for the <see cref="P:Windows.UI.Xaml.FrameworkElement.ActualWidth" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,7 +121,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for retrieving a parent <see cref="T:System.Object" /> for the <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.FrameworkElementExtensions.AncestorProperty" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,7 +157,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for retrieving a parent <see cref="T:System.Object" /> for the <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.FrameworkElementExtensions.AncestorProperty" /> based on the provided <see cref="T:System.Type" /> in the <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.FrameworkElementExtensions.AncestorTypeProperty" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,7 +194,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for enabling actual size binding on any  <see cref="T:Windows.UI.Xaml.FrameworkElement" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,9 +218,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.FrameworkElement" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:System.Double" /> from</param>
+        <summary>
+            Gets the <see cref="T:System.Double" /> for the <see cref="P:Windows.UI.Xaml.FrameworkElement.ActualHeight" /></summary>
+        <returns>The <see cref="T:System.Double" /> associated with the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -234,9 +243,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.FrameworkElement" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:System.Double" /> from</param>
+        <summary>
+            Gets the <see cref="T:System.Double" /> for the <see cref="P:Windows.UI.Xaml.FrameworkElement.ActualWidth" /></summary>
+        <returns>The <see cref="T:System.Double" /> associated with the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -258,9 +268,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">FrameworkElement</param>
+        <summary>
+            Retrieves the parent object of this framework element found of the given <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.FrameworkElementExtensions.AncestorTypeProperty" />.
+            </summary>
+        <returns>Parent object</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,8 +295,10 @@
       </Parameters>
       <Docs>
         <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Gets the Type of Ancestor to look for from this element.
+            </summary>
+        <returns>Blah blah</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -306,9 +320,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.FrameworkElement" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:System.Boolean" /> from</param>
+        <summary>
+            Gets the <see cref="T:System.Boolean" /> that enables/disables actual size binding update.
+            </summary>
+        <returns>The <see cref="T:System.Boolean" /> associated with the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -331,9 +347,10 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:System.Double" /> with</param>
+        <param name="value">The <see cref="T:System.Double" /> for binding to the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:System.Double" /> for the <see cref="P:Windows.UI.Xaml.FrameworkElement.ActualHeight" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -356,9 +373,10 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:System.Double" /> with</param>
+        <param name="value">The <see cref="T:System.Double" /> for binding to the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:System.Double" /> for the <see cref="P:Windows.UI.Xaml.FrameworkElement.ActualWidth" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -381,9 +399,11 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">Parent object</param>
+        <param name="value">FrameworkElement</param>
+        <summary>
+            Sets the parent object of the framework element (internal).
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -408,7 +428,9 @@
       <Docs>
         <param name="obj">To be added.</param>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            Sets the <see cref="T:System.Type" /> to look for from this element and place in the <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.FrameworkElementExtensions.AncestorProperty" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -431,9 +453,11 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:System.Boolean" /> with</param>
+        <param name="value">The <see cref="T:System.Boolean" /> for binding to the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:System.Boolean" /> that enables/disables actual size binding update.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

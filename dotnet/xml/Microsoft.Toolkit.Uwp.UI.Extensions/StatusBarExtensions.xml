@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Provides attached dependency properties for interacting with the <see cref="T:Windows.UI.ViewManagement.StatusBar" /> on a window (app view).
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,9 +37,11 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets Color for StatusBar.BackgroundColor
+            </summary>
+        <returns>Color</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,9 +63,13 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets <see cref="T:System.Double" /> from StatusBar.BackgroundOpacity
+            </summary>
+        <returns>
+          <see cref="T:System.Double" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,9 +91,11 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets Color from StatusBar.ForegroundColor
+            </summary>
+        <returns>Color</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,9 +117,13 @@
         <Parameter Name="page" Type="Windows.UI.Xaml.Controls.Page" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <summary>
+            Gets <see cref="T:System.Boolean" /> indicating whether <see cref="T:Windows.UI.ViewManagement.StatusBar" /> is visible or not.
+            </summary>
+        <returns>
+          <see cref="T:System.Boolean" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,7 +142,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets a value indicating whether StatusBar is supported or not.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -164,7 +180,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Using a DependencyProperty as the backing store for IsVisible.  This enables animation, styling, binding, etc...
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -187,9 +205,11 @@
         <Parameter Name="value" Type="Windows.UI.Color" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value">Color</param>
+        <summary>
+            Sets Color to StatusBar.BackgroundColor
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,9 +232,13 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value">
+          <see cref="T:System.Double" />
+        </param>
+        <summary>
+            Sets <see cref="T:System.Double" /> to StatusBar.BackgroundOpacity
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -237,9 +261,11 @@
         <Parameter Name="value" Type="Windows.UI.Color" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value"> Color</param>
+        <summary>
+            Sets Color to StatusBar.ForegroundColor
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -262,9 +288,13 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="page">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="page">The <see cref="T:Windows.UI.Xaml.Controls.Page" /></param>
+        <param name="value">
+          <see cref="T:System.Boolean" />
+        </param>
+        <summary>
+            Sets a <see cref="T:System.Boolean" /> resulting in <see cref="T:Windows.UI.ViewManagement.StatusBar" /> becoming visible or invisible.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

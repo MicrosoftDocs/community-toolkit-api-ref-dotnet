@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Extension methods for <see cref="T:Windows.UI.Xaml.Media.ScaleTransform" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,9 +37,12 @@
         <Parameter Name="transform" Type="Windows.UI.Xaml.Media.ScaleTransform" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="transform">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="transform">Extended SkewTranform.</param>
+        <summary>
+            Gets the matrix that represents this transform.
+            Implements WPF's SkewTransform.Value.
+            </summary>
+        <returns>Matrix representing transform.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

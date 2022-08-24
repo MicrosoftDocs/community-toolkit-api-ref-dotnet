@@ -16,7 +16,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Performs an fade animation using composition.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,7 +54,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Starts the animation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -71,8 +75,12 @@
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets the Opacity.
+            </summary>
+        <value>
+            The Opacity.
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -91,7 +99,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The Opacity value of the associated object
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

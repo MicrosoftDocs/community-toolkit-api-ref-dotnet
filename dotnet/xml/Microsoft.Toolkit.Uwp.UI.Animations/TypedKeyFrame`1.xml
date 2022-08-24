@@ -16,8 +16,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <typeparam name="T">To be added.</typeparam>
-    <summary>To be added.</summary>
+    <typeparam name="T">The type of property being animated</typeparam>
+    <summary>
+            Provides type implementation of <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.KeyFrame" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,7 +53,9 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets the value at the specific key
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -72,7 +75,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.TypedKeyFrame`1.Value" /> dependency property
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

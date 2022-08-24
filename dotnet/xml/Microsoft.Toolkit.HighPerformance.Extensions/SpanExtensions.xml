@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.Span`1" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,11 +46,20 @@
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The type if items in the source <see cref="T:System.Span`1" />.</typeparam>
+        <param name="span">The source slice, of type <typeparamref name="T" />.</param>
+        <summary>
+            Casts a <see cref="T:System.Span`1" /> of one primitive type <typeparamref name="T" /> to <see cref="T:System.Span`1" /> of bytes.
+            That type may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+            </summary>
+        <returns>A <see cref="T:System.Span`1" /> of bytes.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+            Thrown when <typeparamref name="T" /> contains pointers.
+            </exception>
+        <exception cref="T:System.OverflowException">
+            Thrown if the <see cref="P:System.Span`1.Length" /> property of the new <see cref="T:System.Span`1" /> would exceed <see cref="F:System.Int32.MaxValue" />.
+            </exception>
       </Docs>
     </Member>
     <Member MemberName="Cast&lt;TFrom,TTo&gt;">
@@ -85,12 +96,20 @@
         <Parameter Name="span" Type="System.Span&lt;TFrom&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="TFrom">To be added.</typeparam>
-        <typeparam name="TTo">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <typeparam name="TFrom">The type of items in the source <see cref="T:System.Span`1" />.</typeparam>
+        <typeparam name="TTo">The type of items in the destination <see cref="T:System.Span`1" />.</typeparam>
+        <param name="span">The source slice, of type <typeparamref name="TFrom" />.</param>
+        <summary>
+            Casts a <see cref="T:System.Span`1" /> of one primitive type <typeparamref name="TFrom" /> to another primitive type <typeparamref name="TTo" />.
+            These types may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+            </summary>
+        <returns>A <see cref="T:System.Span`1" /> of type <typeparamref name="TTo" /></returns>
+        <remarks>
+            Supported only for platforms that support misaligned memory access or when the memory block is aligned by other means.
+            </remarks>
+        <exception cref="T:System.ArgumentException">
+            Thrown when <typeparamref name="TFrom" /> or <typeparamref name="TTo" /> contains pointers.
+            </exception>
       </Docs>
     </Member>
     <Member MemberName="Count&lt;T&gt;">
@@ -119,11 +138,13 @@
         <Parameter Name="value" Type="T" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> instance to read.</param>
+        <param name="value">The <typeparamref name="T" /> value to look for.</param>
+        <summary>
+            Counts the number of occurrences of a given value into a target <see cref="T:System.Span`1" /> instance.
+            </summary>
+        <returns>The number of occurrences of <paramref name="value" /> in <paramref name="span" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,11 +169,13 @@
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <typeparam name="T">The type of elements in the input <see cref="T:System.Span`1" /> instance.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> instance.</param>
+        <summary>
+            Returns a reference to the first element within a given <see cref="T:System.Span`1" />, with no bounds checks.
+            </summary>
+        <returns>A reference to the first element within <paramref name="span" />.</returns>
+        <remarks>This method doesn't do any bounds checks, therefore it is responsibility of the caller to perform checks in case the returned value is dereferenced.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DangerousGetReferenceAt&lt;T&gt;">
@@ -177,12 +200,14 @@
         <Parameter Name="i" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <param name="i">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <typeparam name="T">The type of elements in the input <see cref="T:System.Span`1" /> instance.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> instance.</param>
+        <param name="i">The index of the element to retrieve within <paramref name="span" />.</param>
+        <summary>
+            Returns a reference to an element at a specified index within a given <see cref="T:System.Span`1" />, with no bounds checks.
+            </summary>
+        <returns>A reference to the element within <paramref name="span" /> at the index specified by <paramref name="i" />.</returns>
+        <remarks>This method doesn't do any bounds checks, therefore it is responsibility of the caller to ensure the <paramref name="i" /> parameter is valid.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Enumerate&lt;T&gt;">
@@ -206,11 +231,25 @@
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <typeparam name="T">The type of items to enumerate.</typeparam>
+        <param name="span">The source <see cref="T:System.Span`1" /> to enumerate.</param>
+        <summary>
+             Enumerates the items in the input <see cref="T:System.Span`1" /> instance, as pairs of reference/index values.
+             This extension should be used directly within a <see langword="foreach" /> loop:
+             <code>
+             Span&lt;int&gt; numbers = new[] { 1, 2, 3, 4, 5, 6, 7 };
+            
+             foreach (var item in numbers.Enumerate())
+             {
+                 // Access the index and value of each item here...
+                 int index = item.Index;
+                 ref int value = ref item.Value;
+             }
+             </code>
+             The compiler will take care of properly setting up the <see langword="foreach" /> loop with the type returned from this method.
+             </summary>
+        <returns>A wrapper type that will handle the reference/index enumeration for <paramref name="span" />.</returns>
+        <remarks>The returned <see cref="T:Microsoft.Toolkit.HighPerformance.Enumerables.SpanEnumerable`1" /> value shouldn't be used directly: use this extension in a <see langword="foreach" /> loop.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDjb2HashCode&lt;T&gt;">
@@ -234,11 +273,14 @@
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> instance.</param>
+        <summary>
+            Gets a content hash from the input <see cref="T:System.Span`1" /> instance using the Djb2 algorithm.
+            For more info, see the documentation for <see cref="M:Microsoft.Toolkit.HighPerformance.Extensions.ReadOnlySpanExtensions.GetDjb2HashCode``1(System.ReadOnlySpan{``0})" />.
+            </summary>
+        <returns>The Djb2 value for the input <see cref="T:System.Span`1" /> instance.</returns>
+        <remarks>The Djb2 hash is fully deterministic and with no random components.</remarks>
       </Docs>
     </Member>
     <Member MemberName="IndexOf&lt;T&gt;">
@@ -263,12 +305,15 @@
         <Parameter Name="value" Type="T" RefType="ref" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The type if items in the input <see cref="T:System.Span`1" />.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> to calculate the index for.</param>
+        <param name="value">The reference to the target item to get the index for.</param>
+        <summary>
+            Gets the index of an element of a given <see cref="T:System.Span`1" /> from its reference.
+            </summary>
+        <returns>The index of <paramref name="value" /> within <paramref name="span" />.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="value" /> does not belong to <paramref name="span" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Tokenize&lt;T&gt;">
@@ -297,12 +342,24 @@
         <Parameter Name="separator" Type="T" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="span">To be added.</param>
-        <param name="separator">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <typeparam name="T">The type of items in the <see cref="T:System.Span`1" /> to tokenize.</typeparam>
+        <param name="span">The source <see cref="T:System.Span`1" /> to tokenize.</param>
+        <param name="separator">The separator <typeparamref name="T" /> item to use.</param>
+        <summary>
+             Tokenizes the values in the input <see cref="T:System.Span`1" /> instance using a specified separator.
+             This extension should be used directly within a <see langword="foreach" /> loop:
+             <code>
+             Span&lt;char&gt; text = "Hello, world!".ToCharArray();
+            
+             foreach (var token in text.Tokenize(','))
+             {
+                 // Access the tokens here...
+             }
+             </code>
+             The compiler will take care of properly setting up the <see langword="foreach" /> loop with the type returned from this method.
+             </summary>
+        <returns>A wrapper type that will handle the tokenization for <paramref name="span" />.</returns>
+        <remarks>The returned <see cref="T:Microsoft.Toolkit.HighPerformance.Enumerables.SpanTokenizer`1" /> value shouldn't be used directly: use this extension in a <see langword="foreach" /> loop.</remarks>
       </Docs>
     </Member>
   </Members>

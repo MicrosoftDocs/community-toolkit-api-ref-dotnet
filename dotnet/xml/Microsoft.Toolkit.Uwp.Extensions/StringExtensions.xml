@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            UWP specific helpers for working with strings.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,9 +37,11 @@
         <Parameter Name="resourceKey" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="resourceKey">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="resourceKey">Resource key to retrieve.</param>
+        <summary>
+            Retrieves the provided resource for the given key for use independent of the UI thread.
+            </summary>
+        <returns>string value for given resource or empty string if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,10 +64,12 @@
         <Parameter Name="resourcePath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="resourceKey">To be added.</param>
-        <param name="resourcePath">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="resourceKey">Resource key to retrieve.</param>
+        <param name="resourcePath">Resource path to retrieve.</param>
+        <summary>
+            Retrieves the provided resource for the given key for use independent of the UI thread.
+            </summary>
+        <returns>string value for given resource or empty string if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,9 +91,11 @@
         <Parameter Name="resourceKey" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="resourceKey">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="resourceKey">Resource key to retrieve.</param>
+        <summary>
+            Retrieves the provided resource for the current view context.
+            </summary>
+        <returns>string value for given resource or empty string if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

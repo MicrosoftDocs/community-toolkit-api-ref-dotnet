@@ -22,7 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            An enumerator for a source 2D array instance.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -42,9 +44,11 @@
         <Parameter Name="column" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="array">To be added.</param>
-        <param name="column">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="array">The source 2D array instance.</param>
+        <param name="column">The target column to iterate within <paramref name="array" />.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable`1.Enumerator" /> struct.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,7 +67,9 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the duck-typed <see cref="P:System.Collections.Generic.IEnumerator`1.Current" /> property.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,8 +90,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Implements the duck-typed <see cref="M:System.Collections.IEnumerator.MoveNext" /> method.
+            </summary>
+        <returns>
+          <see langword="true" /> whether a new element is available, <see langword="false" /> otherwise</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -98,9 +98,13 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the value from</param>
+        <summary>
+            Gets the value of the Implicit.Animations XAML attached property.
+            </summary>
+        <returns>
+          <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -149,9 +153,13 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the value from</param>
+        <summary>
+            Gets the value of the Implicit.HideAnimations XAML attached property.
+            </summary>
+        <returns>
+          <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -200,9 +208,13 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the value from</param>
+        <summary>
+            Gets the value of the Implicit.ShowAnimations XAML attached property.
+            </summary>
+        <returns>
+          <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -293,9 +305,11 @@
         <Parameter Name="value" Type="Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to set the value</param>
+        <param name="value">The <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" /> to set</param>
+        <summary>
+            Sets the value of the Implicit.Animations XAML attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -346,9 +360,11 @@
         <Parameter Name="value" Type="Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to set the value</param>
+        <param name="value">The <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" /> to set</param>
+        <summary>
+            Sets the value of the Implicit.HideAnimations XAML attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -399,9 +415,11 @@
         <Parameter Name="value" Type="Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to set the value</param>
+        <param name="value">The <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationCollection" /> to set</param>
+        <summary>
+            Sets the value of the Implicit.ShowAnimations XAML attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

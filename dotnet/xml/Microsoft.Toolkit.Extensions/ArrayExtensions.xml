@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with arrays.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,14 +45,17 @@
         <Parameter Name="height" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="array">To be added.</param>
-        <param name="value">To be added.</param>
-        <param name="row">To be added.</param>
-        <param name="col">To be added.</param>
-        <param name="width">To be added.</param>
-        <param name="height">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="array">The source array.</param>
+        <param name="value">Value to fill with.</param>
+        <param name="row">Row to start on (inclusive, zero-index).</param>
+        <param name="col">Column to start on (inclusive, zero-index).</param>
+        <param name="width">Positive width of area to fill.</param>
+        <param name="height">Positive height of area to fill.</param>
+        <summary>
+            Fills elements of a rectangular array at the given position and size to a specific value.
+            Ranges given will fill in as many elements as possible, ignoring positions outside the bounds of the array.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,11 +87,13 @@
         <Parameter Name="column" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="rectarray">To be added.</param>
-        <param name="column">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="rectarray">The source array.</param>
+        <param name="column">Column record to retrieve, 0-based index.</param>
+        <summary>
+            Yields a column from a rectangular array.
+            </summary>
+        <returns>Yielded column.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,11 +125,15 @@
         <Parameter Name="column" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="rectarray">To be added.</param>
-        <param name="column">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="rectarray">The source array.</param>
+        <param name="column">Column record to retrieve, 0-based index.</param>
+        <summary>
+            Yields a column from a jagged array.
+            An exception will be thrown if the column is out of bounds, and return default in places where there are no elements from inner arrays.
+            Note: There is no equivalent GetRow method, as you can use array[row] to retrieve.
+            </summary>
+        <returns>Yielded enumerable of column elements for given column, and default values for smaller inner arrays.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -154,11 +165,13 @@
         <Parameter Name="row" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="rectarray">To be added.</param>
-        <param name="row">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="rectarray">The source array.</param>
+        <param name="row">Row record to retrieve, 0-based index.</param>
+        <summary>
+            Yields a row from a rectangular array.
+            </summary>
+        <returns>Yielded row.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,10 +196,12 @@
         <Parameter Name="rectarray" Type="T[,]" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="rectarray">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="rectarray">The source array.</param>
+        <summary>
+            Returns a simple string representation of a rectangular array.
+            </summary>
+        <returns>String representation of the array.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -211,10 +226,12 @@
         <Parameter Name="array" Type="T[]" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="array">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="array">The source array.</param>
+        <summary>
+            Returns a simple string representation of an array.
+            </summary>
+        <returns>String representation of the array.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,10 +256,12 @@
         <Parameter Name="mdarray" Type="T[][]" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="mdarray">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">The element type of the array.</typeparam>
+        <param name="mdarray">The source array.</param>
+        <summary>
+            Returns a simple string representation of a jagged array.
+            </summary>
+        <returns>String representation of the array.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with types.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,9 +37,11 @@
         <Parameter Name="type" Type="System.Type" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="type">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="type">The input type.</param>
+        <summary>
+            Returns a simple string representation of a type.
+            </summary>
+        <returns>The string representation of <paramref name="type" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

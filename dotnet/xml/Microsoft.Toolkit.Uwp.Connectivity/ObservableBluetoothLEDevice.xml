@@ -45,8 +45,10 @@
         <Parameter Name="deviceInfo" Type="Windows.Devices.Enumeration.DeviceInformation" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="deviceInfo">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="deviceInfo">The device information.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Connectivity.ObservableBluetoothLEDevice" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
