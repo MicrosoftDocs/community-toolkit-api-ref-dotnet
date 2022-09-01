@@ -17,7 +17,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Deferral handle provided by a <see cref="T:Microsoft.Toolkit.Uwp.Deferred.DeferredEventArgs" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -37,7 +39,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Call when finished with the Deferral.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +64,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
         <remarks>To be added.</remarks>
+        <filterpriority>2</filterpriority>
       </Docs>
     </Member>
   </Members>

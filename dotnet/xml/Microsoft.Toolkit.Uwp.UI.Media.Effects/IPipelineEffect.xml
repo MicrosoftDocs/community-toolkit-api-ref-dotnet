@@ -10,7 +10,8 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            The base <see langword="interface" /> for all the builder effects to be used in a <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.PipelineBrush" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,9 +33,11 @@
         <Parameter Name="builder" Type="Microsoft.Toolkit.Uwp.UI.Media.Pipelines.PipelineBuilder" />
       </Parameters>
       <Docs>
-        <param name="builder">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="builder">The source <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.PipelineBuilder" /> instance to add the effect to.</param>
+        <summary>
+            Appends the current effect to the input <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.PipelineBuilder" /> instance.
+            </summary>
+        <returns>A new <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.PipelineBuilder" /> with the new effects added to it.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

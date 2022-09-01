@@ -125,6 +125,9 @@
             Initializes a new instance of the <see cref="T:Microsoft.Toolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1" /> class.
             </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="initialCapacity" /> is not positive (i.e. less than or equal to 0).
+            </exception>
         <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="initialCapacity" /> is not valid.</exception>
       </Docs>
     </Member>

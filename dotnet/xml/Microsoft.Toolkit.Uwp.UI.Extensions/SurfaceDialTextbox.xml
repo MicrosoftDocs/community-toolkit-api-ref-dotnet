@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helper class that provides attached properties to enable any TextBox with the Surface Dial. Rotate to change the value by StepValue between MinValue and MaxValue, and tap to go to the Next focus element from a TextBox
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +50,11 @@
         <ReturnType>Windows.UI.Input.RadialController</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets the controller for the Surface Dial. The RadialController can be set from your app logic in case you use Surface Dial in other custom cases than on a TextBox.
+            This helper class will do everything for you, but if you want to control the Menu Items and/or wish to use the same Surface Dial insta
+            This is the property for the static controller so you can access it if needed.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +90,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            A flag to enable or disable haptic feedback when rotating the dial for the give TextBox. This is enabled by default.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,7 +127,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            EnableMinMax limits the value in the textbox to your spesificed Min and Max values, see the other properties.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -154,7 +164,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            TapToNext is a feature you can set to automatically try to focus the next focusable element from the Surface Dial enabled TextBox. This is on dy default.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,7 +201,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            If you provide the Controller yourself, set this to true so you won't add new menu items.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -211,9 +225,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Setter of the Haptic Feedback property
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -235,9 +251,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Getter of the EnableMinMax property
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -259,9 +277,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Getter of the TapToNext flag.
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,9 +303,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Getter of the Force Menu Item flag
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -307,9 +329,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Getter of the Icon
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -331,9 +355,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Getter of the MaxValue
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -355,9 +381,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Getter of the MinValue
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -379,9 +407,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <summary>
+            Setter of the StepValue.
+            </summary>
+        <returns>Return value of property</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -416,7 +446,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Set the default icon of the menu item that gets added. A user will most likely not see this. Defaults to the Ruler icon.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -435,7 +467,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets a value indicating whether this attached proeprty is supported
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -471,7 +505,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Sets the maxium value the TextBox can have when modifying it using a Surface Dial. Default is 100.0
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -506,7 +542,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Sets the minimum value the TextBox can have when modifying it using a Surface Dial. Default is -100.0
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -529,9 +567,11 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Getter of the Haptic Feedback property
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -554,9 +594,11 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Setter of the EnableMinMax property
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -579,9 +621,11 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Setter of the TapToNext flag.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -604,9 +648,11 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Setter of the Force Menu Item flag
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -629,9 +675,11 @@
         <Parameter Name="value" Type="Windows.UI.Input.RadialControllerMenuKnownIcon" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Setter of the Icon
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -654,9 +702,11 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Setter of the MaxValue
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -679,9 +729,11 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Setter of the MinValue
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -704,9 +756,11 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The Depenency Object we are dealing with, like a TextBox.</param>
+        <param name="value">The value to set the property to.</param>
+        <summary>
+            Getter of the StepValue
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -741,7 +795,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The amount the TextBox will be modified for each rotation step on the Surface Dial. This can be any double value.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

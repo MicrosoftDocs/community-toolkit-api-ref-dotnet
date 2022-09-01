@@ -250,7 +250,9 @@
         <summary>
             Gets or sets the <see cref="T:Windows.UI.Xaml.Controls.DataTemplateSelector" /> for the details presenter.
             </summary>
-        <value>To be added.</value>
+        <value>
+            The selector which selects the correct template for the current content. The default is null.
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -761,7 +763,9 @@
         <summary>
             Gets or sets the <see cref="T:Windows.UI.Xaml.Controls.DataTemplateSelector" /> for the list pane items.
             </summary>
-        <value>To be added.</value>
+        <value>
+            The selector which selects the correct template for the current content. The default is null.
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

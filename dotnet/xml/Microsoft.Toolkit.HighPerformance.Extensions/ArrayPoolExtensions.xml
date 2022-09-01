@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.Buffers.ArrayPool`1" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -41,13 +43,16 @@
         <Parameter Name="clearArray" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="pool">To be added.</param>
-        <param name="array">To be added.</param>
-        <param name="newSize">To be added.</param>
-        <param name="clearArray">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <typeparam name="T">The type of items into the target array to resize.</typeparam>
+        <param name="pool">The target <see cref="T:System.Buffers.ArrayPool`1" /> instance to use to resize the array.</param>
+        <param name="array">The rented <typeparamref name="T" /> array to resize, or <see langword="null" /> to create a new array.</param>
+        <param name="newSize">The size of the new array.</param>
+        <param name="clearArray">Indicates whether the contents of the array should be cleared before reuse.</param>
+        <summary>
+            Changes the number of elements of a rented one-dimensional array to the specified new size.
+            </summary>
+        <remarks>When this method returns, the caller must not use any references to the old array anymore.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="newSize" /> is less than 0.</exception>
       </Docs>
     </Member>
   </Members>

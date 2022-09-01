@@ -41,11 +41,13 @@
         <Parameter Name="value" Type="System.Single" Index="2" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="from">To be added.</param>
-        <param name="to">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="from">Start unit</param>
+        <param name="to">End unit</param>
+        <param name="value">The value to convert (using start unit)</param>
+        <summary>
+            Converts a screen unit to another screen unit (ex: 1cm =&gt; 37.7953px).
+            </summary>
+        <returns>The result of the conversion</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

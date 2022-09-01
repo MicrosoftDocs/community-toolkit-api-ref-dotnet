@@ -39,9 +39,11 @@
         <Parameter Name="action" Type="System.Action" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="action">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="action">Action to be executed after render pass</param>
+        <summary>
+            Provides a method to execute code after the rendering pass is completed.
+            <seealso href="https://github.com/microsoft/microsoft-ui-xaml/blob/c045cde57c5c754683d674634a0baccda34d58c4/dev/dll/SharedHelpers.cpp#L399" /></summary>
+        <returns>Awaitable Task</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

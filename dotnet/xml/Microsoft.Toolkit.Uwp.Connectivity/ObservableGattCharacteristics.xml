@@ -41,9 +41,11 @@
         <Parameter Name="parent" Type="Microsoft.Toolkit.Uwp.Connectivity.ObservableGattDeviceService" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="characteristic">To be added.</param>
-        <param name="parent">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="characteristic">The characteristic.</param>
+        <param name="parent">The parent.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Connectivity.ObservableGattCharacteristics" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

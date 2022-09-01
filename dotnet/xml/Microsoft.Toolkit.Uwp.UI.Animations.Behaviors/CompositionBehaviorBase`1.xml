@@ -23,9 +23,12 @@
   </Base>
   <Interfaces />
   <Docs>
-    <typeparam name="T">To be added.</typeparam>
-    <summary>To be added.</summary>
+    <typeparam name="T">The type of the associated object.</typeparam>
+    <summary>
+            A base class for all behaviors using composition.It contains some of the common properties to set on a visual.
+            </summary>
     <remarks>To be added.</remarks>
+    <altmember cref="T:Microsoft.Toolkit.Uwp.UI.Behaviors.BehaviorBase`1" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -59,8 +62,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets a value indicating whether [automatically start] on the animation is set.
+            </summary>
+        <value>
+          <c>true</c> if [automatically start]; otherwise, <c>false</c>.
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,7 +86,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The property sets if the animation should automatically start.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -98,8 +107,12 @@
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets the delay.
+            </summary>
+        <value>
+            The delay.
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,7 +131,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The delay of the animation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +152,12 @@
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets the duration.
+            </summary>
+        <value>
+            The duration.
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,7 +176,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The duration of the animation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,8 +197,12 @@
         <ReturnType>Windows.UI.Xaml.Media.Animation.EasingMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets the <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase`1.EasingMode" /> used to generate the easing function of the animation.
+            </summary>
+        <value>
+            The easing mode
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -196,7 +221,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase`1.EasingMode" /> used to generate the easing function of the animation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -215,8 +242,12 @@
         <ReturnType>Microsoft.Toolkit.Uwp.UI.Animations.EasingType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets the <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase`1.EasingType" /> used to generate the easing function of the animation.
+            </summary>
+        <value>
+            The easing function
+            </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -235,7 +266,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase`1.EasingType" /> used to generate the easing function of the animation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -255,7 +288,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Called when the associated object has been loaded.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -278,9 +313,11 @@
         <Parameter Name="dependencyPropertyChangedEventArgs" Type="Windows.UI.Xaml.DependencyPropertyChangedEventArgs" />
       </Parameters>
       <Docs>
-        <param name="dependencyObject">To be added.</param>
-        <param name="dependencyPropertyChangedEventArgs">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="dependencyObject">The dependency object.</param>
+        <param name="dependencyPropertyChangedEventArgs">The <see cref="T:Windows.UI.Xaml.DependencyPropertyChangedEventArgs" /> instance containing the event data.</param>
+        <summary>
+            If any of the properties are changed then the animation is automatically started depending on the AutomaticallyStart property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -300,7 +337,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Starts the animation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

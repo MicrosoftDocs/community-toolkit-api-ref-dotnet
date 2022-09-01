@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Extension methods and attached properties for <see cref="T:Windows.UI.Composition.Visual" /> objects
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +50,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the AnchorPointProperty attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,7 +87,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the CenterPoint attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,9 +111,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.AnchorPoint" /> of a UIElement in a string form
+            </summary>
+        <returns>A <see cref="T:System.Numerics.Vector2" /> string representation of the <see cref="P:Windows.UI.Composition.Visual.AnchorPoint" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,9 +137,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.CenterPoint" /> of a UIElement in a string form
+            </summary>
+        <returns>A <see cref="T:System.Numerics.Vector3" /> string representation of the <see cref="P:Windows.UI.Composition.Visual.CenterPoint" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,9 +163,12 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.CenterPoint" /> of the <see cref="T:Windows.UI.Xaml.UIElement" /> normalized between 0.0 and 1.0
+            is centered even when the visual is resized
+            </summary>
+        <returns>a string representing Vector3 as the normalized <see cref="P:Windows.UI.Composition.Visual.CenterPoint" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -177,9 +190,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.Offset" /> of a UIElement in a string form
+            </summary>
+        <returns>A <see cref="T:System.Numerics.Vector3" /> string representation of the <see cref="P:Windows.UI.Composition.Visual.Offset" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -201,9 +216,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.Opacity" /> of a UIElement
+            </summary>
+        <returns>The <see cref="P:Windows.UI.Composition.Visual.Opacity" /> of the <see cref="T:Windows.UI.Xaml.UIElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,9 +242,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.RotationAngle" /> of a UIElement in radians
+            </summary>
+        <returns>The <see cref="P:Windows.UI.Composition.Visual.RotationAngle" /> of the <see cref="T:Windows.UI.Xaml.UIElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,9 +268,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.RotationAngleInDegrees" /> of a UIElement in degrees
+            </summary>
+        <returns>The <see cref="P:Windows.UI.Composition.Visual.RotationAngleInDegrees" /> of the <see cref="T:Windows.UI.Xaml.UIElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,9 +294,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.RotationAxis" /> of a UIElement in a string form
+            </summary>
+        <returns>A <see cref="T:System.Numerics.Vector3" /> string representation of the <see cref="P:Windows.UI.Composition.Visual.RotationAxis" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -297,9 +320,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.Scale" /> of a UIElement in a string form
+            </summary>
+        <returns>A <see cref="T:System.Numerics.Vector3" /> string representation of the <see cref="P:Windows.UI.Composition.Visual.Scale" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -321,9 +346,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Gets the <see cref="P:Windows.UI.Composition.Visual.Size" /> of a UIElement in a string form
+            </summary>
+        <returns>A <see cref="T:System.Numerics.Vector2" /> string representation of the <see cref="P:Windows.UI.Composition.Visual.Size" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -345,9 +372,10 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.UIElement" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <summary>
+            Retrieves the <see cref="T:Windows.UI.Composition.Visual" /> object of a <see cref="T:Windows.UI.Xaml.UIElement" /></summary>
+        <returns>The <see cref="T:Windows.UI.Composition.Visual" /> backing the <see cref="T:Windows.UI.Xaml.UIElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -382,7 +410,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the NormalizedCenterPoint attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -417,7 +447,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the Offset attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -452,7 +484,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the Opacity attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -503,7 +537,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the RotationAngleInDegrees attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -522,7 +558,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the RotationAngle attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -557,7 +595,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the RotationAxis attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -592,7 +632,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the Scale attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -615,9 +657,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The string representation of the <see cref="T:System.Numerics.Vector2" /> to be set</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.AnchorPoint" /> of a UIElement in a string form
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -640,9 +684,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The string representation of the <see cref="T:System.Numerics.Vector3" /> to be set</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.CenterPoint" /> of a UIElement in a string form
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -665,9 +711,12 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">A string representing a Vector3 normalized between 0.0 and 1.0</param>
+        <summary>
+            Sets the normalized <see cref="P:Windows.UI.Composition.Visual.CenterPoint" /> of the <see cref="T:Windows.UI.Xaml.UIElement" />
+            is centered even when the visual is resized
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -690,9 +739,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The string representation of the <see cref="T:System.Numerics.Vector3" /> to be set</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.Offset" /> of a UIElement in a string form
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -715,9 +766,11 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The opacity to be set between 0.0 and 1.0</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.Opacity" /> of a UIElement
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -740,9 +793,11 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The rotation in radians</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.RotationAngle" /> of a UIElement in radians
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -765,9 +820,11 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The rotation in degrees</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.RotationAngleInDegrees" /> of a UIElement in radians
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -790,9 +847,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The string representation of the <see cref="T:System.Numerics.Vector3" /> to be set</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.RotationAxis" /> of a UIElement in a string form
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -815,9 +874,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The string representation of the <see cref="T:System.Numerics.Vector3" /> to be set</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.Scale" /> of a UIElement in a string form
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -840,9 +901,11 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.UIElement" /></param>
+        <param name="value">The string representation of the <see cref="T:System.Numerics.Vector2" /> to be set</param>
+        <summary>
+            Sets the <see cref="P:Windows.UI.Composition.Visual.Size" /> of a UIElement in a string form
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -877,7 +940,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Identifies the Size attached property.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -899,9 +964,12 @@
         <Parameter Name="str" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="str">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="str">A string in the format of "float, float"</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> to <see cref="T:System.Numerics.Vector2" /></summary>
+        <returns>
+          <see cref="T:System.Numerics.Vector2" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -923,9 +991,12 @@
         <Parameter Name="str" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="str">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="str">A string in the format of "float, float, float"</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> to <see cref="T:System.Numerics.Vector3" /></summary>
+        <returns>
+          <see cref="T:System.Numerics.Vector3" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -947,9 +1018,12 @@
         <Parameter Name="str" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="str">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="str">A string in the format of "float, float, float, float"</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> to <see cref="T:System.Numerics.Vector4" /></summary>
+        <returns>
+          <see cref="T:System.Numerics.Vector4" />
+        </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

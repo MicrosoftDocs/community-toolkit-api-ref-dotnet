@@ -32,7 +32,8 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            An ObservableCollection of <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationBase" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -93,7 +94,9 @@
         <ReturnType>System.EventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Raised when an animation has been added/removed or modified
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -162,7 +165,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets a value indicating whether the collection contains an animation that targets the Translation property
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -237,9 +242,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Returns an enumerator that iterates through a collection.</summary>
+        <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
         <remarks>To be added.</remarks>
+        <filterpriority>2</filterpriority>
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -418,8 +424,10 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.UIElement" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="element">The <see cref="T:Windows.UI.Xaml.UIElement" /> to be animated</param>
+        <summary>
+            Starts the animations in the collection
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

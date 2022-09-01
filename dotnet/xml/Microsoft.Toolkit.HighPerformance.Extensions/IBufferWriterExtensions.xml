@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.Buffers.IBufferWriter`1" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,11 +47,14 @@
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="writer">To be added.</param>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">The type of value to write.</typeparam>
+        <param name="writer">The target <see cref="T:System.Buffers.IBufferWriter`1" /> instance to write to.</param>
+        <param name="span">The input <see cref="T:System.ReadOnlySpan`1" /> to write to <paramref name="writer" />.</param>
+        <summary>
+            Writes a series of items of a specified type into a target <see cref="T:System.Buffers.IBufferWriter`1" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
     <Member MemberName="Write&lt;T&gt;">
@@ -80,11 +85,14 @@
         <Parameter Name="value" Type="T" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="writer">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">The type of value to write.</typeparam>
+        <param name="writer">The target <see cref="T:System.Buffers.IBufferWriter`1" /> instance to write to.</param>
+        <param name="value">The input value to write to <paramref name="writer" />.</param>
+        <summary>
+            Writes a value of a specified type into a target <see cref="T:System.Buffers.IBufferWriter`1" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
     <Member MemberName="Write&lt;T&gt;">
@@ -138,11 +146,14 @@
         <Parameter Name="value" Type="T" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="writer">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">The type of value to write.</typeparam>
+        <param name="writer">The target <see cref="T:System.Buffers.IBufferWriter`1" /> instance to write to.</param>
+        <param name="value">The input value to write to <paramref name="writer" />.</param>
+        <summary>
+            Writes a value of a specified type into a target <see cref="T:System.Buffers.IBufferWriter`1" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
   </Members>

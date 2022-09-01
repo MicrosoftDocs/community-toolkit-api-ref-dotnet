@@ -110,7 +110,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlAcceleratorKeyPressedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            An event that is triggered when the accelerator key is pressed.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -136,8 +138,10 @@
         <Parameter Name="script" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="script">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="script">The script.</param>
+        <summary>
+            Adds the script to be loaded before any others on the page.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -169,8 +173,10 @@
         <Parameter Name="script" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="script">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="script">The script.</param>
+        <summary>
+            Adds the script to be loaded before any others on the page.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.AddPreLoadedScript(System.String)" />
       </Docs>
@@ -220,8 +226,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets a value indicating whether there is at least one page in the backward navigation history.
+            </summary>
+        <value>
+          <c>true</c> if the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> can navigate backward; otherwise, <c>false</c>.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -245,8 +254,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets a value indicating whether there is at least one page in the forward navigation history.
+            </summary>
+        <value>
+          <c>true</c> if the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> can navigate forward; otherwise, <c>false</c>.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -270,8 +282,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>
+            Closes this instance.
+            </summary>
+        <remarks>Equivalent to calling <see cref="M:System.IDisposable.Dispose" />.</remarks>
         <inheritdoc cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.Close" />
       </Docs>
     </Member>
@@ -293,8 +307,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets a value indicating whether <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> contains an element that supports full screen.
+            </summary>
+        <value>
+          <see langword="true" /> if the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> contains an element that supports full screen; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -317,7 +334,9 @@
         <ReturnType>System.EventHandler&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when the status of whether the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> currently contains a full screen element or not changes.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -341,7 +360,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> has started loading new content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -387,8 +408,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets the title of the page currently displayed in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.
+            </summary>
+        <value>The page title.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -411,7 +434,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlDOMContentLoadedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> finished parsing the current content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -464,9 +489,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>
+            Gets or sets an enterprise ID for this process.
+            </summary>
+        <value>The enterprise ID of this process.</value>
+        <remarks>Value can be set prior to the component being initialized.</remarks>
+        <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlProcessOptions.EnterpriseId" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -488,7 +516,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when a frame in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> has started loading new content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -511,7 +541,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlDOMContentLoadedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when a frame in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> finished parsing its current content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -534,7 +566,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when a frame in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> finished navigating to new content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -557,7 +591,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationStartingEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when a frame in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> navigates to new content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -583,9 +619,12 @@
         <Parameter Name="id" Type="System.UInt32" />
       </Parameters>
       <Docs>
-        <param name="id">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="id">The <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequest.Id" /> of the deferred permission request.</param>
+        <summary>
+            Gets the deferred permission request with the specified <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequest.Id" />.
+            </summary>
+        <returns>
+          <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlDeferredPermissionRequest" /> The deferred permission request with the specified <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequest.Id" />, or null if no permission request with the specified <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequest.Id" /> was found.</returns>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -610,8 +649,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Navigates the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> to the previous page in the navigation history.
+            </summary>
+        <returns>
+          <c>true</c> if the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> navigation to the previous page in the navigation history is successful; otherwise, <c>false</c>.</returns>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -636,8 +678,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Navigates the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> to the next page in the navigation history.
+            </summary>
+        <returns>
+          <c>true</c> if the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> navigation to the next page in the navigation history is successful; otherwise, <c>false</c>.</returns>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -658,7 +703,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Initializes this instance.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -685,10 +732,12 @@
         <Parameter Name="scriptName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="scriptName">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="scriptName">Name of the script function to invoke.</param>
+        <summary>
+            Executes the specified script function from the currently loaded HTML, with no arguments, as a synchronous action.
+            </summary>
+        <returns>When this method returns, the <see cref="T:System.String" /> result of the script invocation.</returns>
+        <remarks>To prevent malicious code from exploiting your app, be sure to call this method to invoke only scripts that you trust.</remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -714,11 +763,15 @@
         <Parameter Name="arguments" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="scriptName">To be added.</param>
-        <param name="arguments">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="scriptName">Name of the script function to invoke.</param>
+        <param name="arguments">A string array that packages arguments to the script function.</param>
+        <summary>
+            Executes the specified script function from the currently loaded HTML, with no arguments, as a synchronous action.
+            </summary>
+        <returns>When this method returns, the <see cref="T:System.String" /> result of the script invocation.</returns>
+        <remarks>
+            To prevent malicious code from exploiting your app, be sure to call this method to invoke only scripts that you trust.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -751,11 +804,15 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="scriptName">To be added.</param>
-        <param name="arguments">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="scriptName">Name of the script function to invoke.</param>
+        <param name="arguments">A string array that packages arguments to the script function.</param>
+        <summary>
+            Executes the specified script function from the currently loaded HTML, with no arguments, as a synchronous action.
+            </summary>
+        <returns>When this method returns, the <see cref="T:System.String" /> result of the script invocation.</returns>
+        <remarks>
+            To prevent malicious code from exploiting your app, be sure to call this method to invoke only scripts that you trust.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -780,10 +837,15 @@
         <Parameter Name="scriptName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="scriptName">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="scriptName">Name of the script function to invoke.</param>
+        <summary>
+            Executes the specified script function from the currently loaded HTML, with no arguments, as an asynchronous action.
+            </summary>
+        <returns>When this method returns, the <see cref="T:System.String" /> result of the script invocation.</returns>
+        <remarks>
+            To prevent malicious code from exploiting your app, be sure to call this method to invoke only scripts that you trust.
+            The invoked script can only return string values.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -809,11 +871,16 @@
         <Parameter Name="arguments" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="scriptName">To be added.</param>
-        <param name="arguments">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="scriptName">Name of the script function to invoke.</param>
+        <param name="arguments">A string array that packages arguments to the script function.</param>
+        <summary>
+            Executes the specified script function from the currently loaded HTML, with no arguments, as an asynchronous action.
+            </summary>
+        <returns>When this method returns, the <see cref="T:System.String" /> result of the script invocation.</returns>
+        <remarks>
+            To prevent malicious code from exploiting your app, be sure to call this method to invoke only scripts that you trust.
+            The invoked script can only return string values.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -846,11 +913,16 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="scriptName">To be added.</param>
-        <param name="arguments">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="scriptName">Name of the script function to invoke.</param>
+        <param name="arguments">A string array that packages arguments to the script function.</param>
+        <summary>
+            Executes the specified script function from the currently loaded HTML, with no arguments, as an asynchronous action.
+            </summary>
+        <returns>When this method returns, the <see cref="T:System.String" /> result of the script invocation.</returns>
+        <remarks>
+            To prevent malicious code from exploiting your app, be sure to call this method to invoke only scripts that you trust.
+            The invoked script can only return string values.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -878,9 +950,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets a value indicating whether the use of IndexedDB is allowed.
+            </summary>
+        <value>
+          <c>true</c> if IndexedDB is allowed; otherwise, <c>false</c>. The default is <c>true</c>.</value>
         <remarks>To be added.</remarks>
+        <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings.IsIndexedDBEnabled" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -908,9 +984,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets a value indicating whether the use of JavaScript is allowed.
+            </summary>
+        <value> true if JavaScript is allowed in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />; otherwise, false. The default is true.</value>
         <remarks>To be added.</remarks>
+        <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings.IsJavaScriptEnabled" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -938,9 +1017,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>
+            Gets or sets a value indicating whether the <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlProcess.IsPrivateNetworkClientServerCapabilityEnabled" /></summary>
+        <value>
+          <see langword="true" /> if this instance is private network client server capability enabled; otherwise, <see langword="false" />.</value>
+        <remarks>Value can be set prior to the component being initialized.</remarks>
+        <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlProcessOptions.PrivateNetworkClientServerCapability" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -968,9 +1050,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets a value indicating whether <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.ScriptNotify" /> is allowed.
+            </summary>
+        <value>Whether <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.ScriptNotify" /> is allowed.</value>
         <remarks>To be added.</remarks>
+        <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings.IsScriptNotifyAllowed" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1048,8 +1133,19 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>
+            Occurs periodically while the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> executes JavaScript, letting you halt the script.
+            </summary>
+        <remarks>
+            Your app might appear unresponsive while scripts are running. This event provides an opportunity to interrupt a long-running
+            script. To determine how long the script has been running, check the <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs.ExecutionTime" />
+            property of the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs" /> object. To halt the script, set the event args
+            <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs.StopPageScriptExecution" /> property to true. The halted script will
+            not execute again unless it is reloaded during a subsequent <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> navigation.
+            </remarks>
+        <altmember cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs" />
+        <altmember cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs.ExecutionTime" />
+        <altmember cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlLongRunningScriptDetectedEventArgs.StopPageScriptExecution" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1074,8 +1170,10 @@
         <Parameter Name="reason" Type="Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlMoveFocusReason" />
       </Parameters>
       <Docs>
-        <param name="reason">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="reason">The reason.</param>
+        <summary>
+            Moves the focus.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1098,7 +1196,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlMoveFocusRequestedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when a focus move is requested.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1125,9 +1225,13 @@
         <Parameter Name="source" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="source">The Uniform Resource Identifier (URI) to load.</param>
+        <summary>
+            Loads the HTML content at the specified Uniform Resource Identifier (URI).
+            </summary>
         <remarks>To be added.</remarks>
+        <see cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.Navigate(System.String)" />
+        <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigationCompleted" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1144,6 +1248,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Toolkit.Wpf.UI.Controls.WebView</AssemblyName>
+        <AssemblyVersion>5.1.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1153,9 +1259,14 @@
         <Parameter Name="source" Type="System.Uri" />
       </Parameters>
       <Docs>
-        <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="source">The Uniform Resource Identifier (URI) to load.</param>
+        <summary>
+            Loads the HTML content at the specified Uniform Resource Identifier (URI).
+            </summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Uri" />
+        <see cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.Navigate(System.Uri)" />
+        <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigationCompleted" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1183,12 +1294,17 @@
         <Parameter Name="headers" Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;" />
       </Parameters>
       <Docs>
-        <param name="requestUri">To be added.</param>
-        <param name="httpMethod">To be added.</param>
-        <param name="content">To be added.</param>
-        <param name="headers">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="requestUri">The Uniform Resource Identifier (URI) to send the request.</param>
+        <param name="httpMethod">The HTTP method of the request.</param>
+        <param name="content">Optional content to send with the request.</param>
+        <param name="headers">Optional headers to send with the request.</param>
+        <summary>
+            Navigates the web view with the URI with a HTTP request and HTTP headers.
+            </summary>
+        <remarks>
+            This method only supports <see cref="P:System.Net.Http.HttpMethod.Get" /> and <see cref="P:System.Net.Http.HttpMethod.Post" /> for the <paramref name="httpMethod" /> parameter.
+            </remarks>
+        <altmember cref="M:Windows.Web.UI.Interop.WebViewControl.NavigateWithHttpRequestMessage(Windows.Web.Http.HttpRequestMessage)" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1219,9 +1335,13 @@
         <Parameter Name="relativePath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="relativePath">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="relativePath">The relative path.</param>
+        <summary>
+            Loads the specified HTML content relative to the location of the current executable.
+            </summary>
         <remarks>To be added.</remarks>
+        <see cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigateToLocal(System.String)" />
+        <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigationCompleted" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1247,9 +1367,11 @@
         <Parameter Name="streamResolver" Type="Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.IUriToStreamResolver" />
       </Parameters>
       <Docs>
-        <param name="relativePath">To be added.</param>
-        <param name="streamResolver">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="relativePath">A path identifying the local HTML content to load.</param>
+        <param name="streamResolver">A <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.IUriToStreamResolver" /> instance that converts a Uniform Resource Identifier (URI) into a stream to load.</param>
+        <summary>
+            Loads local web content at the specified Uniform Resource Identifier (URI) using an <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.IUriToStreamResolver" />.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1276,9 +1398,17 @@
         <Parameter Name="text" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="text">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="text">The HTML content to display in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.</param>
+        <summary>
+             Loads the specified HTML content as a new document.
+             </summary>
+        <remarks>
+          <see cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigateToString(System.String)" /> is asynchronous. Use the <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigationCompleted" /> event to detect when
+             navigation has completed.
+            
+             <see cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.NavigateToString(System.String)" /> supports content with references to external files such as CSS, scripts, images,
+              and fonts. However, it does not provide a way to generate or provide these resources programmatically.
+             </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -1301,7 +1431,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> control finished navigating to new content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1325,7 +1457,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationStartingEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs before the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> navigates to new content.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1348,7 +1482,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNewWindowRequestedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when an action is performed that causes content to be opened in a new window.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1397,8 +1533,18 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequestedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>
+             Occurs when an action in a <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> requires that permission be granted.
+             </summary>
+        <remarks>
+             The types of permission that can be requested are defined in the <see cref="T:Windows.Web.UI.WebViewControlPermissionType" /> enumeration.
+            
+             If you don't handle the <see cref="E:Microsoft.Toolkit.Win32.UI.Controls.IWebView.PermissionRequested" /> event, the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> denies permission by default.
+            
+             When you handle a permission request in <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />, you get a <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequest" /> object as
+             the value of the <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlPermissionRequestedEventArgs.PermissionRequest" /> property. You can call Allow to grant the request,
+             Deny to deny the request, or Defer to defer the request until a later time.
+             </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -1426,8 +1572,10 @@
         <ReturnType>Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlProcess</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlProcess" /> that the control is hosted in.
+            </summary>
+        <value>The <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlProcess" /> that the control is hosted in.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1452,8 +1600,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>
+            Reloads the current <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.IWebView.Source" /> in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.
+            </summary>
+        <remarks>If the current source was loaded via <see cref="M:Microsoft.Toolkit.Win32.UI.Controls.IWebView.Navigate(System.Uri)" />, this method reloads the file without forced cache validation by sending a <c>Pragma:no-cache</c> header to the server.</remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -1475,7 +1625,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlScriptNotifyEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when the content contained in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> control passes a string to the application by using JavaScript.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1504,9 +1656,14 @@
         <ReturnType>Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>
+            Gets a <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings" /> object that contains properties to enable or disable <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> features.
+            </summary>
+        <value>A <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings" /> object that contains properties to enable or disable <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> features.</value>
+        <remarks>Use the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings" /> object to enable or disable the use of JavaScript, ScriptNotify, and IndexedDB in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.</remarks>
+        <altmember cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings.IsScriptNotifyAllowed" />
+        <altmember cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings.IsJavaScriptEnabled" />
+        <altmember cref="P:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlSettings.IsIndexedDBEnabled" />
         <inheritdoc />
       </Docs>
     </Member>
@@ -1529,8 +1686,12 @@
         <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets or sets the Uniform Resource Identifier (URI) source of the HTML content to display in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.
+            </summary>
+        <value>
+            The Uniform Resource Identifier (URI) source of the HTML content to display in the <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.
+            </value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1555,7 +1716,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Halts the current <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> navigation or download.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1578,7 +1741,9 @@
         <ReturnType>System.EventHandler&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> shows a warning page for content that was reported as unsafe by SmartScreen filter.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1601,7 +1766,9 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlUnsupportedUriSchemeIdentifiedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Occurs when an attempt is made to navigate to a <see cref="P:Microsoft.Toolkit.Win32.UI.Controls.IWebView.Source" /> using a scheme that <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> does not support.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1624,8 +1791,12 @@
         <ReturnType>System.EventHandler&lt;Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlUnviewableContentIdentifiedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>
+            Occurs when <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" /> attempts to navigate to a content type it cannot render. Like other navigation events, it is only triggered by top level navigations.
+            </summary>
+        <remarks>
+            Event is triggered as soon as the content that can be identified is unsupported. For HTTP(s) content, this is right after the headers have been received.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -1647,8 +1818,10 @@
         <Parameter Name="bounds" Type="System.Windows.Rect" />
       </Parameters>
       <Docs>
-        <param name="bounds">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="bounds">A <see cref="T:System.Windows.Rect" /> containing numerical values that represent the location and size of the control.</param>
+        <summary>
+            Updates the location and size of <see cref="T:Microsoft.Toolkit.Wpf.UI.Controls.WebViewHost" />.
+            </summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>
@@ -1677,8 +1850,10 @@
         <ReturnType>System.Version</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>
+            Gets the version of EDGEHTML.DLL used by <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.
+            </summary>
+        <value>The version of EDGEHTML.DLL used by <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.IWebView" />.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>

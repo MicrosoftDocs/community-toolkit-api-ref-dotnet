@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Defines a collection of extensions methods for UI.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -42,10 +44,12 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.FrameworkElement" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">Type to search for.</typeparam>
+        <param name="element">Parent element.</param>
+        <summary>
+            Find first logical child control of a specified type.
+            </summary>
+        <returns>Child control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,10 +72,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="name">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Parent element.</param>
+        <param name="name">Name of the control to find.</param>
+        <summary>
+            Find logical child control using its name.
+            </summary>
+        <returns>Child control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -106,10 +112,12 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.FrameworkElement" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">Type to search for.</typeparam>
+        <param name="element">Parent element.</param>
+        <summary>
+            Find all logical child controls of the specified type.
+            </summary>
+        <returns>Child controls or empty if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,10 +146,12 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.FrameworkElement" RefType="this" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">Type to search for.</typeparam>
+        <param name="element">Child element.</param>
+        <summary>
+            Find first logical parent control of a specified type.
+            </summary>
+        <returns>Parent control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -164,10 +174,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="name">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Child element.</param>
+        <param name="name">Name of the control to find.</param>
+        <summary>
+            Finds the logical parent element with the given name or returns null.
+            </summary>
+        <returns>Parent control or null if not found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,9 +201,11 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.FrameworkElement" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Parent element.</param>
+        <summary>
+            Retrieves the Content control of this element as defined by the ContentPropertyAttribute.
+            </summary>
+        <returns>Child Content control or null if not available.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,10 +228,15 @@
         <Parameter Name="resourceKey" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="start">To be added.</param>
-        <param name="resourceKey">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="start">
+          <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to start searching for Resource.</param>
+        <param name="resourceKey">Key to search for.</param>
+        <summary>
+            Provides a WPF compatible version of TryFindResource to provide a static resource lookup.
+            If the key is not found in the current element's resources, the logical tree is then searched element-by-element to look for the resource in each element's resources.
+            If none of the elements contain the resource, the Application's resources are then searched.
+            <seealso href="https://docs.microsoft.com/dotnet/api/system.windows.frameworkelement.tryfindresource" /><seealso href="https://docs.microsoft.com/dotnet/desktop-wpf/fundamentals/xaml-resources-define#static-resource-lookup-behavior" /></summary>
+        <returns>Requested resource or null.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

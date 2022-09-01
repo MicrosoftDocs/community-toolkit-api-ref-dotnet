@@ -89,7 +89,9 @@
         <AssemblyName>Microsoft.Toolkit.Wpf.UI.Controls.WebView</AssemblyName>
         <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue />
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs</ReturnType>
+      </ReturnValue>
       <Parameters>
         <Parameter Name="args" Type="System.Windows.Navigation.NavigationEventArgs" />
       </Parameters>
@@ -170,7 +172,9 @@
         <AssemblyName>Microsoft.Toolkit.Wpf.UI.Controls.WebView</AssemblyName>
         <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue />
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs</ReturnType>
+      </ReturnValue>
       <Parameters>
         <Parameter Name="args" Type="System.Windows.Navigation.NavigationEventArgs" />
       </Parameters>

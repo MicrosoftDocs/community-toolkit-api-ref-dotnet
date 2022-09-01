@@ -42,9 +42,11 @@
         <Parameter Name="defaultPrintHelperOptions" Type="Microsoft.Toolkit.Uwp.Helpers.PrintHelperOptions" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="canvasContainer">To be added.</param>
-        <param name="defaultPrintHelperOptions">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="canvasContainer">XAML panel used to attach printing canvas. Can be hidden in your UI with Opacity = 0 for instance</param>
+        <param name="defaultPrintHelperOptions">Default settings for the print tasks</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Helpers.PrintHelper" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

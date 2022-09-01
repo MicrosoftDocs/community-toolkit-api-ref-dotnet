@@ -35,7 +35,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.BackdropSaturationBrush" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -55,8 +57,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            A method that builds and returns the <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.PipelineBuilder" /> pipeline to use in the current instance.<para />
+            This method can also be used to store any needed <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.EffectSetter`1" /> or <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.EffectAnimation`1" /> instances in local fields, for later use (they will need to be called upon <see cref="P:Windows.UI.Xaml.Media.XamlCompositionBrushBase.CompositionBrush" />).
+            </summary>
+        <returns>A <see cref="T:Microsoft.Toolkit.Uwp.UI.Media.Pipelines.PipelineBuilder" /> instance to create the brush to display</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

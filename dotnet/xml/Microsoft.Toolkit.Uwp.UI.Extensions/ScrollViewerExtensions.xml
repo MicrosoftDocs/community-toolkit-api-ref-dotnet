@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Provides attached dependency properties and methods for the <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /> control.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +50,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for enabling middle click scrolling
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -70,9 +74,11 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.DependencyObject" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.DependencyObject" /> to get the associated `bool`</param>
+        <summary>
+            Get <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.ScrollViewerExtensions.EnableMiddleClickScrollingProperty" />. Returns `true` if middle click scrolling is enabled else retuen `false`
+            </summary>
+        <returns>The `bool` associated with the <see cref="T:Windows.UI.Xaml.DependencyObject" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,9 +100,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.FrameworkElement" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:Windows.UI.Xaml.Thickness" /> from</param>
+        <summary>
+            Gets the <see cref="T:Windows.UI.Xaml.Thickness" /> associated with the specified horizontal <see cref="T:Windows.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <returns>The <see cref="T:Windows.UI.Xaml.Thickness" /> associated with the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,9 +125,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.FrameworkElement" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:Windows.UI.Xaml.Thickness" /> from</param>
+        <summary>
+            Gets the <see cref="T:Windows.UI.Xaml.Thickness" /> associated with the specified vertical <see cref="T:Windows.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <returns>The <see cref="T:Windows.UI.Xaml.Thickness" /> associated with the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,7 +163,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:Windows.UI.Xaml.Thickness" /> for the horizontal <see cref="T:Windows.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -178,9 +187,11 @@
         <Parameter Name="value" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.DependencyObject" /> to associate the `bool` with</param>
+        <param name="value">The `bool` for binding to the <see cref="T:Windows.UI.Xaml.DependencyObject" /></param>
+        <summary>
+            Set <see cref="F:Microsoft.Toolkit.Uwp.UI.Extensions.ScrollViewerExtensions.EnableMiddleClickScrollingProperty" />. `true` to enable middle click scrolling
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -203,9 +214,10 @@
         <Parameter Name="value" Type="Windows.UI.Xaml.Thickness" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:Windows.UI.Xaml.Thickness" /> with</param>
+        <param name="value">The <see cref="T:Windows.UI.Xaml.Thickness" /> for binding to the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:Windows.UI.Xaml.Thickness" /> associated with the specified horizontal <see cref="T:Windows.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,9 +240,10 @@
         <Parameter Name="value" Type="Windows.UI.Xaml.Thickness" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:Windows.UI.Xaml.Thickness" /> with</param>
+        <param name="value">The <see cref="T:Windows.UI.Xaml.Thickness" /> for binding to the <see cref="T:Windows.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:Windows.UI.Xaml.Thickness" /> associated with the specified vertical <see cref="T:Windows.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -255,12 +268,14 @@
         <Parameter Name="property" Type="Microsoft.Toolkit.Uwp.UI.Extensions.VisualProperty" />
       </Parameters>
       <Docs>
-        <param name="scroller">To be added.</param>
-        <param name="target">To be added.</param>
-        <param name="axis">To be added.</param>
-        <param name="property">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="scroller">The source <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /> control to use.</param>
+        <param name="target">The target <see cref="T:Windows.UI.Xaml.UIElement" /> that will be animated.</param>
+        <param name="axis">The scrolling axis of the source <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" />.</param>
+        <param name="property">The target <see cref="T:Windows.UI.Composition.Visual" /> property to animate.</param>
+        <summary>
+            Creates and starts an animation on the target element that binds either the X or Y axis of the source <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" />.
+            </summary>
+        <returns>An <see cref="T:Windows.UI.Composition.ExpressionAnimation" /> instance that represents an already running animation.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -286,13 +301,14 @@
         <Parameter Name="property" Type="Microsoft.Toolkit.Uwp.UI.Extensions.VisualProperty" />
       </Parameters>
       <Docs>
-        <param name="scroller">To be added.</param>
-        <param name="target">To be added.</param>
-        <param name="sourceAxis">To be added.</param>
-        <param name="targetAxis">To be added.</param>
-        <param name="property">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="scroller">The source <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /> control to use</param>
+        <param name="target">The target <see cref="T:Windows.UI.Xaml.UIElement" /> that will be animated</param>
+        <param name="sourceAxis">The scrolling axis of the source <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></param>
+        <param name="targetAxis">The optional scrolling axis of the target element, if <see langword="null" /> the source axis will be used</param>
+        <param name="property">The target <see cref="T:Windows.UI.Composition.Visual" /> property to animate.</param>
+        <summary>
+            Creates and starts an animation on the target element that binds either the X or Y axis of the source <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <returns>An <see cref="T:Windows.UI.Composition.ExpressionAnimation" /> instance that represents an already running animation.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -327,7 +343,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:Windows.UI.Xaml.Thickness" /> for the vertical <see cref="T:Windows.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Windows.UI.Xaml.Controls.ScrollViewer" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

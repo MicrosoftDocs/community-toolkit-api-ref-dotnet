@@ -13,7 +13,8 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Provides the Command attached dependency property for the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +49,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:Windows.UI.Xaml.Media.Brush" /> as an alternate background color to a <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,7 +85,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:Windows.UI.Xaml.DataTemplate" /> as an alternate template to a <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,7 +121,9 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for binding an <see cref="T:System.Windows.Input.ICommand" /> to handle ListViewBase Item interaction by means of <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> ItemClick event. ListViewBase IsItemClickEnabled must be set to true.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,8 +145,12 @@
         <Parameter Name="list" Type="Windows.UI.Xaml.Controls.ListViewBase" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="list">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="list">
+          <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" />
+        </param>
+        <summary>
+            Deselects all items in list.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,10 +180,14 @@
         <Parameter Name="item" Type="T" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="list">To be added.</param>
-        <param name="item">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">Type of item.</typeparam>
+        <param name="list">
+          <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" />
+        </param>
+        <param name="item">Item to deselect.</param>
+        <summary>
+            Deselects the provided item.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -196,9 +209,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.Controls.ListViewBase" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to get the associated <see cref="T:Windows.UI.Xaml.Media.Brush" /> from</param>
+        <summary>
+            Gets the alternate <see cref="T:Windows.UI.Xaml.Media.Brush" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
+        <returns>The <see cref="T:Windows.UI.Xaml.Media.Brush" /> associated with the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -220,9 +234,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.Controls.ListViewBase" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to get the associated <see cref="T:Windows.UI.Xaml.DataTemplate" /> from</param>
+        <summary>
+            Gets the <see cref="T:Windows.UI.Xaml.DataTemplate" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
+        <returns>The <see cref="T:Windows.UI.Xaml.DataTemplate" /> associated with the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -244,9 +259,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.Controls.ListViewBase" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to get the associated <see cref="T:System.Windows.Input.ICommand" /> from</param>
+        <summary>
+            Gets the <see cref="T:System.Windows.Input.ICommand" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
+        <returns>The <see cref="T:System.Windows.Input.ICommand" /> associated with the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -268,9 +284,10 @@
         <Parameter Name="obj" Type="Windows.UI.Xaml.Controls.ListViewBase" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to get the associated <see cref="T:Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" /> from</param>
+        <summary>
+            Gets the stretch <see cref="T:Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
+        <returns>The <see cref="T:Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" /> associated with the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -292,8 +309,12 @@
         <Parameter Name="list" Type="Windows.UI.Xaml.Controls.ListViewBase" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="list">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="list">
+          <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" />
+        </param>
+        <summary>
+            Selects all items in the list (or first one), if possible.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -316,9 +337,10 @@
         <Parameter Name="value" Type="Windows.UI.Xaml.Media.Brush" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to associate the <see cref="T:Windows.UI.Xaml.Media.Brush" /> with</param>
+        <param name="value">The <see cref="T:Windows.UI.Xaml.Media.Brush" /> for binding to the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></param>
+        <summary>
+            Sets the alternate <see cref="T:Windows.UI.Xaml.Media.Brush" /> associated with the specified <see cref="T:Windows.UI.Xaml.DependencyObject" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -341,9 +363,10 @@
         <Parameter Name="value" Type="Windows.UI.Xaml.DataTemplate" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to associate the <see cref="T:Windows.UI.Xaml.DataTemplate" /> with</param>
+        <param name="value">The <see cref="T:Windows.UI.Xaml.DataTemplate" /> for binding to the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></param>
+        <summary>
+            Sets the <see cref="T:Windows.UI.Xaml.DataTemplate" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -366,9 +389,10 @@
         <Parameter Name="value" Type="System.Windows.Input.ICommand" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to associate the <see cref="T:System.Windows.Input.ICommand" /> with</param>
+        <param name="value">The <see cref="T:System.Windows.Input.ICommand" /> for binding to the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></param>
+        <summary>
+            Sets the <see cref="T:System.Windows.Input.ICommand" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -391,9 +415,10 @@
         <Parameter Name="value" Type="Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="obj">The <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /> to associate the <see cref="T:Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" /> with</param>
+        <param name="value">The <see cref="T:Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" /> for binding to the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></param>
+        <summary>
+            Sets the stretch <see cref="T:Microsoft.Toolkit.Uwp.UI.Extensions.StretchDirection" /> associated with the specified <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -428,7 +453,8 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Attached <see cref="T:Windows.UI.Xaml.DependencyProperty" /> for setting the container content stretch direction on the <see cref="T:Windows.UI.Xaml.Controls.ListViewBase" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

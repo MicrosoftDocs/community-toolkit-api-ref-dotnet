@@ -749,8 +749,10 @@
         <Parameter Name="args" Type="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
       </Parameters>
       <Docs>
-        <param name="args">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="args">Details about the launch request and process.</param>
+        <summary>
+            Tracks information about the app's launch.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helpers for working with the <see cref="T:System.Buffers.IMemoryOwner`1" /> type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,10 +37,15 @@
         <Parameter Name="memory" Type="System.Buffers.IMemoryOwner&lt;System.Byte&gt;" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="memory">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="memory">The input <see cref="T:System.Buffers.IMemoryOwner`1" /> of <see cref="T:System.Byte" /> instance.</param>
+        <summary>
+            Returns a <see cref="T:System.IO.Stream" /> wrapping the contents of the given <see cref="T:System.Buffers.IMemoryOwner`1" /> of <see cref="T:System.Byte" /> instance.
+            </summary>
+        <returns>A <see cref="T:System.IO.Stream" /> wrapping the data within <paramref name="memory" />.</returns>
+        <remarks>
+            The caller does not need to track the lifetime of the input <see cref="T:System.Buffers.IMemoryOwner`1" /> of <see cref="T:System.Byte" />
+            instance, as the returned <see cref="T:System.IO.Stream" /> will take care of disposing that buffer when it is closed.
+            </remarks>
       </Docs>
     </Member>
   </Members>

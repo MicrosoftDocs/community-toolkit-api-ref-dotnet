@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Helper class for easily changing the mouseover cursor type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -64,7 +66,10 @@
         <ReturnType>Windows.UI.Xaml.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Dependency property for specifying the target <see cref="T:Windows.UI.Core.CoreCursorType" /> to be shown
+            over the target <see cref="T:Windows.UI.Xaml.FrameworkElement" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,9 +91,11 @@
         <Parameter Name="element" Type="Windows.UI.Xaml.FrameworkElement" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="element">Object where the selector cursor type should be shown.</param>
+        <summary>
+            Get the current <see cref="T:Windows.UI.Core.CoreCursorType" />.
+            </summary>
+        <returns>Cursor type set on target element.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,9 +118,11 @@
         <Parameter Name="value" Type="Windows.UI.Core.CoreCursorType" />
       </Parameters>
       <Docs>
-        <param name="element">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="element">Object where the selector cursor type should be shown.</param>
+        <param name="value">Target cursor type value.</param>
+        <summary>
+            Set the target <see cref="T:Windows.UI.Core.CoreCursorType" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

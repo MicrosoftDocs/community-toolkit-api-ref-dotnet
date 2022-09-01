@@ -13,7 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Extensions to <see cref="T:System.EventHandler`1" /> for Deferred Events.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,12 +46,18 @@
         <Parameter Name="eventArgs" Type="T" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="eventHandler">To be added.</param>
-        <param name="sender">To be added.</param>
-        <param name="eventArgs">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">
+          <see cref="T:System.EventArgs" /> type.</typeparam>
+        <param name="eventHandler">
+          <see cref="T:System.EventHandler`1" /> to be invoked.</param>
+        <param name="sender">Sender of the event.</param>
+        <param name="eventArgs">
+          <see cref="T:System.EventArgs" /> instance.</param>
+        <summary>
+            Use to invoke an async <see cref="T:System.EventHandler`1" /> using <see cref="T:Microsoft.Toolkit.Uwp.Deferred.DeferredEventArgs" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.Task" /> to wait on deferred event handler.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,13 +89,20 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="eventHandler">To be added.</param>
-        <param name="sender">To be added.</param>
-        <param name="eventArgs">To be added.</param>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <typeparam name="T">
+          <see cref="T:System.EventArgs" /> type.</typeparam>
+        <param name="eventHandler">
+          <see cref="T:System.EventHandler`1" /> to be invoked.</param>
+        <param name="sender">Sender of the event.</param>
+        <param name="eventArgs">
+          <see cref="T:System.EventArgs" /> instance.</param>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" /> option.</param>
+        <summary>
+            Use to invoke an async <see cref="T:System.EventHandler`1" /> using <see cref="T:Microsoft.Toolkit.Uwp.Deferred.DeferredEventArgs" /> with a <see cref="T:System.Threading.CancellationToken" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.Task" /> to wait on deferred event handler.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

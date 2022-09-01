@@ -22,8 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <typeparam name="T">To be added.</typeparam>
-    <summary>To be added.</summary>
+    <typeparam name="T">The type of items to enumerate.</typeparam>
+    <summary>
+            A <see langword="ref" /><see langword="struct" /> that iterates a column in a given 2D <typeparamref name="T" /> array instance.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,9 +45,11 @@
         <Parameter Name="column" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="array">To be added.</param>
-        <param name="column">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="array">The source 2D <typeparamref name="T" /> array instance.</param>
+        <param name="column">The target column to iterate within <paramref name="array" />.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable`1" /> struct.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -65,8 +69,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>
+            Implements the duck-typed <see cref="M:System.Collections.Generic.IEnumerable`1.GetEnumerator" /> method.
+            </summary>
+        <returns>An <see cref="T:Microsoft.Toolkit.HighPerformance.Enumerables.Array2DColumnEnumerable`1.Enumerator" /> instance targeting the current 2D <typeparamref name="T" /> array instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,9 +92,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>
+            Returns a <typeparamref name="T" /> array with the values in the target column.
+            </summary>
+        <returns>A <typeparamref name="T" /> array with the values in the target column.</returns>
+        <remarks>
+            This method will allocate a new <typeparamref name="T" /> array, so only
+            use it if you really need to copy the target items in a new memory location.
+            </remarks>
       </Docs>
     </Member>
   </Members>

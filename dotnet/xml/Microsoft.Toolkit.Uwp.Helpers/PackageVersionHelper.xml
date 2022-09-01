@@ -39,9 +39,11 @@
         <Parameter Name="packageVersion" Type="Windows.ApplicationModel.PackageVersion" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="packageVersion">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="packageVersion">The <see cref="T:Windows.ApplicationModel.PackageVersion" /> to convert to a string</param>
+        <summary>
+            Returns a string representation of a version with the format 'Major.Minor.Build.Revision'.
+            </summary>
+        <returns>Version string of the format 'Major.Minor.Build.Revision'</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
