@@ -39,13 +39,28 @@
         "api/overwrites/**/*.md"
       ]
     },
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
     "globalMetadata": {
+      "breadcrumb_path": "~/breadcrumb/toc.yml",
+      "extendBreadcrumb": true,
       "apiPlatform": "dotnet",
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "ms.topic": "managed-reference",
+      "ms.prod": "community-toolkit",
+      "products": ["https://authoring-docs-microsoft.poolparty.biz/devrel/bcbcbad5-4208-4783-8035-8481272c98b8"],
+      "ms.technology": "windows-toolkit",
+      "ms.author": "nikolame",
+      "author": "dotnet-bot"
     },
     "fileMetadata": {
-      "author": {
-        "api/**.yml": "dotnet-bot"
+      "langs": {
+        "api/**.yml": [
+          "csharp",
+          "vb",
+          "fsharp",
+          "cppcx",
+          "cppwinrt",
+          "cpp"
+        ]
       }
     },
     "template": [],
