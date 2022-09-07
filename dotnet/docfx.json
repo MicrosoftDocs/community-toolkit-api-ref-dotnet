@@ -1,5 +1,6 @@
 {
   "build": {
+    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
@@ -9,14 +10,12 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
+          "**/_themes/**",
+          "api/overwrites/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices.md"
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -24,27 +23,33 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif",
+          "**/*.bmp"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**"
+          "**/includes/**"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/dotnet/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
+    "overwrite": {
+      "files": [
+        "api/overwrites/**/*.md"
+      ]
     },
-    "fileMetadata": {},
+    "globalMetadata": {
+      "apiPlatform": "dotnet",
+      "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "fileMetadata": {
+      "author": {
+        "api/**.yml": "dotnet-bot"
+      }
+    },
     "template": [],
-    "dest": "uwp-toolkit-dotnet"
+    "dest": "_site",
+    "lruSize": 0
   }
 }
