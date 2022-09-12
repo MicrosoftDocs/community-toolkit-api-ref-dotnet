@@ -1,0 +1,123 @@
+<Type Name="Vector4Animation" FullName="Microsoft.Toolkit.Uwp.UI.Animations.Vector4Animation">
+  <TypeSignature Language="C#" Value="public class Vector4Animation : Microsoft.Toolkit.Uwp.UI.Animations.TypedAnimationBase&lt;Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame,string&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Vector4Animation extends Microsoft.Toolkit.Uwp.UI.Animations.TypedAnimationBase`2&lt;class Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame, string&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.Uwp.UI.Animations.Vector4Animation" />
+  <TypeSignature Language="VB.NET" Value="Public Class Vector4Animation&#xA;Inherits TypedAnimationBase(Of Vector4KeyFrame, String)" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="F#" Value="type Vector4Animation = class&#xA;    inherit TypedAnimationBase&lt;Vector4KeyFrame, string&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="C#" Value="public sealed class Vector4Animation : Microsoft.Toolkit.Uwp.UI.Animations.CustomAnimation&lt;string,System.Numerics.Vector4&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Vector4Animation extends Microsoft.Toolkit.Uwp.UI.Animations.CustomAnimation`2&lt;string, valuetype System.Numerics.Vector4&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Vector4Animation&#xA;Inherits CustomAnimation(Of String, Vector4)" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <TypeSignature Language="F#" Value="type Vector4Animation = class&#xA;    inherit CustomAnimation&lt;string, Vector4&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Uwp.UI.Animations</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Toolkit.Uwp.UI.Animations.TypedAnimationBase&lt;Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame,System.String&gt;</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1">Microsoft.Toolkit.Uwp.UI.Animations.CustomAnimation&lt;System.String,System.Numerics.Vector4&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TValue">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TKeyFrame">System.Numerics.Vector4</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A custom <see cref="T:System.Numerics.Vector4" /> animation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Vector4Animation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.UI.Animations.Vector4Animation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Animations</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParsedValues">
+      <MemberSignature Language="C#" Value="protected override (System.Numerics.Vector4?, System.Numerics.Vector4?) GetParsedValues ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.ValueTuple`2&lt;valuetype System.Nullable`1&lt;valuetype System.Numerics.Vector4&gt;, valuetype System.Nullable`1&lt;valuetype System.Numerics.Vector4&gt;&gt; GetParsedValues() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.UI.Animations.Vector4Animation.GetParsedValues" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetParsedValues () As ValueTuple(Of Nullable(Of Vector4), Nullable(Of Vector4))" />
+      <MemberSignature Language="F#" Value="override this.GetParsedValues : unit -&gt; ValueTuple&lt;Nullable&lt;System.Numerics.Vector4&gt;, Nullable&lt;System.Numerics.Vector4&gt;&gt;" Usage="vector4Animation.GetParsedValues " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Animations</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ValueTuple&lt;System.Nullable&lt;System.Numerics.Vector4&gt;,System.Nullable&lt;System.Numerics.Vector4&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTypedAnimationFromCompositor">
+      <MemberSignature Language="C#" Value="protected override Windows.UI.Composition.KeyFrameAnimation GetTypedAnimationFromCompositor (Windows.UI.Composition.Compositor compositor);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Windows.UI.Composition.KeyFrameAnimation GetTypedAnimationFromCompositor(class Windows.UI.Composition.Compositor compositor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.UI.Animations.Vector4Animation.GetTypedAnimationFromCompositor(Windows.UI.Composition.Compositor)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetTypedAnimationFromCompositor (compositor As Compositor) As KeyFrameAnimation" />
+      <MemberSignature Language="F#" Value="override this.GetTypedAnimationFromCompositor : Windows.UI.Composition.Compositor -&gt; Windows.UI.Composition.KeyFrameAnimation" Usage="vector4Animation.GetTypedAnimationFromCompositor compositor" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Animations</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.UI.Composition.KeyFrameAnimation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="compositor" Type="Windows.UI.Composition.Compositor" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      </Parameters>
+      <Docs>
+        <param name="compositor">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertKeyFrameToTypedAnimation">
+      <MemberSignature Language="C#" Value="protected override void InsertKeyFrameToTypedAnimation (Windows.UI.Composition.KeyFrameAnimation animation, Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame keyFrame);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void InsertKeyFrameToTypedAnimation(class Windows.UI.Composition.KeyFrameAnimation animation, class Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame keyFrame) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.UI.Animations.Vector4Animation.InsertKeyFrameToTypedAnimation(Windows.UI.Composition.KeyFrameAnimation,Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub InsertKeyFrameToTypedAnimation (animation As KeyFrameAnimation, keyFrame As Vector4KeyFrame)" />
+      <MemberSignature Language="F#" Value="override this.InsertKeyFrameToTypedAnimation : Windows.UI.Composition.KeyFrameAnimation * Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame -&gt; unit" Usage="vector4Animation.InsertKeyFrameToTypedAnimation (animation, keyFrame)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Animations</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="Windows.UI.Composition.KeyFrameAnimation" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+        <Parameter Name="keyFrame" Type="Microsoft.Toolkit.Uwp.UI.Animations.Vector4KeyFrame" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="keyFrame">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
