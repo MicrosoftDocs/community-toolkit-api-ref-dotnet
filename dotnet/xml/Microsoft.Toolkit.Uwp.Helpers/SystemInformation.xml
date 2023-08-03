@@ -1,0 +1,788 @@
+<Type Name="SystemInformation" FullName="Microsoft.Toolkit.Uwp.Helpers.SystemInformation">
+  <TypeSignature Language="C#" Value="public static class SystemInformation" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed SystemInformation extends System.Object" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.Uwp.Helpers.SystemInformation" />
+  <TypeSignature Language="VB.NET" Value="Public Class SystemInformation" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+  <TypeSignature Language="F#" Value="type SystemInformation = class" />
+  <TypeSignature Language="C#" Value="public sealed class SystemInformation" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SystemInformation extends System.Object" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SystemInformation" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            This class provides info about the app and the system.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddToAppUptime">
+      <MemberSignature Language="C#" Value="public static void AddToAppUptime (TimeSpan duration);" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddToAppUptime(valuetype System.TimeSpan duration) cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AddToAppUptime(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub AddToAppUptime (duration As TimeSpan)" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member AddToAppUptime : TimeSpan -&gt; unit" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AddToAppUptime duration" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public void AddToAppUptime (TimeSpan duration);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddToAppUptime(valuetype System.TimeSpan duration) cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddToAppUptime (duration As TimeSpan)" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.AddToAppUptime : TimeSpan -&gt; unit" Usage="systemInformation.AddToAppUptime duration" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="duration" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="duration">The amount to time to add</param>
+        <summary>
+            Adds to the record of how long the app has been running.
+            Use this to optionally include time spent in background tasks or extended execution.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationName">
+      <MemberSignature Language="C#" Value="public static string ApplicationName { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property string ApplicationName" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ApplicationName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ApplicationName As String" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member ApplicationName : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ApplicationName" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public string ApplicationName { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationName" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationName As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.ApplicationName : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ApplicationName" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the application's name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationVersion">
+      <MemberSignature Language="C#" Value="public static Windows.ApplicationModel.PackageVersion ApplicationVersion { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Windows.ApplicationModel.PackageVersion ApplicationVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ApplicationVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ApplicationVersion As PackageVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member ApplicationVersion : Windows.ApplicationModel.PackageVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ApplicationVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public Windows.ApplicationModel.PackageVersion ApplicationVersion { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.ApplicationModel.PackageVersion ApplicationVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationVersion As PackageVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.ApplicationVersion : Windows.ApplicationModel.PackageVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ApplicationVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.ApplicationModel.PackageVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the application's version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppUptime">
+      <MemberSignature Language="C#" Value="public static TimeSpan AppUptime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.TimeSpan AppUptime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AppUptime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AppUptime As TimeSpan" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member AppUptime : TimeSpan" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AppUptime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public TimeSpan AppUptime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan AppUptime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppUptime As TimeSpan" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.AppUptime : TimeSpan" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AppUptime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the length of time this instance of the app has been running.
+            Will be <see cref="F:System.TimeSpan.MinValue" /> if <see cref="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" /> has not been called yet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailableMemory">
+      <MemberSignature Language="C#" Value="public static float AvailableMemory { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property float32 AvailableMemory" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AvailableMemory" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AvailableMemory As Single" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member AvailableMemory : single" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AvailableMemory" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public float AvailableMemory { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 AvailableMemory" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailableMemory As Single" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.AvailableMemory : single" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.AvailableMemory" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the available memory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public static System.Globalization.CultureInfo Culture { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Globalization.CultureInfo Culture" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Culture As CultureInfo" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member Culture : System.Globalization.CultureInfo" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.Culture" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public System.Globalization.CultureInfo Culture { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Globalization.CultureInfo Culture" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Culture As CultureInfo" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.Culture : System.Globalization.CultureInfo" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.Culture" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Globalization.CultureInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the user's most preferred culture.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceFamily">
+      <MemberSignature Language="C#" Value="public static string DeviceFamily { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property string DeviceFamily" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceFamily" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DeviceFamily As String" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member DeviceFamily : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceFamily" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public string DeviceFamily { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DeviceFamily" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceFamily As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.DeviceFamily : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceFamily" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the device's family.
+            <para />
+            Common values include:
+            <list type="bullet"><item><term>"Windows.Desktop"</term></item><item><term>"Windows.Mobile"</term></item><item><term>"Windows.Xbox"</term></item><item><term>"Windows.Holographic"</term></item><item><term>"Windows.Team"</term></item><item><term>"Windows.IoT"</term></item></list><para />
+            Prepare your code for other values.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceManufacturer">
+      <MemberSignature Language="C#" Value="public static string DeviceManufacturer { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property string DeviceManufacturer" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceManufacturer" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DeviceManufacturer As String" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member DeviceManufacturer : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceManufacturer" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public string DeviceManufacturer { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DeviceManufacturer" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceManufacturer As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.DeviceManufacturer : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceManufacturer" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the device's manufacturer.
+            Will be empty if the manufacturer couldn't be determined (For example: when running in a virtual machine).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceModel">
+      <MemberSignature Language="C#" Value="public static string DeviceModel { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property string DeviceModel" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceModel" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DeviceModel As String" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member DeviceModel : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceModel" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public string DeviceModel { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DeviceModel" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceModel As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.DeviceModel : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.DeviceModel" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the device's model.
+            Will be empty if the model couldn't be determined (For example: when running in a virtual machine).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstUseTime">
+      <MemberSignature Language="C#" Value="public static DateTime FirstUseTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.DateTime FirstUseTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.FirstUseTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FirstUseTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member FirstUseTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.FirstUseTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public DateTime FirstUseTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime FirstUseTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstUseTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.FirstUseTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.FirstUseTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the DateTime (in UTC) when the app was launched for the first time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstVersionInstalled">
+      <MemberSignature Language="C#" Value="public static Windows.ApplicationModel.PackageVersion FirstVersionInstalled { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Windows.ApplicationModel.PackageVersion FirstVersionInstalled" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.FirstVersionInstalled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FirstVersionInstalled As PackageVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member FirstVersionInstalled : Windows.ApplicationModel.PackageVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.FirstVersionInstalled" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public Windows.ApplicationModel.PackageVersion FirstVersionInstalled { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.ApplicationModel.PackageVersion FirstVersionInstalled" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstVersionInstalled As PackageVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.FirstVersionInstalled : Windows.ApplicationModel.PackageVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.FirstVersionInstalled" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.ApplicationModel.PackageVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the first version of the app that was installed.
+            This will be the current version if a previous version of the app was installed before accessing this property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.Uwp.Helpers.SystemInformation Instance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Toolkit.Uwp.Helpers.SystemInformation Instance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.Instance" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Instance As SystemInformation" />
+      <MemberSignature Language="F#" Value="static member Instance : Microsoft.Toolkit.Uwp.Helpers.SystemInformation" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.Instance" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.Uwp.Helpers.SystemInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the unique instance of <see cref="T:Microsoft.Toolkit.Uwp.Helpers.SystemInformation" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAppUpdated">
+      <MemberSignature Language="C#" Value="public static bool IsAppUpdated { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property bool IsAppUpdated" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.IsAppUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsAppUpdated As Boolean" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member IsAppUpdated : bool" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.IsAppUpdated" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public bool IsAppUpdated { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAppUpdated" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAppUpdated As Boolean" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.IsAppUpdated : bool" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.IsAppUpdated" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the app is being used for the first time since being upgraded from an older version.
+            Use this to tell if you should display details about what has changed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFirstRun">
+      <MemberSignature Language="C#" Value="public static bool IsFirstRun { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property bool IsFirstRun" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.IsFirstRun" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsFirstRun As Boolean" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member IsFirstRun : bool" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.IsFirstRun" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public bool IsFirstRun { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFirstRun" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFirstRun As Boolean" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.IsFirstRun : bool" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.IsFirstRun" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the app is being used for the first time since it was installed.
+            Use this to tell if you should do or display something different for the app's first use.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastLaunchTime">
+      <MemberSignature Language="C#" Value="public static DateTime LastLaunchTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.DateTime LastLaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LastLaunchTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LastLaunchTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member LastLaunchTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LastLaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public DateTime LastLaunchTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastLaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastLaunchTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.LastLaunchTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LastLaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the DateTime (in UTC) when the app was last launched, not including this instance.
+            Will be <see cref="F:System.DateTime.MinValue" /> if <see cref="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" /> has not been called yet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastResetTime">
+      <MemberSignature Language="C#" Value="public static DateTime LastResetTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.DateTime LastResetTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LastResetTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LastResetTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member LastResetTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LastResetTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public DateTime LastResetTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastResetTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastResetTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.LastResetTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LastResetTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the DateTime (in UTC) when the launch count was last reset.
+            Will be <see cref="F:System.DateTime.MinValue" /> if <see cref="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" /> has not been called yet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LaunchCount">
+      <MemberSignature Language="C#" Value="public static long LaunchCount { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property int64 LaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LaunchCount As Long" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member LaunchCount : int64" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public long LaunchCount { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LaunchCount As Long" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.LaunchCount : int64" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the number of times the app has been launched.
+            Will be <c>0</c> if <see cref="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" /> has not been called yet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LaunchStoreForReviewAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task LaunchStoreForReviewAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task LaunchStoreForReviewAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchStoreForReviewAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LaunchStoreForReviewAsync () As Task" />
+      <MemberSignature Language="F#" Value="static member LaunchStoreForReviewAsync : unit -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchStoreForReviewAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Launches the store app so the user can leave a review.
+            </summary>
+        <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing the asynchronous operation.</returns>
+        <remarks>This method needs to be called from your UI thread.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LaunchTime">
+      <MemberSignature Language="C#" Value="public static DateTime LaunchTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.DateTime LaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LaunchTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member LaunchTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public DateTime LaunchTime { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LaunchTime As DateTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.LaunchTime : DateTime" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.LaunchTime" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the DateTime (in UTC) that this instance of the app was launched.
+            Will be <see cref="F:System.DateTime.MinValue" /> if <see cref="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" /> has not been called yet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperatingSystem">
+      <MemberSignature Language="C#" Value="public static string OperatingSystem { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property string OperatingSystem" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystem" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OperatingSystem As String" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member OperatingSystem : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystem" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public string OperatingSystem { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperatingSystem" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperatingSystem As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.OperatingSystem : string" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystem" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operating system's name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperatingSystemArchitecture">
+      <MemberSignature Language="C#" Value="public static Windows.System.ProcessorArchitecture OperatingSystemArchitecture { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Windows.System.ProcessorArchitecture OperatingSystemArchitecture" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystemArchitecture" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OperatingSystemArchitecture As ProcessorArchitecture" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member OperatingSystemArchitecture : Windows.System.ProcessorArchitecture" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystemArchitecture" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public Windows.System.ProcessorArchitecture OperatingSystemArchitecture { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.System.ProcessorArchitecture OperatingSystemArchitecture" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperatingSystemArchitecture As ProcessorArchitecture" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.OperatingSystemArchitecture : Windows.System.ProcessorArchitecture" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystemArchitecture" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.System.ProcessorArchitecture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the processor architecture.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperatingSystemVersion">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.Uwp.Helpers.OSVersion OperatingSystemVersion { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Toolkit.Uwp.Helpers.OSVersion OperatingSystemVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystemVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OperatingSystemVersion As OSVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member OperatingSystemVersion : Microsoft.Toolkit.Uwp.Helpers.OSVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystemVersion" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public Microsoft.Toolkit.Uwp.Helpers.OSVersion OperatingSystemVersion { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Toolkit.Uwp.Helpers.OSVersion OperatingSystemVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperatingSystemVersion As OSVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.OperatingSystemVersion : Microsoft.Toolkit.Uwp.Helpers.OSVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.OperatingSystemVersion" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.Uwp.Helpers.OSVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operating system's version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousVersionInstalled">
+      <MemberSignature Language="C#" Value="public Windows.ApplicationModel.PackageVersion PreviousVersionInstalled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.ApplicationModel.PackageVersion PreviousVersionInstalled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.PreviousVersionInstalled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousVersionInstalled As PackageVersion" />
+      <MemberSignature Language="F#" Value="member this.PreviousVersionInstalled : Windows.ApplicationModel.PackageVersion" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.PreviousVersionInstalled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.ApplicationModel.PackageVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the previous version of the app that was installed.
+            This will be the current version if a previous version of the app was installed
+            before using <see cref="T:Microsoft.Toolkit.Uwp.Helpers.SystemInformation" /> or if the app is not updated.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetLaunchCount">
+      <MemberSignature Language="C#" Value="public static void ResetLaunchCount ();" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ResetLaunchCount() cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ResetLaunchCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ResetLaunchCount ()" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member ResetLaunchCount : unit -&gt; unit" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.ResetLaunchCount " FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public void ResetLaunchCount ();" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ResetLaunchCount() cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetLaunchCount ()" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.ResetLaunchCount : unit -&gt; unit" Usage="systemInformation.ResetLaunchCount " FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Resets the launch count.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalLaunchCount">
+      <MemberSignature Language="C#" Value="public static long TotalLaunchCount { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="ILAsm" Value=".property int64 TotalLaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TotalLaunchCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalLaunchCount As Long" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="F#" Value="static member TotalLaunchCount : int64" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TotalLaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      <MemberSignature Language="C#" Value="public long TotalLaunchCount { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalLaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalLaunchCount As Long" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberSignature Language="F#" Value="member this.TotalLaunchCount : int64" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TotalLaunchCount" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the number of times the app has been launched.
+            Will be <c>0</c> if <see cref="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" /> has not been called yet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrackAppUse">
+      <MemberSignature Language="C#" Value="public static void TrackAppUse (Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TrackAppUse(class Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TrackAppUse (args As LaunchActivatedEventArgs)" />
+      <MemberSignature Language="F#" Value="static member TrackAppUse : Windows.ApplicationModel.Activation.LaunchActivatedEventArgs -&gt; unit" Usage="Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse args" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-6.1" />
+      </Parameters>
+      <Docs>
+        <param name="args">Details about the launch request and process.</param>
+        <summary>
+            Tracks information about the app's launch.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrackAppUse">
+      <MemberSignature Language="C#" Value="public void TrackAppUse (Windows.ApplicationModel.Activation.IActivatedEventArgs args, Windows.UI.Xaml.XamlRoot xamlRoot = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TrackAppUse(class Windows.ApplicationModel.Activation.IActivatedEventArgs args, class Windows.UI.Xaml.XamlRoot xamlRoot) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.Helpers.SystemInformation.TrackAppUse(Windows.ApplicationModel.Activation.IActivatedEventArgs,Windows.UI.Xaml.XamlRoot)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TrackAppUse (args As IActivatedEventArgs, Optional xamlRoot As XamlRoot = Nothing)" />
+      <MemberSignature Language="F#" Value="member this.TrackAppUse : Windows.ApplicationModel.Activation.IActivatedEventArgs * Windows.UI.Xaml.XamlRoot -&gt; unit" Usage="systemInformation.TrackAppUse (args, xamlRoot)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="Windows.ApplicationModel.Activation.IActivatedEventArgs" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+        <Parameter Name="xamlRoot" Type="Windows.UI.Xaml.XamlRoot" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0;win-comm-toolkit-dotnet-7.1" />
+      </Parameters>
+      <Docs>
+        <param name="args">Details about the launch request and process.</param>
+        <param name="xamlRoot">The XamlRoot object from your visual tree.</param>
+        <summary>
+            Tracks information about the app's launch.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

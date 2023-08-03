@@ -1,0 +1,123 @@
+<Type Name="ItalicTextInline" FullName="Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline">
+  <TypeSignature Language="C#" Value="public class ItalicTextInline : Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline, Microsoft.Toolkit.Parsers.Markdown.Inlines.IInlineContainer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItalicTextInline extends Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline implements class Microsoft.Toolkit.Parsers.Markdown.Inlines.IInlineContainer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItalicTextInline&#xA;Inherits MarkdownInline&#xA;Implements IInlineContainer" />
+  <TypeSignature Language="F#" Value="type ItalicTextInline = class&#xA;    inherit MarkdownInline&#xA;    interface IInlineContainer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Parsers</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Toolkit.Parsers.Markdown.Inlines.IInlineContainer</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
+      <AttributeName Language="C#">[System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/3200 for more info.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/3200 for more info.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.1">
+      <AttributeName Language="C#">[System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/CommunityToolkit/WindowsCommunityToolkit/issues/3200 for more info.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/CommunityToolkit/WindowsCommunityToolkit/issues/3200 for more info.")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a span containing italic text.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItalicTextInline ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Parsers</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inlines">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline&gt; Inlines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline&gt; Inlines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline.Inlines" />
+      <MemberSignature Language="VB.NET" Value="Public Property Inlines As IList(Of MarkdownInline)" />
+      <MemberSignature Language="F#" Value="member this.Inlines : System.Collections.Generic.IList&lt;Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline&gt; with get, set" Usage="Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline.Inlines" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Toolkit.Parsers.Markdown.Inlines.IInlineContainer.Inlines</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Parsers</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the contents of the inline.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Parsers.Markdown.Inlines.ItalicTextInline.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="italicTextInline.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Parsers</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Converts the object into it's textual representation.
+            </summary>
+        <returns> The textual representation of this object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

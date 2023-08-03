@@ -1,0 +1,65 @@
+<Type Name="MarkdownInline" FullName="Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline">
+  <TypeSignature Language="C#" Value="public abstract class MarkdownInline : Microsoft.Toolkit.Parsers.Markdown.MarkdownElement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit MarkdownInline extends Microsoft.Toolkit.Parsers.Markdown.MarkdownElement" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MarkdownInline&#xA;Inherits MarkdownElement" />
+  <TypeSignature Language="F#" Value="type MarkdownInline = class&#xA;    inherit MarkdownElement" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Parsers</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Toolkit.Parsers.Markdown.MarkdownElement</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
+      <AttributeName Language="C#">[System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/3200 for more info.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/3200 for more info.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.1">
+      <AttributeName Language="C#">[System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/CommunityToolkit/WindowsCommunityToolkit/issues/3200 for more info.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("Parsing code has been deprecated, we suggest using Markdig. See https://github.com/CommunityToolkit/WindowsCommunityToolkit/issues/3200 for more info.")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            An internal class that is the base class for all inline elements.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Toolkit.Parsers.Markdown.MarkdownInlineType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Toolkit.Parsers.Markdown.MarkdownInlineType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As MarkdownInlineType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Toolkit.Parsers.Markdown.MarkdownInlineType with get, set" Usage="Microsoft.Toolkit.Parsers.Markdown.Inlines.MarkdownInline.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Parsers</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.Parsers.Markdown.MarkdownInlineType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets this element is.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

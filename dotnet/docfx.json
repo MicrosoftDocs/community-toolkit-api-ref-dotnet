@@ -1,5 +1,6 @@
 {
   "build": {
+    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
@@ -9,14 +10,12 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
+          "**/_themes/**",
+          "api/overwrites/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices.md"
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -24,27 +23,48 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif",
+          "**/*.bmp"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**"
+          "**/includes/**"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/dotnet/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
+    "overwrite": {
+      "files": [
+        "api/overwrites/**/*.md"
+      ]
     },
-    "fileMetadata": {},
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
+    "globalMetadata": {
+      "breadcrumb_path": "~/breadcrumb/toc.yml",
+      "apiPlatform": "dotnet",
+      "ms.topic": "managed-reference",
+      "ms.prod": "community-toolkit",
+      "products": ["https://authoring-docs-microsoft.poolparty.biz/devrel/bcbcbad5-4208-4783-8035-8481272c98b8"],
+      "ms.technology": "windows-toolkit",
+      "ms.author": "nikolame",
+      "uhfHeaderId": "MSDocsHeader-Windows",
+      "author": "dotnet-bot"
+    },
+    "fileMetadata": {
+      "langs": {
+        "api/**.yml": [
+          "csharp",
+          "vb",
+          "fsharp",
+          "cppcx",
+          "cppwinrt",
+          "cpp"
+        ]
+      }
+    },
     "template": [],
-    "dest": "uwp-toolkit-dotnet"
+    "dest": "_site",
+    "lruSize": 0
   }
 }
