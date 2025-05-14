@@ -1,0 +1,78 @@
+<Type Name="__TaskExtensions+TaskAwaitableWithoutEndValidation" FullName="CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions+TaskAwaitableWithoutEndValidation">
+  <TypeSignature Language="C#" Value="public readonly struct __TaskExtensions.TaskAwaitableWithoutEndValidation" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi sealed beforefieldinit __TaskExtensions/TaskAwaitableWithoutEndValidation extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation" />
+  <TypeSignature Language="VB.NET" Value="Public Structure __TaskExtensions.TaskAwaitableWithoutEndValidation" />
+  <TypeSignature Language="F#" Value="type __TaskExtensions.TaskAwaitableWithoutEndValidation = struct" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Obsolete("This type is not intended to be called directly by user code")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("This type is not intended to be called directly by user code")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A custom task awaitable object that skips end validation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskAwaitableWithoutEndValidation (System.Threading.Tasks.Task task);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Threading.Tasks.Task task) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.#ctor(System.Threading.Tasks.Task)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (task As Task)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation : System.Threading.Tasks.Task -&gt; CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation" Usage="new CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation task" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="task" Type="System.Threading.Tasks.Task" />
+      </Parameters>
+      <Docs>
+        <param name="task">The wrapped <see cref="T:System.Threading.Tasks.Task" /> instance to create an awaiter for.</param>
+        <summary>
+            Creates a new <see cref="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation" /> instance with the specified parameters.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAwaiter">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter GetAwaiter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions/TaskAwaitableWithoutEndValidation/Awaiter GetAwaiter() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.GetAwaiter" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAwaiter () As __TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter" />
+      <MemberSignature Language="F#" Value="member this.GetAwaiter : unit -&gt; CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter" Usage="taskAwaitableWithoutEndValidation.GetAwaiter " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions+TaskAwaitableWithoutEndValidation+Awaiter</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets an <see cref="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter" /> instance for the current underlying task.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter" /> instance for the current underlying task.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

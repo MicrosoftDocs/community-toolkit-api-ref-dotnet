@@ -1,0 +1,64 @@
+<Type Name="StaggeredLayoutItemsStretch" FullName="CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch">
+  <TypeSignature Language="C#" Value="public enum StaggeredLayoutItemsStretch" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StaggeredLayoutItemsStretch extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StaggeredLayoutItemsStretch" />
+  <TypeSignature Language="F#" Value="type StaggeredLayoutItemsStretch = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines constants that specify how items are sized to fill the available space in a <see cref="T:CommunityToolkit.WinUI.Controls.StaggeredLayout" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Fill">
+      <MemberSignature Language="C#" Value="Fill" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch Fill = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch.Fill" />
+      <MemberSignature Language="VB.NET" Value="Fill" />
+      <MemberSignature Language="F#" Value="Fill = 1" Usage="CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch.Fill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The items' width is determined by the parent's width. The minimum width is determined by the <see cref="P:CommunityToolkit.WinUI.Controls.StaggeredLayout.DesiredColumnWidth" />.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.StaggeredLayoutItemsStretch</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The items' width is determined by the <see cref="P:CommunityToolkit.WinUI.Controls.StaggeredLayout.DesiredColumnWidth" />.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

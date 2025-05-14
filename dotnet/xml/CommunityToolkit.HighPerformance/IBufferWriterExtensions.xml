@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,7 +29,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -54,7 +55,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -81,6 +82,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="writer" /> reaches the end.</exception>
+        <exception cref="T:System.ArgumentException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
     <Member MemberName="Write&lt;T&gt;">
@@ -92,7 +94,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -119,6 +121,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="writer" /> reaches the end.</exception>
+        <exception cref="T:System.ArgumentException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
     <Member MemberName="Write&lt;T&gt;">
@@ -130,7 +133,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -143,11 +146,14 @@
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" />
       </Parameters>
       <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="writer">To be added.</param>
-        <param name="span">To be added.</param>
-        <summary>To be added.</summary>
+        <typeparam name="T">The type of value to write.</typeparam>
+        <param name="writer">The target <see cref="T:System.Buffers.IBufferWriter`1" /> instance to write to.</param>
+        <param name="span">The input <see cref="T:System.ReadOnlySpan`1" /> to write to <paramref name="writer" />.</param>
+        <summary>
+            Writes a series of items of a specified type into a target <see cref="T:System.Buffers.IBufferWriter`1" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
     <Member MemberName="Write&lt;T&gt;">
@@ -159,7 +165,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -180,6 +186,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="writer" /> reaches the end.</exception>
+        <exception cref="T:System.ArgumentException">Thrown if <paramref name="writer" /> reaches the end.</exception>
       </Docs>
     </Member>
   </Members>

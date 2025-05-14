@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,7 +35,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -54,7 +55,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -63,6 +64,7 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Default">
@@ -74,7 +76,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger</ReturnType>
@@ -99,7 +101,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -130,6 +132,7 @@
             </summary>
         <returns>Whether or not <paramref name="recipient" /> has already been registered for the specified message.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TRecipient,TMessage,TToken&gt;">
@@ -144,7 +147,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -183,6 +186,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Reset">
@@ -197,7 +201,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -208,6 +212,7 @@
             Resets the <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> instance and unregisters all the existing recipients.
             </summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Send&lt;TMessage,TToken&gt;">
@@ -222,7 +227,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TMessage</ReturnType>
@@ -253,6 +258,7 @@
             </summary>
         <returns>The message that was sent (ie. <paramref name="message" />).</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Unregister&lt;TMessage,TToken&gt;">
@@ -267,7 +273,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -297,6 +303,7 @@
             Unregisters a recipient from messages of a given type.
             </summary>
         <remarks>If the recipient has no registered handler, this method does nothing.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="UnregisterAll">
@@ -311,7 +318,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -329,6 +336,7 @@
             Use this method as an easy way to lose all references to a target recipient.
             If the recipient has no registered handler, this method does nothing.
             </remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="UnregisterAll&lt;TToken&gt;">
@@ -343,7 +351,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -367,6 +375,7 @@
             Unregisters a recipient from all messages on a specific channel.
             </summary>
         <remarks>If the recipient has no registered handler, this method does nothing.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
   </Members>

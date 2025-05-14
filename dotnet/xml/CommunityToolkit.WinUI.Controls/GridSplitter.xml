@@ -1,0 +1,287 @@
+<Type Name="GridSplitter" FullName="CommunityToolkit.WinUI.Controls.GridSplitter">
+  <TypeSignature Language="C#" Value="public class GridSplitter : CommunityToolkit.WinUI.Controls.SizerBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GridSplitter extends CommunityToolkit.WinUI.Controls.SizerBase" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.GridSplitter" />
+  <TypeSignature Language="VB.NET" Value="Public Class GridSplitter&#xA;Inherits SizerBase" />
+  <TypeSignature Language="F#" Value="type GridSplitter = class&#xA;    inherit SizerBase" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.Controls.SizerBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents the control that redistributes space between columns or rows of a Grid control.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GridSplitter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.GridSplitter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragHorizontal">
+      <MemberSignature Language="C#" Value="protected override bool OnDragHorizontal (double horizontalChange);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnDragHorizontal(float64 horizontalChange) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.GridSplitter.OnDragHorizontal(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnDragHorizontal (horizontalChange As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnDragHorizontal : double -&gt; bool" Usage="gridSplitter.OnDragHorizontal horizontalChange" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="horizontalChange" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="horizontalChange">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragStarting">
+      <MemberSignature Language="C#" Value="protected override void OnDragStarting ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDragStarting() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.GridSplitter.OnDragStarting" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDragStarting ()" />
+      <MemberSignature Language="F#" Value="override this.OnDragStarting : unit -&gt; unit" Usage="gridSplitter.OnDragStarting " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragVertical">
+      <MemberSignature Language="C#" Value="protected override bool OnDragVertical (double verticalChange);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnDragVertical(float64 verticalChange) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.GridSplitter.OnDragVertical(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnDragVertical (verticalChange As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnDragVertical : double -&gt; bool" Usage="gridSplitter.OnDragVertical verticalChange" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verticalChange" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="verticalChange">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnLoaded">
+      <MemberSignature Language="C#" Value="protected override void OnLoaded (Microsoft.UI.Xaml.RoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnLoaded(class Microsoft.UI.Xaml.RoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.GridSplitter.OnLoaded(Microsoft.UI.Xaml.RoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnLoaded (e As RoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnLoaded : Microsoft.UI.Xaml.RoutedEventArgs -&gt; unit" Usage="gridSplitter.OnLoaded e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.RoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ParentLevel">
+      <MemberSignature Language="C#" Value="public int ParentLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ParentLevel" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.GridSplitter.ParentLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentLevel As Integer" />
+      <MemberSignature Language="F#" Value="member this.ParentLevel : int with get, set" Usage="CommunityToolkit.WinUI.Controls.GridSplitter.ParentLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the level of the parent grid to resize
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentLevelProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ParentLevelProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ParentLevelProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.GridSplitter.ParentLevelProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ParentLevelProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ParentLevelProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.GridSplitter.ParentLevelProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.GridSplitter.ParentLevel" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResizeBehavior">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Controls.GridSplitter.GridResizeBehavior ResizeBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.Controls.GridSplitter/GridResizeBehavior ResizeBehavior" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResizeBehavior As GridSplitter.GridResizeBehavior" />
+      <MemberSignature Language="F#" Value="member this.ResizeBehavior : CommunityToolkit.WinUI.Controls.GridSplitter.GridResizeBehavior with get, set" Usage="CommunityToolkit.WinUI.Controls.GridSplitter.ResizeBehavior" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.GridSplitter+GridResizeBehavior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets which Columns or Rows the Splitter resizes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResizeBehaviorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ResizeBehaviorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ResizeBehaviorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeBehaviorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResizeBehaviorProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResizeBehaviorProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.GridSplitter.ResizeBehaviorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeBehavior" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResizeDirection">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Controls.GridSplitter.GridResizeDirection ResizeDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.Controls.GridSplitter/GridResizeDirection ResizeDirection" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResizeDirection As GridSplitter.GridResizeDirection" />
+      <MemberSignature Language="F#" Value="member this.ResizeDirection : CommunityToolkit.WinUI.Controls.GridSplitter.GridResizeDirection with get, set" Usage="CommunityToolkit.WinUI.Controls.GridSplitter.ResizeDirection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.GridSplitter+GridResizeDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets whether the Splitter resizes the Columns, Rows, or Both.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResizeDirectionProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ResizeDirectionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ResizeDirectionProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeDirectionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResizeDirectionProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResizeDirectionProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.GridSplitter.ResizeDirectionProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeDirection" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

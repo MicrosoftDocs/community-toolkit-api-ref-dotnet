@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,7 +29,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -38,10 +39,12 @@
         <Parameter Name="buffer" Type="System.Span&lt;System.Byte&gt;" />
       </Parameters>
       <Docs>
-        <param name="stream">To be added.</param>
-        <param name="buffer">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="stream">The source <see cref="T:System.IO.Stream" /> to read data from.</param>
+        <param name="buffer">The target <see cref="T:System.Span`1" /> to write data to.</param>
+        <summary>
+            Reads a sequence of bytes from a given <see cref="T:System.IO.Stream" /> instance.
+            </summary>
+        <returns>The number of bytes that have been read.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -54,7 +57,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -80,6 +83,7 @@
         <returns>The <typeparamref name="T" /> value read from <paramref name="stream" />.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown if <paramref name="stream" /> reaches the end.</exception>
+        <exception cref="T:System.IO.EndOfStreamException">Thrown if <paramref name="stream" /> reaches the end.</exception>
       </Docs>
     </Member>
     <Member MemberName="ReadAsync">
@@ -91,7 +95,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Int32&gt;</ReturnType>
@@ -102,11 +106,13 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="stream">To be added.</param>
-        <param name="buffer">To be added.</param>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="stream">The source <see cref="T:System.IO.Stream" /> to read data from.</param>
+        <param name="buffer">The destination <see cref="T:System.Memory`1" /> to write data to.</param>
+        <param name="cancellationToken">The optional <see cref="T:System.Threading.CancellationToken" /> for the operation.</param>
+        <summary>
+            Asynchronously reads a sequence of bytes from a given <see cref="T:System.IO.Stream" /> instance.
+            </summary>
+        <returns>A <see cref="T:System.Threading.Tasks.ValueTask" /> representing the operation being performed.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,7 +125,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -129,9 +135,11 @@
         <Parameter Name="buffer" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
       </Parameters>
       <Docs>
-        <param name="stream">To be added.</param>
-        <param name="buffer">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="stream">The destination <see cref="T:System.IO.Stream" /> to write data to.</param>
+        <param name="buffer">The source <see cref="T:System.Span`1" /> to read data from.</param>
+        <summary>
+            Writes a sequence of bytes to a given <see cref="T:System.IO.Stream" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -144,7 +152,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -181,7 +189,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -192,11 +200,13 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="stream">To be added.</param>
-        <param name="buffer">To be added.</param>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="stream">The destination <see cref="T:System.IO.Stream" /> to write data to.</param>
+        <param name="buffer">The source <see cref="T:System.ReadOnlyMemory`1" /> to read data from.</param>
+        <param name="cancellationToken">The optional <see cref="T:System.Threading.CancellationToken" /> for the operation.</param>
+        <summary>
+            Asynchronously writes a sequence of bytes to a given <see cref="T:System.IO.Stream" /> instance.
+            </summary>
+        <returns>A <see cref="T:System.Threading.Tasks.ValueTask" /> representing the operation being performed.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

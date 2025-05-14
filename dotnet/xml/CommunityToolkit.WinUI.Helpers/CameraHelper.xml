@@ -8,6 +8,10 @@
     <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -16,6 +20,12 @@
       <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Helper class for capturing frames from available camera sources.
@@ -34,6 +44,10 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
@@ -50,6 +64,10 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -77,6 +95,10 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -85,10 +107,11 @@
         <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
         <remarks>To be added.</remarks>
         <filterpriority>2</filterpriority>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="FrameArrived">
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt; FrameArrived;" />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt;? FrameArrived;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt; FrameArrived" />
       <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Helpers.CameraHelper.FrameArrived" />
       <MemberSignature Language="VB.NET" Value="Public Event FrameArrived As EventHandler(Of FrameEventArgs) " />
@@ -98,6 +121,16 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt;</ReturnType>
       </ReturnValue>
@@ -109,7 +142,7 @@
       </Docs>
     </Member>
     <Member MemberName="FrameFormatsAvailable">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt; FrameFormatsAvailable { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt;? FrameFormatsAvailable { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Windows.Media.Capture.Frames.MediaFrameFormat&gt; FrameFormatsAvailable" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.CameraHelper.FrameFormatsAvailable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FrameFormatsAvailable As IReadOnlyList(Of MediaFrameFormat)" />
@@ -119,6 +152,16 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt;</ReturnType>
       </ReturnValue>
@@ -141,6 +184,10 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Windows.Media.Capture.Frames.MediaFrameSourceGroup</ReturnType>
       </ReturnValue>
@@ -162,6 +209,10 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameSourceGroup&gt;&gt;</ReturnType>
@@ -186,6 +237,10 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.WinUI.Helpers.CameraHelperResult&gt;</ReturnType>
       </ReturnValue>
@@ -201,7 +256,7 @@
       </Docs>
     </Member>
     <Member MemberName="PreviewFrameSource">
-      <MemberSignature Language="C#" Value="public Windows.Media.Capture.Frames.MediaFrameSource PreviewFrameSource { get; }" />
+      <MemberSignature Language="C#" Value="public Windows.Media.Capture.Frames.MediaFrameSource? PreviewFrameSource { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Windows.Media.Capture.Frames.MediaFrameSource PreviewFrameSource" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.CameraHelper.PreviewFrameSource" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviewFrameSource As MediaFrameSource" />
@@ -211,6 +266,16 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Windows.Media.Capture.Frames.MediaFrameSource</ReturnType>
       </ReturnValue>

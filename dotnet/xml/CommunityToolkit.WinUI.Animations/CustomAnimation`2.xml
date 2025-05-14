@@ -1,0 +1,169 @@
+<Type Name="CustomAnimation&lt;TValue,TKeyFrame&gt;" FullName="CommunityToolkit.WinUI.Animations.CustomAnimation&lt;TValue,TKeyFrame&gt;">
+  <TypeSignature Language="C#" Value="public abstract class CustomAnimation&lt;TValue,TKeyFrame&gt; : CommunityToolkit.WinUI.Animations.ImplicitAnimation&lt;TValue,TKeyFrame&gt; where TKeyFrame : struct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CustomAnimation`2&lt;TValue, struct .ctor (class System.ValueType) TKeyFrame&gt; extends CommunityToolkit.WinUI.Animations.ImplicitAnimation`2&lt;!TValue, !TKeyFrame&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Animations.CustomAnimation`2" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CustomAnimation(Of TValue, TKeyFrame)&#xA;Inherits ImplicitAnimation(Of TValue, TKeyFrame)" />
+  <TypeSignature Language="F#" Value="type CustomAnimation&lt;'Value, 'KeyFrame (requires 'KeyFrame : struct)&gt; = class&#xA;    inherit ImplicitAnimation&lt;'Value, 'KeyFrame (requires 'KeyFrame : struct)&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Animations</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TValue" />
+    <TypeParameter Name="TKeyFrame">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+        <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+        <BaseTypeName>System.ValueType</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.Animations.ImplicitAnimation&lt;TValue,TKeyFrame&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TValue">TValue</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TKeyFrame">TKeyFrame</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 0 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 0 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TValue">To be added.</typeparam>
+    <typeparam name="TKeyFrame">To be added.</typeparam>
+    <summary>
+            A custom animation types, that can target both the composition and the XAML layer, and that
+            can adapt based on the context it is being used from (eg. explicit or implicit animation).
+            </summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.WinUI.Animations.Animation`2" />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CustomAnimation ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Animations.CustomAnimation`2.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Animations</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendToBuilder">
+      <MemberSignature Language="C#" Value="public override CommunityToolkit.WinUI.Animations.AnimationBuilder AppendToBuilder (CommunityToolkit.WinUI.Animations.AnimationBuilder builder, TimeSpan? delayHint, TimeSpan? durationHint, CommunityToolkit.WinUI.Animations.EasingType? easingTypeHint, Microsoft.UI.Xaml.Media.Animation.EasingMode? easingModeHint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class CommunityToolkit.WinUI.Animations.AnimationBuilder AppendToBuilder(class CommunityToolkit.WinUI.Animations.AnimationBuilder builder, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; delayHint, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; durationHint, valuetype System.Nullable`1&lt;valuetype CommunityToolkit.WinUI.Animations.EasingType&gt; easingTypeHint, valuetype System.Nullable`1&lt;valuetype Microsoft.UI.Xaml.Media.Animation.EasingMode&gt; easingModeHint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Animations.CustomAnimation`2.AppendToBuilder(CommunityToolkit.WinUI.Animations.AnimationBuilder,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan},System.Nullable{CommunityToolkit.WinUI.Animations.EasingType},System.Nullable{Microsoft.UI.Xaml.Media.Animation.EasingMode})" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function AppendToBuilder (builder As AnimationBuilder, delayHint As Nullable(Of TimeSpan), durationHint As Nullable(Of TimeSpan), easingTypeHint As Nullable(Of EasingType), easingModeHint As Nullable(Of EasingMode)) As AnimationBuilder" />
+      <MemberSignature Language="F#" Value="override this.AppendToBuilder : CommunityToolkit.WinUI.Animations.AnimationBuilder * Nullable&lt;TimeSpan&gt; * Nullable&lt;TimeSpan&gt; * Nullable&lt;CommunityToolkit.WinUI.Animations.EasingType&gt; * Nullable&lt;Microsoft.UI.Xaml.Media.Animation.EasingMode&gt; -&gt; CommunityToolkit.WinUI.Animations.AnimationBuilder" Usage="customAnimation.AppendToBuilder (builder, delayHint, durationHint, easingTypeHint, easingModeHint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Animations</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Animations.AnimationBuilder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="builder" Type="CommunityToolkit.WinUI.Animations.AnimationBuilder" />
+        <Parameter Name="delayHint" Type="System.Nullable&lt;System.TimeSpan&gt;" />
+        <Parameter Name="durationHint" Type="System.Nullable&lt;System.TimeSpan&gt;" />
+        <Parameter Name="easingTypeHint" Type="System.Nullable&lt;CommunityToolkit.WinUI.Animations.EasingType&gt;" />
+        <Parameter Name="easingModeHint" Type="System.Nullable&lt;Microsoft.UI.Xaml.Media.Animation.EasingMode&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="builder">To be added.</param>
+        <param name="delayHint">To be added.</param>
+        <param name="durationHint">To be added.</param>
+        <param name="easingTypeHint">To be added.</param>
+        <param name="easingModeHint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ExplicitTarget">
+      <MemberSignature Language="C#" Value="protected override string? ExplicitTarget { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExplicitTarget" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Animations.CustomAnimation`2.ExplicitTarget" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ExplicitTarget As String" />
+      <MemberSignature Language="F#" Value="member this.ExplicitTarget : string" Usage="CommunityToolkit.WinUI.Animations.CustomAnimation&lt;'Value, 'KeyFrame (requires 'KeyFrame : struct)&gt;.ExplicitTarget" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Animations</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Layer">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Animations.FrameworkLayer Layer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.Animations.FrameworkLayer Layer" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Animations.CustomAnimation`2.Layer" />
+      <MemberSignature Language="VB.NET" Value="Public Property Layer As FrameworkLayer" />
+      <MemberSignature Language="F#" Value="member this.Layer : CommunityToolkit.WinUI.Animations.FrameworkLayer with get, set" Usage="CommunityToolkit.WinUI.Animations.CustomAnimation&lt;'Value, 'KeyFrame (requires 'KeyFrame : struct)&gt;.Layer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Animations</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Animations.FrameworkLayer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="public string? Target { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Target" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Animations.CustomAnimation`2.Target" />
+      <MemberSignature Language="VB.NET" Value="Public Property Target As String" />
+      <MemberSignature Language="F#" Value="member this.Target : string with get, set" Usage="CommunityToolkit.WinUI.Animations.CustomAnimation&lt;'Value, 'KeyFrame (requires 'KeyFrame : struct)&gt;.Target" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Animations</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the target property for the animation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
