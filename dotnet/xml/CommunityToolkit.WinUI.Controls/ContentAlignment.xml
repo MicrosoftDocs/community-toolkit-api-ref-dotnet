@@ -1,0 +1,85 @@
+<Type Name="ContentAlignment" FullName="CommunityToolkit.WinUI.Controls.ContentAlignment">
+  <TypeSignature Language="C#" Value="public enum ContentAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.ContentAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentAlignment" />
+  <TypeSignature Language="F#" Value="type ContentAlignment = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The alignment of Content.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.WinUI.Controls.ContentAlignment Left = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ContentAlignment.Left" />
+      <MemberSignature Language="VB.NET" Value="Left" />
+      <MemberSignature Language="F#" Value="Left = 1" Usage="CommunityToolkit.WinUI.Controls.ContentAlignment.Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.ContentAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The Content is left-aligned while the Header, HeaderIcon and Description are collapsed. This is commonly used for Content types such as CheckBoxes, RadioButtons and custom layouts.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Right">
+      <MemberSignature Language="C#" Value="Right" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.WinUI.Controls.ContentAlignment Right = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ContentAlignment.Right" />
+      <MemberSignature Language="VB.NET" Value="Right" />
+      <MemberSignature Language="F#" Value="Right = 0" Usage="CommunityToolkit.WinUI.Controls.ContentAlignment.Right" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.ContentAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The Content is aligned to the right. Default state.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Vertical">
+      <MemberSignature Language="C#" Value="Vertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.WinUI.Controls.ContentAlignment Vertical = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ContentAlignment.Vertical" />
+      <MemberSignature Language="VB.NET" Value="Vertical" />
+      <MemberSignature Language="F#" Value="Vertical = 2" Usage="CommunityToolkit.WinUI.Controls.ContentAlignment.Vertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.ContentAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The Content is vertically aligned.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,18 +1,19 @@
 <Type Name="AsyncRelayCommand&lt;T&gt;" FullName="CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;T&gt;">
-  <TypeSignature Language="C#" Value="public sealed class AsyncRelayCommand&lt;T&gt; : CommunityToolkit.Mvvm.ComponentModel.ObservableObject, CommunityToolkit.Mvvm.Input.IAsyncRelayCommand&lt;T&gt;, CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;, System.ComponentModel.INotifyPropertyChanged, System.Windows.Input.ICommand" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AsyncRelayCommand`1&lt;T&gt; extends CommunityToolkit.Mvvm.ComponentModel.ObservableObject implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1&lt;!T&gt;, class CommunityToolkit.Mvvm.Input.IRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand`1&lt;!T&gt;, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" />
+  <TypeSignature Language="C#" Value="public sealed class AsyncRelayCommand&lt;T&gt; : CommunityToolkit.Mvvm.Input.IAsyncRelayCommand&lt;T&gt;, CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;, System.ComponentModel.INotifyPropertyChanged, System.Windows.Input.ICommand" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AsyncRelayCommand`1&lt;T&gt; extends System.Object implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1&lt;!T&gt;, class CommunityToolkit.Mvvm.Input.IRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand`1&lt;!T&gt;, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AsyncRelayCommand(Of T)&#xA;Inherits ObservableObject&#xA;Implements IAsyncRelayCommand(Of T), ICommand, INotifyPropertyChanged, IRelayCommand(Of T)" />
-  <TypeSignature Language="F#" Value="type AsyncRelayCommand&lt;'T&gt; = class&#xA;    inherit ObservableObject&#xA;    interface IAsyncRelayCommand&lt;'T&gt;&#xA;    interface IAsyncRelayCommand&#xA;    interface IRelayCommand&#xA;    interface ICommand&#xA;    interface INotifyPropertyChanged&#xA;    interface IRelayCommand&lt;'T&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AsyncRelayCommand(Of T)&#xA;Implements IAsyncRelayCommand(Of T), ICommand, INotifyPropertyChanged, IRelayCommand(Of T)" />
+  <TypeSignature Language="F#" Value="type AsyncRelayCommand&lt;'T&gt; = class&#xA;    interface IAsyncRelayCommand&lt;'T&gt;&#xA;    interface IAsyncRelayCommand&#xA;    interface IRelayCommand&#xA;    interface ICommand&#xA;    interface INotifyPropertyChanged&#xA;    interface IRelayCommand&lt;'T&gt;" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
   </TypeParameters>
   <Base>
-    <BaseTypeName>CommunityToolkit.Mvvm.ComponentModel.ObservableObject</BaseTypeName>
+    <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -51,7 +52,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
@@ -59,9 +60,10 @@
       <Docs>
         <param name="cancelableExecute">The cancelable execution logic.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class that can always execute.
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
             </summary>
         <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="cancelableExecute" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -73,7 +75,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
@@ -81,9 +83,35 @@
       <Docs>
         <param name="execute">The execution logic.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class that can always execute.
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
             </summary>
         <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="execute" /> is <see langword="null" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AsyncRelayCommand (Func&lt;T?,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt; cancelableExecute, CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`3&lt;!T, valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task&gt; cancelableExecute, valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (cancelableExecute As Func(Of T, CancellationToken, Task), options As AsyncRelayCommandOptions)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; : Func&lt;'T, System.Threading.CancellationToken, System.Threading.Tasks.Task&gt; * CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions -&gt; CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt;" Usage="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; (cancelableExecute, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+      </Parameters>
+      <Docs>
+        <param name="cancelableExecute">The cancelable execution logic.</param>
+        <param name="options">The options to use to configure the async command.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
+            </summary>
+        <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="cancelableExecute" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -95,7 +123,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
@@ -108,6 +136,32 @@
             Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
             </summary>
         <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="cancelableExecute" /> or <paramref name="canExecute" /> are <see langword="null" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AsyncRelayCommand (Func&lt;T?,System.Threading.Tasks.Task&gt; execute, CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;!T, class System.Threading.Tasks.Task&gt; execute, valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Func(Of T, Task), options As AsyncRelayCommandOptions)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; : Func&lt;'T, System.Threading.Tasks.Task&gt; * CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions -&gt; CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt;" Usage="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; (execute, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+      </Parameters>
+      <Docs>
+        <param name="execute">The execution logic.</param>
+        <param name="options">The options to use to configure the async command.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
+            </summary>
+        <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="execute" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -119,7 +173,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
@@ -132,6 +186,61 @@
             Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
             </summary>
         <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="execute" /> or <paramref name="canExecute" /> are <see langword="null" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AsyncRelayCommand (Func&lt;T?,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt; cancelableExecute, Predicate&lt;T?&gt; canExecute, CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`3&lt;!T, valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task&gt; cancelableExecute, class System.Predicate`1&lt;!T&gt; canExecute, valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Predicate{`0},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (cancelableExecute As Func(Of T, CancellationToken, Task), canExecute As Predicate(Of T), options As AsyncRelayCommandOptions)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; : Func&lt;'T, System.Threading.CancellationToken, System.Threading.Tasks.Task&gt; * Predicate&lt;'T&gt; * CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions -&gt; CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt;" Usage="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; (cancelableExecute, canExecute, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+      </Parameters>
+      <Docs>
+        <param name="cancelableExecute">The cancelable execution logic.</param>
+        <param name="canExecute">The execution status logic.</param>
+        <param name="options">The options to use to configure the async command.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
+            </summary>
+        <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="cancelableExecute" /> or <paramref name="canExecute" /> are <see langword="null" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AsyncRelayCommand (Func&lt;T?,System.Threading.Tasks.Task&gt; execute, Predicate&lt;T?&gt; canExecute, CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;!T, class System.Threading.Tasks.Task&gt; execute, class System.Predicate`1&lt;!T&gt; canExecute, valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Predicate{`0},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Func(Of T, Task), canExecute As Predicate(Of T), options As AsyncRelayCommandOptions)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; : Func&lt;'T, System.Threading.Tasks.Task&gt; * Predicate&lt;'T&gt; * CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions -&gt; CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt;" Usage="new CommunityToolkit.Mvvm.Input.AsyncRelayCommand&lt;'T&gt; (execute, canExecute, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+      </Parameters>
+      <Docs>
+        <param name="execute">The execution logic.</param>
+        <param name="canExecute">The execution status logic.</param>
+        <param name="options">The options to use to configure the async command.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> class.
+            </summary>
+        <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="execute" /> or <paramref name="canExecute" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="CanBeCanceled">
@@ -146,7 +255,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -157,6 +266,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Cancel">
@@ -171,7 +281,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -185,6 +295,7 @@
             If the underlying command is not running, or if it does not support cancelation, this method will perform no action.
             Note that even with a successful cancelation, the completion of the current operation might not be immediate.
             </remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CanExecute">
@@ -199,7 +310,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -212,6 +323,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CanExecute">
@@ -226,7 +338,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -239,6 +351,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CanExecuteChanged">
@@ -253,7 +366,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler</ReturnType>
@@ -261,6 +374,7 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -275,7 +389,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -287,6 +401,7 @@
         <param name="parameter">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -301,7 +416,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -313,6 +428,7 @@
         <param name="parameter">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ExecuteAsync">
@@ -327,7 +443,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -343,6 +459,7 @@
             </summary>
         <returns>The <see cref="T:System.Threading.Tasks.Task" /> representing the async operation being executed.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ExecuteAsync">
@@ -357,7 +474,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -370,6 +487,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ExecutionTask">
@@ -381,7 +499,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -393,6 +511,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="IsCancellationRequested">
@@ -407,7 +526,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -418,6 +537,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="IsRunning">
@@ -432,7 +552,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -443,6 +563,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="NotifyCanExecuteChanged">
@@ -457,7 +578,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -468,6 +589,30 @@
             Notifies that the <see cref="M:System.Windows.Input.ICommand.CanExecute(System.Object)" /> property has changed.
             </summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyChanged">
+      <MemberSignature Language="C#" Value="public event System.ComponentModel.PropertyChangedEventHandler? PropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.PropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ComponentModel.PropertyChangedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
   </Members>

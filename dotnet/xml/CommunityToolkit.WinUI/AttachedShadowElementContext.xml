@@ -1,0 +1,429 @@
+<Type Name="AttachedShadowElementContext" FullName="CommunityToolkit.WinUI.AttachedShadowElementContext">
+  <TypeSignature Language="C#" Value="public sealed class AttachedShadowElementContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttachedShadowElementContext extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.AttachedShadowElementContext" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttachedShadowElementContext" />
+  <TypeSignature Language="F#" Value="type AttachedShadowElementContext = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Class which maintains the context of a <see cref="T:Microsoft.UI.Composition.DropShadow" /> for a particular <see cref="T:Microsoft.UI.Xaml.UIElement" /> linked to the definition of that shadow provided by the <see cref="T:CommunityToolkit.WinUI.AttachedShadowBase" /> implementation being used.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddResource&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T AddResource&lt;T&gt; (string key, T resource);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T AddResource&lt;T&gt;(string key, !!T resource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.AddResource``1(System.String,``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddResource(Of T) (key As String, resource As T) As T" />
+      <MemberSignature Language="F#" Value="member this.AddResource : string * 'T -&gt; 'T" Usage="attachedShadowElementContext.AddResource (key, resource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="resource" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of the resource being added.</typeparam>
+        <param name="key">Key to use to lookup the resource later.</param>
+        <param name="resource">Object to store within the resource dictionary.</param>
+        <summary>
+            Adds a resource to this instance's resource dictionary with the specified key
+            </summary>
+        <returns>The added resource</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAndDisposeResources">
+      <MemberSignature Language="C#" Value="public void ClearAndDisposeResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearAndDisposeResources() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.ClearAndDisposeResources" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearAndDisposeResources ()" />
+      <MemberSignature Language="F#" Value="member this.ClearAndDisposeResources : unit -&gt; unit" Usage="attachedShadowElementContext.ClearAndDisposeResources " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Disposes of any resources that implement <see cref="T:System.IDisposable" /> and then clears all resources
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Compositor">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Composition.Compositor? Compositor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Composition.Compositor Compositor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Compositor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Compositor As Compositor" />
+      <MemberSignature Language="F#" Value="member this.Compositor : Microsoft.UI.Composition.Compositor" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.Compositor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.Compositor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:Windows.UI.Composition.Compositor" /> for this instance.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateResources">
+      <MemberSignature Language="C#" Value="public void CreateResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CreateResources() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.CreateResources" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreateResources ()" />
+      <MemberSignature Language="F#" Value="member this.CreateResources : unit -&gt; unit" Usage="attachedShadowElementContext.CreateResources " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Force early creation of this instance's resources, otherwise they will be created automatically when <see cref="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Element" /> is loaded.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Element">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.FrameworkElement Element { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.FrameworkElement Element" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Element" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Element As FrameworkElement" />
+      <MemberSignature Language="F#" Value="member this.Element : Microsoft.UI.Xaml.FrameworkElement" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.Element" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.FrameworkElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> this instance is attached to
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElementVisual">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Composition.Visual? ElementVisual { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Composition.Visual ElementVisual" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.ElementVisual" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElementVisual As Visual" />
+      <MemberSignature Language="F#" Value="member this.ElementVisual : Microsoft.UI.Composition.Visual" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.ElementVisual" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.Visual</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:Microsoft.UI.Composition.Visual" /> for the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> this instance is attached to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResource&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T? GetResource&lt;T&gt; (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T GetResource&lt;T&gt;(string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.GetResource``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetResource(Of T) (key As String) As T" />
+      <MemberSignature Language="F#" Value="member this.GetResource : string -&gt; 'T" Usage="attachedShadowElementContext.GetResource key" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of the resource being retrieved.</typeparam>
+        <param name="key">Key to use to lookup the resource.</param>
+        <summary>
+            Retries a resource with the specified key and type
+            </summary>
+        <returns>The resource if available, otherwise default value.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInitialized">
+      <MemberSignature Language="C#" Value="public bool IsInitialized { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInitialized" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.IsInitialized" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInitialized As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInitialized : bool" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.IsInitialized" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether or not this <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> has been initialized.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.AttachedShadowBase Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.WinUI.AttachedShadowBase Parent" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As AttachedShadowBase" />
+      <MemberSignature Language="F#" Value="member this.Parent : CommunityToolkit.WinUI.AttachedShadowBase" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.Parent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.AttachedShadowBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:CommunityToolkit.WinUI.AttachedShadowBase" /> that contains this <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAndDisposeResource&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T? RemoveAndDisposeResource&lt;T&gt; (string key) where T : IDisposable;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T RemoveAndDisposeResource&lt;(class System.IDisposable) T&gt;(string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.RemoveAndDisposeResource``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RemoveAndDisposeResource(Of T As IDisposable) (key As String) As T" />
+      <MemberSignature Language="F#" Value="member this.RemoveAndDisposeResource : string -&gt; 'T (requires 'T :&gt; IDisposable)" Usage="attachedShadowElementContext.RemoveAndDisposeResource key" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>System.IDisposable</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of the resource being removed.</typeparam>
+        <param name="key">Key to use to lookup the resource.</param>
+        <summary>
+            Removes an existing resource with the specified key and type, and <see cref="M:System.IDisposable.Dispose">disposes</see> it
+            </summary>
+        <returns>The resource that was removed, if any</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveResource&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T? RemoveResource&lt;T&gt; (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T RemoveResource&lt;T&gt;(string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.RemoveResource``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RemoveResource(Of T) (key As String) As T" />
+      <MemberSignature Language="F#" Value="member this.RemoveResource : string -&gt; 'T" Usage="attachedShadowElementContext.RemoveResource key" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of the resource being removed.</typeparam>
+        <param name="key">Key to use to lookup the resource.</param>
+        <summary>
+            Removes an existing resource with the specified key and type
+            </summary>
+        <returns>The resource that was removed, if any</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shadow">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Composition.DropShadow? Shadow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Composition.DropShadow Shadow" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Shadow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shadow As DropShadow" />
+      <MemberSignature Language="F#" Value="member this.Shadow : Microsoft.UI.Composition.DropShadow" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.Shadow" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.DropShadow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:Microsoft.UI.Composition.DropShadow" /> that is rendered on this instance's <see cref="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Element" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpriteVisual">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Composition.SpriteVisual? SpriteVisual { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Composition.SpriteVisual SpriteVisual" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowElementContext.SpriteVisual" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SpriteVisual As SpriteVisual" />
+      <MemberSignature Language="F#" Value="member this.SpriteVisual : Microsoft.UI.Composition.SpriteVisual" Usage="CommunityToolkit.WinUI.AttachedShadowElementContext.SpriteVisual" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.SpriteVisual</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="P:CommunityToolkit.WinUI.AttachedShadowElementContext.SpriteVisual" /> that contains the <see cref="T:Microsoft.UI.Composition.DropShadow">shadow</see> for this instance
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetResource&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public bool TryGetResource&lt;T&gt; (string key, out T? resource);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetResource&lt;T&gt;(string key, [out] !!T&amp; resource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowElementContext.TryGetResource``1(System.String,``0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetResource(Of T) (key As String, ByRef resource As T) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.TryGetResource : string * 'T -&gt; bool" Usage="attachedShadowElementContext.TryGetResource (key, resource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="resource" Type="T" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of the resource being retrieved.</typeparam>
+        <param name="key">Key to use to lookup the resource.</param>
+        <param name="resource">Object to retrieved from the resource dictionary or default value.</param>
+        <summary>
+            Retrieves a resource with the specified key and type if it exists
+            </summary>
+        <returns>True if the resource exists, false otherwise</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

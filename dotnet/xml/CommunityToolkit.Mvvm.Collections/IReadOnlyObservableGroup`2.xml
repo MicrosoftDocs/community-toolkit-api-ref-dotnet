@@ -1,0 +1,98 @@
+<Type Name="IReadOnlyObservableGroup&lt;TKey,TElement&gt;" FullName="CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup&lt;TKey,TElement&gt;">
+  <TypeSignature Language="C#" Value="public interface IReadOnlyObservableGroup&lt;out TKey,out TElement&gt; : CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup&lt;out TKey&gt;, System.Collections.Generic.IEnumerable&lt;out TElement&gt;, System.Collections.Generic.IReadOnlyCollection&lt;out TElement&gt;, System.Collections.Generic.IReadOnlyList&lt;out TElement&gt;, System.Collections.Specialized.INotifyCollectionChanged, System.ComponentModel.INotifyPropertyChanged, System.Linq.IGrouping&lt;out TKey,out TElement&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IReadOnlyObservableGroup`2&lt;+ TKey, + TElement&gt; implements class CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup, class CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`1&lt;!TKey&gt;, class System.Collections.Generic.IEnumerable`1&lt;!TElement&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;!TElement&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;!TElement&gt;, class System.Collections.IEnumerable, class System.Collections.Specialized.INotifyCollectionChanged, class System.ComponentModel.INotifyPropertyChanged, class System.Linq.IGrouping`2&lt;!TKey, !TElement&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IReadOnlyObservableGroup(Of Out TKey, Out TElement)&#xA;Implements IEnumerable(Of Out TElement), IGrouping(Of Out TKey, Out TElement), INotifyCollectionChanged, INotifyPropertyChanged, IReadOnlyCollection(Of Out TElement), IReadOnlyList(Of Out TElement), IReadOnlyObservableGroup(Of Out TKey)" />
+  <TypeSignature Language="F#" Value="type IReadOnlyObservableGroup&lt;'Key, 'Element&gt; = interface&#xA;    interface IReadOnlyObservableGroup&lt;'Key&gt;&#xA;    interface IReadOnlyObservableGroup&#xA;    interface INotifyPropertyChanged&#xA;    interface INotifyCollectionChanged&#xA;    interface IEnumerable&#xA;    interface IReadOnlyList&lt;'Element&gt;&#xA;    interface seq&lt;'Element&gt;&#xA;    interface IReadOnlyCollection&lt;'Element&gt;&#xA;    interface IGrouping&lt;'Key, 'Element&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TKey">
+      <Constraints>
+        <ParameterAttribute>Covariant</ParameterAttribute>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TElement">
+      <Constraints>
+        <ParameterAttribute>Covariant</ParameterAttribute>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup&lt;TKey&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TElement&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;TElement&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;TElement&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Specialized.INotifyCollectionChanged</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Linq.IGrouping&lt;TKey,TElement&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="TKey">The type of the group key.</typeparam>
+    <typeparam name="TElement">The type of elements in the group.</typeparam>
+    <summary>
+            An interface for a grouped collection of items.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TElement this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TElement Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As TElement" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : 'Element" Usage="CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup&lt;'Key, 'Element&gt;.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TElement</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the element to get.</param>
+        <summary>
+            Gets the element at the specified index in the current collection.
+            </summary>
+        <value>The element at the specified index in the read-only list.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index is out of range.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

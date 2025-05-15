@@ -1,12 +1,13 @@
 <Type Name="IMessenger" FullName="CommunityToolkit.Mvvm.Messaging.IMessenger">
   <TypeSignature Language="C#" Value="public interface IMessenger" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMessenger" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IMessenger" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Messaging.IMessenger" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMessenger" />
   <TypeSignature Language="F#" Value="type IMessenger = interface" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -19,7 +20,7 @@
             <code>
             public sealed class LoginCompletedMessage { }
             </code>
-            Then, register your a recipient for this message:
+            Then, register a recipient for this message:
             <code>
             Messenger.Default.Register&lt;MyRecipientType, LoginCompletedMessage&gt;(this, (r, m) =&gt;
             {
@@ -73,7 +74,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -98,7 +99,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -129,6 +130,7 @@
             </summary>
         <returns>Whether or not <paramref name="recipient" /> has already been registered for the specified message.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="recipient" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TRecipient,TMessage,TToken&gt;">
@@ -140,7 +142,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -178,6 +180,7 @@
             Registers a recipient for a given type of message.
             </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="recipient" />, <paramref name="token" /> or <paramref name="handler" /> are <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
       </Docs>
     </Member>
@@ -190,7 +193,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -212,7 +215,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TMessage</ReturnType>
@@ -243,6 +246,7 @@
             </summary>
         <returns>The message that was sent (ie. <paramref name="message" />).</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="message" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Unregister&lt;TMessage,TToken&gt;">
@@ -254,7 +258,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -284,6 +288,7 @@
             Unregisters a recipient from messages of a given type.
             </summary>
         <remarks>If the recipient has no registered handler, this method does nothing.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="recipient" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="UnregisterAll">
@@ -295,7 +300,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -313,6 +318,7 @@
             Use this method as an easy way to lose all references to a target recipient.
             If the recipient has no registered handler, this method does nothing.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="recipient" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="UnregisterAll&lt;TToken&gt;">
@@ -324,7 +330,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -348,6 +354,7 @@
             Unregisters a recipient from all messages on a specific channel.
             </summary>
         <remarks>If the recipient has no registered handler, this method does nothing.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="recipient" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
   </Members>

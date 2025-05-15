@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.UI.Xaml.Controls.Control</BaseTypeName>
@@ -14,20 +15,24 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="ControlName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
-      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="ControlName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="ControlType", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
-      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="ControlType", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlType", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlType", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="ControlAutomationName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
-      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="ControlAutomationName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlAutomationName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlAutomationName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="ControlFirstParentWithName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
-      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="ControlFirstParentWithName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlFirstParentWithName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_ControlFirstParentWithName", Type=typeof(Microsoft.UI.Xaml.Controls.TextBlock))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -45,7 +50,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -64,7 +69,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -86,7 +91,7 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
@@ -107,7 +112,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

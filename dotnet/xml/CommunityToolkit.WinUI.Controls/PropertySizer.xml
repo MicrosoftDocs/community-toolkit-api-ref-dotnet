@@ -1,0 +1,293 @@
+<Type Name="PropertySizer" FullName="CommunityToolkit.WinUI.Controls.PropertySizer">
+  <TypeSignature Language="C#" Value="public class PropertySizer : CommunityToolkit.WinUI.Controls.SizerBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PropertySizer extends CommunityToolkit.WinUI.Controls.SizerBase" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.PropertySizer" />
+  <TypeSignature Language="VB.NET" Value="Public Class PropertySizer&#xA;Inherits SizerBase" />
+  <TypeSignature Language="F#" Value="type PropertySizer = class&#xA;    inherit SizerBase" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.Controls.SizerBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.WinUI.Controls.PropertySizer" /> is a control which can be used to manipulate the value of another <c>double</c> based property. For instance manipulating the <c>OpenPaneLength</c> of a <c>NavigationView</c> control. If you are using a <see cref="T:Microsoft.UI.Xaml.Controls.Grid" />, use <see cref="T:CommunityToolkit.WinUI.Controls.GridSplitter" /> instead.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySizer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.PropertySizer.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Binding">
+      <MemberSignature Language="C#" Value="public double Binding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Binding" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.PropertySizer.Binding" />
+      <MemberSignature Language="VB.NET" Value="Public Property Binding As Double" />
+      <MemberSignature Language="F#" Value="member this.Binding : double with get, set" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.Binding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a two-way binding to a <c>double</c> value that the <see cref="T:CommunityToolkit.WinUI.Controls.PropertySizer" /> is manipulating.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Note that the binding should be configured to be a <c>TwoWay</c> binding in order for the control to notify the source of the changed value.
+            </remarks>
+        <example>
+            &lt;controls:PropertySizer Binding="{Binding OpenPaneLength, ElementName=ViewPanel, Mode=TwoWay}"&gt;
+            </example>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty BindingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty BindingProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.PropertySizer.BindingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BindingProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BindingProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.BindingProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.PropertySizer.Binding" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDragInverted">
+      <MemberSignature Language="C#" Value="public bool IsDragInverted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDragInverted" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.PropertySizer.IsDragInverted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDragInverted As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDragInverted : bool with get, set" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.IsDragInverted" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the <see cref="T:CommunityToolkit.WinUI.Controls.PropertySizer" /> control is resizing in the opposite direction.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDragInvertedProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IsDragInvertedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IsDragInvertedProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.PropertySizer.IsDragInvertedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsDragInvertedProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsDragInvertedProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.IsDragInvertedProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.PropertySizer.IsDragInverted" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Maximum">
+      <MemberSignature Language="C#" Value="public double Maximum { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Maximum" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.PropertySizer.Maximum" />
+      <MemberSignature Language="VB.NET" Value="Public Property Maximum As Double" />
+      <MemberSignature Language="F#" Value="member this.Maximum : double with get, set" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.Maximum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the maximum allowed value for the <see cref="T:CommunityToolkit.WinUI.Controls.PropertySizer" /> to allow for the <see cref="P:CommunityToolkit.WinUI.Controls.PropertySizer.Binding" /> value. Ignored if not provided.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty MaximumProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty MaximumProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.PropertySizer.MaximumProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaximumProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.MaximumProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.PropertySizer.Maximum" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Minimum">
+      <MemberSignature Language="C#" Value="public double Minimum { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Minimum" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.PropertySizer.Minimum" />
+      <MemberSignature Language="VB.NET" Value="Public Property Minimum As Double" />
+      <MemberSignature Language="F#" Value="member this.Minimum : double with get, set" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.Minimum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the minimum allowed value for the <see cref="T:CommunityToolkit.WinUI.Controls.PropertySizer" /> to allow for the <see cref="P:CommunityToolkit.WinUI.Controls.PropertySizer.Binding" /> value. Ignored if not provided.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty MinimumProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty MinimumProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.PropertySizer.MinimumProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.PropertySizer.MinimumProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.PropertySizer.Minimum" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragHorizontal">
+      <MemberSignature Language="C#" Value="protected override bool OnDragHorizontal (double horizontalChange);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnDragHorizontal(float64 horizontalChange) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.PropertySizer.OnDragHorizontal(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnDragHorizontal (horizontalChange As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnDragHorizontal : double -&gt; bool" Usage="propertySizer.OnDragHorizontal horizontalChange" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="horizontalChange" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="horizontalChange">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragStarting">
+      <MemberSignature Language="C#" Value="protected override void OnDragStarting ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDragStarting() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.PropertySizer.OnDragStarting" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDragStarting ()" />
+      <MemberSignature Language="F#" Value="override this.OnDragStarting : unit -&gt; unit" Usage="propertySizer.OnDragStarting " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragVertical">
+      <MemberSignature Language="C#" Value="protected override bool OnDragVertical (double verticalChange);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnDragVertical(float64 verticalChange) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.PropertySizer.OnDragVertical(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnDragVertical (verticalChange As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnDragVertical : double -&gt; bool" Usage="propertySizer.OnDragVertical verticalChange" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verticalChange" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="verticalChange">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

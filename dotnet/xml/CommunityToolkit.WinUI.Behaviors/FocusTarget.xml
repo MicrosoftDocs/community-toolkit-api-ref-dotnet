@@ -1,0 +1,803 @@
+<Type Name="FocusTarget" FullName="CommunityToolkit.WinUI.Behaviors.FocusTarget">
+  <TypeSignature Language="C#" Value="public sealed class FocusTarget : Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.IDependencyObjectStoreProvider, Uno.UI.DataBinding.IWeakReferenceProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FocusTarget extends System.Object implements class Microsoft.UI.Xaml.DependencyObject, class Microsoft.UI.Xaml.IDependencyObjectStoreProvider, class Uno.UI.DataBinding.IWeakReferenceProvider" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Behaviors.FocusTarget" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FocusTarget&#xA;Implements DependencyObject, IDependencyObjectStoreProvider, IWeakReferenceProvider" />
+  <TypeSignature Language="F#" Value="type FocusTarget = class&#xA;    interface DependencyObject&#xA;    interface IDependencyObjectStoreProvider&#xA;    interface IWeakReferenceProvider" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.UI.Xaml.DependencyObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.UI.Xaml.IDependencyObjectStoreProvider</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Uno.UI.DataBinding.IWeakReferenceProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.Data.Bindable]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.Data.Bindable&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A target for the <see cref="T:CommunityToolkit.WinUI.Behaviors.FocusBehavior" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FocusTarget ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearBindings">
+      <MemberSignature Language="C#" Value="public void ClearBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.ClearBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearBindings ()" />
+      <MemberSignature Language="F#" Value="member this.ClearBindings : unit -&gt; unit" Usage="focusTarget.ClearBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Obsolete method kept for binary compatibility
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearValue">
+      <MemberSignature Language="C#" Value="public void ClearValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.ClearValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearValue (dp As DependencyProperty)" />
+      <MemberSignature Language="F#" Value="abstract member ClearValue : Microsoft.UI.Xaml.DependencyProperty -&gt; unit&#xA;override this.ClearValue : Microsoft.UI.Xaml.DependencyProperty -&gt; unit" Usage="focusTarget.ClearValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.ClearValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Control">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.Control Control { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.Control Control" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.Control" />
+      <MemberSignature Language="VB.NET" Value="Public Property Control As Control" />
+      <MemberSignature Language="F#" Value="member this.Control : Microsoft.UI.Xaml.Controls.Control with get, set" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.Control" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.Control</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the control that will receive the focus.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler? ControlChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ControlChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Behaviors.FocusTarget.ControlChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Event ControlChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.ControlChanged : EventHandler " Usage="member this.ControlChanged : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Raised when <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.Control" /> property changed.
+            It can change if we use x:Load on the control.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ControlProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ControlProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.FocusTarget.ControlProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ControlProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ControlProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.ControlProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The DP to store the <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.Control" /> property value.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataContext">
+      <MemberSignature Language="C#" Value="public object DataContext { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DataContext" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.DataContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataContext As Object" />
+      <MemberSignature Language="F#" Value="member this.DataContext : obj with get, set" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.DataContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataContextChanged">
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; DataContextChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Microsoft.UI.Xaml.FrameworkElement, class Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; DataContextChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Behaviors.FocusTarget.DataContextChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Event DataContextChanged As TypedEventHandler(Of FrameworkElement, DataContextChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DataContextChanged : Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement, Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; " Usage="member this.DataContextChanged : Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement, Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.DataContextChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataContextProperty">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.DependencyProperty DataContextProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.UI.Xaml.DependencyProperty DataContextProperty" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.DataContextProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DataContextProperty As DependencyProperty" />
+      <MemberSignature Language="F#" Value="static member DataContextProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.DataContextProperty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispatcher">
+      <MemberSignature Language="C#" Value="public Windows.UI.Core.CoreDispatcher Dispatcher { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Windows.UI.Core.CoreDispatcher Dispatcher" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.Dispatcher" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dispatcher As CoreDispatcher" />
+      <MemberSignature Language="F#" Value="member this.Dispatcher : Windows.UI.Core.CoreDispatcher" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.Dispatcher" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.UI.Xaml.DependencyObject.Dispatcher</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.UI.Core.CoreDispatcher</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DispatcherQueue">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.DispatcherQueue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DispatcherQueue As DispatcherQueue" />
+      <MemberSignature Language="F#" Value="member this.DispatcherQueue : Microsoft.UI.Dispatching.DispatcherQueue" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.DispatcherQueue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.UI.Xaml.DependencyObject.DispatcherQueue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Dispatching.DispatcherQueue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimationBaseValue">
+      <MemberSignature Language="C#" Value="public object GetAnimationBaseValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetAnimationBaseValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.GetAnimationBaseValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAnimationBaseValue (dp As DependencyProperty) As Object" />
+      <MemberSignature Language="F#" Value="abstract member GetAnimationBaseValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj&#xA;override this.GetAnimationBaseValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj" Usage="focusTarget.GetAnimationBaseValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.GetAnimationBaseValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBindingExpression">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Data.BindingExpression GetBindingExpression (Microsoft.UI.Xaml.DependencyProperty dependencyProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.UI.Xaml.Data.BindingExpression GetBindingExpression(class Microsoft.UI.Xaml.DependencyProperty dependencyProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.GetBindingExpression(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBindingExpression (dependencyProperty As DependencyProperty) As BindingExpression" />
+      <MemberSignature Language="F#" Value="member this.GetBindingExpression : Microsoft.UI.Xaml.DependencyProperty -&gt; Microsoft.UI.Xaml.Data.BindingExpression" Usage="focusTarget.GetBindingExpression dependencyProperty" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Data.BindingExpression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyProperty" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyProperty">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValue">
+      <MemberSignature Language="C#" Value="public object GetValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.GetValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValue (dp As DependencyProperty) As Object" />
+      <MemberSignature Language="F#" Value="abstract member GetValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj&#xA;override this.GetValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj" Usage="focusTarget.GetValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.GetValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsStoreInitialized">
+      <MemberSignature Language="C#" Value="public bool IsStoreInitialized { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsStoreInitialized" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.IsStoreInitialized" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsStoreInitialized As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsStoreInitialized : bool" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.IsStoreInitialized" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store">
+      <MemberSignature Language="C#" Value="Microsoft.UI.Xaml.DependencyObjectStore Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DependencyObjectStore Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.Microsoft#UI#Xaml#IDependencyObjectStoreProvider#Store" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Store As DependencyObjectStore Implements IDependencyObjectStoreProvider.Store" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store : Microsoft.UI.Xaml.DependencyObjectStore" Usage="Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyObjectStore</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadLocalValue">
+      <MemberSignature Language="C#" Value="public object ReadLocalValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ReadLocalValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.ReadLocalValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReadLocalValue (dp As DependencyProperty) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ReadLocalValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj&#xA;override this.ReadLocalValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj" Usage="focusTarget.ReadLocalValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.ReadLocalValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterPropertyChangedCallback">
+      <MemberSignature Language="C#" Value="public long RegisterPropertyChangedCallback (Microsoft.UI.Xaml.DependencyProperty dp, Microsoft.UI.Xaml.DependencyPropertyChangedCallback callback);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int64 RegisterPropertyChangedCallback(class Microsoft.UI.Xaml.DependencyProperty dp, class Microsoft.UI.Xaml.DependencyPropertyChangedCallback callback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.RegisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.DependencyPropertyChangedCallback)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RegisterPropertyChangedCallback (dp As DependencyProperty, callback As DependencyPropertyChangedCallback) As Long" />
+      <MemberSignature Language="F#" Value="abstract member RegisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * Microsoft.UI.Xaml.DependencyPropertyChangedCallback -&gt; int64&#xA;override this.RegisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * Microsoft.UI.Xaml.DependencyPropertyChangedCallback -&gt; int64" Usage="focusTarget.RegisterPropertyChangedCallback (dp, callback)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.DependencyPropertyChangedCallback)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="callback" Type="Microsoft.UI.Xaml.DependencyPropertyChangedCallback" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <param name="callback">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreBindings">
+      <MemberSignature Language="C#" Value="public void RestoreBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RestoreBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.RestoreBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RestoreBindings ()" />
+      <MemberSignature Language="F#" Value="member this.RestoreBindings : unit -&gt; unit" Usage="focusTarget.RestoreBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Obsolete method kept for binary compatibility
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResumeBindings">
+      <MemberSignature Language="C#" Value="public void ResumeBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ResumeBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.ResumeBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResumeBindings ()" />
+      <MemberSignature Language="F#" Value="member this.ResumeBindings : unit -&gt; unit" Usage="focusTarget.ResumeBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBinding">
+      <MemberSignature Language="C#" Value="public void SetBinding (Microsoft.UI.Xaml.DependencyProperty dependencyProperty, Microsoft.UI.Xaml.Data.BindingBase binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(class Microsoft.UI.Xaml.DependencyProperty dependencyProperty, class Microsoft.UI.Xaml.Data.BindingBase binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.SetBinding(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.Data.BindingBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (dependencyProperty As DependencyProperty, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : Microsoft.UI.Xaml.DependencyProperty * Microsoft.UI.Xaml.Data.BindingBase -&gt; unit" Usage="focusTarget.SetBinding (dependencyProperty, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyProperty" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="binding" Type="Microsoft.UI.Xaml.Data.BindingBase" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyProperty">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBinding">
+      <MemberSignature Language="C#" Value="public void SetBinding (string dependencyProperty, Microsoft.UI.Xaml.Data.BindingBase binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(string dependencyProperty, class Microsoft.UI.Xaml.Data.BindingBase binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.SetBinding(System.String,Microsoft.UI.Xaml.Data.BindingBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (dependencyProperty As String, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : string * Microsoft.UI.Xaml.Data.BindingBase -&gt; unit" Usage="focusTarget.SetBinding (dependencyProperty, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyProperty" Type="System.String" />
+        <Parameter Name="binding" Type="Microsoft.UI.Xaml.Data.BindingBase" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyProperty">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBinding">
+      <MemberSignature Language="C#" Value="public void SetBinding (object target, string dependencyProperty, Microsoft.UI.Xaml.Data.BindingBase binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(object target, string dependencyProperty, class Microsoft.UI.Xaml.Data.BindingBase binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.SetBinding(System.Object,System.String,Microsoft.UI.Xaml.Data.BindingBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (target As Object, dependencyProperty As String, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : obj * string * Microsoft.UI.Xaml.Data.BindingBase -&gt; unit" Usage="focusTarget.SetBinding (target, dependencyProperty, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="System.Object" />
+        <Parameter Name="dependencyProperty" Type="System.String" />
+        <Parameter Name="binding" Type="Microsoft.UI.Xaml.Data.BindingBase" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="dependencyProperty">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBindingValue">
+      <MemberSignature Language="C#" Value="public void SetBindingValue (object value, string propertyName = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBindingValue(object value, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.SetBindingValue(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBindingValue (value As Object, Optional propertyName As String = Nothing)" />
+      <MemberSignature Language="F#" Value="member this.SetBindingValue : obj * string -&gt; unit" Usage="focusTarget.SetBindingValue (value, propertyName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="propertyName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetValue">
+      <MemberSignature Language="C#" Value="public void SetValue (Microsoft.UI.Xaml.DependencyProperty dp, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetValue(class Microsoft.UI.Xaml.DependencyProperty dp, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.SetValue(Microsoft.UI.Xaml.DependencyProperty,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetValue (dp As DependencyProperty, value As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SetValue : Microsoft.UI.Xaml.DependencyProperty * obj -&gt; unit&#xA;override this.SetValue : Microsoft.UI.Xaml.DependencyProperty * obj -&gt; unit" Usage="focusTarget.SetValue (dp, value)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.SetValue(Microsoft.UI.Xaml.DependencyProperty,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuspendBindings">
+      <MemberSignature Language="C#" Value="public void SuspendBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SuspendBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.SuspendBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SuspendBindings ()" />
+      <MemberSignature Language="F#" Value="member this.SuspendBindings : unit -&gt; unit" Usage="focusTarget.SuspendBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplatedParent">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.DependencyObject TemplatedParent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DependencyObject TemplatedParent" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.TemplatedParent" />
+      <MemberSignature Language="VB.NET" Value="Public Property TemplatedParent As DependencyObject" />
+      <MemberSignature Language="F#" Value="member this.TemplatedParent : Microsoft.UI.Xaml.DependencyObject with get, set" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.TemplatedParent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplatedParentProperty">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.DependencyProperty TemplatedParentProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.UI.Xaml.DependencyProperty TemplatedParentProperty" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.TemplatedParentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TemplatedParentProperty As DependencyProperty" />
+      <MemberSignature Language="F#" Value="static member TemplatedParentProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Behaviors.FocusTarget.TemplatedParentProperty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="focusTarget.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference">
+      <MemberSignature Language="C#" Value="Uno.UI.DataBinding.ManagedWeakReference Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Uno.UI.DataBinding.ManagedWeakReference Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusTarget.Uno#UI#DataBinding#IWeakReferenceProvider#WeakReference" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property WeakReference As ManagedWeakReference Implements IWeakReferenceProvider.WeakReference" />
+      <MemberSignature Language="F#" Value="member this.Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference : Uno.UI.DataBinding.ManagedWeakReference" Usage="Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Uno.UI.DataBinding.ManagedWeakReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnregisterPropertyChangedCallback">
+      <MemberSignature Language="C#" Value="public void UnregisterPropertyChangedCallback (Microsoft.UI.Xaml.DependencyProperty dp, long token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnregisterPropertyChangedCallback(class Microsoft.UI.Xaml.DependencyProperty dp, int64 token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusTarget.UnregisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnregisterPropertyChangedCallback (dp As DependencyProperty, token As Long)" />
+      <MemberSignature Language="F#" Value="abstract member UnregisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * int64 -&gt; unit&#xA;override this.UnregisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * int64 -&gt; unit" Usage="focusTarget.UnregisterPropertyChangedCallback (dp, token)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,System.Int64)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="token" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

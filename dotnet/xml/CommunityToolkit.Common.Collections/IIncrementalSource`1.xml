@@ -1,12 +1,13 @@
 <Type Name="IIncrementalSource&lt;TSource&gt;" FullName="CommunityToolkit.Common.Collections.IIncrementalSource&lt;TSource&gt;">
   <TypeSignature Language="C#" Value="public interface IIncrementalSource&lt;TSource&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IIncrementalSource`1&lt;TSource&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IIncrementalSource`1&lt;TSource&gt;" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Common.Collections.IIncrementalSource`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IIncrementalSource(Of TSource)" />
   <TypeSignature Language="F#" Value="type IIncrementalSource&lt;'Source&gt; = interface" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Common</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TSource" />
@@ -29,7 +30,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;TSource&gt;&gt;</ReturnType>

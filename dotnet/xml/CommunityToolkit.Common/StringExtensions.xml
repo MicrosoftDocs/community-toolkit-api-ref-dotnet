@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Common</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,47 +20,6 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName="AsFormat">
-      <MemberSignature Language="C#" Value="public static string AsFormat (this string format, params object[] args);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsFormat(string format, object[] args) cil managed" />
-      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.StringExtensions.AsFormat(System.String,System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsFormat (format As String, ParamArray args As Object()) As String" />
-      <MemberSignature Language="F#" Value="static member AsFormat : string * obj[] -&gt; string" Usage="CommunityToolkit.Common.StringExtensions.AsFormat (format, args)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Obsolete("This method will be removed in a future version of the Toolkit. Use the native C# string interpolation syntax instead, see: https://docs.microsoft.com/dotnet/csharp/language-reference/tokens/interpolated")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Obsolete("This method will be removed in a future version of the Toolkit. Use the native C# string interpolation syntax instead, see: https://docs.microsoft.com/dotnet/csharp/language-reference/tokens/interpolated")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="format" Type="System.String" RefType="this" />
-        <Parameter Name="args" Type="System.Object[]">
-          <Attributes>
-            <Attribute>
-              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
-      </Parameters>
-      <Docs>
-        <param name="format">The format of the string being linked.</param>
-        <param name="args">The object which will receive the linked String.</param>
-        <summary>
-            Provide better linking for resourced strings.
-            </summary>
-        <returns>Truncated string.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="DecodeHtml">
       <MemberSignature Language="C#" Value="public static string? DecodeHtml (this string? htmlText);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string DecodeHtml(string htmlText) cil managed" />
@@ -69,16 +29,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
-        <Attributes>
-          <Attribute>
-            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("htmlText")]</AttributeName>
-            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("htmlText")&gt;]</AttributeName>
-          </Attribute>
-        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="htmlText" Type="System.String" RefType="this" />
@@ -101,7 +55,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -127,7 +81,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -154,20 +108,13 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" RefType="this">
-          <Attributes>
-            <Attribute>
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="str" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
         <param name="str">The string to test.</param>
@@ -188,7 +135,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -215,20 +162,13 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" RefType="this">
-          <Attributes>
-            <Attribute>
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="str" Type="System.String" RefType="this" />
       </Parameters>
       <Docs>
         <param name="str">The string to test.</param>
@@ -249,7 +189,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -276,7 +216,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -304,7 +244,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

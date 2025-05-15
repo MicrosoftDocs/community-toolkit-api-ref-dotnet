@@ -1,0 +1,1489 @@
+{
+  "Assembly": "CommunityToolkit.Mvvm",
+  "GUID": "94AAB9E6451E4D168B51779F2A22C450FFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.IsRegistered``2(System.Object,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.Register``3(``0,``2,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.UnregisterAll(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.UnregisterAll``1(System.Object,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.Unregister``2(System.Object,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.Send``2(``0,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.Cleanup",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessenger.Reset",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.IMessenger",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessenger.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.IsRegistered``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L76C9-L79C75"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.RegisterAll(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L99C9-L130C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.RegisterAll``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L155C9-L245C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``1(CommunityToolkit.Mvvm.Messaging.IMessenger,CommunityToolkit.Mvvm.Messaging.IRecipient{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L259C9-L274C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``2(CommunityToolkit.Mvvm.Messaging.IMessenger,CommunityToolkit.Mvvm.Messaging.IRecipient{``0},``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L291C9-L307C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,CommunityToolkit.Mvvm.Messaging.MessageHandler{System.Object,``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L322C9-L327C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``0,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L344C9-L349C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``2(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,``1,CommunityToolkit.Mvvm.Messaging.MessageHandler{System.Object,``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L366C9-L372C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Unregister``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L388C9-L392C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``1(CommunityToolkit.Mvvm.Messaging.IMessenger)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L409C9-L411C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``1(CommunityToolkit.Mvvm.Messaging.IMessenger,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L425C9-L428C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs#L448C9-L451C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable``1(CommunityToolkit.Mvvm.Messaging.IMessenger)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.Observables.cs#L30C9-L32C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.Observables.cs#L48C9-L51C67"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IMessengerExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.IRecipient`1.Receive(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IRecipient%7BTMessage%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.IRecipient`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/IRecipient%7BTMessage%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.MessageHandler`2.#ctor(System.Object,System.IntPtr)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/MessageHandler%7BTRecipient%2CTMessage%7D.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.MessageHandler`2.Invoke(`0,`1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/MessageHandler%7BTRecipient%2CTMessage%7D.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.MessageHandler`2.BeginInvoke(`0,`1,System.AsyncCallback,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/MessageHandler%7BTRecipient%2CTMessage%7D.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.MessageHandler`2.EndInvoke(System.IAsyncResult)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/MessageHandler%7BTRecipient%2CTMessage%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.MessageHandler`2",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/MessageHandler%7BTRecipient%2CTMessage%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.IsRegistered``2(System.Object,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L108C9-L138C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Register``3(``0,``2,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L146C9-L151C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.UnregisterAll(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L228C9-L261C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.UnregisterAll``1(System.Object,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L267C9-L392C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Unregister``2(System.Object,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L399C9-L489C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Send``2(``0,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L496C9-L605C24"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.CommunityToolkit#Mvvm#Messaging#IMessenger#Cleanup",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L616C5-L616C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Reset",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L621C9-L626C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L86C5-L96C68"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Default",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs#L101C54-L101C58"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/StrongReferenceMessenger.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L63C5-L86C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.IsRegistered``2(System.Object,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L98C9-L123C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Register``3(``0,``2,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L131C9-L136C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.UnregisterAll(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L210C9-L224C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.UnregisterAll``1(System.Object,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L230C9-L258C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Unregister``2(System.Object,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L265C9-L286C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Send``2(``0,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L293C9-L351C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Cleanup",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L425C9-L429C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Reset",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L434C9-L438C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Default",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs#L91C52-L91C56"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/WeakReferenceMessenger.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.Reply(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs#L72C9-L73C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.Reply(System.Threading.Tasks.Task{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs#L82C9-L85C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.Reply(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs#L94C9-L97C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.GetResponsesAsync(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.GetAsyncEnumerator(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs#L26C5-L32C78"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.CancellationToken",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs#L64C51-L64C85"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncCollectionRequestMessage%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.Reply(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs#L50C9-L51C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.Reply(System.Threading.Tasks.Task{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs#L61C9-L71C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.GetAwaiter",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs#L78C9-L78C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.Response",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs#L29C13-L34C35"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.HasReceivedResponse",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs#L41C39-L41C43"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/AsyncRequestMessage%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.Reply(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/CollectionRequestMessage%7BT%7D.cs#L31C9-L32C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/CollectionRequestMessage%7BT%7D.cs#L39C9-L39C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.System#Collections#IEnumerable#GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/CollectionRequestMessage%7BT%7D.cs#L45C9-L45C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/CollectionRequestMessage%7BT%7D.cs#L18C5-L18C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.Responses",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/CollectionRequestMessage%7BT%7D.cs#L23C48-L23C62"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/CollectionRequestMessage%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.#ctor(System.Object,System.String,`0,`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/PropertyChangedMessage%7BT%7D.cs#L24C5-L32C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.Sender",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/PropertyChangedMessage%7BT%7D.cs#L37C28-L37C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.PropertyName",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/PropertyChangedMessage%7BT%7D.cs#L42C35-L42C39"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.OldValue",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/PropertyChangedMessage%7BT%7D.cs#L47C25-L47C29"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.NewValue",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/PropertyChangedMessage%7BT%7D.cs#L52C25-L52C29"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/PropertyChangedMessage%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.Reply(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/RequestMessage%7BT%7D.cs#L49C9-L57C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.op_Implicit(CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage{`0})~`0",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/RequestMessage%7BT%7D.cs#L67C9-L69C33"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/RequestMessage%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.Response",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/RequestMessage%7BT%7D.cs#L28C13-L33C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.HasReceivedResponse",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/RequestMessage%7BT%7D.cs#L40C39-L40C43"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/RequestMessage%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1.#ctor(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/ValueChangedMessage%7BT%7D.cs#L17C5-L20C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1.Value",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/ValueChangedMessage%7BT%7D.cs#L25C22-L25C26"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Messaging/Messages/ValueChangedMessage%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L83C5-L88C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L96C5-L102C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L109C5-L114C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L122C5-L128C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L136C5-L143C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L152C5-L160C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Func{System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L168C5-L175C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Func{System.Boolean},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L184C5-L192C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CommunityToolkit#Mvvm#Input#Internals#ICancellationAwareCommand#get_IsCancellationSupported",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L262C63-L262C83"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.NotifyCanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L267C9-L268C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CanExecute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L274C9-L276C152"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.Execute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L282C9-L290C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.ExecuteAsync(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L297C9-L319C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.Cancel",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L325C9-L332C6"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.PropertyChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.ExecutionTask",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L199C16-L199C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CanBeCanceled",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L253C34-L253C113"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.IsCancellationRequested",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L256C44-L256C109"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.IsRunning",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L259C30-L259C69"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CommunityToolkit#Mvvm#Input#Internals#ICancellationAwareCommand#IsCancellationSupported",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs#L262C63-L262C83"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommandOptions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.None",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommandOptions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.AllowConcurrentExecutions",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommandOptions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.FlowExceptionsToTaskScheduler",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommandOptions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommandOptions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L60C5-L65C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L74C5-L80C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L88C5-L93C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L102C5-L108C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Predicate{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L117C5-L124C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Predicate{`0},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L134C5-L142C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Predicate{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L151C5-L158C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Predicate{`0},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L168C5-L176C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CommunityToolkit#Mvvm#Input#Internals#ICancellationAwareCommand#get_IsCancellationSupported",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L244C63-L244C83"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.NotifyCanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L249C9-L250C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanExecute(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L256C9-L258C152"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanExecute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L266C9-L276C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.Execute(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L283C9-L289C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.Execute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L294C9-L300C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.ExecuteAsync(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L307C9-L329C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.ExecuteAsync(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L335C9-L340C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.Cancel",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L346C9-L353C6"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.PropertyChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.ExecutionTask",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L183C16-L183C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanBeCanceled",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L235C34-L235C113"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.IsCancellationRequested",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L238C44-L238C109"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.IsRunning",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L241C30-L241C69"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CommunityToolkit#Mvvm#Input#Internals#ICancellationAwareCommand#IsCancellationSupported",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs#L244C63-L244C83"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/AsyncRelayCommand%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Attributes/RelayCommandAttribute.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.CanExecute",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Attributes/RelayCommandAttribute.cs#L74C33-L74C37"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.AllowConcurrentExecutions",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Attributes/RelayCommandAttribute.cs#L87C45-L87C49"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.FlowExceptionsToTaskScheduler",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Attributes/RelayCommandAttribute.cs#L100C49-L100C53"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.IncludeCancelCommand",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Attributes/RelayCommandAttribute.cs#L118C40-L118C44"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.RelayCommandAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Attributes/RelayCommandAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions.CreateCancelCommand(CommunityToolkit.Mvvm.Input.IAsyncRelayCommand)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/IAsyncRelayCommandExtensions.cs#L25C9-L34C43"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/IAsyncRelayCommandExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.ExecuteAsync(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.Cancel",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.ExecutionTask",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.CanBeCanceled",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.IsCancellationRequested",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.IsRunning",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1.ExecuteAsync(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IAsyncRelayCommand%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IRelayCommand.NotifyCanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IRelayCommand.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.IRelayCommand",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IRelayCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IRelayCommand`1.CanExecute(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IRelayCommand%7BT%7D.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.IRelayCommand`1.Execute(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IRelayCommand%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.IRelayCommand`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/Interfaces/IRelayCommand%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand.#ctor(System.Action)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs#L39C5-L44C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand.#ctor(System.Action,System.Func{System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs#L52C5-L59C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand.NotifyCanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs#L64C9-L65C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand.CanExecute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs#L71C9-L71C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand.Execute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs#L77C9-L78C6"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.Input.RelayCommand.CanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.RelayCommand",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L46C5-L51C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0},System.Predicate{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L60C5-L67C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.NotifyCanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L72C9-L73C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.CanExecute(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L79C9-L79C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.CanExecute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L87C9-L97C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.Execute(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L104C9-L105C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Input.RelayCommand`1.Execute(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs#L110C9-L116C6"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.Input.RelayCommand`1.CanExecuteChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Input.RelayCommand`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Input/RelayCommand%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.GetService(System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs#L59C9-L79C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.GetService``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs#L91C9-L98C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.GetRequiredService``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs#L113C9-L127C25"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.ConfigureServices(System.IServiceProvider)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs#L137C9-L145C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs#L49C33-L49C37"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.DependencyInjection.Ioc",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/DependencyInjection/Ioc.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/INotifyPropertyChangedAttribute.cs#L36C65-L36C69"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute.IncludeAdditionalHelperMethods",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/INotifyPropertyChangedAttribute.cs#L36C50-L36C54"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/INotifyPropertyChangedAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute.#ctor(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyCanExecuteChangedForAttribute.cs#L61C5-L64C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute.#ctor(System.String,System.String[])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyCanExecuteChangedForAttribute.cs#L74C5-L77C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute.CommandNames",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyCanExecuteChangedForAttribute.cs#L82C36-L82C40"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyCanExecuteChangedForAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyDataErrorInfoAttribute.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyDataErrorInfoAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute.#ctor(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyPropertyChangedForAttribute.cs#L92C5-L95C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute.#ctor(System.String,System.String[])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyPropertyChangedForAttribute.cs#L105C5-L108C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute.PropertyNames",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyPropertyChangedForAttribute.cs#L113C37-L113C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyPropertyChangedForAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyPropertyChangedRecipientsAttribute.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/NotifyPropertyChangedRecipientsAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/ObservableObjectAttribute.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/ObservableObjectAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/ObservablePropertyAttribute.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/ObservablePropertyAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipientAttribute.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/ObservableRecipientAttribute.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipientAttribute",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/Attributes/ObservableRecipientAttribute.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L46C9-L49C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L58C9-L67C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanged(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L75C9-L76C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanging(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L85C9-L91C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0@,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L117C9-L128C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L146C9-L159C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0,``0,System.Action{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L188C9-L202C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L221C9-L235C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L294C9-L308C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L331C9-L346C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier@,System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L390C9-L390C116"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L413C9-L415C120"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion``1(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L454C9-L454C119"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion``1(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L478C9-L480C123"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanging",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L31C11-L33C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.#ctor(CommunityToolkit.Mvvm.Messaging.IMessenger)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L40C5-L45C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnActivated",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L112C9-L113C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnDeactivated",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L127C9-L128C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.Broadcast``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L144C9-L147C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0@,``0,System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L168C9-L179C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L198C9-L209C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0,``0,System.Action{``0},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L235C9-L244C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L264C9-L274C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L298C9-L308C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L334C9-L345C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.Messenger",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L50C38-L50C42"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.IsActive",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs#L59C16-L59C29"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableRecipient.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L54C5-L76C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor(System.Collections.Generic.IDictionary{System.Object,System.Object})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L54C5-L88C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor(System.IServiceProvider,System.Collections.Generic.IDictionary{System.Object,System.Object})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L54C5-L101C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor(System.ComponentModel.DataAnnotations.ValidationContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L54C5-L123C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0@,``0,System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L151C9-L160C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L180C9-L190C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0,``0,System.Action{``0},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L217C9-L227C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L248C9-L259C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L284C9-L295C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L322C9-L334C32"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0@,``0,System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L351C9-L354C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L372C9-L376C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0,``0,System.Action{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L394C9-L398C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L417C9-L422C82"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L443C9-L448C79"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L470C9-L476C89"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ClearErrors(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L489C9-L497C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.GetErrors(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L503C9-L526C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.System#ComponentModel#INotifyDataErrorInfo#GetErrors(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L530C73-L530C96"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ValidateAllProperties",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L618C9-L621C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ValidateProperty(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L633C9-L697C6"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ErrorsChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.HasErrors",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs#L127C30-L127C50"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableValidator.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorHelper.ValidateProperty(CommunityToolkit.Mvvm.ComponentModel.ObservableValidator,System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__ObservableValidatorHelper.cs#L33C9-L34C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorHelper",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__ObservableValidatorHelper.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.GetAwaitableWithoutEndValidation(System.Threading.Tasks.Task)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L29C9-L29C26"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup.Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup.Count",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup.Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2.Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`1.Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup%7BTKey%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/IReadOnlyObservableGroup%7BTKey%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.FirstGroupByKey``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L32C9-L48C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.FirstGroupByKeyOrDefault``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L63C9-L92C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L106C9-L113C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},System.Linq.IGrouping{``0,``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L128C9-L135C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IEnumerable{``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L151C9-L159C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L174C9-L220C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},System.Linq.IGrouping{``0,``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L235C9-L281C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IEnumerable{``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L297C9-L344C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IComparer{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L360C9-L407C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},System.Linq.IGrouping{``0,``1},System.Collections.Generic.IComparer{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L423C9-L470C64"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L487C9-L535C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L552C9-L568C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L584C9-L632C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IComparer{``0},``1,System.Collections.Generic.IComparer{``1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L655C9-L705C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.RemoveGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L720C9-L760C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.RemoveItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,``1,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs#L776C9-L827C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollectionExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L24C5-L26C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.#ctor(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{`0,`1}})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L34C11-L36C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Linq#ILookup<TKey,TElement>#get_Item(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L43C13-L50C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Linq#ILookup<TKey,TElement>#Contains(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L70C9-L70C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Collections#Generic#IEnumerable<System#Linq#IGrouping<TKey,TElement>>#GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L76C9-L76C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Linq#ILookup<TKey,TElement>#Item(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L43C13-L50C59"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroupedCollection%7BTKey%2CTElement%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.#ctor(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L30C5-L35C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.#ctor(System.Linq.IGrouping{`0,`1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L43C11-L46C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.#ctor(`0,System.Collections.Generic.IEnumerable{`1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L55C11-L60C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#get_Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L98C44-L98C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#get_Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L101C57-L101C68"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L70C16-L70C24"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L98C44-L98C47"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs#L101C57-L101C68"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.ObservableGroup`2",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ObservableGroup%7BTKey%2CTElement%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.#ctor(System.Collections.ObjectModel.ObservableCollection{CommunityToolkit.Mvvm.Collections.ObservableGroup{`0,`1}})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L29C11-L32C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.#ctor(System.Collections.ObjectModel.ObservableCollection{CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup{`0,`1}})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L40C11-L42C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Linq#ILookup<TKey,TElement>#get_Item(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L49C13-L56C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Linq#ILookup<TKey,TElement>#Contains(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L63C9-L63C77"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Collections#Generic#IEnumerable<System#Linq#IGrouping<TKey,TElement>>#GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L69C9-L69C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Linq#ILookup<TKey,TElement>#Item(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs#L49C13-L56C59"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroupedCollection%7BTKey%2CTElement%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.#ctor(`0,System.Collections.ObjectModel.ObservableCollection{`1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L26C11-L31C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.#ctor(CommunityToolkit.Mvvm.Collections.ObservableGroup{`0,`1})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L39C11-L42C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#get_Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L48C44-L48C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#get_Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L51C57-L51C68"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L45C23-L45C27"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Key",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L48C44-L48C47"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs#L51C57-L51C68"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/Collections/ReadOnlyObservableGroup%7BTKey%2CTElement%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier.CommunityToolkit#Mvvm#ComponentModel#ObservableObject#ITaskNotifier<System#Threading#Tasks#Task>#get_Task",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L588C20-L588C29"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier.CommunityToolkit#Mvvm#ComponentModel#ObservableObject#ITaskNotifier<System#Threading#Tasks#Task>#set_Task(System.Threading.Tasks.Task)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L589C20-L589C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier.op_Implicit(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier)~System.Threading.Tasks.Task",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L598C13-L598C35"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier.CommunityToolkit#Mvvm#ComponentModel#ObservableObject#ITaskNotifier<System#Threading#Tasks#Task>#Task",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L588C20-L588C29"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1.CommunityToolkit#Mvvm#ComponentModel#ObservableObject#ITaskNotifier<System#Threading#Tasks#Task<T>>#get_Task",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L620C20-L620C29"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1.CommunityToolkit#Mvvm#ComponentModel#ObservableObject#ITaskNotifier<System#Threading#Tasks#Task<T>>#set_Task(System.Threading.Tasks.Task{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L621C20-L621C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1.op_Implicit(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L630C13-L630C35"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1.CommunityToolkit#Mvvm#ComponentModel#ObservableObject#ITaskNotifier<System#Threading#Tasks#Task<T>>#Task",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs#L620C20-L620C29"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/ObservableObject.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.#ctor(System.Threading.Tasks.Task)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L51C13-L52C10"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.GetAwaiter",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L61C13-L61C35"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.#ctor(System.Threading.Tasks.Task)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L80C17-L81C14"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.GetResult",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L100C13-L100C14"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.OnCompleted(System.Action)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L106C17-L107C14"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.UnsafeOnCompleted(System.Action)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L113C17-L114C14"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.IsCompleted",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs#L90C24-L90C52"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Mvvm/ComponentModel/__Internals/__TaskExtensions.cs"
+    }
+  ]
+}

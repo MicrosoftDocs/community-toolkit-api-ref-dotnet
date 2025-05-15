@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
@@ -26,7 +27,7 @@
             hashing the same <see cref="T:System.ReadOnlySpan`1" /> collection multiple times in the same process will always
             result in the same hash code, while the same collection being hashed again from another process
             (or another instance of the same process) is not guaranteed to result in the same final value.
-            For more info, see <see href="https://docs.microsoft.com/en-us/dotnet/api/system.object.gethashcode#remarks" />.
+            For more info, see <see href="https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode#remarks" />.
             </remarks>
   </Docs>
   <Members>
@@ -39,7 +40,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
