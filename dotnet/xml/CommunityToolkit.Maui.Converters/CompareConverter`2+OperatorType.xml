@@ -1,0 +1,172 @@
+<Type Name="CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType" FullName="CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType">
+  <TypeSignature Language="C#" Value="public enum CompareConverter&lt;TValue,TReturnObject&gt;.OperatorType" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed CompareConverter`2/OperatorType&lt;(class System.IComparable) TValue, TReturnObject&gt; extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CompareConverter(Of TValue, TReturnObject).OperatorType" />
+  <TypeSignature Language="F#" Value="type CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; IComparable)&gt;.OperatorType = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TValue">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <InterfaceName>System.IComparable</InterfaceName>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TReturnObject" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Math operator type
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equal">
+      <MemberSignature Language="C#" Value="Equal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.CompareConverter`2/OperatorType&lt;!TValue, !TReturnObject&gt; Equal" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType.Equal" />
+      <MemberSignature Language="VB.NET" Value="Equal" />
+      <MemberSignature Language="F#" Value="Equal = 4" Usage="CommunityToolkit.Maui.Converters.CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.OperatorType.Equal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Equal Operator
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Greater">
+      <MemberSignature Language="C#" Value="Greater" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.CompareConverter`2/OperatorType&lt;!TValue, !TReturnObject&gt; Greater" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType.Greater" />
+      <MemberSignature Language="VB.NET" Value="Greater" />
+      <MemberSignature Language="F#" Value="Greater = 8" Usage="CommunityToolkit.Maui.Converters.CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.OperatorType.Greater" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Greater Operator
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GreaterOrEqual">
+      <MemberSignature Language="C#" Value="GreaterOrEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.CompareConverter`2/OperatorType&lt;!TValue, !TReturnObject&gt; GreaterOrEqual" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType.GreaterOrEqual" />
+      <MemberSignature Language="VB.NET" Value="GreaterOrEqual" />
+      <MemberSignature Language="F#" Value="GreaterOrEqual = 16" Usage="CommunityToolkit.Maui.Converters.CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.OperatorType.GreaterOrEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+            Greater or Equal Operator
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotEqual">
+      <MemberSignature Language="C#" Value="NotEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.CompareConverter`2/OperatorType&lt;!TValue, !TReturnObject&gt; NotEqual" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType.NotEqual" />
+      <MemberSignature Language="VB.NET" Value="NotEqual" />
+      <MemberSignature Language="F#" Value="NotEqual = 0" Usage="CommunityToolkit.Maui.Converters.CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.OperatorType.NotEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Not Equal Operator
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Smaller">
+      <MemberSignature Language="C#" Value="Smaller" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.CompareConverter`2/OperatorType&lt;!TValue, !TReturnObject&gt; Smaller" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType.Smaller" />
+      <MemberSignature Language="VB.NET" Value="Smaller" />
+      <MemberSignature Language="F#" Value="Smaller = 1" Usage="CommunityToolkit.Maui.Converters.CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.OperatorType.Smaller" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Smaller Operator
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SmallerOrEqual">
+      <MemberSignature Language="C#" Value="SmallerOrEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.CompareConverter`2/OperatorType&lt;!TValue, !TReturnObject&gt; SmallerOrEqual" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.CompareConverter`2.OperatorType.SmallerOrEqual" />
+      <MemberSignature Language="VB.NET" Value="SmallerOrEqual" />
+      <MemberSignature Language="F#" Value="SmallerOrEqual = 2" Usage="CommunityToolkit.Maui.Converters.CompareConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.OperatorType.SmallerOrEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.CompareConverter&lt;TValue,TReturnObject&gt;+OperatorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Smaller or Equal Operator
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

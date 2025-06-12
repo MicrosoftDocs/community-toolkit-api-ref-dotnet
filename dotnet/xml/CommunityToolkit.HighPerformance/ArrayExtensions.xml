@@ -13,6 +13,12 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Helpers for working with the <see cref="T:System.Array" /> type.
@@ -21,6 +27,139 @@
     <inheritdoc />
   </Docs>
   <Members>
+    <Member MemberName="AsMemory&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[,,]? array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[,,] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory``1(``0[0:,0:,0:])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(,,)) As Memory(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsMemory : 'T[,,] -&gt; Memory&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Memory&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 3D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The input 3D <typeparamref name="T" /> array instance.</param>
+        <summary>
+            Creates a new <see cref="T:System.Memory`1" /> over an input 3D <typeparamref name="T" /> array.
+            </summary>
+        <returns>A <see cref="T:System.Memory`1" /> instance with the values of <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsMemory&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[,]? array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[,] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory``1(``0[0:,0:])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(,)) As Memory(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsMemory : 'T[,] -&gt; Memory&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Memory&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 2D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The input 2D <typeparamref name="T" /> array instance.</param>
+        <summary>
+            Creates a new <see cref="T:System.Memory`1" /> over an input 2D <typeparamref name="T" /> array.
+            </summary>
+        <returns>A <see cref="T:System.Memory`1" /> instance with the values of <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsMemory&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[,,] array, int depth);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[,,] array, int32 depth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory``1(``0[0:,0:,0:],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(,,), depth As Integer) As Memory(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsMemory : 'T[,,] * int -&gt; Memory&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory (array, depth)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Memory&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,,]" RefType="this" />
+        <Parameter Name="depth" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 3D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The given 3D array to wrap.</param>
+        <param name="depth">The target layer to map within <paramref name="array" />.</param>
+        <summary>
+            Creates a new instance of the <see cref="T:System.Memory`1" /> struct wrapping a layer in a 3D array.
+            </summary>
+        <returns>A <see cref="T:System.Memory`1" /> instance wrapping the target layer within <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArrayTypeMismatchException">Thrown when <paramref name="array" /> doesn't match <typeparamref name="T" />.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="depth" /> is invalid.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="AsMemory2D&lt;T&gt;">
       <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.Memory2D&lt;T&gt; AsMemory2D&lt;T&gt; (this T[,]? array);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.Memory2D`1&lt;!!T&gt; AsMemory2D&lt;T&gt;(!!T[,] array) cil managed" />
@@ -34,12 +173,25 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="array" Type="T[,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of elements in the input 2D <typeparamref name="T" /> array instance.</typeparam>
@@ -64,9 +216,22 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" RefType="this" />
@@ -100,12 +265,25 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="array" Type="T[,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="row" Type="System.Int32" />
         <Parameter Name="column" Type="System.Int32" />
         <Parameter Name="height" Type="System.Int32" />
@@ -132,6 +310,139 @@
             </exception>
       </Docs>
     </Member>
+    <Member MemberName="AsSpan&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[,,]? array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[,,] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan``1(``0[0:,0:,0:])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(,,)) As Span(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsSpan : 'T[,,] -&gt; Span&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Span&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 3D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The input 3D <typeparamref name="T" /> array instance.</param>
+        <summary>
+            Creates a new <see cref="T:System.Span`1" /> over an input 3D <typeparamref name="T" /> array.
+            </summary>
+        <returns>A <see cref="T:System.Span`1" /> instance with the values of <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSpan&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[,]? array);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[,] array) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan``1(``0[0:,0:])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(,)) As Span(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsSpan : 'T[,] -&gt; Span&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan array" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Span&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 2D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The input 2D <typeparamref name="T" /> array instance.</param>
+        <summary>
+            Creates a new <see cref="T:System.Span`1" /> over an input 2D <typeparamref name="T" /> array.
+            </summary>
+        <returns>A <see cref="T:System.Span`1" /> instance with the values of <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSpan&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[,,] array, int depth);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[,,] array, int32 depth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan``1(``0[0:,0:,0:],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(,,), depth As Integer) As Span(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsSpan : 'T[,,] * int -&gt; Span&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan (array, depth)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Span&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,,]" RefType="this" />
+        <Parameter Name="depth" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 3D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The given 3D array to wrap.</param>
+        <param name="depth">The target layer to map within <paramref name="array" />.</param>
+        <summary>
+            Creates a new instance of the <see cref="T:System.Span`1" /> struct wrapping a layer in a 3D array.
+            </summary>
+        <returns>A <see cref="T:System.Span`1" /> instance wrapping the target layer within <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArrayTypeMismatchException">Thrown when <paramref name="array" /> doesn't match <typeparamref name="T" />.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="depth" /> is invalid.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="AsSpan2D&lt;T&gt;">
       <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.Span2D&lt;T&gt; AsSpan2D&lt;T&gt; (this T[,]? array);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.Span2D`1&lt;!!T&gt; AsSpan2D&lt;T&gt;(!!T[,] array) cil managed" />
@@ -145,12 +456,25 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Span2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="array" Type="T[,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of elements in the input 2D <typeparamref name="T" /> array instance.</typeparam>
@@ -175,9 +499,22 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Span2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" RefType="this" />
@@ -211,12 +548,25 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Span2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="array" Type="T[,]" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="row" Type="System.Int32" />
         <Parameter Name="column" Type="System.Int32" />
         <Parameter Name="height" Type="System.Int32" />
@@ -259,6 +609,12 @@
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -295,6 +651,12 @@
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -331,6 +693,12 @@
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -366,7 +734,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" RefType="this" />
@@ -396,7 +771,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,]" RefType="this" />
@@ -426,7 +808,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" />
@@ -456,7 +845,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" />
@@ -488,7 +884,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,]" RefType="this" />
@@ -527,7 +930,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" RefType="this" />
@@ -566,9 +976,22 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" />
@@ -608,9 +1031,22 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,]" RefType="this" />
@@ -749,9 +1185,22 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,]" RefType="this" />
@@ -769,6 +1218,100 @@
         <exception cref="T:System.ArgumentOutOfRangeException">Thrown when one of the input parameters is out of range.</exception>
       </Docs>
     </Member>
+    <Member MemberName="GetRowMemory&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; GetRowMemory&lt;T&gt; (this T[,] array, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; GetRowMemory&lt;T&gt;(!!T[,] array, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetRowMemory``1(``0[0:,0:],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRowMemory(Of T) (array As T(,), row As Integer) As Memory(Of T)" />
+      <MemberSignature Language="F#" Value="static member GetRowMemory : 'T[,] * int -&gt; Memory&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.GetRowMemory (array, row)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Memory&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 2D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The input <typeparamref name="T" /> array instance.</param>
+        <param name="row">The target row to retrieve (0-based index).</param>
+        <summary>
+            Returns a <see cref="T:System.Memory`1" /> over a row in a given 2D <typeparamref name="T" /> array instance.
+            </summary>
+        <returns>A <see cref="T:System.Memory`1" /> with the items from the target row within <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArrayTypeMismatchException">Thrown when <paramref name="array" /> doesn't match <typeparamref name="T" />.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="row" /> is invalid.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRowSpan&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; GetRowSpan&lt;T&gt; (this T[,] array, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; GetRowSpan&lt;T&gt;(!!T[,] array, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetRowSpan``1(``0[0:,0:],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRowSpan(Of T) (array As T(,), row As Integer) As Span(Of T)" />
+      <MemberSignature Language="F#" Value="static member GetRowSpan : 'T[,] * int -&gt; Span&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ArrayExtensions.GetRowSpan (array, row)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Span&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="T[,]" RefType="this" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of elements in the input 2D <typeparamref name="T" /> array instance.</typeparam>
+        <param name="array">The input <typeparamref name="T" /> array instance.</param>
+        <param name="row">The target row to retrieve (0-based index).</param>
+        <summary>
+            Returns a <see cref="T:System.Span`1" /> over a row in a given 2D <typeparamref name="T" /> array instance.
+            </summary>
+        <returns>A <see cref="T:System.Span`1" /> with the items from the target row within <paramref name="array" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArrayTypeMismatchException">Thrown when <paramref name="array" /> doesn't match <typeparamref name="T" />.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="row" /> is invalid.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="IsCovariant&lt;T&gt;">
       <MemberSignature Language="C#" Value="public static bool IsCovariant&lt;T&gt; (this T[,,] array);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsCovariant&lt;T&gt;(!!T[,,] array) cil managed" />
@@ -784,7 +1327,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" RefType="this" />
@@ -814,7 +1364,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[,]" RefType="this" />
@@ -844,7 +1401,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" />
@@ -872,9 +1436,21 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>

@@ -1,0 +1,64 @@
+<Type Name="DrawingViewOutputOption" FullName="CommunityToolkit.Maui.Core.DrawingViewOutputOption">
+  <TypeSignature Language="C#" Value="public enum DrawingViewOutputOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DrawingViewOutputOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.DrawingViewOutputOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DrawingViewOutputOption" />
+  <TypeSignature Language="F#" Value="type DrawingViewOutputOption = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Enumeration of the options available when generating an image stream using the DrawingView.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullCanvas">
+      <MemberSignature Language="C#" Value="FullCanvas" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.DrawingViewOutputOption FullCanvas = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.DrawingViewOutputOption.FullCanvas" />
+      <MemberSignature Language="VB.NET" Value="FullCanvas" />
+      <MemberSignature Language="F#" Value="FullCanvas = 1" Usage="CommunityToolkit.Maui.Core.DrawingViewOutputOption.FullCanvas" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.DrawingViewOutputOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Outputs the full area displayed within the drawing view.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="Lines" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.DrawingViewOutputOption Lines = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.DrawingViewOutputOption.Lines" />
+      <MemberSignature Language="VB.NET" Value="Lines" />
+      <MemberSignature Language="F#" Value="Lines = 0" Usage="CommunityToolkit.Maui.Core.DrawingViewOutputOption.Lines" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.DrawingViewOutputOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Outputs the area covered by the top-left to the bottom-right most points.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

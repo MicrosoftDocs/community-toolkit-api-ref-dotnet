@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="win-comm-toolkit-dotnet-7.1">
+  <Assemblies>
+    <Assembly Name="CommunityToolkit.WinUI.DeveloperTools" Version="7.1.0.0" />
+  </Assemblies>
+  <Namespace Name="CommunityToolkit.WinUI.DeveloperTools">
+    <Type Name="CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid" Id="T:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid">
+      <Member Id="F:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.HorizontalStepProperty" />
+      <Member Id="F:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.LineBrushProperty" />
+      <Member Id="F:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.VerticalStepProperty" />
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.#ctor" />
+      <Member Id="P:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.HorizontalStep" />
+      <Member Id="P:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.LineBrush" />
+      <Member Id="P:CommunityToolkit.WinUI.DeveloperTools.AlignmentGrid.VerticalStep" />
+    </Type>
+    <Type Name="CommunityToolkit.WinUI.DeveloperTools.FocusTracker" Id="T:CommunityToolkit.WinUI.DeveloperTools.FocusTracker">
+      <Member Id="F:CommunityToolkit.WinUI.DeveloperTools.FocusTracker.IsActiveProperty" />
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.FocusTracker.#ctor" />
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.FocusTracker.OnApplyTemplate" />
+      <Member Id="P:CommunityToolkit.WinUI.DeveloperTools.FocusTracker.IsActive" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo">
+    <Type Name="CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo.XamlMetaDataProvider" Id="T:CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo.XamlMetaDataProvider">
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo.XamlMetaDataProvider.#ctor" />
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.String)" />
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.Type)" />
+      <Member Id="M:CommunityToolkit.WinUI.DeveloperTools.CommunityToolkit_WinUI_DeveloperTools_XamlTypeInfo.XamlMetaDataProvider.GetXmlnsDefinitions" />
+    </Type>
+  </Namespace>
+</Framework>

@@ -1,0 +1,1570 @@
+<Type Name="VisualElementExtensions" FullName="CommunityToolkit.Maui.Markup.VisualElementExtensions">
+  <TypeSignature Language="C#" Value="public static class VisualElementExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VisualElementExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.VisualElementExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module VisualElementExtensions" />
+  <TypeSignature Language="F#" Value="type VisualElementExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods that apply to all implementations inheriting from a <see cref="T:Microsoft.Maui.Controls.VisualElement" />.
+            These methods provide helpful ways of fluently setting properties.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Anchor&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Anchor&lt;TVisualElement&gt; (this TVisualElement element, double anchorX, double anchorY) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Anchor&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 anchorX, float64 anchorY) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Anchor``1(``0,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Anchor(Of TVisualElement As VisualElement) (element As TVisualElement, anchorX As Double, anchorY As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Anchor : 'VisualElement * double * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Anchor (element, anchorX, anchorY)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="anchorX" Type="System.Double" />
+        <Parameter Name="anchorY" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="anchorX" /> and <paramref name="anchorY" /> to.</param>
+        <param name="anchorX">The X component of the center point for any transform, to apply to this <paramref name="element" />.</param>
+        <param name="anchorY">The Y component of the center point for any transform, to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorX" /> property to the supplied <paramref name="anchorX" />
+            and the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorY" /> property to the supplied <paramref name="anchorY" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorX" /> property set to the supplied
+            <paramref name="anchorX" /> and the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorY" /> property set to the supplied
+            <paramref name="anchorY" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorX&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement AnchorX&lt;TVisualElement&gt; (this TVisualElement element, double anchorX) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement AnchorX&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 anchorX) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.AnchorX``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AnchorX(Of TVisualElement As VisualElement) (element As TVisualElement, anchorX As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member AnchorX : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.AnchorX (element, anchorX)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="anchorX" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="anchorX" /> to.</param>
+        <param name="anchorX">The X component of the center point for any transform, relative to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorX" /> property to the supplied <paramref name="anchorX" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorX" /> property set to the supplied
+            <paramref name="anchorX" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorY&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement AnchorY&lt;TVisualElement&gt; (this TVisualElement element, double anchorY) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement AnchorY&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 anchorY) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.AnchorY``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AnchorY(Of TVisualElement As VisualElement) (element As TVisualElement, anchorY As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member AnchorY : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.AnchorY (element, anchorY)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="anchorY" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="anchorY" /> to.</param>
+        <param name="anchorY">The Y component of the center point for any transform, relative to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorY" /> property to the supplied <paramref name="anchorY" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.AnchorY" /> property set to the supplied
+            <paramref name="anchorY" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomationId&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement AutomationId&lt;TVisualElement&gt; (this TVisualElement element, string automationId) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement AutomationId&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, string automationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.AutomationId``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AutomationId(Of TVisualElement As VisualElement) (element As TVisualElement, automationId As String) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member AutomationId : 'VisualElement * string -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.AutomationId (element, automationId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="automationId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of visual element being updated.</typeparam>
+        <param name="element">This element to apply the <paramref name="automationId" /> to.</param>
+        <param name="automationId">The value that the automation framework can use to find and interact with.</param>
+        <summary>
+            Sets the <see cref="T:Microsoft.Maui.Controls.VisualElement" />s AutomationId property for the supplied <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the AutomationId property set
+            to the supplied <paramref name="automationId" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Background&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Background&lt;TVisualElement&gt; (this TVisualElement element, Microsoft.Maui.Controls.Brush backgroundBrush) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Background&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, class Microsoft.Maui.Controls.Brush backgroundBrush) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Background``1(``0,Microsoft.Maui.Controls.Brush)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Background(Of TVisualElement As VisualElement) (element As TVisualElement, backgroundBrush As Brush) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Background : 'VisualElement * Microsoft.Maui.Controls.Brush -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Background (element, backgroundBrush)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="backgroundBrush" Type="Microsoft.Maui.Controls.Brush" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="backgroundBrush" /> to.</param>
+        <param name="backgroundBrush">The Brush to apply the the Background of this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.Background" /> property to the supplied <paramref name="backgroundBrush" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.Background" /> property set to the supplied
+            <paramref name="backgroundBrush" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackgroundColor&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement BackgroundColor&lt;TVisualElement&gt; (this TVisualElement element, Microsoft.Maui.Graphics.Color color) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement BackgroundColor&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.BackgroundColor``1(``0,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BackgroundColor(Of TVisualElement As VisualElement) (element As TVisualElement, color As Color) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member BackgroundColor : 'VisualElement * Microsoft.Maui.Graphics.Color -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.BackgroundColor (element, color)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="color" /> to.</param>
+        <param name="color">The BackgroundColor to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.BackgroundColor" /> property to the supplied <paramref name="color" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.BackgroundColor" /> property set to the supplied
+            <paramref name="color" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Behaviors&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Behaviors&lt;TVisualElement&gt; (this TVisualElement element, scoped ReadOnlySpan&lt;Microsoft.Maui.Controls.Behavior&gt; behaviors) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Behaviors&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, valuetype System.ReadOnlySpan`1&lt;class Microsoft.Maui.Controls.Behavior&gt; behaviors) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Behaviors``1(``0,System.ReadOnlySpan{Microsoft.Maui.Controls.Behavior})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Behaviors(Of TVisualElement As VisualElement) (element As TVisualElement, behaviors As ReadOnlySpan(Of Behavior)) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Behaviors : 'VisualElement * ReadOnlySpan&lt;Microsoft.Maui.Controls.Behavior&gt; -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Behaviors (element, behaviors)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="behaviors" Type="System.ReadOnlySpan&lt;Microsoft.Maui.Controls.Behavior&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to add the <paramref name="behaviors" /> to.</param>
+        <param name="behaviors">The <see cref="T:Microsoft.Maui.Controls.Behavior" />s to add.</param>
+        <summary>
+            Adds the supplied <paramref name="behaviors" /> to the Behaviors collection on this <paramref name="element" />.
+            </summary>
+        <returns>The supplied <paramref name="element" /> with the supplied <paramref name="behaviors" /> added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clip&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Clip&lt;TVisualElement&gt; (this TVisualElement element, Microsoft.Maui.Controls.Shapes.Geometry clip) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Clip&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, class Microsoft.Maui.Controls.Shapes.Geometry clip) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Clip``1(``0,Microsoft.Maui.Controls.Shapes.Geometry)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Clip(Of TVisualElement As VisualElement) (element As TVisualElement, clip As Geometry) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Clip : 'VisualElement * Microsoft.Maui.Controls.Shapes.Geometry -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Clip (element, clip)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="clip" Type="Microsoft.Maui.Controls.Shapes.Geometry" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="clip" /> to.</param>
+        <param name="clip">The Clip to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.Clip" /> property to the supplied <paramref name="clip" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.Clip" /> property set to the supplied
+            <paramref name="clip" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlowDirection&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement FlowDirection&lt;TVisualElement&gt; (this TVisualElement element, Microsoft.Maui.FlowDirection flowDirection) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement FlowDirection&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, valuetype Microsoft.Maui.FlowDirection flowDirection) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.FlowDirection``1(``0,Microsoft.Maui.FlowDirection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FlowDirection(Of TVisualElement As VisualElement) (element As TVisualElement, flowDirection As FlowDirection) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member FlowDirection : 'VisualElement * Microsoft.Maui.FlowDirection -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.FlowDirection (element, flowDirection)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="flowDirection" Type="Microsoft.Maui.FlowDirection" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="flowDirection" /> to.</param>
+        <param name="flowDirection">The FlowDirection to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.FlowDirection" /> property to the supplied <paramref name="flowDirection" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.FlowDirection" /> property set to the supplied
+            <paramref name="flowDirection" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Height&lt;TVisualElement&gt; (this TVisualElement element, double heightRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Height&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 heightRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Height``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Height(Of TVisualElement As VisualElement) (element As TVisualElement, heightRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Height : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Height (element, heightRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="heightRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="heightRequest" /> to.</param>
+        <param name="heightRequest">The height to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> property to the supplied <paramref name="heightRequest" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> property set to the supplied
+            <paramref name="heightRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InputTransparent&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement InputTransparent&lt;TVisualElement&gt; (this TVisualElement element, bool inputTransparent) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement InputTransparent&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, bool inputTransparent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.InputTransparent``1(``0,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function InputTransparent(Of TVisualElement As VisualElement) (element As TVisualElement, inputTransparent As Boolean) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member InputTransparent : 'VisualElement * bool -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.InputTransparent (element, inputTransparent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="inputTransparent" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="inputTransparent" /> to.</param>
+        <param name="inputTransparent">Whether the <paramref name="element" /> should be involved in the user interaction cycle.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.InputTransparent" /> property to the supplied <paramref name="inputTransparent" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.InputTransparent" /> property set to the supplied
+            <paramref name="inputTransparent" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement IsEnabled&lt;TVisualElement&gt; (this TVisualElement element, bool isEnabled) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement IsEnabled&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, bool isEnabled) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.IsEnabled``1(``0,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsEnabled(Of TVisualElement As VisualElement) (element As TVisualElement, isEnabled As Boolean) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member IsEnabled : 'VisualElement * bool -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.IsEnabled (element, isEnabled)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="isEnabled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="isEnabled" /> to.</param>
+        <param name="isEnabled">Whether the <paramref name="element" /> should be enabled.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.IsEnabled" /> property to the supplied <paramref name="isEnabled" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.IsEnabled" /> property set to the supplied
+            <paramref name="isEnabled" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement IsVisible&lt;TVisualElement&gt; (this TVisualElement element, bool isVisible) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement IsVisible&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, bool isVisible) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.IsVisible``1(``0,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsVisible(Of TVisualElement As VisualElement) (element As TVisualElement, isVisible As Boolean) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member IsVisible : 'VisualElement * bool -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.IsVisible (element, isVisible)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="isVisible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="isVisible" /> to.</param>
+        <param name="isVisible">Whether the <paramref name="element" /> should be visible.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.IsVisible" /> property to the supplied <paramref name="isVisible" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.IsVisible" /> property set to the supplied
+            <paramref name="isVisible" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinHeight&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement MinHeight&lt;TVisualElement&gt; (this TVisualElement element, double minimumHeightRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement MinHeight&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 minimumHeightRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.MinHeight``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MinHeight(Of TVisualElement As VisualElement) (element As TVisualElement, minimumHeightRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member MinHeight : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.MinHeight (element, minimumHeightRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="minimumHeightRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="minimumHeightRequest" /> to.</param>
+        <param name="minimumHeightRequest">The minimum height to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> property to the supplied <paramref name="minimumHeightRequest" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> property set to the supplied
+            <paramref name="minimumHeightRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinSize&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement MinSize&lt;TVisualElement&gt; (this TVisualElement element, double minimumSizeRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement MinSize&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 minimumSizeRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.MinSize``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MinSize(Of TVisualElement As VisualElement) (element As TVisualElement, minimumSizeRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member MinSize : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.MinSize (element, minimumSizeRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="minimumSizeRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="minimumSizeRequest" /> to.</param>
+        <param name="minimumSizeRequest">The minimum size to apply to both the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> and
+            <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> properties.</param>
+        <summary>
+            Sets both the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> and <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> to
+            the same supplied <paramref name="minimumSizeRequest" /> on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with both the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> and
+            <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> set to the same supplied <paramref name="minimumSizeRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinSize&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement MinSize&lt;TVisualElement&gt; (this TVisualElement element, double minimumWidthRequest, double minimumHeightRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement MinSize&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 minimumWidthRequest, float64 minimumHeightRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.MinSize``1(``0,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MinSize(Of TVisualElement As VisualElement) (element As TVisualElement, minimumWidthRequest As Double, minimumHeightRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member MinSize : 'VisualElement * double * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.MinSize (element, minimumWidthRequest, minimumHeightRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="minimumWidthRequest" Type="System.Double" />
+        <Parameter Name="minimumHeightRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="minimumWidthRequest" /> and <paramref name="minimumHeightRequest" /> to.</param>
+        <param name="minimumWidthRequest">The minimum width to apply to this <paramref name="element" />.</param>
+        <param name="minimumHeightRequest">The minimum height to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> property to the supplied <paramref name="minimumWidthRequest" />
+            and the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> property to the supplied <paramref name="minimumHeightRequest" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> property set to the supplied
+            <paramref name="minimumWidthRequest" /> and the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumHeightRequest" /> property set to the supplied
+            <paramref name="minimumHeightRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinWidth&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement MinWidth&lt;TVisualElement&gt; (this TVisualElement element, double minimumWidthRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement MinWidth&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 minimumWidthRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.MinWidth``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MinWidth(Of TVisualElement As VisualElement) (element As TVisualElement, minimumWidthRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member MinWidth : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.MinWidth (element, minimumWidthRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="minimumWidthRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="minimumWidthRequest" /> to.</param>
+        <param name="minimumWidthRequest">The minimum width to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> property to the supplied <paramref name="minimumWidthRequest" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.MinimumWidthRequest" /> property set to the supplied
+            <paramref name="minimumWidthRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Opacity&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Opacity&lt;TVisualElement&gt; (this TVisualElement element, double opacity) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Opacity&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 opacity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Opacity``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Opacity(Of TVisualElement As VisualElement) (element As TVisualElement, opacity As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Opacity : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Opacity (element, opacity)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="opacity" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="opacity" /> to.</param>
+        <param name="opacity">The Opacity to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.Opacity" /> property to the supplied <paramref name="opacity" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.Opacity" /> property set to the supplied
+            <paramref name="opacity" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotation&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Rotation&lt;TVisualElement&gt; (this TVisualElement element, double rotation) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Rotation&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 rotation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Rotation``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Rotation(Of TVisualElement As VisualElement) (element As TVisualElement, rotation As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Rotation : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Rotation (element, rotation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="rotation" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="rotation" /> to.</param>
+        <param name="rotation">The Rotation to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.Rotation" /> property to the supplied <paramref name="rotation" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.Rotation" /> property set to the supplied
+            <paramref name="rotation" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotationX&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement RotationX&lt;TVisualElement&gt; (this TVisualElement element, double rotationX) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement RotationX&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 rotationX) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.RotationX``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RotationX(Of TVisualElement As VisualElement) (element As TVisualElement, rotationX As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member RotationX : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.RotationX (element, rotationX)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="rotationX" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="rotationX" /> to.</param>
+        <param name="rotationX">The RotationX to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.RotationX" /> property to the supplied <paramref name="rotationX" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.RotationX" /> property set to the supplied
+            <paramref name="rotationX" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotationY&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement RotationY&lt;TVisualElement&gt; (this TVisualElement element, double rotationY) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement RotationY&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 rotationY) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.RotationY``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RotationY(Of TVisualElement As VisualElement) (element As TVisualElement, rotationY As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member RotationY : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.RotationY (element, rotationY)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="rotationY" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="rotationY" /> to.</param>
+        <param name="rotationY">The RotationY to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.RotationY" /> property to the supplied <paramref name="rotationY" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.RotationY" /> property set to the supplied
+            <paramref name="rotationY" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scale&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Scale&lt;TVisualElement&gt; (this TVisualElement element, double scale) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Scale&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 scale) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Scale``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Scale(Of TVisualElement As VisualElement) (element As TVisualElement, scale As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Scale : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Scale (element, scale)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="scale" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="scale" /> to.</param>
+        <param name="scale">The scale value to apply in the X and Y directions to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleX" /> and <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleY" /> properties
+            to the supplied <paramref name="scale" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleX" /> property set to the supplied
+            <paramref name="scale" /> and the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleY" /> property set to the supplied
+            <paramref name="scale" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scale&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Scale&lt;TVisualElement&gt; (this TVisualElement element, double scaleX, double scaleY) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Scale&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 scaleX, float64 scaleY) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Scale``1(``0,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Scale(Of TVisualElement As VisualElement) (element As TVisualElement, scaleX As Double, scaleY As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Scale : 'VisualElement * double * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Scale (element, scaleX, scaleY)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="scaleX" Type="System.Double" />
+        <Parameter Name="scaleY" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="scaleX" /> and <paramref name="scaleY" /> to.</param>
+        <param name="scaleX">The scale value to apply in the X direction to this <paramref name="element" />.</param>
+        <param name="scaleY">The scale value to apply in the Y direction to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleX" /> property to the supplied <paramref name="scaleX" />
+            and the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleY" /> property to the supplied <paramref name="scaleY" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleX" /> property set to the supplied
+            <paramref name="scaleX" /> and the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleY" /> property set to the supplied
+            <paramref name="scaleY" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleX&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement ScaleX&lt;TVisualElement&gt; (this TVisualElement element, double scaleX) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement ScaleX&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 scaleX) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.ScaleX``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ScaleX(Of TVisualElement As VisualElement) (element As TVisualElement, scaleX As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member ScaleX : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.ScaleX (element, scaleX)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="scaleX" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="scaleX" /> to.</param>
+        <param name="scaleX">The scale value to apply in the X direction to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleX" /> property to the supplied <paramref name="scaleX" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleX" /> property set to the supplied
+            <paramref name="scaleX" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleY&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement ScaleY&lt;TVisualElement&gt; (this TVisualElement element, double scaleY) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement ScaleY&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 scaleY) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.ScaleY``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ScaleY(Of TVisualElement As VisualElement) (element As TVisualElement, scaleY As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member ScaleY : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.ScaleY (element, scaleY)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="scaleY" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="scaleY" /> to.</param>
+        <param name="scaleY">The scale value to apply in the Y direction to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleY" /> property to the supplied <paramref name="scaleY" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.ScaleY" /> property set to the supplied
+            <paramref name="scaleY" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Size&lt;TVisualElement&gt; (this TVisualElement element, double sizeRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Size&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 sizeRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Size``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Size(Of TVisualElement As VisualElement) (element As TVisualElement, sizeRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Size : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Size (element, sizeRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="sizeRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="sizeRequest" /> to.</param>
+        <param name="sizeRequest">The size to apply to both the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> and
+            <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> properties.</param>
+        <summary>
+            Sets both the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> and <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> to
+            the same supplied <paramref name="sizeRequest" /> on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with both the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> and
+            <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> set to the same supplied <paramref name="sizeRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Size&lt;TVisualElement&gt; (this TVisualElement element, double widthRequest, double heightRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Size&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 widthRequest, float64 heightRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Size``1(``0,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Size(Of TVisualElement As VisualElement) (element As TVisualElement, widthRequest As Double, heightRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Size : 'VisualElement * double * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Size (element, widthRequest, heightRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="widthRequest" Type="System.Double" />
+        <Parameter Name="heightRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="widthRequest" /> and <paramref name="heightRequest" /> to.</param>
+        <param name="widthRequest">The width to apply to this <paramref name="element" />.</param>
+        <param name="heightRequest">The height to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> property to the supplied <paramref name="widthRequest" />
+            and the <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> property to the supplied <paramref name="heightRequest" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> property set to the supplied
+            <paramref name="widthRequest" /> and the <see cref="P:Microsoft.Maui.Controls.VisualElement.HeightRequest" /> property set to the supplied
+            <paramref name="heightRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Style&lt;TVisualElement&gt; (this TVisualElement element, CommunityToolkit.Maui.Markup.Style&lt;TVisualElement&gt; style) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Style&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, class CommunityToolkit.Maui.Markup.Style`1&lt;!!TVisualElement&gt; style) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Style``1(``0,CommunityToolkit.Maui.Markup.Style{``0})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Style(Of TVisualElement As VisualElement) (element As TVisualElement, style As Style(Of TVisualElement)) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Style : 'VisualElement * CommunityToolkit.Maui.Markup.Style&lt;'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)&gt; -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Style (element, style)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="style" Type="CommunityToolkit.Maui.Markup.Style&lt;TVisualElement&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="style" /> to.</param>
+        <param name="style">The <see cref="T:CommunityToolkit.Maui.Markup.Style`1" /> to apply.</param>
+        <summary>
+            Sets the supplied <paramref name="style" /> on this <paramref name="element" />.
+            </summary>
+        <returns>The supplied <paramref name="element" /> with the supplied <paramref name="style" /> applied.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Style&lt;TVisualElement&gt; (this TVisualElement element, Microsoft.Maui.Controls.Style style) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Style&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, class Microsoft.Maui.Controls.Style style) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Style``1(``0,Microsoft.Maui.Controls.Style)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Style(Of TVisualElement As VisualElement) (element As TVisualElement, style As Style) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Style : 'VisualElement * Microsoft.Maui.Controls.Style -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Style (element, style)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="style" Type="Microsoft.Maui.Controls.Style" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="style" /> to.</param>
+        <param name="style">The <see cref="T:Microsoft.Maui.Controls.Style" /> to apply.</param>
+        <summary>
+            Sets the supplied <paramref name="style" /> on this <paramref name="element" />.
+            </summary>
+        <returns>The supplied <paramref name="element" /> with the supplied <paramref name="style" /> applied.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TranslationX&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement TranslationX&lt;TVisualElement&gt; (this TVisualElement element, double translationX) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement TranslationX&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 translationX) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.TranslationX``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TranslationX(Of TVisualElement As VisualElement) (element As TVisualElement, translationX As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member TranslationX : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.TranslationX (element, translationX)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="translationX" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="translationX" /> to.</param>
+        <param name="translationX">The X translation delta to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.TranslationX" /> property to the supplied <paramref name="translationX" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.TranslationX" /> property set to the supplied
+            <paramref name="translationX" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TranslationY&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement TranslationY&lt;TVisualElement&gt; (this TVisualElement element, double translationY) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement TranslationY&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 translationY) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.TranslationY``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TranslationY(Of TVisualElement As VisualElement) (element As TVisualElement, translationY As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member TranslationY : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.TranslationY (element, translationY)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="translationY" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="translationY" /> to.</param>
+        <param name="translationY">The Y translation delta to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.TranslationY" /> property to the supplied <paramref name="translationY" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.TranslationY" /> property set to the supplied
+            <paramref name="translationY" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement Width&lt;TVisualElement&gt; (this TVisualElement element, double widthRequest) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement Width&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, float64 widthRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.Width``1(``0,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Width(Of TVisualElement As VisualElement) (element As TVisualElement, widthRequest As Double) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member Width : 'VisualElement * double -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.Width (element, widthRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="widthRequest" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="widthRequest" /> to.</param>
+        <param name="widthRequest">The width to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> property to the supplied <paramref name="widthRequest" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.WidthRequest" /> property set to the supplied
+            <paramref name="widthRequest" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZIndex&lt;TVisualElement&gt;">
+      <MemberSignature Language="C#" Value="public static TVisualElement ZIndex&lt;TVisualElement&gt; (this TVisualElement element, int zIndex) where TVisualElement : Microsoft.Maui.Controls.VisualElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TVisualElement ZIndex&lt;(class Microsoft.Maui.Controls.VisualElement) TVisualElement&gt;(!!TVisualElement element, int32 zIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.VisualElementExtensions.ZIndex``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ZIndex(Of TVisualElement As VisualElement) (element As TVisualElement, zIndex As Integer) As TVisualElement" />
+      <MemberSignature Language="F#" Value="static member ZIndex : 'VisualElement * int -&gt; 'VisualElement (requires 'VisualElement :&gt; Microsoft.Maui.Controls.VisualElement)" Usage="CommunityToolkit.Maui.Markup.VisualElementExtensions.ZIndex (element, zIndex)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TVisualElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TVisualElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.VisualElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="TVisualElement" RefType="this" />
+        <Parameter Name="zIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TVisualElement">The type of element.</typeparam>
+        <param name="element">This element to apply the <paramref name="zIndex" /> to.</param>
+        <param name="zIndex">The ZIndex to apply to this <paramref name="element" />.</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.Controls.VisualElement.ZIndex" /> property to the supplied <paramref name="zIndex" />
+            on this <paramref name="element" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="element" /> with the <see cref="P:Microsoft.Maui.Controls.VisualElement.ZIndex" /> property set to the supplied
+            <paramref name="zIndex" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

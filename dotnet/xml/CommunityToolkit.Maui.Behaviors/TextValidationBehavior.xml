@@ -1,0 +1,386 @@
+<Type Name="TextValidationBehavior" FullName="CommunityToolkit.Maui.Behaviors.TextValidationBehavior">
+  <TypeSignature Language="C#" Value="public class TextValidationBehavior : CommunityToolkit.Maui.Behaviors.ValidationBehavior&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TextValidationBehavior extends CommunityToolkit.Maui.Behaviors.ValidationBehavior`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.TextValidationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class TextValidationBehavior&#xA;Inherits ValidationBehavior(Of String)" />
+  <TypeSignature Language="F#" Value="type TextValidationBehavior = class&#xA;    inherit ValidationBehavior&lt;string&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.ValidationBehavior&lt;System.String&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">System.String</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("TextValidationBehavior is not trim safe because it uses bindings with string paths.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("TextValidationBehavior is not trim safe because it uses bindings with string paths.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.TextValidationBehavior" /> is a behavior that allows the user to validate a given text depending on specified parameters. By adding this behavior to an <see cref="T:Microsoft.Maui.Controls.InputView" /> inherited control (i.e. <see cref="T:Microsoft.Maui.Controls.Entry" />) it can be styled differently depending on whether a valid or an invalid text value is provided. It offers various built-in checks such as checking for a certain length or whether or not the input value matches a specific regular expression. Additional properties handling validation are inherited from <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextValidationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Constructor of this behavior.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Decorate">
+      <MemberSignature Language="C#" Value="protected override string? Decorate (string? value);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string Decorate(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.Decorate(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Decorate (value As String) As String" />
+      <MemberSignature Language="F#" Value="override this.Decorate : string -&gt; string" Usage="textValidationBehavior.Decorate value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DecorationFlags">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Behaviors.TextDecorationFlags DecorationFlags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags DecorationFlags" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DecorationFlags" />
+      <MemberSignature Language="VB.NET" Value="Public Property DecorationFlags As TextDecorationFlags" />
+      <MemberSignature Language="F#" Value="member this.DecorationFlags : CommunityToolkit.Maui.Behaviors.TextDecorationFlags with get, set" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DecorationFlags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides enumerated value to use to set how to handle white spaces. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecorationFlagsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DecorationFlagsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DecorationFlagsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DecorationFlagsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DecorationFlagsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DecorationFlagsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DecorationFlagsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DecorationFlags" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRegexOptions">
+      <MemberSignature Language="C#" Value="protected virtual System.Text.RegularExpressions.RegexOptions DefaultRegexOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Text.RegularExpressions.RegexOptions DefaultRegexOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DefaultRegexOptions" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property DefaultRegexOptions As RegexOptions" />
+      <MemberSignature Language="F#" Value="member this.DefaultRegexOptions : System.Text.RegularExpressions.RegexOptions" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DefaultRegexOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Text.RegularExpressions.RegexOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default regex options
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRegexPattern">
+      <MemberSignature Language="C#" Value="protected virtual string DefaultRegexPattern { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultRegexPattern" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DefaultRegexPattern" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property DefaultRegexPattern As String" />
+      <MemberSignature Language="F#" Value="member this.DefaultRegexPattern : string" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.DefaultRegexPattern" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default regex pattern
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumLength">
+      <MemberSignature Language="C#" Value="public int MaximumLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumLength" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MaximumLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumLength As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumLength : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MaximumLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The maximum length of the value that will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumLengthProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MaximumLengthProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaximumLengthProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MaximumLengthProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumLengthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaximumLengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MaximumLengthProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MaximumLength" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumLength">
+      <MemberSignature Language="C#" Value="public int MinimumLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumLength" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MinimumLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumLength As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumLength : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MinimumLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The minimum length of the value that will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumLengthProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MinimumLengthProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinimumLengthProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MinimumLengthProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumLengthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumLengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MinimumLengthProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.MinimumLength" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegexOptions">
+      <MemberSignature Language="C#" Value="public System.Text.RegularExpressions.RegexOptions RegexOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Text.RegularExpressions.RegexOptions RegexOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property RegexOptions As RegexOptions" />
+      <MemberSignature Language="F#" Value="member this.RegexOptions : System.Text.RegularExpressions.RegexOptions with get, set" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Text.RegularExpressions.RegexOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides enumerated values to use to set regular expression options. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegexOptionsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty RegexOptionsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RegexOptionsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexOptionsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RegexOptionsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RegexOptionsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexOptionsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexOptions" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegexPattern">
+      <MemberSignature Language="C#" Value="public string? RegexPattern { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RegexPattern" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexPattern" />
+      <MemberSignature Language="VB.NET" Value="Public Property RegexPattern As String" />
+      <MemberSignature Language="F#" Value="member this.RegexPattern : string with get, set" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexPattern" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The regular expression pattern which the value will have to match before it will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegexPatternProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty RegexPatternProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RegexPatternProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexPatternProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RegexPatternProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RegexPatternProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexPatternProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.RegexPattern" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAsync">
+      <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.ValueTask&lt;bool&gt; ValidateAsync (string? value, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; ValidateAsync(string value, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.TextValidationBehavior.ValidateAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function ValidateAsync (value As String, token As CancellationToken) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="override this.ValidateAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="textValidationBehavior.ValidateAsync (value, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

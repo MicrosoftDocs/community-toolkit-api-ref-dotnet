@@ -1,0 +1,1361 @@
+<Type Name="AvatarView" FullName="CommunityToolkit.Maui.Views.AvatarView">
+  <TypeSignature Language="C#" Value="public class AvatarView : Microsoft.Maui.Controls.Border, CommunityToolkit.Maui.Core.IAvatarView, Microsoft.Maui.Controls.IBorderElement, Microsoft.Maui.Controls.IImageElement, Microsoft.Maui.Controls.Internals.IFontElement, Microsoft.Maui.IBorderView, Microsoft.Maui.IImage, Microsoft.Maui.IImageSource, Microsoft.Maui.ILabel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AvatarView extends Microsoft.Maui.Controls.Border implements class CommunityToolkit.Maui.Core.IAvatarView, class Microsoft.Maui.Controls.IBorderElement, class Microsoft.Maui.Controls.IImageElement, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.IBorderStroke, class Microsoft.Maui.IBorderView, class Microsoft.Maui.IContentView, class Microsoft.Maui.ICrossPlatformLayout, class Microsoft.Maui.IElement, class Microsoft.Maui.IImage, class Microsoft.Maui.IImageSource, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.ILabel, class Microsoft.Maui.IPadding, class Microsoft.Maui.IStroke, class Microsoft.Maui.IText, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.AvatarView" />
+  <TypeSignature Language="VB.NET" Value="Public Class AvatarView&#xA;Inherits Border&#xA;Implements IAvatarView, IBorderElement, IBorderView, IFontElement, IImage, IImageElement, IImageSource, ILabel" />
+  <TypeSignature Language="F#" Value="type AvatarView = class&#xA;    inherit Border&#xA;    interface IAvatarView&#xA;    interface IBorderView&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface ICrossPlatformLayout&#xA;    interface IBorderStroke&#xA;    interface IStroke&#xA;    interface ILabel&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface ITextAlignment&#xA;    interface IImage&#xA;    interface IImageSourcePart&#xA;    interface IImageSource&#xA;    interface IBorderElement&#xA;    interface IFontElement&#xA;    interface IImageElement" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.Border</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAvatarView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.IBorderElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.IImageElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.Internals.IFontElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IBorderStroke</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IBorderView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IContentView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ICrossPlatformLayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IImage</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IImageSource</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IImageSourcePart</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ILabel</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IPadding</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IStroke</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IText</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITextAlignment</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITextStyle</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>AvatarView control.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AvatarView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Views.AvatarView" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color BorderColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BorderColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.BorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BorderColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BorderColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.BorderColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control border colour.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty BorderColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BorderColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.BorderColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BorderColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BorderColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.BorderColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.Views.AvatarView.BorderColor" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderWidth">
+      <MemberSignature Language="C#" Value="public double BorderWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 BorderWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.BorderWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property BorderWidth As Double" />
+      <MemberSignature Language="F#" Value="member this.BorderWidth : double with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.BorderWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control border width.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderWidthProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty BorderWidthProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BorderWidthProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.BorderWidthProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BorderWidthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BorderWidthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.BorderWidthProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.Views.AvatarView.BorderWidth" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharacterSpacing">
+      <MemberSignature Language="C#" Value="public double CharacterSpacing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 CharacterSpacing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.CharacterSpacing" />
+      <MemberSignature Language="VB.NET" Value="Public Property CharacterSpacing As Double" />
+      <MemberSignature Language="F#" Value="member this.CharacterSpacing : double with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.CharacterSpacing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control text character spacing property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CornerRadius">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.CornerRadius CornerRadius { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.CornerRadius CornerRadius" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.CornerRadius" />
+      <MemberSignature Language="VB.NET" Value="Public Property CornerRadius As CornerRadius" />
+      <MemberSignature Language="F#" Value="member this.CornerRadius : Microsoft.Maui.CornerRadius with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.CornerRadius" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CornerRadius</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control corner radius property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CornerRadiusProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CornerRadiusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CornerRadiusProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.CornerRadiusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CornerRadiusProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CornerRadiusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.CornerRadiusProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.Views.AvatarView.CornerRadius" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Font Font { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Font" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Font" />
+      <MemberSignature Language="VB.NET" Value="Public Property Font As Font" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Maui.Font with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.Font" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the control font.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontAttributes">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.FontAttributes FontAttributes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.FontAttributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
+      <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.FontAttributes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.FontAttributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control font attributes property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontAttributesProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty FontAttributesProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.FontAttributesProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.FontAttributesProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Internals.IFontElement.FontAttributes" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontAutoScalingEnabled">
+      <MemberSignature Language="C#" Value="public bool FontAutoScalingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.FontAutoScalingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.FontAutoScalingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value indicating whether control font auto scaling enabled property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontAutoScalingEnabledProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.FontAutoScalingEnabledProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Internals.IFontElement.FontAutoScalingEnabled" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontFamily">
+      <MemberSignature Language="C#" Value="public string FontFamily { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.FontFamily" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
+      <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.FontFamily" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control font family property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontFamilyProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty FontFamilyProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.FontFamilyProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.FontFamilyProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Internals.IFontElement.FontFamily" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontSize">
+      <MemberSignature Language="C#" Value="public double FontSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.FontSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
+      <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.FontSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.FontSizeConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.FontSizeConverter))&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control font size property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontSizeProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty FontSizeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.FontSizeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.FontSizeProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Internals.IFontElement.FontSize" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSource">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.ImageSource ImageSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource ImageSource" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.ImageSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImageSource As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.ImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.ImageSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.ImageSourceConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.ImageSourceConverter))&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control image source property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSourceProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ImageSourceProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ImageSourceProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.ImageSourceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImageSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.ImageSourceProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.Views.AvatarView.ImageSource" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.Graphics.Color Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#BorderColorDefaultValue" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderColorDefaultValue As Color Implements IBorderElement.BorderColorDefaultValue" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue">
+      <MemberSignature Language="C#" Value="double Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#BorderWidthDefaultValue" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderWidthDefaultValue As Double Implements IBorderElement.BorderWidthDefaultValue" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue : double" Usage="Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.CornerRadius">
+      <MemberSignature Language="C#" Value="int Microsoft.Maui.Controls.IBorderElement.CornerRadius { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.IBorderElement.CornerRadius" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#CornerRadius" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property CornerRadius As Integer Implements IBorderElement.CornerRadius" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.CornerRadius : int" Usage="Microsoft.Maui.Controls.IBorderElement.CornerRadius" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.CornerRadius</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue">
+      <MemberSignature Language="C#" Value="int Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#CornerRadiusDefaultValue" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property CornerRadiusDefaultValue As Integer Implements IBorderElement.CornerRadiusDefaultValue" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue : int" Usage="Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet">
+      <MemberSignature Language="C#" Value="bool IBorderElement.IsBackgroundColorSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#IsBackgroundColorSet" />
+      <MemberSignature Language="VB.NET" Value="Function IsBackgroundColorSet () As Boolean Implements IBorderElement.IsBackgroundColorSet" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet : unit -&gt; bool" Usage="avatarView.Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet">
+      <MemberSignature Language="C#" Value="bool IBorderElement.IsBackgroundSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#IsBackgroundSet" />
+      <MemberSignature Language="VB.NET" Value="Function IsBackgroundSet () As Boolean Implements IBorderElement.IsBackgroundSet" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet : unit -&gt; bool" Usage="avatarView.Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet">
+      <MemberSignature Language="C#" Value="bool IBorderElement.IsBorderColorSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#IsBorderColorSet" />
+      <MemberSignature Language="VB.NET" Value="Function IsBorderColorSet () As Boolean Implements IBorderElement.IsBorderColorSet" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet : unit -&gt; bool" Usage="avatarView.Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet">
+      <MemberSignature Language="C#" Value="bool IBorderElement.IsBorderWidthSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#IsBorderWidthSet" />
+      <MemberSignature Language="VB.NET" Value="Function IsBorderWidthSet () As Boolean Implements IBorderElement.IsBorderWidthSet" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet : unit -&gt; bool" Usage="avatarView.Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet">
+      <MemberSignature Language="C#" Value="bool IBorderElement.IsCornerRadiusSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#IsCornerRadiusSet" />
+      <MemberSignature Language="VB.NET" Value="Function IsCornerRadiusSet () As Boolean Implements IBorderElement.IsCornerRadiusSet" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet : unit -&gt; bool" Usage="avatarView.Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged">
+      <MemberSignature Language="C#" Value="void IBorderElement.OnBorderColorPropertyChanged (Microsoft.Maui.Graphics.Color oldValue, Microsoft.Maui.Graphics.Color newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(class Microsoft.Maui.Graphics.Color oldValue, class Microsoft.Maui.Graphics.Color newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IBorderElement#OnBorderColorPropertyChanged(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnBorderColorPropertyChanged (oldValue As Color, newValue As Color) Implements IBorderElement.OnBorderColorPropertyChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="Microsoft.Maui.Graphics.Color" />
+        <Parameter Name="newValue" Type="Microsoft.Maui.Graphics.Color" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.Aspect">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.Aspect Microsoft.Maui.Controls.IImageElement.Aspect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Microsoft.Maui.Controls.IImageElement.Aspect" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#Aspect" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Aspect As Aspect Implements IImageElement.Aspect" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.Aspect : Microsoft.Maui.Aspect" Usage="Microsoft.Maui.Controls.IImageElement.Aspect" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.Aspect</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Aspect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying">
+      <MemberSignature Language="C#" Value="bool Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#IsAnimationPlaying" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsAnimationPlaying As Boolean Implements IImageElement.IsAnimationPlaying" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying : bool" Usage="Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.IsLoading">
+      <MemberSignature Language="C#" Value="bool Microsoft.Maui.Controls.IImageElement.IsLoading { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IImageElement.IsLoading" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#IsLoading" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsLoading As Boolean Implements IImageElement.IsLoading" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.IsLoading : bool" Usage="Microsoft.Maui.Controls.IImageElement.IsLoading" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsLoading</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.IsOpaque">
+      <MemberSignature Language="C#" Value="bool Microsoft.Maui.Controls.IImageElement.IsOpaque { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IImageElement.IsOpaque" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#IsOpaque" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsOpaque As Boolean Implements IImageElement.IsOpaque" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.IsOpaque : bool" Usage="Microsoft.Maui.Controls.IImageElement.IsOpaque" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsOpaque</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged">
+      <MemberSignature Language="C#" Value="void IImageElement.OnImageSourceSourceChanged (object sender, EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(object sender, class System.EventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#OnImageSourceSourceChanged(System.Object,System.EventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnImageSourceSourceChanged (sender As Object, e As EventArgs) Implements IImageElement.OnImageSourceSourceChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged : obj * EventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged : obj * EventArgs -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged (sender, e)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System.Object,System.EventArgs)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged">
+      <MemberSignature Language="C#" Value="void IImageElement.RaiseImageSourcePropertyChanged ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#RaiseImageSourcePropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Sub RaiseImageSourcePropertyChanged () Implements IImageElement.RaiseImageSourcePropertyChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged : unit -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged : unit -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IImageElement.Source">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.Controls.ImageSource Microsoft.Maui.Controls.IImageElement.Source { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource Microsoft.Maui.Controls.IImageElement.Source" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#IImageElement#Source" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Source As ImageSource Implements IImageElement.Source" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.Source : Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.IImageElement.Source" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.Source</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator">
+      <MemberSignature Language="C#" Value="double IFontElement.FontSizeDefaultValueCreator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
+      <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="avatarView.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged">
+      <MemberSignature Language="C#" Value="void IFontElement.OnFontAttributesChanged (Microsoft.Maui.Controls.FontAttributes oldValue, Microsoft.Maui.Controls.FontAttributes newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="Microsoft.Maui.Controls.FontAttributes" />
+        <Parameter Name="newValue" Type="Microsoft.Maui.Controls.FontAttributes" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged">
+      <MemberSignature Language="C#" Value="void IFontElement.OnFontAutoScalingEnabledChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged">
+      <MemberSignature Language="C#" Value="void IFontElement.OnFontFamilyChanged (string oldValue, string newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.String" />
+        <Parameter Name="newValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged">
+      <MemberSignature Language="C#" Value="void IFontElement.OnFontSizeChanged (double oldValue, double newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="avatarView.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Double" />
+        <Parameter Name="newValue" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.IImage.Aspect">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.Aspect Microsoft.Maui.IImage.Aspect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Microsoft.Maui.IImage.Aspect" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#IImage#Aspect" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Aspect As Aspect Implements IImage.Aspect" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImage.Aspect : Microsoft.Maui.Aspect" Usage="Microsoft.Maui.IImage.Aspect" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.IImage.Aspect</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Aspect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.IImage.IsOpaque">
+      <MemberSignature Language="C#" Value="bool Microsoft.Maui.IImage.IsOpaque { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IImage.IsOpaque" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#IImage#IsOpaque" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsOpaque As Boolean Implements IImage.IsOpaque" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImage.IsOpaque : bool" Usage="Microsoft.Maui.IImage.IsOpaque" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.IImage.IsOpaque</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.IImageSource.IsEmpty">
+      <MemberSignature Language="C#" Value="bool Microsoft.Maui.IImageSource.IsEmpty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IImageSource.IsEmpty" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#IImageSource#IsEmpty" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsEmpty As Boolean Implements IImageSource.IsEmpty" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImageSource.IsEmpty : bool" Usage="Microsoft.Maui.IImageSource.IsEmpty" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.IImageSource.IsEmpty</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.IImageSourcePart.IsAnimationPlaying">
+      <MemberSignature Language="C#" Value="bool Microsoft.Maui.IImageSourcePart.IsAnimationPlaying { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IImageSourcePart.IsAnimationPlaying" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#IImageSourcePart#IsAnimationPlaying" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsAnimationPlaying As Boolean Implements IImageSourcePart.IsAnimationPlaying" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImageSourcePart.IsAnimationPlaying : bool" Usage="Microsoft.Maui.IImageSourcePart.IsAnimationPlaying" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.IImageSourcePart.IsAnimationPlaying</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.IImageSourcePart.Source">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.IImageSource Microsoft.Maui.IImageSourcePart.Source { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IImageSource Microsoft.Maui.IImageSourcePart.Source" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#IImageSourcePart#Source" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Source As IImageSource Implements IImageSourcePart.Source" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImageSourcePart.Source : Microsoft.Maui.IImageSource" Usage="Microsoft.Maui.IImageSourcePart.Source" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.IImageSourcePart.Source</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.IImageSourcePart.UpdateIsLoading">
+      <MemberSignature Language="C#" Value="void IImageSourcePart.UpdateIsLoading (bool isLoading);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#IImageSourcePart#UpdateIsLoading(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Sub UpdateIsLoading (isLoading As Boolean) Implements IImageSourcePart.UpdateIsLoading" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit&#xA;override this.Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit" Usage="avatarView.Microsoft.Maui.IImageSourcePart.UpdateIsLoading isLoading" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.IImageSourcePart.UpdateIsLoading(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isLoading" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isLoading">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.ILabel.LineHeight">
+      <MemberSignature Language="C#" Value="double Microsoft.Maui.ILabel.LineHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.ILabel.LineHeight" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#ILabel#LineHeight" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property LineHeight As Double Implements ILabel.LineHeight" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ILabel.LineHeight : double" Usage="Microsoft.Maui.ILabel.LineHeight" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.ILabel.LineHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.ILabel.TextDecorations">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.TextDecorations Microsoft.Maui.ILabel.TextDecorations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextDecorations Microsoft.Maui.ILabel.TextDecorations" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#ILabel#TextDecorations" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property TextDecorations As TextDecorations Implements ILabel.TextDecorations" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ILabel.TextDecorations : Microsoft.Maui.TextDecorations" Usage="Microsoft.Maui.ILabel.TextDecorations" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.ILabel.TextDecorations</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.TextDecorations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.ITextAlignment.HorizontalTextAlignment">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.TextAlignment Microsoft.Maui.ITextAlignment.HorizontalTextAlignment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment Microsoft.Maui.ITextAlignment.HorizontalTextAlignment" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#ITextAlignment#HorizontalTextAlignment" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property HorizontalTextAlignment As TextAlignment Implements ITextAlignment.HorizontalTextAlignment" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextAlignment.HorizontalTextAlignment : Microsoft.Maui.TextAlignment" Usage="Microsoft.Maui.ITextAlignment.HorizontalTextAlignment" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.TextAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.ITextAlignment.VerticalTextAlignment">
+      <MemberSignature Language="C#" Value="Microsoft.Maui.TextAlignment Microsoft.Maui.ITextAlignment.VerticalTextAlignment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment Microsoft.Maui.ITextAlignment.VerticalTextAlignment" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Microsoft#Maui#ITextAlignment#VerticalTextAlignment" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property VerticalTextAlignment As TextAlignment Implements ITextAlignment.VerticalTextAlignment" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextAlignment.VerticalTextAlignment : Microsoft.Maui.TextAlignment" Usage="Microsoft.Maui.ITextAlignment.VerticalTextAlignment" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.TextAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.Text" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control text property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color TextColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TextColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.TextColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.TextColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value of the control text colour property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty TextColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.TextColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.TextColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:Microsoft.Maui.ITextStyle.TextColor" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty TextProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.TextProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.TextProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.Views.AvatarView.Text" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextTransform">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.TextTransform TextTransform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextTransform TextTransform" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.AvatarView.TextTransform" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextTransform As TextTransform" />
+      <MemberSignature Language="F#" Value="member this.TextTransform : Microsoft.Maui.TextTransform with get, set" Usage="CommunityToolkit.Maui.Views.AvatarView.TextTransform" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.TextTransform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="TextTransformProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty TextTransformProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextTransformProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.AvatarView.TextTransformProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextTransformProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextTransformProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.AvatarView.TextTransformProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.Views.AvatarView.TextTransform" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

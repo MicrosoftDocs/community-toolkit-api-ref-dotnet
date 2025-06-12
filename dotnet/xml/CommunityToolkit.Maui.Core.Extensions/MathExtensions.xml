@@ -1,0 +1,49 @@
+<Type Name="MathExtensions" FullName="CommunityToolkit.Maui.Core.Extensions.MathExtensions">
+  <TypeSignature Language="C#" Value="public static class MathExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MathExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Extensions.MathExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module MathExtensions" />
+  <TypeSignature Language="F#" Value="type MathExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods to help with Math.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsZeroOrNaN">
+      <MemberSignature Language="C#" Value="public static bool IsZeroOrNaN (this double number);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsZeroOrNaN(float64 number) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MathExtensions.IsZeroOrNaN(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsZeroOrNaN (number As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsZeroOrNaN : double -&gt; bool" Usage="CommunityToolkit.Maui.Core.Extensions.MathExtensions.IsZeroOrNaN number" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="number" Type="System.Double" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="number">The <see cref="T:System.Double" /> that you want to check.</param>
+        <summary>
+            Check if the number is zero or NaN.
+            </summary>
+        <returns>A <see cref="T:System.Boolean" /> value that indicates if the number is zero or NaN.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -47,6 +47,10 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessage("ReflectionAnalysis", "IL2026:RequiresUnreferencedCode", Justification="This helper is called by generated code from public APIs that have the proper annotations already (and we don't want generated code to produce warnings that developers cannot fix).")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessage("ReflectionAnalysis", "IL2026:RequiresUnreferencedCode", Justification="This helper is called by generated code from public APIs that have the proper annotations already (and we don't want generated code to produce warnings that developers cannot fix).")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
           <AttributeName Language="C#">[System.Obsolete("This method is not intended to be called directly by user code")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This method is not intended to be called directly by user code")&gt;]</AttributeName>
         </Attribute>
@@ -56,7 +60,14 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="instance" Type="CommunityToolkit.Mvvm.ComponentModel.ObservableValidator" />
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="propertyName" Type="System.String" />
       </Parameters>
       <Docs>

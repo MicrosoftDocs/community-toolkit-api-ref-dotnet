@@ -44,7 +44,14 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="box" Type="CommunityToolkit.HighPerformance.Box&lt;T&gt;" RefType="this" />
+        <Parameter Name="box" Type="CommunityToolkit.HighPerformance.Box&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of reference to retrieve.</typeparam>

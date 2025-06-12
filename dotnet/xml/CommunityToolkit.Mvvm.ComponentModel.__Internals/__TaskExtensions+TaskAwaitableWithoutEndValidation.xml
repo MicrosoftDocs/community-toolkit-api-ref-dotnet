@@ -21,6 +21,10 @@
       <AttributeName Language="C#">[System.Obsolete("This type is not intended to be called directly by user code")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("This type is not intended to be called directly by user code")&gt;]</AttributeName>
     </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+    </Attribute>
   </Attributes>
   <Docs>
     <summary>

@@ -1,0 +1,42 @@
+<Type Name="IAsynchronousMediaElementHandler" FullName="CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler">
+  <TypeSignature Language="C#" Value="public interface IAsynchronousMediaElementHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IAsynchronousMediaElementHandler" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAsynchronousMediaElementHandler" />
+  <TypeSignature Language="F#" Value="type IAsynchronousMediaElementHandler = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>99.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Interface that allows asynchronous completion of .NET MAUI Handlers
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SeekCompletedTCS">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.TaskCompletionSource SeekCompletedTCS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.Tasks.TaskCompletionSource SeekCompletedTCS" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler.SeekCompletedTCS" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SeekCompletedTCS As TaskCompletionSource" />
+      <MemberSignature Language="F#" Value="member this.SeekCompletedTCS : System.Threading.Tasks.TaskCompletionSource" Usage="CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler.SeekCompletedTCS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.TaskCompletionSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A <see cref="T:System.Threading.Tasks.TaskCompletionSource" /> to provide Handlers an asynchronous way to complete
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

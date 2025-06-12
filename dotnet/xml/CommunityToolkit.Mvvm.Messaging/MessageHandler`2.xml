@@ -11,12 +11,24 @@
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TRecipient">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
         <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
       </Constraints>
     </TypeParameter>
     <TypeParameter Name="TMessage">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
         <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>

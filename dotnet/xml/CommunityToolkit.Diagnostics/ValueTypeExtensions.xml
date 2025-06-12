@@ -33,9 +33,21 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>

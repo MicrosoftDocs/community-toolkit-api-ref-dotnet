@@ -35,6 +35,12 @@
       <InterfaceName>System.Windows.Input.ICommand</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <typeparam name="T">The type of parameter being passed as input to the callbacks.</typeparam>
     <summary>
@@ -55,7 +61,14 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="cancelableExecute">The cancelable execution logic.</param>
@@ -78,7 +91,14 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="execute">The execution logic.</param>
@@ -101,7 +121,14 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
       </Parameters>
       <Docs>
@@ -126,8 +153,22 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="cancelableExecute">The cancelable execution logic.</param>
@@ -151,7 +192,14 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
       </Parameters>
       <Docs>
@@ -176,8 +224,22 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="execute">The execution logic.</param>
@@ -201,8 +263,22 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;T,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
       </Parameters>
       <Docs>
@@ -228,8 +304,22 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="execute" Type="System.Func&lt;T,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
       </Parameters>
       <Docs>
@@ -449,7 +539,14 @@
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="parameter" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="parameter">The input parameter.</param>
@@ -480,7 +577,14 @@
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="parameter" Type="T" />
+        <Parameter Name="parameter" Type="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="parameter">To be added.</param>

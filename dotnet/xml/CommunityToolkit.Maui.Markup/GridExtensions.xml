@@ -1,0 +1,505 @@
+<Type Name="GridExtensions" FullName="CommunityToolkit.Maui.Markup.GridExtensions">
+  <TypeSignature Language="C#" Value="public static class GridExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GridExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.GridExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module GridExtensions" />
+  <TypeSignature Language="F#" Value="type GridExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Grid Extensions
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Column&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Column&lt;TBindable&gt; (this TBindable bindable, int column) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Column&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 column) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Column``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Column(Of TBindable As BindableObject) (bindable As TBindable, column As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Column : 'Bindable * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Column (bindable, column)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="column" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="column" />
+        <summary>
+            Set Column
+            </summary>
+        <returns>View with Column set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Column&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Column&lt;TBindable&gt; (this TBindable bindable, int column, int span) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Column&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 column, int32 span) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Column``1(``0,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Column(Of TBindable As BindableObject) (bindable As TBindable, column As Integer, span As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Column : 'Bindable * int * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Column (bindable, column, span)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="column" Type="System.Int32" />
+        <Parameter Name="span" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="column" />
+        <param name="span" />
+        <summary>
+            Set Column 
+            </summary>
+        <returns>View with Column set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Column&lt;TBindable,TColumn&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Column&lt;TBindable,TColumn&gt; (this TBindable bindable, TColumn column) where TBindable : Microsoft.Maui.Controls.BindableObject where TColumn : Enum;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Column&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, (class System.Enum) TColumn&gt;(!!TBindable bindable, !!TColumn column) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Column``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Column(Of TBindable As BindableObject, TColumn As BindableObject) (bindable As TBindable, column As TColumn) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Column : 'Bindable * 'Column -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Column :&gt; Enum)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Column (bindable, column)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TColumn">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>System.Enum</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="column" Type="TColumn" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <typeparam name="TColumn" />
+        <param name="bindable" />
+        <param name="column" />
+        <summary>
+            Set Column
+            </summary>
+        <returns>View with Column set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Column&lt;TBindable,TColumn&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Column&lt;TBindable,TColumn&gt; (this TBindable bindable, TColumn first, TColumn last) where TBindable : Microsoft.Maui.Controls.BindableObject where TColumn : Enum;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Column&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, (class System.Enum) TColumn&gt;(!!TBindable bindable, !!TColumn first, !!TColumn last) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Column``2(``0,``1,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Column(Of TBindable As BindableObject, TColumn As BindableObject) (bindable As TBindable, first As TColumn, last As TColumn) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Column : 'Bindable * 'Column * 'Column -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Column :&gt; Enum)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Column (bindable, first, last)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TColumn">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>System.Enum</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="first" Type="TColumn" />
+        <Parameter Name="last" Type="TColumn" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <typeparam name="TColumn" />
+        <param name="bindable" />
+        <param name="first" />
+        <param name="last" />
+        <summary>
+            Set Column
+            </summary>
+        <returns>Vie with Column set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnSpan&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable ColumnSpan&lt;TBindable&gt; (this TBindable bindable, int span) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable ColumnSpan&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 span) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.ColumnSpan``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ColumnSpan(Of TBindable As BindableObject) (bindable As TBindable, span As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member ColumnSpan : 'Bindable * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.ColumnSpan (bindable, span)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="span" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="span" />
+        <summary>
+            Set Column Span
+            </summary>
+        <returns>View with ColumnSpan set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Row&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Row&lt;TBindable&gt; (this TBindable bindable, int row) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Row&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Row``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Row(Of TBindable As BindableObject) (bindable As TBindable, row As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Row : 'Bindable * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Row (bindable, row)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="row" />
+        <summary>
+            Set Row
+            </summary>
+        <returns>View with row set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Row&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Row&lt;TBindable&gt; (this TBindable bindable, int row, int span) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Row&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 row, int32 span) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Row``1(``0,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Row(Of TBindable As BindableObject) (bindable As TBindable, row As Integer, span As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Row : 'Bindable * int * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Row (bindable, row, span)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="row" Type="System.Int32" />
+        <Parameter Name="span" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="row" />
+        <param name="span" />
+        <summary>
+            Set Row
+            </summary>
+        <returns>View with row set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Row&lt;TBindable,TRow&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Row&lt;TBindable,TRow&gt; (this TBindable bindable, TRow row) where TBindable : Microsoft.Maui.Controls.BindableObject where TRow : Enum;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Row&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, (class System.Enum) TRow&gt;(!!TBindable bindable, !!TRow row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Row``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Row(Of TBindable As BindableObject, TRow As BindableObject) (bindable As TBindable, row As TRow) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Row : 'Bindable * 'Row -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Row :&gt; Enum)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Row (bindable, row)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TRow">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>System.Enum</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="row" Type="TRow" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <typeparam name="TRow" />
+        <param name="bindable" />
+        <param name="row" />
+        <summary>
+            Set Row
+            </summary>
+        <returns>View with Row set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Row&lt;TBindable,TRow&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Row&lt;TBindable,TRow&gt; (this TBindable bindable, TRow first, TRow last) where TBindable : Microsoft.Maui.Controls.BindableObject where TRow : Enum;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Row&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, (class System.Enum) TRow&gt;(!!TBindable bindable, !!TRow first, !!TRow last) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.Row``2(``0,``1,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Row(Of TBindable As BindableObject, TRow As BindableObject) (bindable As TBindable, first As TRow, last As TRow) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Row : 'Bindable * 'Row * 'Row -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Row :&gt; Enum)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.Row (bindable, first, last)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TRow">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>System.Enum</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="first" Type="TRow" />
+        <Parameter Name="last" Type="TRow" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <typeparam name="TRow" />
+        <param name="bindable" />
+        <param name="first" />
+        <param name="last" />
+        <summary>
+            Set Row
+            </summary>
+        <returns>View with Row set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowSpan&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable RowSpan&lt;TBindable&gt; (this TBindable bindable, int span) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable RowSpan&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 span) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridExtensions.RowSpan``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RowSpan(Of TBindable As BindableObject) (bindable As TBindable, span As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member RowSpan : 'Bindable * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.GridExtensions.RowSpan (bindable, span)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="span" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="span" />
+        <summary>
+            Set Row Span
+            </summary>
+        <returns>View with row span set</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

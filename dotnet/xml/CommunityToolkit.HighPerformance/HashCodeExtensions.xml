@@ -39,7 +39,14 @@
       </TypeParameters>
       <Parameters>
         <Parameter Name="hashCode" Type="System.HashCode" RefType="this" />
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of elements in the input <see cref="T:System.ReadOnlySpan`1" /> instance.</typeparam>

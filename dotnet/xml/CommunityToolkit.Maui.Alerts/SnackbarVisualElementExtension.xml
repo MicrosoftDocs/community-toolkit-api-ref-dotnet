@@ -1,0 +1,81 @@
+<Type Name="SnackbarVisualElementExtension" FullName="CommunityToolkit.Maui.Alerts.SnackbarVisualElementExtension">
+  <TypeSignature Language="C#" Value="public static class SnackbarVisualElementExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SnackbarVisualElementExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Alerts.SnackbarVisualElementExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module SnackbarVisualElementExtension" />
+  <TypeSignature Language="F#" Value="type SnackbarVisualElementExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.Controls.VisualElement" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisplaySnackbar">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DisplaySnackbar (this Microsoft.Maui.Controls.VisualElement? visualElement, string message, Action? action = default, string actionButtonText = &quot;OK&quot;, TimeSpan? duration = default, CommunityToolkit.Maui.Core.SnackbarOptions? visualOptions = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DisplaySnackbar(class Microsoft.Maui.Controls.VisualElement visualElement, string message, class System.Action action, string actionButtonText, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; duration, class CommunityToolkit.Maui.Core.SnackbarOptions visualOptions, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.SnackbarVisualElementExtension.DisplaySnackbar(Microsoft.Maui.Controls.VisualElement,System.String,System.Action,System.String,System.Nullable{System.TimeSpan},CommunityToolkit.Maui.Core.SnackbarOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisplaySnackbar (visualElement As VisualElement, message As String, Optional action As Action = Nothing, Optional actionButtonText As String = &quot;OK&quot;, Optional duration As Nullable(Of TimeSpan) = Nothing, Optional visualOptions As SnackbarOptions = Nothing, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="static member DisplaySnackbar : Microsoft.Maui.Controls.VisualElement * string * Action * string * Nullable&lt;TimeSpan&gt; * CommunityToolkit.Maui.Core.SnackbarOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="CommunityToolkit.Maui.Alerts.SnackbarVisualElementExtension.DisplaySnackbar (visualElement, message, action, actionButtonText, duration, visualOptions, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="visualElement" Type="Microsoft.Maui.Controls.VisualElement" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="action" Type="System.Action">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="actionButtonText" Type="System.String" />
+        <Parameter Name="duration" Type="System.Nullable&lt;System.TimeSpan&gt;" />
+        <Parameter Name="visualOptions" Type="CommunityToolkit.Maui.Core.SnackbarOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="visualElement">Anchor element</param>
+        <param name="message">Text of the snackbar</param>
+        <param name="actionButtonText">Text of the snackbar button</param>
+        <param name="action">Action of the snackbar button</param>
+        <param name="duration">Snackbar duration</param>
+        <param name="visualOptions">Snackbar visual options</param>
+        <param name="token">Cancellation token</param>
+        <summary>
+            Display snackbar anchored to <see cref="T:Microsoft.Maui.Controls.VisualElement" /></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

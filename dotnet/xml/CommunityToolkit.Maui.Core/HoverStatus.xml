@@ -1,0 +1,64 @@
+<Type Name="HoverStatus" FullName="CommunityToolkit.Maui.Core.HoverStatus">
+  <TypeSignature Language="C#" Value="public enum HoverStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoverStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.HoverStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum HoverStatus" />
+  <TypeSignature Language="F#" Value="type HoverStatus = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Core.HoverStatus" />
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Entered">
+      <MemberSignature Language="C#" Value="Entered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.HoverStatus Entered = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.HoverStatus.Entered" />
+      <MemberSignature Language="VB.NET" Value="Entered" />
+      <MemberSignature Language="F#" Value="Entered = 0" Usage="CommunityToolkit.Maui.Core.HoverStatus.Entered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.HoverStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The pointer has entered the element.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exited">
+      <MemberSignature Language="C#" Value="Exited" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.HoverStatus Exited = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.HoverStatus.Exited" />
+      <MemberSignature Language="VB.NET" Value="Exited" />
+      <MemberSignature Language="F#" Value="Exited = 1" Usage="CommunityToolkit.Maui.Core.HoverStatus.Exited" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.HoverStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The pointer has exited the element.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

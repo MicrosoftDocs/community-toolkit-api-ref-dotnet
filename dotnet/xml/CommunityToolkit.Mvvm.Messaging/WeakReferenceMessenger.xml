@@ -17,6 +17,12 @@
       <InterfaceName>CommunityToolkit.Mvvm.Messaging.IMessenger</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             A class providing a reference implementation for the <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> interface.
@@ -127,6 +133,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -178,6 +190,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -253,6 +271,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -299,6 +323,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -372,6 +402,12 @@
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>

@@ -1,0 +1,123 @@
+<Type Name="StateToBooleanConverter" FullName="CommunityToolkit.Maui.Converters.StateToBooleanConverter">
+  <TypeSignature Language="C#" Value="public class StateToBooleanConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;CommunityToolkit.Maui.Converters.LayoutState,bool,CommunityToolkit.Maui.Converters.LayoutState?&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StateToBooleanConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`3&lt;valuetype CommunityToolkit.Maui.Converters.LayoutState, bool, valuetype System.Nullable`1&lt;valuetype CommunityToolkit.Maui.Converters.LayoutState&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.StateToBooleanConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class StateToBooleanConverter&#xA;Inherits BaseConverterOneWay(Of LayoutState, Boolean, Nullable(Of LayoutState))" />
+  <TypeSignature Language="F#" Value="type StateToBooleanConverter = class&#xA;    inherit BaseConverterOneWay&lt;LayoutState, bool, Nullable&lt;LayoutState&gt;&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;CommunityToolkit.Maui.Converters.LayoutState,System.Boolean,System.Nullable&lt;CommunityToolkit.Maui.Converters.LayoutState&gt;&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">CommunityToolkit.Maui.Converters.LayoutState</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Boolean</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Nullable&lt;CommunityToolkit.Maui.Converters.LayoutState&gt;</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            This converter can be used to determine if a certain state is visible. This can be useful, for instance, in scenarios where you want to show/hide certain elements based on the current state.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StateToBooleanConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.StateToBooleanConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override bool ConvertFrom (CommunityToolkit.Maui.Converters.LayoutState value, CommunityToolkit.Maui.Converters.LayoutState? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ConvertFrom(valuetype CommunityToolkit.Maui.Converters.LayoutState value, valuetype System.Nullable`1&lt;valuetype CommunityToolkit.Maui.Converters.LayoutState&gt; parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.StateToBooleanConverter.ConvertFrom(CommunityToolkit.Maui.Converters.LayoutState,System.Nullable{CommunityToolkit.Maui.Converters.LayoutState},System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As LayoutState, Optional parameter As Nullable(Of LayoutState) = Nothing, Optional culture As CultureInfo = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : CommunityToolkit.Maui.Converters.LayoutState * Nullable&lt;CommunityToolkit.Maui.Converters.LayoutState&gt; * System.Globalization.CultureInfo -&gt; bool" Usage="stateToBooleanConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="CommunityToolkit.Maui.Converters.LayoutState" />
+        <Parameter Name="parameter" Type="System.Nullable&lt;CommunityToolkit.Maui.Converters.LayoutState&gt;" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The <see cref="T:CommunityToolkit.Maui.Converters.LayoutState" /> to compare.</param>
+        <param name="parameter">Optionally, a <see cref="T:CommunityToolkit.Maui.Converters.LayoutState" /> can be supplied here to compare against.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Takes the incoming <see cref="T:CommunityToolkit.Maui.Converters.LayoutState" /> in <paramref name="value" /> and compares it to <see cref="P:CommunityToolkit.Maui.Converters.StateToBooleanConverter.StateToCompare" />. If they are equal it returns True, if they are not equal it returns False. Additionally a state to compare against can be provided in <paramref name="parameter" />.
+            </summary>
+        <returns>True if the provided <see cref="T:CommunityToolkit.Maui.Converters.LayoutState" />s match, otherwise False if they don't match.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override bool DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.StateToBooleanConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : bool with get, set" Usage="CommunityToolkit.Maui.Converters.StateToBooleanConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="StateToCompare">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Converters.LayoutState StateToCompare { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Converters.LayoutState StateToCompare" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.StateToBooleanConverter.StateToCompare" />
+      <MemberSignature Language="VB.NET" Value="Public Property StateToCompare As LayoutState" />
+      <MemberSignature Language="F#" Value="member this.StateToCompare : CommunityToolkit.Maui.Converters.LayoutState with get, set" Usage="CommunityToolkit.Maui.Converters.StateToBooleanConverter.StateToCompare" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.LayoutState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:CommunityToolkit.Maui.Converters.LayoutState" /> to compare to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

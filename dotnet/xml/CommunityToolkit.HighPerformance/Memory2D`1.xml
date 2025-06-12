@@ -10,7 +10,14 @@
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T" />
+    <TypeParameter Name="T">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
   </TypeParameters>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -28,6 +35,14 @@
     <Attribute>
       <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(CommunityToolkit.HighPerformance.Memory.Views.MemoryDebugView2D&lt;&gt;))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(CommunityToolkit.HighPerformance.Memory.Views.MemoryDebugView2D&lt;&gt;))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -53,7 +68,14 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" />
+        <Parameter Name="array" Type="T[,]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="array">The given 2D array to wrap.</param>
@@ -95,6 +117,35 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Memory2D (System.Buffers.MemoryManager&lt;T&gt; memoryManager, int height, int width);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Buffers.MemoryManager`1&lt;!T&gt; memoryManager, int32 height, int32 width) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (memoryManager As MemoryManager(Of T), height As Integer, width As Integer)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt; : System.Buffers.MemoryManager&lt;'T&gt; * int * int -&gt; CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt;" Usage="new CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt; (memoryManager, height, width)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="memoryManager" Type="System.Buffers.MemoryManager&lt;T&gt;" />
+        <Parameter Name="height" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="memoryManager">The target <see cref="T:System.Buffers.MemoryManager`1" /> to wrap.</param>
+        <param name="height">The height of the resulting 2D area.</param>
+        <param name="width">The width of each row in the resulting 2D area.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.HighPerformance.Memory2D`1" /> struct.
+            </summary>
+        <remarks>The total area must match the length of <paramref name="memoryManager" />.</remarks>
+        <exception cref="T:System.ArgumentException">
+            Thrown when either <paramref name="height" /> or <paramref name="width" /> are invalid.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public Memory2D (T[] array, int height, int width);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(!T[] array, int32 height, int32 width) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[],System.Int32,System.Int32)" />
@@ -127,6 +178,42 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Memory2D (System.Buffers.MemoryManager&lt;T&gt; memoryManager, int offset, int height, int width, int pitch);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Buffers.MemoryManager`1&lt;!T&gt; memoryManager, int32 offset, int32 height, int32 width, int32 pitch) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (memoryManager As MemoryManager(Of T), offset As Integer, height As Integer, width As Integer, pitch As Integer)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt; : System.Buffers.MemoryManager&lt;'T&gt; * int * int * int * int -&gt; CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt;" Usage="new CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt; (memoryManager, offset, height, width, pitch)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="memoryManager" Type="System.Buffers.MemoryManager&lt;T&gt;" />
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="pitch" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="memoryManager">The target <see cref="T:System.Buffers.MemoryManager`1" /> to wrap.</param>
+        <param name="offset">The initial offset within <paramref name="memoryManager" />.</param>
+        <param name="height">The height of the resulting 2D area.</param>
+        <param name="width">The width of each row in the resulting 2D area.</param>
+        <param name="pitch">The pitch in the resulting 2D area.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.HighPerformance.Memory2D`1" /> struct.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when one of the input parameters is out of range.
+            </exception>
+        <exception cref="T:System.ArgumentException">
+            Thrown when the requested area is outside of bounds for <paramref name="memoryManager" />.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public Memory2D (T[,]? array, int row, int column, int height, int width);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(!T[,] array, int32 row, int32 column, int32 height, int32 width) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
@@ -138,7 +225,14 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" />
+        <Parameter Name="array" Type="T[,]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="row" Type="System.Int32" />
         <Parameter Name="column" Type="System.Int32" />
         <Parameter Name="height" Type="System.Int32" />
@@ -253,7 +347,14 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;" />
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The destination <see cref="T:CommunityToolkit.HighPerformance.Memory2D`1" /> instance.</param>
@@ -282,7 +383,14 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Memory&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Memory&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The destination <see cref="T:System.Memory`1" /> instance.</param>
@@ -308,6 +416,12 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="instance" Type="System.Object" />
@@ -343,6 +457,12 @@
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -372,7 +492,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="other" Type="CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;" />
+        <Parameter Name="other" Type="CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="other">To be added.</param>
@@ -487,8 +614,45 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.HighPerformance.Memory2D&lt;T&gt; this[Range rows, Range columns] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.HighPerformance.Memory2D`1&lt;!T&gt; Item(valuetype System.Range, valuetype System.Range)" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.Memory2D`1.Item(System.Range,System.Range)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(rows As Range, columns As Range) As Memory2D(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Item(Range * Range) : CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.Memory2D&lt;'T&gt;.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rows" Type="System.Range" />
+        <Parameter Name="columns" Type="System.Range" />
+      </Parameters>
+      <Docs>
+        <param name="rows">The target range of rows to select.</param>
+        <param name="columns">The target range of columns to select.</param>
+        <summary>
+            Slices the current instance with the specified parameters.
+            </summary>
+        <value>A new <see cref="T:CommunityToolkit.HighPerformance.Memory2D`1" /> instance representing a slice of the current one.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+            Thrown when either <paramref name="rows" /> or <paramref name="columns" /> are invalid.
+            </exception>
+      </Docs>
+    </Member>
     <Member MemberName="Length">
-      <MemberSignature Language="C#" Value="public nint Length { get; }" />
+      <MemberSignature Language="C#" Value="public IntPtr Length { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance native int Length" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.Memory2D`1.Length" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As IntPtr" />
@@ -498,12 +662,6 @@
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.IntPtr</ReturnType>
       </ReturnValue>
@@ -528,9 +686,22 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" />
+        <Parameter Name="array" Type="T[,]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="array">To be added.</param>
@@ -580,6 +751,12 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="row" Type="System.Int32" />
@@ -618,6 +795,12 @@
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Span2D&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -690,7 +873,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;" />
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Memory2D&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The target <see cref="T:CommunityToolkit.HighPerformance.Memory2D`1" /> of the copy operation.</param>
@@ -717,7 +907,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Memory&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Memory&lt;T&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The target <see cref="T:System.Memory`1" /> of the copy operation.</param>
@@ -743,7 +940,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="out" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="out">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="memory">The resulting <see cref="T:System.Memory`1" />, in case of success.</param>

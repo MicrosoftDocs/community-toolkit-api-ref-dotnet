@@ -17,6 +17,10 @@
       <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=true, Inherited=false)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=true, Inherited=false)&gt;]</AttributeName>
     </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
   </Attributes>
   <Docs>
     <summary>
