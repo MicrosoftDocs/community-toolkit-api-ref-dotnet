@@ -1,0 +1,77 @@
+<Type Name="NotifyDataErrorInfoAttribute" FullName="CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute">
+  <TypeSignature Language="C#" Value="public sealed class NotifyDataErrorInfoAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NotifyDataErrorInfoAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NotifyDataErrorInfoAttribute&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type NotifyDataErrorInfoAttribute = class&#xA;    inherit Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=false, Inherited=false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=false, Inherited=false)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            An attribute that can be used to support <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute" /> in generated properties, when applied to
+            partial properties contained in a type that is inheriting from <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator" /> and using any validation attributes.
+            When this attribute is used, the generated property setter will also call <see cref="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ValidateProperty(System.Object,System.String)" />.
+            This allows generated properties to opt-in into validation behavior without having to fallback into a full explicit observable property.
+            <para>
+            This attribute can be used as follows:
+            <code>
+            partial class MyViewModel : ObservableValidator
+            {
+                [ObservableProperty]
+                [NotifyDataErrorInfo]
+                [Required]
+                [MinLength(2)]
+                public partial string Username { get; set; }
+            }
+            </code></para>
+            And with this, code analogous to this will be generated:
+            <code>
+            partial class MyViewModel
+            {
+                public partial string Username
+                {
+                    get =&gt; field;
+                    set =&gt; SetProperty(ref field, value, validate: true);
+                }
+            }
+            </code></summary>
+    <remarks>
+      <para>
+            This attribute can also be used on a class, which will enable the validation on all generated properties contained in it.
+            </para>
+      <para>
+            Just like <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute" />, this attribute can also be used on fields as well.
+            </para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NotifyDataErrorInfoAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

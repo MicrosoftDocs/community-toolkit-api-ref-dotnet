@@ -1,0 +1,395 @@
+<Type Name="StringGesturesExtensions" FullName="CommunityToolkit.Maui.Markup.StringGesturesExtensions">
+  <TypeSignature Language="C#" Value="public static class StringGesturesExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StringGesturesExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.StringGesturesExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module StringGesturesExtensions" />
+  <TypeSignature Language="F#" Value="type StringGesturesExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension Methods for Element Gestures
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BindSwipeGesture&lt;TGestureElement&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindSwipeGesture&lt;TGestureElement&gt; (this TGestureElement gestureElement, string commandPath, object? commandSource = default, string? parameterPath = default, object? parameterSource = default, Microsoft.Maui.SwipeDirection? direction = default, uint? threshold = default) where TGestureElement : Microsoft.Maui.Controls.IGestureRecognizers;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindSwipeGesture&lt;(class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement&gt;(!!TGestureElement gestureElement, string commandPath, object commandSource, string parameterPath, object parameterSource, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.SwipeDirection&gt; direction, valuetype System.Nullable`1&lt;unsigned int32&gt; threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.StringGesturesExtensions.BindSwipeGesture``1(``0,System.String,System.Object,System.String,System.Object,System.Nullable{Microsoft.Maui.SwipeDirection},System.Nullable{System.UInt32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindSwipeGesture(Of TGestureElement As IGestureRecognizers) (gestureElement As TGestureElement, commandPath As String, Optional commandSource As Object = Nothing, Optional parameterPath As String = Nothing, Optional parameterSource As Object = Nothing, Optional direction As Nullable(Of SwipeDirection) = Nothing, Optional threshold As Nullable(Of UInteger) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindSwipeGesture : 'GestureElement * string * obj * string * obj * Nullable&lt;Microsoft.Maui.SwipeDirection&gt; * Nullable&lt;uint32&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers)" Usage="CommunityToolkit.Maui.Markup.StringGesturesExtensions.BindSwipeGesture (gestureElement, commandPath, commandSource, parameterPath, parameterSource, direction, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="commandPath" Type="System.String" />
+        <Parameter Name="commandSource" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterPath" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSource" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="direction" Type="System.Nullable&lt;Microsoft.Maui.SwipeDirection&gt;" />
+        <Parameter Name="threshold" Type="System.Nullable&lt;System.UInt32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <param name="gestureElement">An <see cref="T:Microsoft.Maui.Controls.Element" /> implementing <see cref="T:Microsoft.Maui.Controls.IGestureRecognizers" /></param>
+        <param name="commandPath">Path to Command Binding</param>
+        <param name="commandSource">Binding source for Command Binding</param>
+        <param name="parameterPath">If not specified or null, no binding is created for the CommandParameter property</param>
+        <param name="parameterSource">Binding source for Command Binding</param>
+        <param name="direction">Swipe gesture direction</param>
+        <param name="threshold">Minimum swipe distance that will cause the gesture to be recognized</param>
+        <summary>Add a <see cref="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" /> and bind to its Command and (optionally) CommandParameter properties</summary>
+        <returns>
+          <paramref name="gestureElement" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindTapGesture&lt;TGestureElement&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindTapGesture&lt;TGestureElement&gt; (this TGestureElement gestureElement, string commandPath, object? commandSource = default, string? parameterPath = default, object? parameterSource = default, int? numberOfTapsRequired = default) where TGestureElement : Microsoft.Maui.Controls.IGestureRecognizers;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindTapGesture&lt;(class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement&gt;(!!TGestureElement gestureElement, string commandPath, object commandSource, string parameterPath, object parameterSource, valuetype System.Nullable`1&lt;int32&gt; numberOfTapsRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.StringGesturesExtensions.BindTapGesture``1(``0,System.String,System.Object,System.String,System.Object,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindTapGesture(Of TGestureElement As IGestureRecognizers) (gestureElement As TGestureElement, commandPath As String, Optional commandSource As Object = Nothing, Optional parameterPath As String = Nothing, Optional parameterSource As Object = Nothing, Optional numberOfTapsRequired As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindTapGesture : 'GestureElement * string * obj * string * obj * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers)" Usage="CommunityToolkit.Maui.Markup.StringGesturesExtensions.BindTapGesture (gestureElement, commandPath, commandSource, parameterPath, parameterSource, numberOfTapsRequired)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="commandPath" Type="System.String" />
+        <Parameter Name="commandSource" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterPath" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSource" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="numberOfTapsRequired" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <param name="gestureElement">An <see cref="T:Microsoft.Maui.Controls.Element" /> implementing <see cref="T:Microsoft.Maui.Controls.IGestureRecognizers" /></param>
+        <param name="commandPath">Path to Command Binding</param>
+        <param name="commandSource">Binding source for Command Binding</param>
+        <param name="parameterPath">If not specified or null, no binding is created for the CommandParameter property</param>
+        <param name="parameterSource">Binding source for Command Binding</param>
+        <param name="numberOfTapsRequired">Number of taps required to trigger the <see cref="T:System.Windows.Input.ICommand" /></param>
+        <summary>Adds a <see cref="T:Microsoft.Maui.Controls.TapGestureRecognizer" /> and bind its Command and (optionally) CommandParameter properties</summary>
+        <returns>
+          <paramref name="gestureElement" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PanGesture&lt;TGestureElement&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement PanGesture&lt;TGestureElement&gt; (this TGestureElement gestureElement, EventHandler&lt;Microsoft.Maui.Controls.PanUpdatedEventArgs&gt;? onPanUpdated = default, int? touchPoints = default) where TGestureElement : Microsoft.Maui.Controls.IGestureRecognizers;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement PanGesture&lt;(class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement&gt;(!!TGestureElement gestureElement, class System.EventHandler`1&lt;class Microsoft.Maui.Controls.PanUpdatedEventArgs&gt; onPanUpdated, valuetype System.Nullable`1&lt;int32&gt; touchPoints) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.StringGesturesExtensions.PanGesture``1(``0,System.EventHandler{Microsoft.Maui.Controls.PanUpdatedEventArgs},System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PanGesture(Of TGestureElement As IGestureRecognizers) (gestureElement As TGestureElement, Optional onPanUpdated As EventHandler(Of PanUpdatedEventArgs) = Nothing, Optional touchPoints As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member PanGesture : 'GestureElement * EventHandler&lt;Microsoft.Maui.Controls.PanUpdatedEventArgs&gt; * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers)" Usage="CommunityToolkit.Maui.Markup.StringGesturesExtensions.PanGesture (gestureElement, onPanUpdated, touchPoints)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="onPanUpdated" Type="System.EventHandler&lt;Microsoft.Maui.Controls.PanUpdatedEventArgs&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="touchPoints" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <param name="gestureElement">An <see cref="T:Microsoft.Maui.Controls.Element" /> implementing <see cref="T:Microsoft.Maui.Controls.IGestureRecognizers" /></param>
+        <param name="onPanUpdated">
+          <see cref="T:System.Action" /> that invokes when the <see cref="E:Microsoft.Maui.Controls.PanGestureRecognizer.PanUpdated" /> event is invoked</param>
+        <param name="touchPoints">Number of touch points in the gesture</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.PanGestureRecognizer" /></summary>
+        <returns>
+          <paramref name="gestureElement" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PinchGesture&lt;TGestureElement&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement PinchGesture&lt;TGestureElement&gt; (this TGestureElement gestureElement, EventHandler&lt;Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs&gt;? onPinchGestureUpdated = default) where TGestureElement : Microsoft.Maui.Controls.IGestureRecognizers;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement PinchGesture&lt;(class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement&gt;(!!TGestureElement gestureElement, class System.EventHandler`1&lt;class Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs&gt; onPinchGestureUpdated) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.StringGesturesExtensions.PinchGesture``1(``0,System.EventHandler{Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PinchGesture(Of TGestureElement As IGestureRecognizers) (gestureElement As TGestureElement, Optional onPinchGestureUpdated As EventHandler(Of PinchGestureUpdatedEventArgs) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member PinchGesture : 'GestureElement * EventHandler&lt;Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers)" Usage="CommunityToolkit.Maui.Markup.StringGesturesExtensions.PinchGesture (gestureElement, onPinchGestureUpdated)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="onPinchGestureUpdated" Type="System.EventHandler&lt;Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <param name="gestureElement">An <see cref="T:Microsoft.Maui.Controls.Element" /> implementing <see cref="T:Microsoft.Maui.Controls.IGestureRecognizers" /></param>
+        <param name="onPinchGestureUpdated">
+          <see cref="T:System.Action" /> that invokes when the <see cref="E:Microsoft.Maui.Controls.PinchGestureRecognizer.PinchUpdated" /> event is invoked</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.PinchGestureRecognizer" /></summary>
+        <returns>
+          <paramref name="gestureElement" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwipeGesture&lt;TGestureElement&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement SwipeGesture&lt;TGestureElement&gt; (this TGestureElement gestureElement, EventHandler&lt;Microsoft.Maui.Controls.SwipedEventArgs&gt;? onSwiped = default, Microsoft.Maui.SwipeDirection? direction = default, uint? threshold = default) where TGestureElement : Microsoft.Maui.Controls.IGestureRecognizers;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement SwipeGesture&lt;(class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement&gt;(!!TGestureElement gestureElement, class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SwipedEventArgs&gt; onSwiped, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.SwipeDirection&gt; direction, valuetype System.Nullable`1&lt;unsigned int32&gt; threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.StringGesturesExtensions.SwipeGesture``1(``0,System.EventHandler{Microsoft.Maui.Controls.SwipedEventArgs},System.Nullable{Microsoft.Maui.SwipeDirection},System.Nullable{System.UInt32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SwipeGesture(Of TGestureElement As IGestureRecognizers) (gestureElement As TGestureElement, Optional onSwiped As EventHandler(Of SwipedEventArgs) = Nothing, Optional direction As Nullable(Of SwipeDirection) = Nothing, Optional threshold As Nullable(Of UInteger) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member SwipeGesture : 'GestureElement * EventHandler&lt;Microsoft.Maui.Controls.SwipedEventArgs&gt; * Nullable&lt;Microsoft.Maui.SwipeDirection&gt; * Nullable&lt;uint32&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers)" Usage="CommunityToolkit.Maui.Markup.StringGesturesExtensions.SwipeGesture (gestureElement, onSwiped, direction, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="onSwiped" Type="System.EventHandler&lt;Microsoft.Maui.Controls.SwipedEventArgs&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="direction" Type="System.Nullable&lt;Microsoft.Maui.SwipeDirection&gt;" />
+        <Parameter Name="threshold" Type="System.Nullable&lt;System.UInt32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <param name="gestureElement">An <see cref="T:Microsoft.Maui.Controls.Element" /> implementing <see cref="T:Microsoft.Maui.Controls.IGestureRecognizers" /></param>
+        <param name="onSwiped">
+          <see cref="T:System.Action" /> that invokes when the <see cref="E:Microsoft.Maui.Controls.SwipeGestureRecognizer.Swiped" /> event is invoked</param>
+        <param name="direction">Swipe gesture direction</param>
+        <param name="threshold">Minimum swipe distance that will cause the gesture to be recognized</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" /></summary>
+        <returns>
+          <paramref name="gestureElement" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TapGesture&lt;TGestureElement&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement TapGesture&lt;TGestureElement&gt; (this TGestureElement gestureElement, Action onTapped, int? numberOfTapsRequired = default) where TGestureElement : Microsoft.Maui.Controls.IGestureRecognizers;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement TapGesture&lt;(class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement&gt;(!!TGestureElement gestureElement, class System.Action onTapped, valuetype System.Nullable`1&lt;int32&gt; numberOfTapsRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.StringGesturesExtensions.TapGesture``1(``0,System.Action,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TapGesture(Of TGestureElement As IGestureRecognizers) (gestureElement As TGestureElement, onTapped As Action, Optional numberOfTapsRequired As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member TapGesture : 'GestureElement * Action * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers)" Usage="CommunityToolkit.Maui.Markup.StringGesturesExtensions.TapGesture (gestureElement, onTapped, numberOfTapsRequired)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="onTapped" Type="System.Action" />
+        <Parameter Name="numberOfTapsRequired" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <param name="gestureElement">An <see cref="T:Microsoft.Maui.Controls.Element" /> implementing <see cref="T:Microsoft.Maui.Controls.IGestureRecognizers" /></param>
+        <param name="onTapped">
+          <see cref="T:System.Action" />invoked once <paramref name="numberOfTapsRequired" /> threshold is reached</param>
+        <param name="numberOfTapsRequired">Number of taps required to trigger <paramref name="onTapped" /></param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.TapGestureRecognizer" /> and sets defines its action when tapped
+            </summary>
+        <returns>
+          <paramref name="gestureElement" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,51 @@
+<Type Name="IAsyncRelayCommandExtensions" FullName="CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions">
+  <TypeSignature Language="C#" Value="public static class IAsyncRelayCommandExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit IAsyncRelayCommandExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module IAsyncRelayCommandExtensions" />
+  <TypeSignature Language="F#" Value="type IAsyncRelayCommandExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extensions for the <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" /> type.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateCancelCommand">
+      <MemberSignature Language="C#" Value="public static System.Windows.Input.ICommand CreateCancelCommand (this CommunityToolkit.Mvvm.Input.IAsyncRelayCommand command);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Windows.Input.ICommand CreateCancelCommand(class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand command) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions.CreateCancelCommand(CommunityToolkit.Mvvm.Input.IAsyncRelayCommand)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateCancelCommand (command As IAsyncRelayCommand) As ICommand" />
+      <MemberSignature Language="F#" Value="static member CreateCancelCommand : CommunityToolkit.Mvvm.Input.IAsyncRelayCommand -&gt; System.Windows.Input.ICommand" Usage="CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions.CreateCancelCommand command" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="command" Type="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="command">The input <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" /> instance to create a cancellation command for.</param>
+        <summary>
+            Creates an <see cref="T:System.Windows.Input.ICommand" /> instance that can be used to cancel execution on the input command.
+            The returned command will also notify when it can be executed based on the state of the wrapped command.
+            </summary>
+        <returns>An <see cref="T:System.Windows.Input.ICommand" /> instance that can be used to monitor and signal cancellation for <paramref name="command" />.</returns>
+        <remarks>The returned instance is not guaranteed to be unique across multiple invocations with the same arguments.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="command" /> is <see langword="null" />.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

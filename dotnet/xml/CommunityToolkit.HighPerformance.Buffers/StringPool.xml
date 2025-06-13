@@ -7,11 +7,18 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             A configurable pool for <see cref="T:System.String" /> instances. This can be used to minimize allocations
@@ -33,7 +40,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -52,7 +59,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="minimumSize" Type="System.Int32" />
@@ -74,7 +81,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -99,10 +106,16 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
@@ -125,7 +138,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -151,13 +164,20 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Byte&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="encoding" Type="System.Text.Encoding" />
       </Parameters>
       <Docs>
@@ -179,7 +199,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -201,7 +221,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Buffers.StringPool</ReturnType>
@@ -228,7 +248,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -250,14 +270,25 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
-        <Parameter Name="value" Type="System.String" RefType="out" />
+        <Parameter Name="value" Type="System.String" RefType="out">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="span">The input <see cref="T:System.ReadOnlySpan`1" /> with the contents to use.</param>

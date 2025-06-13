@@ -1,0 +1,120 @@
+<Type Name="SettingsCardAutomationPeer" FullName="CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer">
+  <TypeSignature Language="C#" Value="public class SettingsCardAutomationPeer : Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SettingsCardAutomationPeer extends Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class SettingsCardAutomationPeer&#xA;Inherits FrameworkElementAutomationPeer" />
+  <TypeSignature Language="F#" Value="type SettingsCardAutomationPeer = class&#xA;    inherit FrameworkElementAutomationPeer" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            AutomationPeer for SettingsCard
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SettingsCardAutomationPeer (CommunityToolkit.WinUI.Controls.SettingsCard owner);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.WinUI.Controls.SettingsCard owner) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer.#ctor(CommunityToolkit.WinUI.Controls.SettingsCard)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (owner As SettingsCard)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer : CommunityToolkit.WinUI.Controls.SettingsCard -&gt; CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer" Usage="new CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer owner" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="owner" Type="CommunityToolkit.WinUI.Controls.SettingsCard" />
+      </Parameters>
+      <Docs>
+        <param name="owner">SettingsCard</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.SettingsCard" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAutomationControlTypeCore">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Xaml.Automation.Peers.AutomationControlType GetAutomationControlTypeCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.UI.Xaml.Automation.Peers.AutomationControlType GetAutomationControlTypeCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer.GetAutomationControlTypeCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetAutomationControlTypeCore () As AutomationControlType" />
+      <MemberSignature Language="F#" Value="override this.GetAutomationControlTypeCore : unit -&gt; Microsoft.UI.Xaml.Automation.Peers.AutomationControlType" Usage="settingsCardAutomationPeer.GetAutomationControlTypeCore " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Automation.Peers.AutomationControlType</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the control type for the element that is associated with the UI Automation peer.
+            </summary>
+        <returns>The control type.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClassNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetClassNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetClassNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer.GetClassNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetClassNameCore () As String" />
+      <MemberSignature Language="F#" Value="override this.GetClassNameCore : unit -&gt; string" Usage="settingsCardAutomationPeer.GetClassNameCore " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Called by GetClassName that gets a human readable name that, in addition to AutomationControlType,
+            differentiates the control represented by this AutomationPeer.
+            </summary>
+        <returns>The string that contains the name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCardAutomationPeer.GetNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
+      <MemberSignature Language="F#" Value="override this.GetNameCore : unit -&gt; string" Usage="settingsCardAutomationPeer.GetNameCore " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

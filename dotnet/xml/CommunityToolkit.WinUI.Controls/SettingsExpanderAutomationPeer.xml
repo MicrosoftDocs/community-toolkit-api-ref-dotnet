@@ -1,0 +1,146 @@
+<Type Name="SettingsExpanderAutomationPeer" FullName="CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer">
+  <TypeSignature Language="C#" Value="public class SettingsExpanderAutomationPeer : Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SettingsExpanderAutomationPeer extends Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class SettingsExpanderAutomationPeer&#xA;Inherits FrameworkElementAutomationPeer" />
+  <TypeSignature Language="F#" Value="type SettingsExpanderAutomationPeer = class&#xA;    inherit FrameworkElementAutomationPeer" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            AutomationPeer for SettingsExpander
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SettingsExpanderAutomationPeer (CommunityToolkit.WinUI.Controls.SettingsExpander owner);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.WinUI.Controls.SettingsExpander owner) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer.#ctor(CommunityToolkit.WinUI.Controls.SettingsExpander)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (owner As SettingsExpander)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer : CommunityToolkit.WinUI.Controls.SettingsExpander -&gt; CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer" Usage="new CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer owner" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="owner" Type="CommunityToolkit.WinUI.Controls.SettingsExpander" />
+      </Parameters>
+      <Docs>
+        <param name="owner">SettingsExpander</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.SettingsExpander" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAutomationControlTypeCore">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Xaml.Automation.Peers.AutomationControlType GetAutomationControlTypeCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.UI.Xaml.Automation.Peers.AutomationControlType GetAutomationControlTypeCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer.GetAutomationControlTypeCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetAutomationControlTypeCore () As AutomationControlType" />
+      <MemberSignature Language="F#" Value="override this.GetAutomationControlTypeCore : unit -&gt; Microsoft.UI.Xaml.Automation.Peers.AutomationControlType" Usage="settingsExpanderAutomationPeer.GetAutomationControlTypeCore " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Automation.Peers.AutomationControlType</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the control type for the element that is associated with the UI Automation peer.
+            </summary>
+        <returns>The control type.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClassNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetClassNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetClassNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer.GetClassNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetClassNameCore () As String" />
+      <MemberSignature Language="F#" Value="override this.GetClassNameCore : unit -&gt; string" Usage="settingsExpanderAutomationPeer.GetClassNameCore " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Called by GetClassName that gets a human readable name that, in addition to AutomationControlType,
+            differentiates the control represented by this AutomationPeer.
+            </summary>
+        <returns>The string that contains the name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer.GetNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
+      <MemberSignature Language="F#" Value="override this.GetNameCore : unit -&gt; string" Usage="settingsExpanderAutomationPeer.GetNameCore " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="RaiseExpandedChangedEvent">
+      <MemberSignature Language="C#" Value="public void RaiseExpandedChangedEvent (bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RaiseExpandedChangedEvent(bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderAutomationPeer.RaiseExpandedChangedEvent(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RaiseExpandedChangedEvent (newValue As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.RaiseExpandedChangedEvent : bool -&gt; unit" Usage="settingsExpanderAutomationPeer.RaiseExpandedChangedEvent newValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="newValue">New Expanded state</param>
+        <summary>
+            Raises the property changed event for this AutomationPeer for the provided identifier.
+            Narrator does not announce this due to: https://github.com/microsoft/microsoft-ui-xaml/issues/3469
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

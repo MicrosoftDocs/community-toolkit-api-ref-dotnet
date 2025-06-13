@@ -1,0 +1,51 @@
+<Type Name="IsInRangeConverter" FullName="CommunityToolkit.Maui.Converters.IsInRangeConverter">
+  <TypeSignature Language="C#" Value="public sealed class IsInRangeConverter : CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;IComparable,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit IsInRangeConverter extends CommunityToolkit.Maui.Converters.IsInRangeConverter`2&lt;class System.IComparable, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.IsInRangeConverter" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class IsInRangeConverter&#xA;Inherits IsInRangeConverter(Of IComparable, Object)" />
+  <TypeSignature Language="F#" Value="type IsInRangeConverter = class&#xA;    inherit IsInRangeConverter&lt;IComparable, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;System.IComparable,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TValue">System.IComparable</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TReturnObject">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Converts the incoming value to a <see cref="T:System.Boolean" /> indicating whether or not the value is within a range.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsInRangeConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IsInRangeConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

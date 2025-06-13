@@ -1,0 +1,222 @@
+<Type Name="IRatingView" FullName="CommunityToolkit.Maui.Core.IRatingView">
+  <TypeSignature Language="C#" Value="public interface IRatingView : Microsoft.Maui.IContentView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IRatingView implements class Microsoft.Maui.IContentView, class Microsoft.Maui.ICrossPlatformLayout, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.IRatingView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRatingView&#xA;Implements IContentView" />
+  <TypeSignature Language="F#" Value="type IRatingView = interface&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface ICrossPlatformLayout" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IContentView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ICrossPlatformLayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IPadding</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Provides functionality to device a rating view.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CustomShapePath">
+      <MemberSignature Language="C#" Value="public string? CustomShapePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomShapePath" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.CustomShapePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomShapePath As String" />
+      <MemberSignature Language="F#" Value="member this.CustomShapePath : string" Usage="CommunityToolkit.Maui.Core.IRatingView.CustomShapePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The SVG path for a custom rating view shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyShapeColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color EmptyShapeColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color EmptyShapeColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.EmptyShapeColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmptyShapeColor As Color" />
+      <MemberSignature Language="F#" Value="member this.EmptyShapeColor : Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.IRatingView.EmptyShapeColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get a value indicating the background empty color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FillColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color FillColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color FillColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.FillColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FillColor As Color" />
+      <MemberSignature Language="F#" Value="member this.FillColor : Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.IRatingView.FillColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the color of the fill used to display the current rating.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shape">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.RatingViewShape Shape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.RatingViewShape Shape" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.Shape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As RatingViewShape" />
+      <MemberSignature Language="F#" Value="member this.Shape : CommunityToolkit.Maui.Core.RatingViewShape" Usage="CommunityToolkit.Maui.Core.IRatingView.Shape" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.RatingViewShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The Rating View shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <see cref="F:CommunityToolkit.Maui.Core.RatingViewShape.Custom" /> requires <see cref="P:CommunityToolkit.Maui.Core.IRatingView.CustomShapePath" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeBorderColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color ShapeBorderColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color ShapeBorderColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.ShapeBorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShapeBorderColor As Color" />
+      <MemberSignature Language="F#" Value="member this.ShapeBorderColor : Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.IRatingView.ShapeBorderColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get a value indicating the shape border color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeBorderThickness">
+      <MemberSignature Language="C#" Value="public double ShapeBorderThickness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 ShapeBorderThickness" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.ShapeBorderThickness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShapeBorderThickness As Double" />
+      <MemberSignature Language="F#" Value="member this.ShapeBorderThickness : double" Usage="CommunityToolkit.Maui.Core.IRatingView.ShapeBorderThickness" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rating shape border thickness</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeDiameter">
+      <MemberSignature Language="C#" Value="public double ShapeDiameter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 ShapeDiameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.ShapeDiameter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShapeDiameter As Double" />
+      <MemberSignature Language="F#" Value="member this.ShapeDiameter : double" Usage="CommunityToolkit.Maui.Core.IRatingView.ShapeDiameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The shape diameter in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapePadding">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Thickness ShapePadding { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness ShapePadding" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IRatingView.ShapePadding" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShapePadding As Thickness" />
+      <MemberSignature Language="F#" Value="member this.ShapePadding : Microsoft.Maui.Thickness" Usage="CommunityToolkit.Maui.Core.IRatingView.ShapePadding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Thickness</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The padding on each shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

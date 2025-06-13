@@ -1,0 +1,93 @@
+<Type Name="MultiConverterParameter" FullName="CommunityToolkit.Maui.Converters.MultiConverterParameter">
+  <TypeSignature Language="C#" Value="public class MultiConverterParameter : Microsoft.Maui.Controls.BindableObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MultiConverterParameter extends Microsoft.Maui.Controls.BindableObject" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.MultiConverterParameter" />
+  <TypeSignature Language="VB.NET" Value="Public Class MultiConverterParameter&#xA;Inherits BindableObject" />
+  <TypeSignature Language="F#" Value="type MultiConverterParameter = class&#xA;    inherit BindableObject" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a parameter to be used in the <see cref="T:CommunityToolkit.Maui.Converters.MultiConverter" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MultiConverterParameter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.MultiConverterParameter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConverterType">
+      <MemberSignature Language="C#" Value="public Type? ConverterType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ConverterType" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.MultiConverterParameter.ConverterType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConverterType As Type" />
+      <MemberSignature Language="F#" Value="member this.ConverterType : Type with get, set" Usage="CommunityToolkit.Maui.Converters.MultiConverterParameter.ConverterType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The object type of this parameter.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object? Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.MultiConverterParameter.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="CommunityToolkit.Maui.Converters.MultiConverterParameter.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of this parameter.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

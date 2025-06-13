@@ -1,0 +1,186 @@
+<Type Name="BaseAnimation&lt;TAnimatable&gt;" FullName="CommunityToolkit.Maui.Animations.BaseAnimation&lt;TAnimatable&gt;">
+  <TypeSignature Language="C#" Value="public abstract class BaseAnimation&lt;TAnimatable&gt; : Microsoft.Maui.Controls.BindableObject where TAnimatable : IAnimatable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BaseAnimation`1&lt;(class Microsoft.Maui.Controls.IAnimatable) TAnimatable&gt; extends Microsoft.Maui.Controls.BindableObject" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Animations.BaseAnimation`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseAnimation(Of TAnimatable)&#xA;Inherits BindableObject" />
+  <TypeSignature Language="F#" Value="type BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; IAnimatable)&gt; = class&#xA;    inherit BindableObject" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TAnimatable">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <InterfaceName>Microsoft.Maui.Controls.IAnimatable</InterfaceName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TAnimatable">The <see cref="T:Microsoft.Maui.Controls.VisualElement" /> that the behavior can be applied to</typeparam>
+    <param name="defaultLength">The default time, in milliseconds, over which to animate the transition</param>
+    <summary>
+            Abstract class for animation types to inherit.
+            </summary>
+    <remarks>
+            Initialize BaseAnimation
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseAnimation (uint defaultLength = 250);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(unsigned int32 defaultLength) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Animations.BaseAnimation`1.#ctor(System.UInt32)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (Optional defaultLength As UInteger = 250)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt; : uint32 -&gt; CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt;" Usage="new CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt; defaultLength" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="defaultLength" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TAnimatable">The <see cref="T:Microsoft.Maui.Controls.VisualElement" /> that the behavior can be applied to</typeparam>
+        <param name="defaultLength">The default time, in milliseconds, over which to animate the transition</param>
+        <summary>
+            Abstract class for animation types to inherit.
+            </summary>
+        <remarks>
+            Initialize BaseAnimation
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Animate">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.Task Animate (TAnimatable view, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task Animate(!TAnimatable view, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Animations.BaseAnimation`1.Animate(`0,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function Animate (view As TAnimatable, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member Animate : 'Animatable * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="baseAnimation.Animate (view, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="TAnimatable" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="view">The view to perform the animation on.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />.</param>
+        <summary>
+            Performs the animation on the View
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Easing">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Easing Easing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Easing Easing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Animations.BaseAnimation`1.Easing" />
+      <MemberSignature Language="VB.NET" Value="Public Property Easing As Easing" />
+      <MemberSignature Language="F#" Value="member this.Easing : Microsoft.Maui.Easing with get, set" Usage="CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt;.Easing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Easing</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The easing function to use for the animation
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EasingProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty EasingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EasingProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Animations.BaseAnimation`1.EasingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EasingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable EasingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt;.EasingProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Animations.BaseAnimation`1.Easing" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public uint Length { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Length" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Animations.BaseAnimation`1.Length" />
+      <MemberSignature Language="VB.NET" Value="Public Property Length As UInteger" />
+      <MemberSignature Language="F#" Value="member this.Length : uint32 with get, set" Usage="CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt;.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The time, in milliseconds, over which to animate the transition.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LengthProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty LengthProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LengthProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Animations.BaseAnimation`1.LengthProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LengthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Animations.BaseAnimation&lt;'Animatable (requires 'Animatable :&gt; Microsoft.Maui.Controls.IAnimatable)&gt;.LengthProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Animations.BaseAnimation`1.Length" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

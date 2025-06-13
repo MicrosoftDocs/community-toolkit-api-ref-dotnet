@@ -1,0 +1,139 @@
+<Type Name="AppThemeObject&lt;T&gt;" FullName="CommunityToolkit.Maui.AppThemeObject&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public abstract class AppThemeObject&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AppThemeObject`1&lt;T&gt; extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.AppThemeObject`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AppThemeObject(Of T)" />
+  <TypeSignature Language="F#" Value="type AppThemeObject&lt;'T&gt; = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>
+            Represents an object that is aware of the operating system theme.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AppThemeObject ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.AppThemeObject`1.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dark">
+      <MemberSignature Language="C#" Value="public T? Dark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Dark" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.AppThemeObject`1.Dark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Dark As T" />
+      <MemberSignature Language="F#" Value="member this.Dark : 'T with get, set" Usage="CommunityToolkit.Maui.AppThemeObject&lt;'T&gt;.Dark" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:System.Object" /> that is used when the operating system uses dark theme.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public T? Default { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Default" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.AppThemeObject`1.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Property Default As T" />
+      <MemberSignature Language="F#" Value="member this.Default : 'T with get, set" Usage="CommunityToolkit.Maui.AppThemeObject&lt;'T&gt;.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:System.Object" /> that is used when the current theme is unspecified or
+            when a value is not provided for <see cref="P:CommunityToolkit.Maui.AppThemeObject`1.Light" /> or <see cref="P:CommunityToolkit.Maui.AppThemeObject`1.Dark" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBinding">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Maui.Controls.BindingBase GetBinding ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.BindingBase GetBinding() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.AppThemeObject`1.GetBinding" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetBinding () As BindingBase" />
+      <MemberSignature Language="F#" Value="abstract member GetBinding : unit -&gt; Microsoft.Maui.Controls.BindingBase&#xA;override this.GetBinding : unit -&gt; Microsoft.Maui.Controls.BindingBase" Usage="appThemeObject.GetBinding " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindingBase</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets a bindable object which holds the different values for each operating system theme. 
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Controls.AppThemeBinding" /> instance with the respective theme values.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Light">
+      <MemberSignature Language="C#" Value="public T? Light { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Light" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.AppThemeObject`1.Light" />
+      <MemberSignature Language="VB.NET" Value="Public Property Light As T" />
+      <MemberSignature Language="F#" Value="member this.Light : 'T with get, set" Usage="CommunityToolkit.Maui.AppThemeObject&lt;'T&gt;.Light" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:System.Object" /> that is used when the operating system uses light theme.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

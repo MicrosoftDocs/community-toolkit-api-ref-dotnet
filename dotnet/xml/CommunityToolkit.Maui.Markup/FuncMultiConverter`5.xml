@@ -1,0 +1,102 @@
+<Type Name="FuncMultiConverter&lt;TSource1,TSource2,TSource3,TSource4,TDest&gt;" FullName="CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;TSource1,TSource2,TSource3,TSource4,TDest&gt;">
+  <TypeSignature Language="C#" Value="public class FuncMultiConverter&lt;TSource1,TSource2,TSource3,TSource4,TDest&gt; : CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;TDest,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FuncMultiConverter`5&lt;TSource1, TSource2, TSource3, TSource4, TDest&gt; extends CommunityToolkit.Maui.Markup.FuncMultiConverter`2&lt;!TDest, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`5" />
+  <TypeSignature Language="VB.NET" Value="Public Class FuncMultiConverter(Of TSource1, TSource2, TSource3, TSource4, TDest)&#xA;Inherits FuncMultiConverter(Of TDest, Object)" />
+  <TypeSignature Language="F#" Value="type FuncMultiConverter&lt;'TSource1, 'TSource2, 'TSource3, 'TSource4, 'Dest&gt; = class&#xA;    inherit FuncMultiConverter&lt;'Dest, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TSource1" />
+    <TypeParameter Name="TSource2" />
+    <TypeParameter Name="TSource3" />
+    <TypeParameter Name="TSource4" />
+    <TypeParameter Name="TDest" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;TDest,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TDest">TDest</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TSource1">The type of the <b>first</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+    <typeparam name="TSource2">The type of the <b>second</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+    <typeparam name="TSource3">The type of the <b>third</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+    <typeparam name="TSource4">The type of the <b>fourth</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+    <typeparam name="TDest">The type of the value going to the target of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+    <param name="convert">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+    <param name="convertBack">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+    <summary>
+            An <see cref="T:Microsoft.Maui.Controls.IMultiValueConverter" /> implementation that expects 4 known input values.
+            </summary>
+    <remarks>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`5" />.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FuncMultiConverter (Func&lt;(TSource1?, TSource2?, TSource3?, TSource4?),TDest&gt;? convert = default, Func&lt;TDest?,(TSource1, TSource2, TSource3, TSource4)&gt;? convertBack = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;valuetype System.ValueTuple`4&lt;!TSource1, !TSource2, !TSource3, !TSource4&gt;, !TDest&gt; convert, class System.Func`2&lt;!TDest, valuetype System.ValueTuple`4&lt;!TSource1, !TSource2, !TSource3, !TSource4&gt;&gt; convertBack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncMultiConverter`5.#ctor(System.Func{System.ValueTuple{`0,`1,`2,`3},`4},System.Func{`4,System.ValueTuple{`0,`1,`2,`3}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional convert As Func(Of ValueTuple(Of TSource1, TSource2, TSource3, TSource4), TDest) = Nothing, Optional convertBack As Func(Of TDest, ValueTuple(Of TSource1, TSource2, TSource3, TSource4)) = Nothing)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'TSource1, 'TSource2, 'TSource3, 'TSource4, 'Dest&gt; : Func&lt;ValueTuple&lt;'TSource1, 'TSource2, 'TSource3, 'TSource4&gt;, 'Dest&gt; * Func&lt;'Dest, ValueTuple&lt;'TSource1, 'TSource2, 'TSource3, 'TSource4&gt;&gt; -&gt; CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'TSource1, 'TSource2, 'TSource3, 'TSource4, 'Dest&gt;" Usage="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'TSource1, 'TSource2, 'TSource3, 'TSource4, 'Dest&gt; (convert, convertBack)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="convert" Type="System.Func&lt;System.ValueTuple&lt;TSource1,TSource2,TSource3,TSource4&gt;,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 0, 2, 2, 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 0, 2, 2, 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;TDest,System.ValueTuple&lt;TSource1,TSource2,TSource3,TSource4&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 0, 1, 1, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 0, 1, 1, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TSource1">The type of the <b>first</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+        <typeparam name="TSource2">The type of the <b>second</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+        <typeparam name="TSource3">The type of the <b>third</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+        <typeparam name="TSource4">The type of the <b>fourth</b> value coming from the source of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+        <typeparam name="TDest">The type of the value going to the target of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+        <param name="convert">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <param name="convertBack">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <summary>
+            An <see cref="T:Microsoft.Maui.Controls.IMultiValueConverter" /> implementation that expects 4 known input values.
+            </summary>
+        <remarks>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`5" />.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

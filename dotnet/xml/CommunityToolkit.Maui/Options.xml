@@ -1,0 +1,149 @@
+<Type Name="Options" FullName="CommunityToolkit.Maui.Options">
+  <TypeSignature Language="C#" Value="public class Options : CommunityToolkit.Maui.Core.Options" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Options extends CommunityToolkit.Maui.Core.Options" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Options" />
+  <TypeSignature Language="VB.NET" Value="Public Class Options&#xA;Inherits Options" />
+  <TypeSignature Language="F#" Value="type Options = class&#xA;    inherit Options" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Core.Options</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            .NET MAUI Community Toolkit Options.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Options ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            .NET MAUI Community Toolkit Options.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShouldEnableSnackbarOnWindows">
+      <MemberSignature Language="C#" Value="public void SetShouldEnableSnackbarOnWindows (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetShouldEnableSnackbarOnWindows(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.SetShouldEnableSnackbarOnWindows(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetShouldEnableSnackbarOnWindows (value As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SetShouldEnableSnackbarOnWindows : bool -&gt; unit" Usage="options.SetShouldEnableSnackbarOnWindows value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>
+            Enables <see cref="T:CommunityToolkit.Maui.Alerts.Snackbar" /> for Windows
+            </summary>
+        <remarks>
+            Additional setup is required in the Package.appxmanifest file to enable <see cref="T:CommunityToolkit.Maui.Alerts.Snackbar" /> on Windows. See the <a href="https://learn.microsoft.com/dotnet/communitytoolkit/maui/alerts/snackbar">Snackbar Platform Specific Initialization Documentation</a> for more information. Default value is false.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShouldSuppressExceptionsInAnimations">
+      <MemberSignature Language="C#" Value="public void SetShouldSuppressExceptionsInAnimations (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetShouldSuppressExceptionsInAnimations(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.SetShouldSuppressExceptionsInAnimations(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetShouldSuppressExceptionsInAnimations (value As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SetShouldSuppressExceptionsInAnimations : bool -&gt; unit" Usage="options.SetShouldSuppressExceptionsInAnimations value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>
+            Catches exceptions thrown when using <see cref="T:CommunityToolkit.Maui.Behaviors.AnimationBehavior" /> and reports it to <see cref="T:System.Diagnostics.Trace" />.
+            </summary>
+        <remarks>
+            Default value is false.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShouldSuppressExceptionsInBehaviors">
+      <MemberSignature Language="C#" Value="public void SetShouldSuppressExceptionsInBehaviors (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetShouldSuppressExceptionsInBehaviors(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.SetShouldSuppressExceptionsInBehaviors(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetShouldSuppressExceptionsInBehaviors (value As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SetShouldSuppressExceptionsInBehaviors : bool -&gt; unit" Usage="options.SetShouldSuppressExceptionsInBehaviors value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>
+            Catches exceptions thrown when using <see cref="T:CommunityToolkit.Maui.Behaviors.AnimationBehavior" /> and reports it to <see cref="T:System.Diagnostics.Trace" />.
+            </summary>
+        <remarks>
+            Default value is false.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShouldSuppressExceptionsInConverters">
+      <MemberSignature Language="C#" Value="public void SetShouldSuppressExceptionsInConverters (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetShouldSuppressExceptionsInConverters(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.SetShouldSuppressExceptionsInConverters(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetShouldSuppressExceptionsInConverters (value As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SetShouldSuppressExceptionsInConverters : bool -&gt; unit" Usage="options.SetShouldSuppressExceptionsInConverters value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>
+            Will return the <see cref="P:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue" /> default value instead of throwing an exception when using <see cref="T:CommunityToolkit.Maui.Converters.BaseConverter`2" />.
+            </summary>
+        <remarks>
+            Default value is false.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,550 @@
+<Type Name="ViewExtensions" FullName="CommunityToolkit.Maui.Markup.ViewExtensions">
+  <TypeSignature Language="C#" Value="public static class ViewExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ViewExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.ViewExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ViewExtensions" />
+  <TypeSignature Language="F#" Value="type ViewExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extensions for View
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bottom&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Bottom&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Bottom&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Bottom``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bottom(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member Bottom : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Bottom view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.End" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.End" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Center&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Center&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Center&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Center``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Center(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member Center : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Center view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" /> = <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Center" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Center" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CenterHorizontal&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView CenterHorizontal&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView CenterHorizontal&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.CenterHorizontal``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CenterHorizontal(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member CenterHorizontal : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.CenterHorizontal view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Center" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Center" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CenterVertical&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView CenterVertical&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView CenterVertical&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.CenterVertical``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CenterVertical(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member CenterVertical : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.CenterVertical view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Center" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Center" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView End&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView End&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.End``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function End(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member End : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.End view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.End" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.End" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fill&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Fill&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Fill&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Fill``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Fill(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member Fill : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Fill view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" /> = <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Fill" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Fill" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FillHorizontal&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView FillHorizontal&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView FillHorizontal&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.FillHorizontal``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FillHorizontal(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member FillHorizontal : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.FillHorizontal view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Fill" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Fill" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FillVertical&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView FillVertical&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView FillVertical&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.FillVertical``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FillVertical(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member FillVertical : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.FillVertical view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Fill" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Fill" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Margin&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Margin&lt;TView&gt; (this TView view, Microsoft.Maui.Thickness margin) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Margin&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view, valuetype Microsoft.Maui.Thickness margin) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Margin``1(``0,Microsoft.Maui.Thickness)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Margin(Of TView As View) (view As TView, margin As Thickness) As TView" />
+      <MemberSignature Language="F#" Value="static member Margin : 'View * Microsoft.Maui.Thickness -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Margin (view, margin)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+        <Parameter Name="margin" Type="Microsoft.Maui.Thickness" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <param name="margin" />
+        <summary>
+            Set <see cref="P:Microsoft.Maui.Controls.View.Margin" /></summary>
+        <returns>TView with added <see cref="P:Microsoft.Maui.Controls.View.Margin" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Margin&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Margin&lt;TView&gt; (this TView view, double horizontal, double vertical) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Margin&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view, float64 horizontal, float64 vertical) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Margin``1(``0,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Margin(Of TView As View) (view As TView, horizontal As Double, vertical As Double) As TView" />
+      <MemberSignature Language="F#" Value="static member Margin : 'View * double * double -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Margin (view, horizontal, vertical)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+        <Parameter Name="horizontal" Type="System.Double" />
+        <Parameter Name="vertical" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <param name="horizontal" />
+        <param name="vertical" />
+        <summary>
+            Set <see cref="P:Microsoft.Maui.Controls.View.Margin" /></summary>
+        <returns>TView with added <see cref="P:Microsoft.Maui.Controls.View.Margin" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Margins&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Margins&lt;TView&gt; (this TView view, double left = 0, double top = 0, double right = 0, double bottom = 0) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Margins&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view, float64 left, float64 top, float64 right, float64 bottom) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Margins``1(``0,System.Double,System.Double,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Margins(Of TView As View) (view As TView, Optional left As Double = 0, Optional top As Double = 0, Optional right As Double = 0, Optional bottom As Double = 0) As TView" />
+      <MemberSignature Language="F#" Value="static member Margins : 'View * double * double * double * double -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Margins (view, left, top, right, bottom)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+        <Parameter Name="left" Type="System.Double" />
+        <Parameter Name="top" Type="System.Double" />
+        <Parameter Name="right" Type="System.Double" />
+        <Parameter Name="bottom" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <param name="left" />
+        <param name="top" />
+        <param name="right" />
+        <param name="bottom" />
+        <summary>
+            Set <see cref="P:Microsoft.Maui.Controls.View.Margin" /></summary>
+        <returns>TView with added <see cref="P:Microsoft.Maui.Controls.View.Margin" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Start&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Start&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Start``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Start(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member Start : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Start view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Start" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Start" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top&lt;TView&gt;">
+      <MemberSignature Language="C#" Value="public static TView Top&lt;TView&gt; (this TView view) where TView : Microsoft.Maui.Controls.View;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TView Top&lt;(class Microsoft.Maui.Controls.View) TView&gt;(!!TView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ViewExtensions.Top``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Top(Of TView As View) (view As TView) As TView" />
+      <MemberSignature Language="F#" Value="static member Top : 'View -&gt; 'View (requires 'View :&gt; Microsoft.Maui.Controls.View)" Usage="CommunityToolkit.Maui.Markup.ViewExtensions.Top view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TView" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView" />
+        <param name="view" />
+        <summary>
+          <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" /> = <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Start" /></summary>
+        <returns>TView with <see cref="F:Microsoft.Maui.Controls.LayoutOptions.Start" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

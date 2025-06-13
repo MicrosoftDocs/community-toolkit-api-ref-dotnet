@@ -1,0 +1,121 @@
+<Type Name="StyleExtensions" FullName="CommunityToolkit.WinUI.Controls.StyleExtensions">
+  <TypeSignature Language="C#" Value="public static class StyleExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StyleExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.StyleExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Class StyleExtensions" />
+  <TypeSignature Language="F#" Value="type StyleExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Helper class for setting a ResourceDictionary on a Style.
+            </summary>
+    <remarks>
+            Adapted from https://github.com/rudyhuyn/XamlPlus
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetResources">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.ResourceDictionary GetResources (Microsoft.UI.Xaml.Style obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.UI.Xaml.ResourceDictionary GetResources(class Microsoft.UI.Xaml.Style obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.StyleExtensions.GetResources(Microsoft.UI.Xaml.Style)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetResources (obj As Style) As ResourceDictionary" />
+      <MemberSignature Language="F#" Value="static member GetResources : Microsoft.UI.Xaml.Style -&gt; Microsoft.UI.Xaml.ResourceDictionary" Usage="CommunityToolkit.WinUI.Controls.StyleExtensions.GetResources obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.ResourceDictionary</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.UI.Xaml.Style" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>
+            Get a ResourceDictionary from a Style.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="see GetResources, and SetResources" />
+      <MemberSignature Language="ILAsm" Value="see GetResources, and SetResources" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.StyleExtensions.Resources" />
+      <MemberSignature Language="VB.NET" Value="see GetResources, and SetResources" />
+      <MemberSignature Language="F#" Value="see GetResources, and SetResources" Usage="see GetResources, and SetResources" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourcesProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ResourcesProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ResourcesProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.StyleExtensions.ResourcesProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourcesProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourcesProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.StyleExtensions.ResourcesProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Attached property to set a Style to a ResourceDictionary value.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResources">
+      <MemberSignature Language="C#" Value="public static void SetResources (Microsoft.UI.Xaml.Style obj, Microsoft.UI.Xaml.ResourceDictionary value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetResources(class Microsoft.UI.Xaml.Style obj, class Microsoft.UI.Xaml.ResourceDictionary value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.StyleExtensions.SetResources(Microsoft.UI.Xaml.Style,Microsoft.UI.Xaml.ResourceDictionary)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetResources (obj As Style, value As ResourceDictionary)" />
+      <MemberSignature Language="F#" Value="static member SetResources : Microsoft.UI.Xaml.Style * Microsoft.UI.Xaml.ResourceDictionary -&gt; unit" Usage="CommunityToolkit.WinUI.Controls.StyleExtensions.SetResources (obj, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.UI.Xaml.Style" />
+        <Parameter Name="value" Type="Microsoft.UI.Xaml.ResourceDictionary" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>
+            Set the <see cref="F:CommunityToolkit.WinUI.Controls.StyleExtensions.ResourcesProperty" /> on a Style to a ResourceDictionary value.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

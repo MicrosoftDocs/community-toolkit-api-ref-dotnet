@@ -1,0 +1,118 @@
+<Type Name="ImpliedOrderGridBehavior" FullName="CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior">
+  <TypeSignature Language="C#" Value="public class ImpliedOrderGridBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.Grid&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImpliedOrderGridBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.Grid&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImpliedOrderGridBehavior&#xA;Inherits BaseBehavior(Of Grid)" />
+  <TypeSignature Language="F#" Value="type ImpliedOrderGridBehavior = class&#xA;    inherit BaseBehavior&lt;Grid&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.Grid&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.Grid</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior" /> enables you to automatically assign a <see cref="T:Microsoft.Maui.Controls.Grid" /> row and column to a view based on the order the view is added to the <see cref="T:Microsoft.Maui.Controls.Grid" />. You only need to setup the row and column definitions and then add children to the <see cref="T:Microsoft.Maui.Controls.Grid" />. You may still assign RowSpan and ColumnSpan to views and their values will be taken into account when assigning a row and column to a view. If a view has a user defined row or column value it will be honored.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImpliedOrderGridBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (Microsoft.Maui.Controls.Grid bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.Grid bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior.OnAttachedTo(Microsoft.Maui.Controls.Grid)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As Grid)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Microsoft.Maui.Controls.Grid -&gt; unit" Usage="impliedOrderGridBehavior.OnAttachedTo bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.Grid" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachingFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachingFrom (Microsoft.Maui.Controls.Grid bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachingFrom(class Microsoft.Maui.Controls.Grid bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior.OnDetachingFrom(Microsoft.Maui.Controls.Grid)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachingFrom (bindable As Grid)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : Microsoft.Maui.Controls.Grid -&gt; unit" Usage="impliedOrderGridBehavior.OnDetachingFrom bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.Grid" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ThrowOnLayoutWarning">
+      <MemberSignature Language="C#" Value="public bool ThrowOnLayoutWarning { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ThrowOnLayoutWarning" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior.ThrowOnLayoutWarning" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThrowOnLayoutWarning As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ThrowOnLayoutWarning : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImpliedOrderGridBehavior.ThrowOnLayoutWarning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            When set to true, warnings will throw an exception instead of being logged. Defaults to false.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

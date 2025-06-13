@@ -1,0 +1,829 @@
+<Type Name="CameraView" FullName="CommunityToolkit.Maui.Views.CameraView">
+  <TypeSignature Language="C#" Value="public class CameraView : Microsoft.Maui.Controls.View, CommunityToolkit.Maui.Core.ICameraView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CameraView extends Microsoft.Maui.Controls.View implements class CommunityToolkit.Maui.Camera.IAsynchronousHandler, class CommunityToolkit.Maui.Core.ICameraView, class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.CameraView" />
+  <TypeSignature Language="VB.NET" Value="Public Class CameraView&#xA;Inherits View&#xA;Implements ICameraView" />
+  <TypeSignature Language="F#" Value="type CameraView = class&#xA;    inherit View&#xA;    interface ICameraView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IAsynchronousHandler" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Camera.IAsynchronousHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.ICameraView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows10.0.10240.0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows10.0.10240.0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("android21.0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("android21.0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("ios")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("ios")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("tizen")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("tizen")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A visual element that provides the ability to show a camera preview and capture images.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CameraView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CameraFlashMode">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.Primitives.CameraFlashMode CameraFlashMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.Primitives.CameraFlashMode CameraFlashMode" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.CameraFlashMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property CameraFlashMode As CameraFlashMode" />
+      <MemberSignature Language="F#" Value="member this.CameraFlashMode : CommunityToolkit.Maui.Core.Primitives.CameraFlashMode with get, set" Usage="CommunityToolkit.Maui.Views.CameraView.CameraFlashMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.CameraFlashMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="P:CommunityToolkit.Maui.Views.CameraView.CameraFlashMode" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CameraFlashModeProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CameraFlashModeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CameraFlashModeProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.CameraFlashModeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CameraFlashModeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CameraFlashModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.CameraFlashModeProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.CameraFlashMode" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptureImage">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask CaptureImage (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask CaptureImage(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.CaptureImage(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CaptureImage (token As CancellationToken) As ValueTask" />
+      <MemberSignature Language="F#" Value="abstract member CaptureImage : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&#xA;override this.CaptureImage : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="cameraView.CaptureImage token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.ICameraView.CaptureImage(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.ICameraView.CaptureImage(System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="CaptureImageCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt; CaptureImageCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Command`1&lt;valuetype System.Threading.CancellationToken&gt; CaptureImageCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommand" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CaptureImageCommand As Command(Of CancellationToken)" />
+      <MemberSignature Language="F#" Value="member this.CaptureImageCommand : Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;" Usage="CommunityToolkit.Maui.Views.CameraView.CaptureImageCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Command that triggers an image capture.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <see cref="P:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommand" /> has a <see cref="T:System.Type" /> of Command&lt;CancellationToken&gt; which requires a <see cref="T:System.Threading.CancellationToken" /> as a CommandParameter. See <see cref="T:Microsoft.Maui.Controls.Command`1" /> and <see cref="M:System.Windows.Input.ICommand.Execute(System.Object)" /> for more information on passing a <see cref="T:System.Threading.CancellationToken" /> into <see cref="T:Microsoft.Maui.Controls.Command`1" /> as a CommandParameter
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptureImageCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CaptureImageCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CaptureImageCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CaptureImageCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CaptureImageCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.CaptureImageCommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommand" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS">
+      <MemberSignature Language="C#" Value="System.Threading.Tasks.TaskCompletionSource CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.Tasks.TaskCompletionSource CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Camera#IAsynchronousHandler#HandlerCompleteTCS" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property HandlerCompleteTCS As TaskCompletionSource Implements IAsynchronousHandler.HandlerCompleteTCS" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS : System.Threading.Tasks.TaskCompletionSource" Usage="CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.TaskCompletionSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Core.ICameraView.IsAvailable">
+      <MemberSignature Language="C#" Value="bool CommunityToolkit.Maui.Core.ICameraView.IsAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CommunityToolkit.Maui.Core.ICameraView.IsAvailable" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#IsAvailable" />
+      <MemberSignature Language="VB.NET" Value=" Property IsAvailable As Boolean Implements ICameraView.IsAvailable" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Core.ICameraView.IsAvailable : bool with get, set" Usage="CommunityToolkit.Maui.Core.ICameraView.IsAvailable" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.ICameraView.IsAvailable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Core.ICameraView.IsBusy">
+      <MemberSignature Language="C#" Value="bool CommunityToolkit.Maui.Core.ICameraView.IsBusy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CommunityToolkit.Maui.Core.ICameraView.IsBusy" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#IsBusy" />
+      <MemberSignature Language="VB.NET" Value=" Property IsBusy As Boolean Implements ICameraView.IsBusy" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Core.ICameraView.IsBusy : bool with get, set" Usage="CommunityToolkit.Maui.Core.ICameraView.IsBusy" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.ICameraView.IsBusy</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableCameras">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;&gt; GetAvailableCameras (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class CommunityToolkit.Maui.Core.CameraInfo&gt;&gt; GetAvailableCameras(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.GetAvailableCameras(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAvailableCameras (token As CancellationToken) As ValueTask(Of IReadOnlyList(Of CameraInfo))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableCameras : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;&gt;&#xA;override this.GetAvailableCameras : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;&gt;" Usage="cameraView.GetAvailableCameras token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.ICameraView.GetAvailableCameras(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.ICameraView.GetAvailableCameras(System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="ImageCaptureResolution">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Size ImageCaptureResolution { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Size ImageCaptureResolution" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolution" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImageCaptureResolution As Size" />
+      <MemberSignature Language="F#" Value="member this.ImageCaptureResolution : Microsoft.Maui.Graphics.Size with get, set" Usage="CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolution" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Core.ICameraView.ImageCaptureResolution" />
+      </Docs>
+    </Member>
+    <Member MemberName="ImageCaptureResolutionProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ImageCaptureResolutionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ImageCaptureResolutionProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolutionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImageCaptureResolutionProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ImageCaptureResolutionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolutionProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolution" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAvailable">
+      <MemberSignature Language="C#" Value="public bool IsAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAvailable" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.IsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAvailable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsAvailable : bool" Usage="CommunityToolkit.Maui.Views.CameraView.IsAvailable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the camera feature is available on the current device.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAvailableProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsAvailableProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsAvailableProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.IsAvailableProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsAvailableProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsAvailableProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.IsAvailableProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.IsAvailable" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCameraBusy">
+      <MemberSignature Language="C#" Value="public bool IsCameraBusy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCameraBusy" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.IsCameraBusy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCameraBusy As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCameraBusy : bool" Usage="CommunityToolkit.Maui.Views.CameraView.IsCameraBusy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the camera is currently busy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCameraBusyProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsCameraBusyProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsCameraBusyProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.IsCameraBusyProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsCameraBusyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsCameraBusyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.IsCameraBusyProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.IsCameraBusy" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTorchOn">
+      <MemberSignature Language="C#" Value="public bool IsTorchOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTorchOn" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.IsTorchOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTorchOn As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTorchOn : bool with get, set" Usage="CommunityToolkit.Maui.Views.CameraView.IsTorchOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the torch (flash) is on.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTorchOnProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsTorchOnProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsTorchOnProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.IsTorchOnProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsTorchOnProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsTorchOnProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.IsTorchOnProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.IsTorchOn" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaCaptured">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Views.MediaCapturedEventArgs&gt; MediaCaptured;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Views.MediaCapturedEventArgs&gt; MediaCaptured" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Views.CameraView.MediaCaptured" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event MediaCaptured As EventHandler(Of MediaCapturedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.MediaCaptured : EventHandler&lt;CommunityToolkit.Maui.Views.MediaCapturedEventArgs&gt; " Usage="member this.MediaCaptured : System.EventHandler&lt;CommunityToolkit.Maui.Views.MediaCapturedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Views.MediaCapturedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event that is raised when the camera captures an image.
+            </summary>
+        <remarks>
+            The <see cref="T:CommunityToolkit.Maui.Views.MediaCapturedEventArgs" /> contains the captured image data.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaCaptureFailed">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs&gt; MediaCaptureFailed;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs&gt; MediaCaptureFailed" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Views.CameraView.MediaCaptureFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event MediaCaptureFailed As EventHandler(Of MediaCaptureFailedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.MediaCaptureFailed : EventHandler&lt;CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs&gt; " Usage="member this.MediaCaptureFailed : System.EventHandler&lt;CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event that is raised when the camera capture fails.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnMediaCaptured">
+      <MemberSignature Language="C#" Value="public void OnMediaCaptured (System.IO.Stream imageData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnMediaCaptured(class System.IO.Stream imageData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.OnMediaCaptured(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnMediaCaptured (imageData As Stream)" />
+      <MemberSignature Language="F#" Value="abstract member OnMediaCaptured : System.IO.Stream -&gt; unit&#xA;override this.OnMediaCaptured : System.IO.Stream -&gt; unit" Usage="cameraView.OnMediaCaptured imageData" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCaptured(System.IO.Stream)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="imageData" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="imageData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCaptured(System.IO.Stream)" />
+      </Docs>
+    </Member>
+    <Member MemberName="OnMediaCapturedFailed">
+      <MemberSignature Language="C#" Value="public void OnMediaCapturedFailed (string failureReason);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnMediaCapturedFailed(string failureReason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.OnMediaCapturedFailed(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnMediaCapturedFailed (failureReason As String)" />
+      <MemberSignature Language="F#" Value="abstract member OnMediaCapturedFailed : string -&gt; unit&#xA;override this.OnMediaCapturedFailed : string -&gt; unit" Usage="cameraView.OnMediaCapturedFailed failureReason" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCapturedFailed(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="failureReason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="failureReason">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCapturedFailed(System.String)" />
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedCamera">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.CameraInfo? SelectedCamera { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Core.CameraInfo SelectedCamera" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.SelectedCamera" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelectedCamera As CameraInfo" />
+      <MemberSignature Language="F#" Value="member this.SelectedCamera : CommunityToolkit.Maui.Core.CameraInfo with get, set" Usage="CommunityToolkit.Maui.Views.CameraView.SelectedCamera" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.ICameraView.SelectedCamera</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.CameraInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Core.ICameraView.SelectedCamera" />
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedCameraProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty? SelectedCameraProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedCameraProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.SelectedCameraProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedCameraProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedCameraProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.SelectedCameraProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.SelectedCamera" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartCameraPreview">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask StartCameraPreview (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask StartCameraPreview(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.StartCameraPreview(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartCameraPreview (token As CancellationToken) As ValueTask" />
+      <MemberSignature Language="F#" Value="abstract member StartCameraPreview : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&#xA;override this.StartCameraPreview : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="cameraView.StartCameraPreview token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.ICameraView.StartCameraPreview(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.ICameraView.StartCameraPreview(System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="StartCameraPreviewCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt; StartCameraPreviewCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Command`1&lt;valuetype System.Threading.CancellationToken&gt; StartCameraPreviewCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommand" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartCameraPreviewCommand As Command(Of CancellationToken)" />
+      <MemberSignature Language="F#" Value="member this.StartCameraPreviewCommand : Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;" Usage="CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Command that starts the camera preview.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <see cref="P:CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommand" /> has a <see cref="T:System.Type" /> of Command&lt;CancellationToken&gt; which requires a <see cref="T:System.Threading.CancellationToken" /> as a CommandParameter. See <see cref="T:Microsoft.Maui.Controls.Command`1" /> and <see cref="M:System.Windows.Input.ICommand.Execute(System.Object)" /> for more information on passing a <see cref="T:System.Threading.CancellationToken" /> into <see cref="T:Microsoft.Maui.Controls.Command`1" /> as a CommandParameter
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartCameraPreviewCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StartCameraPreviewCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StartCameraPreviewCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartCameraPreviewCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StartCameraPreviewCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommand" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopCameraPreview">
+      <MemberSignature Language="C#" Value="public void StopCameraPreview ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopCameraPreview() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.CameraView.StopCameraPreview" />
+      <MemberSignature Language="VB.NET" Value="Public Sub StopCameraPreview ()" />
+      <MemberSignature Language="F#" Value="abstract member StopCameraPreview : unit -&gt; unit&#xA;override this.StopCameraPreview : unit -&gt; unit" Usage="cameraView.StopCameraPreview " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.ICameraView.StopCameraPreview</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.ICameraView.StopCameraPreview" />
+      </Docs>
+    </Member>
+    <Member MemberName="StopCameraPreviewCommand">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand StopCameraPreviewCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand StopCameraPreviewCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommand" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopCameraPreviewCommand As ICommand" />
+      <MemberSignature Language="F#" Value="member this.StopCameraPreviewCommand : System.Windows.Input.ICommand" Usage="CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Command that stops the camera preview.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopCameraPreviewCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StopCameraPreviewCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StopCameraPreviewCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StopCameraPreviewCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StopCameraPreviewCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommand" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZoomFactor">
+      <MemberSignature Language="C#" Value="public float ZoomFactor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ZoomFactor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.CameraView.ZoomFactor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ZoomFactor As Single" />
+      <MemberSignature Language="F#" Value="member this.ZoomFactor : single with get, set" Usage="CommunityToolkit.Maui.Views.CameraView.ZoomFactor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.ICameraView.ZoomFactor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Core.ICameraView.ZoomFactor" />
+      </Docs>
+    </Member>
+    <Member MemberName="ZoomFactorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ZoomFactorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ZoomFactorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.CameraView.ZoomFactorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ZoomFactorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ZoomFactorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.CameraView.ZoomFactorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="P:CommunityToolkit.Maui.Views.CameraView.ZoomFactor" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

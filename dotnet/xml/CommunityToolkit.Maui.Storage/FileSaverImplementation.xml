@@ -1,0 +1,184 @@
+<Type Name="FileSaverImplementation" FullName="CommunityToolkit.Maui.Storage.FileSaverImplementation">
+  <TypeSignature Language="C#" Value="public sealed class FileSaverImplementation : CommunityToolkit.Maui.Storage.IFileSaver" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileSaverImplementation extends System.Object implements class CommunityToolkit.Maui.Storage.IFileSaver" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Storage.FileSaverImplementation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileSaverImplementation&#xA;Implements IFileSaver" />
+  <TypeSignature Language="F#" Value="type FileSaverImplementation = class&#xA;    interface IFileSaver" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Storage.IFileSaver</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileSaverImplementation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverImplementation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string fileName, System.IO.Stream stream, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string fileName, class System.IO.Stream stream, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverImplementation.SaveAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (fileName As String, stream As Stream, Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * System.IO.Stream * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;&#xA;override this.SaveAsync : string * System.IO.Stream * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="fileSaverImplementation.SaveAsync (fileName, stream, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">To be added.</param>
+        <param name="stream">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string fileName, System.IO.Stream stream, IProgress&lt;double&gt; progress, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string fileName, class System.IO.Stream stream, class System.IProgress`1&lt;float64&gt; progress, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverImplementation.SaveAsync(System.String,System.IO.Stream,System.IProgress{System.Double},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (fileName As String, stream As Stream, progress As IProgress(Of Double), Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * System.IO.Stream * IProgress&lt;double&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;&#xA;override this.SaveAsync : string * System.IO.Stream * IProgress&lt;double&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="fileSaverImplementation.SaveAsync (fileName, stream, progress, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.IO.Stream,System.IProgress{System.Double},System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="progress" Type="System.IProgress&lt;System.Double&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">To be added.</param>
+        <param name="stream">To be added.</param>
+        <param name="progress">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string initialPath, string fileName, System.IO.Stream stream, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string initialPath, string fileName, class System.IO.Stream stream, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverImplementation.SaveAsync(System.String,System.String,System.IO.Stream,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (initialPath As String, fileName As String, stream As Stream, Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * string * System.IO.Stream * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;&#xA;override this.SaveAsync : string * string * System.IO.Stream * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="fileSaverImplementation.SaveAsync (initialPath, fileName, stream, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.String,System.IO.Stream,System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="initialPath" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="initialPath">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="stream">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string initialPath, string fileName, System.IO.Stream stream, IProgress&lt;double&gt; progress, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string initialPath, string fileName, class System.IO.Stream stream, class System.IProgress`1&lt;float64&gt; progress, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverImplementation.SaveAsync(System.String,System.String,System.IO.Stream,System.IProgress{System.Double},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (initialPath As String, fileName As String, stream As Stream, progress As IProgress(Of Double), Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * string * System.IO.Stream * IProgress&lt;double&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;&#xA;override this.SaveAsync : string * string * System.IO.Stream * IProgress&lt;double&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="fileSaverImplementation.SaveAsync (initialPath, fileName, stream, progress, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.String,System.IO.Stream,System.IProgress{System.Double},System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="initialPath" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="progress" Type="System.IProgress&lt;System.Double&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="initialPath">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="stream">To be added.</param>
+        <param name="progress">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

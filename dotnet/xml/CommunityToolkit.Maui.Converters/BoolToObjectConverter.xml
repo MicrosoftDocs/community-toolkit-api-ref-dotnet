@@ -1,0 +1,52 @@
+<Type Name="BoolToObjectConverter" FullName="CommunityToolkit.Maui.Converters.BoolToObjectConverter">
+  <TypeSignature Language="C#" Value="public class BoolToObjectConverter : CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BoolToObjectConverter extends CommunityToolkit.Maui.Converters.BoolToObjectConverter`1&lt;object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.BoolToObjectConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class BoolToObjectConverter&#xA;Inherits BoolToObjectConverter(Of Object)" />
+  <TypeSignature Language="F#" Value="type BoolToObjectConverter = class&#xA;    inherit BoolToObjectConverter&lt;obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TObject">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts boolean to object and vice versa.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BoolToObjectConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.BoolToObjectConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

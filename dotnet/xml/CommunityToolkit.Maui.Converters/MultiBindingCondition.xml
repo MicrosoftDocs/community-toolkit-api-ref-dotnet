@@ -1,0 +1,134 @@
+<Type Name="MultiBindingCondition" FullName="CommunityToolkit.Maui.Converters.MultiBindingCondition">
+  <TypeSignature Language="C#" Value="public enum MultiBindingCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MultiBindingCondition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.MultiBindingCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MultiBindingCondition" />
+  <TypeSignature Language="F#" Value="type MultiBindingCondition = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Different types of conditions that can be used in <see cref="T:CommunityToolkit.Maui.Converters.VariableMultiValueConverter" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition All = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.MultiBindingCondition.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="F#" Value="All = 1" Usage="CommunityToolkit.Maui.Converters.MultiBindingCondition.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>All the values should be true.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Any">
+      <MemberSignature Language="C#" Value="Any" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition Any = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.MultiBindingCondition.Any" />
+      <MemberSignature Language="VB.NET" Value="Any" />
+      <MemberSignature Language="F#" Value="Any = 2" Usage="CommunityToolkit.Maui.Converters.MultiBindingCondition.Any" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Any of the values should be true.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exact">
+      <MemberSignature Language="C#" Value="Exact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition Exact = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.MultiBindingCondition.Exact" />
+      <MemberSignature Language="VB.NET" Value="Exact" />
+      <MemberSignature Language="F#" Value="Exact = 3" Usage="CommunityToolkit.Maui.Converters.MultiBindingCondition.Exact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The exact number as configured in <see cref="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.Count" /> should be true.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GreaterThan">
+      <MemberSignature Language="C#" Value="GreaterThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition GreaterThan = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.MultiBindingCondition.GreaterThan" />
+      <MemberSignature Language="VB.NET" Value="GreaterThan" />
+      <MemberSignature Language="F#" Value="GreaterThan = 4" Usage="CommunityToolkit.Maui.Converters.MultiBindingCondition.GreaterThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>At least the number as configured in <see cref="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.Count" /> should be true.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LessThan">
+      <MemberSignature Language="C#" Value="LessThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition LessThan = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.MultiBindingCondition.LessThan" />
+      <MemberSignature Language="VB.NET" Value="LessThan" />
+      <MemberSignature Language="F#" Value="LessThan = 5" Usage="CommunityToolkit.Maui.Converters.MultiBindingCondition.LessThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>At most the number as configured in <see cref="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.Count" /> should be true.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.MultiBindingCondition.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.Maui.Converters.MultiBindingCondition.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>None of the values should be true.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

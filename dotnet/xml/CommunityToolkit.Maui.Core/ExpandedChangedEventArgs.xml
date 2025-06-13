@@ -1,0 +1,69 @@
+<Type Name="ExpandedChangedEventArgs" FullName="CommunityToolkit.Maui.Core.ExpandedChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class ExpandedChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExpandedChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.ExpandedChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpandedChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type ExpandedChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Contains Expander IsExpanded state.
+            </summary>
+    <remarks>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Core.ExpandedChangedEventArgs" /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExpandedChangedEventArgs (bool isExpanded);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isExpanded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.ExpandedChangedEventArgs.#ctor(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (isExpanded As Boolean)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.ExpandedChangedEventArgs : bool -&gt; CommunityToolkit.Maui.Core.ExpandedChangedEventArgs" Usage="new CommunityToolkit.Maui.Core.ExpandedChangedEventArgs isExpanded" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="isExpanded" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isExpanded">To be added.</param>
+        <summary>
+            Contains Expander IsExpanded state.
+            </summary>
+        <remarks>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Core.ExpandedChangedEventArgs" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpanded">
+      <MemberSignature Language="C#" Value="public bool IsExpanded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExpanded" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ExpandedChangedEventArgs.IsExpanded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExpanded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExpanded : bool" Usage="CommunityToolkit.Maui.Core.ExpandedChangedEventArgs.IsExpanded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            True if Is Expanded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

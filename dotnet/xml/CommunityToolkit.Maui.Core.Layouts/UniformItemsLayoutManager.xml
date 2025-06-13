@@ -1,0 +1,109 @@
+<Type Name="UniformItemsLayoutManager" FullName="CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager">
+  <TypeSignature Language="C#" Value="public class UniformItemsLayoutManager : Microsoft.Maui.Layouts.LayoutManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UniformItemsLayoutManager extends Microsoft.Maui.Layouts.LayoutManager" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class UniformItemsLayoutManager&#xA;Inherits LayoutManager" />
+  <TypeSignature Language="F#" Value="type UniformItemsLayoutManager = class&#xA;    inherit LayoutManager" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Layouts.LayoutManager</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:Microsoft.Maui.Layouts.LayoutManager" /> for <see cref="T:CommunityToolkit.Maui.Core.IUniformItemsLayout" />.
+            </summary>
+    <remarks>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager" />.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UniformItemsLayoutManager (CommunityToolkit.Maui.Core.IUniformItemsLayout uniformItemsLayout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.Core.IUniformItemsLayout uniformItemsLayout) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager.#ctor(CommunityToolkit.Maui.Core.IUniformItemsLayout)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniformItemsLayout As IUniformItemsLayout)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager : CommunityToolkit.Maui.Core.IUniformItemsLayout -&gt; CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager" Usage="new CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager uniformItemsLayout" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniformItemsLayout" Type="CommunityToolkit.Maui.Core.IUniformItemsLayout" />
+      </Parameters>
+      <Docs>
+        <param name="uniformItemsLayout">To be added.</param>
+        <summary>
+          <see cref="T:Microsoft.Maui.Layouts.LayoutManager" /> for <see cref="T:CommunityToolkit.Maui.Core.IUniformItemsLayout" />.
+            </summary>
+        <remarks>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArrangeChildren">
+      <MemberSignature Language="C#" Value="public override Microsoft.Maui.Graphics.Size ArrangeChildren (Microsoft.Maui.Graphics.Rect rectangle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeChildren(valuetype Microsoft.Maui.Graphics.Rect rectangle) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager.ArrangeChildren(Microsoft.Maui.Graphics.Rect)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ArrangeChildren (rectangle As Rect) As Size" />
+      <MemberSignature Language="F#" Value="override this.ArrangeChildren : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="uniformItemsLayoutManager.ArrangeChildren rectangle" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rectangle" Type="Microsoft.Maui.Graphics.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="rectangle">Grid rectangle</param>
+        <summary>
+            Arrange children
+            </summary>
+        <returns>Child size</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Measure">
+      <MemberSignature Language="C#" Value="public override Microsoft.Maui.Graphics.Size Measure (double widthConstraint, double heightConstraint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size Measure(float64 widthConstraint, float64 heightConstraint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Layouts.UniformItemsLayoutManager.Measure(System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Measure (widthConstraint As Double, heightConstraint As Double) As Size" />
+      <MemberSignature Language="F#" Value="override this.Measure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="uniformItemsLayoutManager.Measure (widthConstraint, heightConstraint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widthConstraint" Type="System.Double" />
+        <Parameter Name="heightConstraint" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="widthConstraint">Width constraint</param>
+        <param name="heightConstraint">Height constraint</param>
+        <summary>
+            Measure grid size
+            </summary>
+        <returns>Grid size</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

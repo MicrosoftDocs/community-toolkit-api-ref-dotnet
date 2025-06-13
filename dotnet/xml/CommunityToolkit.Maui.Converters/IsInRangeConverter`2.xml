@@ -1,0 +1,318 @@
+<Type Name="IsInRangeConverter&lt;TValue,TReturnObject&gt;" FullName="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;TValue,TReturnObject&gt;">
+  <TypeSignature Language="C#" Value="public abstract class IsInRangeConverter&lt;TValue,TReturnObject&gt; : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;TValue,object&gt; where TValue : IComparable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit IsInRangeConverter`2&lt;(class System.IComparable) TValue, TReturnObject&gt; extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`2&lt;!TValue, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.IsInRangeConverter`2" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class IsInRangeConverter(Of TValue, TReturnObject)&#xA;Inherits BaseConverterOneWay(Of TValue, Object)" />
+  <TypeSignature Language="F#" Value="type IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; IComparable)&gt; = class&#xA;    inherit BaseConverterOneWay&lt;'Value, obj (requires 'Value :&gt; IComparable)&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TValue">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <InterfaceName>System.IComparable</InterfaceName>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TReturnObject">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;TValue,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">TValue</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TValue">To be added.</typeparam>
+    <typeparam name="TReturnObject">To be added.</typeparam>
+    <summary>Converts the incoming value to a <see cref="T:System.Boolean" /> indicating whether or not the value is within a range.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected IsInRangeConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override object ConvertFrom (TValue value, System.Globalization.CultureInfo? culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFrom(!TValue value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.ConvertFrom(`0,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As TValue, culture As CultureInfo) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : 'Value * System.Globalization.CultureInfo -&gt; obj" Usage="isInRangeConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="TValue" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <param name="culture">(Not Used)</param>
+        <summary>Converts an object that implemented IComparable to a <see cref="T:System.Boolean" /> based on the object being within a <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValue" /> and <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValue" /> range.</summary>
+        <returns>The object assigned to <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.TrueObject" /> if value is between <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValue" /> and <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValue" /> returns true, otherwise the value assigned to <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.FalseObject" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override object DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Object" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : obj with get, set" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="FalseObject">
+      <MemberSignature Language="C#" Value="public TReturnObject? FalseObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TReturnObject FalseObject" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.FalseObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property FalseObject As TReturnObject" />
+      <MemberSignature Language="F#" Value="member this.FalseObject : 'ReturnObject with get, set" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.FalseObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TReturnObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If supplied this value will be returned when the converter receives an input value that is <b>outside</b> the <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValue" /> and <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValue" />s.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FalseObjectProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty FalseObjectProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FalseObjectProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.FalseObjectProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FalseObjectProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FalseObjectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.FalseObjectProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.FalseObject" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxValue">
+      <MemberSignature Language="C#" Value="public TValue? MaxValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TValue MaxValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxValue As TValue" />
+      <MemberSignature Language="F#" Value="member this.MaxValue : 'Value with get, set" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.MaxValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The upper bounds of the range to compare against when determining whether the input value to the convert is within range.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxValueProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MaxValueProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaxValueProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValueProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxValueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.MaxValueProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValue" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinValue">
+      <MemberSignature Language="C#" Value="public TValue? MinValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TValue MinValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinValue As TValue" />
+      <MemberSignature Language="F#" Value="member this.MinValue : 'Value with get, set" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.MinValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The lower bounds of the range to compare against when determining whether the input value to the convert is within range.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinValueProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MinValueProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinValueProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValueProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinValueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.MinValueProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValue" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrueObject">
+      <MemberSignature Language="C#" Value="public TReturnObject? TrueObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TReturnObject TrueObject" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.TrueObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property TrueObject As TReturnObject" />
+      <MemberSignature Language="F#" Value="member this.TrueObject : 'ReturnObject with get, set" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.TrueObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TReturnObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If supplied this value will be returned when the converter receives an input value that is <b>inside</b> (inclusive) of the <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MinValue" /> and <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.MaxValue" />s.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrueObjectProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty TrueObjectProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TrueObjectProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.TrueObjectProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TrueObjectProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TrueObjectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Converters.IsInRangeConverter&lt;'Value, 'ReturnObject (requires 'Value :&gt; System.IComparable)&gt;.TrueObjectProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Converters.IsInRangeConverter`2.TrueObject" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

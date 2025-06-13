@@ -1,0 +1,2043 @@
+{
+  "Assembly": "CommunityToolkit.Diagnostics",
+  "GUID": "2664895471234A5294529A9823C089CCFFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.TypeExtensions.ToTypeString(System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Extensions/TypeExtensions.cs#L52C9-L79C12"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Diagnostics.TypeExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Extensions/TypeExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ValueTypeExtensions.ToHexString``1(``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Extensions/ValueTypeExtensions.cs#L47C9-L66C38"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Diagnostics.ValueTypeExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Extensions/ValueTypeExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L27C9-L33C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L45C9-L51C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Span{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L64C9-L70C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Span{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L83C9-L89C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Span{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L102C9-L108C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Span{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L121C9-L127C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Span{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L140C9-L146C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Span{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L159C9-L165C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Span{``0},System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L178C9-L184C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Span{``0},System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L197C9-L203C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L216C9-L222C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L235C9-L241C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.ReadOnlySpan{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L253C9-L259C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.ReadOnlySpan{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L271C9-L277C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L290C9-L296C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L309C9-L315C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.ReadOnlySpan{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L328C9-L334C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L347C9-L353C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.ReadOnlySpan{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L366C9-L372C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L385C9-L391C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlySpan{``0},System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L404C9-L410C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlySpan{``0},System.Span{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L423C9-L429C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.ReadOnlySpan{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L442C9-L448C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.ReadOnlySpan{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L461C9-L467C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L479C9-L485C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L497C9-L503C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Memory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L516C9-L522C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Memory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L535C9-L541C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Memory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L554C9-L560C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Memory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L573C9-L579C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Memory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L592C9-L598C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Memory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L611C9-L617C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Memory{``0},System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L630C9-L636C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Memory{``0},System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L649C9-L655C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L668C9-L674C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L687C9-L693C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.ReadOnlyMemory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L705C9-L711C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.ReadOnlyMemory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L723C9-L729C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L742C9-L748C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L761C9-L767C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.ReadOnlyMemory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L780C9-L786C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L799C9-L805C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.ReadOnlyMemory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L818C9-L824C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L837C9-L843C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlyMemory{``0},System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L856C9-L862C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlyMemory{``0},System.Memory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L875C9-L881C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.ReadOnlyMemory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L894C9-L900C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.ReadOnlyMemory{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L913C9-L919C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(``0[],System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L931C9-L937C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(``0[],System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L949C9-L955C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(``0[],System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L968C9-L974C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(``0[],System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L987C9-L993C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(``0[],System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1006C9-L1012C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(``0[],System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1025C9-L1031C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(``0[],System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1044C9-L1050C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(``0[],System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1063C9-L1069C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(``0[],``0[],System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1082C9-L1088C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(``0[],``0[],System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1101C9-L1107C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,``0[],System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1120C9-L1126C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,``0[],System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1139C9-L1145C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Collections.Generic.List{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1157C9-L1163C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Collections.Generic.List{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1175C9-L1181C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1194C9-L1200C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1213C9-L1219C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Collections.Generic.List{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1232C9-L1238C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1251C9-L1257C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Collections.Generic.List{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1270C9-L1276C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1289C9-L1295C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1308C9-L1314C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1327C9-L1333C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Collections.Generic.List{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1346C9-L1352C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Collections.Generic.List{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1365C9-L1371C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1383C9-L1389C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1401C9-L1407C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1420C9-L1426C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1439C9-L1445C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1458C9-L1464C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1477C9-L1483C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1496C9-L1502C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1515C9-L1521C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1534C9-L1540C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1553C9-L1559C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1572C9-L1578C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1591C9-L1597C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Collections.Generic.IReadOnlyCollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1609C9-L1615C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Collections.Generic.IReadOnlyCollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1627C9-L1633C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1646C9-L1652C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1665C9-L1671C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1684C9-L1690C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1703C9-L1709C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1722C9-L1728C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1741C9-L1747C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1760C9-L1766C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Collections.Generic.ICollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1779C9-L1785C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Collections.Generic.IReadOnlyCollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1798C9-L1804C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Collections.Generic.IReadOnlyCollection{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Collection.g.cs#L1817C9-L1823C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L26C9-L32C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L45C9-L51C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L64C9-L70C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L83C9-L89C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L102C9-L108C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L121C9-L127C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Byte,System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L144C9-L150C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Byte,System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L167C9-L173C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Byte,System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L190C9-L196C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Byte,System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L213C9-L219C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Byte,System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L236C9-L242C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Byte,System.Byte,System.Byte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L259C9-L265C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L277C9-L283C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L296C9-L302C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L315C9-L321C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L334C9-L340C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L353C9-L359C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L372C9-L378C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.SByte,System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L395C9-L401C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.SByte,System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L418C9-L424C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.SByte,System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L441C9-L447C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.SByte,System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L464C9-L470C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.SByte,System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L487C9-L493C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.SByte,System.SByte,System.SByte,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L510C9-L516C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L528C9-L534C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L547C9-L553C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L566C9-L572C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L585C9-L591C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L604C9-L610C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L623C9-L629C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Int16,System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L646C9-L652C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Int16,System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L669C9-L675C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Int16,System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L692C9-L698C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Int16,System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L715C9-L721C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Int16,System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L738C9-L744C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Int16,System.Int16,System.Int16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L761C9-L767C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L779C9-L785C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L798C9-L804C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L817C9-L823C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L836C9-L842C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L855C9-L861C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L874C9-L880C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UInt16,System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L897C9-L903C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UInt16,System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L920C9-L926C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UInt16,System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L943C9-L949C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UInt16,System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L966C9-L972C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UInt16,System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L989C9-L995C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UInt16,System.UInt16,System.UInt16,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1012C9-L1018C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1030C9-L1036C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1049C9-L1055C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1068C9-L1074C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1087C9-L1093C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1106C9-L1112C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1125C9-L1131C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Char,System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1148C9-L1154C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Char,System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1171C9-L1177C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Char,System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1194C9-L1200C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Char,System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1217C9-L1223C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Char,System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1240C9-L1246C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Char,System.Char,System.Char,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1263C9-L1269C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1281C9-L1287C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1300C9-L1306C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1319C9-L1325C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1338C9-L1344C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1357C9-L1363C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1376C9-L1382C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Int32,System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1399C9-L1405C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Int32,System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1422C9-L1428C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Int32,System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1445C9-L1451C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Int32,System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1468C9-L1474C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Int32,System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1491C9-L1497C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Int32,System.Int32,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1514C9-L1520C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1532C9-L1538C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1551C9-L1557C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1570C9-L1576C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1589C9-L1595C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1608C9-L1614C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1627C9-L1633C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UInt32,System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1650C9-L1656C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UInt32,System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1673C9-L1679C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UInt32,System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1696C9-L1702C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UInt32,System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1719C9-L1725C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UInt32,System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1742C9-L1748C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UInt32,System.UInt32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1765C9-L1771C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1783C9-L1789C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1802C9-L1808C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1821C9-L1827C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1840C9-L1846C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1859C9-L1865C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1878C9-L1884C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1901C9-L1907C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1924C9-L1930C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1947C9-L1953C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1970C9-L1976C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L1993C9-L1999C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2016C9-L2022C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2034C9-L2040C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2053C9-L2059C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2072C9-L2078C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2091C9-L2097C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2110C9-L2116C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2129C9-L2135C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Int64,System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2152C9-L2158C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Int64,System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2175C9-L2181C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Int64,System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2198C9-L2204C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Int64,System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2221C9-L2227C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Int64,System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2244C9-L2250C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Int64,System.Int64,System.Int64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2267C9-L2273C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2285C9-L2291C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2304C9-L2310C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2323C9-L2329C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2342C9-L2348C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2361C9-L2367C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2380C9-L2386C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UInt64,System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2403C9-L2409C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UInt64,System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2426C9-L2432C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UInt64,System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2449C9-L2455C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UInt64,System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2472C9-L2478C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UInt64,System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2495C9-L2501C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UInt64,System.UInt64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2518C9-L2524C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2536C9-L2542C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2555C9-L2561C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2574C9-L2580C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2593C9-L2599C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2612C9-L2618C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2631C9-L2637C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2654C9-L2660C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2677C9-L2683C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2700C9-L2706C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2723C9-L2729C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2746C9-L2752C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2769C9-L2775C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2787C9-L2793C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2806C9-L2812C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2825C9-L2831C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2844C9-L2850C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2863C9-L2869C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2882C9-L2888C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Decimal,System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2905C9-L2911C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Decimal,System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2928C9-L2934C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Decimal,System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2951C9-L2957C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Decimal,System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2974C9-L2980C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Decimal,System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L2997C9-L3003C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Decimal,System.Decimal,System.Decimal,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3020C9-L3026C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3038C9-L3044C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3057C9-L3063C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3076C9-L3082C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3095C9-L3101C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3114C9-L3120C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3133C9-L3139C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.IntPtr,System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3156C9-L3162C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.IntPtr,System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3179C9-L3185C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.IntPtr,System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3202C9-L3208C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.IntPtr,System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3225C9-L3231C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.IntPtr,System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3248C9-L3254C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.IntPtr,System.IntPtr,System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3271C9-L3277C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3289C9-L3295C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3308C9-L3314C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3327C9-L3333C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3346C9-L3352C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3365C9-L3371C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3384C9-L3390C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3407C9-L3413C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3430C9-L3436C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3453C9-L3459C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3476C9-L3482C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3499C9-L3505C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Generated/Guard.Comparable.Numeric.g.cs#L3522C9-L3528C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsTrue(System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Boolean.cs#L29C9-L35C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsTrue(System.Boolean,System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Boolean.cs#L47C9-L53C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsFalse(System.Boolean,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Boolean.cs#L64C9-L70C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsFalse(System.Boolean,System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Boolean.cs#L82C9-L88C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsDefault``1(``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L24C9-L30C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotDefault``1(``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L43C9-L49C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L64C9-L70C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L85C9-L91C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBitwiseEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L110C9-L188C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThan``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L220C9-L226C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L241C9-L247C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L262C9-L268C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L283C9-L289C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRange``1(``0,``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L308C9-L314C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRange``1(``0,``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L333C9-L339C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetween``1(``0,``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L358C9-L364C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetween``1(``0,``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L383C9-L389C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo``1(``0,``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L408C9-L414C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo``1(``0,``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Generic.cs#L433C9-L439C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Int32,System.Int32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L26C9-L41C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Int32,System.Int32,System.UInt32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L56C9-L71C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Int64,System.Int64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L86C9-L101C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Int64,System.Int64,System.UInt64,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L116C9-L131C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L144C9-L150C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Single,System.Single,System.Single,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L163C9-L169C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L182C9-L188C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Double,System.Double,System.Double,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L201C9-L207C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.IntPtr,System.IntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L222C9-L237C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.IntPtr,System.IntPtr,System.UIntPtr,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Comparable.Numeric.cs#L252C9-L267C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNull``1(``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L28C9-L34C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNull``1(System.Nullable{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L47C9-L53C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotNull``1(``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L65C9-L71C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotNull``1(System.Nullable{``0},System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L84C9-L90C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsOfType``1(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L102C9-L108C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotOfType``1(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L120C9-L126C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsOfType(System.Object,System.Type,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L138C9-L144C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotOfType(System.Object,System.Type,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L156C9-L162C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsAssignableToType``1(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L174C9-L180C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotAssignableToType``1(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L192C9-L198C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsAssignableToType(System.Object,System.Type,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L210C9-L216C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotAssignableToType(System.Object,System.Type,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L228C9-L234C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsReferenceEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L249C9-L255C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsReferenceNotEqualTo``1(``0,``0,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs#L270C9-L276C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.CanRead(System.IO.Stream,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.IO.cs#L23C9-L29C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.CanWrite(System.IO.Stream,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.IO.cs#L40C9-L46C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.CanSeek(System.IO.Stream,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.IO.cs#L57C9-L63C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsAtStartPosition(System.IO.Stream,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.IO.cs#L74C9-L80C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNullOrEmpty(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L25C9-L31C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotNullOrEmpty(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L43C9-L49C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNullOrWhiteSpace(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L60C9-L66C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotNullOrWhiteSpace(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L78C9-L84C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsEmpty(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L95C9-L101C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L112C9-L118C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsWhiteSpace(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L129C9-L135C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotWhiteSpace(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L146C9-L152C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo(System.String,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L164C9-L170C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo(System.String,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L182C9-L188C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan(System.String,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L200C9-L206C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo(System.String,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L218C9-L224C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan(System.String,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L236C9-L242C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo(System.String,System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L254C9-L260C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo(System.String,System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L273C9-L279C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo(System.String,System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L292C9-L298C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor(System.Int32,System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L310C9-L316C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor(System.Int32,System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.String.cs#L328C9-L334C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCompleted(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L23C9-L29C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCompleted(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L40C9-L46C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCompletedSuccessfully(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L57C9-L63C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCompletedSuccessfully(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L74C9-L80C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsFaulted(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L91C9-L97C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotFaulted(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L108C9-L114C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsCanceled(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L125C9-L131C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.IsNotCanceled(System.Threading.Tasks.Task,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L142C9-L148C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasStatusEqualTo(System.Threading.Tasks.Task,System.Threading.Tasks.TaskStatus,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L160C9-L166C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.Guard.HasStatusNotEqualTo(System.Threading.Tasks.Task,System.Threading.Tasks.TaskStatus,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.Tasks.cs#L178C9-L184C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Diagnostics.Guard",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/Guard.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L26C9-L26C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L37C9-L37C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L49C9-L49C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L59C9-L59C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L70C9-L70C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L82C9-L82C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L94C9-L94C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String,System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L107C9-L107C68"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L117C9-L117C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L128C9-L128C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L140C9-L140C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L152C9-L152C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L162C9-L162C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L173C9-L173C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L185C9-L185C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L197C9-L197C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String,System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L210C9-L210C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L220C9-L220C34"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L231C9-L231C41"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L243C9-L243C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException(System.String,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L255C9-L255C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L265C9-L265C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L276C9-L276C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L288C9-L288C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException(System.String,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L300C9-L300C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L310C9-L310C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L321C9-L321C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L333C9-L333C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L343C9-L343C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L354C9-L354C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L366C9-L366C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L376C9-L376C42"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L387C9-L387C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L399C9-L399C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L409C9-L409C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L420C9-L420C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L432C9-L432C70"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L442C9-L442C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L453C9-L453C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L465C9-L465C67"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L475C9-L475C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L486C9-L486C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L498C9-L498C66"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L510C9-L510C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L520C9-L520C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L531C9-L531C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L543C9-L543C67"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L555C9-L555C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L565C9-L565C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L576C9-L576C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L588C9-L588C67"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L600C9-L600C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L610C9-L610C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L621C9-L621C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L633C9-L633C66"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L644C9-L644C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L656C9-L656C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L668C9-L668C64"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L678C9-L678C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L689C9-L689C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L701C9-L701C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L712C9-L712C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L724C9-L724C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String,System.Exception,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L737C9-L737C78"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L747C9-L747C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L758C9-L758C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L770C9-L770C74"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L780C9-L780C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L791C9-L791C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L803C9-L803C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L813C9-L813C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L824C9-L824C45"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L836C9-L836C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L846C9-L846C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L857C9-L857C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L869C9-L869C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L879C9-L879C36"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L890C9-L890C41"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L902C9-L902C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L913C9-L913C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs#L925C9-L925C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L26C9-L26C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L39C9-L39C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L53C9-L53C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L65C9-L65C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L78C9-L78C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L92C9-L92C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L106C9-L106C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String,System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L121C9-L121C68"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L133C9-L133C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L146C9-L146C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L160C9-L160C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L174C9-L174C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L186C9-L186C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L199C9-L199C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L213C9-L213C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L227C9-L227C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String,System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L242C9-L242C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L254C9-L254C34"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L267C9-L267C41"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L281C9-L281C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1(System.String,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L295C9-L295C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L307C9-L307C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L320C9-L320C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L334C9-L334C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1(System.String,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L348C9-L348C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L360C9-L360C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L373C9-L373C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L387C9-L387C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L399C9-L399C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L412C9-L412C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L426C9-L426C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L438C9-L438C42"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L451C9-L451C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L465C9-L465C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L477C9-L477C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L490C9-L490C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L504C9-L504C70"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L516C9-L516C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L529C9-L529C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L543C9-L543C67"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L555C9-L555C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L568C9-L568C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L582C9-L582C66"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L596C9-L596C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L608C9-L608C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L621C9-L621C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L635C9-L635C67"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L649C9-L649C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L661C9-L661C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L674C9-L674C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L688C9-L688C67"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L702C9-L702C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L714C9-L714C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L727C9-L727C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L741C9-L741C66"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L754C9-L754C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L768C9-L768C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException``1(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L782C9-L782C64"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L794C9-L794C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L807C9-L807C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L821C9-L821C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L834C9-L834C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L848C9-L848C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String,System.Exception,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L863C9-L863C78"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L875C9-L875C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L888C9-L888C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L902C9-L902C74"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L914C9-L914C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L927C9-L927C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L941C9-L941C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L953C9-L953C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L966C9-L966C45"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L980C9-L980C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L992C9-L992C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1005C9-L1005C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1019C9-L1019C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1031C9-L1031C36"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1044C9-L1044C41"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.Int32,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1058C9-L1058C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1071C9-L1071C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.String,System.Exception)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.Generic.cs#L1085C9-L1085C59"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Diagnostics.ThrowHelper",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.Diagnostics/ThrowHelper.cs"
+    }
+  ]
+}

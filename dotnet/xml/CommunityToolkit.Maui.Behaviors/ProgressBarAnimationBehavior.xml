@@ -1,0 +1,198 @@
+<Type Name="ProgressBarAnimationBehavior" FullName="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior">
+  <TypeSignature Language="C#" Value="public class ProgressBarAnimationBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.ProgressBar&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProgressBarAnimationBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.ProgressBar&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProgressBarAnimationBehavior&#xA;Inherits BaseBehavior(Of ProgressBar)" />
+  <TypeSignature Language="F#" Value="type ProgressBarAnimationBehavior = class&#xA;    inherit BaseBehavior&lt;ProgressBar&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.ProgressBar&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.ProgressBar</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior" /> is a behavior that behavior that animates a <see cref="T:Microsoft.Maui.Controls.ProgressBar" />
+            /// </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProgressBarAnimationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimationCompleted">
+      <MemberSignature Language="C#" Value="public event EventHandler AnimationCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler AnimationCompleted" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.AnimationCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event AnimationCompleted As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.AnimationCompleted : EventHandler " Usage="member this.AnimationCompleted : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event that is triggered when the ProgressBar.ProgressTo() animation completes
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Easing">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Easing Easing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Easing Easing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Easing" />
+      <MemberSignature Language="VB.NET" Value="Public Property Easing As Easing" />
+      <MemberSignature Language="F#" Value="member this.Easing : Microsoft.Maui.Easing with get, set" Usage="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Easing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Easing</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Easing of the progress bar animation
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EasingProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty EasingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EasingProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.EasingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EasingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable EasingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.EasingProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Easing" /> property
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public uint Length { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Length" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Length" />
+      <MemberSignature Language="VB.NET" Value="Public Property Length As UInteger" />
+      <MemberSignature Language="F#" Value="member this.Length : uint32 with get, set" Usage="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Length in milliseconds of the progress bar animation
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LengthProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty LengthProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LengthProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.LengthProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LengthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.LengthProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Length" /> property
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Progress">
+      <MemberSignature Language="C#" Value="public double Progress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Progress" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Progress" />
+      <MemberSignature Language="VB.NET" Value="Public Property Progress As Double" />
+      <MemberSignature Language="F#" Value="member this.Progress : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Progress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Value of <see cref="P:Microsoft.Maui.Controls.ProgressBar.Progress" />, clamped to a minimum value of 0 and a maximum value of 1
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgressProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ProgressProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ProgressProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.ProgressProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ProgressProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ProgressProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.ProgressProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ProgressBarAnimationBehavior.Progress" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

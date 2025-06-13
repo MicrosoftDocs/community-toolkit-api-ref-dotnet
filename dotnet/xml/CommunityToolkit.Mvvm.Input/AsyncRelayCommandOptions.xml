@@ -1,0 +1,105 @@
+<Type Name="AsyncRelayCommandOptions" FullName="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions">
+  <TypeSignature Language="C#" Value="public enum AsyncRelayCommandOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AsyncRelayCommandOptions extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AsyncRelayCommandOptions" />
+  <TypeSignature Language="F#" Value="type AsyncRelayCommandOptions = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Options to customize the behavior of <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand" /> and <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> instances.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowConcurrentExecutions">
+      <MemberSignature Language="C#" Value="AllowConcurrentExecutions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions AllowConcurrentExecutions = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.AllowConcurrentExecutions" />
+      <MemberSignature Language="VB.NET" Value="AllowConcurrentExecutions" />
+      <MemberSignature Language="F#" Value="AllowConcurrentExecutions = 1" Usage="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.AllowConcurrentExecutions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <para>Concurrent executions are allowed. This option makes it so that the same command can be invoked concurrently multiple times.</para>
+          <para>
+            Note that additional considerations should be taken into account in this case:
+            <list type="bullet"><item>If the command supports cancellation, previous invocations will automatically be canceled if a new one is started.</item><item>The <see cref="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.ExecutionTask" /> property will always represent the operation that was started last.</item></list></para>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FlowExceptionsToTaskScheduler">
+      <MemberSignature Language="C#" Value="FlowExceptionsToTaskScheduler" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions FlowExceptionsToTaskScheduler = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.FlowExceptionsToTaskScheduler" />
+      <MemberSignature Language="VB.NET" Value="FlowExceptionsToTaskScheduler" />
+      <MemberSignature Language="F#" Value="FlowExceptionsToTaskScheduler = 2" Usage="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.FlowExceptionsToTaskScheduler" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <para>Exceptions are not thrown on the calling context, and are propagated to <see cref="E:System.Threading.Tasks.TaskScheduler.UnobservedTaskException" /> instead.</para>
+          <para>
+            This affects how calls to <see cref="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.Execute(System.Object)" /> behave. When this option is used, if an operation fails, that exception will not
+            be rethrown on the calling context (as it is not awaited there). Instead, it will flow to <see cref="E:System.Threading.Tasks.TaskScheduler.UnobservedTaskException" />.
+            </para>
+          <para>
+            This option enables more advanced scenarios, where the <see cref="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.ExecutionTask" /> property can be used to inspect the state of an operation
+            that was queued. That is, even if the operation failed or was canceled, the details of that can be retrieved at a later time by accessing this property.
+            </para>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            No option is specified. The <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand" /> and <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> types will use their default behavior:
+            <list type="bullet"><item>Concurrent execution is disallowed: a command is disabled if there is a pending asynchronous execution running.</item><item><para>
+                        Exceptions are thrown on the calling context: calling <see cref="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.Execute(System.Object)" /> will await the
+                        returned <see cref="T:System.Threading.Tasks.Task" /> for the operation, and propagate the exception on the calling context.        
+                    </para><para>This behavior is consistent with synchronous commands, where exceptions in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand.Execute(System.Object)" /> behave the same.</para></item></list></summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

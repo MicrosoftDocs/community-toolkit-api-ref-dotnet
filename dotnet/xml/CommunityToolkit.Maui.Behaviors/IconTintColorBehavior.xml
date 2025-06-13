@@ -1,0 +1,97 @@
+<Type Name="IconTintColorBehavior" FullName="CommunityToolkit.Maui.Behaviors.IconTintColorBehavior">
+  <TypeSignature Language="C#" Value="public class IconTintColorBehavior : CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;Microsoft.Maui.Controls.View&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IconTintColorBehavior extends CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`1&lt;class Microsoft.Maui.Controls.View&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.IconTintColorBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class IconTintColorBehavior&#xA;Inherits BasePlatformBehavior(Of View)" />
+  <TypeSignature Language="F#" Value="type IconTintColorBehavior = class&#xA;    inherit BasePlatformBehavior&lt;View&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;Microsoft.Maui.Controls.View&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.View</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A behavior that allows you to tint an icon with a specified <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IconTintColorBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.IconTintColorBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TintColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color? TintColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TintColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.IconTintColorBehavior.TintColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property TintColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TintColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Behaviors.IconTintColorBehavior.TintColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Property that represents the <see cref="T:Microsoft.Maui.Graphics.Color" /> that Icon will be tinted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TintColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty TintColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TintColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.IconTintColorBehavior.TintColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TintColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TintColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.IconTintColorBehavior.TintColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Attached Bindable Property for the <see cref="P:CommunityToolkit.Maui.Behaviors.IconTintColorBehavior.TintColor" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

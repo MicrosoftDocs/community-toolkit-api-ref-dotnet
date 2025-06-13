@@ -1,0 +1,252 @@
+<Type Name="HeaderBehaviorBase" FullName="CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase">
+  <TypeSignature Language="C#" Value="public abstract class HeaderBehaviorBase : CommunityToolkit.WinUI.Behaviors.BehaviorBase&lt;Microsoft.UI.Xaml.FrameworkElement&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit HeaderBehaviorBase extends CommunityToolkit.WinUI.Behaviors.BehaviorBase`1&lt;class Microsoft.UI.Xaml.FrameworkElement&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class HeaderBehaviorBase&#xA;Inherits BehaviorBase(Of FrameworkElement)" />
+  <TypeSignature Language="F#" Value="type HeaderBehaviorBase = class&#xA;    inherit BehaviorBase&lt;FrameworkElement&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.Behaviors.BehaviorBase&lt;Microsoft.UI.Xaml.FrameworkElement&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.UI.Xaml.FrameworkElement</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Base class helper for header behaviors which manipulate an element within a viewport of a <see cref="T:Microsoft.UI.Xaml.Controls.ListViewBase" /> based control.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected HeaderBehaviorBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_animationProperties">
+      <MemberSignature Language="C#" Value="protected Microsoft.UI.Composition.CompositionPropertySet? _animationProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.UI.Composition.CompositionPropertySet _animationProperties" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._animationProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected _animationProperties As CompositionPropertySet " />
+      <MemberSignature Language="F#" Value="val mutable _animationProperties : Microsoft.UI.Composition.CompositionPropertySet" Usage="CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._animationProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.CompositionPropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The CompositionPropertySet associated with the animation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_headerVisual">
+      <MemberSignature Language="C#" Value="protected Microsoft.UI.Composition.Visual? _headerVisual;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.UI.Composition.Visual _headerVisual" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._headerVisual" />
+      <MemberSignature Language="VB.NET" Value="Protected _headerVisual As Visual " />
+      <MemberSignature Language="F#" Value="val mutable _headerVisual : Microsoft.UI.Composition.Visual" Usage="CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._headerVisual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.Visual</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Visual associated with the header element.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_scrollProperties">
+      <MemberSignature Language="C#" Value="protected Microsoft.UI.Composition.CompositionPropertySet? _scrollProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.UI.Composition.CompositionPropertySet _scrollProperties" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._scrollProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected _scrollProperties As CompositionPropertySet " />
+      <MemberSignature Language="F#" Value="val mutable _scrollProperties : Microsoft.UI.Composition.CompositionPropertySet" Usage="CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._scrollProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.CompositionPropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The CompositionPropertySet associated with the ScrollViewer.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_scrollViewer">
+      <MemberSignature Language="C#" Value="protected Microsoft.UI.Xaml.Controls.ScrollViewer? _scrollViewer;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.UI.Xaml.Controls.ScrollViewer _scrollViewer" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._scrollViewer" />
+      <MemberSignature Language="VB.NET" Value="Protected _scrollViewer As ScrollViewer " />
+      <MemberSignature Language="F#" Value="val mutable _scrollViewer : Microsoft.UI.Xaml.Controls.ScrollViewer" Usage="CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase._scrollViewer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.ScrollViewer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The ScrollViewer associated with the ListViewBase control.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignAnimation">
+      <MemberSignature Language="C#" Value="protected virtual bool AssignAnimation ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool AssignAnimation() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase.AssignAnimation" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function AssignAnimation () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member AssignAnimation : unit -&gt; bool&#xA;override this.AssignAnimation : unit -&gt; bool" Usage="headerBehaviorBase.AssignAnimation " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Uses Composition API to get the UIElement and sets an ExpressionAnimation.
+            </summary>
+        <returns>
+          <c>true</c> if the assignment was successful; otherwise, <c>false</c>.</returns>
+        <remarks>
+            If this method returns true, you should have access to all protected fields with assigned components to use.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="protected override bool Initialize ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool Initialize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase.Initialize" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Initialize () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Initialize : unit -&gt; bool" Usage="headerBehaviorBase.Initialize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Attaches the behavior to the associated object.
+            </summary>
+        <returns>
+          <c>true</c> if attaching succeeded; otherwise <c>false</c>.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAnimation">
+      <MemberSignature Language="C#" Value="protected virtual void RemoveAnimation ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void RemoveAnimation() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase.RemoveAnimation" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub RemoveAnimation ()" />
+      <MemberSignature Language="F#" Value="abstract member RemoveAnimation : unit -&gt; unit&#xA;override this.RemoveAnimation : unit -&gt; unit" Usage="headerBehaviorBase.RemoveAnimation " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Remove the animation from the UIElement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAnimation">
+      <MemberSignature Language="C#" Value="protected abstract void StopAnimation ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void StopAnimation() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase.StopAnimation" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub StopAnimation ()" />
+      <MemberSignature Language="F#" Value="abstract member StopAnimation : unit -&gt; unit" Usage="headerBehaviorBase.StopAnimation " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Stop the animation of the UIElement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uninitialize">
+      <MemberSignature Language="C#" Value="protected override bool Uninitialize ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool Uninitialize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Internal.HeaderBehaviorBase.Uninitialize" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Uninitialize () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Uninitialize : unit -&gt; bool" Usage="headerBehaviorBase.Uninitialize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Detaches the behavior from the associated object.
+            </summary>
+        <returns>
+          <c>true</c> if detaching succeeded; otherwise <c>false</c>.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

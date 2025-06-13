@@ -1,0 +1,879 @@
+{
+  "Assembly": "CommunityToolkit.Maui.MediaElement",
+  "GUID": "20F95E3B71A24DB593955376116FACB1FFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(Microsoft.Maui.Hosting.MauiAppBuilder)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/AppBuilderExtensions.shared.cs#L24C3-L32C18"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.AppBuilderExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/AppBuilderExtensions.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.Finalize",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L211C21-L211C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#get_Position",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L395C10-L395C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#set_Position(System.TimeSpan)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L398C4-L405C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#get_Duration",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L410C10-L410C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#set_Duration(System.TimeSpan)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L411C10-L411C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#get_MediaWidth",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L416C10-L416C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#set_MediaWidth(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L417C10-L417C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#get_MediaHeight",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L422C10-L422C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#set_MediaHeight(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L423C10-L423C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IAsynchronousMediaElementHandler#get_SeekCompletedTCS",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L427C76-L427C109"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.Dispose",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L432C3-L434C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.Pause",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L439C3-L441C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.Play",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L446C3-L448C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.SeekTo(System.TimeSpan,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.Stop",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L472C3-L474C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.OnBindingContextChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L499C3-L505C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L510C3-L522C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaEnded",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L613C3-L614C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaFailed(CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L618C3-L619C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaOpened",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L623C3-L624C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#SeekCompleted",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L628C3-L629C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#CurrentStateChanged(CommunityToolkit.Maui.Core.Primitives.MediaElementState)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L631C72-L631C95"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaElement.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L123C2-L128C65"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Views.MediaElement.MediaEnded",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L133C10-L133C45"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Views.MediaElement.MediaFailed",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L140C10-L140C45"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Views.MediaElement.MediaOpened",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L147C10-L147C45"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Views.MediaElement.SeekCompleted",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L154C10-L154C45"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Views.MediaElement.StateChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L161C10-L161C45"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Views.MediaElement.PositionChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L168C10-L168C45"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.AspectProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.CurrentStateProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.DurationProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.ShouldAutoPlayProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.ShouldLoopPlaybackProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.ShouldKeepScreenOnProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.ShouldMuteProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.PositionProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.ShowsPlaybackControlsProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.SourceProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.SpeedProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.MediaHeightProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.MediaWidthProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.VolumeProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.MetadataTitleProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.MetadataArtistProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.MediaElement.MetadataArtworkUrlProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.Position",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L216C30-L216C66"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.Duration",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L222C30-L222C66"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.ShouldAutoPlay",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L230C10-L230C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.ShouldLoopPlayback",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L240C10-L240C52"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.ShouldKeepScreenOn",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L251C10-L251C52"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.ShouldMute",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L265C10-L265C44"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.ShouldShowPlaybackControls",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L275C10-L275C55"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.Source",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L286C10-L286C47"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.Volume",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L301C10-L301C42"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.Speed",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L326C10-L326C41"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.MediaHeight",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L335C28-L335C62"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.MediaWidth",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L342C27-L342C60"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.MetadataTitle",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L350C10-L350C49"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.MetadataArtist",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L360C10-L360C50"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.MetadataArtworkUrl",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L370C10-L370C54"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.Aspect",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L380C10-L380C42"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.CurrentState",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L389C10-L389C59"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#Position",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L395C10-L395C46"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#Duration",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L410C10-L410C46"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaWidth",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L416C10-L416C43"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaHeight",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L422C10-L422C44"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IAsynchronousMediaElementHandler#SeekCompletedTCS",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs#L427C76-L427C109"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Views.MediaElement",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaElement.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.FileMediaSource.op_Implicit(System.String)~CommunityToolkit.Maui.Views.FileMediaSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs#L22C66-L22C97"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.FileMediaSource.op_Implicit(CommunityToolkit.Maui.Views.FileMediaSource)~System.String",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs#L28C79-L28C100"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.FileMediaSource.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs#L41C39-L41C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.FileMediaSource.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.FileMediaSource.PathProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.FileMediaSource.Path",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs#L36C10-L36C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Views.FileMediaSource",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/FileMediaSource.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.op_Implicit(System.String)~CommunityToolkit.Maui.Views.MediaSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L26C3-L28C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.op_Implicit(System.Uri)~CommunityToolkit.Maui.Views.MediaSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L34C60-L34C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.FromResource(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L41C58-L41C128"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.FromUri(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L49C52-L49C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.FromFile(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L56C54-L56C89"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.FromUri(System.Uri)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L66C3-L76C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.OnSourceChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L82C38-L82C112"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.MediaSource.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs#L13C2-L13C53"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Views.MediaSource",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/MediaSource.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.ResourceMediaSource.op_Implicit(System.String)~CommunityToolkit.Maui.Views.ResourceMediaSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs#L22C70-L22C105"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.ResourceMediaSource.op_Implicit(CommunityToolkit.Maui.Views.ResourceMediaSource)~System.String",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs#L28C87-L28C112"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.ResourceMediaSource.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs#L45C39-L45C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.ResourceMediaSource.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.ResourceMediaSource.PathProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.ResourceMediaSource.Path",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs#L40C10-L40C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Views.ResourceMediaSource",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/ResourceMediaSource.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.UriMediaSource.op_Implicit(System.String)~CommunityToolkit.Maui.Views.UriMediaSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs#L21C65-L21C94"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.UriMediaSource.op_Implicit(CommunityToolkit.Maui.Views.UriMediaSource)~System.String",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs#L27C77-L27C108"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.UriMediaSource.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs#L42C39-L42C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.UriMediaSource.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Views.UriMediaSource.UriProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Views.UriMediaSource.Uri",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs#L37C10-L37C37"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Views.UriMediaSource",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/MediaSource/UriMediaSource.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler.SeekCompletedTCS",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IAsynchronousMediaElementHandler.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IAsynchronousMediaElementHandler.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.MediaEnded",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.MediaFailed(CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.MediaOpened",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.Pause",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.Play",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.SeekTo(System.TimeSpan,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.IMediaElement.Stop",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Core.IMediaElement.StateChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.Maui.Core.IMediaElement.PositionChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.MetadataTitle",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.MetadataArtist",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.MetadataArtworkUrl",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.Aspect",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.CurrentState",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.MediaHeight",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.MediaWidth",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.Position",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.Duration",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.ShouldAutoPlay",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.ShouldLoopPlayback",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.ShouldKeepScreenOn",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.ShouldMute",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.ShouldShowPlaybackControls",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.Source",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.Speed",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.IMediaElement.Volume",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.IMediaElement",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Interfaces/IMediaElement.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.#ctor(Microsoft.Maui.IMauiContext,CommunityToolkit.Maui.Core.IMediaElement,Microsoft.Maui.Dispatching.IDispatcher)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L28C2-L39C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.AreFloatingPointNumbersEqual(System.Double@,System.Double@,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L76C116-L76C155"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.Play",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L83C3-L84C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.Pause",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L91C3-L92C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.Seek(System.TimeSpan,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L101C3-L101C40"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.Stop",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L109C3-L110C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateAspect",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L117C3-L118C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L123C37-L123C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateSpeed",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L130C3-L131C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldKeepScreenOn",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L138C3-L139C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldMute",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L146C3-L147C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldLoopPlayback",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L155C3-L156C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldShowPlaybackControls",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L163C3-L164C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateStatus",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L171C3-L172C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateVolume",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L179C3-L180C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformPlay",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L259C50-L259C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformPause",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L260C51-L260C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformSeek(System.TimeSpan,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L256C3-L257C29"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformStop",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L261C50-L261C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateAspect",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L262C58-L262C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateSource",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L263C64-L263C87"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateSpeed",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L264C57-L264C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldLoopPlayback",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L270C70-L270C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldKeepScreenOn",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L268C70-L268C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldMute",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L269C62-L269C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldShowPlaybackControls",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L265C78-L265C79"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdatePosition",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L266C60-L266C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateVolume",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L267C58-L267C59"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Views.MediaManager.MediaElement",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L44C41-L44C45"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Views.MediaManager.MauiContext",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L49C39-L49C43"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Views.MediaManager.Dispatcher",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L54C37-L54C41"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Views.MediaManager.Logger",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs#L59C29-L59C33"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.Views.MediaManager",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Views/MediaManager.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.None",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Opening",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Buffering",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Paused",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Stopped",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Failed",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.Primitives.MediaElementState",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaElementState.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs.#ctor(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaFailedEventArgs.cs#L15C40-L10C62"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs.ErrorMessage",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaFailedEventArgs.cs#L15C31-L15C35"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaFailedEventArgs.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs.#ctor(System.TimeSpan)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaPositionChangedEventArgs.cs#L15C38-L10C69"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs.Position",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaPositionChangedEventArgs.cs#L15C29-L15C33"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaPositionChangedEventArgs.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.#ctor(CommunityToolkit.Maui.Core.Primitives.MediaElementState,CommunityToolkit.Maui.Core.Primitives.MediaElementState)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaStateChangedEventArgs.cs#L16C52-L11C108"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.PreviousState",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaStateChangedEventArgs.cs#L16C43-L16C47"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.NewState",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaStateChangedEventArgs.cs#L21C38-L21C42"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Primitives/MediaStateChangedEventArgs.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.CreatePlatformView",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L9C66-L9C101"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapAspect(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L13C77-L13C112"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPosition(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L14C79-L14C114"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldKeepScreenOn(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L15C89-L15C124"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldMute(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L16C81-L16C116"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldShowPlaybackControls(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L17C97-L17C132"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSource(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L18C77-L18C112"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSpeed(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L19C76-L19C111"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapStatusUpdated(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L20C111-L20C146"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapVolume(System.Object,CommunityToolkit.Maui.Views.MediaElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L21C77-L21C112"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPlayRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L22C111-L22C146"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPauseRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L23C112-L23C147"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSeekRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L24C111-L24C146"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapStopRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs#L25C111-L25C146"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.shared.cs#L52C33-L54C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.shared.cs#L63C5-L66C3"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.PropertyMapper",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.CommandMapper",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Handlers/MediaElementHandler.net.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.FileMediaSourceConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/FileMediaSourceConverter.cs#L17C3-L21C104"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.FileMediaSourceConverter.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/FileMediaSourceConverter.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Converters.FileMediaSourceConverter",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/FileMediaSourceConverter.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.MediaSourceConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/MediaSourceConverter.cs#L17C7-L17C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.MediaSourceConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/MediaSourceConverter.cs#L21C6-L21C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.MediaSourceConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/MediaSourceConverter.cs#L26C3-L48C42"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.MediaSourceConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/MediaSourceConverter.cs#L52C130-L58C75"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Converters.MediaSourceConverter.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/MediaSourceConverter.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Converters.MediaSourceConverter",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.MediaElement/Converters/MediaSourceConverter.cs"
+    }
+  ]
+}

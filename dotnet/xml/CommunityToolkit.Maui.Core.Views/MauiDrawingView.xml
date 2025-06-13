@@ -1,0 +1,406 @@
+<Type Name="MauiDrawingView" FullName="CommunityToolkit.Maui.Core.Views.MauiDrawingView">
+  <TypeSignature Language="C#" Value="public class MauiDrawingView : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MauiDrawingView extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+  <TypeSignature Language="VB.NET" Value="Public Class MauiDrawingView&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type MauiDrawingView = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            DrawingView Platform Control
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MauiDrawingView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CleanUp">
+      <MemberSignature Language="C#" Value="public void CleanUp ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CleanUp() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingView.CleanUp" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CleanUp ()" />
+      <MemberSignature Language="F#" Value="member this.CleanUp : unit -&gt; unit" Usage="mauiDrawingView.CleanUp " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Clean up resources
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="mauiDrawingView.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="mauiDrawingView.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAction">
+      <MemberSignature Language="C#" Value="public Action&lt;Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF&gt;? DrawAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Action`2&lt;class Microsoft.Maui.Graphics.ICanvas, valuetype Microsoft.Maui.Graphics.RectF&gt; DrawAction" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.DrawAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property DrawAction As Action(Of ICanvas, RectF)" />
+      <MemberSignature Language="F#" Value="member this.DrawAction : Action&lt;Microsoft.Maui.Graphics.ICanvas, Microsoft.Maui.Graphics.RectF&gt; with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.DrawAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Action&lt;Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Used to draw any shape on the canvas
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Drawing">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs&gt; Drawing;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs&gt; Drawing" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Drawing" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Drawing As EventHandler(Of MauiOnDrawingEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Drawing : EventHandler&lt;CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs&gt; " Usage="member this.Drawing : System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event raised when drawing 
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawingCancelled">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; DrawingCancelled;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; DrawingCancelled" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Core.Views.MauiDrawingView.DrawingCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DrawingCancelled As EventHandler(Of MauiDrawingStartedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DrawingCancelled : EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; " Usage="member this.DrawingCancelled : System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event raised when drawing cancelled 
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawingLineCompleted">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingLineCompletedEventArgs&gt; DrawingLineCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.MauiDrawingLineCompletedEventArgs&gt; DrawingLineCompleted" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Core.Views.MauiDrawingView.DrawingLineCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DrawingLineCompleted As EventHandler(Of MauiDrawingLineCompletedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DrawingLineCompleted : EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingLineCompletedEventArgs&gt; " Usage="member this.DrawingLineCompleted : System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingLineCompletedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingLineCompletedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event raised when drawing line completed 
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawingStarted">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; DrawingStarted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; DrawingStarted" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Core.Views.MauiDrawingView.DrawingStarted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DrawingStarted As EventHandler(Of MauiDrawingStartedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DrawingStarted : EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; " Usage="member this.DrawingStarted : System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.MauiDrawingStartedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event raised when drawing started 
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~MauiDrawingView ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="mauiDrawingView.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Initialize" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Initialize ()" />
+      <MemberSignature Language="F#" Value="static member Initialize : unit -&gt; unit" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.Initialize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialize resources
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMultiLineModeEnabled">
+      <MemberSignature Language="C#" Value="public bool IsMultiLineModeEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMultiLineModeEnabled" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.IsMultiLineModeEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMultiLineModeEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMultiLineModeEnabled : bool with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.IsMultiLineModeEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enable or disable multiline mode
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color LineColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color LineColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.LineColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineColor As Color" />
+      <MemberSignature Language="F#" Value="member this.LineColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.LineColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Line color
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ObservableCollection&lt;CommunityToolkit.Maui.Core.Views.MauiDrawingLine&gt; Lines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;class CommunityToolkit.Maui.Core.Views.MauiDrawingLine&gt; Lines" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Lines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lines As ObservableCollection(Of MauiDrawingLine)" />
+      <MemberSignature Language="F#" Value="member this.Lines : System.Collections.ObjectModel.ObservableCollection&lt;CommunityToolkit.Maui.Core.Views.MauiDrawingLine&gt;" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.Lines" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ObservableCollection&lt;CommunityToolkit.Maui.Core.Views.MauiDrawingLine&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Drawing Lines
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineWidth">
+      <MemberSignature Language="C#" Value="public float LineWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LineWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.LineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.LineWidth : single with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.LineWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Line width
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paint">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Paint Paint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Paint" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.Paint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Paint As Paint" />
+      <MemberSignature Language="F#" Value="member this.Paint : Microsoft.Maui.Graphics.Paint with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.Paint" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Paint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Drawable background
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldClearOnFinish">
+      <MemberSignature Language="C#" Value="public bool ShouldClearOnFinish { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldClearOnFinish" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingView.ShouldClearOnFinish" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldClearOnFinish As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldClearOnFinish : bool with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingView.ShouldClearOnFinish" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Clear drawing on finish
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

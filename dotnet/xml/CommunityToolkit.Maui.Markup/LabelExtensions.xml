@@ -1,0 +1,80 @@
+<Type Name="LabelExtensions" FullName="CommunityToolkit.Maui.Markup.LabelExtensions">
+  <TypeSignature Language="C#" Value="public static class LabelExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LabelExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.LabelExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module LabelExtensions" />
+  <TypeSignature Language="F#" Value="type LabelExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension Methods for Label
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FormattedText&lt;TLabel&gt;">
+      <MemberSignature Language="C#" Value="public static TLabel FormattedText&lt;TLabel&gt; (this TLabel label, scoped ReadOnlySpan&lt;Microsoft.Maui.Controls.Span&gt; spans) where TLabel : Microsoft.Maui.Controls.Label;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLabel FormattedText&lt;(class Microsoft.Maui.Controls.Label) TLabel&gt;(!!TLabel label, valuetype System.ReadOnlySpan`1&lt;class Microsoft.Maui.Controls.Span&gt; spans) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.LabelExtensions.FormattedText``1(``0,System.ReadOnlySpan{Microsoft.Maui.Controls.Span})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FormattedText(Of TLabel As Label) (label As TLabel, spans As ReadOnlySpan(Of Span)) As TLabel" />
+      <MemberSignature Language="F#" Value="static member FormattedText : 'Label * ReadOnlySpan&lt;Microsoft.Maui.Controls.Span&gt; -&gt; 'Label (requires 'Label :&gt; Microsoft.Maui.Controls.Label)" Usage="CommunityToolkit.Maui.Markup.LabelExtensions.FormattedText (label, spans)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLabel</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLabel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.Label</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="label" Type="TLabel" RefType="this" />
+        <Parameter Name="spans" Type="System.ReadOnlySpan&lt;Microsoft.Maui.Controls.Span&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TLabel" />
+        <param name="label" />
+        <param name="spans" />
+        <summary>
+            Sets Formatted Text
+            </summary>
+        <returns>Label with added FormattedText</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

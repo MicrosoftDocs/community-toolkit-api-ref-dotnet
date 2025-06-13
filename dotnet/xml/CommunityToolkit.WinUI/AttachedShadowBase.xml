@@ -1,0 +1,1345 @@
+<Type Name="AttachedShadowBase" FullName="CommunityToolkit.WinUI.AttachedShadowBase">
+  <TypeSignature Language="C#" Value="public abstract class AttachedShadowBase : CommunityToolkit.WinUI.IAttachedShadow, Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.IDependencyObjectStoreProvider, Uno.UI.DataBinding.IWeakReferenceProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AttachedShadowBase extends System.Object implements class CommunityToolkit.WinUI.IAttachedShadow, class Microsoft.UI.Xaml.DependencyObject, class Microsoft.UI.Xaml.IDependencyObjectStoreProvider, class Uno.UI.DataBinding.IWeakReferenceProvider" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.AttachedShadowBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AttachedShadowBase&#xA;Implements DependencyObject, IAttachedShadow, IDependencyObjectStoreProvider, IWeakReferenceProvider" />
+  <TypeSignature Language="F#" Value="type AttachedShadowBase = class&#xA;    interface DependencyObject&#xA;    interface IAttachedShadow&#xA;    interface IDependencyObjectStoreProvider&#xA;    interface IWeakReferenceProvider" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.WinUI.IAttachedShadow</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.UI.Xaml.DependencyObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.UI.Xaml.IDependencyObjectStoreProvider</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Uno.UI.DataBinding.IWeakReferenceProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.Data.Bindable]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.Data.Bindable&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The base class for attached shadows. (Not supported in Uno.)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AttachedShadowBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlurRadius">
+      <MemberSignature Language="C#" Value="public double BlurRadius { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 BlurRadius" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.BlurRadius" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlurRadius As Double" />
+      <MemberSignature Language="F#" Value="member this.BlurRadius : double with get, set" Usage="CommunityToolkit.WinUI.AttachedShadowBase.BlurRadius" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.WinUI.IAttachedShadow.BlurRadius</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="BlurRadiusProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty BlurRadiusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty BlurRadiusProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedShadowBase.BlurRadiusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BlurRadiusProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BlurRadiusProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedShadowBase.BlurRadiusProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for <see cref="P:CommunityToolkit.WinUI.AttachedShadowBase.BlurRadius" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearBindings">
+      <MemberSignature Language="C#" Value="public void ClearBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.ClearBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearBindings ()" />
+      <MemberSignature Language="F#" Value="member this.ClearBindings : unit -&gt; unit" Usage="attachedShadowBase.ClearBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Obsolete method kept for binary compatibility
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearValue">
+      <MemberSignature Language="C#" Value="public void ClearValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.ClearValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearValue (dp As DependencyProperty)" />
+      <MemberSignature Language="F#" Value="abstract member ClearValue : Microsoft.UI.Xaml.DependencyProperty -&gt; unit&#xA;override this.ClearValue : Microsoft.UI.Xaml.DependencyProperty -&gt; unit" Usage="attachedShadowBase.ClearValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.ClearValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public Windows.UI.Color Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.UI.Color Color" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As Color" />
+      <MemberSignature Language="F#" Value="member this.Color : Windows.UI.Color with get, set" Usage="CommunityToolkit.WinUI.AttachedShadowBase.Color" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.WinUI.IAttachedShadow.Color</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.UI.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedShadowBase.ColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColorProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColorProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedShadowBase.ColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for <see cref="P:CommunityToolkit.WinUI.AttachedShadowBase.Color" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataContext">
+      <MemberSignature Language="C#" Value="public object DataContext { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DataContext" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.DataContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataContext As Object" />
+      <MemberSignature Language="F#" Value="member this.DataContext : obj with get, set" Usage="CommunityToolkit.WinUI.AttachedShadowBase.DataContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataContextChanged">
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; DataContextChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Microsoft.UI.Xaml.FrameworkElement, class Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; DataContextChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.AttachedShadowBase.DataContextChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Event DataContextChanged As TypedEventHandler(Of FrameworkElement, DataContextChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DataContextChanged : Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement, Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; " Usage="member this.DataContextChanged : Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement, Microsoft.UI.Xaml.DataContextChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.DataContextChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataContextProperty">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.DependencyProperty DataContextProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.UI.Xaml.DependencyProperty DataContextProperty" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.DataContextProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DataContextProperty As DependencyProperty" />
+      <MemberSignature Language="F#" Value="static member DataContextProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedShadowBase.DataContextProperty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispatcher">
+      <MemberSignature Language="C#" Value="public Windows.UI.Core.CoreDispatcher Dispatcher { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Windows.UI.Core.CoreDispatcher Dispatcher" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.Dispatcher" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dispatcher As CoreDispatcher" />
+      <MemberSignature Language="F#" Value="member this.Dispatcher : Windows.UI.Core.CoreDispatcher" Usage="CommunityToolkit.WinUI.AttachedShadowBase.Dispatcher" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.UI.Xaml.DependencyObject.Dispatcher</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.UI.Core.CoreDispatcher</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DispatcherQueue">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.DispatcherQueue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DispatcherQueue As DispatcherQueue" />
+      <MemberSignature Language="F#" Value="member this.DispatcherQueue : Microsoft.UI.Dispatching.DispatcherQueue" Usage="CommunityToolkit.WinUI.AttachedShadowBase.DispatcherQueue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.UI.Xaml.DependencyObject.DispatcherQueue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Dispatching.DispatcherQueue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumerateElementContexts">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;CommunityToolkit.WinUI.AttachedShadowElementContext&gt; EnumerateElementContexts ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class CommunityToolkit.WinUI.AttachedShadowElementContext&gt; EnumerateElementContexts() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.EnumerateElementContexts" />
+      <MemberSignature Language="VB.NET" Value="Public Iterator Overridable NotOverridable Function EnumerateElementContexts () As IEnumerable(Of AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="abstract member EnumerateElementContexts : unit -&gt; seq&lt;CommunityToolkit.WinUI.AttachedShadowElementContext&gt;&#xA;override this.EnumerateElementContexts : unit -&gt; seq&lt;CommunityToolkit.WinUI.AttachedShadowElementContext&gt;" Usage="attachedShadowBase.EnumerateElementContexts " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.WinUI.IAttachedShadow.EnumerateElementContexts</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(CommunityToolkit.WinUI.AttachedShadowBase+&lt;EnumerateElementContexts&gt;d__28))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(CommunityToolkit.WinUI.AttachedShadowBase+&lt;EnumerateElementContexts&gt;d__28))&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;CommunityToolkit.WinUI.AttachedShadowElementContext&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimationBaseValue">
+      <MemberSignature Language="C#" Value="public object GetAnimationBaseValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetAnimationBaseValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.GetAnimationBaseValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAnimationBaseValue (dp As DependencyProperty) As Object" />
+      <MemberSignature Language="F#" Value="abstract member GetAnimationBaseValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj&#xA;override this.GetAnimationBaseValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj" Usage="attachedShadowBase.GetAnimationBaseValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.GetAnimationBaseValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBindingExpression">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Data.BindingExpression GetBindingExpression (Microsoft.UI.Xaml.DependencyProperty dependencyProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.UI.Xaml.Data.BindingExpression GetBindingExpression(class Microsoft.UI.Xaml.DependencyProperty dependencyProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.GetBindingExpression(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBindingExpression (dependencyProperty As DependencyProperty) As BindingExpression" />
+      <MemberSignature Language="F#" Value="member this.GetBindingExpression : Microsoft.UI.Xaml.DependencyProperty -&gt; Microsoft.UI.Xaml.Data.BindingExpression" Usage="attachedShadowBase.GetBindingExpression dependencyProperty" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Data.BindingExpression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyProperty" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyProperty">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetElementContext">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.AttachedShadowElementContext? GetElementContext (Microsoft.UI.Xaml.FrameworkElement element);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class CommunityToolkit.WinUI.AttachedShadowElementContext GetElementContext(class Microsoft.UI.Xaml.FrameworkElement element) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.GetElementContext(Microsoft.UI.Xaml.FrameworkElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetElementContext (element As FrameworkElement) As AttachedShadowElementContext" />
+      <MemberSignature Language="F#" Value="abstract member GetElementContext : Microsoft.UI.Xaml.FrameworkElement -&gt; CommunityToolkit.WinUI.AttachedShadowElementContext&#xA;override this.GetElementContext : Microsoft.UI.Xaml.FrameworkElement -&gt; CommunityToolkit.WinUI.AttachedShadowElementContext" Usage="attachedShadowBase.GetElementContext element" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.WinUI.IAttachedShadow.GetElementContext(Microsoft.UI.Xaml.FrameworkElement)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.AttachedShadowElementContext</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="Microsoft.UI.Xaml.FrameworkElement" />
+      </Parameters>
+      <Docs>
+        <param name="element">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="GetShadowClip">
+      <MemberSignature Language="C#" Value="protected virtual Microsoft.UI.Composition.CompositionClip? GetShadowClip (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.UI.Composition.CompositionClip GetShadowClip(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.GetShadowClip(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetShadowClip (context As AttachedShadowElementContext) As CompositionClip" />
+      <MemberSignature Language="F#" Value="abstract member GetShadowClip : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; Microsoft.UI.Composition.CompositionClip&#xA;override this.GetShadowClip : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; Microsoft.UI.Composition.CompositionClip" Usage="attachedShadowBase.GetShadowClip context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.CompositionClip</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>
+            Get the <see cref="T:Microsoft.UI.Composition.CompositionClip" /> for the shadow's <see cref="T:Microsoft.UI.Composition.SpriteVisual" /></summary>
+        <returns>A <see cref="T:Microsoft.UI.Composition.CompositionClip" /> for the extent of the shadowed area.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetShadowMask">
+      <MemberSignature Language="C#" Value="protected virtual Microsoft.UI.Composition.CompositionBrush? GetShadowMask (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.UI.Composition.CompositionBrush GetShadowMask(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.GetShadowMask(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetShadowMask (context As AttachedShadowElementContext) As CompositionBrush" />
+      <MemberSignature Language="F#" Value="abstract member GetShadowMask : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; Microsoft.UI.Composition.CompositionBrush&#xA;override this.GetShadowMask : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; Microsoft.UI.Composition.CompositionBrush" Usage="attachedShadowBase.GetShadowMask context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.CompositionBrush</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>
+            Get a <see cref="T:Microsoft.UI.Composition.CompositionBrush" /> in the shape of the element that is casting the shadow.
+            </summary>
+        <returns>A <see cref="T:Microsoft.UI.Composition.CompositionBrush" /> representing the shape of an element.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValue">
+      <MemberSignature Language="C#" Value="public object GetValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.GetValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValue (dp As DependencyProperty) As Object" />
+      <MemberSignature Language="F#" Value="abstract member GetValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj&#xA;override this.GetValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj" Usage="attachedShadowBase.GetValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.GetValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsStoreInitialized">
+      <MemberSignature Language="C#" Value="public bool IsStoreInitialized { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsStoreInitialized" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.IsStoreInitialized" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsStoreInitialized As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsStoreInitialized : bool" Usage="CommunityToolkit.WinUI.AttachedShadowBase.IsStoreInitialized" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store">
+      <MemberSignature Language="C#" Value="Microsoft.UI.Xaml.DependencyObjectStore Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DependencyObjectStore Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.Microsoft#UI#Xaml#IDependencyObjectStoreProvider#Store" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Store As DependencyObjectStore Implements IDependencyObjectStoreProvider.Store" />
+      <MemberSignature Language="F#" Value="member this.Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store : Microsoft.UI.Xaml.DependencyObjectStore" Usage="Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.UI.Xaml.IDependencyObjectStoreProvider.Store</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyObjectStore</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offset">
+      <MemberSignature Language="C#" Value="public string Offset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Offset" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.Offset" />
+      <MemberSignature Language="VB.NET" Value="Public Property Offset As String" />
+      <MemberSignature Language="F#" Value="member this.Offset : string with get, set" Usage="CommunityToolkit.WinUI.AttachedShadowBase.Offset" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.WinUI.IAttachedShadow.Offset</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OffsetProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty OffsetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty OffsetProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedShadowBase.OffsetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OffsetProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OffsetProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedShadowBase.OffsetProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for <see cref="P:CommunityToolkit.WinUI.AttachedShadowBase.Opacity" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDataContextChanged">
+      <MemberSignature Language="C#" Value="protected internal virtual void OnDataContextChanged (Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnDataContextChanged(class Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnDataContextChanged(Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnDataContextChanged (e As DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnDataContextChanged : Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit&#xA;override this.OnDataContextChanged : Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit" Usage="attachedShadowBase.OnDataContextChanged e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDependencyPropertyChanged">
+      <MemberSignature Language="C#" Value="protected static void OnDependencyPropertyChanged (object sender, Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs args);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig void OnDependencyPropertyChanged(object sender, class Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnDependencyPropertyChanged(System.Object,Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Sub OnDependencyPropertyChanged (sender As Object, args As DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="static member OnDependencyPropertyChanged : obj * Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit" Usage="CommunityToolkit.WinUI.AttachedShadowBase.OnDependencyPropertyChanged (sender, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="args" Type="Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>
+            Use this method as the <see cref="T:Microsoft.UI.Xaml.PropertyChangedCallback" /> for <see cref="T:Microsoft.UI.Xaml.DependencyProperty">DependencyProperties</see> in derived classes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnElementContextInitialized">
+      <MemberSignature Language="C#" Value="protected internal virtual void OnElementContextInitialized (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnElementContextInitialized(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnElementContextInitialized(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnElementContextInitialized (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="abstract member OnElementContextInitialized : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit&#xA;override this.OnElementContextInitialized : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedShadowBase.OnElementContextInitialized context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">The <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> that is being initialized.</param>
+        <summary>
+            Override to handle when the <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> for an element is being initialized.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnElementContextUninitialized">
+      <MemberSignature Language="C#" Value="protected internal virtual void OnElementContextUninitialized (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnElementContextUninitialized(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnElementContextUninitialized(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnElementContextUninitialized (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="abstract member OnElementContextUninitialized : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit&#xA;override this.OnElementContextUninitialized : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedShadowBase.OnElementContextUninitialized context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">The <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> that is being uninitialized.</param>
+        <summary>
+            Override to handle when the <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> for an element is being uninitialized.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnPropertyChanged (CommunityToolkit.WinUI.AttachedShadowElementContext context, Microsoft.UI.Xaml.DependencyProperty property, object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnPropertyChanged(class CommunityToolkit.WinUI.AttachedShadowElementContext context, class Microsoft.UI.Xaml.DependencyProperty property, object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnPropertyChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Microsoft.UI.Xaml.DependencyProperty,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnPropertyChanged (context As AttachedShadowElementContext, property As DependencyProperty, oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnPropertyChanged : CommunityToolkit.WinUI.AttachedShadowElementContext * Microsoft.UI.Xaml.DependencyProperty * obj * obj -&gt; unit&#xA;override this.OnPropertyChanged : CommunityToolkit.WinUI.AttachedShadowElementContext * Microsoft.UI.Xaml.DependencyProperty * obj * obj -&gt; unit" Usage="attachedShadowBase.OnPropertyChanged (context, property, oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+        <Parameter Name="property" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            This method is called when a DependencyProperty is changed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSizeChanged">
+      <MemberSignature Language="C#" Value="protected internal virtual void OnSizeChanged (CommunityToolkit.WinUI.AttachedShadowElementContext context, Windows.Foundation.Size newSize, Windows.Foundation.Size previousSize);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnSizeChanged(class CommunityToolkit.WinUI.AttachedShadowElementContext context, valuetype Windows.Foundation.Size newSize, valuetype Windows.Foundation.Size previousSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnSizeChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Windows.Foundation.Size,Windows.Foundation.Size)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnSizeChanged (context As AttachedShadowElementContext, newSize As Size, previousSize As Size)" />
+      <MemberSignature Language="F#" Value="abstract member OnSizeChanged : CommunityToolkit.WinUI.AttachedShadowElementContext * Windows.Foundation.Size * Windows.Foundation.Size -&gt; unit&#xA;override this.OnSizeChanged : CommunityToolkit.WinUI.AttachedShadowElementContext * Windows.Foundation.Size * Windows.Foundation.Size -&gt; unit" Usage="attachedShadowBase.OnSizeChanged (context, newSize, previousSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+        <Parameter Name="newSize" Type="Windows.Foundation.Size" />
+        <Parameter Name="previousSize" Type="Windows.Foundation.Size" />
+      </Parameters>
+      <Docs>
+        <param name="context">The <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> for the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> firing its SizeChanged event</param>
+        <param name="newSize">The new size of the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /></param>
+        <param name="previousSize">The previous size of the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            This method is called when the element size changes, and <see cref="P:CommunityToolkit.WinUI.AttachedShadowBase.SupportsOnSizeChangedEvent" /> = <see cref="T:System.Boolean">true</see>.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnTemplatedParentChanged">
+      <MemberSignature Language="C#" Value="protected internal virtual void OnTemplatedParentChanged (Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnTemplatedParentChanged(class Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.OnTemplatedParentChanged(Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnTemplatedParentChanged (e As DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnTemplatedParentChanged : Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit&#xA;override this.OnTemplatedParentChanged : Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit" Usage="attachedShadowBase.OnTemplatedParentChanged e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Opacity">
+      <MemberSignature Language="C#" Value="public double Opacity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Opacity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.Opacity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Opacity As Double" />
+      <MemberSignature Language="F#" Value="member this.Opacity : double with get, set" Usage="CommunityToolkit.WinUI.AttachedShadowBase.Opacity" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.WinUI.IAttachedShadow.Opacity</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OpacityProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty OpacityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty OpacityProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedShadowBase.OpacityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OpacityProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OpacityProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedShadowBase.OpacityProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for <see cref="P:CommunityToolkit.WinUI.AttachedShadowBase.Opacity" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadLocalValue">
+      <MemberSignature Language="C#" Value="public object ReadLocalValue (Microsoft.UI.Xaml.DependencyProperty dp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ReadLocalValue(class Microsoft.UI.Xaml.DependencyProperty dp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.ReadLocalValue(Microsoft.UI.Xaml.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReadLocalValue (dp As DependencyProperty) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ReadLocalValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj&#xA;override this.ReadLocalValue : Microsoft.UI.Xaml.DependencyProperty -&gt; obj" Usage="attachedShadowBase.ReadLocalValue dp" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.ReadLocalValue(Microsoft.UI.Xaml.DependencyProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterPropertyChangedCallback">
+      <MemberSignature Language="C#" Value="public long RegisterPropertyChangedCallback (Microsoft.UI.Xaml.DependencyProperty dp, Microsoft.UI.Xaml.DependencyPropertyChangedCallback callback);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int64 RegisterPropertyChangedCallback(class Microsoft.UI.Xaml.DependencyProperty dp, class Microsoft.UI.Xaml.DependencyPropertyChangedCallback callback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.RegisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.DependencyPropertyChangedCallback)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RegisterPropertyChangedCallback (dp As DependencyProperty, callback As DependencyPropertyChangedCallback) As Long" />
+      <MemberSignature Language="F#" Value="abstract member RegisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * Microsoft.UI.Xaml.DependencyPropertyChangedCallback -&gt; int64&#xA;override this.RegisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * Microsoft.UI.Xaml.DependencyPropertyChangedCallback -&gt; int64" Usage="attachedShadowBase.RegisterPropertyChangedCallback (dp, callback)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.DependencyPropertyChangedCallback)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="callback" Type="Microsoft.UI.Xaml.DependencyPropertyChangedCallback" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <param name="callback">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreBindings">
+      <MemberSignature Language="C#" Value="public void RestoreBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RestoreBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.RestoreBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RestoreBindings ()" />
+      <MemberSignature Language="F#" Value="member this.RestoreBindings : unit -&gt; unit" Usage="attachedShadowBase.RestoreBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Obsolete method kept for binary compatibility
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResumeBindings">
+      <MemberSignature Language="C#" Value="public void ResumeBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ResumeBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.ResumeBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResumeBindings ()" />
+      <MemberSignature Language="F#" Value="member this.ResumeBindings : unit -&gt; unit" Usage="attachedShadowBase.ResumeBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBinding">
+      <MemberSignature Language="C#" Value="public void SetBinding (Microsoft.UI.Xaml.DependencyProperty dependencyProperty, Microsoft.UI.Xaml.Data.BindingBase binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(class Microsoft.UI.Xaml.DependencyProperty dependencyProperty, class Microsoft.UI.Xaml.Data.BindingBase binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SetBinding(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.Data.BindingBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (dependencyProperty As DependencyProperty, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : Microsoft.UI.Xaml.DependencyProperty * Microsoft.UI.Xaml.Data.BindingBase -&gt; unit" Usage="attachedShadowBase.SetBinding (dependencyProperty, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyProperty" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="binding" Type="Microsoft.UI.Xaml.Data.BindingBase" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyProperty">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBinding">
+      <MemberSignature Language="C#" Value="public void SetBinding (string dependencyProperty, Microsoft.UI.Xaml.Data.BindingBase binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(string dependencyProperty, class Microsoft.UI.Xaml.Data.BindingBase binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SetBinding(System.String,Microsoft.UI.Xaml.Data.BindingBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (dependencyProperty As String, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : string * Microsoft.UI.Xaml.Data.BindingBase -&gt; unit" Usage="attachedShadowBase.SetBinding (dependencyProperty, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyProperty" Type="System.String" />
+        <Parameter Name="binding" Type="Microsoft.UI.Xaml.Data.BindingBase" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyProperty">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBinding">
+      <MemberSignature Language="C#" Value="public void SetBinding (object target, string dependencyProperty, Microsoft.UI.Xaml.Data.BindingBase binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(object target, string dependencyProperty, class Microsoft.UI.Xaml.Data.BindingBase binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SetBinding(System.Object,System.String,Microsoft.UI.Xaml.Data.BindingBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (target As Object, dependencyProperty As String, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : obj * string * Microsoft.UI.Xaml.Data.BindingBase -&gt; unit" Usage="attachedShadowBase.SetBinding (target, dependencyProperty, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="System.Object" />
+        <Parameter Name="dependencyProperty" Type="System.String" />
+        <Parameter Name="binding" Type="Microsoft.UI.Xaml.Data.BindingBase" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="dependencyProperty">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBindingValue">
+      <MemberSignature Language="C#" Value="public void SetBindingValue (object value, string propertyName = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBindingValue(object value, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SetBindingValue(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetBindingValue (value As Object, Optional propertyName As String = Nothing)" />
+      <MemberSignature Language="F#" Value="member this.SetBindingValue : obj * string -&gt; unit" Usage="attachedShadowBase.SetBindingValue (value, propertyName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="propertyName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetElementChildVisual">
+      <MemberSignature Language="C#" Value="protected virtual void SetElementChildVisual (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void SetElementChildVisual(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SetElementChildVisual(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub SetElementChildVisual (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="abstract member SetElementChildVisual : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit&#xA;override this.SetElementChildVisual : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedShadowBase.SetElementChildVisual context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">The <see cref="T:CommunityToolkit.WinUI.AttachedShadowElementContext" /> this operation will be performed on.</param>
+        <summary>
+            Sets <see cref="P:CommunityToolkit.WinUI.AttachedShadowElementContext.SpriteVisual" /> as a child visual on <see cref="P:CommunityToolkit.WinUI.AttachedShadowElementContext.Element" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetValue">
+      <MemberSignature Language="C#" Value="public void SetValue (Microsoft.UI.Xaml.DependencyProperty dp, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetValue(class Microsoft.UI.Xaml.DependencyProperty dp, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SetValue(Microsoft.UI.Xaml.DependencyProperty,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetValue (dp As DependencyProperty, value As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SetValue : Microsoft.UI.Xaml.DependencyProperty * obj -&gt; unit&#xA;override this.SetValue : Microsoft.UI.Xaml.DependencyProperty * obj -&gt; unit" Usage="attachedShadowBase.SetValue (dp, value)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.SetValue(Microsoft.UI.Xaml.DependencyProperty,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsOnSizeChangedEvent">
+      <MemberSignature Language="C#" Value="protected internal abstract bool SupportsOnSizeChangedEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsOnSizeChangedEvent" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.SupportsOnSizeChangedEvent" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride ReadOnly Property SupportsOnSizeChangedEvent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsOnSizeChangedEvent : bool" Usage="CommunityToolkit.WinUI.AttachedShadowBase.SupportsOnSizeChangedEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether or not OnSizeChanged should be called when <see cref="E:Microsoft.UI.Xaml.FrameworkElement.SizeChanged" /> is fired.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuspendBindings">
+      <MemberSignature Language="C#" Value="public void SuspendBindings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SuspendBindings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.SuspendBindings" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SuspendBindings ()" />
+      <MemberSignature Language="F#" Value="member this.SuspendBindings : unit -&gt; unit" Usage="attachedShadowBase.SuspendBindings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplatedParent">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.DependencyObject TemplatedParent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DependencyObject TemplatedParent" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.TemplatedParent" />
+      <MemberSignature Language="VB.NET" Value="Public Property TemplatedParent As DependencyObject" />
+      <MemberSignature Language="F#" Value="member this.TemplatedParent : Microsoft.UI.Xaml.DependencyObject with get, set" Usage="CommunityToolkit.WinUI.AttachedShadowBase.TemplatedParent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplatedParentProperty">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.DependencyProperty TemplatedParentProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.UI.Xaml.DependencyProperty TemplatedParentProperty" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.TemplatedParentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TemplatedParentProperty As DependencyProperty" />
+      <MemberSignature Language="F#" Value="static member TemplatedParentProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedShadowBase.TemplatedParentProperty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="attachedShadowBase.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference">
+      <MemberSignature Language="C#" Value="Uno.UI.DataBinding.ManagedWeakReference Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Uno.UI.DataBinding.ManagedWeakReference Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedShadowBase.Uno#UI#DataBinding#IWeakReferenceProvider#WeakReference" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property WeakReference As ManagedWeakReference Implements IWeakReferenceProvider.WeakReference" />
+      <MemberSignature Language="F#" Value="member this.Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference : Uno.UI.DataBinding.ManagedWeakReference" Usage="Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Uno.UI.DataBinding.IWeakReferenceProvider.WeakReference</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Uno.UI.DataBinding.ManagedWeakReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnregisterPropertyChangedCallback">
+      <MemberSignature Language="C#" Value="public void UnregisterPropertyChangedCallback (Microsoft.UI.Xaml.DependencyProperty dp, long token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnregisterPropertyChangedCallback(class Microsoft.UI.Xaml.DependencyProperty dp, int64 token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.UnregisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnregisterPropertyChangedCallback (dp As DependencyProperty, token As Long)" />
+      <MemberSignature Language="F#" Value="abstract member UnregisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * int64 -&gt; unit&#xA;override this.UnregisterPropertyChangedCallback : Microsoft.UI.Xaml.DependencyProperty * int64 -&gt; unit" Usage="attachedShadowBase.UnregisterPropertyChangedCallback (dp, token)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,System.Int64)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dp" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="token" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="dp">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateShadowClip">
+      <MemberSignature Language="C#" Value="protected void UpdateShadowClip (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateShadowClip(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.UpdateShadowClip(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub UpdateShadowClip (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="member this.UpdateShadowClip : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedShadowBase.UpdateShadowClip context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>
+            Update the clipping on the shadow's <see cref="T:Microsoft.UI.Composition.SpriteVisual" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateShadowMask">
+      <MemberSignature Language="C#" Value="protected void UpdateShadowMask (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateShadowMask(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedShadowBase.UpdateShadowMask(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub UpdateShadowMask (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="member this.UpdateShadowMask : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedShadowBase.UpdateShadowMask context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>
+            Update the mask that gives the shadow its shape.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

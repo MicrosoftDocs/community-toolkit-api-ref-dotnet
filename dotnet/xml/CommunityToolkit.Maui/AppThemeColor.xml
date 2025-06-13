@@ -1,0 +1,48 @@
+<Type Name="AppThemeColor" FullName="CommunityToolkit.Maui.AppThemeColor">
+  <TypeSignature Language="C#" Value="public sealed class AppThemeColor : CommunityToolkit.Maui.AppThemeObject&lt;Microsoft.Maui.Graphics.Color&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AppThemeColor extends CommunityToolkit.Maui.AppThemeObject`1&lt;class Microsoft.Maui.Graphics.Color&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.AppThemeColor" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AppThemeColor&#xA;Inherits AppThemeObject(Of Color)" />
+  <TypeSignature Language="F#" Value="type AppThemeColor = class&#xA;    inherit AppThemeObject&lt;Color&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.AppThemeObject&lt;Microsoft.Maui.Graphics.Color&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Maui.Graphics.Color</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a color that is aware of the operating system theme.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppThemeColor ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.AppThemeColor.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

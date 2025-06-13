@@ -1,0 +1,97 @@
+<Type Name="MediaStateChangedEventArgs" FullName="CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs">
+  <TypeSignature Language="C#" Value="public sealed class MediaStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MediaStateChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MediaStateChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type MediaStateChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>99.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <param name="previousState">The previous state.</param>
+    <param name="newState">The new state.</param>
+    <summary>
+            Represents event data for when media state has changed.
+            </summary>
+    <remarks>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs" /> class.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaStateChangedEventArgs (CommunityToolkit.Maui.Core.Primitives.MediaElementState previousState, CommunityToolkit.Maui.Core.Primitives.MediaElementState newState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState previousState, valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState newState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.#ctor(CommunityToolkit.Maui.Core.Primitives.MediaElementState,CommunityToolkit.Maui.Core.Primitives.MediaElementState)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (previousState As MediaElementState, newState As MediaElementState)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs : CommunityToolkit.Maui.Core.Primitives.MediaElementState * CommunityToolkit.Maui.Core.Primitives.MediaElementState -&gt; CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs" Usage="new CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs (previousState, newState)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="previousState" Type="CommunityToolkit.Maui.Core.Primitives.MediaElementState" />
+        <Parameter Name="newState" Type="CommunityToolkit.Maui.Core.Primitives.MediaElementState" />
+      </Parameters>
+      <Docs>
+        <param name="previousState">The previous state.</param>
+        <param name="newState">The new state.</param>
+        <summary>
+            Represents event data for when media state has changed.
+            </summary>
+        <remarks>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs" /> class.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewState">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.Primitives.MediaElementState NewState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState NewState" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.NewState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As MediaElementState" />
+      <MemberSignature Language="F#" Value="member this.NewState : CommunityToolkit.Maui.Core.Primitives.MediaElementState" Usage="CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.NewState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the new state that the <see cref="T:CommunityToolkit.Maui.Core.IMediaElement" /> instance is transitioning to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousState">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.Primitives.MediaElementState PreviousState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState PreviousState" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.PreviousState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousState As MediaElementState" />
+      <MemberSignature Language="F#" Value="member this.PreviousState : CommunityToolkit.Maui.Core.Primitives.MediaElementState" Usage="CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.PreviousState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the previous state that the <see cref="T:CommunityToolkit.Maui.Core.IMediaElement" /> instance is transitioning from.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

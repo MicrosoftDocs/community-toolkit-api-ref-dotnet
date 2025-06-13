@@ -1,0 +1,66 @@
+<Type Name="Options" FullName="CommunityToolkit.Maui.Core.Options">
+  <TypeSignature Language="C#" Value="public class Options" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Options extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Options" />
+  <TypeSignature Language="VB.NET" Value="Public Class Options" />
+  <TypeSignature Language="F#" Value="type Options = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            .NET MAUI Community Toolkit Core Options.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Options ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Options.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShouldUseStatusBarBehaviorOnAndroidModalPage">
+      <MemberSignature Language="C#" Value="public void SetShouldUseStatusBarBehaviorOnAndroidModalPage (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetShouldUseStatusBarBehaviorOnAndroidModalPage(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Options.SetShouldUseStatusBarBehaviorOnAndroidModalPage(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetShouldUseStatusBarBehaviorOnAndroidModalPage (value As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SetShouldUseStatusBarBehaviorOnAndroidModalPage : bool -&gt; unit" Usage="options.SetShouldUseStatusBarBehaviorOnAndroidModalPage value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">true if yes or false if you want to implement your own.</param>
+        <summary>
+            Enables the use of the DialogFragment Lifecycle service for Android.
+            </summary>
+        <remarks>
+            Default value is fasle.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

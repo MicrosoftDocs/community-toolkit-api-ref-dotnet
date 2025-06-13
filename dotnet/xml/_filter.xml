@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <filter>
     <apiFilter apply="true">
+        <namespaceFilter name="CommunityToolkit.WinUI.AnimationsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.BehaviorsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.CollectionsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.ColorPickerRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.HeaderedControlsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.LayoutTransformControlRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.MetadataControlRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.PrimitivesRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.RangeSelectorRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.SegmentedRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.SettingsControlsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.SizersRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.TabbedCommandBarRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Controls.TokenizingTextBoxRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.ConvertersRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.DeveloperToolsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.ExtensionsRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.HelpersRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.TriggersRns">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Behaviors.Internal">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.WinUI.Notifications.Internal">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="Microsoft.Toolkit.Uwp.Notifications.Internal">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="CommunityToolkit.Mvvm.ComponentModel.__Internals">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
+        <namespaceFilter name="Microsoft.Toolkit.Mvvm.ComponentModel.__Internals">
+            <typeFilter name="*" expose="false" />
+        </namespaceFilter>
         <namespaceFilter name="*_XamlTypeInfo">
             <typeFilter name="*" expose="false" />
         </namespaceFilter>

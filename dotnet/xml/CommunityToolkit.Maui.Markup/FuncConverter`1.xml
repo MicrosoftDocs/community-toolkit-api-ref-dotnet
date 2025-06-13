@@ -1,0 +1,80 @@
+<Type Name="FuncConverter&lt;TSource&gt;" FullName="CommunityToolkit.Maui.Markup.FuncConverter&lt;TSource&gt;">
+  <TypeSignature Language="C#" Value="public class FuncConverter&lt;TSource&gt; : CommunityToolkit.Maui.Markup.FuncConverter&lt;TSource,object,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FuncConverter`1&lt;TSource&gt; extends CommunityToolkit.Maui.Markup.FuncConverter`3&lt;!TSource, object, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.FuncConverter`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class FuncConverter(Of TSource)&#xA;Inherits FuncConverter(Of TSource, Object, Object)" />
+  <TypeSignature Language="F#" Value="type FuncConverter&lt;'Source&gt; = class&#xA;    inherit FuncConverter&lt;'Source, obj, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TSource" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Markup.FuncConverter&lt;TSource,System.Object,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TSource">TSource</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TDest">System.Object</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TSource">The type of the value coming from the source of the <see cref="T:Microsoft.Maui.Controls.Binding" />.</typeparam>
+    <summary>
+            An <see cref="T:Microsoft.Maui.Controls.IValueConverter" /> implementation that provides the ability to define type safe <c>Func</c> implementations that will be used in the conversion process.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FuncConverter (Func&lt;TSource?,object&gt;? convert = default, Func&lt;object?,TSource&gt;? convertBack = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;!TSource, object&gt; convert, class System.Func`2&lt;object, !TSource&gt; convertBack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncConverter`1.#ctor(System.Func{`0,System.Object},System.Func{System.Object,`0})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional convert As Func(Of TSource, Object) = Nothing, Optional convertBack As Func(Of Object, TSource) = Nothing)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.FuncConverter&lt;'Source&gt; : Func&lt;'Source, obj&gt; * Func&lt;obj, 'Source&gt; -&gt; CommunityToolkit.Maui.Markup.FuncConverter&lt;'Source&gt;" Usage="new CommunityToolkit.Maui.Markup.FuncConverter&lt;'Source&gt; (convert, convertBack)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="convert" Type="System.Func&lt;TSource,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;System.Object,TSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="convert">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <param name="convertBack">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <summary>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Markup.FuncConverter`1" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

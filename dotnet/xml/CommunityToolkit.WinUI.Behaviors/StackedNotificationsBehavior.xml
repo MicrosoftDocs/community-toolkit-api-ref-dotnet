@@ -1,0 +1,254 @@
+<Type Name="StackedNotificationsBehavior" FullName="CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior">
+  <TypeSignature Language="C#" Value="public class StackedNotificationsBehavior : CommunityToolkit.WinUI.Behaviors.BehaviorBase&lt;Microsoft.UI.Xaml.Controls.InfoBar&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StackedNotificationsBehavior extends CommunityToolkit.WinUI.Behaviors.BehaviorBase`1&lt;class Microsoft.UI.Xaml.Controls.InfoBar&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class StackedNotificationsBehavior&#xA;Inherits BehaviorBase(Of InfoBar)" />
+  <TypeSignature Language="F#" Value="type StackedNotificationsBehavior = class&#xA;    inherit BehaviorBase&lt;InfoBar&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.Behaviors.BehaviorBase&lt;Microsoft.UI.Xaml.Controls.InfoBar&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.UI.Xaml.Controls.InfoBar</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A behavior to add the stacked notification support to <see cref="T:Microsoft.UI.Xaml.Controls.InfoBar" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StackedNotificationsBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="member this.Clear : unit -&gt; unit" Usage="stackedNotificationsBehavior.Clear " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Clears all notifications and closes any open notification.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="protected override bool Initialize ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool Initialize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Initialize" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Initialize () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Initialize : unit -&gt; bool" Usage="stackedNotificationsBehavior.Initialize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (CommunityToolkit.WinUI.Behaviors.Notification notification);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Remove(class CommunityToolkit.WinUI.Behaviors.Notification notification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Remove(CommunityToolkit.WinUI.Behaviors.Notification)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (notification As Notification)" />
+      <MemberSignature Language="F#" Value="member this.Remove : CommunityToolkit.WinUI.Behaviors.Notification -&gt; unit" Usage="stackedNotificationsBehavior.Remove notification" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notification" Type="CommunityToolkit.WinUI.Behaviors.Notification" />
+      </Parameters>
+      <Docs>
+        <param name="notification">The notification to remove.</param>
+        <summary>
+            Remove the <paramref name="notification" />.
+            If the notification is displayed, it will be closed.
+            If the notification is still in the queue, it will be removed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Behaviors.Notification Show (CommunityToolkit.WinUI.Behaviors.Notification notification);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.WinUI.Behaviors.Notification Show(class CommunityToolkit.WinUI.Behaviors.Notification notification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Show(CommunityToolkit.WinUI.Behaviors.Notification)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show (notification As Notification) As Notification" />
+      <MemberSignature Language="F#" Value="member this.Show : CommunityToolkit.WinUI.Behaviors.Notification -&gt; CommunityToolkit.WinUI.Behaviors.Notification" Usage="stackedNotificationsBehavior.Show notification" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Behaviors.Notification</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notification" Type="CommunityToolkit.WinUI.Behaviors.Notification" />
+      </Parameters>
+      <Docs>
+        <param name="notification">The notification to display.</param>
+        <summary>
+            Show <paramref name="notification" />.
+            </summary>
+        <returns>The <see cref="T:CommunityToolkit.WinUI.Behaviors.Notification" /> added to the queue.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Behaviors.Notification Show (string message, int duration = 0, string? title = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.WinUI.Behaviors.Notification Show(string message, int32 duration, string title) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Show(System.String,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show (message As String, Optional duration As Integer = 0, Optional title As String = Nothing) As Notification" />
+      <MemberSignature Language="F#" Value="member this.Show : string * int * string -&gt; CommunityToolkit.WinUI.Behaviors.Notification" Usage="stackedNotificationsBehavior.Show (message, duration, title)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Behaviors.Notification</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="duration" Type="System.Int32" />
+        <Parameter Name="title" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Message" /> string to display as the notification.</param>
+        <param name="duration">Optional, displayed duration of the notification in ms (less or equal 0 means infinite duration).</param>
+        <param name="title">Optional, <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Title" /> for the notification.</param>
+        <summary>
+            Show notification using text as the <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Message" /> of the notification.
+            </summary>
+        <returns>The constructed <see cref="T:CommunityToolkit.WinUI.Behaviors.Notification" /> added to the queue.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Behaviors.Notification Show (object content, int duration = 0, string? title = default, string? message = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.WinUI.Behaviors.Notification Show(object content, int32 duration, string title, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Show(System.Object,System.Int32,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show (content As Object, Optional duration As Integer = 0, Optional title As String = Nothing, Optional message As String = Nothing) As Notification" />
+      <MemberSignature Language="F#" Value="member this.Show : obj * int * string * string -&gt; CommunityToolkit.WinUI.Behaviors.Notification" Usage="stackedNotificationsBehavior.Show (content, duration, title, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Behaviors.Notification</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.Object" />
+        <Parameter Name="duration" Type="System.Int32" />
+        <Parameter Name="title" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="message" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">Content to display as the notification.</param>
+        <param name="duration">Optional, displayed duration of the notification in ms (less or equal 0 means infinite duration).</param>
+        <param name="title">Optional, <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Title" /> for the notification.</param>
+        <param name="message">Optional, <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Message" /> string to display as the notification.</param>
+        <summary>
+            Show notification using object or UIElement as the <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Content" /> of the notification. Note, it is
+            generally best to also specific a message and/or title.
+            </summary>
+        <returns>The constructed <see cref="T:CommunityToolkit.WinUI.Behaviors.Notification" /> added to the queue.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uninitialize">
+      <MemberSignature Language="C#" Value="protected override bool Uninitialize ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool Uninitialize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior.Uninitialize" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Uninitialize () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Uninitialize : unit -&gt; bool" Usage="stackedNotificationsBehavior.Uninitialize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

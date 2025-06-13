@@ -1,0 +1,363 @@
+<Type Name="PopupHandler" FullName="CommunityToolkit.Maui.Core.Handlers.PopupHandler">
+  <TypeSignature Language="C#" Value="public class PopupHandler : Microsoft.Maui.Handlers.ElementHandler&lt;CommunityToolkit.Maui.Core.IPopup,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PopupHandler extends Microsoft.Maui.Handlers.ElementHandler`2&lt;class CommunityToolkit.Maui.Core.IPopup, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Class PopupHandler&#xA;Inherits ElementHandler(Of IPopup, Object)" />
+  <TypeSignature Language="F#" Value="type PopupHandler = class&#xA;    inherit ElementHandler&lt;IPopup, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Handlers.ElementHandler&lt;CommunityToolkit.Maui.Core.IPopup,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">CommunityToolkit.Maui.Core.IPopup</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Obsolete("PopupHandler is no longer used by CommunityToolkit.Maui and will be removed in .NET 10")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("PopupHandler is no longer used by CommunityToolkit.Maui and will be removed in .NET 10")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Handler Popup control
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PopupHandler ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Default Constructor for <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PopupHandler (Microsoft.Maui.IPropertyMapper? mapper, Microsoft.Maui.CommandMapper? commandMapper);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Handlers.PopupHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; CommunityToolkit.Maui.Core.Handlers.PopupHandler" Usage="new CommunityToolkit.Maui.Core.Handlers.PopupHandler (mapper, commandMapper)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mapper" Type="Microsoft.Maui.IPropertyMapper" />
+        <Parameter Name="commandMapper" Type="Microsoft.Maui.CommandMapper" />
+      </Parameters>
+      <Docs>
+        <param name="mapper">Custom instance of <see cref="T:Microsoft.Maui.PropertyMapper" />, if it's null the <see cref="F:CommunityToolkit.Maui.Core.Handlers.PopupHandler.PopUpMapper" /> will be used</param>
+        <param name="commandMapper">Custom instance of <see cref="T:Microsoft.Maui.CommandMapper" />, if it's null the <see cref="F:CommunityToolkit.Maui.Core.Handlers.PopupHandler.PopUpCommandMapper" /> will be used</param>
+        <summary>
+            Constructor for <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePlatformElement">
+      <MemberSignature Language="C#" Value="protected override object CreatePlatformElement ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformElement() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.CreatePlatformElement" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformElement () As Object" />
+      <MemberSignature Language="F#" Value="override this.CreatePlatformElement : unit -&gt; obj" Usage="popupHandler.CreatePlatformElement " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="MapAnchor">
+      <MemberSignature Language="C#" Value="public static void MapAnchor (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapAnchor(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapAnchor(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapAnchor (handler As PopupHandler, view As IPopup)" />
+      <MemberSignature Language="F#" Value="static member MapAnchor : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapAnchor (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <summary>
+            Action that's triggered when the Popup <see cref="P:CommunityToolkit.Maui.Core.IPopup.Anchor" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapCanBeDismissedByTappingOutsideOfPopup">
+      <MemberSignature Language="C#" Value="public static void MapCanBeDismissedByTappingOutsideOfPopup (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCanBeDismissedByTappingOutsideOfPopup(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapCanBeDismissedByTappingOutsideOfPopup(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCanBeDismissedByTappingOutsideOfPopup (handler As PopupHandler, view As IPopup)" />
+      <MemberSignature Language="F#" Value="static member MapCanBeDismissedByTappingOutsideOfPopup : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapCanBeDismissedByTappingOutsideOfPopup (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <summary>
+            Action that's triggered when the Popup <see cref="P:CommunityToolkit.Maui.Core.IPopup.CanBeDismissedByTappingOutsideOfPopup" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapColor">
+      <MemberSignature Language="C#" Value="public static void MapColor (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapColor(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapColor(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapColor (handler As PopupHandler, view As IPopup)" />
+      <MemberSignature Language="F#" Value="static member MapColor : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapColor (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <summary>
+            Action that's triggered when the Popup <see cref="P:CommunityToolkit.Maui.Core.IPopup.Color" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapOnClosed">
+      <MemberSignature Language="C#" Value="public static void MapOnClosed (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view, object? result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapOnClosed(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view, object result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapOnClosed(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapOnClosed (handler As PopupHandler, view As IPopup, result As Object)" />
+      <MemberSignature Language="F#" Value="static member MapOnClosed : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapOnClosed (handler, view, result)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+        <Parameter Name="result" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <param name="result">The result that should return from this Popup.</param>
+        <summary>
+            Action that's triggered when the Popup is closed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapOnDismissedByTappingOutsideOfPopup">
+      <MemberSignature Language="C#" Value="public static void MapOnDismissedByTappingOutsideOfPopup (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view, object? result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapOnDismissedByTappingOutsideOfPopup(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view, object result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapOnDismissedByTappingOutsideOfPopup(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapOnDismissedByTappingOutsideOfPopup (handler As PopupHandler, view As IPopup, result As Object)" />
+      <MemberSignature Language="F#" Value="static member MapOnDismissedByTappingOutsideOfPopup : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapOnDismissedByTappingOutsideOfPopup (handler, view, result)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+        <Parameter Name="result" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <param name="result">The result that should return from this Popup.</param>
+        <summary>
+            Action that's triggered when the Popup is dismissed by tapping outside of the Popup.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapOnOpened">
+      <MemberSignature Language="C#" Value="public static void MapOnOpened (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view, object? result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapOnOpened(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view, object result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapOnOpened(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapOnOpened (handler As PopupHandler, view As IPopup, result As Object)" />
+      <MemberSignature Language="F#" Value="static member MapOnOpened : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapOnOpened (handler, view, result)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+        <Parameter Name="result" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <param name="result">We don't need to provide the result parameter here.</param>
+        <summary>
+            Action that's triggered when the Popup is Opened.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapSize">
+      <MemberSignature Language="C#" Value="public static void MapSize (CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, CommunityToolkit.Maui.Core.IPopup view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSize(class CommunityToolkit.Maui.Core.Handlers.PopupHandler handler, class CommunityToolkit.Maui.Core.IPopup view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapSize(CommunityToolkit.Maui.Core.Handlers.PopupHandler,CommunityToolkit.Maui.Core.IPopup)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSize (handler As PopupHandler, view As IPopup)" />
+      <MemberSignature Language="F#" Value="static member MapSize : CommunityToolkit.Maui.Core.Handlers.PopupHandler * CommunityToolkit.Maui.Core.IPopup -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.MapSize (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.PopupHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IPopup" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.PopupHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IPopup" />.</param>
+        <summary>
+            Action that's triggered when the Popup <see cref="P:CommunityToolkit.Maui.Core.IPopup.Size" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopUpCommandMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.IPopup,CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt; PopUpCommandMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class CommunityToolkit.Maui.Core.IPopup, class CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt; PopUpCommandMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.PopupHandler.PopUpCommandMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared PopUpCommandMapper As CommandMapper(Of IPopup, PopupHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable PopUpCommandMapper : Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.IPopup, CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.PopUpCommandMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.IPopup,CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.CommandMapper" /> for Popup Control.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopUpMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.IPopup,CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt; PopUpMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class CommunityToolkit.Maui.Core.IPopup, class CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt; PopUpMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.PopupHandler.PopUpMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared PopUpMapper As IPropertyMapper(Of IPopup, PopupHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable PopUpMapper : Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.IPopup, CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.PopupHandler.PopUpMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.IPopup,CommunityToolkit.Maui.Core.Handlers.PopupHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            PropertyMapper for Popup Control
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

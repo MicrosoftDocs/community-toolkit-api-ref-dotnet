@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -16,14 +17,27 @@
       <InterfaceName>CommunityToolkit.Mvvm.Messaging.IMessenger</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             A class providing a reference implementation for the <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> interface.
             </summary>
     <remarks>
+      <para>
             This <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> implementation uses weak references to track the registered
             recipients, so it is not necessary to manually unregister them when they're no longer needed.
-            </remarks>
+            </para>
+      <para>
+            The <see cref="T:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger" /> type will automatically perform internal trimming when
+            full GC collections are invoked, so calling <see cref="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Cleanup" /> manually is not necessary to
+            ensure that on average the internal data structures are as trimmed and compact as possible.
+            </para>
+    </remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -34,11 +48,13 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -54,7 +70,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -68,6 +84,7 @@
             trimming the internal data structures of a messenger implementation.
             </summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Default">
@@ -79,7 +96,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger</ReturnType>
@@ -104,7 +121,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -116,6 +133,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -135,6 +158,7 @@
             </summary>
         <returns>Whether or not <paramref name="recipient" /> has already been registered for the specified message.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TRecipient,TMessage,TToken&gt;">
@@ -149,7 +173,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -166,6 +190,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -188,6 +218,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Reset">
@@ -202,7 +233,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -213,6 +244,7 @@
             Resets the <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> instance and unregisters all the existing recipients.
             </summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Send&lt;TMessage,TToken&gt;">
@@ -227,7 +259,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TMessage</ReturnType>
@@ -239,6 +271,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -258,6 +296,7 @@
             </summary>
         <returns>The message that was sent (ie. <paramref name="message" />).</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Unregister&lt;TMessage,TToken&gt;">
@@ -272,7 +311,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -284,6 +323,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -302,6 +347,7 @@
             Unregisters a recipient from messages of a given type.
             </summary>
         <remarks>If the recipient has no registered handler, this method does nothing.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="UnregisterAll">
@@ -316,7 +362,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -334,6 +380,7 @@
             Use this method as an easy way to lose all references to a target recipient.
             If the recipient has no registered handler, this method does nothing.
             </remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="UnregisterAll&lt;TToken&gt;">
@@ -348,13 +395,19 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -372,6 +425,7 @@
             Unregisters a recipient from all messages on a specific channel.
             </summary>
         <remarks>If the recipient has no registered handler, this method does nothing.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
   </Members>

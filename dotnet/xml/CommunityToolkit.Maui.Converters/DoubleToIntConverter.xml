@@ -1,0 +1,185 @@
+<Type Name="DoubleToIntConverter" FullName="CommunityToolkit.Maui.Converters.DoubleToIntConverter">
+  <TypeSignature Language="C#" Value="public class DoubleToIntConverter : CommunityToolkit.Maui.Converters.BaseConverter&lt;double,int,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DoubleToIntConverter extends CommunityToolkit.Maui.Converters.BaseConverter`3&lt;float64, int32, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.DoubleToIntConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class DoubleToIntConverter&#xA;Inherits BaseConverter(Of Double, Integer, Object)" />
+  <TypeSignature Language="F#" Value="type DoubleToIntConverter = class&#xA;    inherit BaseConverter&lt;double, int, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverter&lt;System.Double,System.Int32,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Double</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Int32</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.ContentProperty("Ratio")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.ContentProperty("Ratio")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts <see cref="T:System.Double" /> to <see cref="T:System.Int32" /> and vice versa.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DoubleToIntConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.DoubleToIntConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBackTo">
+      <MemberSignature Language="C#" Value="public override double ConvertBackTo (int value, object? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance float64 ConvertBackTo(int32 value, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.DoubleToIntConverter.ConvertBackTo(System.Int32,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertBackTo (value As Integer, Optional parameter As Object = Nothing, Optional culture As CultureInfo = Nothing) As Double" />
+      <MemberSignature Language="F#" Value="override this.ConvertBackTo : int * obj * System.Globalization.CultureInfo -&gt; double" Usage="doubleToIntConverter.ConvertBackTo (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">Integer value.</param>
+        <param name="parameter">Denominator (Equals 1 by default).</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts back <see cref="T:System.Int32" /> to <see cref="T:System.Double" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Double" /> value.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override int ConvertFrom (double value, object? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 ConvertFrom(float64 value, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.DoubleToIntConverter.ConvertFrom(System.Double,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As Double, Optional parameter As Object = Nothing, Optional culture As CultureInfo = Nothing) As Integer" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : double * obj * System.Globalization.CultureInfo -&gt; int" Usage="doubleToIntConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Double" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">
+          <see cref="T:System.Double" /> value.</param>
+        <param name="parameter">Multiplier (Equals 1 by default).</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts <see cref="T:System.Double" /> to <see cref="T:System.Int32" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Int32" /> value.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="public override double DefaultConvertBackReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.DoubleToIntConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertBackReturnValue As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertBackReturnValue : double with get, set" Usage="CommunityToolkit.Maui.Converters.DoubleToIntConverter.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override int DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.DoubleToIntConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : int with get, set" Usage="CommunityToolkit.Maui.Converters.DoubleToIntConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Ratio">
+      <MemberSignature Language="C#" Value="public double Ratio { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Ratio" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.DoubleToIntConverter.Ratio" />
+      <MemberSignature Language="VB.NET" Value="Public Property Ratio As Double" />
+      <MemberSignature Language="F#" Value="member this.Ratio : double with get, set" Usage="CommunityToolkit.Maui.Converters.DoubleToIntConverter.Ratio" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Multiplier / Denominator (Equals 1 by default).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

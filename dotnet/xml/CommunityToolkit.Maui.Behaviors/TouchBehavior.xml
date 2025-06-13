@@ -1,0 +1,2178 @@
+<Type Name="TouchBehavior" FullName="CommunityToolkit.Maui.Behaviors.TouchBehavior">
+  <TypeSignature Language="C#" Value="public class TouchBehavior : CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TouchBehavior extends CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`1&lt;class Microsoft.Maui.Controls.VisualElement&gt; implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.TouchBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class TouchBehavior&#xA;Inherits BasePlatformBehavior(Of VisualElement)&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type TouchBehavior = class&#xA;    inherit BasePlatformBehavior&lt;VisualElement&gt;&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.VisualElement</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:Microsoft.Maui.Controls.PlatformBehavior`2" /> that adds additional actions for user interactions 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TouchBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.TouchBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand? Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.Command" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:System.Windows.Input.ICommand" /> to invoke when the user has completed a touch gesture.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameter">
+      <MemberSignature Language="C#" Value="public object? CommandParameter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the parameter to pass to the <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.Command" /> property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandParameterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandParameterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandParameterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandParameter" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.Command" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentHoverState">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.HoverState CurrentHoverState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.HoverState CurrentHoverState" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverState" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentHoverState As HoverState" />
+      <MemberSignature Language="F#" Value="member this.CurrentHoverState : CommunityToolkit.Maui.Core.HoverState with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.HoverState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> of the behavior.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentHoverStateProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CurrentHoverStateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentHoverStateProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentHoverStateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentHoverStateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStateProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverState" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentHoverStatus">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.HoverStatus CurrentHoverStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.HoverStatus CurrentHoverStatus" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentHoverStatus As HoverStatus" />
+      <MemberSignature Language="F#" Value="member this.CurrentHoverStatus : CommunityToolkit.Maui.Core.HoverStatus with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.HoverStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current <see cref="T:CommunityToolkit.Maui.Core.HoverStatus" /> of the behavior.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentHoverStatusProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CurrentHoverStatusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentHoverStatusProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStatusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentHoverStatusProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentHoverStatusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStatusProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStatus" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentInteractionStatus">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.TouchInteractionStatus CurrentInteractionStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.TouchInteractionStatus CurrentInteractionStatus" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentInteractionStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentInteractionStatus As TouchInteractionStatus" />
+      <MemberSignature Language="F#" Value="member this.CurrentInteractionStatus : CommunityToolkit.Maui.Core.TouchInteractionStatus with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentInteractionStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.TouchInteractionStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current <see cref="T:CommunityToolkit.Maui.Core.TouchInteractionStatus" /> of the behavior.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentInteractionStatusProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CurrentInteractionStatusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentInteractionStatusProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentInteractionStatusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentInteractionStatusProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentInteractionStatusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentInteractionStatusProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentInteractionStatus" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTouchState">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.TouchState CurrentTouchState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.TouchState CurrentTouchState" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchState" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentTouchState As TouchState" />
+      <MemberSignature Language="F#" Value="member this.CurrentTouchState : CommunityToolkit.Maui.Core.TouchState with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.TouchState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> of the behavior.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTouchStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.TouchStateChangedEventArgs&gt; CurrentTouchStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.TouchStateChangedEventArgs&gt; CurrentTouchStateChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CurrentTouchStateChanged As EventHandler(Of TouchStateChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.CurrentTouchStateChanged : EventHandler&lt;CommunityToolkit.Maui.Core.TouchStateChangedEventArgs&gt; " Usage="member this.CurrentTouchStateChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchStateChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchState" /> changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTouchStateProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CurrentTouchStateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentTouchStateProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentTouchStateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentTouchStateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStateProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchState" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTouchStatus">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.TouchStatus CurrentTouchStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.TouchStatus CurrentTouchStatus" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentTouchStatus As TouchStatus" />
+      <MemberSignature Language="F#" Value="member this.CurrentTouchStatus : CommunityToolkit.Maui.Core.TouchStatus with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.TouchStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current <see cref="T:CommunityToolkit.Maui.Core.TouchStatus" /> of the behavior.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTouchStatusChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.TouchStatusChangedEventArgs&gt; CurrentTouchStatusChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.TouchStatusChangedEventArgs&gt; CurrentTouchStatusChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatusChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CurrentTouchStatusChanged As EventHandler(Of TouchStatusChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.CurrentTouchStatusChanged : EventHandler&lt;CommunityToolkit.Maui.Core.TouchStatusChangedEventArgs&gt; " Usage="member this.CurrentTouchStatusChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchStatusChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchStatusChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatus" /> changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentTouchStatusProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CurrentTouchStatusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentTouchStatusProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentTouchStatusProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentTouchStatusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatusProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentTouchStatus" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultAnimationDuration">
+      <MemberSignature Language="C#" Value="public int DefaultAnimationDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DefaultAnimationDuration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultAnimationDuration As Integer" />
+      <MemberSignature Language="F#" Value="member this.DefaultAnimationDuration : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the duration of the animation when <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultAnimationDurationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultAnimationDurationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultAnimationDurationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationDurationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultAnimationDurationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultAnimationDurationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationDurationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationDuration" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultAnimationEasing">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Easing? DefaultAnimationEasing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Easing DefaultAnimationEasing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationEasing" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultAnimationEasing As Easing" />
+      <MemberSignature Language="F#" Value="member this.DefaultAnimationEasing : Microsoft.Maui.Easing with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationEasing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Easing</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Easing" /> of the animation when <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultAnimationEasingProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultAnimationEasingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultAnimationEasingProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationEasingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultAnimationEasingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultAnimationEasingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationEasingProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultAnimationEasing" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultBackgroundColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color? DefaultBackgroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color DefaultBackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultBackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.DefaultBackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultBackgroundColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the background color of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultBackgroundColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultBackgroundColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultBackgroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultBackgroundColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultBackgroundColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultBackgroundColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultBackgroundColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultBackgroundColor" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultOpacity">
+      <MemberSignature Language="C#" Value="public double DefaultOpacity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultOpacity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultOpacity" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultOpacity As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultOpacity : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultOpacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the opacity of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException" />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultOpacityProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultOpacityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultOpacityProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultOpacityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultOpacityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultOpacityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultOpacityProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultOpacity" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRotation">
+      <MemberSignature Language="C#" Value="public double DefaultRotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultRotation" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultRotation As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultRotation : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation of the element when when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRotationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultRotationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultRotationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultRotationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultRotationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotation" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRotationX">
+      <MemberSignature Language="C#" Value="public double DefaultRotationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultRotationX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultRotationX As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultRotationX : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation X of the element when when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRotationXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultRotationXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultRotationXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultRotationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultRotationXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationX" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRotationY">
+      <MemberSignature Language="C#" Value="public double DefaultRotationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultRotationY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultRotationY As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultRotationY : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation Y of the element when when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultRotationYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultRotationYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultRotationYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultRotationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultRotationYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultRotationY" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultScale">
+      <MemberSignature Language="C#" Value="public double DefaultScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultScale" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultScale As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultScale : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultScale" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the scale of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultScaleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultScaleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultScaleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultScaleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultScaleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultScaleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultScaleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultScale" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultTranslationX">
+      <MemberSignature Language="C#" Value="public double DefaultTranslationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultTranslationX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultTranslationX As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultTranslationX : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the translation X of the element when when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultTranslationXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultTranslationXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultTranslationXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultTranslationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultTranslationXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationX" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultTranslationY">
+      <MemberSignature Language="C#" Value="public double DefaultTranslationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultTranslationY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultTranslationY As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultTranslationY : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the translation Y of the element when when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultTranslationYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultTranslationYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultTranslationYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultTranslationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultTranslationYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DefaultTranslationY" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisallowTouchThreshold">
+      <MemberSignature Language="C#" Value="public int DisallowTouchThreshold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DisallowTouchThreshold" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DisallowTouchThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisallowTouchThreshold As Integer" />
+      <MemberSignature Language="F#" Value="member this.DisallowTouchThreshold : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DisallowTouchThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the threshold for disallowing touch.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisallowTouchThresholdProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DisallowTouchThresholdProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DisallowTouchThresholdProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.DisallowTouchThresholdProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DisallowTouchThresholdProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DisallowTouchThresholdProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.DisallowTouchThresholdProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.DisallowTouchThreshold" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.TouchBehavior.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="touchBehavior.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.TouchBehavior.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="touchBehavior.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>
+            Dispose the object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredAnimationDuration">
+      <MemberSignature Language="C#" Value="public int HoveredAnimationDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HoveredAnimationDuration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredAnimationDuration As Integer" />
+      <MemberSignature Language="F#" Value="member this.HoveredAnimationDuration : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the duration of the animation when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredAnimationDurationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredAnimationDurationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredAnimationDurationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationDurationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredAnimationDurationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredAnimationDurationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationDurationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationDuration" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredAnimationEasing">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Easing? HoveredAnimationEasing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Easing HoveredAnimationEasing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationEasing" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredAnimationEasing As Easing" />
+      <MemberSignature Language="F#" Value="member this.HoveredAnimationEasing : Microsoft.Maui.Easing with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationEasing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Easing</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the easing of the animation when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredAnimationEasingProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredAnimationEasingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredAnimationEasingProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationEasingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredAnimationEasingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredAnimationEasingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationEasingProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredAnimationEasing" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredBackgroundColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color? HoveredBackgroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color HoveredBackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredBackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.HoveredBackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredBackgroundColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the background color of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredBackgroundColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredBackgroundColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredBackgroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredBackgroundColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredBackgroundColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredBackgroundColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredBackgroundColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredBackgroundColor" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredOpacity">
+      <MemberSignature Language="C#" Value="public double HoveredOpacity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredOpacity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredOpacity" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredOpacity As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredOpacity : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredOpacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the opacity of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredOpacityProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredOpacityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredOpacityProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredOpacityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredOpacityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredOpacityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredOpacityProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredOpacity" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredRotation">
+      <MemberSignature Language="C#" Value="public double HoveredRotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredRotation" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredRotation As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredRotation : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredRotationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredRotationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredRotationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredRotationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredRotationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotation" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredRotationX">
+      <MemberSignature Language="C#" Value="public double HoveredRotationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredRotationX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredRotationX As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredRotationX : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation X of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredRotationXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredRotationXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredRotationXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredRotationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredRotationXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationX" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredRotationY">
+      <MemberSignature Language="C#" Value="public double HoveredRotationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredRotationY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredRotationY As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredRotationY : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation Y of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredRotationYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredRotationYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredRotationYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredRotationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredRotationYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredRotationY" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredScale">
+      <MemberSignature Language="C#" Value="public double HoveredScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredScale" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredScale As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredScale : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredScale" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the scale of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredScaleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredScaleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredScaleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredScaleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredScaleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredScaleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredScaleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredScale" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredTranslationX">
+      <MemberSignature Language="C#" Value="public double HoveredTranslationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredTranslationX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredTranslationX As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredTranslationX : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the translation X of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredTranslationXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredTranslationXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredTranslationXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredTranslationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredTranslationXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationX" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredTranslationY">
+      <MemberSignature Language="C#" Value="public double HoveredTranslationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HoveredTranslationY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredTranslationY As Double" />
+      <MemberSignature Language="F#" Value="member this.HoveredTranslationY : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the translation Y of the element when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredTranslationYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredTranslationYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredTranslationYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredTranslationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredTranslationYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredTranslationY" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredVisualState">
+      <MemberSignature Language="C#" Value="public const string HoveredVisualState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string HoveredVisualState" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredVisualState" />
+      <MemberSignature Language="VB.NET" Value="Public Const HoveredVisualState As String " />
+      <MemberSignature Language="F#" Value="val mutable HoveredVisualState : string" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.HoveredVisualState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The visual state for when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoverStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.HoverStateChangedEventArgs&gt; HoverStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.HoverStateChangedEventArgs&gt; HoverStateChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoverStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event HoverStateChanged As EventHandler(Of HoverStateChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.HoverStateChanged : EventHandler&lt;CommunityToolkit.Maui.Core.HoverStateChangedEventArgs&gt; " Usage="member this.HoverStateChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.HoverStateChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.HoverStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverState" /> changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoverStatusChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs&gt; HoverStatusChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs&gt; HoverStatusChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.HoverStatusChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event HoverStatusChanged As EventHandler(Of HoverStatusChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.HoverStatusChanged : EventHandler&lt;CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs&gt; " Usage="member this.HoverStatusChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentHoverStatus" /> changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InteractionStatusChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.TouchInteractionStatusChangedEventArgs&gt; InteractionStatusChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.TouchInteractionStatusChangedEventArgs&gt; InteractionStatusChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.InteractionStatusChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InteractionStatusChanged As EventHandler(Of TouchInteractionStatusChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.InteractionStatusChanged : EventHandler&lt;CommunityToolkit.Maui.Core.TouchInteractionStatusChangedEventArgs&gt; " Usage="member this.InteractionStatusChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchInteractionStatusChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchInteractionStatusChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.CurrentInteractionStatus" /> changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled">
+      <MemberSignature Language="C#" Value="public bool IsEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.IsEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEnabled : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.IsEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the behavior is enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabledProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsEnabledProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.IsEnabledProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.IsEnabledProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.IsEnabled" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressCommand">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand? LongPressCommand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand LongPressCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommand" />
+      <MemberSignature Language="VB.NET" Value="Public Property LongPressCommand As ICommand" />
+      <MemberSignature Language="F#" Value="member this.LongPressCommand : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:System.Windows.Input.ICommand" /> to invoke when the user has completed a long press.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressCommandParameter">
+      <MemberSignature Language="C#" Value="public object? LongPressCommandParameter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LongPressCommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Property LongPressCommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.LongPressCommandParameter : obj with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the parameter to pass to the <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommand" /> property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressCommandParameterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty LongPressCommandParameterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LongPressCommandParameterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandParameterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LongPressCommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LongPressCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandParameterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandParameter" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty LongPressCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LongPressCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LongPressCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LongPressCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCommand" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressCompleted">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.LongPressCompletedEventArgs&gt; LongPressCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.LongPressCompletedEventArgs&gt; LongPressCompleted" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event LongPressCompleted As EventHandler(Of LongPressCompletedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.LongPressCompleted : EventHandler&lt;CommunityToolkit.Maui.Core.LongPressCompletedEventArgs&gt; " Usage="member this.LongPressCompleted : System.EventHandler&lt;CommunityToolkit.Maui.Core.LongPressCompletedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.LongPressCompletedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when a long press gesture has completed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressDuration">
+      <MemberSignature Language="C#" Value="public int LongPressDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongPressDuration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property LongPressDuration As Integer" />
+      <MemberSignature Language="F#" Value="member this.LongPressDuration : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the duration required to trigger the long press gesture.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressDurationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty LongPressDurationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LongPressDurationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressDurationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LongPressDurationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LongPressDurationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressDurationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.LongPressDuration" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedAnimationDuration">
+      <MemberSignature Language="C#" Value="public int PressedAnimationDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PressedAnimationDuration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedAnimationDuration As Integer" />
+      <MemberSignature Language="F#" Value="member this.PressedAnimationDuration : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the duration of the animation when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedAnimationDurationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedAnimationDurationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedAnimationDurationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationDurationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedAnimationDurationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedAnimationDurationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationDurationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationDuration" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedAnimationEasing">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Easing? PressedAnimationEasing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Easing PressedAnimationEasing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationEasing" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedAnimationEasing As Easing" />
+      <MemberSignature Language="F#" Value="member this.PressedAnimationEasing : Microsoft.Maui.Easing with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationEasing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Easing</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the easing of the animation when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedAnimationEasingProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedAnimationEasingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedAnimationEasingProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationEasingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedAnimationEasingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedAnimationEasingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationEasingProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedAnimationEasing" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedBackgroundColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color? PressedBackgroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color PressedBackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedBackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.PressedBackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedBackgroundColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the background color of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedBackgroundColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedBackgroundColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedBackgroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedBackgroundColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedBackgroundColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedBackgroundColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedBackgroundColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedBackgroundColor" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedOpacity">
+      <MemberSignature Language="C#" Value="public double PressedOpacity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedOpacity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedOpacity" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedOpacity As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedOpacity : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedOpacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the opacity of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedOpacityProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedOpacityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedOpacityProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedOpacityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedOpacityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedOpacityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedOpacityProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedOpacity" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedRotation">
+      <MemberSignature Language="C#" Value="public double PressedRotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedRotation" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedRotation As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedRotation : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedRotationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedRotationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedRotationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedRotationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedRotationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotation" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedRotationX">
+      <MemberSignature Language="C#" Value="public double PressedRotationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedRotationX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedRotationX As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedRotationX : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation X of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedRotationXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedRotationXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedRotationXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedRotationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedRotationXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationX" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedRotationY">
+      <MemberSignature Language="C#" Value="public double PressedRotationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedRotationY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedRotationY As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedRotationY : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the rotation Y of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedRotationYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedRotationYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedRotationYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedRotationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedRotationYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedRotationY" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedScale">
+      <MemberSignature Language="C#" Value="public double PressedScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedScale" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedScale As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedScale : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedScale" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the scale of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedScaleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedScaleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedScaleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedScaleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedScaleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedScaleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedScaleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedScale" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedTranslationX">
+      <MemberSignature Language="C#" Value="public double PressedTranslationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedTranslationX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedTranslationX As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedTranslationX : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the translation X of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedTranslationXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedTranslationXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedTranslationXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedTranslationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedTranslationXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationX" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedTranslationY">
+      <MemberSignature Language="C#" Value="public double PressedTranslationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PressedTranslationY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedTranslationY As Double" />
+      <MemberSignature Language="F#" Value="member this.PressedTranslationY : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the translation Y of the element when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedTranslationYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedTranslationYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedTranslationYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedTranslationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedTranslationYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedTranslationY" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedVisualState">
+      <MemberSignature Language="C#" Value="public const string PressedVisualState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PressedVisualState" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedVisualState" />
+      <MemberSignature Language="VB.NET" Value="Public Const PressedVisualState As String " />
+      <MemberSignature Language="F#" Value="val mutable PressedVisualState : string" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.PressedVisualState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The visual state for when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldMakeChildrenInputTransparent">
+      <MemberSignature Language="C#" Value="public bool ShouldMakeChildrenInputTransparent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldMakeChildrenInputTransparent" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.ShouldMakeChildrenInputTransparent" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldMakeChildrenInputTransparent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldMakeChildrenInputTransparent : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.ShouldMakeChildrenInputTransparent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the children of the element should be made input transparent.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldMakeChildrenInputTransparentProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ShouldMakeChildrenInputTransparentProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ShouldMakeChildrenInputTransparentProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.ShouldMakeChildrenInputTransparentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShouldMakeChildrenInputTransparentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ShouldMakeChildrenInputTransparentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.ShouldMakeChildrenInputTransparentProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.TouchBehavior.ShouldMakeChildrenInputTransparent" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TouchGestureCompleted">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs&gt; TouchGestureCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs&gt; TouchGestureCompleted" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.TouchBehavior.TouchGestureCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event TouchGestureCompleted As EventHandler(Of TouchGestureCompletedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.TouchGestureCompleted : EventHandler&lt;CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs&gt; " Usage="member this.TouchGestureCompleted : System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when a touch gesture has completed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnpressedVisualState">
+      <MemberSignature Language="C#" Value="public const string UnpressedVisualState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UnpressedVisualState" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TouchBehavior.UnpressedVisualState" />
+      <MemberSignature Language="VB.NET" Value="Public Const UnpressedVisualState As String " />
+      <MemberSignature Language="F#" Value="val mutable UnpressedVisualState : string" Usage="CommunityToolkit.Maui.Behaviors.TouchBehavior.UnpressedVisualState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The visual state for when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1897 @@
+{
+  "Assembly": "CommunityToolkit.HighPerformance",
+  "GUID": "C11C5CF5F4F048C581ACE4270F8F9C6BFFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.GetFrom(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L74C9-L79C40"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.DangerousGetFrom(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L94C9-L94C40"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.TryGetFrom(System.Object,CommunityToolkit.HighPerformance.Box{`0}@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L106C9-L115C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.op_Implicit(CommunityToolkit.HighPerformance.Box{`0})~`0",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L125C9-L125C31"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.op_Implicit(`0)~CommunityToolkit.HighPerformance.Box{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L145C9-L145C42"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L162C9-L162C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.Equals(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L168C9-L168C34"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Box`1.GetHashCode",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L174C9-L174C50"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Box`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.BoxExtensions.GetReference``1(CommunityToolkit.HighPerformance.Box{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs#L219C9-L219C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.BoxExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Box%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReference``1(``0[])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L37C9-L39C86"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReferenceAt``1(``0[],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L60C9-L64C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.Count``1(``0[],``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L79C9-L88C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.Enumerate``1(``0[])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L113C9-L113C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.Tokenize``1(``0[],``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L138C9-L138C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.GetDjb2HashCode``1(``0[])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L153C9-L156C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.IsCovariant``1(``0[])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs#L168C9-L168C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReference``1(``0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L34C9-L36C86"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReferenceAt``1(``0[0:,0:],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L65C9-L71C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.GetRow``1(``0[0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L87C9-L109C45"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.GetColumn``1(``0[0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L140C9-L162C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan2D``1(``0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L175C9-L175C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan2D``1(``0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L198C9-L198C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory2D``1(``0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L210C9-L210C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory2D``1(``0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L233C9-L233C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.Count``1(``0[0:,0:],``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L354C9-L363C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.GetDjb2HashCode``1(``0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L378C9-L381C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.IsCovariant``1(``0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.2D.cs#L393C9-L393C70"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReference``1(``0[0:,0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L33C9-L35C86"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReferenceAt``1(``0[0:,0:,0:],System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L68C9-L77C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan2D``1(``0[0:,0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L204C9-L204C34"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory2D``1(``0[0:,0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L221C9-L221C34"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.Count``1(``0[0:,0:,0:],``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L235C9-L244C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.GetDjb2HashCode``1(``0[0:,0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L259C9-L262C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayExtensions.IsCovariant``1(``0[0:,0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.3D.cs#L274C9-L274C71"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ArrayExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayExtensions.1D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayPoolBufferWriterExtensions.AsStream(CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayPoolBufferWriterExtensions.cs#L26C9-L26C100"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ArrayPoolBufferWriterExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayPoolBufferWriterExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayPoolExtensions.Resize``1(System.Buffers.ArrayPool{``0},``0[]@,System.Int32,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayPoolExtensions.cs#L29C9-L55C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ArrayPoolExtensions.EnsureCapacity``1(System.Buffers.ArrayPool{``0},``0[]@,System.Int32,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayPoolExtensions.cs#L70C9-L88C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ArrayPoolExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ArrayPoolExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.BoolExtensions.ToByte(System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/BoolExtensions.cs#L28C9-L30C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.BoolExtensions.ToBitwiseMask32(System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/BoolExtensions.cs#L50C9-L55C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.BoolExtensions.ToBitwiseMask64(System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/BoolExtensions.cs#L68C9-L73C21"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.BoolExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/BoolExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.HashCodeExtensions.Add``1(System.HashCode@,System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/HashCodeExtensions.cs#L26C9-L29C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.HashCodeExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/HashCodeExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.AsStream(System.Buffers.IBufferWriter{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IBufferWriterExtensions.cs#L29C9-L38C92"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{System.Byte},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IBufferWriterExtensions.cs#L51C9-L63C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{``0},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IBufferWriterExtensions.cs#L75C9-L85C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{System.Byte},System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IBufferWriterExtensions.cs#L98C9-L104C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{``0},System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IBufferWriterExtensions.cs#L117C9-L122C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.IBufferWriterExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IBufferWriterExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.IMemoryOwnerExtensions.AsStream(System.Buffers.IMemoryOwner{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IMemoryOwnerExtensions.cs#L31C9-L31C49"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.IMemoryOwnerExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/IMemoryOwnerExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.MemoryExtensions.AsBytes``1(System.Memory{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/MemoryExtensions.cs#L76C9-L76C84"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.MemoryExtensions.Cast``2(System.Memory{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/MemoryExtensions.cs#L92C9-L92C91"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.MemoryExtensions.AsStream(System.Memory{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/MemoryExtensions.cs#L110C9-L110C51"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.MemoryExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/MemoryExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.AsBytes``1(System.ReadOnlyMemory{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlyMemoryExtensions.cs#L79C9-L79C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.Cast``2(System.ReadOnlyMemory{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlyMemoryExtensions.cs#L95C9-L131C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.AsStream(System.ReadOnlyMemory{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlyMemoryExtensions.cs#L149C9-L149C50"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlyMemoryExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions.AsStream(System.Buffers.ReadOnlySequence{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySequenceExtensions.cs#L32C9-L32C56"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySequenceExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetReference``1(System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L28C9-L28C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetReferenceAt``1(System.ReadOnlySpan{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L72C9-L75C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetReferenceAt``1(System.ReadOnlySpan{``0},System.IntPtr)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L89C9-L92C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetLookupReferenceAt``1(System.ReadOnlySpan{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L150C9-L158C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.IndexOf``1(System.ReadOnlySpan{``0},``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L215C9-L226C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Count``1(System.ReadOnlySpan{``0},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L240C9-L243C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.AsBytes``1(System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L259C9-L259C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Cast``2(System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L277C9-L277C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Enumerate``1(System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L302C9-L302C26"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Tokenize``1(System.ReadOnlySpan{``0},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L327C9-L327C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.GetDjb2HashCode``1(System.ReadOnlySpan{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L353C9-L356C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.CopyTo``1(System.ReadOnlySpan{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L371C9-L372C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.TryCopyTo``1(System.ReadOnlySpan{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs#L384C9-L384C46"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/ReadOnlySpanExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReference``1(System.Span{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L28C9-L28C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReferenceAt``1(System.Span{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L42C9-L45C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReferenceAt``1(System.Span{``0},System.IntPtr)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L59C9-L62C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.AsBytes``1(System.Span{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L122C9-L122C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.Cast``2(System.Span{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L140C9-L140C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.IndexOf``1(System.Span{``0},``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L153C9-L168C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.Count``1(System.Span{``0},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L182C9-L185C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.Enumerate``1(System.Span{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L210C9-L210C26"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.Tokenize``1(System.Span{``0},``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L235C9-L235C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.GetDjb2HashCode``1(System.Span{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L250C9-L253C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.CopyTo``1(System.Span{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L268C9-L269C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpanExtensions.TryCopyTo``1(System.Span{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs#L281C9-L281C46"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.SpanExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpanExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpinLockExtensions.Enter(System.Threading.SpinLock*)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpinLockExtensions.cs#L38C9-L38C30"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpinLockExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.SpinLockExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpinLockExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StreamExtensions.ReadAsync(System.IO.Stream,System.Memory{System.Byte},System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs#L41C9-L80C74"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StreamExtensions.WriteAsync(System.IO.Stream,System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs#L100C9-L127C75"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StreamExtensions.Read(System.IO.Stream,System.Span{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs#L146C9-L164C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StreamExtensions.Write(System.IO.Stream,System.ReadOnlySpan{System.Byte})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs#L180C9-L193C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StreamExtensions.Read``1(System.IO.Stream)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs#L238C9-L263C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StreamExtensions.Write``1(System.IO.Stream,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs#L286C9-L300C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.StreamExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StreamExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StringExtensions.DangerousGetReference(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs#L32C9-L32C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StringExtensions.DangerousGetReferenceAt(System.String,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs#L49C9-L53C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StringExtensions.Count(System.String,System.Char)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs#L65C9-L68C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StringExtensions.Enumerate(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs#L92C9-L92C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StringExtensions.Tokenize(System.String,System.Char)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs#L115C9-L115C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.StringExtensions.GetDjb2HashCode(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs#L128C9-L131C59"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.StringExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/StringExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L73C11-L75C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L96C9-L134C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L145C9-L162C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L181C9-L226C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L239C9-L254C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L271C9-L309C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.DangerousCreate(System.Object,`0@,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L529C9-L548C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L663C9-L688C66"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.CopyTo(System.Memory{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L698C50-L698C79"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.TryCopyTo(System.Memory{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L705C53-L705C85"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.CopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L715C52-L715C81"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L723C55-L723C87"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.Pin",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L736C9-L750C24"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.TryGetMemory(System.Memory{`0}@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L760C9-L819C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.ToArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L826C30-L826C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.Equals(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L832C9-L842C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.Equals(CommunityToolkit.HighPerformance.Memory2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L848C9-L853C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.GetHashCode",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L860C9-L870C18"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L876C9-L876C103"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Memory2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.Memory2D{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L882C65-L882C75"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Memory2D`1.Empty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L554C40-L554C47"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Memory2D`1.IsEmpty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L562C16-L562C51"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Memory2D`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L571C16-L571C64"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Memory2D`1.Height",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L580C16-L580C27"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Memory2D`1.Width",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L589C16-L589C26"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Memory2D`1.Span",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs#L600C13-L621C28"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Memory2D`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Memory2D%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(System.String,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L67C11-L69C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L87C9-L120C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L133C11-L135C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L153C9-L186C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L194C9-L206C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L222C9-L262C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L272C9-L282C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L296C9-L329C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.DangerousCreate(System.Object,`0@,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L541C9-L560C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L676C9-L701C66"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.CopyTo(System.Memory{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L711C50-L711C79"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.TryCopyTo(System.Memory{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L718C53-L718C85"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.CopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L728C52-L728C81"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L736C55-L736C87"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Pin",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L749C9-L763C24"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.TryGetMemory(System.ReadOnlyMemory{`0}@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L773C9-L830C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.ToArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L837C30-L837C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Equals(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L843C9-L853C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Equals(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L859C9-L864C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.GetHashCode",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L871C9-L881C18"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L887C9-L887C111"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.ReadOnlyMemory2D{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L893C73-L893C83"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.op_Implicit(CommunityToolkit.HighPerformance.Memory2D{`0})~CommunityToolkit.HighPerformance.ReadOnlyMemory2D{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L898C80-L898C135"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Empty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L566C48-L566C55"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.IsEmpty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L574C16-L574C51"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L583C16-L583C64"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Height",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L592C16-L592C27"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Width",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L601C16-L601C26"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Span",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs#L612C13-L634C28"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlyMemory2D%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(System.Void*,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L105C9-L139C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L172C11-L174C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L192C9-L239C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L247C9-L265C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L281C9-L328C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L338C9-L354C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L368C9-L408C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.CopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L640C9-L683C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.CopyTo(CommunityToolkit.HighPerformance.Span2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L695C9-L738C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.TryCopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L747C9-L754C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Span2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L764C9-L772C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetPinnableReference",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L785C9-L798C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.DangerousGetReference",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L813C9-L813C106"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.DangerousGetReferenceAt(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L831C9-L835C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L853C9-L887C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.TryGetSpan(System.ReadOnlySpan{`0}@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L919C9-L965C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.ToArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L974C9-L1003C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Equals(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1011C9-L1011C128"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetHashCode",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1019C9-L1019C127"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1025C9-L1025C104"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Equality(CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0},CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1036C9-L1049C45"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Inequality(CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0},CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1060C9-L1060C33"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1067C71-L1067C81"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Implicit(CommunityToolkit.HighPerformance.Span2D{`0})~CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L1078C9-L1078C100"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetRow(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs#L31C9-L45C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetColumn(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs#L58C9-L71C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs#L82C42-L82C51"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Empty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L522C46-L522C53"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.IsEmpty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L530C16-L530C46"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L539C16-L539C59"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Height",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L555C13-L555C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Width",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L566C16-L566C26"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs#L583C13-L589C61"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(System.Void*,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L141C9-L175C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L211C11-L213C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L234C9-L279C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:])",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L290C9-L313C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L332C9-L384C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:,0:],System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L397C9-L418C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L435C9-L480C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.Clear",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L708C9-L743C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.CopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L754C9-L797C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.CopyTo(CommunityToolkit.HighPerformance.Span2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L809C9-L852C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.TryCopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L861C9-L868C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Span2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L878C9-L886C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.Fill(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L895C9-L930C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.GetPinnableReference",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L942C9-L955C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.DangerousGetReference",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L970C9-L970C106"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.DangerousGetReferenceAt(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L988C9-L992C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1032C9-L1066C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.TryGetSpan(System.Span{`0}@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1098C9-L1144C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.ToArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1153C9-L1182C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.Equals(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1190C9-L1190C120"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.GetHashCode",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1198C9-L1198C119"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1204C9-L1204C96"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.op_Equality(CommunityToolkit.HighPerformance.Span2D{`0},CommunityToolkit.HighPerformance.Span2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1215C9-L1228C45"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.op_Inequality(CommunityToolkit.HighPerformance.Span2D{`0},CommunityToolkit.HighPerformance.Span2D{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1239C9-L1239C33"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.Span2D{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L1246C63-L1246C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.GetRow(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs#L31C9-L45C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.GetColumn(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs#L58C9-L71C64"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs#L82C42-L82C51"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.Empty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L594C38-L594C45"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.IsEmpty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L602C16-L602C46"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L611C16-L611C59"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.Height",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L627C13-L627C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.Width",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L638C16-L638C26"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.Item(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs#L655C13-L661C61"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.Span2D`1.Enumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Span2D`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasFlag(System.UInt32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L32C9-L41C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasLookupFlag(System.UInt32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L89C9-L99C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasZeroByte(System.UInt32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L116C9-L116C70"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasZeroByte(System.UInt64)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L128C9-L128C92"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasByteEqualTo(System.UInt32,System.Byte)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L144C9-L144C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasByteEqualTo(System.UInt64,System.Byte)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L157C9-L157C71"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt32@,System.Int32,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L173C9-L174C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt32,System.Int32,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L193C9-L207C19"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.ExtractRange(System.UInt32,System.Byte,System.Byte)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L234C9-L234C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt32@,System.Byte,System.Byte,System.UInt32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L251C9-L252C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt32,System.Byte,System.Byte,System.UInt32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L269C9-L280C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasFlag(System.UInt64,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L298C9-L300C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasLookupFlag(System.UInt64,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L318C9-L328C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt64@,System.Int32,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L344C9-L345C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt64,System.Int32,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L361C9-L369C19"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.ExtractRange(System.UInt64,System.Byte,System.Byte)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L396C9-L396C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt64@,System.Byte,System.Byte,System.UInt64)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L413C9-L414C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt64,System.Byte,System.Byte,System.UInt64)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs#L431C9-L442C48"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.BitHelper",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/BitHelper.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.HashCode`1.Combine(System.ReadOnlySpan{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/HashCode%7BT%7D.cs#L41C9-L43C39"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.HashCode`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/HashCode%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.DangerousGetObjectDataByteOffset``1(System.Object,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ObjectMarshal.cs#L32C9-L36C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.DangerousGetObjectDataReferenceAt``1(System.Object,System.IntPtr)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ObjectMarshal.cs#L55C9-L60C23"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.TryUnbox``1(System.Object,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ObjectMarshal.cs#L116C9-L125C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.DangerousUnbox``1(System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ObjectMarshal.cs#L139C9-L139C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ObjectMarshal.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs#L100C9-L101C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs#L118C9-L119C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs#L132C9-L133C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32,``0@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs#L150C9-L191C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L105C9-L106C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L122C9-L123C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L135C9-L136C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle,``0@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L153C9-L154C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L168C9-L169C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L188C9-L189C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L204C9-L205C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32,``0@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs#L224C9-L277C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction.cs#L25C9-L26C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction.cs#L43C9-L44C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0},``1@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction.cs#L57C9-L58C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0},``1@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction.cs#L75C9-L110C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction2D.cs#L24C9-L25C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction2D.cs#L42C9-L43C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0},``1@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction2D.cs#L56C9-L57C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0},``1@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction2D.cs#L74C9-L106C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction.cs#L25C9-L26C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction.cs#L43C9-L44C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0},``1@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction.cs#L57C9-L58C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0},``1@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction.cs#L75C9-L110C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction2D.cs#L24C9-L25C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction2D.cs#L42C9-L43C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0},``1@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction2D.cs#L56C9-L57C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0},``1@,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction2D.cs#L74C9-L113C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.ParallelHelper",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.IAction.Invoke(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.IAction",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.IAction2D.Invoke(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.IAction2D",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.For.IAction2D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.IInAction`1.Invoke(`0@|System.Runtime.InteropServices.InAttribute)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.IInAction`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IInAction.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Helpers.IRefAction`1.Invoke(`0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Helpers.IRefAction`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Helpers/ParallelHelper.ForEach.IRefAction.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L216C9-L216C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.CopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L268C9-L280C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.TryCopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L296C9-L307C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.CopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L340C9-L351C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.TryCopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L365C9-L375C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.ToArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L386C9-L399C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.op_Implicit(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})~CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable{`0}",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L414C9-L414C96"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L155C16-L155C27"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L172C13-L187C27"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.#ctor(System.ReadOnlySpan{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L37C9-L39C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L46C66-L46C70"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L55C9-L55C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L73C13-L73C47"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.#ctor(System.ReadOnlySpan{`0},`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanTokenizer%7BT%7D.cs#L48C9-L52C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanTokenizer%7BT%7D.cs#L59C65-L59C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanTokenizer%7BT%7D.cs#L68C9-L100C22"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanTokenizer%7BT%7D.cs#L109C16-L109C66"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanTokenizer%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L192C9-L192C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Clear",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L223C9-L228C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.CopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L278C9-L290C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.TryCopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L306C9-L317C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.CopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L350C9-L361C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.TryCopyTo(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L375C9-L385C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.TryCopyFrom(System.ReadOnlySpan{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L444C9-L454C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Fill(`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L484C9-L489C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.ToArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L506C9-L519C22"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L125C9-L131C13"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Item(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L148C13-L163C27"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.#ctor(System.Span{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L37C9-L39C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L46C58-L46C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L55C9-L55C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L78C13-L78C47"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.#ctor(System.Span{`0},`0)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanTokenizer%7BT%7D.cs#L48C9-L52C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.GetEnumerator",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanTokenizer%7BT%7D.cs#L59C57-L59C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanTokenizer%7BT%7D.cs#L68C9-L94C22"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanTokenizer%7BT%7D.cs#L103C16-L103C66"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanTokenizer%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L60C11-L62C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor(System.Buffers.ArrayPool{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L69C11-L71C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L79C11-L81C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor(System.Buffers.ArrayPool{`0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L89C5-L100C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.System#Buffers#IMemoryOwner<T>#get_Memory",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L115C16-L115C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Clear",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L196C9-L206C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Advance(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L211C9-L229C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.GetMemory(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L234C9-L236C48"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.GetSpan(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L242C9-L244C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.DangerousGetArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L261C9-L268C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Dispose",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L274C9-L284C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L290C9-L297C109"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.System#Buffers#IMemoryOwner<T>#Memory",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L115C16-L115C53"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.WrittenMemory",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L124C13-L131C51"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.WrittenSpan",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L141C13-L148C49"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.WrittenCount",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L156C16-L156C26"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Capacity",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L165C13-L172C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.FreeCapacity",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs#L182C13-L189C47"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/ArrayPoolBufferWriter%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.HighPerformance.Buffers.AllocationMode.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Enums/AllocationMode.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.HighPerformance.Buffers.AllocationMode.Default",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Enums/AllocationMode.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.HighPerformance.Buffers.AllocationMode.Clear",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Enums/AllocationMode.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.AllocationMode",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Enums/AllocationMode.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.Clear",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.WrittenMemory",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.WrittenSpan",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.WrittenCount",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.Capacity",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.FreeCapacity",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.IBuffer`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/Interfaces/IBuffer%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.#ctor(System.Memory{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L43C5-L46C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.Clear",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L86C9-L88C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.Advance(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L93C9-L104C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.GetMemory(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L109C9-L111C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.GetSpan(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L117C9-L119C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L149C9-L155C106"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.WrittenMemory",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L52C16-L52C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.WrittenSpan",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L59C16-L59C53"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.WrittenCount",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L66C16-L66C26"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.Capacity",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L73C16-L73C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.FreeCapacity",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs#L80C16-L80C47"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryBufferWriter%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L97C56-L97C110"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L108C75-L108C114"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32,CommunityToolkit.HighPerformance.Buffers.AllocationMode)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L119C77-L119C113"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0},CommunityToolkit.HighPerformance.Buffers.AllocationMode)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L131C96-L131C117"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.DangerousGetReference",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L206C9-L213C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.DangerousGetArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L230C9-L237C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Slice(System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L256C9-L280C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Dispose",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L286C9-L296C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L305C9-L312C100"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Empty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L86C16-L86C67"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L139C16-L139C27"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Memory",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L148C13-L155C57"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Span",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs#L167C13-L188C57"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/MemoryOwner%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L91C54-L91C108"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L102C73-L102C112"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32,CommunityToolkit.HighPerformance.Buffers.AllocationMode)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L113C75-L113C111"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0},CommunityToolkit.HighPerformance.Buffers.AllocationMode)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L125C94-L125C115"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.DangerousGetReference",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L161C9-L161C55"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.DangerousGetArray",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L177C9-L177C49"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Dispose",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L186C9-L187C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L192C9-L199C98"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Empty",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L80C16-L80C67"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Length",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L133C16-L133C27"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Span",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs#L149C13-L149C52"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/SpanOwner%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L53C11-L55C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.#ctor(System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L61C5-L125C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.Add(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L149C9-L163C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.GetOrAdd(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L172C9-L186C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.GetOrAdd(System.ReadOnlySpan{System.Char})",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L195C9-L209C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.GetOrAdd(System.ReadOnlySpan{System.Byte},System.Text.Encoding)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L219C9-L235C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.TryGet(System.ReadOnlySpan{System.Char},System.String@)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L245C9-L261C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Buffers.StringPool.Reset",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L268C50-L275C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.StringPool.Shared",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L136C39-L136C43"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Buffers.StringPool.Size",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs#L141C23-L141C27"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Buffers.StringPool",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Buffers/StringPool.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock.Dispose",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpinLockExtensions.cs#L76C13-L80C10"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Extensions/SpinLockExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs#L171C13-L190C43"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs#L207C17-L211C54"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/ReadOnlySpan2D%7BT%7D.Enumerator.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Span2D`1.Enumerator.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs#L171C13-L190C43"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Span2D`1.Enumerator.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs#L207C17-L211C54"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Span2D`1.Enumerator",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Memory/Span2D%7BT%7D.Enumerator.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L507C13-L507C50"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs#L522C17-L527C31"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlyRefEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item.#ctor(System.ReadOnlySpan{`0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L131C13-L133C10"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item.Value",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L149C17-L152C31"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item.Index",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs#L170C17-L170C35"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/ReadOnlySpanEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator.MoveNext",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L611C13-L611C50"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator.Current",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs#L626C17-L638C31"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/RefEnumerable%7BT%7D.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item.#ctor(System.Span{`0},System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L136C13-L138C10"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item.Value",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L154C17-L157C31"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item.Index",
+          "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs#L175C17-L175C35"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item",
+      "SourceLink": "https://github.com/CommunityToolkit/dotnet/blob/638b41dad30dffabb123a39aa38eabc7e3721371/src/CommunityToolkit.HighPerformance/Enumerables/SpanEnumerable%7BT%7D.cs"
+    }
+  ]
+}

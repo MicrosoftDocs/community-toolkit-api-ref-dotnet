@@ -1,0 +1,155 @@
+<Type Name="MediaElementState" FullName="CommunityToolkit.Maui.Core.Primitives.MediaElementState">
+  <TypeSignature Language="C#" Value="public enum MediaElementState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MediaElementState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Primitives.MediaElementState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MediaElementState" />
+  <TypeSignature Language="F#" Value="type MediaElementState = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>99.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Represents the different states media can go through.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Buffering">
+      <MemberSignature Language="C#" Value="Buffering" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState Buffering = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Buffering" />
+      <MemberSignature Language="VB.NET" Value="Buffering" />
+      <MemberSignature Language="F#" Value="Buffering = 2" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.Buffering" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The media source is being buffered for playing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState Failed = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 6" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The media failed to open or play.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No current state or state unknown.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Opening">
+      <MemberSignature Language="C#" Value="Opening" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState Opening = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Opening" />
+      <MemberSignature Language="VB.NET" Value="Opening" />
+      <MemberSignature Language="F#" Value="Opening = 1" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.Opening" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The media source is currently being opened.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Paused">
+      <MemberSignature Language="C#" Value="Paused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState Paused = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Paused" />
+      <MemberSignature Language="VB.NET" Value="Paused" />
+      <MemberSignature Language="F#" Value="Paused = 4" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.Paused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The media playing has been paused.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Playing">
+      <MemberSignature Language="C#" Value="Playing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState Playing = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing" />
+      <MemberSignature Language="VB.NET" Value="Playing" />
+      <MemberSignature Language="F#" Value="Playing = 3" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The media is currently being played.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stopped">
+      <MemberSignature Language="C#" Value="Stopped" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.Primitives.MediaElementState Stopped = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Stopped" />
+      <MemberSignature Language="VB.NET" Value="Stopped" />
+      <MemberSignature Language="F#" Value="Stopped = 5" Usage="CommunityToolkit.Maui.Core.Primitives.MediaElementState.Stopped" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.MediaElementState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The media playing has been stopped.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

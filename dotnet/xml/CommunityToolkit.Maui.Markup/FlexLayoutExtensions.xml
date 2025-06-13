@@ -1,0 +1,282 @@
+<Type Name="FlexLayoutExtensions" FullName="CommunityToolkit.Maui.Markup.FlexLayoutExtensions">
+  <TypeSignature Language="C#" Value="public static class FlexLayoutExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FlexLayoutExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.FlexLayoutExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module FlexLayoutExtensions" />
+  <TypeSignature Language="F#" Value="type FlexLayoutExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Flex Layout Extension Methods
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlignSelf&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable AlignSelf&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Layouts.FlexAlignSelf value) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable AlignSelf&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Layouts.FlexAlignSelf value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FlexLayoutExtensions.AlignSelf``1(``0,Microsoft.Maui.Layouts.FlexAlignSelf)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AlignSelf(Of TBindable As BindableObject) (bindable As TBindable, value As FlexAlignSelf) As TBindable" />
+      <MemberSignature Language="F#" Value="static member AlignSelf : 'Bindable * Microsoft.Maui.Layouts.FlexAlignSelf -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.FlexLayoutExtensions.AlignSelf (bindable, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Maui.Layouts.FlexAlignSelf" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="value" />
+        <summary>
+            Set the <see cref="F:Microsoft.Maui.Controls.FlexLayout.AlignSelfProperty" /> that indicates how the child is aligned on the cross axis. Setting this property overrides the <see cref="P:Microsoft.Maui.Controls.FlexLayout.AlignItems" /> property set on the <see cref="T:Microsoft.Maui.Controls.FlexLayout" /> itself
+            </summary>
+        <returns>View with AlignSelf</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Basis&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Basis&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Layouts.FlexBasis value) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Basis&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Layouts.FlexBasis value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Basis``1(``0,Microsoft.Maui.Layouts.FlexBasis)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Basis(Of TBindable As BindableObject) (bindable As TBindable, value As FlexBasis) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Basis : 'Bindable * Microsoft.Maui.Layouts.FlexBasis -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Basis (bindable, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Maui.Layouts.FlexBasis" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="value" />
+        <summary>
+            Set the <see cref="F:Microsoft.Maui.Controls.FlexLayout.BasisProperty" /> that indicates the amount of space that is allocated to a child of the <see cref="T:Microsoft.Maui.Controls.FlexLayout" /> on the main axis. The size can be specified in device-independent units, as a percentage of the size of the <see cref="T:Microsoft.Maui.Controls.FlexLayout" /> or based on the child's requested width or height. 
+            </summary>
+        <returns>View with SetBasis</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Basis&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Basis&lt;TBindable&gt; (this TBindable bindable, float length, bool isRelative) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Basis&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, float32 length, bool isRelative) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Basis``1(``0,System.Single,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Basis(Of TBindable As BindableObject) (bindable As TBindable, length As Single, isRelative As Boolean) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Basis : 'Bindable * single * bool -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Basis (bindable, length, isRelative)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="length" Type="System.Single" />
+        <Parameter Name="isRelative" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="length" />
+        <param name="isRelative" />
+        <summary>
+            Set the <see cref="F:Microsoft.Maui.Controls.FlexLayout.BasisProperty" /> that indicates the amount of space that is allocated to a child of the <see cref="T:Microsoft.Maui.Controls.FlexLayout" /> on the main axis. The size can be specified in device-independent units when <paramref name="isRelative" /> is <see langword="false" />, or as a percentage of the size of the <see cref="T:Microsoft.Maui.Controls.FlexLayout" /> when <paramref name="isRelative" /> is <see langword="true" />. 
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Grow&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Grow&lt;TBindable&gt; (this TBindable bindable, float value) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Grow&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, float32 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Grow``1(``0,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Grow(Of TBindable As BindableObject) (bindable As TBindable, value As Single) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Grow : 'Bindable * single -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Grow (bindable, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="value" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="value" />
+        <summary>
+            Set the <see cref="F:Microsoft.Maui.Controls.FlexLayout.GrowProperty" /> that indicates the amount of available space a child should use on the main axis of the <see cref="T:Microsoft.Maui.Controls.FlexLayout" /></summary>
+        <returns>View with SetGrow</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Order&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Order&lt;TBindable&gt; (this TBindable bindable, int value) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Order&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, int32 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Order``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Order(Of TBindable As BindableObject) (bindable As TBindable, value As Integer) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Order : 'Bindable * int -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Order (bindable, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="value" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="value" />
+        <summary>
+            Set the <see cref="F:Microsoft.Maui.Controls.FlexLayout.OrderProperty" /> that indicates the order a child laid out in a <see cref="T:Microsoft.Maui.Controls.FlexLayout" />. Setting this property overrides the order that it appears in the <see cref="P:Microsoft.Maui.Controls.Layout.Children" /> collection
+            </summary>
+        <returns>View with SetOrder</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shrink&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Shrink&lt;TBindable&gt; (this TBindable bindable, float value) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Shrink&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, float32 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Shrink``1(``0,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Shrink(Of TBindable As BindableObject) (bindable As TBindable, value As Single) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Shrink : 'Bindable * single -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.FlexLayoutExtensions.Shrink (bindable, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="value" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="value" />
+        <summary>
+            Set the <see cref="F:Microsoft.Maui.Controls.FlexLayout.ShrinkProperty" /> that indicates the priority a child is given in being displayed at its full size, when the total sizes of <see cref="P:Microsoft.Maui.Controls.Layout.Children" /> is greater than the size of <see cref="T:Microsoft.Maui.Controls.FlexLayout" /> on its main axis.
+            </summary>
+        <returns>View with SetShrink</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,245 @@
+<Type Name="CameraViewHandler" FullName="CommunityToolkit.Maui.Core.Handlers.CameraViewHandler">
+  <TypeSignature Language="C#" Value="public class CameraViewHandler : Microsoft.Maui.Handlers.ViewHandler&lt;CommunityToolkit.Maui.Core.ICameraView,Microsoft.Maui.IView&gt;, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CameraViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class CommunityToolkit.Maui.Core.ICameraView, class Microsoft.Maui.IView&gt; implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Class CameraViewHandler&#xA;Inherits ViewHandler(Of ICameraView, IView)&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type CameraViewHandler = class&#xA;    inherit ViewHandler&lt;ICameraView, IView&gt;&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Handlers.ViewHandler&lt;CommunityToolkit.Maui.Core.ICameraView,Microsoft.Maui.IView&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">CommunityToolkit.Maui.Core.ICameraView</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">Microsoft.Maui.IView</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Handler definition for the <see cref="T:CommunityToolkit.Maui.Core.ICameraView" /> implementation on each platform.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CameraViewHandler ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CameraViewHandler (Microsoft.Maui.IPropertyMapper? mapper, Microsoft.Maui.CommandMapper? commandMapper);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Handlers.CameraViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; CommunityToolkit.Maui.Core.Handlers.CameraViewHandler" Usage="new CommunityToolkit.Maui.Core.Handlers.CameraViewHandler (mapper, commandMapper)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mapper" Type="Microsoft.Maui.IPropertyMapper" />
+        <Parameter Name="commandMapper" Type="Microsoft.Maui.CommandMapper" />
+      </Parameters>
+      <Docs>
+        <param name="mapper">The custom property mapper to use.</param>
+        <param name="commandMapper">The custom command mapper to use.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler" /> class
+            with custom property and command mappers.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.ICameraView,CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt; CommandMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class CommunityToolkit.Maui.Core.ICameraView, class CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt; CommandMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.CommandMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of ICameraView, CameraViewHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.ICameraView, CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.CommandMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.ICameraView,CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The currently defined mappings between commands on the <see cref="T:CommunityToolkit.Maui.Core.ICameraView" /> and
+            commands on the <see cref="T:Microsoft.Maui.IView" />. 
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectHandler">
+      <MemberSignature Language="C#" Value="protected override void ConnectHandler (Microsoft.Maui.IView platformView);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ConnectHandler(class Microsoft.Maui.IView platformView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.ConnectHandler(Microsoft.Maui.IView)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ConnectHandler (platformView As IView)" />
+      <MemberSignature Language="F#" Value="override this.ConnectHandler : Microsoft.Maui.IView -&gt; unit" Usage="cameraViewHandler.ConnectHandler platformView" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="platformView" Type="Microsoft.Maui.IView" />
+      </Parameters>
+      <Docs>
+        <param name="platformView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePlatformView">
+      <MemberSignature Language="C#" Value="protected override Microsoft.Maui.IView CreatePlatformView ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Maui.IView CreatePlatformView() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.CreatePlatformView" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As IView" />
+      <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; Microsoft.Maui.IView" Usage="cameraViewHandler.CreatePlatformView " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a platform-specific view that will be rendered on that platform.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisconnectHandler">
+      <MemberSignature Language="C#" Value="protected override void DisconnectHandler (Microsoft.Maui.IView platformView);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DisconnectHandler(class Microsoft.Maui.IView platformView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.DisconnectHandler(Microsoft.Maui.IView)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DisconnectHandler (platformView As IView)" />
+      <MemberSignature Language="F#" Value="override this.DisconnectHandler : Microsoft.Maui.IView -&gt; unit" Usage="cameraViewHandler.DisconnectHandler platformView" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="platformView" Type="Microsoft.Maui.IView" />
+      </Parameters>
+      <Docs>
+        <param name="platformView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="cameraViewHandler.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="cameraViewHandler.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">
+          <c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
+        <summary>
+            Releases the unmanaged resources used by the <see cref="T:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler" /> and optionally releases the managed resources.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.ICameraView,CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt; PropertyMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class CommunityToolkit.Maui.Core.ICameraView, class CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt; PropertyMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.PropertyMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared PropertyMapper As IPropertyMapper(Of ICameraView, CameraViewHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable PropertyMapper : Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.ICameraView, CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.PropertyMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.ICameraView,CommunityToolkit.Maui.Core.Handlers.CameraViewHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The currently defined mappings between properties on the <see cref="T:CommunityToolkit.Maui.Core.ICameraView" /> and
+            properties on the <see cref="T:Microsoft.Maui.IView" />. 
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

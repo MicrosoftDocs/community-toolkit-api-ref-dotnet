@@ -1,0 +1,739 @@
+<Type Name="ServiceCollectionExtensions" FullName="CommunityToolkit.Maui.ServiceCollectionExtensions">
+  <TypeSignature Language="C#" Value="public static class ServiceCollectionExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ServiceCollectionExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.ServiceCollectionExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ServiceCollectionExtensions" />
+  <TypeSignature Language="F#" Value="type ServiceCollectionExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods for registering Views and ViewModels in <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddScoped&lt;TView,TViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddScoped&lt;TView,TViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TView : Microsoft.Maui.Controls.BindableObject where TViewModel : class, System.ComponentModel.INotifyPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddScoped&lt;(class Microsoft.Maui.Controls.BindableObject) TView, class (class System.ComponentModel.INotifyPropertyChanged) TViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddScoped(Of TView As BindableObject, TViewModel As BindableObject) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddScoped : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'ViewModel : null and 'ViewModel :&gt; System.ComponentModel.INotifyPropertyChanged)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddScoped services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView">The type of the View to add. Constrained to <see cref="T:Microsoft.Maui.Controls.BindableObject" /></typeparam>
+        <typeparam name="TViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.BindableObject" /> of the type specified in <typeparamref name="TView" /> and a ViewModel
+            of the type specified in <typeparamref name="TViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>Developers are still responsible for assigning the injected instance of <typeparamref name="TViewModel" /> 
+            to the BindingContext property of <typeparamref name="TView" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddScopedPopup&lt;TPopupView&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddScopedPopup&lt;TPopupView&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TPopupView : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddScopedPopup&lt;(class Microsoft.Maui.IView) TPopupView&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddScopedPopup``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddScopedPopup(Of TPopupView As IView) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddScopedPopup : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'PopupView :&gt; Microsoft.Maui.IView)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddScopedPopup services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TPopupView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TPopupView">The type of the Popup to add. Constrained to <see cref="T:Microsoft.Maui.IView" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.View" /> of the type specified in <typeparamref name="TPopupView" /> and a ViewModel
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddScopedPopup&lt;TPopupView,TPopupViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddScopedPopup&lt;TPopupView,TPopupViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TPopupView : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddScopedPopup&lt;(class Microsoft.Maui.IView) TPopupView, TPopupViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddScopedPopup``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddScopedPopup(Of TPopupView As IView, TPopupViewModel As IView) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddScopedPopup : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'PopupView :&gt; Microsoft.Maui.IView)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddScopedPopup services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TPopupView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TPopupViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TPopupView">The type of the Popup to add. Constrained to <see cref="T:Microsoft.Maui.IView" /></typeparam>
+        <typeparam name="TPopupViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.View" /> of the type specified in <typeparamref name="TPopupView" /> and a ViewModel
+            of the type specified in <typeparamref name="TPopupViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddScopedWithShellRoute&lt;TView,TViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddScopedWithShellRoute&lt;TView,TViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services, string route, Microsoft.Maui.Controls.RouteFactory? factory = default) where TView : Microsoft.Maui.Controls.NavigableElement where TViewModel : class, System.ComponentModel.INotifyPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddScopedWithShellRoute&lt;(class Microsoft.Maui.Controls.NavigableElement) TView, class (class System.ComponentModel.INotifyPropertyChanged) TViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services, string route, class Microsoft.Maui.Controls.RouteFactory factory) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddScopedWithShellRoute``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Microsoft.Maui.Controls.RouteFactory)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddScopedWithShellRoute(Of TView As NavigableElement, TViewModel As NavigableElement) (services As IServiceCollection, route As String, Optional factory As RouteFactory = Nothing) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddScopedWithShellRoute : Microsoft.Extensions.DependencyInjection.IServiceCollection * string * Microsoft.Maui.Controls.RouteFactory -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'View :&gt; Microsoft.Maui.Controls.NavigableElement and 'ViewModel : null and 'ViewModel :&gt; System.ComponentModel.INotifyPropertyChanged)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddScopedWithShellRoute (services, route, factory)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.NavigableElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+        <Parameter Name="route" Type="System.String" />
+        <Parameter Name="factory" Type="Microsoft.Maui.Controls.RouteFactory">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TView">The type of the View to add. Constrained to <see cref="T:Microsoft.Maui.Controls.NavigableElement" /></typeparam>
+        <typeparam name="TViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <param name="route">Route at which this page will be registered within Shell routing.</param>
+        <param name="factory">RouteFactory to be used while creating the <see cref="T:Microsoft.Maui.Controls.NavigableElement" /> 
+            for the route. Defaults to TypeRouteFactory.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.NavigableElement" /> of the type specified in <typeparamref name="TView" /> and a ViewModel
+            of the type specified in <typeparamref name="TViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime
+            and registers a MAUI Shell route in <see cref="T:Microsoft.Maui.Controls.Routing" /> using the value of 
+            <paramref name="route" /> as the route.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>Developers are still responsible for assigning the injected instance of <typeparamref name="TViewModel" /> 
+            to the BindingContext property of <typeparamref name="TView" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSingleton&lt;TView,TViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingleton&lt;TView,TViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TView : Microsoft.Maui.Controls.BindableObject where TViewModel : class, System.ComponentModel.INotifyPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingleton&lt;(class Microsoft.Maui.Controls.BindableObject) TView, class (class System.ComponentModel.INotifyPropertyChanged) TViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingleton``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSingleton(Of TView As BindableObject, TViewModel As BindableObject) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddSingleton : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'ViewModel : null and 'ViewModel :&gt; System.ComponentModel.INotifyPropertyChanged)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingleton services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView">The type of the View to add. Constrained to <see cref="T:Microsoft.Maui.Controls.BindableObject" /></typeparam>
+        <typeparam name="TViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.BindableObject" /> of the type specified in <typeparamref name="TView" /> and a ViewModel
+            of the type specified in <typeparamref name="TViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>Developers are still responsible for assigning the injected instance of <typeparamref name="TViewModel" /> 
+            to the BindingContext property of <typeparamref name="TView" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSingletonPopup&lt;TPopupView&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingletonPopup&lt;TPopupView&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TPopupView : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingletonPopup&lt;(class Microsoft.Maui.IView) TPopupView&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingletonPopup``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSingletonPopup(Of TPopupView As IView) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddSingletonPopup : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'PopupView :&gt; Microsoft.Maui.IView)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingletonPopup services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TPopupView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TPopupView">The type of the Popup to add. Constrained to <see cref="T:Microsoft.Maui.IView" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.View" /> of the type specified in <typeparamref name="TPopupView" /> and a ViewModel
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSingletonPopup&lt;TPopupView,TPopupViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingletonPopup&lt;TPopupView,TPopupViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TPopupView : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingletonPopup&lt;(class Microsoft.Maui.IView) TPopupView, TPopupViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingletonPopup``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSingletonPopup(Of TPopupView As IView, TPopupViewModel As IView) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddSingletonPopup : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'PopupView :&gt; Microsoft.Maui.IView)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingletonPopup services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TPopupView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TPopupViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TPopupView">The type of the Popup to add. Constrained to <see cref="T:Microsoft.Maui.IView" /></typeparam>
+        <typeparam name="TPopupViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.View" /> of the type specified in <typeparamref name="TPopupView" /> and a ViewModel
+            of the type specified in <typeparamref name="TPopupViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSingletonWithShellRoute&lt;TView,TViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingletonWithShellRoute&lt;TView,TViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services, string route, Microsoft.Maui.Controls.RouteFactory? factory = default) where TView : Microsoft.Maui.Controls.NavigableElement where TViewModel : class, System.ComponentModel.INotifyPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddSingletonWithShellRoute&lt;(class Microsoft.Maui.Controls.NavigableElement) TView, class (class System.ComponentModel.INotifyPropertyChanged) TViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services, string route, class Microsoft.Maui.Controls.RouteFactory factory) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingletonWithShellRoute``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Microsoft.Maui.Controls.RouteFactory)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSingletonWithShellRoute(Of TView As NavigableElement, TViewModel As NavigableElement) (services As IServiceCollection, route As String, Optional factory As RouteFactory = Nothing) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddSingletonWithShellRoute : Microsoft.Extensions.DependencyInjection.IServiceCollection * string * Microsoft.Maui.Controls.RouteFactory -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'View :&gt; Microsoft.Maui.Controls.NavigableElement and 'ViewModel : null and 'ViewModel :&gt; System.ComponentModel.INotifyPropertyChanged)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddSingletonWithShellRoute (services, route, factory)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.NavigableElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+        <Parameter Name="route" Type="System.String" />
+        <Parameter Name="factory" Type="Microsoft.Maui.Controls.RouteFactory">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TView">The type of the View to add. Constrained to <see cref="T:Microsoft.Maui.Controls.NavigableElement" /></typeparam>
+        <typeparam name="TViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <param name="route">Route at which this page will be registered within Shell routing.</param>
+        <param name="factory">RouteFactory to be used while creating the <see cref="T:Microsoft.Maui.Controls.NavigableElement" /> 
+            for the route. Defaults to TypeRouteFactory.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.NavigableElement" /> of the type specified in <typeparamref name="TView" /> and a ViewModel
+            of the type specified in <typeparamref name="TViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime
+            and registers a MAUI Shell route in <see cref="T:Microsoft.Maui.Controls.Routing" /> using the value of 
+            <paramref name="route" /> as the route.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>Developers are still responsible for assigning the injected instance of <typeparamref name="TViewModel" /> 
+            to the BindingContext property of <typeparamref name="TView" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTransient&lt;TView,TViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransient&lt;TView,TViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TView : Microsoft.Maui.Controls.BindableObject where TViewModel : class, System.ComponentModel.INotifyPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransient&lt;(class Microsoft.Maui.Controls.BindableObject) TView, class (class System.ComponentModel.INotifyPropertyChanged) TViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddTransient(Of TView As BindableObject, TViewModel As BindableObject) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddTransient : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'ViewModel : null and 'ViewModel :&gt; System.ComponentModel.INotifyPropertyChanged)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransient services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TView">The type of the View to add. Constrained to <see cref="T:Microsoft.Maui.Controls.BindableObject" /></typeparam>
+        <typeparam name="TViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.BindableObject" /> of the type specified in <typeparamref name="TView" /> and a ViewModel
+            of the type specified in <typeparamref name="TViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>Developers are still responsible for assigning the injected instance of 
+            <typeparamref name="TViewModel" />
+            to the BindingContext property of <typeparamref name="TView" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTransientPopup&lt;TPopupView&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransientPopup&lt;TPopupView&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TPopupView : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransientPopup&lt;(class Microsoft.Maui.IView) TPopupView&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransientPopup``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddTransientPopup(Of TPopupView As IView) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddTransientPopup : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'PopupView :&gt; Microsoft.Maui.IView)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransientPopup services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TPopupView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TPopupView">The type of the Popup to add. Constrained to <see cref="T:Microsoft.Maui.IView" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.View" /> of the type specified in <typeparamref name="TPopupView" /><see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTransientPopup&lt;TPopupView,TPopupViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransientPopup&lt;TPopupView,TPopupViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services) where TPopupView : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransientPopup&lt;(class Microsoft.Maui.IView) TPopupView, TPopupViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransientPopup``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddTransientPopup(Of TPopupView As IView, TPopupViewModel As IView) (services As IServiceCollection) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddTransientPopup : Microsoft.Extensions.DependencyInjection.IServiceCollection -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'PopupView :&gt; Microsoft.Maui.IView)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransientPopup services" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TPopupView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TPopupViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TPopupView">The type of the Popup to add. Constrained to <see cref="T:Microsoft.Maui.IView" /></typeparam>
+        <typeparam name="TPopupViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.View" /> of the type specified in <typeparamref name="TPopupView" /> and a ViewModel
+            of the type specified in <typeparamref name="TPopupViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTransientWithShellRoute&lt;TView,TViewModel&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransientWithShellRoute&lt;TView,TViewModel&gt; (this Microsoft.Extensions.DependencyInjection.IServiceCollection services, string route, Microsoft.Maui.Controls.RouteFactory? factory = default) where TView : Microsoft.Maui.Controls.NavigableElement where TViewModel : class, System.ComponentModel.INotifyPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection AddTransientWithShellRoute&lt;(class Microsoft.Maui.Controls.NavigableElement) TView, class (class System.ComponentModel.INotifyPropertyChanged) TViewModel&gt;(class Microsoft.Extensions.DependencyInjection.IServiceCollection services, string route, class Microsoft.Maui.Controls.RouteFactory factory) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransientWithShellRoute``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Microsoft.Maui.Controls.RouteFactory)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddTransientWithShellRoute(Of TView As NavigableElement, TViewModel As NavigableElement) (services As IServiceCollection, route As String, Optional factory As RouteFactory = Nothing) As IServiceCollection" />
+      <MemberSignature Language="F#" Value="static member AddTransientWithShellRoute : Microsoft.Extensions.DependencyInjection.IServiceCollection * string * Microsoft.Maui.Controls.RouteFactory -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection (requires 'View :&gt; Microsoft.Maui.Controls.NavigableElement and 'ViewModel : null and 'ViewModel :&gt; System.ComponentModel.INotifyPropertyChanged)" Usage="CommunityToolkit.Maui.ServiceCollectionExtensions.AddTransientWithShellRoute (services, route, factory)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.NavigableElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TViewModel">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" />
+        <Parameter Name="route" Type="System.String" />
+        <Parameter Name="factory" Type="Microsoft.Maui.Controls.RouteFactory">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TView">The type of the View to add. Constrained to <see cref="T:Microsoft.Maui.Controls.NavigableElement" /></typeparam>
+        <typeparam name="TViewModel">The type of the ViewModel to add. Constrained to 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged" /></typeparam>
+        <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> to add the service to.</param>
+        <param name="route">Route at which this page will be registered within Shell routing.</param>
+        <param name="factory">RouteFactory to be used while creating the <see cref="T:Microsoft.Maui.Controls.NavigableElement" /> 
+            for the route. Defaults to TypeRouteFactory.</param>
+        <summary>
+            Adds a <see cref="T:Microsoft.Maui.Controls.NavigableElement" /> of the type specified in <typeparamref name="TView" /> and a ViewModel
+            of the type specified in <typeparamref name="TViewModel" /> to the specified
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> with <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime
+            and registers a MAUI Shell route in <see cref="T:Microsoft.Maui.Controls.Routing" /> using the value of 
+            <paramref name="route" /> as the route.
+            </summary>
+        <returns>A reference to this instance after the operation has completed.</returns>
+        <remarks>Developers are still responsible for assigning the injected instance of <typeparamref name="TViewModel" /> 
+            to the BindingContext property of <typeparamref name="TView" />.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

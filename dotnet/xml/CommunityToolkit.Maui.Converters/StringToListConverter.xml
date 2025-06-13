@@ -1,0 +1,188 @@
+<Type Name="StringToListConverter" FullName="CommunityToolkit.Maui.Converters.StringToListConverter">
+  <TypeSignature Language="C#" Value="public class StringToListConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;string,System.Collections.IEnumerable,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StringToListConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`3&lt;string, class System.Collections.IEnumerable, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.StringToListConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class StringToListConverter&#xA;Inherits BaseConverterOneWay(Of String, IEnumerable, Object)" />
+  <TypeSignature Language="F#" Value="type StringToListConverter = class&#xA;    inherit BaseConverterOneWay&lt;string, IEnumerable, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;System.String,System.Collections.IEnumerable,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Collections.IEnumerable</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 1, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 1, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Returns a string array that contains the substrings in this string that are delimited by <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separator" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StringToListConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.StringToListConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;string&gt; ConvertFrom (string? value, object? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; ConvertFrom(string value, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.StringToListConverter.ConvertFrom(System.String,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertFrom (value As String, Optional parameter As Object = Nothing, Optional culture As CultureInfo = Nothing) As IEnumerable(Of String)" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : string * obj * System.Globalization.CultureInfo -&gt; seq&lt;string&gt;" Usage="stringToListConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.PreserveBaseOverrides]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.PreserveBaseOverrides&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The string to split.</param>
+        <param name="parameter">The string or strings that delimits the substrings in this string. This overrides the value in <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separator" /> and <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separators" />.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Returns a string array that contains the substrings in this string that are delimited by <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separators" />.
+            </summary>
+        <returns>An array whose elements contain the substrings in this string that are delimited by <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separator" /> or, if set, <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separators" /> or, if set, <paramref name="parameter" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override System.Collections.IEnumerable DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IEnumerable DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.StringToListConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As IEnumerable" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : System.Collections.IEnumerable with get, set" Usage="CommunityToolkit.Maui.Converters.StringToListConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerable</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Separator">
+      <MemberSignature Language="C#" Value="public string Separator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Separator" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Separator As String" />
+      <MemberSignature Language="F#" Value="member this.Separator : string with get, set" Usage="CommunityToolkit.Maui.Converters.StringToListConverter.Separator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The string that delimits the substrings in this string
+            This value is superseded by the ConverterParameter, if provided
+            This value is also superseded by <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separators" />, if provided
+            If ConverterParameter is null and <see cref="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separators" /> is not assigned, this property will be used to delimit the substrings
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Separators">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Separators { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Separators" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.StringToListConverter.Separators" />
+      <MemberSignature Language="VB.NET" Value="Public Property Separators As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Separators : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="CommunityToolkit.Maui.Converters.StringToListConverter.Separators" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The strings that delimit the substrings in this string
+            This value is superseded by the ConverterParameter, if provided
+            If ConverterParameter is null, this property will be used to delimit the substrings
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SplitOptions">
+      <MemberSignature Language="C#" Value="public StringSplitOptions SplitOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.StringSplitOptions SplitOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.StringToListConverter.SplitOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property SplitOptions As StringSplitOptions" />
+      <MemberSignature Language="F#" Value="member this.SplitOptions : StringSplitOptions with get, set" Usage="CommunityToolkit.Maui.Converters.StringToListConverter.SplitOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.StringSplitOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A bitwise combination of the enumeration values that specifies whether to trim substrings and include empty substrings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

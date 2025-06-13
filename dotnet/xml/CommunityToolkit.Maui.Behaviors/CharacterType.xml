@@ -1,0 +1,235 @@
+<Type Name="CharacterType" FullName="CommunityToolkit.Maui.Behaviors.CharacterType">
+  <TypeSignature Language="C#" Value="public enum CharacterType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CharacterType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.CharacterType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CharacterType" />
+  <TypeSignature Language="F#" Value="type CharacterType = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The allowed character types used to determine if a value is valid in the <see cref="T:CommunityToolkit.Maui.Behaviors.CharactersValidationBehavior" />. Since this is a flag, multiple flags cane be combined.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alphanumeric">
+      <MemberSignature Language="C#" Value="Alphanumeric" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType Alphanumeric = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.Alphanumeric" />
+      <MemberSignature Language="VB.NET" Value="Alphanumeric" />
+      <MemberSignature Language="F#" Value="Alphanumeric = 7" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.Alphanumeric" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Characters and digits are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Any">
+      <MemberSignature Language="C#" Value="Any" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType Any = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.Any" />
+      <MemberSignature Language="VB.NET" Value="Any" />
+      <MemberSignature Language="F#" Value="Any = 31" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.Any" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>Any type of character or digit either lowercase or uppercase, latin or non-latin is allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Digit">
+      <MemberSignature Language="C#" Value="Digit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType Digit = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.Digit" />
+      <MemberSignature Language="VB.NET" Value="Digit" />
+      <MemberSignature Language="F#" Value="Digit = 4" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.Digit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Digits are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LatinLetter">
+      <MemberSignature Language="C#" Value="LatinLetter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType LatinLetter = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.LatinLetter" />
+      <MemberSignature Language="VB.NET" Value="LatinLetter" />
+      <MemberSignature Language="F#" Value="LatinLetter = 96" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.LatinLetter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>Either latin lowercase characters or latin uppercase characters are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Letter">
+      <MemberSignature Language="C#" Value="Letter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType Letter = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.Letter" />
+      <MemberSignature Language="VB.NET" Value="Letter" />
+      <MemberSignature Language="F#" Value="Letter = 3" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.Letter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Either lowercase characters or uppercase characters are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LowercaseLatinLetter">
+      <MemberSignature Language="C#" Value="LowercaseLatinLetter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType LowercaseLatinLetter = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.LowercaseLatinLetter" />
+      <MemberSignature Language="VB.NET" Value="LowercaseLatinLetter" />
+      <MemberSignature Language="F#" Value="LowercaseLatinLetter = 32" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.LowercaseLatinLetter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>Lowercase latin characters are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LowercaseLetter">
+      <MemberSignature Language="C#" Value="LowercaseLetter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType LowercaseLetter = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.LowercaseLetter" />
+      <MemberSignature Language="VB.NET" Value="LowercaseLetter" />
+      <MemberSignature Language="F#" Value="LowercaseLetter = 1" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.LowercaseLetter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Lowercase characters are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonAlphanumericSymbol">
+      <MemberSignature Language="C#" Value="NonAlphanumericSymbol" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType NonAlphanumericSymbol = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.NonAlphanumericSymbol" />
+      <MemberSignature Language="VB.NET" Value="NonAlphanumericSymbol" />
+      <MemberSignature Language="F#" Value="NonAlphanumericSymbol = 16" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.NonAlphanumericSymbol" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Non-alphanumeric symbols are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UppercaseLatinLetter">
+      <MemberSignature Language="C#" Value="UppercaseLatinLetter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType UppercaseLatinLetter = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.UppercaseLatinLetter" />
+      <MemberSignature Language="VB.NET" Value="UppercaseLatinLetter" />
+      <MemberSignature Language="F#" Value="UppercaseLatinLetter = 64" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.UppercaseLatinLetter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>Uppercase latin characters are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UppercaseLetter">
+      <MemberSignature Language="C#" Value="UppercaseLetter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType UppercaseLetter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.UppercaseLetter" />
+      <MemberSignature Language="VB.NET" Value="UppercaseLetter" />
+      <MemberSignature Language="F#" Value="UppercaseLetter = 2" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.UppercaseLetter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Uppercase characters are allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Whitespace">
+      <MemberSignature Language="C#" Value="Whitespace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.CharacterType Whitespace = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.CharacterType.Whitespace" />
+      <MemberSignature Language="VB.NET" Value="Whitespace" />
+      <MemberSignature Language="F#" Value="Whitespace = 8" Usage="CommunityToolkit.Maui.Behaviors.CharacterType.Whitespace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.CharacterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Whitespace is allowed.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
