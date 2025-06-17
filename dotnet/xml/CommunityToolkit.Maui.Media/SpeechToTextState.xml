@@ -1,0 +1,85 @@
+<Type Name="SpeechToTextState" FullName="CommunityToolkit.Maui.Media.SpeechToTextState">
+  <TypeSignature Language="C#" Value="public enum SpeechToTextState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SpeechToTextState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Media.SpeechToTextState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SpeechToTextState" />
+  <TypeSignature Language="F#" Value="type SpeechToTextState = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Speech To Text listening state
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Listening">
+      <MemberSignature Language="C#" Value="Listening" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Media.SpeechToTextState Listening = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Media.SpeechToTextState.Listening" />
+      <MemberSignature Language="VB.NET" Value="Listening" />
+      <MemberSignature Language="F#" Value="Listening = 1" Usage="CommunityToolkit.Maui.Media.SpeechToTextState.Listening" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Media.SpeechToTextState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Listening is active
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Silence">
+      <MemberSignature Language="C#" Value="Silence" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Media.SpeechToTextState Silence = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Media.SpeechToTextState.Silence" />
+      <MemberSignature Language="VB.NET" Value="Silence" />
+      <MemberSignature Language="F#" Value="Silence = 2" Usage="CommunityToolkit.Maui.Media.SpeechToTextState.Silence" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Media.SpeechToTextState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Listening is active, but no sound is detected
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stopped">
+      <MemberSignature Language="C#" Value="Stopped" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Media.SpeechToTextState Stopped = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Media.SpeechToTextState.Stopped" />
+      <MemberSignature Language="VB.NET" Value="Stopped" />
+      <MemberSignature Language="F#" Value="Stopped = 0" Usage="CommunityToolkit.Maui.Media.SpeechToTextState.Stopped" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Media.SpeechToTextState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Listening is stopped
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,548 @@
+<Type Name="ItemsViewExtensions" FullName="CommunityToolkit.Maui.Markup.ItemsViewExtensions">
+  <TypeSignature Language="C#" Value="public static class ItemsViewExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ItemsViewExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.ItemsViewExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ItemsViewExtensions" />
+  <TypeSignature Language="F#" Value="type ItemsViewExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Fluent extension methods for <see cref="T:Microsoft.Maui.Controls.ItemsView" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EmptyView&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView EmptyView&lt;TItemsView&gt; (this TItemsView itemsView, object view) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView EmptyView&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, object view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.EmptyView``1(``0,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EmptyView(Of TItemsView As ItemsView) (itemsView As TItemsView, view As Object) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member EmptyView : 'ItemsView * obj -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.EmptyView (itemsView, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="view" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="view" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.EmptyView" /> property
+            </summary>
+        <returns>ItemsView with Empty View</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyViewTemplate&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView EmptyViewTemplate&lt;TItemsView&gt; (this TItemsView itemsView, Microsoft.Maui.Controls.DataTemplate view) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView EmptyViewTemplate&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, class Microsoft.Maui.Controls.DataTemplate view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.EmptyViewTemplate``1(``0,Microsoft.Maui.Controls.DataTemplate)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EmptyViewTemplate(Of TItemsView As ItemsView) (itemsView As TItemsView, view As DataTemplate) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member EmptyViewTemplate : 'ItemsView * Microsoft.Maui.Controls.DataTemplate -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.EmptyViewTemplate (itemsView, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.DataTemplate" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="view" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.EmptyViewTemplate" /> property
+            </summary>
+        <returns>ItemsView with Empty View Template</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalScrollBarVisibility&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView HorizontalScrollBarVisibility&lt;TItemsView&gt; (this TItemsView itemsView, Microsoft.Maui.ScrollBarVisibility visibility) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView HorizontalScrollBarVisibility&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, valuetype Microsoft.Maui.ScrollBarVisibility visibility) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.HorizontalScrollBarVisibility``1(``0,Microsoft.Maui.ScrollBarVisibility)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function HorizontalScrollBarVisibility(Of TItemsView As ItemsView) (itemsView As TItemsView, visibility As ScrollBarVisibility) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member HorizontalScrollBarVisibility : 'ItemsView * Microsoft.Maui.ScrollBarVisibility -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.HorizontalScrollBarVisibility (itemsView, visibility)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="visibility" Type="Microsoft.Maui.ScrollBarVisibility" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="visibility" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.HorizontalScrollBarVisibility" /> property
+            </summary>
+        <returns>ItemsView with updated Horiztonal Scroll Bar Visibility</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsSource&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView ItemsSource&lt;TItemsView&gt; (this TItemsView itemsView, System.Collections.IEnumerable itemsSource) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView ItemsSource&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, class System.Collections.IEnumerable itemsSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.ItemsSource``1(``0,System.Collections.IEnumerable)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemsSource(Of TItemsView As ItemsView) (itemsView As TItemsView, itemsSource As IEnumerable) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member ItemsSource : 'ItemsView * System.Collections.IEnumerable -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.ItemsSource (itemsView, itemsSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="itemsSource" Type="System.Collections.IEnumerable" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="itemsSource" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.ItemsSource" /> property
+            </summary>
+        <returns>ItemsView with ItemSource</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsUpdatingScrollMode&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView ItemsUpdatingScrollMode&lt;TItemsView&gt; (this TItemsView itemsView, Microsoft.Maui.Controls.ItemsUpdatingScrollMode mode) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView ItemsUpdatingScrollMode&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, valuetype Microsoft.Maui.Controls.ItemsUpdatingScrollMode mode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.ItemsUpdatingScrollMode``1(``0,Microsoft.Maui.Controls.ItemsUpdatingScrollMode)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemsUpdatingScrollMode(Of TItemsView As ItemsView) (itemsView As TItemsView, mode As ItemsUpdatingScrollMode) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member ItemsUpdatingScrollMode : 'ItemsView * Microsoft.Maui.Controls.ItemsUpdatingScrollMode -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.ItemsUpdatingScrollMode (itemsView, mode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.ItemsUpdatingScrollMode" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="mode" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.ItemsUpdatingScrollMode" /> property
+            </summary>
+        <returns>ItemsView with updated ItemsUpdatingScrollMode</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTemplate&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView ItemTemplate&lt;TItemsView&gt; (this TItemsView itemsView, Microsoft.Maui.Controls.DataTemplate template) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView ItemTemplate&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, class Microsoft.Maui.Controls.DataTemplate template) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.ItemTemplate``1(``0,Microsoft.Maui.Controls.DataTemplate)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemTemplate(Of TItemsView As ItemsView) (itemsView As TItemsView, template As DataTemplate) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member ItemTemplate : 'ItemsView * Microsoft.Maui.Controls.DataTemplate -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.ItemTemplate (itemsView, template)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="template" Type="Microsoft.Maui.Controls.DataTemplate" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="template" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.ItemTemplate" /> property
+            </summary>
+        <returns>ItemsView with updated Item Template</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemainingItemsThreshold&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView RemainingItemsThreshold&lt;TItemsView&gt; (this TItemsView itemsView, int threshold) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView RemainingItemsThreshold&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, int32 threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThreshold``1(``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RemainingItemsThreshold(Of TItemsView As ItemsView) (itemsView As TItemsView, threshold As Integer) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member RemainingItemsThreshold : 'ItemsView * int -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThreshold (itemsView, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="threshold" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="threshold" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.RemainingItemsThreshold" /> property
+            </summary>
+        <returns>ItemsView with updated Remaining Items Threshold</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemainingItemsThresholdReachedCommand&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView RemainingItemsThresholdReachedCommand&lt;TItemsView&gt; (this TItemsView itemsView, System.Windows.Input.ICommand command) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView RemainingItemsThresholdReachedCommand&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, class System.Windows.Input.ICommand command) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThresholdReachedCommand``1(``0,System.Windows.Input.ICommand)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RemainingItemsThresholdReachedCommand(Of TItemsView As ItemsView) (itemsView As TItemsView, command As ICommand) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member RemainingItemsThresholdReachedCommand : 'ItemsView * System.Windows.Input.ICommand -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThresholdReachedCommand (itemsView, command)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="command" Type="System.Windows.Input.ICommand" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="command" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.RemainingItemsThresholdReachedCommand" /> property
+            </summary>
+        <returns>ItemsView with updated Remaining Items Threshold Reached Command</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemainingItemsThresholdReachedCommand&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView RemainingItemsThresholdReachedCommand&lt;TItemsView&gt; (this TItemsView itemsView, System.Windows.Input.ICommand command, object? parameter) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView RemainingItemsThresholdReachedCommand&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, class System.Windows.Input.ICommand command, object parameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThresholdReachedCommand``1(``0,System.Windows.Input.ICommand,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RemainingItemsThresholdReachedCommand(Of TItemsView As ItemsView) (itemsView As TItemsView, command As ICommand, parameter As Object) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member RemainingItemsThresholdReachedCommand : 'ItemsView * System.Windows.Input.ICommand * obj -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThresholdReachedCommand (itemsView, command, parameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="command" Type="System.Windows.Input.ICommand" />
+        <Parameter Name="parameter" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="command" />
+        <param name="parameter" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.RemainingItemsThresholdReachedCommand" />  ans <see cref="P:Microsoft.Maui.Controls.ItemsView.RemainingItemsThresholdReachedCommandParameter" />properties
+            </summary>
+        <returns>ItemsView with updated Remaining Items Threshold Reached Command + CommandParameter</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemainingItemsThresholdReachedCommandParameter&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView RemainingItemsThresholdReachedCommandParameter&lt;TItemsView&gt; (this TItemsView itemsView, object? parameter) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView RemainingItemsThresholdReachedCommandParameter&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, object parameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThresholdReachedCommandParameter``1(``0,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RemainingItemsThresholdReachedCommandParameter(Of TItemsView As ItemsView) (itemsView As TItemsView, parameter As Object) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member RemainingItemsThresholdReachedCommandParameter : 'ItemsView * obj -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.RemainingItemsThresholdReachedCommandParameter (itemsView, parameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="parameter" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="parameter" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.RemainingItemsThresholdReachedCommandParameter" /> property
+            </summary>
+        <returns>ItemsView with updated Remaining Items Threshold Reached Command Parameter</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollBarVisibility&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView ScrollBarVisibility&lt;TItemsView&gt; (this TItemsView itemsView, Microsoft.Maui.ScrollBarVisibility visibility) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView ScrollBarVisibility&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, valuetype Microsoft.Maui.ScrollBarVisibility visibility) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.ScrollBarVisibility``1(``0,Microsoft.Maui.ScrollBarVisibility)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ScrollBarVisibility(Of TItemsView As ItemsView) (itemsView As TItemsView, visibility As ScrollBarVisibility) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member ScrollBarVisibility : 'ItemsView * Microsoft.Maui.ScrollBarVisibility -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.ScrollBarVisibility (itemsView, visibility)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="visibility" Type="Microsoft.Maui.ScrollBarVisibility" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="visibility" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.VerticalScrollBarVisibility" /> and <see cref="P:Microsoft.Maui.Controls.ItemsView.HorizontalScrollBarVisibility" /> properties
+            </summary>
+        <returns>ItemsView with updated Horiztonal + Vertical Scroll Bar Visibility</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalScrollBarVisibility&lt;TItemsView&gt;">
+      <MemberSignature Language="C#" Value="public static TItemsView VerticalScrollBarVisibility&lt;TItemsView&gt; (this TItemsView itemsView, Microsoft.Maui.ScrollBarVisibility visibility) where TItemsView : Microsoft.Maui.Controls.ItemsView;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItemsView VerticalScrollBarVisibility&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt;(!!TItemsView itemsView, valuetype Microsoft.Maui.ScrollBarVisibility visibility) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ItemsViewExtensions.VerticalScrollBarVisibility``1(``0,Microsoft.Maui.ScrollBarVisibility)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function VerticalScrollBarVisibility(Of TItemsView As ItemsView) (itemsView As TItemsView, visibility As ScrollBarVisibility) As TItemsView" />
+      <MemberSignature Language="F#" Value="static member VerticalScrollBarVisibility : 'ItemsView * Microsoft.Maui.ScrollBarVisibility -&gt; 'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)" Usage="CommunityToolkit.Maui.Markup.ItemsViewExtensions.VerticalScrollBarVisibility (itemsView, visibility)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItemsView</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItemsView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.ItemsView</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="itemsView" Type="TItemsView" RefType="this" />
+        <Parameter Name="visibility" Type="Microsoft.Maui.ScrollBarVisibility" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TItemsView" />
+        <param name="itemsView" />
+        <param name="visibility" />
+        <summary>
+            Assigns the <see cref="P:Microsoft.Maui.Controls.ItemsView.VerticalScrollBarVisibility" /> property
+            </summary>
+        <returns>ItemsView with updated Vertical Scroll Bar Visibility</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

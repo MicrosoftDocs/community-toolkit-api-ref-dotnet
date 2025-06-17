@@ -1,0 +1,187 @@
+<Type Name="MaxLengthReachedBehavior" FullName="CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior">
+  <TypeSignature Language="C#" Value="public class MaxLengthReachedBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.InputView&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MaxLengthReachedBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.InputView&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class MaxLengthReachedBehavior&#xA;Inherits BaseBehavior(Of InputView)" />
+  <TypeSignature Language="F#" Value="type MaxLengthReachedBehavior = class&#xA;    inherit BaseBehavior&lt;InputView&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.InputView&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.InputView</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior" /> is a behavior that allows the user to trigger an action when a user has reached the maximum length allowed on an <see cref="T:Microsoft.Maui.Controls.InputView" />. It can either trigger a <see cref="T:System.Windows.Input.ICommand" /> or an event depending on the user's preferred scenario.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MaxLengthReachedBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand? Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.Command" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Command that is triggered when the value configured in <see cref="P:Microsoft.Maui.Controls.InputView.MaxLength" /> is reached. Both the <see cref="E:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.MaxLengthReached" /> event and this command are triggered. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.CommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.CommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.Command" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLengthReached">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Behaviors.MaxLengthReachedEventArgs&gt; MaxLengthReached;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Behaviors.MaxLengthReachedEventArgs&gt; MaxLengthReached" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.MaxLengthReached" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event MaxLengthReached As EventHandler(Of MaxLengthReachedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.MaxLengthReached : EventHandler&lt;CommunityToolkit.Maui.Behaviors.MaxLengthReachedEventArgs&gt; " Usage="member this.MaxLengthReached : System.EventHandler&lt;CommunityToolkit.Maui.Behaviors.MaxLengthReachedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Behaviors.MaxLengthReachedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event that is triggered when the value configured in <see cref="P:Microsoft.Maui.Controls.InputView.MaxLength" /> is reached. Both the <see cref="P:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.Command" /> and this event are triggered. This is a bindable property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnViewPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnViewPropertyChanged (Microsoft.Maui.Controls.InputView sender, System.ComponentModel.PropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnViewPropertyChanged(class Microsoft.Maui.Controls.InputView sender, class System.ComponentModel.PropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.OnViewPropertyChanged(Microsoft.Maui.Controls.InputView,System.ComponentModel.PropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnViewPropertyChanged (sender As InputView, e As PropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnViewPropertyChanged : Microsoft.Maui.Controls.InputView * System.ComponentModel.PropertyChangedEventArgs -&gt; unit" Usage="maxLengthReachedBehavior.OnViewPropertyChanged (sender, e)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Microsoft.Maui.Controls.InputView" />
+        <Parameter Name="e" Type="System.ComponentModel.PropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldDismissKeyboardAutomatically">
+      <MemberSignature Language="C#" Value="public bool ShouldDismissKeyboardAutomatically { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldDismissKeyboardAutomatically" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.ShouldDismissKeyboardAutomatically" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldDismissKeyboardAutomatically As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldDismissKeyboardAutomatically : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.ShouldDismissKeyboardAutomatically" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether or not the keyboard should be dismissed automatically after the maximum length is reached. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldDismissKeyboardAutomaticallyProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ShouldDismissKeyboardAutomaticallyProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ShouldDismissKeyboardAutomaticallyProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.ShouldDismissKeyboardAutomaticallyProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShouldDismissKeyboardAutomaticallyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ShouldDismissKeyboardAutomaticallyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.ShouldDismissKeyboardAutomaticallyProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.MaxLengthReachedBehavior.ShouldDismissKeyboardAutomatically" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

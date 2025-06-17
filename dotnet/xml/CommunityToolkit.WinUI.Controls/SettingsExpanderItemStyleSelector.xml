@@ -1,0 +1,118 @@
+<Type Name="SettingsExpanderItemStyleSelector" FullName="CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector">
+  <TypeSignature Language="C#" Value="public class SettingsExpanderItemStyleSelector : Microsoft.UI.Xaml.Controls.StyleSelector" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SettingsExpanderItemStyleSelector extends Microsoft.UI.Xaml.Controls.StyleSelector" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector" />
+  <TypeSignature Language="VB.NET" Value="Public Class SettingsExpanderItemStyleSelector&#xA;Inherits StyleSelector" />
+  <TypeSignature Language="F#" Value="type SettingsExpanderItemStyleSelector = class&#xA;    inherit StyleSelector" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.StyleSelector</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:Microsoft.UI.Xaml.Controls.StyleSelector" /> used by <see cref="T:CommunityToolkit.WinUI.Controls.SettingsExpander" /> to choose the proper <see cref="T:CommunityToolkit.WinUI.Controls.SettingsCard" /> container style (clickable or not).
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SettingsExpanderItemStyleSelector ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClickableStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Style ClickableStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Style ClickableStyle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector.ClickableStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClickableStyle As Style" />
+      <MemberSignature Language="F#" Value="member this.ClickableStyle : Microsoft.UI.Xaml.Style with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector.ClickableStyle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.UI.Xaml.Style" /> when clickable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Style DefaultStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Style DefaultStyle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector.DefaultStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultStyle As Style" />
+      <MemberSignature Language="F#" Value="member this.DefaultStyle : Microsoft.UI.Xaml.Style with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector.DefaultStyle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the default <see cref="T:Microsoft.UI.Xaml.Style" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectStyleCore">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Xaml.Style SelectStyleCore (object item, Microsoft.UI.Xaml.DependencyObject container);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.UI.Xaml.Style SelectStyleCore(object item, class Microsoft.UI.Xaml.DependencyObject container) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpanderItemStyleSelector.SelectStyleCore(System.Object,Microsoft.UI.Xaml.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function SelectStyleCore (item As Object, container As DependencyObject) As Style" />
+      <MemberSignature Language="F#" Value="override this.SelectStyleCore : obj * Microsoft.UI.Xaml.DependencyObject -&gt; Microsoft.UI.Xaml.Style" Usage="settingsExpanderItemStyleSelector.SelectStyleCore (item, container)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Style</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Object" />
+        <Parameter Name="container" Type="Microsoft.UI.Xaml.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="item">To be added.</param>
+        <param name="container">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

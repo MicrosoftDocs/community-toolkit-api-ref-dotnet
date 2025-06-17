@@ -1,0 +1,221 @@
+<Type Name="BasePlatformBehavior&lt;TView,TPlatformView&gt;" FullName="CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;TView,TPlatformView&gt;">
+  <TypeSignature Language="C#" Value="public abstract class BasePlatformBehavior&lt;TView,TPlatformView&gt; : Microsoft.Maui.Controls.PlatformBehavior&lt;TView,TPlatformView&gt;, CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt; where TView : Element where TPlatformView : class" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BasePlatformBehavior`2&lt;(class Microsoft.Maui.Controls.Element) TView, class TPlatformView&gt; extends Microsoft.Maui.Controls.PlatformBehavior`2&lt;!TView, !TPlatformView&gt; implements class CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior`1&lt;!TView&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BasePlatformBehavior(Of TView, TPlatformView)&#xA;Inherits PlatformBehavior(Of TView, TPlatformView)&#xA;Implements ICommunityToolkitBehavior(Of TView)" />
+  <TypeSignature Language="F#" Value="type BasePlatformBehavior&lt;'View, 'PlatformView (requires 'View :&gt; Element and 'PlatformView : null)&gt; = class&#xA;    inherit PlatformBehavior&lt;'View, 'PlatformView (requires 'View :&gt; Element and 'PlatformView : null)&gt;&#xA;    interface ICommunityToolkitBehavior&lt;'View (requires 'View :&gt; Element)&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TView">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <BaseTypeName>Microsoft.Maui.Controls.Element</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TPlatformView">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.PlatformBehavior&lt;TView,TPlatformView&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">TView</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">TPlatformView</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TView">The <see cref="T:Microsoft.Maui.Controls.VisualElement" /> that the behavior can be applied to</typeparam>
+    <typeparam name="TPlatformView">The <see langword="class" /> that the behavior can be applied to</typeparam>
+    <summary>
+            Abstract class for our behaviors to inherit.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.OnViewPropertyChanged">
+      <MemberSignature Language="C#" Value="void ICommunityToolkitBehavior&lt;TView&gt;.OnViewPropertyChanged (TView sender, System.ComponentModel.PropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.OnViewPropertyChanged(!TView sender, class System.ComponentModel.PropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2.CommunityToolkit#Maui#Behaviors#ICommunityToolkitBehavior&lt;TView&gt;#OnViewPropertyChanged(`0,System.ComponentModel.PropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Sub OnViewPropertyChanged (sender As TView, e As PropertyChangedEventArgs) Implements ICommunityToolkitBehavior(Of TView).OnViewPropertyChanged" />
+      <MemberSignature Language="F#" Value="abstract member CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.OnViewPropertyChanged : 'View * System.ComponentModel.PropertyChangedEventArgs -&gt; unit&#xA;override this.CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.OnViewPropertyChanged : 'View * System.ComponentModel.PropertyChangedEventArgs -&gt; unit" Usage="basePlatformBehavior.CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.OnViewPropertyChanged (sender, e)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior`1.OnViewPropertyChanged(`0,System.ComponentModel.PropertyChangedEventArgs)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="TView" />
+        <Parameter Name="e" Type="System.ComponentModel.PropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.View">
+      <MemberSignature Language="C#" Value="TView? CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.View { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TView CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.View" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2.CommunityToolkit#Maui#Behaviors#ICommunityToolkitBehavior&lt;TView&gt;#View" />
+      <MemberSignature Language="VB.NET" Value=" Property View As TView Implements ICommunityToolkitBehavior(Of TView).View" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.View : 'View with get, set" Usage="CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior&lt;TView&gt;.View" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior`1.View</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (TView bindable, TPlatformView platformView);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(!TView bindable, !TPlatformView platformView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2.OnAttachedTo(`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As TView, platformView As TPlatformView)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : 'View * 'PlatformView -&gt; unit" Usage="basePlatformBehavior.OnAttachedTo (bindable, platformView)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="TView" />
+        <Parameter Name="platformView" Type="TPlatformView" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <param name="platformView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachedFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachedFrom (TView bindable, TPlatformView platformView);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachedFrom(!TView bindable, !TPlatformView platformView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2.OnDetachedFrom(`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachedFrom (bindable As TView, platformView As TPlatformView)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachedFrom : 'View * 'PlatformView -&gt; unit" Usage="basePlatformBehavior.OnDetachedFrom (bindable, platformView)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="TView" />
+        <Parameter Name="platformView" Type="TPlatformView" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <param name="platformView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnViewPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnViewPropertyChanged (TView sender, System.ComponentModel.PropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnViewPropertyChanged(!TView sender, class System.ComponentModel.PropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2.OnViewPropertyChanged(`0,System.ComponentModel.PropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnViewPropertyChanged (sender As TView, e As PropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnViewPropertyChanged : 'View * System.ComponentModel.PropertyChangedEventArgs -&gt; unit&#xA;override this.OnViewPropertyChanged : 'View * System.ComponentModel.PropertyChangedEventArgs -&gt; unit" Usage="basePlatformBehavior.OnViewPropertyChanged (sender, e)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior`1.OnViewPropertyChanged(`0,System.ComponentModel.PropertyChangedEventArgs)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="TView" />
+        <Parameter Name="e" Type="System.ComponentModel.PropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender" />
+        <param name="e" />
+        <summary>
+            Virtual method that executes when a property on the View has changed
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="protected TView? View { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TView View" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2.View" />
+      <MemberSignature Language="VB.NET" Value="Protected Property View As TView" />
+      <MemberSignature Language="F#" Value="member this.View : 'View with get, set" Usage="CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;'View, 'PlatformView (requires 'View :&gt; Microsoft.Maui.Controls.Element and 'PlatformView : null)&gt;.View" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Behaviors.ICommunityToolkitBehavior`1.View</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            View used by the Behavior
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

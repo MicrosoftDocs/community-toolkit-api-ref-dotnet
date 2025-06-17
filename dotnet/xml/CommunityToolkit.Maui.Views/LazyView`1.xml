@@ -1,0 +1,75 @@
+<Type Name="LazyView&lt;TView&gt;" FullName="CommunityToolkit.Maui.Views.LazyView&lt;TView&gt;">
+  <TypeSignature Language="C#" Value="public class LazyView&lt;TView&gt; : CommunityToolkit.Maui.Views.LazyView where TView : View, new()" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LazyView`1&lt;.ctor (class Microsoft.Maui.Controls.View) TView&gt; extends CommunityToolkit.Maui.Views.LazyView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.LazyView`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class LazyView(Of TView)&#xA;Inherits LazyView" />
+  <TypeSignature Language="F#" Value="type LazyView&lt;'View (requires 'View :&gt; View and 'View : (new : unit -&gt; 'View))&gt; = class&#xA;    inherit LazyView" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TView">
+      <Constraints>
+        <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+        <BaseTypeName>Microsoft.Maui.Controls.View</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Views.LazyView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TView">Any <see cref="T:Microsoft.Maui.Controls.View" /></typeparam>
+    <summary>
+            This a basic implementation implementing <see cref="T:CommunityToolkit.Maui.Views.LazyView" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LazyView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.LazyView`1.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadViewAsync">
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask LoadViewAsync (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask LoadViewAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.LazyView`1.LoadViewAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function LoadViewAsync (Optional token As CancellationToken = Nothing) As ValueTask" />
+      <MemberSignature Language="F#" Value="override this.LoadViewAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="lazyView.LoadViewAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            This method initializes <see cref="T:CommunityToolkit.Maui.Views.LazyView`1" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.ValueTask" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

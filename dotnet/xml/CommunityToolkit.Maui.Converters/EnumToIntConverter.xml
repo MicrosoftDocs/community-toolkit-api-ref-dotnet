@@ -1,0 +1,173 @@
+<Type Name="EnumToIntConverter" FullName="CommunityToolkit.Maui.Converters.EnumToIntConverter">
+  <TypeSignature Language="C#" Value="public class EnumToIntConverter : CommunityToolkit.Maui.Converters.BaseConverter&lt;Enum,int,Type&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EnumToIntConverter extends CommunityToolkit.Maui.Converters.BaseConverter`3&lt;class System.Enum, int32, class System.Type&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.EnumToIntConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class EnumToIntConverter&#xA;Inherits BaseConverter(Of Enum, Integer, Type)" />
+  <TypeSignature Language="F#" Value="type EnumToIntConverter = class&#xA;    inherit BaseConverter&lt;Enum, int, Type&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverter&lt;System.Enum,System.Int32,System.Type&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Enum</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Int32</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Type</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+                Converts an <see cref="T:System.Enum" /> to its underlying <see cref="T:System.Int32" /> value.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnumToIntConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.EnumToIntConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBackTo">
+      <MemberSignature Language="C#" Value="public override Enum ConvertBackTo (int value, Type parameter, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Enum ConvertBackTo(int32 value, class System.Type parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.EnumToIntConverter.ConvertBackTo(System.Int32,System.Type,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertBackTo (value As Integer, parameter As Type, Optional culture As CultureInfo = Nothing) As Enum" />
+      <MemberSignature Language="F#" Value="override this.ConvertBackTo : int * Type * System.Globalization.CultureInfo -&gt; Enum" Usage="enumToIntConverter.ConvertBackTo (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="parameter" Type="System.Type" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">
+          <see cref="T:System.Enum" /> value to convert</param>
+        <param name="parameter" />
+        <param name="culture">Unused: Culture to use in the converter</param>
+        <summary>
+            Returns the <see cref="T:System.Enum" /> associated with the specified <see cref="T:System.Int32" /> value defined in the targetType
+            </summary>
+        <returns>The underlying <see cref="T:System.Enum" /> of the associated targetType</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">If value is not a valid value in the targetType enum</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override int ConvertFrom (Enum value, Type? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 ConvertFrom(class System.Enum value, class System.Type parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.EnumToIntConverter.ConvertFrom(System.Enum,System.Type,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As Enum, Optional parameter As Type = Nothing, Optional culture As CultureInfo = Nothing) As Integer" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : Enum * Type * System.Globalization.CultureInfo -&gt; int" Usage="enumToIntConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Enum">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Type" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">
+          <see cref="T:System.Enum" /> value to convert</param>
+        <param name="parameter" />
+        <param name="culture">Unused: Culture to use in the converter</param>
+        <summary>
+            Convert a default <see cref="T:System.Enum" /> (i.e., extending <see cref="T:System.Int32" />) to corresponding underlying <see cref="T:System.Int32" /></summary>
+        <returns>The underlying <see cref="T:System.Int32" /> value of the passed enum value</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">If value is not an enumeration type</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="public override Enum DefaultConvertBackReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Enum DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.EnumToIntConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertBackReturnValue As Enum" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertBackReturnValue : Enum with get, set" Usage="CommunityToolkit.Maui.Converters.EnumToIntConverter.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override int DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.EnumToIntConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : int with get, set" Usage="CommunityToolkit.Maui.Converters.EnumToIntConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,126 @@
+<Type Name="OfflineSpeechToText" FullName="CommunityToolkit.Maui.Media.OfflineSpeechToText">
+  <TypeSignature Language="C#" Value="public static class OfflineSpeechToText" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit OfflineSpeechToText extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Media.OfflineSpeechToText" />
+  <TypeSignature Language="VB.NET" Value="Public Class OfflineSpeechToText" />
+  <TypeSignature Language="F#" Value="type OfflineSpeechToText = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>Offline Speech-To-Text provides offline speech recognition.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.Maui.Media.ISpeechToText" />
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Media.ISpeechToText Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class CommunityToolkit.Maui.Media.ISpeechToText Default" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Media.OfflineSpeechToText.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As ISpeechToText" />
+      <MemberSignature Language="F#" Value="static member Default : CommunityToolkit.Maui.Media.ISpeechToText" Usage="CommunityToolkit.Maui.Media.OfflineSpeechToText.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Media.ISpeechToText</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default implementation of <see cref="T:CommunityToolkit.Maui.Media.ISpeechToText" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestPermissions">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RequestPermissions (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RequestPermissions(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.OfflineSpeechToText.RequestPermissions(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RequestPermissions (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="static member RequestPermissions : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="CommunityToolkit.Maui.Media.OfflineSpeechToText.RequestPermissions cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Media.ISpeechToText.RequestPermissions(System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="StartListenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task StartListenAsync (CommunityToolkit.Maui.Media.SpeechToTextOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task StartListenAsync(class CommunityToolkit.Maui.Media.SpeechToTextOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.OfflineSpeechToText.StartListenAsync(CommunityToolkit.Maui.Media.SpeechToTextOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StartListenAsync (options As SpeechToTextOptions, Optional cancellationToken As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="static member StartListenAsync : CommunityToolkit.Maui.Media.SpeechToTextOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="CommunityToolkit.Maui.Media.OfflineSpeechToText.StartListenAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Media.SpeechToTextOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Media.ISpeechToText.StartListenAsync(CommunityToolkit.Maui.Media.SpeechToTextOptions,System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="StopListenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task StopListenAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task StopListenAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.OfflineSpeechToText.StopListenAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StopListenAsync (Optional cancellationToken As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="static member StopListenAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="CommunityToolkit.Maui.Media.OfflineSpeechToText.StopListenAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Media.ISpeechToText.StopListenAsync(System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,73 @@
+<Type Name="Badge" FullName="CommunityToolkit.Maui.ApplicationModel.Badge">
+  <TypeSignature Language="C#" Value="public static class Badge" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Badge extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.ApplicationModel.Badge" />
+  <TypeSignature Language="VB.NET" Value="Public Class Badge" />
+  <TypeSignature Language="F#" Value="type Badge = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.Maui.ApplicationModel.IBadge" />
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.ApplicationModel.IBadge Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class CommunityToolkit.Maui.ApplicationModel.IBadge Default" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ApplicationModel.Badge.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IBadge" />
+      <MemberSignature Language="F#" Value="static member Default : CommunityToolkit.Maui.ApplicationModel.IBadge" Usage="CommunityToolkit.Maui.ApplicationModel.Badge.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.ApplicationModel.IBadge</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="T:CommunityToolkit.Maui.ApplicationModel.IBadge" />
+      </Docs>
+    </Member>
+    <Member MemberName="SetCount">
+      <MemberSignature Language="C#" Value="public static void SetCount (uint count);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetCount(unsigned int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ApplicationModel.Badge.SetCount(System.UInt32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetCount (count As UInteger)" />
+      <MemberSignature Language="F#" Value="static member SetCount : uint32 -&gt; unit" Usage="CommunityToolkit.Maui.ApplicationModel.Badge.SetCount count" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="count" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <param name="count">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.ApplicationModel.IBadge.SetCount(System.UInt32)" />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

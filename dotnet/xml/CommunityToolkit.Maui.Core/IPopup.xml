@@ -1,0 +1,263 @@
+<Type Name="IPopup" FullName="CommunityToolkit.Maui.Core.IPopup">
+  <TypeSignature Language="C#" Value="public interface IPopup : CommunityToolkit.Maui.Core.IAsynchronousHandler, Microsoft.Maui.IElement, Microsoft.Maui.IVisualTreeElement" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IPopup implements class CommunityToolkit.Maui.Core.IAsynchronousHandler, class Microsoft.Maui.IElement, class Microsoft.Maui.IVisualTreeElement" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.IPopup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPopup&#xA;Implements IAsynchronousHandler, IElement, IVisualTreeElement" />
+  <TypeSignature Language="F#" Value="type IPopup = interface&#xA;    interface IElement&#xA;    interface IVisualTreeElement&#xA;    interface IAsynchronousHandler" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAsynchronousHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IVisualTreeElement</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Obsolete("IPopup is no longer used by CommunityToolkit.Maui and will be removed in .NET 10")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("IPopup is no longer used by CommunityToolkit.Maui and will be removed in .NET 10")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a small View that pops up at front the Page.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Anchor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.IView? Anchor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Anchor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.Anchor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Anchor As IView" />
+      <MemberSignature Language="F#" Value="member this.Anchor : Microsoft.Maui.IView" Usage="CommunityToolkit.Maui.Core.IPopup.Anchor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the View that Popup will be anchored.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanBeDismissedByTappingOutsideOfPopup">
+      <MemberSignature Language="C#" Value="public bool CanBeDismissedByTappingOutsideOfPopup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanBeDismissedByTappingOutsideOfPopup As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanBeDismissedByTappingOutsideOfPopup : bool" Usage="CommunityToolkit.Maui.Core.IPopup.CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the CanBeDismissedByTappingOutsideOfPopup property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color? Color { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Color" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.Color" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Color As Color" />
+      <MemberSignature Language="F#" Value="member this.Color : Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.IPopup.Color" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Popup's color.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.IView? Content { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Content" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.Content" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Content As IView" />
+      <MemberSignature Language="F#" Value="member this.Content : Microsoft.Maui.IView" Usage="CommunityToolkit.Maui.Core.IPopup.Content" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Popup's Content.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Primitives.LayoutAlignment HorizontalOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Primitives.LayoutAlignment HorizontalOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.HorizontalOptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalOptions As LayoutAlignment" />
+      <MemberSignature Language="F#" Value="member this.HorizontalOptions : Microsoft.Maui.Primitives.LayoutAlignment" Usage="CommunityToolkit.Maui.Core.IPopup.HorizontalOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Primitives.LayoutAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the horizontal aspect of this element's arrangement in a container.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnClosed">
+      <MemberSignature Language="C#" Value="public void OnClosed (object? result = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnClosed(object result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IPopup.OnClosed(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnClosed (Optional result As Object = Nothing)" />
+      <MemberSignature Language="F#" Value="abstract member OnClosed : obj -&gt; unit" Usage="iPopup.OnClosed result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="result">Return value from the Popup.</param>
+        <summary>
+            Occurs when the Popup is closed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDismissedByTappingOutsideOfPopup">
+      <MemberSignature Language="C#" Value="public void OnDismissedByTappingOutsideOfPopup ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnDismissedByTappingOutsideOfPopup() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IPopup.OnDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnDismissedByTappingOutsideOfPopup ()" />
+      <MemberSignature Language="F#" Value="abstract member OnDismissedByTappingOutsideOfPopup : unit -&gt; unit" Usage="iPopup.OnDismissedByTappingOutsideOfPopup " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Occurs when the Popup is dismissed by a user tapping outside the Popup.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnOpened">
+      <MemberSignature Language="C#" Value="public void OnOpened ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnOpened() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IPopup.OnOpened" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnOpened ()" />
+      <MemberSignature Language="F#" Value="abstract member OnOpened : unit -&gt; unit" Usage="iPopup.OnOpened " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Occurs when the Popup is opened.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Size Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Size Size" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Size" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Maui.Graphics.Size" Usage="CommunityToolkit.Maui.Core.IPopup.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Popup's size.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Primitives.LayoutAlignment VerticalOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Primitives.LayoutAlignment VerticalOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IPopup.VerticalOptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalOptions As LayoutAlignment" />
+      <MemberSignature Language="F#" Value="member this.VerticalOptions : Microsoft.Maui.Primitives.LayoutAlignment" Usage="CommunityToolkit.Maui.Core.IPopup.VerticalOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Primitives.LayoutAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the vertical aspect of this element's arrangement in a container.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

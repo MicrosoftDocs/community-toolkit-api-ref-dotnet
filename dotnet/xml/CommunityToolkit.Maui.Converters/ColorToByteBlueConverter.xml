@@ -1,0 +1,108 @@
+<Type Name="ColorToByteBlueConverter" FullName="CommunityToolkit.Maui.Converters.ColorToByteBlueConverter">
+  <TypeSignature Language="C#" Value="public class ColorToByteBlueConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;Microsoft.Maui.Graphics.Color,byte&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ColorToByteBlueConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`2&lt;class Microsoft.Maui.Graphics.Color, unsigned int8&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.ColorToByteBlueConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class ColorToByteBlueConverter&#xA;Inherits BaseConverterOneWay(Of Color, Byte)" />
+  <TypeSignature Language="F#" Value="type ColorToByteBlueConverter = class&#xA;    inherit BaseConverterOneWay&lt;Color, byte&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;Microsoft.Maui.Graphics.Color,System.Byte&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">Microsoft.Maui.Graphics.Color</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Byte</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts the incoming value from <see cref="T:Microsoft.Maui.Graphics.Color" /> and returns the object of a type <see cref="T:System.Byte" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ColorToByteBlueConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ColorToByteBlueConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override byte ConvertFrom (Microsoft.Maui.Graphics.Color value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance unsigned int8 ConvertFrom(class Microsoft.Maui.Graphics.Color value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ColorToByteBlueConverter.ConvertFrom(Microsoft.Maui.Graphics.Color,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As Color, Optional culture As CultureInfo = Nothing) As Byte" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : Microsoft.Maui.Graphics.Color * System.Globalization.CultureInfo -&gt; byte" Usage="colorToByteBlueConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Maui.Graphics.Color" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override byte DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8 DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.ColorToByteBlueConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Byte" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : byte with get, set" Usage="CommunityToolkit.Maui.Converters.ColorToByteBlueConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

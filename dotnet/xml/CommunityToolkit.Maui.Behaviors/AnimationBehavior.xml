@@ -1,0 +1,270 @@
+<Type Name="AnimationBehavior" FullName="CommunityToolkit.Maui.Behaviors.AnimationBehavior">
+  <TypeSignature Language="C#" Value="public class AnimationBehavior : CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AnimationBehavior extends CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.AnimationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class AnimationBehavior&#xA;Inherits EventToCommandBehavior" />
+  <TypeSignature Language="F#" Value="type AnimationBehavior = class&#xA;    inherit EventToCommandBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.EventToCommandBehavior</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.AnimationBehavior" /> is a behavior that shows an animation on any <see cref="T:Microsoft.Maui.Controls.VisualElement" /> when the <see cref="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommand" /> is called.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AnimationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.AnimationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimateCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt; AnimateCommand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Command`1&lt;valuetype System.Threading.CancellationToken&gt; AnimateCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommand" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnimateCommand As Command(Of CancellationToken)" />
+      <MemberSignature Language="F#" Value="member this.AnimateCommand : Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt; with get, set" Usage="CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Obsolete("Do not use this setter, it only exists to enable XAML Hot reload support in your IDE.\r\n\r\nInstead, apps should provide a value for this OneWayToSource property by creating a binding, in XAML or C#. If done via C# use code like this:\r\n\r\nbehavior.SetBinding(AnimationBehavior.AnimateCommandProperty, nameof(ViewModel.TriggerAnimationCommand));")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Obsolete("Do not use this setter, it only exists to enable XAML Hot reload support in your IDE.\r\n\r\nInstead, apps should provide a value for this OneWayToSource property by creating a binding, in XAML or C#. If done via C# use code like this:\r\n\r\nbehavior.SetBinding(AnimationBehavior.AnimateCommandProperty, nameof(ViewModel.TriggerAnimationCommand));")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Gets the Command that allows the triggering of the animation.
+            
+             NOTE: Apps should not directly set this property, treating it as read only. The setter is only public because
+             that's currently needed to make XAML Hot Reload work. Instead, apps should provide a value for this OneWayToSource
+             property by creating a binding, in XAML or C#. If done via C# use code like this:
+             <c>behavior.SetBinding(AnimationBehavior.AnimateCommandProperty, nameof(ViewModel.TriggerAnimationCommand));</c></summary>
+        <value>To be added.</value>
+        <remarks>
+          <see cref="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommand" /> has a <see cref="T:System.Type" /> of Command&lt;CancellationToken&gt; which requires a <see cref="T:System.Threading.CancellationToken" /> as a CommandParameter. See <see cref="T:Microsoft.Maui.Controls.Command`1" /> and <see cref="M:System.Windows.Input.ICommand.Execute(System.Object)" /> for more information on passing a <see cref="T:System.Threading.CancellationToken" /> into <see cref="T:Microsoft.Maui.Controls.Command`1" /> as a CommandParameter"
+             </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimateCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty AnimateCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AnimateCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AnimateCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AnimateCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateCommand" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimateOnTap">
+      <MemberSignature Language="C#" Value="public bool AnimateOnTap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AnimateOnTap" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateOnTap" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnimateOnTap As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AnimateOnTap : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateOnTap" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether a TapGestureRecognizer is added to the control or not
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimateOnTapProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty AnimateOnTapProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AnimateOnTapProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateOnTapProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AnimateOnTapProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AnimateOnTapProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateOnTapProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimateOnTap" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimationType">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Animations.BaseAnimation? AnimationType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Animations.BaseAnimation AnimationType" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnimationType As BaseAnimation" />
+      <MemberSignature Language="F#" Value="member this.AnimationType : CommunityToolkit.Maui.Animations.BaseAnimation with get, set" Usage="CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimationType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Animations.BaseAnimation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The type of animation to perform.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnimationTypeProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty AnimationTypeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AnimationTypeProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimationTypeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AnimationTypeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AnimationTypeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimationTypeProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.AnimationBehavior.AnimationType" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.AnimationBehavior.OnAttachedTo(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="animationBehavior.OnAttachedTo bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachingFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachingFrom (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachingFrom(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.AnimationBehavior.OnDetachingFrom(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachingFrom (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="animationBehavior.OnDetachingFrom bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnTriggerHandled">
+      <MemberSignature Language="C#" Value="protected override void OnTriggerHandled (object? sender = default, object? eventArgs = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnTriggerHandled(object sender, object eventArgs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.AnimationBehavior.OnTriggerHandled(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnTriggerHandled (Optional sender As Object = Nothing, Optional eventArgs As Object = Nothing)" />
+      <MemberSignature Language="F#" Value="override this.OnTriggerHandled : obj * obj -&gt; unit" Usage="animationBehavior.OnTriggerHandled (sender, eventArgs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="eventArgs" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="eventArgs">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

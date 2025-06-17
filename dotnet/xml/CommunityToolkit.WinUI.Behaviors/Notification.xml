@@ -1,0 +1,252 @@
+<Type Name="Notification" FullName="CommunityToolkit.WinUI.Behaviors.Notification">
+  <TypeSignature Language="C#" Value="public class Notification" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Notification extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Behaviors.Notification" />
+  <TypeSignature Language="VB.NET" Value="Public Class Notification" />
+  <TypeSignature Language="F#" Value="type Notification = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The content of a notification to display in <see cref="T:CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior" />.
+            The <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.Message" /> and <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.Duration" /> values will
+            always be applied to the targeted <see cref="T:Microsoft.UI.Xaml.Controls.InfoBar" />.
+            The <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.Title" />, <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.Severity" />, <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.IsIconVisible" />, <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.IconSource" />, <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.Content" />, <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.ContentTemplate" /> and <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.ActionButton" /> values
+            will be applied only if set, otherwise the parent <see cref="T:Microsoft.UI.Xaml.Controls.InfoBar" /> values will be used, if available.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Notification ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.Notification.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionButton">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.Primitives.ButtonBase? ActionButton { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.Primitives.ButtonBase ActionButton" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.ActionButton" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionButton As ButtonBase" />
+      <MemberSignature Language="F#" Value="member this.ActionButton : Microsoft.UI.Xaml.Controls.Primitives.ButtonBase with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.ActionButton" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.Primitives.ButtonBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the action button of the InfoBar.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public object? Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Content" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As Object" />
+      <MemberSignature Language="F#" Value="member this.Content : obj with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.Content" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the XAML Content that is displayed below the title and message in
+             the InfoBar.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentTemplate">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.DataTemplate? ContentTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DataTemplate ContentTemplate" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.ContentTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.ContentTemplate : Microsoft.UI.Xaml.DataTemplate with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.ContentTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the data template for the <see cref="P:CommunityToolkit.WinUI.Behaviors.Notification.Content" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan? Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; Duration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.Duration : Nullable&lt;TimeSpan&gt; with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the duration of the notification.
+            Set to null for persistent notification (default).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSource">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.IconSource? IconSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.IconSource IconSource" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.IconSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property IconSource As IconSource" />
+      <MemberSignature Language="F#" Value="member this.IconSource : Microsoft.UI.Xaml.Controls.IconSource with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.IconSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.IconSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value for an <see cref="T:Microsoft.UI.Xaml.Controls.IconSource" /> to use as the <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.IconSource" /> of the <see cref="T:Microsoft.UI.Xaml.Controls.InfoBar" /> for this notification.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsIconVisible">
+      <MemberSignature Language="C#" Value="public bool IsIconVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsIconVisible" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.IsIconVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsIconVisible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsIconVisible : bool with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.IsIconVisible" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the icon is visible or not.
+            True if the icon is visible; otherwise, false. The default is true.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string? Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the notification message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Severity">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.InfoBarSeverity? Severity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.UI.Xaml.Controls.InfoBarSeverity&gt; Severity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.Severity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Severity As Nullable(Of InfoBarSeverity)" />
+      <MemberSignature Language="F#" Value="member this.Severity : Nullable&lt;Microsoft.UI.Xaml.Controls.InfoBarSeverity&gt; with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.Severity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.UI.Xaml.Controls.InfoBarSeverity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the type of the <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Severity" /> to apply consistent status color, icon,
+            and assistive technology settings dependent on the criticality of the notification.
+            By default the parent <see cref="P:Microsoft.UI.Xaml.Controls.InfoBar.Severity" /> property's value will be used.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string? Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.Notification.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="CommunityToolkit.WinUI.Behaviors.Notification.Title" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the notification title.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

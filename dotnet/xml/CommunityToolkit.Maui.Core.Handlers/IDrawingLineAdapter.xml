@@ -1,0 +1,48 @@
+<Type Name="IDrawingLineAdapter" FullName="CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter">
+  <TypeSignature Language="C#" Value="public interface IDrawingLineAdapter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IDrawingLineAdapter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDrawingLineAdapter" />
+  <TypeSignature Language="F#" Value="type IDrawingLineAdapter = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            DrawingLine Adapter
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConvertMauiDrawingLine">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.IDrawingLine ConvertMauiDrawingLine (CommunityToolkit.Maui.Core.Views.MauiDrawingLine mauiDrawingLine);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class CommunityToolkit.Maui.Core.IDrawingLine ConvertMauiDrawingLine(class CommunityToolkit.Maui.Core.Views.MauiDrawingLine mauiDrawingLine) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter.ConvertMauiDrawingLine(CommunityToolkit.Maui.Core.Views.MauiDrawingLine)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertMauiDrawingLine (mauiDrawingLine As MauiDrawingLine) As IDrawingLine" />
+      <MemberSignature Language="F#" Value="abstract member ConvertMauiDrawingLine : CommunityToolkit.Maui.Core.Views.MauiDrawingLine -&gt; CommunityToolkit.Maui.Core.IDrawingLine" Usage="iDrawingLineAdapter.ConvertMauiDrawingLine mauiDrawingLine" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.IDrawingLine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingLine" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingLine" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingLine">To be added.</param>
+        <summary>
+            Convert <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingLine" /> to <see cref="T:CommunityToolkit.Maui.Core.IDrawingLine" />.
+            </summary>
+        <returns>
+          <see cref="T:CommunityToolkit.Maui.Core.IDrawingLine" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,140 @@
+<Type Name="AppThemeResourceExtension" FullName="CommunityToolkit.Maui.Extensions.AppThemeResourceExtension">
+  <TypeSignature Language="C#" Value="public sealed class AppThemeResourceExtension : Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.BindingBase&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AppThemeResourceExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension, class Microsoft.Maui.Controls.Xaml.IMarkupExtension`1&lt;class Microsoft.Maui.Controls.BindingBase&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AppThemeResourceExtension&#xA;Implements IMarkupExtension(Of BindingBase)" />
+  <TypeSignature Language="F#" Value="type AppThemeResourceExtension = class&#xA;    interface IMarkupExtension&lt;BindingBase&gt;&#xA;    interface IMarkupExtension" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.Xaml.IMarkupExtension</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.BindingBase&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.ContentProperty("Key")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.ContentProperty("Key")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.RequireService(new System.Type[] { typeof(System.IServiceProvider), typeof(Microsoft.Maui.Controls.Xaml.IProvideValueTarget), typeof(Microsoft.Maui.Controls.Xaml.IRootObjectProvider) })]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.RequireService(new System.Type[] { typeof(System.IServiceProvider), typeof(Microsoft.Maui.Controls.Xaml.IProvideValueTarget), typeof(Microsoft.Maui.Controls.Xaml.IRootObjectProvider) })&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A XAML markup extension that enables using <see cref="T:CommunityToolkit.Maui.AppThemeColor" /> and <see cref="T:CommunityToolkit.Maui.AppThemeObject" /> from XAML.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppThemeResourceExtension ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public string? Key { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Key" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.Key" />
+      <MemberSignature Language="VB.NET" Value="Public Property Key As String" />
+      <MemberSignature Language="F#" Value="member this.Key : string with get, set" Usage="CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.Key" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the key used to access the <see cref="T:CommunityToolkit.Maui.AppThemeColor" /> or <see cref="T:CommunityToolkit.Maui.AppThemeObject" /> from the <see cref="T:Microsoft.Maui.Controls.ResourceDictionary" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue">
+      <MemberSignature Language="C#" Value="object IMarkupExtension.ProvideValue (IServiceProvider serviceProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.Microsoft#Maui#Controls#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue : IServiceProvider -&gt; obj&#xA;override this.Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue : IServiceProvider -&gt; obj" Usage="appThemeResourceExtension.Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue serviceProvider" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
+      </Parameters>
+      <Docs>
+        <param name="serviceProvider">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvideValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.BindingBase ProvideValue (IServiceProvider serviceProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.BindingBase ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As BindingBase" />
+      <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; Microsoft.Maui.Controls.BindingBase&#xA;override this.ProvideValue : IServiceProvider -&gt; Microsoft.Maui.Controls.BindingBase" Usage="appThemeResourceExtension.ProvideValue serviceProvider" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindingBase</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
+      </Parameters>
+      <Docs>
+        <param name="serviceProvider">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="serviceProvider" /> is <see langword="null" />.</exception>
+        <exception cref="T:Microsoft.Maui.Controls.Xaml.XamlParseException">Thrown if <see cref="P:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.Key" /> is <see langword="null" /> or if a resource with <see cref="P:CommunityToolkit.Maui.Extensions.AppThemeResourceExtension.Key" /> cannot be found.</exception>
+        <exception cref="T:System.ArgumentException">Thrown if <paramref name="serviceProvider" /> does no implement <see cref="T:Microsoft.Maui.Controls.Xaml.IProvideParentValues" />.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

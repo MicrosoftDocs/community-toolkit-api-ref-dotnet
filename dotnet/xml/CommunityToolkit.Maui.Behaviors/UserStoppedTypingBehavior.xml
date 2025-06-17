@@ -1,0 +1,374 @@
+<Type Name="UserStoppedTypingBehavior" FullName="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior">
+  <TypeSignature Language="C#" Value="public class UserStoppedTypingBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.InputView&gt;, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserStoppedTypingBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.InputView&gt; implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserStoppedTypingBehavior&#xA;Inherits BaseBehavior(Of InputView)&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type UserStoppedTypingBehavior = class&#xA;    inherit BaseBehavior&lt;InputView&gt;&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.InputView&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.InputView</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior" /> is a behavior that allows the user to trigger an action when a user has stopped data input any <see cref="T:Microsoft.Maui.Controls.InputView" /> derivate like <see cref="T:Microsoft.Maui.Controls.Entry" /> or <see cref="T:Microsoft.Maui.Controls.SearchBar" />. Examples of its usage include triggering a search when a user has stopped entering their search query.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserStoppedTypingBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand? Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Command" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Command that is triggered when the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThreshold" /> is reached. When <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThreshold" /> is set, it's only triggered when both conditions are met. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameter">
+      <MemberSignature Language="C#" Value="public object? CommandParameter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An optional parameter to forward to the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Command" />. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandParameterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandParameterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandParameterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandParameter" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.CommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Command" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="userStoppedTypingBehavior.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="userStoppedTypingBehavior.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~UserStoppedTypingBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="userStoppedTypingBehavior.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumLengthThreshold">
+      <MemberSignature Language="C#" Value="public int MinimumLengthThreshold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumLengthThreshold" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumLengthThreshold As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumLengthThreshold : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The minimum length of the input value required before <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Command" /> will be executed but only after <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThreshold" /> has passed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumLengthThresholdProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MinimumLengthThresholdProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinimumLengthThresholdProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThresholdProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumLengthThresholdProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumLengthThresholdProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThresholdProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThreshold" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnViewPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnViewPropertyChanged (Microsoft.Maui.Controls.InputView sender, System.ComponentModel.PropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnViewPropertyChanged(class Microsoft.Maui.Controls.InputView sender, class System.ComponentModel.PropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.OnViewPropertyChanged(Microsoft.Maui.Controls.InputView,System.ComponentModel.PropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnViewPropertyChanged (sender As InputView, e As PropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnViewPropertyChanged : Microsoft.Maui.Controls.InputView * System.ComponentModel.PropertyChangedEventArgs -&gt; unit" Usage="userStoppedTypingBehavior.OnViewPropertyChanged (sender, e)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Microsoft.Maui.Controls.InputView" />
+        <Parameter Name="e" Type="System.ComponentModel.PropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldDismissKeyboardAutomatically">
+      <MemberSignature Language="C#" Value="public bool ShouldDismissKeyboardAutomatically { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldDismissKeyboardAutomatically" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.ShouldDismissKeyboardAutomatically" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldDismissKeyboardAutomatically As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldDismissKeyboardAutomatically : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.ShouldDismissKeyboardAutomatically" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether or not the keyboard should be dismissed automatically after the user stopped typing. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldDismissKeyboardAutomaticallyProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ShouldDismissKeyboardAutomaticallyProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ShouldDismissKeyboardAutomaticallyProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.ShouldDismissKeyboardAutomaticallyProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShouldDismissKeyboardAutomaticallyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ShouldDismissKeyboardAutomaticallyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.ShouldDismissKeyboardAutomaticallyProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.ShouldDismissKeyboardAutomatically" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoppedTypingTimeThreshold">
+      <MemberSignature Language="C#" Value="public int StoppedTypingTimeThreshold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StoppedTypingTimeThreshold" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public Property StoppedTypingTimeThreshold As Integer" />
+      <MemberSignature Language="F#" Value="member this.StoppedTypingTimeThreshold : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The time of inactivity in milliseconds after which <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.Command" /> will be executed. If <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.MinimumLengthThreshold" /> is also set, the condition there also needs to be met. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoppedTypingTimeThresholdProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StoppedTypingTimeThresholdProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StoppedTypingTimeThresholdProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThresholdProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StoppedTypingTimeThresholdProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StoppedTypingTimeThresholdProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThresholdProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.UserStoppedTypingBehavior.StoppedTypingTimeThreshold" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

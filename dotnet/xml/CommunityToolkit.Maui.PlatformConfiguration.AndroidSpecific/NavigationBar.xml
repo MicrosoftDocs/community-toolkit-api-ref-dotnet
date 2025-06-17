@@ -1,0 +1,289 @@
+<Type Name="NavigationBar" FullName="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar">
+  <TypeSignature Language="C#" Value="public static class NavigationBar" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NavigationBar extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar" />
+  <TypeSignature Language="VB.NET" Value="Public Module NavigationBar" />
+  <TypeSignature Language="F#" Value="type NavigationBar = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android23.0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android23.0")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Provides platform-specific configuration properties for the Android navigation bar.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.ColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly ColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.ColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the Color bindable property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetColor">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color GetColor (Microsoft.Maui.Controls.BindableObject element);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color GetColor(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetColor(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetColor (element As BindableObject) As Color" />
+      <MemberSignature Language="F#" Value="static member GetColor : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetColor element" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="element">The bindable object.</param>
+        <summary>
+            Gets the color of the navigation bar.
+            </summary>
+        <returns>The color of the navigation bar.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetColor">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color GetColor (this Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt; config);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color GetColor(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetColor(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetColor (config As IPlatformElementConfiguration(Of Android, Page)) As Color" />
+      <MemberSignature Language="F#" Value="static member GetColor : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetColor config" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="config" Type="Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="config">The platform element configuration.</param>
+        <summary>
+            Gets the color of the navigation bar.
+            </summary>
+        <returns>The color of the navigation bar.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStyle">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Core.NavigationBarStyle GetStyle (Microsoft.Maui.Controls.BindableObject element);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.Maui.Core.NavigationBarStyle GetStyle(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetStyle(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStyle (element As BindableObject) As NavigationBarStyle" />
+      <MemberSignature Language="F#" Value="static member GetStyle : Microsoft.Maui.Controls.BindableObject -&gt; CommunityToolkit.Maui.Core.NavigationBarStyle" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetStyle element" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.NavigationBarStyle</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="element">The bindable object.</param>
+        <summary>
+            Gets the style of the navigation bar.
+            </summary>
+        <returns>The style of the navigation bar.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStyle">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Core.NavigationBarStyle GetStyle (this Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt; config);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.Maui.Core.NavigationBarStyle GetStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStyle (config As IPlatformElementConfiguration(Of Android, Page)) As NavigationBarStyle" />
+      <MemberSignature Language="F#" Value="static member GetStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Page&gt; -&gt; CommunityToolkit.Maui.Core.NavigationBarStyle" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.GetStyle config" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.NavigationBarStyle</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="config" Type="Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="config">The platform element configuration.</param>
+        <summary>
+            Gets the style of the navigation bar.
+            </summary>
+        <returns>The style of the navigation bar.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColor">
+      <MemberSignature Language="C#" Value="public static void SetColor (Microsoft.Maui.Controls.BindableObject element, Microsoft.Maui.Graphics.Color value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetColor(class Microsoft.Maui.Controls.BindableObject element, class Microsoft.Maui.Graphics.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetColor(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetColor (element As BindableObject, value As Color)" />
+      <MemberSignature Language="F#" Value="static member SetColor : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetColor (element, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="Microsoft.Maui.Graphics.Color" />
+      </Parameters>
+      <Docs>
+        <param name="element">The bindable object.</param>
+        <param name="value">The color to set.</param>
+        <summary>
+            Sets the color of the navigation bar.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColor">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt; SetColor (this Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt; config, Microsoft.Maui.Graphics.Color value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Page&gt; SetColor(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Page&gt; config, class Microsoft.Maui.Graphics.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetColor(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page},Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetColor (config As IPlatformElementConfiguration(Of Android, Page), value As Color) As IPlatformElementConfiguration(Of Android, Page)" />
+      <MemberSignature Language="F#" Value="static member SetColor : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Page&gt;" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetColor (config, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="config" Type="Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt;" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Maui.Graphics.Color" />
+      </Parameters>
+      <Docs>
+        <param name="config">The platform element configuration.</param>
+        <param name="value">The color to set.</param>
+        <summary>
+            Sets the color of the navigation bar.
+            </summary>
+        <returns>The platform element configuration.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStyle">
+      <MemberSignature Language="C#" Value="public static void SetStyle (Microsoft.Maui.Controls.BindableObject element, CommunityToolkit.Maui.Core.NavigationBarStyle value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetStyle(class Microsoft.Maui.Controls.BindableObject element, valuetype CommunityToolkit.Maui.Core.NavigationBarStyle value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetStyle(Microsoft.Maui.Controls.BindableObject,CommunityToolkit.Maui.Core.NavigationBarStyle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetStyle (element As BindableObject, value As NavigationBarStyle)" />
+      <MemberSignature Language="F#" Value="static member SetStyle : Microsoft.Maui.Controls.BindableObject * CommunityToolkit.Maui.Core.NavigationBarStyle -&gt; unit" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetStyle (element, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="CommunityToolkit.Maui.Core.NavigationBarStyle" />
+      </Parameters>
+      <Docs>
+        <param name="element">The bindable object.</param>
+        <param name="value">The style to set.</param>
+        <summary>
+            Sets the style of the navigation bar.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStyle">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt; SetStyle (this Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt; config, CommunityToolkit.Maui.Core.NavigationBarStyle value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Page&gt; SetStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Page&gt; config, valuetype CommunityToolkit.Maui.Core.NavigationBarStyle value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page},CommunityToolkit.Maui.Core.NavigationBarStyle)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetStyle (config As IPlatformElementConfiguration(Of Android, Page), value As NavigationBarStyle) As IPlatformElementConfiguration(Of Android, Page)" />
+      <MemberSignature Language="F#" Value="static member SetStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Page&gt; * CommunityToolkit.Maui.Core.NavigationBarStyle -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Page&gt;" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.SetStyle (config, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="config" Type="Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Page&gt;" RefType="this" />
+        <Parameter Name="value" Type="CommunityToolkit.Maui.Core.NavigationBarStyle" />
+      </Parameters>
+      <Docs>
+        <param name="config">The platform element configuration.</param>
+        <param name="value">The style to set.</param>
+        <summary>
+            Sets the style of the navigation bar.
+            </summary>
+        <returns>The platform element configuration.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StyleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StyleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StyleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.StyleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly StyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.PlatformConfiguration.AndroidSpecific.NavigationBar.StyleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the Style bindable property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

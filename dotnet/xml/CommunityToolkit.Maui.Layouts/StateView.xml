@@ -1,0 +1,103 @@
+<Type Name="StateView" FullName="CommunityToolkit.Maui.Layouts.StateView">
+  <TypeSignature Language="C#" Value="public static class StateView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StateView extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Layouts.StateView" />
+  <TypeSignature Language="VB.NET" Value="Public Class StateView" />
+  <TypeSignature Language="F#" Value="type StateView = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Layouts.StateView" /> attached properties can be used on any <see cref="T:Microsoft.Maui.IView" /> inheriting element to represent a state inside a <see cref="F:CommunityToolkit.Maui.Layouts.StateContainer.StateViewsProperty" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetStateKey">
+      <MemberSignature Language="C#" Value="public static string GetStateKey (Microsoft.Maui.Controls.BindableObject b);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetStateKey(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateView.GetStateKey(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetStateKey (b As BindableObject) As String" />
+      <MemberSignature Language="F#" Value="static member GetStateKey : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="CommunityToolkit.Maui.Layouts.StateView.GetStateKey b" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="b" />
+        <summary>
+            Get the StateKey property
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStateKey">
+      <MemberSignature Language="C#" Value="public static void SetStateKey (Microsoft.Maui.Controls.BindableObject b, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetStateKey(class Microsoft.Maui.Controls.BindableObject b, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateView.SetStateKey(Microsoft.Maui.Controls.BindableObject,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetStateKey (b As BindableObject, value As String)" />
+      <MemberSignature Language="F#" Value="static member SetStateKey : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="CommunityToolkit.Maui.Layouts.StateView.SetStateKey (b, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="b">The <see cref="T:Microsoft.Maui.Controls.VisualElement" /> that will set the property.</param>
+        <param name="value">The StateKey value for this <see cref="T:Microsoft.Maui.Controls.VisualElement" />.</param>
+        <summary>
+            Set the StateKey property
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateKeyProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StateKeyProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StateKeyProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Layouts.StateView.StateKeyProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StateKeyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StateKeyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Layouts.StateView.StateKeyProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="M:CommunityToolkit.Maui.Layouts.StateView.GetStateKey(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:CommunityToolkit.Maui.Layouts.StateView.SetStateKey(Microsoft.Maui.Controls.BindableObject,System.String)" /> methods.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

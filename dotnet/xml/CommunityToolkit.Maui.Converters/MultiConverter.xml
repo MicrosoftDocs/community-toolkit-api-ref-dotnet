@@ -1,0 +1,265 @@
+<Type Name="MultiConverter" FullName="CommunityToolkit.Maui.Converters.MultiConverter">
+  <TypeSignature Language="C#" Value="public class MultiConverter : System.Collections.Generic.List&lt;CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&gt;, CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter, Microsoft.Maui.Controls.IValueConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MultiConverter extends System.Collections.Generic.List`1&lt;class CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&gt; implements class CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter, class Microsoft.Maui.Controls.IValueConverter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.MultiConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class MultiConverter&#xA;Inherits List(Of ICommunityToolkitValueConverter)&#xA;Implements ICommunityToolkitValueConverter, IValueConverter" />
+  <TypeSignature Language="F#" Value="type MultiConverter = class&#xA;    inherit List&lt;ICommunityToolkitValueConverter&gt;&#xA;    interface ICommunityToolkitValueConverter&#xA;    interface IValueConverter" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Collections.Generic.List&lt;CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.IValueConverter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts an incoming value using all the incoming converters in sequence.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MultiConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.MultiConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="object? CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertBackReturnValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.MultiConverter.CommunityToolkit#Maui#Converters#ICommunityToolkitValueConverter#DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property DefaultConvertBackReturnValue As Object Implements ICommunityToolkitValueConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertBackReturnValue : obj" Usage="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertBackReturnValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="object? CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.MultiConverter.CommunityToolkit#Maui#Converters#ICommunityToolkitValueConverter#DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property DefaultConvertReturnValue As Object Implements ICommunityToolkitValueConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue : obj" Usage="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.DefaultConvertReturnValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.FromType">
+      <MemberSignature Language="C#" Value="Type CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.FromType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.FromType" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.MultiConverter.CommunityToolkit#Maui#Converters#ICommunityToolkitValueConverter#FromType" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property FromType As Type Implements ICommunityToolkitValueConverter.FromType" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.FromType : Type" Usage="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.FromType" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.FromType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ToType">
+      <MemberSignature Language="C#" Value="Type CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ToType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ToType" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.MultiConverter.CommunityToolkit#Maui#Converters#ICommunityToolkitValueConverter#ToType" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property ToType As Type Implements ICommunityToolkitValueConverter.ToType" />
+      <MemberSignature Language="F#" Value="member this.CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ToType : Type" Usage="CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ToType" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ToType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Convert">
+      <MemberSignature Language="C#" Value="public object? Convert (object? value, Type targetType, object? parameter, System.Globalization.CultureInfo? culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Convert(object value, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.MultiConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Convert (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="multiConverter.Convert (value, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.Microsoft#Maui#Controls#IValueConverter#Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetType" Type="System.Type">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">Value to convert.</param>
+        <param name="targetType">The type of the binding target property.</param>
+        <param name="parameter">Parameter to pass into all converters.</param>
+        <param name="culture">The culture to use in the converter.</param>
+        <summary>
+            Uses the incoming converters to convert the value.
+            </summary>
+        <returns>The converted value.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBack">
+      <MemberSignature Language="C#" Value="public object? ConvertBack (object? value, Type targetType, object? parameter, System.Globalization.CultureInfo? culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConvertBack(object value, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.MultiConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="multiConverter.ConvertBack (value, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter.Microsoft#Maui#Controls#IValueConverter#ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetType" Type="System.Type">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">N/A</param>
+        <param name="targetType">N/A</param>
+        <param name="parameter">N/A</param>
+        <param name="culture">N/A</param>
+        <summary>
+            This method is not supported and will throw a <see cref="T:System.NotSupportedException" />.
+            </summary>
+        <returns>N/A</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

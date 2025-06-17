@@ -1,0 +1,421 @@
+<Type Name="Expander" FullName="CommunityToolkit.Maui.Views.Expander">
+  <TypeSignature Language="C#" Value="public class Expander : Microsoft.Maui.Controls.ContentView, CommunityToolkit.Maui.Core.IExpander, Microsoft.Maui.IContentView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Expander extends Microsoft.Maui.Controls.ContentView implements class CommunityToolkit.Maui.Core.IExpander, class Microsoft.Maui.IContentView, class Microsoft.Maui.ICrossPlatformLayout, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.Expander" />
+  <TypeSignature Language="VB.NET" Value="Public Class Expander&#xA;Inherits ContentView&#xA;Implements IContentView, IExpander" />
+  <TypeSignature Language="F#" Value="type Expander = class&#xA;    inherit ContentView&#xA;    interface IExpander&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface ICrossPlatformLayout" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.ContentView</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IExpander</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IContentView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ICrossPlatformLayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IPadding</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.ContentProperty("Content")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.ContentProperty("Content")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Calls Microsoft.Maui.Controls.Binding.Binding(String, BindingMode, IValueConverter, Object, String, Object)")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Calls Microsoft.Maui.Controls.Binding.Binding(String, BindingMode, IValueConverter, Object, String, Object)")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.Maui.Core.IExpander" />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Expander ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.Expander.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Views.Expander" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Views.Expander.Command" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameter">
+      <MemberSignature Language="C#" Value="public object CommandParameter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.CommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="CommunityToolkit.Maui.Views.Expander.CommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandParameterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Expander.CommandParameterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Expander.CommandParameterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Expander.CommandParameter" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Expander.CommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Expander.CommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Expander.Command" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityToolkit.Maui.Core.IExpander.ExpandedChanged">
+      <MemberSignature Language="C#" Value="void IExpander.ExpandedChanged (bool isExpanded);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void CommunityToolkit.Maui.Core.IExpander.ExpandedChanged(bool isExpanded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.Expander.CommunityToolkit#Maui#Core#IExpander#ExpandedChanged(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Sub ExpandedChanged (isExpanded As Boolean) Implements IExpander.ExpandedChanged" />
+      <MemberSignature Language="F#" Value="abstract member CommunityToolkit.Maui.Core.IExpander.ExpandedChanged : bool -&gt; unit&#xA;override this.CommunityToolkit.Maui.Core.IExpander.ExpandedChanged : bool -&gt; unit" Usage="expander.CommunityToolkit.Maui.Core.IExpander.ExpandedChanged isExpanded" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.IExpander.ExpandedChanged(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isExpanded" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isExpanded">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.IView Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Content" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As IView" />
+      <MemberSignature Language="F#" Value="member this.Content : Microsoft.Maui.IView with get, set" Usage="CommunityToolkit.Maui.Views.Expander.Content" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ContentProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ContentProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ContentProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Expander.ContentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ContentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Expander.ContentProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Expander.Content" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Direction">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.ExpandDirection Direction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.ExpandDirection Direction" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.Direction" />
+      <MemberSignature Language="VB.NET" Value="Public Property Direction As ExpandDirection" />
+      <MemberSignature Language="F#" Value="member this.Direction : CommunityToolkit.Maui.Core.ExpandDirection with get, set" Usage="CommunityToolkit.Maui.Views.Expander.Direction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.ExpandDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DirectionProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DirectionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DirectionProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Expander.DirectionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DirectionProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DirectionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Expander.DirectionProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Expander.Direction" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandedChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.Maui.Core.ExpandedChangedEventArgs&gt; ExpandedChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.ExpandedChangedEventArgs&gt; ExpandedChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Views.Expander.ExpandedChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ExpandedChanged As EventHandler(Of ExpandedChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ExpandedChanged : EventHandler&lt;CommunityToolkit.Maui.Core.ExpandedChangedEventArgs&gt; " Usage="member this.ExpandedChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.ExpandedChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.ExpandedChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Triggered when the value of <see cref="P:CommunityToolkit.Maui.Views.Expander.IsExpanded" /> changes
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandleHeaderTapped">
+      <MemberSignature Language="C#" Value="public Action&lt;Microsoft.Maui.Controls.TappedEventArgs&gt;? HandleHeaderTapped { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Action`1&lt;class Microsoft.Maui.Controls.TappedEventArgs&gt; HandleHeaderTapped" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.HandleHeaderTapped" />
+      <MemberSignature Language="VB.NET" Value="Public Property HandleHeaderTapped As Action(Of TappedEventArgs)" />
+      <MemberSignature Language="F#" Value="member this.HandleHeaderTapped : Action&lt;Microsoft.Maui.Controls.TappedEventArgs&gt; with get, set" Usage="CommunityToolkit.Maui.Views.Expander.HandleHeaderTapped" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Action&lt;Microsoft.Maui.Controls.TappedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Action that fires when <see cref="P:CommunityToolkit.Maui.Views.Expander.Header" /> is tapped.
+            By default, this <see cref="T:System.Action" /> runs <see cref="M:CommunityToolkit.Maui.Views.Expander.ResizeExpanderInItemsView(Microsoft.Maui.Controls.TappedEventArgs)" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Warning: Overriding this <see cref="T:System.Action" /> may cause <see cref="T:CommunityToolkit.Maui.Views.Expander" /> to work improperly when placed inside a <see cref="T:Microsoft.Maui.Controls.CollectionView" /> and placed inside a <see cref="T:Microsoft.Maui.Controls.ListView" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Header">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.IView Header { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Header" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.Header" />
+      <MemberSignature Language="VB.NET" Value="Public Property Header As IView" />
+      <MemberSignature Language="F#" Value="member this.Header : Microsoft.Maui.IView with get, set" Usage="CommunityToolkit.Maui.Views.Expander.Header" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HeaderProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeaderProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Expander.HeaderProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Expander.HeaderProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Expander.Header" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpanded">
+      <MemberSignature Language="C#" Value="public bool IsExpanded { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExpanded" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Expander.IsExpanded" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExpanded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExpanded : bool with get, set" Usage="CommunityToolkit.Maui.Views.Expander.IsExpanded" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.IExpander.IsExpanded</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpandedProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsExpandedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsExpandedProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Expander.IsExpandedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsExpandedProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsExpandedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Expander.IsExpandedProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Expander.IsExpanded" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

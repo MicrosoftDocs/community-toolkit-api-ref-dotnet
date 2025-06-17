@@ -1,0 +1,151 @@
+<Type Name="TimeSpanToSecondsConverter" FullName="CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter">
+  <TypeSignature Language="C#" Value="public class TimeSpanToSecondsConverter : CommunityToolkit.Maui.Converters.BaseConverter&lt;TimeSpan,double&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TimeSpanToSecondsConverter extends CommunityToolkit.Maui.Converters.BaseConverter`2&lt;valuetype System.TimeSpan, float64&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class TimeSpanToSecondsConverter&#xA;Inherits BaseConverter(Of TimeSpan, Double)" />
+  <TypeSignature Language="F#" Value="type TimeSpanToSecondsConverter = class&#xA;    inherit BaseConverter&lt;TimeSpan, double&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverter&lt;System.TimeSpan,System.Double&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.TimeSpan</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Double</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts a <see cref="T:System.TimeSpan" /> to a <see cref="T:System.Double" /> value expressed in seconds.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeSpanToSecondsConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBackTo">
+      <MemberSignature Language="C#" Value="public override TimeSpan ConvertBackTo (double value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.TimeSpan ConvertBackTo(float64 value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.ConvertBackTo(System.Double,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertBackTo (value As Double, Optional culture As CultureInfo = Nothing) As TimeSpan" />
+      <MemberSignature Language="F#" Value="override this.ConvertBackTo : double * System.Globalization.CultureInfo -&gt; TimeSpan" Usage="timeSpanToSecondsConverter.ConvertBackTo (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Double" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The <see cref="T:System.Double" /> value (in seconds) to convert.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts a <see cref="T:System.Double" /> (value should be in seconds) to a <see cref="T:System.TimeSpan" /> value.
+            </summary>
+        <returns>The <see cref="T:System.TimeSpan" /> value representing the converted <see cref="T:System.Double" /> value.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override double ConvertFrom (TimeSpan value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance float64 ConvertFrom(valuetype System.TimeSpan value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.ConvertFrom(System.TimeSpan,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As TimeSpan, Optional culture As CultureInfo = Nothing) As Double" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : TimeSpan * System.Globalization.CultureInfo -&gt; double" Usage="timeSpanToSecondsConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.TimeSpan" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The <see cref="T:System.TimeSpan" /> value to convert.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts a <see cref="T:System.TimeSpan" /> to a <see cref="T:System.Double" /> value expressed in seconds.
+            </summary>
+        <returns>A <see cref="T:System.Double" /> value expressed in seconds.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="public override TimeSpan DefaultConvertBackReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertBackReturnValue As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertBackReturnValue : TimeSpan with get, set" Usage="CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override double DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Double" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : double with get, set" Usage="CommunityToolkit.Maui.Converters.TimeSpanToSecondsConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

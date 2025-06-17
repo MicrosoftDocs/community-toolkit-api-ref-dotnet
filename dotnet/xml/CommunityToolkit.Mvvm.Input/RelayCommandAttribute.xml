@@ -1,0 +1,211 @@
+<Type Name="RelayCommandAttribute" FullName="CommunityToolkit.Mvvm.Input.RelayCommandAttribute">
+  <TypeSignature Language="C#" Value="public sealed class RelayCommandAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RelayCommandAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.RelayCommandAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RelayCommandAttribute&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type RelayCommandAttribute = class&#xA;    inherit Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Method, AllowMultiple=false, Inherited=false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Method, AllowMultiple=false, Inherited=false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+             An attribute that can be used to automatically generate <see cref="T:System.Windows.Input.ICommand" /> properties from declared methods. When this attribute
+             is used to decorate a method, a generator will create a command property with the corresponding <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand" /> interface
+             depending on the signature of the method. If an invalid method signature is used, the generator will report an error.
+             <para>
+             In order to use this attribute, the containing type doesn't need to implement any interfaces. The generated properties will be lazily
+             assigned but their value will never change, so there is no need to support property change notifications or other additional functionality.
+             </para><para>
+             This attribute can be used as follows:
+             <code>
+             partial class MyViewModel
+             {
+                 [RelayCommand]
+                 private void GreetUser(User? user)
+                 {
+                     Console.WriteLine($"Hello {user.Name}!");
+                 }
+             }
+             </code>
+             And with this, code analogous to this will be generated:
+             <code>
+             partial class MyViewModel
+             {
+                 private RelayCommand? greetUserCommand;
+            
+                 public IRelayCommand GreetUserCommand =&gt; greetUserCommand ??= new RelayCommand(GreetUser);
+             }
+             </code></para><para>
+             The following signatures are supported for annotated methods:
+             <code>
+             void Method();
+             </code>
+             Will generate an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand" /> property (using a <see cref="T:CommunityToolkit.Mvvm.Input.RelayCommand" /> instance).
+             <code>
+             void Method(T?);
+             </code>
+             Will generate an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1" /> property (using a <see cref="T:CommunityToolkit.Mvvm.Input.RelayCommand`1" /> instance).
+             <code>
+             Task Method();
+             Task Method(CancellationToken);
+             Task&lt;T&gt; Method();
+             Task&lt;T&gt; Method(CancellationToken);
+             </code>
+             Will both generate an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" /> property (using an <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> instance).
+             <code>
+             Task Method(T?);
+             Task Method(T?, CancellationToken);
+             Task&lt;T&gt; Method(T?);
+             Task&lt;T&gt; Method(T?, CancellationToken);
+             </code>
+             Will both generate an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1" /> property (using an <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> instance).
+             </para></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RelayCommandAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowConcurrentExecutions">
+      <MemberSignature Language="C#" Value="public bool AllowConcurrentExecutions { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowConcurrentExecutions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.AllowConcurrentExecutions" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowConcurrentExecutions As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AllowConcurrentExecutions : bool with get, set" Usage="CommunityToolkit.Mvvm.Input.RelayCommandAttribute.AllowConcurrentExecutions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether or not to allow concurrent executions for an asynchronous command.
+            <para>
+            When set for an attribute used on a method that would result in an <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand" /> or an
+            <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> property to be generated, this will modify the behavior of these commands
+            when an execution is invoked while a previous one is still running. It is the same as creating an instance of
+            these command types with a constructor such as <see cref="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+            and using the <see cref="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.AllowConcurrentExecutions" /> value.
+            </para></summary>
+        <value>To be added.</value>
+        <remarks>Using this property is not valid if the target command doesn't map to an asynchronous command.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanExecute">
+      <MemberSignature Language="C#" Value="public string? CanExecute { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CanExecute" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.CanExecute" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanExecute As String" />
+      <MemberSignature Language="F#" Value="member this.CanExecute : string with get, set" Usage="CommunityToolkit.Mvvm.Input.RelayCommandAttribute.CanExecute" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the property or method that will be invoked to check whether the
+            generated command can be executed at any given time. The referenced member needs to return
+            a <see cref="T:System.Boolean" /> value, and has to have a signature compatible with the target command.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlowExceptionsToTaskScheduler">
+      <MemberSignature Language="C#" Value="public bool FlowExceptionsToTaskScheduler { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FlowExceptionsToTaskScheduler" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.FlowExceptionsToTaskScheduler" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlowExceptionsToTaskScheduler As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FlowExceptionsToTaskScheduler : bool with get, set" Usage="CommunityToolkit.Mvvm.Input.RelayCommandAttribute.FlowExceptionsToTaskScheduler" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether or not to exceptions should be propagated to <see cref="E:System.Threading.Tasks.TaskScheduler.UnobservedTaskException" />.
+            <para>
+            When set for an attribute used on a method that would result in an <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand" /> or an
+            <see cref="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" /> property to be generated, this will modify the behavior of these commands
+            in case an exception is thrown by the underlying operation. It is the same as creating an instance of
+            these command types with a constructor such as <see cref="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+            and using the <see cref="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.FlowExceptionsToTaskScheduler" /> value.
+            </para></summary>
+        <value>To be added.</value>
+        <remarks>Using this property is not valid if the target command doesn't map to an asynchronous command.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeCancelCommand">
+      <MemberSignature Language="C#" Value="public bool IncludeCancelCommand { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeCancelCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.IncludeCancelCommand" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeCancelCommand As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IncludeCancelCommand : bool with get, set" Usage="CommunityToolkit.Mvvm.Input.RelayCommandAttribute.IncludeCancelCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Gets or sets a value indicating whether a cancel command should also be generated for an asynchronous command.
+             <para>
+             When set to <see langword="true" />, this additional code will be generated:
+             <code>
+             partial class MyViewModel
+             {
+                 private ICommand? loginUserCancelCommand;
+            
+                 public ICommand LoginUserCancelCommand =&gt; loginUserCancelCommand ??= LoginUserCommand.CreateCancelCommand();
+             }
+             </code>
+             Where <c>LoginUserCommand</c> is an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" /> defined in the class (or generated by this attribute as well).
+             </para></summary>
+        <value>To be added.</value>
+        <remarks>Using this property is not valid if the target command doesn't map to a cancellable asynchronous command.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

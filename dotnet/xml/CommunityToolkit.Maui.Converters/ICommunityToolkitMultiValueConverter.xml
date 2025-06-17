@@ -1,0 +1,194 @@
+<Type Name="ICommunityToolkitMultiValueConverter" FullName="CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter">
+  <TypeSignature Language="C#" Value="public interface ICommunityToolkitMultiValueConverter : Microsoft.Maui.Controls.IMultiValueConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ICommunityToolkitMultiValueConverter implements class Microsoft.Maui.Controls.IMultiValueConverter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommunityToolkitMultiValueConverter&#xA;Implements IMultiValueConverter" />
+  <TypeSignature Language="F#" Value="type ICommunityToolkitMultiValueConverter = interface&#xA;    interface IMultiValueConverter" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.IMultiValueConverter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc />
+  </Docs>
+  <Members>
+    <Member MemberName="Convert">
+      <MemberSignature Language="C#" Value="public object? Convert (object[]? values, Type targetType, object? parameter, System.Globalization.CultureInfo? culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Convert(object[] values, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Convert (values As Object(), targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="iCommunityToolkitMultiValueConverter.Convert (values, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="targetType" Type="System.Type">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="values" />
+        <param name="targetType">Target Type</param>
+        <param name="parameter">Optional Parameters</param>
+        <param name="culture">Culture Info</param>
+        <summary>
+            Converts the incoming values to a different object
+            </summary>
+        <returns>Converted object</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBack">
+      <MemberSignature Language="C#" Value="public object[]? ConvertBack (object? value, Type[] targetTypes, object? parameter, System.Globalization.CultureInfo? culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object[] ConvertBack(object value, class System.Type[] targetTypes, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetTypes As Type(), parameter As Object, culture As CultureInfo) As Object()" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]" Usage="iCommunityToolkitMultiValueConverter.ConvertBack (value, targetTypes, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetTypes" Type="System.Type[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The object to convert back to an array of values</param>
+        <param name="targetTypes" />
+        <param name="parameter">Optional Parameters</param>
+        <param name="culture">Culture Info</param>
+        <summary>
+            Converts the object back to the outgoing values
+            </summary>
+        <returns>Array of converted objects</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IMultiValueConverter.Convert">
+      <MemberSignature Language="C#" Value="override sealed object? IMultiValueConverter.Convert (object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig virtual instance object Microsoft.Maui.Controls.IMultiValueConverter.Convert(object[] values, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.Microsoft#Maui#Controls#IMultiValueConverter#Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value=" Overrides NotOverridable Function Convert (values As Object(), targetType As Type, parameter As Object, culture As CultureInfo) As Object Implements IMultiValueConverter.Convert" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMultiValueConverter.Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Microsoft.Maui.Controls.IMultiValueConverter.Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="iCommunityToolkitMultiValueConverter.Microsoft.Maui.Controls.IMultiValueConverter.Convert (values, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Object[]" />
+        <Parameter Name="targetType" Type="System.Type" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="values">To be added.</param>
+        <param name="targetType">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack">
+      <MemberSignature Language="C#" Value="override sealed object[]? IMultiValueConverter.ConvertBack (object value, Type[] targetTypes, object parameter, System.Globalization.CultureInfo culture);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig virtual instance object[] Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(object value, class System.Type[] targetTypes, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.Microsoft#Maui#Controls#IMultiValueConverter#ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value=" Overrides NotOverridable Function ConvertBack (value As Object, targetTypes As Type(), parameter As Object, culture As CultureInfo) As Object() Implements IMultiValueConverter.ConvertBack" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]&#xA;override this.Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]" Usage="iCommunityToolkitMultiValueConverter.Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack (value, targetTypes, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetTypes" Type="System.Type[]" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="targetTypes">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

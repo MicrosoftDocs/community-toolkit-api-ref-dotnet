@@ -1,0 +1,47 @@
+<Type Name="IDrawingViewHandler" FullName="CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler">
+  <TypeSignature Language="C#" Value="public interface IDrawingViewHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IDrawingViewHandler" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDrawingViewHandler" />
+  <TypeSignature Language="F#" Value="type IDrawingViewHandler = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" /> handler.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SetDrawingLineAdapter">
+      <MemberSignature Language="C#" Value="public void SetDrawingLineAdapter (CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter drawingLineAdapter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDrawingLineAdapter(class CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter drawingLineAdapter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler.SetDrawingLineAdapter(CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDrawingLineAdapter (drawingLineAdapter As IDrawingLineAdapter)" />
+      <MemberSignature Language="F#" Value="abstract member SetDrawingLineAdapter : CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter -&gt; unit" Usage="iDrawingViewHandler.SetDrawingLineAdapter drawingLineAdapter" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="drawingLineAdapter" Type="CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />
+      </Parameters>
+      <Docs>
+        <param name="drawingLineAdapter">
+          <see cref="T:CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />
+        </param>
+        <summary>
+            Set <see cref="T:CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

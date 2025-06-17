@@ -1,0 +1,276 @@
+<Type Name="StatusBarBehavior" FullName="CommunityToolkit.Maui.Behaviors.StatusBarBehavior">
+  <TypeSignature Language="C#" Value="public class StatusBarBehavior : CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;Microsoft.Maui.Controls.Page&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StatusBarBehavior extends CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`1&lt;class Microsoft.Maui.Controls.Page&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.StatusBarBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class StatusBarBehavior&#xA;Inherits BasePlatformBehavior(Of Page)" />
+  <TypeSignature Language="F#" Value="type StatusBarBehavior = class&#xA;    inherit BasePlatformBehavior&lt;Page&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;Microsoft.Maui.Controls.Page&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.Page</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("Windows")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("Windows")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("MacCatalyst")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("MacCatalyst")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("MacOS")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("MacOS")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("Tizen")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("Tizen")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:Microsoft.Maui.Controls.PlatformBehavior`2" /> that controls the Status bar color
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StatusBarBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyOn">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Behaviors.StatusBarApplyOn ApplyOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Behaviors.StatusBarApplyOn ApplyOn" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.ApplyOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyOn As StatusBarApplyOn" />
+      <MemberSignature Language="F#" Value="member this.ApplyOn : CommunityToolkit.Maui.Behaviors.StatusBarApplyOn with get, set" Usage="CommunityToolkit.Maui.Behaviors.StatusBarBehavior.ApplyOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.StatusBarApplyOn</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            When the status bar color and style should be applied.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyOnProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ApplyOnProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ApplyOnProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.ApplyOnProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ApplyOnProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ApplyOnProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.StatusBarBehavior.ApplyOnProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> that manages the ApplyOn property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (Microsoft.Maui.Controls.Page page, object platformView);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.Page page, object platformView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.OnAttachedTo(Microsoft.Maui.Controls.Page,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (page As Page, platformView As Object)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Microsoft.Maui.Controls.Page * obj -&gt; unit" Usage="statusBarBehavior.OnAttachedTo (page, platformView)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" />
+        <Parameter Name="platformView" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="page">To be added.</param>
+        <param name="platformView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachedFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachedFrom (Microsoft.Maui.Controls.Page page, object platformView);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachedFrom(class Microsoft.Maui.Controls.Page page, object platformView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.OnDetachedFrom(Microsoft.Maui.Controls.Page,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachedFrom (page As Page, platformView As Object)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachedFrom : Microsoft.Maui.Controls.Page * obj -&gt; unit" Usage="statusBarBehavior.OnDetachedFrom (page, platformView)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" />
+        <Parameter Name="platformView" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="page">To be added.</param>
+        <param name="platformView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnPropertyChanged (string? propertyName = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.OnPropertyChanged(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (Optional propertyName As String = Nothing)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="statusBarBehavior.OnPropertyChanged propertyName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="StatusBarColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color StatusBarColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color StatusBarColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusBarColor As Color" />
+      <MemberSignature Language="F#" Value="member this.StatusBarColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Property that holds the value of the Status bar color. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusBarColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StatusBarColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StatusBarColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StatusBarColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StatusBarColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> that manages the StatusBarColor property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusBarStyle">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.StatusBarStyle StatusBarStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.StatusBarStyle StatusBarStyle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusBarStyle As StatusBarStyle" />
+      <MemberSignature Language="F#" Value="member this.StatusBarStyle : CommunityToolkit.Maui.Core.StatusBarStyle with get, set" Usage="CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarStyle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.StatusBarStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Property that holds the value of the Status bar color. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusBarStyleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StatusBarStyleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StatusBarStyleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarStyleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StatusBarStyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StatusBarStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.StatusBarBehavior.StatusBarStyleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> that manages the StatusBarColor property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

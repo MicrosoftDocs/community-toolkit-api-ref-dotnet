@@ -1,0 +1,143 @@
+<Type Name="TextDecorationFlags" FullName="CommunityToolkit.Maui.Behaviors.TextDecorationFlags">
+  <TypeSignature Language="C#" Value="public enum TextDecorationFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TextDecorationFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.TextDecorationFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TextDecorationFlags" />
+  <TypeSignature Language="F#" Value="type TextDecorationFlags = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Flags to indicate what treatment <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" /> should receive prior to validation with <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" /> or subclasses. This can be used to trim or ignore whitespace for instance. This value might be ignored by a behavior if <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" /> isn't of type <see cref="T:System.String" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextDecorationFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.Maui.Behaviors.TextDecorationFlags.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No text decoration will be applied.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizeWhiteSpace">
+      <MemberSignature Language="C#" Value="NormalizeWhiteSpace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags NormalizeWhiteSpace = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextDecorationFlags.NormalizeWhiteSpace" />
+      <MemberSignature Language="VB.NET" Value="NormalizeWhiteSpace" />
+      <MemberSignature Language="F#" Value="NormalizeWhiteSpace = 8" Usage="CommunityToolkit.Maui.Behaviors.TextDecorationFlags.NormalizeWhiteSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Excessive white space is removed from <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" /> prior to validation. I.e. I.e. "Hello    World" will become "Hello World". This applies to whitespace found anywhere.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NullToEmpty">
+      <MemberSignature Language="C#" Value="NullToEmpty" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags NullToEmpty = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextDecorationFlags.NullToEmpty" />
+      <MemberSignature Language="VB.NET" Value="NullToEmpty" />
+      <MemberSignature Language="F#" Value="NullToEmpty = 4" Usage="CommunityToolkit.Maui.Behaviors.TextDecorationFlags.NullToEmpty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>If <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" /> is null, replace the value with <see cref="F:System.String.Empty" /></summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Trim">
+      <MemberSignature Language="C#" Value="Trim" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags Trim = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextDecorationFlags.Trim" />
+      <MemberSignature Language="VB.NET" Value="Trim" />
+      <MemberSignature Language="F#" Value="Trim = 3" Usage="CommunityToolkit.Maui.Behaviors.TextDecorationFlags.Trim" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <see cref="M:System.String.Trim" /> is applied on the value prior to validation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimEnd">
+      <MemberSignature Language="C#" Value="TrimEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags TrimEnd = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextDecorationFlags.TrimEnd" />
+      <MemberSignature Language="VB.NET" Value="TrimEnd" />
+      <MemberSignature Language="F#" Value="TrimEnd = 2" Usage="CommunityToolkit.Maui.Behaviors.TextDecorationFlags.TrimEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <see cref="M:System.String.TrimEnd" /> is applied on the value prior to validation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimStart">
+      <MemberSignature Language="C#" Value="TrimStart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.TextDecorationFlags TrimStart = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.TextDecorationFlags.TrimStart" />
+      <MemberSignature Language="VB.NET" Value="TrimStart" />
+      <MemberSignature Language="F#" Value="TrimStart = 1" Usage="CommunityToolkit.Maui.Behaviors.TextDecorationFlags.TrimStart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.TextDecorationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <see cref="M:System.String.TrimStart" /> is applied on the value prior to validation.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

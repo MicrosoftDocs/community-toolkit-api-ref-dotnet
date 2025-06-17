@@ -1,0 +1,203 @@
+<Type Name="ScrollViewerExtensions" FullName="CommunityToolkit.WinUI.ScrollViewerExtensions">
+  <TypeSignature Language="C#" Value="public static class ScrollViewerExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ScrollViewerExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.ScrollViewerExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Class ScrollViewerExtensions" />
+  <TypeSignature Language="F#" Value="type ScrollViewerExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Provides attached dependency properties and methods for the <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /> control.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetHorizontalScrollBarMargin">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.Thickness GetHorizontalScrollBarMargin (Microsoft.UI.Xaml.FrameworkElement obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.UI.Xaml.Thickness GetHorizontalScrollBarMargin(class Microsoft.UI.Xaml.FrameworkElement obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.ScrollViewerExtensions.GetHorizontalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetHorizontalScrollBarMargin (obj As FrameworkElement) As Thickness" />
+      <MemberSignature Language="F#" Value="static member GetHorizontalScrollBarMargin : Microsoft.UI.Xaml.FrameworkElement -&gt; Microsoft.UI.Xaml.Thickness" Usage="CommunityToolkit.WinUI.ScrollViewerExtensions.GetHorizontalScrollBarMargin obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Thickness</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.UI.Xaml.FrameworkElement" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:Microsoft.UI.Xaml.Thickness" /> from</param>
+        <summary>
+            Gets the <see cref="T:Microsoft.UI.Xaml.Thickness" /> associated with the specified horizontal <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <returns>The <see cref="T:Microsoft.UI.Xaml.Thickness" /> associated with the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVerticalScrollBarMargin">
+      <MemberSignature Language="C#" Value="public static Microsoft.UI.Xaml.Thickness GetVerticalScrollBarMargin (Microsoft.UI.Xaml.FrameworkElement obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.UI.Xaml.Thickness GetVerticalScrollBarMargin(class Microsoft.UI.Xaml.FrameworkElement obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.ScrollViewerExtensions.GetVerticalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetVerticalScrollBarMargin (obj As FrameworkElement) As Thickness" />
+      <MemberSignature Language="F#" Value="static member GetVerticalScrollBarMargin : Microsoft.UI.Xaml.FrameworkElement -&gt; Microsoft.UI.Xaml.Thickness" Usage="CommunityToolkit.WinUI.ScrollViewerExtensions.GetVerticalScrollBarMargin obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Thickness</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.UI.Xaml.FrameworkElement" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> to get the associated <see cref="T:Microsoft.UI.Xaml.Thickness" /> from</param>
+        <summary>
+            Gets the <see cref="T:Microsoft.UI.Xaml.Thickness" /> associated with the specified vertical <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <returns>The <see cref="T:Microsoft.UI.Xaml.Thickness" /> associated with the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalScrollBarMargin">
+      <MemberSignature Language="C#" Value="see GetHorizontalScrollBarMargin, and SetHorizontalScrollBarMargin" />
+      <MemberSignature Language="ILAsm" Value="see GetHorizontalScrollBarMargin, and SetHorizontalScrollBarMargin" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.ScrollViewerExtensions.HorizontalScrollBarMargin" />
+      <MemberSignature Language="VB.NET" Value="see GetHorizontalScrollBarMargin, and SetHorizontalScrollBarMargin" />
+      <MemberSignature Language="F#" Value="see GetHorizontalScrollBarMargin, and SetHorizontalScrollBarMargin" Usage="see GetHorizontalScrollBarMargin, and SetHorizontalScrollBarMargin" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalScrollBarMarginProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HorizontalScrollBarMarginProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HorizontalScrollBarMarginProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.ScrollViewerExtensions.HorizontalScrollBarMarginProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalScrollBarMarginProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HorizontalScrollBarMarginProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.ScrollViewerExtensions.HorizontalScrollBarMarginProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Attached <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:Microsoft.UI.Xaml.Thickness" /> for the horizontal <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetHorizontalScrollBarMargin">
+      <MemberSignature Language="C#" Value="public static void SetHorizontalScrollBarMargin (Microsoft.UI.Xaml.FrameworkElement obj, Microsoft.UI.Xaml.Thickness value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHorizontalScrollBarMargin(class Microsoft.UI.Xaml.FrameworkElement obj, valuetype Microsoft.UI.Xaml.Thickness value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.ScrollViewerExtensions.SetHorizontalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.Thickness)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHorizontalScrollBarMargin (obj As FrameworkElement, value As Thickness)" />
+      <MemberSignature Language="F#" Value="static member SetHorizontalScrollBarMargin : Microsoft.UI.Xaml.FrameworkElement * Microsoft.UI.Xaml.Thickness -&gt; unit" Usage="CommunityToolkit.WinUI.ScrollViewerExtensions.SetHorizontalScrollBarMargin (obj, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.UI.Xaml.FrameworkElement" />
+        <Parameter Name="value" Type="Microsoft.UI.Xaml.Thickness" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:Microsoft.UI.Xaml.Thickness" /> with</param>
+        <param name="value">The <see cref="T:Microsoft.UI.Xaml.Thickness" /> for binding to the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:Microsoft.UI.Xaml.Thickness" /> associated with the specified horizontal <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetVerticalScrollBarMargin">
+      <MemberSignature Language="C#" Value="public static void SetVerticalScrollBarMargin (Microsoft.UI.Xaml.FrameworkElement obj, Microsoft.UI.Xaml.Thickness value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetVerticalScrollBarMargin(class Microsoft.UI.Xaml.FrameworkElement obj, valuetype Microsoft.UI.Xaml.Thickness value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.ScrollViewerExtensions.SetVerticalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.Thickness)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetVerticalScrollBarMargin (obj As FrameworkElement, value As Thickness)" />
+      <MemberSignature Language="F#" Value="static member SetVerticalScrollBarMargin : Microsoft.UI.Xaml.FrameworkElement * Microsoft.UI.Xaml.Thickness -&gt; unit" Usage="CommunityToolkit.WinUI.ScrollViewerExtensions.SetVerticalScrollBarMargin (obj, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.UI.Xaml.FrameworkElement" />
+        <Parameter Name="value" Type="Microsoft.UI.Xaml.Thickness" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> to associate the <see cref="T:Microsoft.UI.Xaml.Thickness" /> with</param>
+        <param name="value">The <see cref="T:Microsoft.UI.Xaml.Thickness" /> for binding to the <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /></param>
+        <summary>
+            Sets the <see cref="T:Microsoft.UI.Xaml.Thickness" /> associated with the specified vertical <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalScrollBarMargin">
+      <MemberSignature Language="C#" Value="see GetVerticalScrollBarMargin, and SetVerticalScrollBarMargin" />
+      <MemberSignature Language="ILAsm" Value="see GetVerticalScrollBarMargin, and SetVerticalScrollBarMargin" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.ScrollViewerExtensions.VerticalScrollBarMargin" />
+      <MemberSignature Language="VB.NET" Value="see GetVerticalScrollBarMargin, and SetVerticalScrollBarMargin" />
+      <MemberSignature Language="F#" Value="see GetVerticalScrollBarMargin, and SetVerticalScrollBarMargin" Usage="see GetVerticalScrollBarMargin, and SetVerticalScrollBarMargin" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalScrollBarMarginProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty VerticalScrollBarMarginProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty VerticalScrollBarMarginProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.ScrollViewerExtensions.VerticalScrollBarMarginProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalScrollBarMarginProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable VerticalScrollBarMarginProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.ScrollViewerExtensions.VerticalScrollBarMarginProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Attached <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for binding a <see cref="T:Microsoft.UI.Xaml.Thickness" /> for the vertical <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.ScrollBar" /> of a <see cref="T:Microsoft.UI.Xaml.Controls.ScrollViewer" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

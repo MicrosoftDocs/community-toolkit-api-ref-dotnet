@@ -1,0 +1,157 @@
+<Type Name="ByteArrayToImageSourceConverter" FullName="CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter">
+  <TypeSignature Language="C#" Value="public class ByteArrayToImageSourceConverter : CommunityToolkit.Maui.Converters.BaseConverter&lt;byte[],Microsoft.Maui.Controls.ImageSource&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ByteArrayToImageSourceConverter extends CommunityToolkit.Maui.Converters.BaseConverter`2&lt;unsigned int8[], class Microsoft.Maui.Controls.ImageSource&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class ByteArrayToImageSourceConverter&#xA;Inherits BaseConverter(Of Byte(), ImageSource)" />
+  <TypeSignature Language="F#" Value="type ByteArrayToImageSourceConverter = class&#xA;    inherit BaseConverter&lt;byte[], ImageSource&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverter&lt;System.Byte[],Microsoft.Maui.Controls.ImageSource&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Byte[]</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">Microsoft.Maui.Controls.ImageSource</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts the incoming value from <see cref="T:System.Byte" />[] and returns the object of a type <see cref="T:Microsoft.Maui.Controls.ImageSource" /> or vice versa.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ByteArrayToImageSourceConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBackTo">
+      <MemberSignature Language="C#" Value="public override byte[]? ConvertBackTo (Microsoft.Maui.Controls.ImageSource? value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance unsigned int8[] ConvertBackTo(class Microsoft.Maui.Controls.ImageSource value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.ConvertBackTo(Microsoft.Maui.Controls.ImageSource,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertBackTo (value As ImageSource, Optional culture As CultureInfo = Nothing) As Byte()" />
+      <MemberSignature Language="F#" Value="override this.ConvertBackTo : Microsoft.Maui.Controls.ImageSource * System.Globalization.CultureInfo -&gt; byte[]" Usage="byteArrayToImageSourceConverter.ConvertBackTo (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Maui.Controls.ImageSource" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts the incoming value from <see cref="T:Microsoft.Maui.Controls.StreamImageSource" /> and returns a <see cref="T:System.Byte" />[].
+            </summary>
+        <returns>An object of type <see cref="T:Microsoft.Maui.Controls.ImageSource" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override Microsoft.Maui.Controls.ImageSource? ConvertFrom (byte[]? value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class Microsoft.Maui.Controls.ImageSource ConvertFrom(unsigned int8[] value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.ConvertFrom(System.Byte[],System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As Byte(), Optional culture As CultureInfo = Nothing) As ImageSource" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : byte[] * System.Globalization.CultureInfo -&gt; Microsoft.Maui.Controls.ImageSource" Usage="byteArrayToImageSourceConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Byte[]" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts the incoming value from <see cref="T:System.Byte" />[] and returns the object of a type <see cref="T:Microsoft.Maui.Controls.ImageSource" />.
+            </summary>
+        <returns>An object of type <see cref="T:Microsoft.Maui.Controls.ImageSource" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="public override byte[]? DefaultConvertBackReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertBackReturnValue As Byte()" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertBackReturnValue : byte[] with get, set" Usage="CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override Microsoft.Maui.Controls.ImageSource? DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : Microsoft.Maui.Controls.ImageSource with get, set" Usage="CommunityToolkit.Maui.Converters.ByteArrayToImageSourceConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

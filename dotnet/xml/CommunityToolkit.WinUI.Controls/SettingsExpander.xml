@@ -1,0 +1,652 @@
+<Type Name="SettingsExpander" FullName="CommunityToolkit.WinUI.Controls.SettingsExpander">
+  <TypeSignature Language="C#" Value="public class SettingsExpander : Microsoft.UI.Xaml.Controls.Control" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SettingsExpander extends Microsoft.UI.Xaml.Controls.Control" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SettingsExpander" />
+  <TypeSignature Language="VB.NET" Value="Public Class SettingsExpander&#xA;Inherits Control" />
+  <TypeSignature Language="F#" Value="type SettingsExpander = class&#xA;    inherit Control" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.Control</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.Markup.ContentProperty(Name="Content")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.Markup.ContentProperty(Name="Content")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_ItemsRepeater", Type=typeof(Microsoft.UI.Xaml.Controls.ItemsRepeater))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_ItemsRepeater", Type=typeof(Microsoft.UI.Xaml.Controls.ItemsRepeater))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+             The SettingsExpander is a collapsable control to host multiple SettingsCards.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SettingsExpander ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpander.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            The SettingsExpander is a collapsable control to host multiple SettingsCards.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Collapsed">
+      <MemberSignature Language="C#" Value="public event EventHandler? Collapsed;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Collapsed" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Controls.SettingsExpander.Collapsed" />
+      <MemberSignature Language="VB.NET" Value="Public Event Collapsed As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Collapsed : EventHandler " Usage="member this.Collapsed : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when the expander is closed
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public object Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Content" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As Object" />
+      <MemberSignature Language="F#" Value="member this.Content : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.Content" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Content.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ContentProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ContentProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ContentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ContentProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ContentProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Content" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public object Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Description" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As Object" />
+      <MemberSignature Language="F#" Value="member this.Description : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Description.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescriptionProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty DescriptionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty DescriptionProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.DescriptionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DescriptionProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DescriptionProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.DescriptionProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Description" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Expanded">
+      <MemberSignature Language="C#" Value="public event EventHandler? Expanded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Expanded" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Controls.SettingsExpander.Expanded" />
+      <MemberSignature Language="VB.NET" Value="Public Event Expanded As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Expanded : EventHandler " Usage="member this.Expanded : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fires when the SettingsExpander is opened
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Header">
+      <MemberSignature Language="C#" Value="public object Header { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Header" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Header" />
+      <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
+      <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.Header" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Header.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderIcon">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.IconElement HeaderIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.IconElement HeaderIcon" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeaderIcon As IconElement" />
+      <MemberSignature Language="F#" Value="member this.HeaderIcon : Microsoft.UI.Xaml.Controls.IconElement with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderIcon" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.IconElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the HeaderIcon.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderIconProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HeaderIconProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HeaderIconProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderIconProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderIconProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderIconProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderIconProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderIcon" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HeaderProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HeaderProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.HeaderProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Header" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpanded">
+      <MemberSignature Language="C#" Value="public bool IsExpanded { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExpanded" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.IsExpanded" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExpanded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExpanded : bool with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.IsExpanded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the IsExpanded state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpandedProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IsExpandedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IsExpandedProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.IsExpandedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsExpandedProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsExpandedProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.IsExpandedProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.IsExpanded" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemContainerStyleSelector">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.StyleSelector ItemContainerStyleSelector { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.StyleSelector ItemContainerStyleSelector" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemContainerStyleSelector" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemContainerStyleSelector As StyleSelector" />
+      <MemberSignature Language="F#" Value="member this.ItemContainerStyleSelector : Microsoft.UI.Xaml.Controls.StyleSelector with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemContainerStyleSelector" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.StyleSelector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value to use for the ItemContainerStyle applied to the inner <see cref="T:Microsoft.UI.Xaml.Controls.ItemsRepeater" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemContainerStyleSelectorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ItemContainerStyleSelectorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ItemContainerStyleSelectorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemContainerStyleSelectorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemContainerStyleSelectorProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemContainerStyleSelectorProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemContainerStyleSelectorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemContainerStyleSelector" /> DependencyProperty.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;object&gt; Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;object&gt; Items" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As IList(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.IList&lt;obj&gt; with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.Items" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the collection of items to display.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsFooter">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.UIElement ItemsFooter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.UIElement ItemsFooter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsFooter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsFooter As UIElement" />
+      <MemberSignature Language="F#" Value="member this.ItemsFooter : Microsoft.UI.Xaml.UIElement with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsFooter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.UIElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the ItemsFooter.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsFooterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ItemsFooterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ItemsFooterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsFooterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsFooterProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsFooterProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsFooterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsFooter" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsHeader">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.UIElement ItemsHeader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.UIElement ItemsHeader" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsHeader As UIElement" />
+      <MemberSignature Language="F#" Value="member this.ItemsHeader : Microsoft.UI.Xaml.UIElement with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsHeader" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.UIElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the ItemsFooter.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsHeaderProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ItemsHeaderProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ItemsHeaderProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsHeaderProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsHeaderProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsHeaderProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsHeaderProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsHeader" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ItemsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ItemsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.Items" /> DependencyProperty.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsSource">
+      <MemberSignature Language="C#" Value="public object ItemsSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ItemsSource" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsSource As Object" />
+      <MemberSignature Language="F#" Value="member this.ItemsSource : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value to use for the inner <see cref="P:Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemsSource" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsSourceProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ItemsSourceProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ItemsSourceProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsSourceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsSourceProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsSourceProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemsSource" /> DependencyProperty.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTemplate">
+      <MemberSignature Language="C#" Value="public object ItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemTemplate As Object" />
+      <MemberSignature Language="F#" Value="member this.ItemTemplate : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value to use for the inner <see cref="P:Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemTemplate" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsExpander.ItemTemplateProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsExpander.ItemTemplate" /> DependencyProperty.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="protected override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpander.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="settingsExpander.OnApplyTemplate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpander.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; Microsoft.UI.Xaml.Automation.Peers.AutomationPeer" Usage="settingsExpander.OnCreateAutomationPeer " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates AutomationPeer
+            </summary>
+        <returns>An automation peer for <see cref="T:CommunityToolkit.WinUI.Controls.SettingsExpander" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsExpandedPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnIsExpandedPropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnIsExpandedPropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsExpander.OnIsExpandedPropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsExpandedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member OnIsExpandedPropertyChanged : bool * bool -&gt; unit&#xA;override this.OnIsExpandedPropertyChanged : bool * bool -&gt; unit" Usage="settingsExpander.OnIsExpandedPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

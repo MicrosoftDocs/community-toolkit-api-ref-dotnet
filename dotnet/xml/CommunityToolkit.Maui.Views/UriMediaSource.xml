@@ -1,0 +1,179 @@
+<Type Name="UriMediaSource" FullName="CommunityToolkit.Maui.Views.UriMediaSource">
+  <TypeSignature Language="C#" Value="public sealed class UriMediaSource : CommunityToolkit.Maui.Views.MediaSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UriMediaSource extends CommunityToolkit.Maui.Views.MediaSource" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.UriMediaSource" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UriMediaSource&#xA;Inherits MediaSource" />
+  <TypeSignature Language="F#" Value="type UriMediaSource = class&#xA;    inherit MediaSource" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>99.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Views.MediaSource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a source, loaded from a remote URI, that can be played by <see cref="T:CommunityToolkit.Maui.Views.MediaElement" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UriMediaSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.UriMediaSource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string? (CommunityToolkit.Maui.Views.UriMediaSource? uriMediaSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class CommunityToolkit.Maui.Views.UriMediaSource uriMediaSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.UriMediaSource.op_Implicit(CommunityToolkit.Maui.Views.UriMediaSource)~System.String" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uriMediaSource As UriMediaSource) As String" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : CommunityToolkit.Maui.Views.UriMediaSource -&gt; string" Usage="CommunityToolkit.Maui.Views.UriMediaSource.op_Implicit uriMediaSource" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uriMediaSource" Type="CommunityToolkit.Maui.Views.UriMediaSource" />
+      </Parameters>
+      <Docs>
+        <param name="uriMediaSource">A <see cref="T:CommunityToolkit.Maui.Views.UriMediaSource" /> instance to convert to a string value.</param>
+        <summary>
+            An implicit operator to convert a <see cref="T:CommunityToolkit.Maui.Views.UriMediaSource" /> into a string value.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator CommunityToolkit.Maui.Views.UriMediaSource? (string uri);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class CommunityToolkit.Maui.Views.UriMediaSource op_Implicit(string uri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.UriMediaSource.op_Implicit(System.String)~CommunityToolkit.Maui.Views.UriMediaSource" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uri As String) As UriMediaSource" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; CommunityToolkit.Maui.Views.UriMediaSource" Usage="CommunityToolkit.Maui.Views.UriMediaSource.op_Implicit uri" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Views.UriMediaSource</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uri" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uri">Full path to the resource file, relative to the application's resources folder.</param>
+        <summary>
+            An implicit operator to convert a string value into a <see cref="T:CommunityToolkit.Maui.Views.UriMediaSource" />.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.UriMediaSource.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="uriMediaSource.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public Uri? Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Uri" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.UriMediaSource.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public Property Uri As Uri" />
+      <MemberSignature Language="F#" Value="member this.Uri : Uri with get, set" Usage="CommunityToolkit.Maui.Views.UriMediaSource.Uri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.UriTypeConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.UriTypeConverter))&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the URI to use as a media source.
+            This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>The URI has to be absolute.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UriProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty UriProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty UriProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.UriMediaSource.UriProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UriProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable UriProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.UriMediaSource.UriProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing store for the <see cref="P:CommunityToolkit.Maui.Views.UriMediaSource.Uri" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

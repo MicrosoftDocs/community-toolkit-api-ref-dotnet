@@ -1,0 +1,252 @@
+<Type Name="DrawingLine" FullName="CommunityToolkit.Maui.Core.Views.DrawingLine">
+  <TypeSignature Language="C#" Value="public class DrawingLine : CommunityToolkit.Maui.Core.IDrawingLine" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DrawingLine extends System.Object implements class CommunityToolkit.Maui.Core.IDrawingLine" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.DrawingLine" />
+  <TypeSignature Language="VB.NET" Value="Public Class DrawingLine&#xA;Implements IDrawingLine" />
+  <TypeSignature Language="F#" Value="type DrawingLine = class&#xA;    interface IDrawingLine" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IDrawingLine</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The Line object is used to describe the lines that are drawn on a <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DrawingLine ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingLine.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImageStream">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetImageStream (CommunityToolkit.Maui.Core.Views.ImagePointOptions options, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetImageStream(class CommunityToolkit.Maui.Core.Views.ImagePointOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingLine.GetImageStream(CommunityToolkit.Maui.Core.Views.ImagePointOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetImageStream (options As ImagePointOptions, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="static member GetImageStream : CommunityToolkit.Maui.Core.Views.ImagePointOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="CommunityToolkit.Maui.Core.Views.DrawingLine.GetImageStream (options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Core.Views.ImagePointOptions" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The options controlling how the resulting image is generated.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Retrieves a <see cref="T:System.IO.Stream" /> containing an image of the collection of <see cref="T:Microsoft.Maui.Graphics.Point" /> that is provided as a parameter.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.ValueTask`1" /> containing the data of the requested image with data that's provided through the <paramref name="options" /> parameter.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImageStream">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetImageStream (double desiredSizeWidth, double desiredSizeHeight, Microsoft.Maui.Graphics.Paint background, Microsoft.Maui.Graphics.Size? canvasSize = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetImageStream(float64 desiredSizeWidth, float64 desiredSizeHeight, class Microsoft.Maui.Graphics.Paint background, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.Graphics.Size&gt; canvasSize, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingLine.GetImageStream(System.Double,System.Double,Microsoft.Maui.Graphics.Paint,System.Nullable{Microsoft.Maui.Graphics.Size},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetImageStream (desiredSizeWidth As Double, desiredSizeHeight As Double, background As Paint, Optional canvasSize As Nullable(Of Size) = Nothing, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="abstract member GetImageStream : double * double * Microsoft.Maui.Graphics.Paint * Nullable&lt;Microsoft.Maui.Graphics.Size&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;&#xA;override this.GetImageStream : double * double * Microsoft.Maui.Graphics.Paint * Nullable&lt;Microsoft.Maui.Graphics.Size&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="drawingLine.GetImageStream (desiredSizeWidth, desiredSizeHeight, background, canvasSize, token)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.IDrawingLine.GetImageStream(System.Double,System.Double,Microsoft.Maui.Graphics.Paint,System.Nullable{Microsoft.Maui.Graphics.Size},System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="desiredSizeWidth" Type="System.Double" />
+        <Parameter Name="desiredSizeHeight" Type="System.Double" />
+        <Parameter Name="background" Type="Microsoft.Maui.Graphics.Paint" />
+        <Parameter Name="canvasSize" Type="System.Nullable&lt;Microsoft.Maui.Graphics.Size&gt;" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="desiredSizeWidth">To be added.</param>
+        <param name="desiredSizeHeight">To be added.</param>
+        <param name="background">To be added.</param>
+        <param name="canvasSize">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Core.IDrawingLine.GetImageStream(System.Double,System.Double,Microsoft.Maui.Graphics.Paint,System.Nullable{Microsoft.Maui.Graphics.Size},System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="Granularity">
+      <MemberSignature Language="C#" Value="public int Granularity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Granularity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.DrawingLine.Granularity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Granularity As Integer" />
+      <MemberSignature Language="F#" Value="member this.Granularity : int with get, set" Usage="CommunityToolkit.Maui.Core.Views.DrawingLine.Granularity" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.IDrawingLine.Granularity</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The granularity of this line. Min value is 5. The higher the value, the smoother the line, the slower the program. Value clamped between <see cref="F:CommunityToolkit.Maui.Core.DrawingViewDefaults.MinimumGranularity" /> and <see cref="F:System.Int32.MaxValue" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color LineColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color LineColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.DrawingLine.LineColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineColor As Color" />
+      <MemberSignature Language="F#" Value="member this.LineColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Core.Views.DrawingLine.LineColor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.IDrawingLine.LineColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.Graphics.Color" /> that is used to draw this line on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineWidth">
+      <MemberSignature Language="C#" Value="public float LineWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LineWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.DrawingLine.LineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.LineWidth : single with get, set" Usage="CommunityToolkit.Maui.Core.Views.DrawingLine.LineWidth" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.IDrawingLine.LineWidth</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The width that is used to draw this line on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Points">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt; Points { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; Points" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.DrawingLine.Points" />
+      <MemberSignature Language="VB.NET" Value="Public Property Points As ObservableCollection(Of PointF)" />
+      <MemberSignature Language="F#" Value="member this.Points : System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt; with get, set" Usage="CommunityToolkit.Maui.Core.Views.DrawingLine.Points" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.IDrawingLine.Points</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The collection of <see cref="T:Microsoft.Maui.Graphics.PointF" /> that makes up this line on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldSmoothPathWhenDrawn">
+      <MemberSignature Language="C#" Value="public bool ShouldSmoothPathWhenDrawn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldSmoothPathWhenDrawn" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.DrawingLine.ShouldSmoothPathWhenDrawn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldSmoothPathWhenDrawn As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldSmoothPathWhenDrawn : bool with get, set" Usage="CommunityToolkit.Maui.Core.Views.DrawingLine.ShouldSmoothPathWhenDrawn" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:CommunityToolkit.Maui.Core.IDrawingLine.ShouldSmoothPathWhenDrawn</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enables or disables if this line is smoothed (anti-aliased) when drawn.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

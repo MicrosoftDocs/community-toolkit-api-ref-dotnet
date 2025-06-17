@@ -1,0 +1,318 @@
+<Type Name="ConstrainedBox" FullName="CommunityToolkit.WinUI.Controls.ConstrainedBox">
+  <TypeSignature Language="C#" Value="public class ConstrainedBox : Microsoft.UI.Xaml.Controls.ContentPresenter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConstrainedBox extends Microsoft.UI.Xaml.Controls.ContentPresenter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.ConstrainedBox" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConstrainedBox&#xA;Inherits ContentPresenter" />
+  <TypeSignature Language="F#" Value="type ConstrainedBox = class&#xA;    inherit ContentPresenter" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.ContentPresenter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.WinUI.Controls.ConstrainedBox" /> is a <see cref="T:Microsoft.UI.Xaml.FrameworkElement" /> control akin to <see cref="T:Microsoft.UI.Xaml.Controls.Viewbox" />
+            which can modify the behavior of it's child element's layout. <see cref="T:CommunityToolkit.WinUI.Controls.ConstrainedBox" /> restricts the
+            available size for its content based on a scale factor, multiple factor, and/or a specific <see cref="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.AspectRatio" />, in that order.
+            This is performed as a layout calculation modification.
+            </summary>
+    <remarks>
+            Note that this class being implemented as a <see cref="T:Microsoft.UI.Xaml.Controls.ContentPresenter" /> is an implementation detail, and
+            is not meant to be used as one with a template. It is recommended to avoid styling the frame of the control
+            with borders and not using <see cref="P:Microsoft.UI.Xaml.Controls.ContentPresenter.ContentTemplate" /> for future compatibility of your
+            code if moving to WinUI 3 in the future.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConstrainedBox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.ConstrainedBox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArrangeOverride">
+      <MemberSignature Language="C#" Value="protected override Windows.Foundation.Size ArrangeOverride (Windows.Foundation.Size finalSize);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Windows.Foundation.Size ArrangeOverride(valuetype Windows.Foundation.Size finalSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.ConstrainedBox.ArrangeOverride(Windows.Foundation.Size)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function ArrangeOverride (finalSize As Size) As Size" />
+      <MemberSignature Language="F#" Value="override this.ArrangeOverride : Windows.Foundation.Size -&gt; Windows.Foundation.Size" Usage="constrainedBox.ArrangeOverride finalSize" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Foundation.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="finalSize" Type="Windows.Foundation.Size" />
+      </Parameters>
+      <Docs>
+        <param name="finalSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="AspectRatio">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Controls.AspectRatio AspectRatio { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.Controls.AspectRatio AspectRatio" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.AspectRatio" />
+      <MemberSignature Language="VB.NET" Value="Public Property AspectRatio As AspectRatio" />
+      <MemberSignature Language="F#" Value="member this.AspectRatio : CommunityToolkit.WinUI.Controls.AspectRatio with get, set" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.AspectRatio" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.AspectRatio</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets aspect Ratio to use for the contents of the Panel (after scaling).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AspectRatioProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty AspectRatioProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty AspectRatioProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ConstrainedBox.AspectRatioProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AspectRatioProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AspectRatioProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.AspectRatioProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.AspectRatio" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeasureOverride">
+      <MemberSignature Language="C#" Value="protected override Windows.Foundation.Size MeasureOverride (Windows.Foundation.Size availableSize);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Windows.Foundation.Size MeasureOverride(valuetype Windows.Foundation.Size availableSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.ConstrainedBox.MeasureOverride(Windows.Foundation.Size)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (availableSize As Size) As Size" />
+      <MemberSignature Language="F#" Value="override this.MeasureOverride : Windows.Foundation.Size -&gt; Windows.Foundation.Size" Usage="constrainedBox.MeasureOverride availableSize" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Foundation.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="availableSize" Type="Windows.Foundation.Size" />
+      </Parameters>
+      <Docs>
+        <param name="availableSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="MultipleX">
+      <MemberSignature Language="C#" Value="public int MultipleX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MultipleX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleX" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultipleX As Integer" />
+      <MemberSignature Language="F#" Value="member this.MultipleX : int with get, set" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the integer multiple that the width of the panel should be floored to. Default is null (no snap).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultipleXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty MultipleXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty MultipleXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MultipleXProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MultipleXProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleX" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultipleY">
+      <MemberSignature Language="C#" Value="public int MultipleY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MultipleY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleY" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultipleY As Integer" />
+      <MemberSignature Language="F#" Value="member this.MultipleY : int with get, set" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the integer multiple that the height of the panel should be floored to. Default is null (no snap).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultipleYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty MultipleYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty MultipleYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MultipleYProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MultipleYProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.MultipleY" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleX">
+      <MemberSignature Language="C#" Value="public double ScaleX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 ScaleX" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleX" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScaleX As Double" />
+      <MemberSignature Language="F#" Value="member this.ScaleX : double with get, set" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleX" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the scale for the width of the panel. Should be a value between 0-1.0. Default is 1.0.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleXProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ScaleXProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ScaleXProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleXProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ScaleXProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ScaleXProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleXProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleX" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleY">
+      <MemberSignature Language="C#" Value="public double ScaleY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 ScaleY" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleY" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScaleY As Double" />
+      <MemberSignature Language="F#" Value="member this.ScaleY : double with get, set" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleY" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the scale for the height of the panel. Should be a value between 0-1.0. Default is 1.0.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleYProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ScaleYProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ScaleYProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleYProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ScaleYProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ScaleYProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleYProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Primitives</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.ConstrainedBox.ScaleY" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

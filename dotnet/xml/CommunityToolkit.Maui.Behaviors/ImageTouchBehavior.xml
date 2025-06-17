@@ -1,0 +1,377 @@
+<Type Name="ImageTouchBehavior" FullName="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior">
+  <TypeSignature Language="C#" Value="public class ImageTouchBehavior : CommunityToolkit.Maui.Behaviors.TouchBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageTouchBehavior extends CommunityToolkit.Maui.Behaviors.TouchBehavior" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImageTouchBehavior&#xA;Inherits TouchBehavior" />
+  <TypeSignature Language="F#" Value="type ImageTouchBehavior = class&#xA;    inherit TouchBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.TouchBehavior</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Behaviors.TouchBehavior" /> that can be attached to an <see cref="T:Microsoft.Maui.Controls.Image" /> for modifying <see cref="T:Microsoft.Maui.Controls.ImageSource" /> and <see cref="T:Microsoft.Maui.Aspect" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageTouchBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultImageAspect">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Aspect DefaultImageAspect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect DefaultImageAspect" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageAspect" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultImageAspect As Aspect" />
+      <MemberSignature Language="F#" Value="member this.DefaultImageAspect : Microsoft.Maui.Aspect with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageAspect" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Aspect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Controls.ImageSource" /><see cref="T:Microsoft.Maui.Aspect" /> when <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultImageAspectProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultImageAspectProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultImageAspectProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageAspectProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultImageAspectProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultImageAspectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageAspectProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageAspect" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultImageSource">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.ImageSource? DefaultImageSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource DefaultImageSource" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultImageSource As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.DefaultImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Controls.ImageSource" /> when <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Default" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultImageSourceProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty DefaultImageSourceProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DefaultImageSourceProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageSourceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultImageSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DefaultImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageSourceProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.DefaultImageSource" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredBackgroundImageSourceProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredBackgroundImageSourceProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredBackgroundImageSourceProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredBackgroundImageSourceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredBackgroundImageSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredBackgroundImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredBackgroundImageSourceProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageSource" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredImageAspect">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Aspect HoveredImageAspect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect HoveredImageAspect" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageAspect" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredImageAspect As Aspect" />
+      <MemberSignature Language="F#" Value="member this.HoveredImageAspect : Microsoft.Maui.Aspect with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageAspect" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Aspect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Controls.ImageSource" /><see cref="T:Microsoft.Maui.Aspect" /> when <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredImageAspectProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HoveredImageAspectProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HoveredImageAspectProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageAspectProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoveredImageAspectProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HoveredImageAspectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageAspectProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageAspect" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoveredImageSource">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.ImageSource? HoveredImageSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource HoveredImageSource" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoveredImageSource As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.HoveredImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.HoveredImageSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Controls.ImageSource" /> when the <see cref="T:CommunityToolkit.Maui.Core.HoverState" /> is <see cref="F:CommunityToolkit.Maui.Core.HoverState.Hovered" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedBackgroundImageSourceProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedBackgroundImageSourceProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedBackgroundImageSourceProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedBackgroundImageSourceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedBackgroundImageSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedBackgroundImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedBackgroundImageSourceProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageSource" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedImageAspect">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Aspect PressedImageAspect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect PressedImageAspect" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageAspect" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedImageAspect As Aspect" />
+      <MemberSignature Language="F#" Value="member this.PressedImageAspect : Microsoft.Maui.Aspect with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageAspect" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Aspect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Controls.ImageSource" /><see cref="T:Microsoft.Maui.Aspect" /> when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedImageAspectProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty PressedImageAspectProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PressedImageAspectProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageAspectProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PressedImageAspectProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PressedImageAspectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageAspectProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageAspect" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressedImageSource">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.ImageSource? PressedImageSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource PressedImageSource" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property PressedImageSource As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.PressedImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.PressedImageSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ImageSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.Maui.Controls.ImageSource" /> when the <see cref="T:CommunityToolkit.Maui.Core.TouchState" /> is <see cref="F:CommunityToolkit.Maui.Core.TouchState.Pressed" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldSetImageOnAnimationEnd">
+      <MemberSignature Language="C#" Value="public bool ShouldSetImageOnAnimationEnd { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldSetImageOnAnimationEnd" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.ShouldSetImageOnAnimationEnd" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldSetImageOnAnimationEnd As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldSetImageOnAnimationEnd : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.ShouldSetImageOnAnimationEnd" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the image should be set when the animation ends.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldSetImageOnAnimationEndProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ShouldSetImageOnAnimationEndProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ShouldSetImageOnAnimationEndProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.ShouldSetImageOnAnimationEndProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShouldSetImageOnAnimationEndProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ShouldSetImageOnAnimationEndProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.ShouldSetImageOnAnimationEndProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Bindable property for <see cref="P:CommunityToolkit.Maui.Behaviors.ImageTouchBehavior.ShouldSetImageOnAnimationEnd" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

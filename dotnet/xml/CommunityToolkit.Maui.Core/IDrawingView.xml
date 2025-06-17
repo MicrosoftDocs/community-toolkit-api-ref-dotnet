@@ -1,0 +1,368 @@
+<Type Name="IDrawingView" FullName="CommunityToolkit.Maui.Core.IDrawingView">
+  <TypeSignature Language="C#" Value="public interface IDrawingView : Microsoft.Maui.IView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IDrawingView implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.IDrawingView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDrawingView&#xA;Implements IView" />
+  <TypeSignature Language="F#" Value="type IDrawingView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The DrawingView allows you to draw one or multiple lines on a canvas
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="iDrawingView.Clear " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Clears the <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.Lines" /> that are currently drawn on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAction">
+      <MemberSignature Language="C#" Value="public Action&lt;Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF&gt;? DrawAction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Action`2&lt;class Microsoft.Maui.Graphics.ICanvas, valuetype Microsoft.Maui.Graphics.RectF&gt; DrawAction" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IDrawingView.DrawAction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DrawAction As Action(Of ICanvas, RectF)" />
+      <MemberSignature Language="F#" Value="member this.DrawAction : Action&lt;Microsoft.Maui.Graphics.ICanvas, Microsoft.Maui.Graphics.RectF&gt;" Usage="CommunityToolkit.Maui.Core.IDrawingView.DrawAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Action&lt;Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Allows drawing on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImageStream">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetImageStream (double desiredWidth, double desiredHeight, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetImageStream(float64 desiredWidth, float64 desiredHeight, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.GetImageStream(System.Double,System.Double,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetImageStream (desiredWidth As Double, desiredHeight As Double, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="abstract member GetImageStream : double * double * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;&#xA;override this.GetImageStream : double * double * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="iDrawingView.GetImageStream (desiredWidth, desiredHeight, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="desiredWidth" Type="System.Double" />
+        <Parameter Name="desiredHeight" Type="System.Double" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="desiredWidth">Desired width of the image that is returned. The image will be resized proportionally.</param>
+        <param name="desiredHeight">Desired height of the image that is returned. The image will be resized proportionally.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />.</param>
+        <summary>
+            Retrieves a <see cref="T:System.IO.Stream" /> containing an image of the <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.Lines" /> that are currently drawn on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.Task`1" /> containing the data of the requested image with data that's currently on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImageStream">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetImageStream (double desiredWidth, double desiredHeight, CommunityToolkit.Maui.Core.DrawingViewOutputOption imageOutputOption, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetImageStream(float64 desiredWidth, float64 desiredHeight, valuetype CommunityToolkit.Maui.Core.DrawingViewOutputOption imageOutputOption, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.GetImageStream(System.Double,System.Double,CommunityToolkit.Maui.Core.DrawingViewOutputOption,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetImageStream (desiredWidth As Double, desiredHeight As Double, imageOutputOption As DrawingViewOutputOption, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="abstract member GetImageStream : double * double * CommunityToolkit.Maui.Core.DrawingViewOutputOption * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="iDrawingView.GetImageStream (desiredWidth, desiredHeight, imageOutputOption, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="desiredWidth" Type="System.Double" />
+        <Parameter Name="desiredHeight" Type="System.Double" />
+        <Parameter Name="imageOutputOption" Type="CommunityToolkit.Maui.Core.DrawingViewOutputOption" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="desiredWidth">Desired width of the image that is returned. The image will be resized proportionally.</param>
+        <param name="desiredHeight">Desired height of the image that is returned. The image will be resized proportionally.</param>
+        <param name="imageOutputOption">The <see cref="T:CommunityToolkit.Maui.Core.DrawingViewOutputOption" /> to determine the bounds and the contents of the resulting image.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />.</param>
+        <summary>
+            Retrieves a <see cref="T:System.IO.Stream" /> containing an image of the <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.Lines" /> that are currently drawn on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.Task`1" /> containing the data of the requested image with data that's currently on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMultiLineModeEnabled">
+      <MemberSignature Language="C#" Value="public bool IsMultiLineModeEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMultiLineModeEnabled" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IDrawingView.IsMultiLineModeEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMultiLineModeEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMultiLineModeEnabled : bool" Usage="CommunityToolkit.Maui.Core.IDrawingView.IsMultiLineModeEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Toggles multi-line mode. When true, multiple lines can be drawn on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" /> while the tap/click is released in-between lines.
+            Note: when <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.ShouldClearOnFinish" /> is also enabled, the lines are cleared after the tap/click is released.
+            Additionally, <see cref="M:CommunityToolkit.Maui.Core.IDrawingView.OnDrawingLineCompleted(CommunityToolkit.Maui.Core.IDrawingLine)" /> will be fired after each line that is drawn.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color LineColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color LineColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IDrawingView.LineColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineColor As Color" />
+      <MemberSignature Language="F#" Value="member this.LineColor : Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.IDrawingView.LineColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.Graphics.Color" /> that is used by default to draw a line on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ObservableCollection&lt;CommunityToolkit.Maui.Core.IDrawingLine&gt; Lines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;class CommunityToolkit.Maui.Core.IDrawingLine&gt; Lines" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IDrawingView.Lines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lines As ObservableCollection(Of IDrawingLine)" />
+      <MemberSignature Language="F#" Value="member this.Lines : System.Collections.ObjectModel.ObservableCollection&lt;CommunityToolkit.Maui.Core.IDrawingLine&gt;" Usage="CommunityToolkit.Maui.Core.IDrawingView.Lines" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ObservableCollection&lt;CommunityToolkit.Maui.Core.IDrawingLine&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The collection of lines that are currently on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineWidth">
+      <MemberSignature Language="C#" Value="public float LineWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LineWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IDrawingView.LineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.LineWidth : single" Usage="CommunityToolkit.Maui.Core.IDrawingView.LineWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The width that is used by default to draw a line on the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDrawingLineCancelled">
+      <MemberSignature Language="C#" Value="public void OnDrawingLineCancelled ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnDrawingLineCancelled() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.OnDrawingLineCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnDrawingLineCancelled ()" />
+      <MemberSignature Language="F#" Value="abstract member OnDrawingLineCancelled : unit -&gt; unit" Usage="iDrawingView.OnDrawingLineCancelled " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Event occurred when drawing line canceled
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDrawingLineCompleted">
+      <MemberSignature Language="C#" Value="public void OnDrawingLineCompleted (CommunityToolkit.Maui.Core.IDrawingLine lastDrawingLine);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnDrawingLineCompleted(class CommunityToolkit.Maui.Core.IDrawingLine lastDrawingLine) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.OnDrawingLineCompleted(CommunityToolkit.Maui.Core.IDrawingLine)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnDrawingLineCompleted (lastDrawingLine As IDrawingLine)" />
+      <MemberSignature Language="F#" Value="abstract member OnDrawingLineCompleted : CommunityToolkit.Maui.Core.IDrawingLine -&gt; unit" Usage="iDrawingView.OnDrawingLineCompleted lastDrawingLine" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lastDrawingLine" Type="CommunityToolkit.Maui.Core.IDrawingLine" />
+      </Parameters>
+      <Docs>
+        <param name="lastDrawingLine">Last drawing line</param>
+        <summary>
+            Event occurred when drawing line completed
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDrawingLineStarted">
+      <MemberSignature Language="C#" Value="public void OnDrawingLineStarted (Microsoft.Maui.Graphics.PointF point);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnDrawingLineStarted(valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.OnDrawingLineStarted(Microsoft.Maui.Graphics.PointF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnDrawingLineStarted (point As PointF)" />
+      <MemberSignature Language="F#" Value="abstract member OnDrawingLineStarted : Microsoft.Maui.Graphics.PointF -&gt; unit" Usage="iDrawingView.OnDrawingLineStarted point" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="Microsoft.Maui.Graphics.PointF" />
+      </Parameters>
+      <Docs>
+        <param name="point">Last drawing point</param>
+        <summary>
+            Event occurred when drawing line started
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointDrawn">
+      <MemberSignature Language="C#" Value="public void OnPointDrawn (Microsoft.Maui.Graphics.PointF point);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPointDrawn(valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IDrawingView.OnPointDrawn(Microsoft.Maui.Graphics.PointF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnPointDrawn (point As PointF)" />
+      <MemberSignature Language="F#" Value="abstract member OnPointDrawn : Microsoft.Maui.Graphics.PointF -&gt; unit" Usage="iDrawingView.OnPointDrawn point" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="Microsoft.Maui.Graphics.PointF" />
+      </Parameters>
+      <Docs>
+        <param name="point">Last drawing point</param>
+        <summary>
+            Event occurred when point drawn
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldClearOnFinish">
+      <MemberSignature Language="C#" Value="public bool ShouldClearOnFinish { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldClearOnFinish" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IDrawingView.ShouldClearOnFinish" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShouldClearOnFinish As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldClearOnFinish : bool" Usage="CommunityToolkit.Maui.Core.IDrawingView.ShouldClearOnFinish" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" /> is cleared after releasing the tap/click and a line is drawn.
+            Note: when <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.IsMultiLineModeEnabled" /> is also enabled, this might cause unexpected behavior.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

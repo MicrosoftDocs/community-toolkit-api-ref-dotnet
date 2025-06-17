@@ -1,0 +1,305 @@
+<Type Name="MauiDrawingViewExtensions" FullName="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions">
+  <TypeSignature Language="C#" Value="public static class MauiDrawingViewExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MauiDrawingViewExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module MauiDrawingViewExtensions" />
+  <TypeSignature Language="F#" Value="type MauiDrawingViewExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods to support <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateSmoothedPathWithGranularity">
+      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt; CreateSmoothedPathWithGranularity (this System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.Graphics.PointF&gt; currentPoints, int granularity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ObservableCollection`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; CreateSmoothedPathWithGranularity(class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; currentPoints, int32 granularity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.CreateSmoothedPathWithGranularity(System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.PointF},System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateSmoothedPathWithGranularity (currentPoints As IEnumerable(Of PointF), granularity As Integer) As ObservableCollection(Of PointF)" />
+      <MemberSignature Language="F#" Value="static member CreateSmoothedPathWithGranularity : seq&lt;Microsoft.Maui.Graphics.PointF&gt; * int -&gt; System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt;" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.CreateSmoothedPathWithGranularity (currentPoints, granularity)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="currentPoints" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.Graphics.PointF&gt;" RefType="this" />
+        <Parameter Name="granularity" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="currentPoints">To be added.</param>
+        <param name="granularity">To be added.</param>
+        <summary>
+            Get smoothed path.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDrawAction">
+      <MemberSignature Language="C#" Value="public static void SetDrawAction (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, Action&lt;Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF&gt;? draw);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetDrawAction(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, class System.Action`2&lt;class Microsoft.Maui.Graphics.ICanvas, valuetype Microsoft.Maui.Graphics.RectF&gt; draw) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetDrawAction(CommunityToolkit.Maui.Core.Views.MauiDrawingView,System.Action{Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetDrawAction (mauiDrawingView As MauiDrawingView, draw As Action(Of ICanvas, RectF))" />
+      <MemberSignature Language="F#" Value="static member SetDrawAction : CommunityToolkit.Maui.Core.Views.MauiDrawingView * Action&lt;Microsoft.Maui.Graphics.ICanvas, Microsoft.Maui.Graphics.RectF&gt; -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetDrawAction (mauiDrawingView, draw)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="draw" Type="System.Action&lt;Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="draw">value</param>
+        <summary>
+            Set DrawAction action
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsMultiLineModeEnabled">
+      <MemberSignature Language="C#" Value="public static void SetIsMultiLineModeEnabled (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, bool multiLineMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsMultiLineModeEnabled(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, bool multiLineMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetIsMultiLineModeEnabled(CommunityToolkit.Maui.Core.Views.MauiDrawingView,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetIsMultiLineModeEnabled (mauiDrawingView As MauiDrawingView, multiLineMode As Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetIsMultiLineModeEnabled : CommunityToolkit.Maui.Core.Views.MauiDrawingView * bool -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetIsMultiLineModeEnabled (mauiDrawingView, multiLineMode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="multiLineMode" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="multiLineMode">value</param>
+        <summary>
+            Set MultiLine mode
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLineColor">
+      <MemberSignature Language="C#" Value="public static void SetLineColor (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, Microsoft.Maui.Graphics.Color lineColor);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLineColor(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, class Microsoft.Maui.Graphics.Color lineColor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLineColor(CommunityToolkit.Maui.Core.Views.MauiDrawingView,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetLineColor (mauiDrawingView As MauiDrawingView, lineColor As Color)" />
+      <MemberSignature Language="F#" Value="static member SetLineColor : CommunityToolkit.Maui.Core.Views.MauiDrawingView * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLineColor (mauiDrawingView, lineColor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="lineColor" Type="Microsoft.Maui.Graphics.Color" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="lineColor">line color</param>
+        <summary>
+            Set LineColor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLines">
+      <MemberSignature Language="C#" Value="public static void SetLines (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, CommunityToolkit.Maui.Core.IDrawingView drawingView);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLines(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, class CommunityToolkit.Maui.Core.IDrawingView drawingView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLines(CommunityToolkit.Maui.Core.Views.MauiDrawingView,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetLines (mauiDrawingView As MauiDrawingView, drawingView As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member SetLines : CommunityToolkit.Maui.Core.Views.MauiDrawingView * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLines (mauiDrawingView, drawingView)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="drawingView" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="drawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />
+        </param>
+        <summary>
+            Set Lines
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLines">
+      <MemberSignature Language="C#" Value="public static void SetLines (this CommunityToolkit.Maui.Core.IDrawingView drawingView, CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter adapter);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLines(class CommunityToolkit.Maui.Core.IDrawingView drawingView, class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, class CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter adapter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLines(CommunityToolkit.Maui.Core.IDrawingView,CommunityToolkit.Maui.Core.Views.MauiDrawingView,CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetLines (drawingView As IDrawingView, mauiDrawingView As MauiDrawingView, adapter As IDrawingLineAdapter)" />
+      <MemberSignature Language="F#" Value="static member SetLines : CommunityToolkit.Maui.Core.IDrawingView * CommunityToolkit.Maui.Core.Views.MauiDrawingView * CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLines (drawingView, mauiDrawingView, adapter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="drawingView" Type="CommunityToolkit.Maui.Core.IDrawingView" RefType="this" />
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        <Parameter Name="adapter" Type="CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="drawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />
+        </param>
+        <param name="adapter">
+          <see cref="T:CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />
+        </param>
+        <summary>
+            Set Lines
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLineWidth">
+      <MemberSignature Language="C#" Value="public static void SetLineWidth (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, float lineWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLineWidth(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, float32 lineWidth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLineWidth(CommunityToolkit.Maui.Core.Views.MauiDrawingView,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetLineWidth (mauiDrawingView As MauiDrawingView, lineWidth As Single)" />
+      <MemberSignature Language="F#" Value="static member SetLineWidth : CommunityToolkit.Maui.Core.Views.MauiDrawingView * single -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetLineWidth (mauiDrawingView, lineWidth)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="lineWidth" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="lineWidth">line width</param>
+        <summary>
+            Set LineWidth
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPaint">
+      <MemberSignature Language="C#" Value="public static void SetPaint (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, Microsoft.Maui.Graphics.Paint background);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPaint(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, class Microsoft.Maui.Graphics.Paint background) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetPaint(CommunityToolkit.Maui.Core.Views.MauiDrawingView,Microsoft.Maui.Graphics.Paint)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetPaint (mauiDrawingView As MauiDrawingView, background As Paint)" />
+      <MemberSignature Language="F#" Value="static member SetPaint : CommunityToolkit.Maui.Core.Views.MauiDrawingView * Microsoft.Maui.Graphics.Paint -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetPaint (mauiDrawingView, background)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="background" Type="Microsoft.Maui.Graphics.Paint" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="background">background</param>
+        <summary>
+            Set Paint
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShouldClearOnFinish">
+      <MemberSignature Language="C#" Value="public static void SetShouldClearOnFinish (this CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, bool clearOnFinish);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShouldClearOnFinish(class CommunityToolkit.Maui.Core.Views.MauiDrawingView mauiDrawingView, bool clearOnFinish) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetShouldClearOnFinish(CommunityToolkit.Maui.Core.Views.MauiDrawingView,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetShouldClearOnFinish (mauiDrawingView As MauiDrawingView, clearOnFinish As Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetShouldClearOnFinish : CommunityToolkit.Maui.Core.Views.MauiDrawingView * bool -&gt; unit" Usage="CommunityToolkit.Maui.Core.Extensions.MauiDrawingViewExtensions.SetShouldClearOnFinish (mauiDrawingView, clearOnFinish)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mauiDrawingView" Type="CommunityToolkit.Maui.Core.Views.MauiDrawingView" RefType="this" />
+        <Parameter Name="clearOnFinish" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mauiDrawingView">
+          <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />
+        </param>
+        <param name="clearOnFinish">value</param>
+        <summary>
+            Set ClearOnFinish
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

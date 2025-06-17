@@ -1,0 +1,252 @@
+<Type Name="IFileSaver" FullName="CommunityToolkit.Maui.Storage.IFileSaver">
+  <TypeSignature Language="C#" Value="public interface IFileSaver" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IFileSaver" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Storage.IFileSaver" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileSaver" />
+  <TypeSignature Language="F#" Value="type IFileSaver = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Allows the user to save files to the filesystem
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string fileName, System.IO.Stream stream, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string fileName, class System.IO.Stream stream, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (fileName As String, stream As Stream, Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * System.IO.Stream * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="iFileSaver.SaveAsync (fileName, stream, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Tizen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Tizen")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">File name with extension</param>
+        <param name="stream">
+          <see cref="T:System.IO.Stream" />
+        </param>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Saves a file to the default folder on the file system
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string fileName, System.IO.Stream stream, IProgress&lt;double&gt; progress, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string fileName, class System.IO.Stream stream, class System.IProgress`1&lt;float64&gt; progress, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.IO.Stream,System.IProgress{System.Double},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (fileName As String, stream As Stream, progress As IProgress(Of Double), Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * System.IO.Stream * IProgress&lt;double&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="iFileSaver.SaveAsync (fileName, stream, progress, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Tizen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Tizen")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="progress" Type="System.IProgress&lt;System.Double&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">File name with extension</param>
+        <param name="stream">
+          <see cref="T:System.IO.Stream" />
+        </param>
+        <param name="progress">Saving file progress in percentage</param>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Saves a file to the default folder on the file system
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string initialPath, string fileName, System.IO.Stream stream, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string initialPath, string fileName, class System.IO.Stream stream, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.String,System.IO.Stream,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (initialPath As String, fileName As String, stream As Stream, Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * string * System.IO.Stream * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="iFileSaver.SaveAsync (initialPath, fileName, stream, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android26.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android26.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Tizen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Tizen")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="initialPath" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="initialPath">Initial path</param>
+        <param name="fileName">File name with extension</param>
+        <param name="stream">
+          <see cref="T:System.IO.Stream" />
+        </param>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Saves a file to a target folder on the file system
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync (string initialPath, string fileName, System.IO.Stream stream, IProgress&lt;double&gt; progress, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt; SaveAsync(string initialPath, string fileName, class System.IO.Stream stream, class System.IProgress`1&lt;float64&gt; progress, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.IFileSaver.SaveAsync(System.String,System.String,System.IO.Stream,System.IProgress{System.Double},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsync (initialPath As String, fileName As String, stream As Stream, progress As IProgress(Of Double), Optional cancellationToken As CancellationToken = Nothing) As Task(Of FileSaverResult)" />
+      <MemberSignature Language="F#" Value="abstract member SaveAsync : string * string * System.IO.Stream * IProgress&lt;double&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" Usage="iFileSaver.SaveAsync (initialPath, fileName, stream, progress, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android26.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android26.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Tizen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Tizen")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="initialPath" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="stream" Type="System.IO.Stream" />
+        <Parameter Name="progress" Type="System.IProgress&lt;System.Double&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="initialPath">Initial path</param>
+        <param name="fileName">File name with extension</param>
+        <param name="stream">
+          <see cref="T:System.IO.Stream" />
+        </param>
+        <param name="progress">Saving file progress in percentage</param>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Saves a file to a target folder on the file system
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

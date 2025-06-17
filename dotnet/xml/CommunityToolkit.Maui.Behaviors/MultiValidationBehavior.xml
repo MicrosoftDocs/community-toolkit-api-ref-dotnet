@@ -1,0 +1,242 @@
+<Type Name="MultiValidationBehavior" FullName="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior">
+  <TypeSignature Language="C#" Value="public class MultiValidationBehavior : CommunityToolkit.Maui.Behaviors.ValidationBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MultiValidationBehavior extends CommunityToolkit.Maui.Behaviors.ValidationBehavior" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class MultiValidationBehavior&#xA;Inherits ValidationBehavior" />
+  <TypeSignature Language="F#" Value="type MultiValidationBehavior = class&#xA;    inherit ValidationBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.ValidationBehavior</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.ContentProperty("Children")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.ContentProperty("Children")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("MultiValidationBehavior is not trim safe because it uses bindings with string paths.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("MultiValidationBehavior is not trim safe because it uses bindings with string paths.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior" /> is a behavior that allows the user to combine multiple validators to validate text input depending on specified parameters. For example, an <see cref="T:Microsoft.Maui.Controls.Entry" /> control can be styled differently depending on whether a valid or an invalid text input is provided. By allowing the user to chain multiple existing validators together, it offers a high degree of customizability when it comes to validation. Additional properties handling validation are inherited from <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MultiValidationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;CommunityToolkit.Maui.Behaviors.ValidationBehavior&gt; Children { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class CommunityToolkit.Maui.Behaviors.ValidationBehavior&gt; Children" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Children" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IList(Of ValidationBehavior)" />
+      <MemberSignature Language="F#" Value="member this.Children : System.Collections.Generic.IList&lt;CommunityToolkit.Maui.Behaviors.ValidationBehavior&gt;" Usage="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Children" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;CommunityToolkit.Maui.Behaviors.ValidationBehavior&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            All child behaviors that are part of this <see cref="T:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior" />. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ErrorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ErrorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.ErrorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ErrorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ErrorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.ErrorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            BindableProperty for getting the error.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Errors">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;object?&gt;? Errors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;object&gt; Errors" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Errors" />
+      <MemberSignature Language="VB.NET" Value="Public Property Errors As List(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.Errors : System.Collections.Generic.List&lt;obj&gt; with get, set" Usage="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Errors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Holds the errors from all the nested invalid validators in <see cref="P:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Children" />. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ErrorsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ErrorsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.ErrorsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ErrorsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ErrorsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.ErrorsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Errors" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetError">
+      <MemberSignature Language="C#" Value="public static object? GetError (Microsoft.Maui.Controls.BindableObject bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetError(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.GetError(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetError (bindable As BindableObject) As Object" />
+      <MemberSignature Language="F#" Value="static member GetError : Microsoft.Maui.Controls.BindableObject -&gt; obj" Usage="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.GetError bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">The <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" /> that we extract the attached Error property</param>
+        <summary>
+            Method to extract the error from the attached property for a child behavior in <see cref="P:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Children" />.
+            </summary>
+        <returns>Object containing error information</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetError">
+      <MemberSignature Language="C#" Value="public static void SetError (Microsoft.Maui.Controls.BindableObject bindable, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetError(class Microsoft.Maui.Controls.BindableObject bindable, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.SetError(Microsoft.Maui.Controls.BindableObject,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetError (bindable As BindableObject, value As Object)" />
+      <MemberSignature Language="F#" Value="static member SetError : Microsoft.Maui.Controls.BindableObject * obj -&gt; unit" Usage="CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.SetError (bindable, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">The <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" /> on which we set the attached Error property value</param>
+        <param name="value">The value to set</param>
+        <summary>
+            Method to set the error on the attached property for a child behavior in <see cref="P:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.Children" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAsync">
+      <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.ValueTask&lt;bool&gt; ValidateAsync (object? value, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; ValidateAsync(object value, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.MultiValidationBehavior.ValidateAsync(System.Object,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function ValidateAsync (value As Object, token As CancellationToken) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="override this.ValidateAsync : obj * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="multiValidationBehavior.ValidateAsync (value, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

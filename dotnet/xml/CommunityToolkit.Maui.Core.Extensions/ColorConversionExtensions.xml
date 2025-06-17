@@ -1,0 +1,947 @@
+<Type Name="ColorConversionExtensions" FullName="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions">
+  <TypeSignature Language="C#" Value="public static class ColorConversionExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ColorConversionExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ColorConversionExtensions" />
+  <TypeSignature Language="F#" Value="type ColorConversionExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods for Microsoft.Maui.Graphics.Color
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetByteAlpha">
+      <MemberSignature Language="C#" Value="public static byte GetByteAlpha (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8 GetByteAlpha(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteAlpha(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetByteAlpha (color As Color) As Byte" />
+      <MemberSignature Language="F#" Value="static member GetByteAlpha : Microsoft.Maui.Graphics.Color -&gt; byte" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteAlpha color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the alpha component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.
+            </summary>
+        <returns>The alpha component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetByteBlue">
+      <MemberSignature Language="C#" Value="public static byte GetByteBlue (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8 GetByteBlue(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteBlue(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetByteBlue (color As Color) As Byte" />
+      <MemberSignature Language="F#" Value="static member GetByteBlue : Microsoft.Maui.Graphics.Color -&gt; byte" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteBlue color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the blue component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.
+            </summary>
+        <returns>The blue component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetByteGreen">
+      <MemberSignature Language="C#" Value="public static byte GetByteGreen (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8 GetByteGreen(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteGreen(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetByteGreen (color As Color) As Byte" />
+      <MemberSignature Language="F#" Value="static member GetByteGreen : Microsoft.Maui.Graphics.Color -&gt; byte" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteGreen color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the green component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.
+            </summary>
+        <returns>The green component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetByteRed">
+      <MemberSignature Language="C#" Value="public static byte GetByteRed (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8 GetByteRed(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteRed(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetByteRed (color As Color) As Byte" />
+      <MemberSignature Language="F#" Value="static member GetByteRed : Microsoft.Maui.Graphics.Color -&gt; byte" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetByteRed color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the red component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.
+            </summary>
+        <returns>The red component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 255.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDegreeHue">
+      <MemberSignature Language="C#" Value="public static double GetDegreeHue (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetDegreeHue(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetDegreeHue(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDegreeHue (color As Color) As Double" />
+      <MemberSignature Language="F#" Value="static member GetDegreeHue : Microsoft.Maui.Graphics.Color -&gt; double" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetDegreeHue color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the hue component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 360.
+            </summary>
+        <returns>The hue component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 360.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPercentBlackKey">
+      <MemberSignature Language="C#" Value="public static float GetPercentBlackKey (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 GetPercentBlackKey(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentBlackKey(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPercentBlackKey (color As Color) As Single" />
+      <MemberSignature Language="F#" Value="static member GetPercentBlackKey : Microsoft.Maui.Graphics.Color -&gt; single" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentBlackKey color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the black key component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.
+            </summary>
+        <returns>The black key component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPercentCyan">
+      <MemberSignature Language="C#" Value="public static float GetPercentCyan (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 GetPercentCyan(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentCyan(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPercentCyan (color As Color) As Single" />
+      <MemberSignature Language="F#" Value="static member GetPercentCyan : Microsoft.Maui.Graphics.Color -&gt; single" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentCyan color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the cyan component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.
+            </summary>
+        <returns>The cyan component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPercentMagenta">
+      <MemberSignature Language="C#" Value="public static float GetPercentMagenta (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 GetPercentMagenta(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentMagenta(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPercentMagenta (color As Color) As Single" />
+      <MemberSignature Language="F#" Value="static member GetPercentMagenta : Microsoft.Maui.Graphics.Color -&gt; single" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentMagenta color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the magenta component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.
+            </summary>
+        <returns>The magenta component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPercentYellow">
+      <MemberSignature Language="C#" Value="public static float GetPercentYellow (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 GetPercentYellow(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentYellow(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPercentYellow (color As Color) As Single" />
+      <MemberSignature Language="F#" Value="static member GetPercentYellow : Microsoft.Maui.Graphics.Color -&gt; single" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.GetPercentYellow color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to retrieve the component value from.</param>
+        <summary>
+            Gets the yellow component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.
+            </summary>
+        <returns>The yellow component of <see cref="T:Microsoft.Maui.Graphics.Color" /> as a value between 0 and 1.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDark">
+      <MemberSignature Language="C#" Value="public static bool IsDark (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsDark(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.IsDark(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsDark (color As Color) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsDark : Microsoft.Maui.Graphics.Color -&gt; bool" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.IsDark color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to check.</param>
+        <summary>
+            Determines if this <see cref="T:Microsoft.Maui.Graphics.Color" /> is dark.
+            </summary>
+        <returns>
+            Whether this <see cref="T:Microsoft.Maui.Graphics.Color" /> is dark.
+            Returns <c>true</c> if the <see cref="T:Microsoft.Maui.Graphics.Color" /> is determined to be dark, <c> false otherwise.</c></returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDarkForTheEye">
+      <MemberSignature Language="C#" Value="public static bool IsDarkForTheEye (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsDarkForTheEye(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.IsDarkForTheEye(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsDarkForTheEye (color As Color) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsDarkForTheEye : Microsoft.Maui.Graphics.Color -&gt; bool" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.IsDarkForTheEye color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to check.</param>
+        <summary>
+            Determines if this <see cref="T:Microsoft.Maui.Graphics.Color" /> is dark for the human eye.
+            </summary>
+        <returns>
+            Whether this <see cref="T:Microsoft.Maui.Graphics.Color" /> is dark for the human eye.
+            Returns <c>true</c> if the <see cref="T:Microsoft.Maui.Graphics.Color" /> is determined to be dark, <c> false otherwise.</c></returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToBlackOrWhite">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color ToBlackOrWhite (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color ToBlackOrWhite(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToBlackOrWhite(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToBlackOrWhite (color As Color) As Color" />
+      <MemberSignature Language="F#" Value="static member ToBlackOrWhite : Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToBlackOrWhite color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a monochrome value of <see cref="F:Microsoft.Maui.Graphics.Colors.Black" /> or <see cref="F:Microsoft.Maui.Graphics.Colors.White" />.
+            </summary>
+        <returns>
+            This <see cref="T:Microsoft.Maui.Graphics.Color" /> to a monochrome value of <see cref="F:Microsoft.Maui.Graphics.Colors.Black" /> or <see cref="F:Microsoft.Maui.Graphics.Colors.White" />.
+            If the incoming <see cref="T:Microsoft.Maui.Graphics.Color" /> is light, it will be converted to <see cref="F:Microsoft.Maui.Graphics.Colors.White" />.
+            If the incoming <see cref="T:Microsoft.Maui.Graphics.Color" /> is dark, it will be converted to <see cref="F:Microsoft.Maui.Graphics.Colors.Black" />.
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToBlackOrWhiteForText">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color ToBlackOrWhiteForText (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color ToBlackOrWhiteForText(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToBlackOrWhiteForText(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToBlackOrWhiteForText (color As Color) As Color" />
+      <MemberSignature Language="F#" Value="static member ToBlackOrWhiteForText : Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToBlackOrWhiteForText color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a monochrome value of <see cref="F:Microsoft.Maui.Graphics.Colors.Black" /> or <see cref="F:Microsoft.Maui.Graphics.Colors.White" /> based on
+            whether this <see cref="T:Microsoft.Maui.Graphics.Color" /> is determined as being dark for the human eye.
+            </summary>
+        <returns>
+            This <see cref="T:Microsoft.Maui.Graphics.Color" /> to a monochrome value of <see cref="F:Microsoft.Maui.Graphics.Colors.Black" /> or <see cref="F:Microsoft.Maui.Graphics.Colors.White" />.
+            If the incoming <see cref="T:Microsoft.Maui.Graphics.Color" /> is light, it will be converted to <see cref="F:Microsoft.Maui.Graphics.Colors.White" />.
+            If the incoming <see cref="T:Microsoft.Maui.Graphics.Color" /> is dark, it will be converted to <see cref="F:Microsoft.Maui.Graphics.Colors.Black" />.
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToCmykaString">
+      <MemberSignature Language="C#" Value="public static string ToCmykaString (this Microsoft.Maui.Graphics.Color color, System.Globalization.CultureInfo? cultureInfo = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToCmykaString(class Microsoft.Maui.Graphics.Color color, class System.Globalization.CultureInfo cultureInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToCmykaString(Microsoft.Maui.Graphics.Color,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToCmykaString (color As Color, Optional cultureInfo As CultureInfo = Nothing) As String" />
+      <MemberSignature Language="F#" Value="static member ToCmykaString : Microsoft.Maui.Graphics.Color * System.Globalization.CultureInfo -&gt; string" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToCmykaString (color, cultureInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="cultureInfo" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <param name="cultureInfo">The <see cref="T:System.Globalization.CultureInfo" />.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a <see cref="T:System.String" /> containing the cyan, magenta, yellow, key and alpha components.
+            </summary>
+        <returns>
+            A <see cref="T:System.String" /> in the format: <c>CMYKA(cyan,magenta,yellow,key,alpha)</c> where <b>cyan</b>, <b>magenta</b>, <b>yellow </b>and <b>key</b> will be a value between
+            0% and 100% and <b>alpha</b> will be a value between 0 and 1. (e.g. <c>CMYKA(100%,100%,0%,100%,1)</c> for <see cref="F:Microsoft.Maui.Graphics.Colors.Red" />).
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToCmykString">
+      <MemberSignature Language="C#" Value="public static string ToCmykString (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToCmykString(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToCmykString(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToCmykString (color As Color) As String" />
+      <MemberSignature Language="F#" Value="static member ToCmykString : Microsoft.Maui.Graphics.Color -&gt; string" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToCmykString color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a <see cref="T:System.String" /> containing the cyan, magenta, yellow and key components.
+            </summary>
+        <returns>
+            A <see cref="T:System.String" /> in the format: <c>CMYK(cyan,magenta,yellow,key)</c> where <b>cyan</b>, <b>magenta</b>, <b>yellow</b> and <b>key</b> will be a value between 0% and 100%.
+            (e.g. <c>CMYK(0%,100%,100%,0%)</c> for <see cref="F:Microsoft.Maui.Graphics.Colors.Red" />).
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGrayScale">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color ToGrayScale (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color ToGrayScale(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToGrayScale(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToGrayScale (color As Color) As Color" />
+      <MemberSignature Language="F#" Value="static member ToGrayScale : Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToGrayScale color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a grayscale <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>This <see cref="T:Microsoft.Maui.Graphics.Color" /> converted to a grayscale <see cref="T:Microsoft.Maui.Graphics.Color" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToHslaString">
+      <MemberSignature Language="C#" Value="public static string ToHslaString (this Microsoft.Maui.Graphics.Color color, System.Globalization.CultureInfo? cultureInfo = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToHslaString(class Microsoft.Maui.Graphics.Color color, class System.Globalization.CultureInfo cultureInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToHslaString(Microsoft.Maui.Graphics.Color,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToHslaString (color As Color, Optional cultureInfo As CultureInfo = Nothing) As String" />
+      <MemberSignature Language="F#" Value="static member ToHslaString : Microsoft.Maui.Graphics.Color * System.Globalization.CultureInfo -&gt; string" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToHslaString (color, cultureInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="cultureInfo" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <param name="cultureInfo">The <see cref="T:System.Globalization.CultureInfo" />.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a <see cref="T:System.String" /> containing the hue, saturation, lightness and alpha components.
+            </summary>
+        <returns>
+            A <see cref="T:System.String" /> in the format: <c>HSLA(hue,saturation,lightness,alpha)</c> where <b>hue</b> will be a value between 0 and 360, <b>saturation</b> and <b>lightness</b>
+            will be a value between 0% and 100%, and <b>alpha</b> will be a value between 0 and 1. (e.g. <c>HSLA(0,100%,50%,1)</c> for <see cref="F:Microsoft.Maui.Graphics.Colors.Red" />).
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToHslString">
+      <MemberSignature Language="C#" Value="public static string ToHslString (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToHslString(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToHslString(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToHslString (color As Color) As String" />
+      <MemberSignature Language="F#" Value="static member ToHslString : Microsoft.Maui.Graphics.Color -&gt; string" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToHslString color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a <see cref="T:System.String" /> containing the hue, saturation and lightness components.
+            </summary>
+        <returns>
+            A <see cref="T:System.String" /> in the format: <c>HSL(hue,saturation,lightness)</c> where <b>hue</b> will be a value between 0 and 360, and <b>saturation</b> and <b>lightness</b>
+            will be a value between 0% and 100%. (e.g. <c>HSL(0,100%,50%)</c> for <see cref="F:Microsoft.Maui.Graphics.Colors.Red" />).
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToInverseColor">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color ToInverseColor (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color ToInverseColor(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToInverseColor(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToInverseColor (color As Color) As Color" />
+      <MemberSignature Language="F#" Value="static member ToInverseColor : Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToInverseColor color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to invert.</param>
+        <summary>
+            Inverts this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>The inverse of this <see cref="T:Microsoft.Maui.Graphics.Color" /></returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRgbaString">
+      <MemberSignature Language="C#" Value="public static string ToRgbaString (this Microsoft.Maui.Graphics.Color color, System.Globalization.CultureInfo? cultureInfo = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToRgbaString(class Microsoft.Maui.Graphics.Color color, class System.Globalization.CultureInfo cultureInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToRgbaString(Microsoft.Maui.Graphics.Color,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToRgbaString (color As Color, Optional cultureInfo As CultureInfo = Nothing) As String" />
+      <MemberSignature Language="F#" Value="static member ToRgbaString : Microsoft.Maui.Graphics.Color * System.Globalization.CultureInfo -&gt; string" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToRgbaString (color, cultureInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="cultureInfo" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <param name="cultureInfo">The <see cref="T:System.Globalization.CultureInfo" />.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a <see cref="T:System.String" /> containing the red, green, blue and alpha components.
+            </summary>
+        <returns>
+            A <see cref="T:System.String" /> in the format: <c>RGBA(red,green,blue,alpha)</c> where <b>red</b>, <b>green</b> and <b>blue</b> will be a value between 0 and 255,
+            and <b>alpha</b> is a value between 0 and 1. (e.g. <c>RGBA(255,0,0,1)</c> for <see cref="F:Microsoft.Maui.Graphics.Colors.Red" />).
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRgbString">
+      <MemberSignature Language="C#" Value="public static string ToRgbString (this Microsoft.Maui.Graphics.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToRgbString(class Microsoft.Maui.Graphics.Color color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToRgbString(Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToRgbString (color As Color) As String" />
+      <MemberSignature Language="F#" Value="static member ToRgbString : Microsoft.Maui.Graphics.Color -&gt; string" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.ToRgbString color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to convert.</param>
+        <summary>
+            Converts this <see cref="T:Microsoft.Maui.Graphics.Color" /> to a <see cref="T:System.String" /> containing the red, green and blue components.
+            </summary>
+        <returns>
+            A <see cref="T:System.String" /> in the format: <c>RGB(red,green,blue)</c> where <b>red</b>, <b>green</b> and <b>blue</b> will be a value between 0 and 255.
+            (e.g. <c>RGB(255,0,0)</c> for <see cref="F:Microsoft.Maui.Graphics.Colors.Red" />).
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithBlackKey">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithBlackKey (this Microsoft.Maui.Graphics.Color color, double blackKeyComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithBlackKey(class Microsoft.Maui.Graphics.Color color, float64 blackKeyComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithBlackKey(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithBlackKey (color As Color, blackKeyComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithBlackKey : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithBlackKey (color, blackKeyComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="blackKeyComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="blackKeyComponent">The black key component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="blackKeyComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="blackKeyComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithBlue">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithBlue (this Microsoft.Maui.Graphics.Color color, byte blueComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithBlue(class Microsoft.Maui.Graphics.Color color, unsigned int8 blueComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithBlue(Microsoft.Maui.Graphics.Color,System.Byte)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithBlue (color As Color, blueComponent As Byte) As Color" />
+      <MemberSignature Language="F#" Value="static member WithBlue : Microsoft.Maui.Graphics.Color * byte -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithBlue (color, blueComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="blueComponent" Type="System.Byte" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="blueComponent">The blue component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 255.</param>
+        <summary>
+            Applies the supplied <paramref name="blueComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="blueComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithBlue">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithBlue (this Microsoft.Maui.Graphics.Color color, double blueComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithBlue(class Microsoft.Maui.Graphics.Color color, float64 blueComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithBlue(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithBlue (color As Color, blueComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithBlue : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithBlue (color, blueComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="blueComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="blueComponent">The blue component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="blueComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="blueComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="blueComponent" /> is <b>not</b> between 0 and 1.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithCyan">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithCyan (this Microsoft.Maui.Graphics.Color color, double cyanComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithCyan(class Microsoft.Maui.Graphics.Color color, float64 cyanComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithCyan(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithCyan (color As Color, cyanComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithCyan : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithCyan (color, cyanComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="cyanComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="cyanComponent">The cyan component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="cyanComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="cyanComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithGreen">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithGreen (this Microsoft.Maui.Graphics.Color color, byte greenComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithGreen(class Microsoft.Maui.Graphics.Color color, unsigned int8 greenComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithGreen(Microsoft.Maui.Graphics.Color,System.Byte)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithGreen (color As Color, greenComponent As Byte) As Color" />
+      <MemberSignature Language="F#" Value="static member WithGreen : Microsoft.Maui.Graphics.Color * byte -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithGreen (color, greenComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="greenComponent" Type="System.Byte" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="greenComponent">The green component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 255.</param>
+        <summary>
+            Applies the supplied <paramref name="greenComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="greenComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithGreen">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithGreen (this Microsoft.Maui.Graphics.Color color, double greenComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithGreen(class Microsoft.Maui.Graphics.Color color, float64 greenComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithGreen(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithGreen (color As Color, greenComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithGreen : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithGreen (color, greenComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="greenComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="greenComponent">The green component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="greenComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="greenComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="greenComponent" /> is <b>not</b> between 0 and 1.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithMagenta">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithMagenta (this Microsoft.Maui.Graphics.Color color, double magentaComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithMagenta(class Microsoft.Maui.Graphics.Color color, float64 magentaComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithMagenta(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithMagenta (color As Color, magentaComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithMagenta : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithMagenta (color, magentaComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="magentaComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="magentaComponent">The magenta component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="magentaComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="magentaComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithRed">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithRed (this Microsoft.Maui.Graphics.Color color, byte redComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithRed(class Microsoft.Maui.Graphics.Color color, unsigned int8 redComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithRed(Microsoft.Maui.Graphics.Color,System.Byte)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithRed (color As Color, redComponent As Byte) As Color" />
+      <MemberSignature Language="F#" Value="static member WithRed : Microsoft.Maui.Graphics.Color * byte -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithRed (color, redComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="redComponent" Type="System.Byte" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="redComponent">The red component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 255.</param>
+        <summary>
+            Applies the supplied <paramref name="redComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="redComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithRed">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithRed (this Microsoft.Maui.Graphics.Color color, double redComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithRed(class Microsoft.Maui.Graphics.Color color, float64 redComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithRed(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithRed (color As Color, redComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithRed : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithRed (color, redComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="redComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="redComponent">The red component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="redComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="redComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="redComponent" /> is <b>not</b> between 0 and 1.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WithYellow">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Color WithYellow (this Microsoft.Maui.Graphics.Color color, double yellowComponent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color WithYellow(class Microsoft.Maui.Graphics.Color color, float64 yellowComponent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithYellow(Microsoft.Maui.Graphics.Color,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithYellow (color As Color, yellowComponent As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member WithYellow : Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Extensions.ColorConversionExtensions.WithYellow (color, yellowComponent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="Microsoft.Maui.Graphics.Color" RefType="this" />
+        <Parameter Name="yellowComponent" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="color">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to modify.</param>
+        <param name="yellowComponent">The yellow component to apply to the existing <see cref="T:Microsoft.Maui.Graphics.Color" />. Note this value must be between 0 and 1.</param>
+        <summary>
+            Applies the supplied <paramref name="yellowComponent" /> to this <see cref="T:Microsoft.Maui.Graphics.Color" />.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Graphics.Color" /> with the supplied <paramref name="yellowComponent" /> applied.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="color" /> is null.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

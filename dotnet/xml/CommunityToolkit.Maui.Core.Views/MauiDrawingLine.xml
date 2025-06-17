@@ -1,0 +1,154 @@
+<Type Name="MauiDrawingLine" FullName="CommunityToolkit.Maui.Core.Views.MauiDrawingLine">
+  <TypeSignature Language="C#" Value="public class MauiDrawingLine" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MauiDrawingLine extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.MauiDrawingLine" />
+  <TypeSignature Language="VB.NET" Value="Public Class MauiDrawingLine" />
+  <TypeSignature Language="F#" Value="type MauiDrawingLine = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The Line object is used to describe the lines that are drawn on a <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MauiDrawingLine ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MauiDrawingLine.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Granularity">
+      <MemberSignature Language="C#" Value="public int Granularity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Granularity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingLine.Granularity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Granularity As Integer" />
+      <MemberSignature Language="F#" Value="member this.Granularity : int with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingLine.Granularity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The granularity of this line. Clamped to a minimum value of 5. Value clamped between <see cref="F:CommunityToolkit.Maui.Core.DrawingViewDefaults.MinimumGranularity" /> and <see cref="F:System.Int32.MaxValue" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color LineColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color LineColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingLine.LineColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineColor As Color" />
+      <MemberSignature Language="F#" Value="member this.LineColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingLine.LineColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.Graphics.Color" /> that is used to draw this line on the <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineWidth">
+      <MemberSignature Language="C#" Value="public float LineWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LineWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingLine.LineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.LineWidth : single with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingLine.LineWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The width that is used to draw this line on the <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Points">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt; Points { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; Points" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingLine.Points" />
+      <MemberSignature Language="VB.NET" Value="Public Property Points As ObservableCollection(Of PointF)" />
+      <MemberSignature Language="F#" Value="member this.Points : System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt; with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingLine.Points" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Graphics.PointF&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The collection of <see cref="T:Microsoft.Maui.Graphics.PointF" /> that makes up this line on the <see cref="T:CommunityToolkit.Maui.Core.Views.MauiDrawingView" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldSmoothPathWhenDrawn">
+      <MemberSignature Language="C#" Value="public bool ShouldSmoothPathWhenDrawn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldSmoothPathWhenDrawn" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MauiDrawingLine.ShouldSmoothPathWhenDrawn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldSmoothPathWhenDrawn As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldSmoothPathWhenDrawn : bool with get, set" Usage="CommunityToolkit.Maui.Core.Views.MauiDrawingLine.ShouldSmoothPathWhenDrawn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enables or disabled if this line is smoothed (anti-aliased) when drawn.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
