@@ -1,0 +1,332 @@
+<Type Name="AttachedDropShadow" FullName="CommunityToolkit.WinUI.AttachedDropShadow">
+  <TypeSignature Language="C#" Value="public sealed class AttachedDropShadow : CommunityToolkit.WinUI.AttachedShadowBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttachedDropShadow extends CommunityToolkit.WinUI.AttachedShadowBase" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.AttachedDropShadow" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttachedDropShadow&#xA;Inherits AttachedShadowBase" />
+  <TypeSignature Language="F#" Value="type AttachedDropShadow = class&#xA;    inherit AttachedShadowBase" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.AttachedShadowBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A helper to add a composition based drop shadow to a <see cref="T:Microsoft.UI.Xaml.FrameworkElement" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttachedDropShadow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedDropShadow.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CastTo">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.FrameworkElement CastTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.FrameworkElement CastTo" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedDropShadow.CastTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property CastTo As FrameworkElement" />
+      <MemberSignature Language="F#" Value="member this.CastTo : Microsoft.UI.Xaml.FrameworkElement with get, set" Usage="CommunityToolkit.WinUI.AttachedDropShadow.CastTo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.FrameworkElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="T:Microsoft.UI.Xaml.Controls.Panel" /> to be used as a backdrop to cast shadows on.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CastToProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty CastToProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty CastToProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedDropShadow.CastToProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CastToProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CastToProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedDropShadow.CastToProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for <see cref="P:CommunityToolkit.WinUI.AttachedDropShadow.CastTo" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CornerRadius">
+      <MemberSignature Language="C#" Value="public double CornerRadius { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 CornerRadius" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedDropShadow.CornerRadius" />
+      <MemberSignature Language="VB.NET" Value="Public Property CornerRadius As Double" />
+      <MemberSignature Language="F#" Value="member this.CornerRadius : double with get, set" Usage="CommunityToolkit.WinUI.AttachedDropShadow.CornerRadius" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the roundness of the shadow's corners.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CornerRadiusProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty CornerRadiusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty CornerRadiusProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedDropShadow.CornerRadiusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CornerRadiusProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CornerRadiusProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedDropShadow.CornerRadiusProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for <see cref="P:CommunityToolkit.WinUI.AttachedDropShadow.CornerRadius" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetShadowMask">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Composition.CompositionBrush? GetShadowMask (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.UI.Composition.CompositionBrush GetShadowMask(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedDropShadow.GetShadowMask(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetShadowMask (context As AttachedShadowElementContext) As CompositionBrush" />
+      <MemberSignature Language="F#" Value="override this.GetShadowMask : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; Microsoft.UI.Composition.CompositionBrush" Usage="attachedDropShadow.GetShadowMask context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Composition.CompositionBrush</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="IsMasked">
+      <MemberSignature Language="C#" Value="public bool IsMasked { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMasked" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedDropShadow.IsMasked" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMasked As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMasked : bool with get, set" Usage="CommunityToolkit.WinUI.AttachedDropShadow.IsMasked" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the panel uses an alpha mask to create a more precise shadow vs. a quicker rectangle shape.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Turn this off to lose fidelity and gain performance of the panel.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMaskedProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IsMaskedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IsMaskedProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.AttachedDropShadow.IsMaskedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsMaskedProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsMaskedProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.AttachedDropShadow.IsMaskedProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.AttachedDropShadow.IsMasked" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnElementContextUninitialized">
+      <MemberSignature Language="C#" Value="protected internal override void OnElementContextUninitialized (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void OnElementContextUninitialized(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedDropShadow.OnElementContextUninitialized(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub OnElementContextUninitialized (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="override this.OnElementContextUninitialized : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedDropShadow.OnElementContextUninitialized context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnPropertyChanged (CommunityToolkit.WinUI.AttachedShadowElementContext context, Microsoft.UI.Xaml.DependencyProperty property, object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(class CommunityToolkit.WinUI.AttachedShadowElementContext context, class Microsoft.UI.Xaml.DependencyProperty property, object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedDropShadow.OnPropertyChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Microsoft.UI.Xaml.DependencyProperty,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (context As AttachedShadowElementContext, property As DependencyProperty, oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : CommunityToolkit.WinUI.AttachedShadowElementContext * Microsoft.UI.Xaml.DependencyProperty * obj * obj -&gt; unit" Usage="attachedDropShadow.OnPropertyChanged (context, property, oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+        <Parameter Name="property" Type="Microsoft.UI.Xaml.DependencyProperty" />
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnSizeChanged">
+      <MemberSignature Language="C#" Value="protected internal override void OnSizeChanged (CommunityToolkit.WinUI.AttachedShadowElementContext context, Windows.Foundation.Size newSize, Windows.Foundation.Size previousSize);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void OnSizeChanged(class CommunityToolkit.WinUI.AttachedShadowElementContext context, valuetype Windows.Foundation.Size newSize, valuetype Windows.Foundation.Size previousSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedDropShadow.OnSizeChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Windows.Foundation.Size,Windows.Foundation.Size)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub OnSizeChanged (context As AttachedShadowElementContext, newSize As Size, previousSize As Size)" />
+      <MemberSignature Language="F#" Value="override this.OnSizeChanged : CommunityToolkit.WinUI.AttachedShadowElementContext * Windows.Foundation.Size * Windows.Foundation.Size -&gt; unit" Usage="attachedDropShadow.OnSizeChanged (context, newSize, previousSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+        <Parameter Name="newSize" Type="Windows.Foundation.Size" />
+        <Parameter Name="previousSize" Type="Windows.Foundation.Size" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="newSize">To be added.</param>
+        <param name="previousSize">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SetElementChildVisual">
+      <MemberSignature Language="C#" Value="protected override void SetElementChildVisual (CommunityToolkit.WinUI.AttachedShadowElementContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void SetElementChildVisual(class CommunityToolkit.WinUI.AttachedShadowElementContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.AttachedDropShadow.SetElementChildVisual(CommunityToolkit.WinUI.AttachedShadowElementContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub SetElementChildVisual (context As AttachedShadowElementContext)" />
+      <MemberSignature Language="F#" Value="override this.SetElementChildVisual : CommunityToolkit.WinUI.AttachedShadowElementContext -&gt; unit" Usage="attachedDropShadow.SetElementChildVisual context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="CommunityToolkit.WinUI.AttachedShadowElementContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsOnSizeChangedEvent">
+      <MemberSignature Language="C#" Value="protected internal override bool SupportsOnSizeChangedEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsOnSizeChangedEvent" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.AttachedDropShadow.SupportsOnSizeChangedEvent" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides ReadOnly Property SupportsOnSizeChangedEvent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsOnSizeChangedEvent : bool" Usage="CommunityToolkit.WinUI.AttachedDropShadow.SupportsOnSizeChangedEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

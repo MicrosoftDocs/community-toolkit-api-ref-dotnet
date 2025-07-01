@@ -1,0 +1,325 @@
+<Type Name="EventToCommandBehavior" FullName="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior">
+  <TypeSignature Language="C#" Value="public class EventToCommandBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventToCommandBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.VisualElement&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventToCommandBehavior&#xA;Inherits BaseBehavior(Of VisualElement)" />
+  <TypeSignature Language="F#" Value="type EventToCommandBehavior = class&#xA;    inherit BaseBehavior&lt;VisualElement&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.VisualElement</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" /> is a behavior that allows the user to invoke a <see cref="T:System.Windows.Input.ICommand" /> through an event. It is designed to associate Commands to events exposed by controls that were not designed to support Commands. It allows you to map any arbitrary event on a control to a Command.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventToCommandBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand? Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.Command" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Command that should be executed when the event configured with <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventName" /> is triggered. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameter">
+      <MemberSignature Language="C#" Value="public object? CommandParameter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An optional parameter to forward to the <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.Command" />. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandParameterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandParameterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandParameterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandParameter" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.CommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.Command" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventArgsConverter">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.IValueConverter? EventArgsConverter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IValueConverter EventArgsConverter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventArgsConverter" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventArgsConverter As IValueConverter" />
+      <MemberSignature Language="F#" Value="member this.EventArgsConverter : Microsoft.Maui.Controls.IValueConverter with get, set" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventArgsConverter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.IValueConverter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An optional <see cref="T:CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter" /> that can be used to convert <see cref="T:System.EventArgs" /> values, associated with the event configured with <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventName" />, to values passed into the <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.Command" />. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventArgsConverterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty EventArgsConverterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EventArgsConverterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventArgsConverterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EventArgsConverterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable EventArgsConverterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventArgsConverterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="T:System.EventArgs" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventName">
+      <MemberSignature Language="C#" Value="public string? EventName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EventName" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventName" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventName As String" />
+      <MemberSignature Language="F#" Value="member this.EventName : string with get, set" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name of the event that should be associated with <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.Command" />. This is bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventNameProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty EventNameProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EventNameProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventNameProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EventNameProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable EventNameProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventNameProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.EventName" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.OnAttachedTo(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="eventToCommandBehavior.OnAttachedTo bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachingFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachingFrom (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachingFrom(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.OnDetachingFrom(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachingFrom (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="eventToCommandBehavior.OnDetachingFrom bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnTriggerHandled">
+      <MemberSignature Language="C#" Value="protected virtual void OnTriggerHandled (object? sender = default, object? eventArgs = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnTriggerHandled(object sender, object eventArgs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior.OnTriggerHandled(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnTriggerHandled (Optional sender As Object = Nothing, Optional eventArgs As Object = Nothing)" />
+      <MemberSignature Language="F#" Value="abstract member OnTriggerHandled : obj * obj -&gt; unit&#xA;override this.OnTriggerHandled : obj * obj -&gt; unit" Usage="eventToCommandBehavior.OnTriggerHandled (sender, eventArgs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Microsoft.Maui.Controls.Internals.Preserve(Conditional=true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Internals.Preserve(Conditional=true)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="eventArgs" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sender" />
+        <param name="eventArgs" />
+        <summary>
+            Virtual method that executes when a Command is invoked
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

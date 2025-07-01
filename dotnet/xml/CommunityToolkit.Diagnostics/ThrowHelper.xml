@@ -7,16 +7,24 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Helper methods to efficiently throw exceptions.
             </summary>
     <remarks>To be added.</remarks>
+    <inheritdoc />
   </Docs>
   <Members>
     <Member MemberName="ThrowArgumentException">
@@ -29,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -58,6 +67,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -90,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -124,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -194,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -205,7 +219,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -228,6 +249,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -237,6 +259,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -265,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -274,6 +303,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -304,6 +339,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -313,6 +349,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -343,6 +385,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -352,6 +395,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -384,6 +433,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -413,6 +463,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -445,6 +496,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -479,6 +531,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -513,6 +566,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -524,7 +578,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -547,6 +608,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -556,6 +618,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -584,6 +652,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -593,6 +662,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -623,6 +698,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -632,6 +708,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -662,6 +744,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -691,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -723,6 +807,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -757,6 +842,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -791,6 +877,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -827,6 +914,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -838,7 +926,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -861,6 +956,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -870,6 +966,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -898,6 +1000,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -907,6 +1010,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -937,6 +1046,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -946,6 +1056,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -976,6 +1092,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -985,6 +1102,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1017,6 +1140,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1046,6 +1170,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1078,6 +1203,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1112,6 +1238,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1123,7 +1250,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -1146,6 +1280,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1155,6 +1290,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1183,6 +1324,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1192,6 +1334,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1222,6 +1370,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1238,7 +1387,7 @@
             Throws a new <see cref="T:System.Runtime.InteropServices.COMException" />.
             </summary>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.Runtime.InteropServices.COMException">Thrown with no paarameters.</exception>
+        <exception cref="T:System.Runtime.InteropServices.COMException">Thrown with no parameters.</exception>
       </Docs>
     </Member>
     <Member MemberName="ThrowCOMException">
@@ -1251,6 +1400,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1283,6 +1433,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1317,6 +1468,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1333,7 +1485,7 @@
       </Parameters>
       <Docs>
         <param name="message">The argument name.</param>
-        <param name="error">The HRESULT of the errror to include.</param>
+        <param name="error">The HRESULT of the error to include.</param>
         <summary>
             Throws a new <see cref="T:System.Runtime.InteropServices.COMException" />.
             </summary>
@@ -1351,6 +1503,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1362,7 +1515,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -1385,6 +1545,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1394,6 +1555,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1422,6 +1589,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1431,6 +1599,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1461,6 +1635,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1470,6 +1645,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1481,7 +1662,7 @@
       <Docs>
         <typeparam name="T">The type of expected result.</typeparam>
         <param name="message">The argument name.</param>
-        <param name="error">The HRESULT of the errror to include.</param>
+        <param name="error">The HRESULT of the error to include.</param>
         <summary>
             Throws a new <see cref="T:System.Runtime.InteropServices.COMException" />.
             </summary>
@@ -1500,6 +1681,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1529,6 +1711,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1561,6 +1744,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1595,6 +1779,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1611,7 +1796,7 @@
       </Parameters>
       <Docs>
         <param name="message">The argument name.</param>
-        <param name="error">The HRESULT of the errror to include.</param>
+        <param name="error">The HRESULT of the error to include.</param>
         <summary>
             Throws a new <see cref="T:System.Runtime.InteropServices.ExternalException" />.
             </summary>
@@ -1629,6 +1814,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1640,7 +1826,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -1663,6 +1856,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1672,6 +1866,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1700,6 +1900,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1709,6 +1910,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1739,6 +1946,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1748,6 +1956,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1759,7 +1973,7 @@
       <Docs>
         <typeparam name="T">The type of expected result.</typeparam>
         <param name="message">The argument name.</param>
-        <param name="error">The HRESULT of the errror to include.</param>
+        <param name="error">The HRESULT of the error to include.</param>
         <summary>
             Throws a new <see cref="T:System.Runtime.InteropServices.ExternalException" />.
             </summary>
@@ -1778,6 +1992,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1807,6 +2022,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1839,6 +2055,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1873,6 +2090,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1884,7 +2102,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -1907,6 +2132,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1916,6 +2142,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1944,6 +2176,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1953,6 +2186,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -1983,6 +2222,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2012,6 +2252,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2044,6 +2285,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2078,6 +2320,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2089,7 +2332,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -2112,6 +2362,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2121,6 +2372,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2149,6 +2406,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2158,6 +2416,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2188,6 +2452,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2217,6 +2482,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2249,6 +2515,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2283,6 +2550,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2294,7 +2562,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -2317,6 +2592,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2326,6 +2602,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2354,6 +2636,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2363,6 +2646,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2393,6 +2682,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2422,6 +2712,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2454,6 +2745,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2488,6 +2780,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2499,7 +2792,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -2522,6 +2822,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2531,6 +2832,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2559,6 +2866,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2568,6 +2876,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2598,6 +2912,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2627,6 +2942,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2659,6 +2975,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2693,6 +3010,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2704,7 +3022,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -2727,6 +3052,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2736,6 +3062,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2764,6 +3096,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2773,6 +3106,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -2803,6 +3142,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2832,6 +3172,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2864,6 +3205,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2898,6 +3240,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2932,6 +3275,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2943,7 +3287,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -2966,6 +3317,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2975,6 +3327,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3003,6 +3361,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3012,6 +3371,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3042,6 +3407,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3051,6 +3417,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3081,6 +3453,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3110,6 +3483,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3142,6 +3516,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3176,6 +3551,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3210,6 +3586,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3221,7 +3598,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -3244,6 +3628,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3253,6 +3638,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3281,6 +3672,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3290,6 +3682,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3320,6 +3718,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3329,6 +3728,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3359,6 +3764,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3388,6 +3794,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3420,6 +3827,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3454,6 +3862,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3488,6 +3897,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3499,7 +3909,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -3522,6 +3939,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3531,6 +3949,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3559,6 +3983,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3568,6 +3993,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3598,6 +4029,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3607,6 +4039,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3637,6 +4075,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3666,6 +4105,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3698,6 +4138,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3732,6 +4173,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3743,7 +4185,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -3766,6 +4215,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3775,6 +4225,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3803,6 +4259,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3812,6 +4269,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3842,6 +4305,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3874,6 +4338,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3908,6 +4373,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3942,6 +4408,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3951,6 +4418,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -3979,6 +4452,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3988,6 +4462,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4018,6 +4498,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4027,6 +4508,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4057,6 +4544,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4086,6 +4574,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4118,6 +4607,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4150,6 +4640,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4184,6 +4675,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4218,6 +4710,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4254,6 +4747,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4265,7 +4759,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -4288,6 +4789,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4297,6 +4799,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4325,6 +4833,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4336,7 +4845,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="token" Type="System.Threading.CancellationToken" />
@@ -4362,6 +4878,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4371,6 +4888,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4401,6 +4924,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4410,6 +4934,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4440,6 +4970,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4449,6 +4980,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4481,6 +5018,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4510,6 +5048,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4542,6 +5081,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4576,6 +5116,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4587,7 +5128,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -4610,6 +5158,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4619,6 +5168,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4647,6 +5202,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4656,6 +5212,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4686,6 +5248,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4715,6 +5278,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4747,6 +5311,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4781,6 +5346,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4792,7 +5358,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -4815,6 +5388,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4824,6 +5398,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4852,6 +5432,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4861,6 +5442,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -4891,6 +5478,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4920,6 +5508,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4952,6 +5541,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4986,6 +5576,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4997,7 +5588,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -5020,6 +5618,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5029,6 +5628,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -5057,6 +5662,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5066,6 +5672,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -5096,6 +5708,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5125,6 +5738,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5157,6 +5771,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5191,6 +5806,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5202,7 +5818,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -5225,6 +5848,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5234,6 +5858,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -5262,6 +5892,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5271,6 +5902,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -5301,6 +5938,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5330,6 +5968,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5362,6 +6001,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5394,6 +6034,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5428,6 +6069,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5462,6 +6104,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5473,7 +6116,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -5496,6 +6146,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5507,7 +6158,14 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="error" Type="System.Int32" />
@@ -5533,6 +6191,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5542,6 +6201,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -5570,6 +6235,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5579,6 +6245,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
@@ -5609,6 +6281,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5618,6 +6291,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />

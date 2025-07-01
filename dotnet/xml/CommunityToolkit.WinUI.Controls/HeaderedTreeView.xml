@@ -1,0 +1,273 @@
+<Type Name="HeaderedTreeView" FullName="CommunityToolkit.WinUI.Controls.HeaderedTreeView">
+  <TypeSignature Language="C#" Value="public class HeaderedTreeView : Microsoft.UI.Xaml.Controls.TreeView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HeaderedTreeView extends Microsoft.UI.Xaml.Controls.TreeView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.HeaderedTreeView" />
+  <TypeSignature Language="VB.NET" Value="Public Class HeaderedTreeView&#xA;Inherits TreeView" />
+  <TypeSignature Language="F#" Value="type HeaderedTreeView = class&#xA;    inherit TreeView" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.TreeView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a <see cref="T:Microsoft.UI.Xaml.Controls.TreeView" /> and has a header.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HeaderedTreeView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.HeaderedTreeView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.HeaderedTreeView" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Footer">
+      <MemberSignature Language="C#" Value="public object Footer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Footer" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Footer" />
+      <MemberSignature Language="VB.NET" Value="Public Property Footer As Object" />
+      <MemberSignature Language="F#" Value="member this.Footer : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.Footer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the data used for the Footer of each control.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FooterProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty FooterProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty FooterProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FooterProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Footer" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FooterTemplate">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.DataTemplate FooterTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DataTemplate FooterTemplate" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property FooterTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.FooterTemplate : Microsoft.UI.Xaml.DataTemplate with get, set" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the template used to display the content of the control's Footer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FooterTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty FooterTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty FooterTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FooterTemplateProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterTemplateProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.FooterTemplate" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Header">
+      <MemberSignature Language="C#" Value="public object Header { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Header" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Header" />
+      <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
+      <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.Header" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the data used for the header of each control.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HeaderProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HeaderProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Header" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderTemplate">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.DataTemplate HeaderTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.DataTemplate HeaderTemplate" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeaderTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.HeaderTemplate : Microsoft.UI.Xaml.DataTemplate with get, set" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the template used to display the content of the control's header.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HeaderTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HeaderTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderTemplateProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderTemplateProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.HeaderTemplate" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnFooterChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnFooterChanged (object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnFooterChanged(object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.HeaderedTreeView.OnFooterChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnFooterChanged (oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnFooterChanged : obj * obj -&gt; unit&#xA;override this.OnFooterChanged : obj * obj -&gt; unit" Usage="headeredTreeView.OnFooterChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">The old value of the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Footer" /> property.</param>
+        <param name="newValue">The new value of the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Footer" /> property.</param>
+        <summary>
+            Called when the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Footer" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnHeaderChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnHeaderChanged (object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnHeaderChanged(object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.HeaderedTreeView.OnHeaderChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnHeaderChanged (oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnHeaderChanged : obj * obj -&gt; unit&#xA;override this.OnHeaderChanged : obj * obj -&gt; unit" Usage="headeredTreeView.OnHeaderChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.HeaderedControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">The old value of the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Header" /> property.</param>
+        <param name="newValue">The new value of the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Header" /> property.</param>
+        <summary>
+            Called when the <see cref="P:CommunityToolkit.WinUI.Controls.HeaderedTreeView.Header" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -7,11 +7,18 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Helpers for working with the <see cref="T:System.Span`1" /> type.
@@ -29,12 +36,19 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Span&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -58,6 +72,116 @@
             </exception>
       </Docs>
     </Member>
+    <Member MemberName="AsSpan2D&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.Span2D&lt;T&gt; AsSpan2D&lt;T&gt; (this Span&lt;T&gt; span, int height, int width);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.Span2D`1&lt;!!T&gt; AsSpan2D&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span, int32 height, int32 width) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpanExtensions.AsSpan2D``1(System.Span{``0},System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan2D(Of T) (span As Span(Of T), height As Integer, width As Integer) As Span2D(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsSpan2D : Span&lt;'T&gt; * int * int -&gt; CommunityToolkit.HighPerformance.Span2D&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.SpanExtensions.AsSpan2D (span, height, width)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.Span2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="height" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="width" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> instance.</param>
+        <param name="height">The height of the resulting 2D area.</param>
+        <param name="width">The width of each row in the resulting 2D area.</param>
+        <summary>
+            Returns a <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" /> instance wrapping the underlying data for the given <see cref="T:System.Span`1" /> instance.
+            </summary>
+        <returns>The resulting <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" /> instance.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when one of the input parameters is out of range.
+            </exception>
+        <exception cref="T:System.ArgumentException">
+            Thrown when the requested area is outside of bounds for <paramref name="span" />.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSpan2D&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.Span2D&lt;T&gt; AsSpan2D&lt;T&gt; (this Span&lt;T&gt; span, int offset, int height, int width, int pitch);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.Span2D`1&lt;!!T&gt; AsSpan2D&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span, int32 offset, int32 height, int32 width, int32 pitch) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpanExtensions.AsSpan2D``1(System.Span{``0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan2D(Of T) (span As Span(Of T), offset As Integer, height As Integer, width As Integer, pitch As Integer) As Span2D(Of T)" />
+      <MemberSignature Language="F#" Value="static member AsSpan2D : Span&lt;'T&gt; * int * int * int * int -&gt; CommunityToolkit.HighPerformance.Span2D&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.SpanExtensions.AsSpan2D (span, offset, height, width, pitch)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.Span2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="height" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="width" Type="System.Int32" Index="3" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="pitch" Type="System.Int32" Index="4" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>
+        <param name="span">The input <see cref="T:System.Span`1" /> instance.</param>
+        <param name="offset">The initial offset within <paramref name="span" />.</param>
+        <param name="height">The height of the resulting 2D area.</param>
+        <param name="width">The width of each row in the resulting 2D area.</param>
+        <param name="pitch">The pitch in the resulting 2D area.</param>
+        <summary>
+            Returns a <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" /> instance wrapping the underlying data for the given <see cref="T:System.Span`1" /> instance.
+            </summary>
+        <returns>The resulting <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" /> instance.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when one of the input parameters is out of range.
+            </exception>
+        <exception cref="T:System.ArgumentException">
+            Thrown when the requested area is outside of bounds for <paramref name="span" />.
+            </exception>
+      </Docs>
+    </Member>
     <Member MemberName="Cast&lt;TFrom,TTo&gt;">
       <MemberSignature Language="C#" Value="public static Span&lt;TTo&gt; Cast&lt;TFrom,TTo&gt; (this Span&lt;TFrom&gt; span) where TFrom : struct where TTo : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!TTo&gt; Cast&lt;struct .ctor (class System.ValueType) TFrom, struct .ctor (class System.ValueType) TTo&gt;(valuetype System.Span`1&lt;!!TFrom&gt; span) cil managed" />
@@ -68,12 +192,19 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Span&lt;TTo&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TFrom">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -81,6 +212,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TTo">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -114,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -122,8 +260,22 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>
@@ -148,19 +300,33 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="value" Type="T" />
       </Parameters>
       <Docs>
@@ -184,15 +350,30 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of elements in the input <see cref="T:System.Span`1" /> instance.</typeparam>
@@ -214,15 +395,30 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="i" Type="System.Int32" />
       </Parameters>
       <Docs>
@@ -237,27 +433,43 @@
       </Docs>
     </Member>
     <Member MemberName="DangerousGetReferenceAt&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ref T DangerousGetReferenceAt&lt;T&gt; (this Span&lt;T&gt; span, nint i);" />
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetReferenceAt&lt;T&gt; (this Span&lt;T&gt; span, IntPtr i);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DangerousGetReferenceAt&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span, native int i) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReferenceAt``1(System.Span{``0},System.IntPtr)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DangerousGetReferenceAt(Of T) (span As Span(Of T), i As IntPtr) As T" />
       <MemberSignature Language="F#" Value="static member DangerousGetReferenceAt : Span&lt;'T&gt; * nativeint -&gt; 'T" Usage="CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReferenceAt (span, i)" />
+      <MemberSignature Language="C#" Value="public static ref T DangerousGetReferenceAt&lt;T&gt; (this Span&lt;T&gt; span, nint i);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="i" Type="System.IntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -285,15 +497,29 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items to enumerate.</typeparam>
@@ -327,6 +553,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -335,7 +562,14 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>
@@ -350,24 +584,47 @@
     </Member>
     <Member MemberName="IndexOf&lt;T&gt;">
       <MemberSignature Language="C#" Value="public static int IndexOf&lt;T&gt; (this Span&lt;T&gt; span, ref T value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span, !!T&amp; value) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span, [in]!!T&amp; value) cil managed" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpanExtensions.IndexOf``1(System.Span{``0},``0@)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IndexOf(Of T) (span As Span(Of T), ByRef value As T) As Integer" />
       <MemberSignature Language="F#" Value="static member IndexOf : Span&lt;'T&gt; * 'T -&gt; int" Usage="CommunityToolkit.HighPerformance.SpanExtensions.IndexOf (span, value)" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span, !!T&amp; value) cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
-        <Parameter Name="value" Type="T" RefType="ref" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="value" Type="T" RefType="ref">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.RequiresLocation]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.RequiresLocation&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type if items in the input <see cref="T:System.Span`1" />.</typeparam>
@@ -376,7 +633,7 @@
         <summary>
             Gets the index of an element of a given <see cref="T:System.Span`1" /> from its reference.
             </summary>
-        <returns>The index of <paramref name="value" /> within <paramref name="span" />.</returns>
+        <returns>The index of <paramref name="value" /> within <paramref name="span" />, or <c>-1</c>.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="value" /> does not belong to <paramref name="span" />.</exception>
       </Docs>
@@ -391,19 +648,39 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="separator" Type="T" />
       </Parameters>
       <Docs>
@@ -437,6 +714,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -445,8 +723,22 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" />
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items in the input <see cref="T:System.Span`1" /> instance.</typeparam>

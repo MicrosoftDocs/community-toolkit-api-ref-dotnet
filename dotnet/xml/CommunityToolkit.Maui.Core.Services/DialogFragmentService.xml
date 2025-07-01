@@ -1,0 +1,49 @@
+<Type Name="DialogFragmentService" FullName="CommunityToolkit.Maui.Core.Services.DialogFragmentService">
+  <TypeSignature Language="C#" Value="public sealed class DialogFragmentService" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DialogFragmentService extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Services.DialogFragmentService" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DialogFragmentService" />
+  <TypeSignature Language="F#" Value="type DialogFragmentService = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            An Android-specific service to support <see cref="T:CommunityToolkit.Maui.Core.Platform.StatusBar" /> on modal pages
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DialogFragmentService ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Services.DialogFragmentService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

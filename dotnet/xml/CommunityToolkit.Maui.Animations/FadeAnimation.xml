@@ -1,0 +1,119 @@
+<Type Name="FadeAnimation" FullName="CommunityToolkit.Maui.Animations.FadeAnimation">
+  <TypeSignature Language="C#" Value="public class FadeAnimation : CommunityToolkit.Maui.Animations.BaseAnimation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FadeAnimation extends CommunityToolkit.Maui.Animations.BaseAnimation" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Animations.FadeAnimation" />
+  <TypeSignature Language="VB.NET" Value="Public Class FadeAnimation&#xA;Inherits BaseAnimation" />
+  <TypeSignature Language="F#" Value="type FadeAnimation = class&#xA;    inherit BaseAnimation" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Animations.BaseAnimation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Animation that will fade the supplied view to the specified <see cref="P:CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" />
+            and then back to its original <see cref="P:CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FadeAnimation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Animations.FadeAnimation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Animation that will fade the supplied view to the specified <see cref="P:CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" />
+            and then back to its original <see cref="P:CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Animate">
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.Task Animate (Microsoft.Maui.Controls.VisualElement view, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task Animate(class Microsoft.Maui.Controls.VisualElement view, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Animations.FadeAnimation.Animate(Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Animate (view As VisualElement, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="override this.Animate : Microsoft.Maui.Controls.VisualElement * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="fadeAnimation.Animate (view, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.VisualElement" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Opacity">
+      <MemberSignature Language="C#" Value="public double Opacity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Opacity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Opacity As Double" />
+      <MemberSignature Language="F#" Value="member this.Opacity : double with get, set" Usage="CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the opacity to fade to before returning to the elements current Opacity.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpacityProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty OpacityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty OpacityProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Animations.FadeAnimation.OpacityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OpacityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OpacityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Animations.FadeAnimation.OpacityProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Animations.FadeAnimation.Opacity" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

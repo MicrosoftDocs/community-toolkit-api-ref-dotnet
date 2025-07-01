@@ -1,0 +1,102 @@
+<Type Name="IsListNullOrEmptyConverter" FullName="CommunityToolkit.Maui.Converters.IsListNullOrEmptyConverter">
+  <TypeSignature Language="C#" Value="public class IsListNullOrEmptyConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;System.Collections.IEnumerable,bool&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IsListNullOrEmptyConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`2&lt;class System.Collections.IEnumerable, bool&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.IsListNullOrEmptyConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class IsListNullOrEmptyConverter&#xA;Inherits BaseConverterOneWay(Of IEnumerable, Boolean)" />
+  <TypeSignature Language="F#" Value="type IsListNullOrEmptyConverter = class&#xA;    inherit BaseConverterOneWay&lt;IEnumerable, bool&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;System.Collections.IEnumerable,System.Boolean&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Collections.IEnumerable</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Boolean</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts the incoming value to a <see cref="T:System.Boolean" /> indicating whether the value is null or empty.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsListNullOrEmptyConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IsListNullOrEmptyConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override bool ConvertFrom (System.Collections.IEnumerable? value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ConvertFrom(class System.Collections.IEnumerable value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IsListNullOrEmptyConverter.ConvertFrom(System.Collections.IEnumerable,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As IEnumerable, Optional culture As CultureInfo = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : System.Collections.IEnumerable * System.Globalization.CultureInfo -&gt; bool" Usage="isListNullOrEmptyConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Collections.IEnumerable" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">IEnumerable to convert</param>
+        <param name="culture">(Not Used)</param>
+        <summary>
+            Converts the incoming value to a <see cref="T:System.Boolean" /> indicating whether the value is null or empty.
+            </summary>
+        <returns>A <see cref="T:System.Boolean" /> indicating if the incoming value is null or empty.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override bool DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IsListNullOrEmptyConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : bool with get, set" Usage="CommunityToolkit.Maui.Converters.IsListNullOrEmptyConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

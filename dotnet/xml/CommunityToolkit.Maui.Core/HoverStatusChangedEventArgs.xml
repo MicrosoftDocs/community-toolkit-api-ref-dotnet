@@ -1,0 +1,67 @@
+<Type Name="HoverStatusChangedEventArgs" FullName="CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class HoverStatusChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HoverStatusChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class HoverStatusChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type HoverStatusChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs" />
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HoverStatusChangedEventArgs (CommunityToolkit.Maui.Core.HoverStatus status);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype CommunityToolkit.Maui.Core.HoverStatus status) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs.#ctor(CommunityToolkit.Maui.Core.HoverStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (status As HoverStatus)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs : CommunityToolkit.Maui.Core.HoverStatus -&gt; CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs" Usage="new CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs status" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="status" Type="CommunityToolkit.Maui.Core.HoverStatus" />
+      </Parameters>
+      <Docs>
+        <param name="status">To be added.</param>
+        <summary>
+          <see cref="T:CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs" />
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.HoverStatus Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.HoverStatus Status" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As HoverStatus" />
+      <MemberSignature Language="F#" Value="member this.Status : CommunityToolkit.Maui.Core.HoverStatus" Usage="CommunityToolkit.Maui.Core.HoverStatusChangedEventArgs.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.HoverStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the new <see cref="T:CommunityToolkit.Maui.Core.HoverStatus" /> of the element.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

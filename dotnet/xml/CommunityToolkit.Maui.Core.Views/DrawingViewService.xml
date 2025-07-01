@@ -1,0 +1,173 @@
+<Type Name="DrawingViewService" FullName="CommunityToolkit.Maui.Core.Views.DrawingViewService">
+  <TypeSignature Language="C#" Value="public static class DrawingViewService" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DrawingViewService extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.DrawingViewService" />
+  <TypeSignature Language="VB.NET" Value="Public Class DrawingViewService" />
+  <TypeSignature Language="F#" Value="type DrawingViewService = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Drawing view service
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetImageStream">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetImageStream (CommunityToolkit.Maui.Core.Views.ImageLineOptions options, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetImageStream(class CommunityToolkit.Maui.Core.Views.ImageLineOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingViewService.GetImageStream(CommunityToolkit.Maui.Core.Views.ImageLineOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetImageStream (options As ImageLineOptions, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="static member GetImageStream : CommunityToolkit.Maui.Core.Views.ImageLineOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="CommunityToolkit.Maui.Core.Views.DrawingViewService.GetImageStream (options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Core.Views.ImageLineOptions" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The options controlling how the resulting image is generated.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Get image stream from lines
+            </summary>
+        <returns>Image stream</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImageStream">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetImageStream (CommunityToolkit.Maui.Core.Views.ImagePointOptions options, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetImageStream(class CommunityToolkit.Maui.Core.Views.ImagePointOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingViewService.GetImageStream(CommunityToolkit.Maui.Core.Views.ImagePointOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetImageStream (options As ImagePointOptions, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="static member GetImageStream : CommunityToolkit.Maui.Core.Views.ImagePointOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="CommunityToolkit.Maui.Core.Views.DrawingViewService.GetImageStream (options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Core.Views.ImagePointOptions" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The options controlling how the resulting image is generated.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Get image stream from points
+            </summary>
+        <returns>Image stream</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPlatformImageStream">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetPlatformImageStream (CommunityToolkit.Maui.Core.Views.ImageLineOptions options, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetPlatformImageStream(class CommunityToolkit.Maui.Core.Views.ImageLineOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingViewService.GetPlatformImageStream(CommunityToolkit.Maui.Core.Views.ImageLineOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPlatformImageStream (options As ImageLineOptions, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="static member GetPlatformImageStream : CommunityToolkit.Maui.Core.Views.ImageLineOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="CommunityToolkit.Maui.Core.Views.DrawingViewService.GetPlatformImageStream (options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Core.Views.ImageLineOptions" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The options controlling how the resulting image is generated.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Get image stream from lines
+            </summary>
+        <returns>Image stream</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPlatformImageStream">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt; GetPlatformImageStream (CommunityToolkit.Maui.Core.Views.ImagePointOptions options, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt; GetPlatformImageStream(class CommunityToolkit.Maui.Core.Views.ImagePointOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.DrawingViewService.GetPlatformImageStream(CommunityToolkit.Maui.Core.Views.ImagePointOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPlatformImageStream (options As ImagePointOptions, Optional token As CancellationToken = Nothing) As ValueTask(Of Stream)" />
+      <MemberSignature Language="F#" Value="static member GetPlatformImageStream : CommunityToolkit.Maui.Core.Views.ImagePointOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;" Usage="CommunityToolkit.Maui.Core.Views.DrawingViewService.GetPlatformImageStream (options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Core.Views.ImagePointOptions" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The options controlling how the resulting image is generated.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Get image stream from points
+            </summary>
+        <returns>Image stream</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

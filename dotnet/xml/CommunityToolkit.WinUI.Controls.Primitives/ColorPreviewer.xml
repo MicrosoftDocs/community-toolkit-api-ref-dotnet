@@ -1,0 +1,251 @@
+<Type Name="ColorPreviewer" FullName="CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer">
+  <TypeSignature Language="C#" Value="public class ColorPreviewer : Microsoft.UI.Xaml.Controls.Control" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ColorPreviewer extends Microsoft.UI.Xaml.Controls.Control" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer" />
+  <TypeSignature Language="VB.NET" Value="Public Class ColorPreviewer&#xA;Inherits Control" />
+  <TypeSignature Language="F#" Value="type ColorPreviewer = class&#xA;    inherit Control" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.Control</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="CheckeredBackgroundBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="CheckeredBackgroundBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="P1PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="P1PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="P2PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="P2PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="N1PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="N1PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="N2PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="N2PreviewBorder", Type=typeof(Microsoft.UI.Xaml.Controls.Border))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Presents a <see cref="T:CommunityToolkit.WinUI.Controls.ColorPicker" />'s preview color with optional accent colors.
+            </summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer" />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ColorPreviewer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorChangeRequested">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.WinUI.HsvColor&gt; ColorChangeRequested;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;valuetype CommunityToolkit.WinUI.HsvColor&gt; ColorChangeRequested" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ColorChangeRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Event ColorChangeRequested As EventHandler(Of HsvColor) " />
+      <MemberSignature Language="F#" Value="member this.ColorChangeRequested : EventHandler&lt;CommunityToolkit.WinUI.HsvColor&gt; " Usage="member this.ColorChangeRequested : System.EventHandler&lt;CommunityToolkit.WinUI.HsvColor&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.WinUI.HsvColor&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Event for when a color change is requested by user interaction with the previewer.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HsvColor">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.HsvColor HsvColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.HsvColor HsvColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.HsvColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property HsvColor As HsvColor" />
+      <MemberSignature Language="F#" Value="member this.HsvColor : CommunityToolkit.WinUI.HsvColor with get, set" Usage="CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.HsvColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.HsvColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the HSV color represented by the color previewer.
+            This is the preferred color property for accuracy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HsvColorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HsvColorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HsvColorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.HsvColorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HsvColorProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HsvColorProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.HsvColorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.HsvColor" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="protected override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="colorPreviewer.OnApplyTemplate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnColorChangeRequested">
+      <MemberSignature Language="C#" Value="protected virtual void OnColorChangeRequested (CommunityToolkit.WinUI.HsvColor color);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnColorChangeRequested(valuetype CommunityToolkit.WinUI.HsvColor color) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.OnColorChangeRequested(CommunityToolkit.WinUI.HsvColor)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnColorChangeRequested (color As HsvColor)" />
+      <MemberSignature Language="F#" Value="abstract member OnColorChangeRequested : CommunityToolkit.WinUI.HsvColor -&gt; unit&#xA;override this.OnColorChangeRequested : CommunityToolkit.WinUI.HsvColor -&gt; unit" Usage="colorPreviewer.OnColorChangeRequested color" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="CommunityToolkit.WinUI.HsvColor" />
+      </Parameters>
+      <Docs>
+        <param name="color">The newly requested color.</param>
+        <summary>
+            Called before the <see cref="E:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ColorChangeRequested" /> event occurs.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDependencyPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnDependencyPropertyChanged (object sender, Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs args);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDependencyPropertyChanged(object sender, class Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.OnDependencyPropertyChanged(System.Object,Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDependencyPropertyChanged (sender As Object, args As DependencyPropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnDependencyPropertyChanged : obj * Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit&#xA;override this.OnDependencyPropertyChanged : obj * Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs -&gt; unit" Usage="colorPreviewer.OnDependencyPropertyChanged (sender, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="args" Type="Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The sender of the event.</param>
+        <param name="args">The event arguments.</param>
+        <summary>
+            Method called whenever a dependency property value is changed.
+            This may happen through binding directly or a property setter.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowAccentColors">
+      <MemberSignature Language="C#" Value="public bool ShowAccentColors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowAccentColors" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ShowAccentColors" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowAccentColors As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShowAccentColors : bool with get, set" Usage="CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ShowAccentColors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether accent colors are shown along
+            with the preview color.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowAccentColorsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ShowAccentColorsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ShowAccentColorsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ShowAccentColorsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowAccentColorsProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ShowAccentColorsProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ShowAccentColorsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.ColorPicker</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.Primitives.ColorPreviewer.ShowAccentColors" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

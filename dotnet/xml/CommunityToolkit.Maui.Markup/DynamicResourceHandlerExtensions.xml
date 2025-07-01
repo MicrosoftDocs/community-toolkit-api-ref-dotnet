@@ -1,0 +1,134 @@
+<Type Name="DynamicResourceHandlerExtensions" FullName="CommunityToolkit.Maui.Markup.DynamicResourceHandlerExtensions">
+  <TypeSignature Language="C#" Value="public static class DynamicResourceHandlerExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DynamicResourceHandlerExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.DynamicResourceHandlerExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module DynamicResourceHandlerExtensions" />
+  <TypeSignature Language="F#" Value="type DynamicResourceHandlerExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension Methods for IDynamicResourceHandler
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DynamicResource&lt;TDynamicResourceHandler&gt;">
+      <MemberSignature Language="C#" Value="public static TDynamicResourceHandler DynamicResource&lt;TDynamicResourceHandler&gt; (this TDynamicResourceHandler dynamicResourceHandler, Microsoft.Maui.Controls.BindableProperty property, string key) where TDynamicResourceHandler : Microsoft.Maui.Controls.Internals.IDynamicResourceHandler;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TDynamicResourceHandler DynamicResource&lt;(class Microsoft.Maui.Controls.Internals.IDynamicResourceHandler) TDynamicResourceHandler&gt;(!!TDynamicResourceHandler dynamicResourceHandler, class Microsoft.Maui.Controls.BindableProperty property, string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.DynamicResourceHandlerExtensions.DynamicResource``1(``0,Microsoft.Maui.Controls.BindableProperty,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DynamicResource(Of TDynamicResourceHandler As IDynamicResourceHandler) (dynamicResourceHandler As TDynamicResourceHandler, property As BindableProperty, key As String) As TDynamicResourceHandler" />
+      <MemberSignature Language="F#" Value="static member DynamicResource : 'DynamicResourceHandler * Microsoft.Maui.Controls.BindableProperty * string -&gt; 'DynamicResourceHandler (requires 'DynamicResourceHandler :&gt; Microsoft.Maui.Controls.Internals.IDynamicResourceHandler)" Usage="CommunityToolkit.Maui.Markup.DynamicResourceHandlerExtensions.DynamicResource (dynamicResourceHandler, property, key)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TDynamicResourceHandler</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TDynamicResourceHandler">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.Internals.IDynamicResourceHandler</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dynamicResourceHandler" Type="TDynamicResourceHandler" RefType="this" />
+        <Parameter Name="property" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TDynamicResourceHandler" />
+        <param name="dynamicResourceHandler" />
+        <param name="property" />
+        <param name="key" />
+        <summary>
+            Set Dynamic Resource
+            </summary>
+        <returns>Layout with added Dynamic Resource</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DynamicResources&lt;TDynamicResourceHandler&gt;">
+      <MemberSignature Language="C#" Value="public static TDynamicResourceHandler DynamicResources&lt;TDynamicResourceHandler&gt; (this TDynamicResourceHandler dynamicResourceHandler, scoped ReadOnlySpan&lt;(Microsoft.Maui.Controls.BindableProperty property, string key)&gt; resources) where TDynamicResourceHandler : Microsoft.Maui.Controls.Internals.IDynamicResourceHandler;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TDynamicResourceHandler DynamicResources&lt;(class Microsoft.Maui.Controls.Internals.IDynamicResourceHandler) TDynamicResourceHandler&gt;(!!TDynamicResourceHandler dynamicResourceHandler, valuetype System.ReadOnlySpan`1&lt;valuetype System.ValueTuple`2&lt;class Microsoft.Maui.Controls.BindableProperty, string&gt;&gt; resources) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.DynamicResourceHandlerExtensions.DynamicResources``1(``0,System.ReadOnlySpan{System.ValueTuple{Microsoft.Maui.Controls.BindableProperty,System.String}})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DynamicResources(Of TDynamicResourceHandler As IDynamicResourceHandler) (dynamicResourceHandler As TDynamicResourceHandler, resources As ReadOnlySpan(Of ValueTuple(Of BindableProperty, String))) As TDynamicResourceHandler" />
+      <MemberSignature Language="F#" Value="static member DynamicResources : 'DynamicResourceHandler * ReadOnlySpan&lt;ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty, string&gt;&gt; -&gt; 'DynamicResourceHandler (requires 'DynamicResourceHandler :&gt; Microsoft.Maui.Controls.Internals.IDynamicResourceHandler)" Usage="CommunityToolkit.Maui.Markup.DynamicResourceHandlerExtensions.DynamicResources (dynamicResourceHandler, resources)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TDynamicResourceHandler</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TDynamicResourceHandler">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>Microsoft.Maui.Controls.Internals.IDynamicResourceHandler</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dynamicResourceHandler" Type="TDynamicResourceHandler" RefType="this" />
+        <Parameter Name="resources" Type="System.ReadOnlySpan&lt;System.ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty,System.String&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "property", "key" })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "property", "key" })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TDynamicResourceHandler" />
+        <param name="dynamicResourceHandler" />
+        <param name="resources" />
+        <summary>
+            Set Dynamic Resource
+            </summary>
+        <returns>Layout with added Dynamic Resource</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

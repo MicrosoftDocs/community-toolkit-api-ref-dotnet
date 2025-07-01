@@ -1,0 +1,509 @@
+<Type Name="Style&lt;T&gt;" FullName="CommunityToolkit.Maui.Markup.Style&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public class Style&lt;T&gt; where T : BindableObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Style`1&lt;(class Microsoft.Maui.Controls.BindableObject) T&gt; extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.Style`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class Style(Of T)" />
+  <TypeSignature Language="F#" Value="type Style&lt;'T (requires 'T :&gt; BindableObject)&gt; = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Constraints>
+        <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="T" />
+    <summary>
+            Style Extensions
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Style (Microsoft.Maui.Controls.Style mauiStyle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.Style mauiStyle) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.#ctor(Microsoft.Maui.Controls.Style)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mauiStyle As Style)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; : Microsoft.Maui.Controls.Style -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="new CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; mauiStyle" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mauiStyle" Type="Microsoft.Maui.Controls.Style" />
+      </Parameters>
+      <Docs>
+        <param name="mauiStyle" />
+        <summary>
+            Initialize Style
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Style (scoped ReadOnlySpan&lt;(Microsoft.Maui.Controls.BindableProperty Property, object Value)&gt; setters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;valuetype System.ValueTuple`2&lt;class Microsoft.Maui.Controls.BindableProperty, object&gt;&gt; setters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.#ctor(System.ReadOnlySpan{System.ValueTuple{Microsoft.Maui.Controls.BindableProperty,System.Object}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (setters As ReadOnlySpan(Of ValueTuple(Of BindableProperty, Object)))" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; : ReadOnlySpan&lt;ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty, obj&gt;&gt; -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="new CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; setters" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="setters" Type="System.ReadOnlySpan&lt;System.ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty,System.Object&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Property", "Value" })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Property", "Value" })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="setters" />
+        <summary>
+            Initialize Style
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Style (Microsoft.Maui.Controls.BindableProperty property, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.BindableProperty property, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.#ctor(Microsoft.Maui.Controls.BindableProperty,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (property As BindableProperty, value As Object)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; : Microsoft.Maui.Controls.BindableProperty * obj -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="new CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; (property, value)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="property">"The <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> to mauiStyle </param>
+        <param name="value">"The value for the <see cref="T:Microsoft.Maui.Controls.BindableProperty" /></param>
+        <summary>
+            Initialize Style
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; Add (scoped ReadOnlySpan&lt;Microsoft.Maui.Controls.Behavior&gt; behaviors);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; Add(valuetype System.ReadOnlySpan`1&lt;class Microsoft.Maui.Controls.Behavior&gt; behaviors) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.Add(System.ReadOnlySpan{Microsoft.Maui.Controls.Behavior})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (behaviors As ReadOnlySpan(Of Behavior)) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Add : ReadOnlySpan&lt;Microsoft.Maui.Controls.Behavior&gt; -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.Add behaviors" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="behaviors" Type="System.ReadOnlySpan&lt;Microsoft.Maui.Controls.Behavior&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="behaviors" />
+        <summary>
+            Add Behaviors
+            </summary>
+        <returns>Style with added behaviors</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; Add (scoped ReadOnlySpan&lt;Microsoft.Maui.Controls.TriggerBase&gt; triggers);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; Add(valuetype System.ReadOnlySpan`1&lt;class Microsoft.Maui.Controls.TriggerBase&gt; triggers) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.Add(System.ReadOnlySpan{Microsoft.Maui.Controls.TriggerBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (triggers As ReadOnlySpan(Of TriggerBase)) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Add : ReadOnlySpan&lt;Microsoft.Maui.Controls.TriggerBase&gt; -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.Add triggers" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="triggers" Type="System.ReadOnlySpan&lt;Microsoft.Maui.Controls.TriggerBase&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="triggers" />
+        <summary>
+            Add Triggers
+            </summary>
+        <returns>Style with added Triggers</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; Add (scoped ReadOnlySpan&lt;(Microsoft.Maui.Controls.BindableProperty Property, object Value)&gt; setters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; Add(valuetype System.ReadOnlySpan`1&lt;valuetype System.ValueTuple`2&lt;class Microsoft.Maui.Controls.BindableProperty, object&gt;&gt; setters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.Add(System.ReadOnlySpan{System.ValueTuple{Microsoft.Maui.Controls.BindableProperty,System.Object}})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (setters As ReadOnlySpan(Of ValueTuple(Of BindableProperty, Object))) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Add : ReadOnlySpan&lt;ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty, obj&gt;&gt; -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.Add setters" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="setters" Type="System.ReadOnlySpan&lt;System.ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty,System.Object&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Property", "Value" })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Property", "Value" })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="setters" />
+        <summary>
+            Add Setters
+            </summary>
+        <returns>Style with added setters</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; Add (Microsoft.Maui.Controls.BindableProperty property, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; Add(class Microsoft.Maui.Controls.BindableProperty property, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.Add(Microsoft.Maui.Controls.BindableProperty,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (property As BindableProperty, value As Object) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Add : Microsoft.Maui.Controls.BindableProperty * obj -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.Add (property, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="property">"The <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> to mauiStyle </param>
+        <param name="value">"The value for the <see cref="T:Microsoft.Maui.Controls.BindableProperty" /></param>
+        <summary>
+            Add Setters
+            </summary>
+        <returns>Style with added setters</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAppThemeBinding">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; AddAppThemeBinding (Microsoft.Maui.Controls.BindableProperty property, object light, object dark);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; AddAppThemeBinding(class Microsoft.Maui.Controls.BindableProperty property, object light, object dark) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.AddAppThemeBinding(Microsoft.Maui.Controls.BindableProperty,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddAppThemeBinding (property As BindableProperty, light As Object, dark As Object) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.AddAppThemeBinding : Microsoft.Maui.Controls.BindableProperty * obj * obj -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.AddAppThemeBinding (property, light, dark)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="light" Type="System.Object" />
+        <Parameter Name="dark" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="property">"The <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> to mauiStyle </param>
+        <param name="light">"The light value for the <see cref="T:Microsoft.Maui.Controls.BindableProperty" /></param>
+        <param name="dark">"The dark value for the <see cref="T:Microsoft.Maui.Controls.BindableProperty" /></param>
+        <summary>
+            Adds the supplied <paramref name="light" /> and <paramref name="dark" /> values in an <see cref="T:Microsoft.Maui.Controls.AppThemeBinding" />.
+            </summary>
+        <returns>Style with added setters</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAppThemeBindings">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; AddAppThemeBindings (scoped ReadOnlySpan&lt;(Microsoft.Maui.Controls.BindableProperty Property, object Light, object Dark)&gt; setters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; AddAppThemeBindings(valuetype System.ReadOnlySpan`1&lt;valuetype System.ValueTuple`3&lt;class Microsoft.Maui.Controls.BindableProperty, object, object&gt;&gt; setters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.AddAppThemeBindings(System.ReadOnlySpan{System.ValueTuple{Microsoft.Maui.Controls.BindableProperty,System.Object,System.Object}})" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddAppThemeBindings (setters As ReadOnlySpan(Of ValueTuple(Of BindableProperty, Object, Object))) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.AddAppThemeBindings : ReadOnlySpan&lt;ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty, obj, obj&gt;&gt; -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.AddAppThemeBindings setters" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="setters" Type="System.ReadOnlySpan&lt;System.ValueTuple&lt;Microsoft.Maui.Controls.BindableProperty,System.Object,System.Object&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Property", "Light", "Dark" })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Property", "Light", "Dark" })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="setters">A set of <see cref="T:Microsoft.Maui.Controls.BindableProperty" />, and value for light and dark theme.</param>
+        <summary>
+            Adds the supplied <paramref name="setters" /> in an <see cref="T:Microsoft.Maui.Controls.AppThemeBinding" />.
+            </summary>
+        <returns>Style with added setters</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyToDerivedTypes">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; ApplyToDerivedTypes (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; ApplyToDerivedTypes(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.ApplyToDerivedTypes(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ApplyToDerivedTypes (value As Boolean) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.ApplyToDerivedTypes : bool -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.ApplyToDerivedTypes value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value" />
+        <summary>
+            Apply to derived types
+            </summary>
+        <returns>Style</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasedOn">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; BasedOn (Microsoft.Maui.Controls.Style value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; BasedOn(class Microsoft.Maui.Controls.Style value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.BasedOn(Microsoft.Maui.Controls.Style)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BasedOn (value As Style) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.BasedOn : Microsoft.Maui.Controls.Style -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.BasedOn value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Maui.Controls.Style" />
+      </Parameters>
+      <Docs>
+        <param name="value" />
+        <summary>
+            Set BasedOn
+            </summary>
+        <returns>Style with added BasedOn</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCascade">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Markup.Style&lt;T&gt; CanCascade (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; CanCascade(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.CanCascade(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanCascade (value As Boolean) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="member this.CanCascade : bool -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="style.CanCascade value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value" />
+        <summary>
+            Set CanCascade
+            </summary>
+        <returns>Style with added CanCascade</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MauiStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.Style MauiStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Style MauiStyle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Markup.Style`1.MauiStyle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MauiStyle As Style" />
+      <MemberSignature Language="F#" Value="member this.MauiStyle : Microsoft.Maui.Controls.Style" Usage="CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;.MauiStyle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Style(typeof(T))
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Maui.Controls.Style (CommunityToolkit.Maui.Markup.Style&lt;T&gt; style);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.Style op_Implicit(class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; style) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.op_Implicit(CommunityToolkit.Maui.Markup.Style{`0})~Microsoft.Maui.Controls.Style" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (style As Style(Of T)) As Style" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt; -&gt; Microsoft.Maui.Controls.Style" Usage="CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;.op_Implicit style" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Style</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="style" Type="CommunityToolkit.Maui.Markup.Style&lt;T&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="style" />
+        <summary>
+            Converts <see cref="T:CommunityToolkit.Maui.Markup.Style`1" /> to <see cref="T:Microsoft.Maui.Controls.Style" /></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator CommunityToolkit.Maui.Markup.Style&lt;T&gt; (Microsoft.Maui.Controls.Style style);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class CommunityToolkit.Maui.Markup.Style`1&lt;!T&gt; op_Implicit(class Microsoft.Maui.Controls.Style style) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.Style`1.op_Implicit(Microsoft.Maui.Controls.Style)~CommunityToolkit.Maui.Markup.Style{`0}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (style As Style) As Style(Of T)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Controls.Style -&gt; CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="CommunityToolkit.Maui.Markup.Style&lt;'T (requires 'T :&gt; Microsoft.Maui.Controls.BindableObject)&gt;.op_Implicit style" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Markup.Style&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="style" Type="Microsoft.Maui.Controls.Style" />
+      </Parameters>
+      <Docs>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

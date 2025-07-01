@@ -1,0 +1,823 @@
+<Type Name="TypedGesturesExtensions" FullName="CommunityToolkit.Maui.Markup.TypedGesturesExtensions">
+  <TypeSignature Language="C#" Value="public static class TypedGesturesExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TypedGesturesExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.TypedGesturesExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module TypedGesturesExtensions" />
+  <TypeSignature Language="F#" Value="type TypedGesturesExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension Methods for Element Gestures
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BindSwipeGesture&lt;TGestureElement,TCommandBindingContext&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindSwipeGesture&lt;TGestureElement,TCommandBindingContext&gt; (this TGestureElement gestureElement, System.Linq.Expressions.Expression&lt;Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt; getter, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Microsoft.Maui.SwipeDirection? direction = default, uint? threshold = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindSwipeGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext&gt;(!!TGestureElement gestureElement, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt;&gt; getter, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode mode, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.SwipeDirection&gt; direction, valuetype System.Nullable`1&lt;unsigned int32&gt; threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture``2(``0,System.Linq.Expressions.Expression{System.Func{``1,System.Windows.Input.ICommand}},System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Nullable{Microsoft.Maui.SwipeDirection},System.Nullable{System.UInt32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindSwipeGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Expression(Of Func(Of TCommandBindingContext, ICommand)), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional direction As Nullable(Of SwipeDirection) = Nothing, Optional threshold As Nullable(Of UInteger) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindSwipeGesture : 'GestureElement * System.Linq.Expressions.Expression&lt;Func&lt;'CommandBindingContext, System.Windows.Input.ICommand&gt;&gt; * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * Nullable&lt;Microsoft.Maui.SwipeDirection&gt; * Nullable&lt;uint32&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture (gestureElement, getter, setter, source, mode, direction, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt;" />
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="direction" Type="System.Nullable&lt;Microsoft.Maui.SwipeDirection&gt;" />
+        <Parameter Name="threshold" Type="System.Nullable&lt;System.UInt32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="threshold">To be added.</param>
+        <summary>Add a <see cref="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" /> and bind to its Command </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindSwipeGesture&lt;TGestureElement,TCommandBindingContext&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindSwipeGesture&lt;TGestureElement,TCommandBindingContext&gt; (this TGestureElement gestureElement, Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt; getter, (Func&lt;TCommandBindingContext,object&gt;, string?)[] handlers, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Microsoft.Maui.SwipeDirection? direction = default, uint? threshold = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindSwipeGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext&gt;(!!TGestureElement gestureElement, class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; getter, valuetype System.ValueTuple`2&lt;class System.Func`2&lt;!!TCommandBindingContext, object&gt;, string&gt;[] handlers, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode mode, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.SwipeDirection&gt; direction, valuetype System.Nullable`1&lt;unsigned int32&gt; threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture``2(``0,System.Func{``1,System.Windows.Input.ICommand},System.ValueTuple{System.Func{``1,System.Object},System.String}[],System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Nullable{Microsoft.Maui.SwipeDirection},System.Nullable{System.UInt32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindSwipeGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Func(Of TCommandBindingContext, ICommand), handlers As ValueTuple(Of Func(Of TCommandBindingContext, Object), String)(), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional direction As Nullable(Of SwipeDirection) = Nothing, Optional threshold As Nullable(Of UInteger) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindSwipeGesture : 'GestureElement * Func&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * ValueTuple&lt;Func&lt;'CommandBindingContext, obj&gt;, string&gt;[] * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * Nullable&lt;Microsoft.Maui.SwipeDirection&gt; * Nullable&lt;uint32&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture (gestureElement, getter, handlers, setter, source, mode, direction, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;" />
+        <Parameter Name="handlers" Type="System.ValueTuple&lt;System.Func&lt;TCommandBindingContext,System.Object&gt;,System.String&gt;[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="direction" Type="System.Nullable&lt;Microsoft.Maui.SwipeDirection&gt;" />
+        <Parameter Name="threshold" Type="System.Nullable&lt;System.UInt32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="handlers">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="threshold">To be added.</param>
+        <summary>Add a <see cref="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" /> and bind to its Command</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindSwipeGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindSwipeGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt; (this TGestureElement gestureElement, System.Linq.Expressions.Expression&lt;Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt; getter, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode commandBindingMode = Microsoft.Maui.Controls.BindingMode.Default, System.Linq.Expressions.Expression&lt;Func&lt;TParameterBindingContext,TParameterSource&gt;&gt;? parameterGetter = default, Action&lt;TParameterBindingContext,TParameterSource?&gt;? parameterSetter = default, Microsoft.Maui.Controls.BindingMode parameterBindingMode = Microsoft.Maui.Controls.BindingMode.Default, TParameterBindingContext? parameterSource = default, Microsoft.Maui.SwipeDirection? direction = default, uint? threshold = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class where TParameterBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindSwipeGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext, class TParameterBindingContext, TParameterSource&gt;(!!TGestureElement gestureElement, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt;&gt; getter, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode commandBindingMode, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TParameterBindingContext, !!TParameterSource&gt;&gt; parameterGetter, class System.Action`2&lt;!!TParameterBindingContext, !!TParameterSource&gt; parameterSetter, valuetype Microsoft.Maui.Controls.BindingMode parameterBindingMode, !!TParameterBindingContext parameterSource, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.SwipeDirection&gt; direction, valuetype System.Nullable`1&lt;unsigned int32&gt; threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture``4(``0,System.Linq.Expressions.Expression{System.Func{``1,System.Windows.Input.ICommand}},System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Linq.Expressions.Expression{System.Func{``2,``3}},System.Action{``2,``3},Microsoft.Maui.Controls.BindingMode,``2,System.Nullable{Microsoft.Maui.SwipeDirection},System.Nullable{System.UInt32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindSwipeGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}, TParameterBindingContext As {BindableObject, IGestureRecognizers}, TParameterSource As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Expression(Of Func(Of TCommandBindingContext, ICommand)), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional commandBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterGetter As Expression(Of Func(Of TParameterBindingContext, TParameterSource)) = Nothing, Optional parameterSetter As Action(Of TParameterBindingContext, TParameterSource) = Nothing, Optional parameterBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterSource As TParameterBindingContext = Nothing, Optional direction As Nullable(Of SwipeDirection) = Nothing, Optional threshold As Nullable(Of UInteger) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindSwipeGesture : 'GestureElement * System.Linq.Expressions.Expression&lt;Func&lt;'CommandBindingContext, System.Windows.Input.ICommand&gt;&gt; * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * System.Linq.Expressions.Expression&lt;Func&lt;'ParameterBindingContext, 'ParameterSource&gt;&gt; * Action&lt;'ParameterBindingContext, 'ParameterSource (requires 'ParameterBindingContext : null)&gt; * Microsoft.Maui.Controls.BindingMode * 'ParameterBindingContext * Nullable&lt;Microsoft.Maui.SwipeDirection&gt; * Nullable&lt;uint32&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null and 'ParameterBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture (gestureElement, getter, setter, source, commandBindingMode, parameterGetter, parameterSetter, parameterBindingMode, parameterSource, direction, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterSource">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt;" />
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="commandBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterGetter" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TParameterBindingContext,TParameterSource&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSetter" Type="System.Action&lt;TParameterBindingContext,TParameterSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterSource" Type="TParameterBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="direction" Type="System.Nullable&lt;Microsoft.Maui.SwipeDirection&gt;" />
+        <Parameter Name="threshold" Type="System.Nullable&lt;System.UInt32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterSource">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="commandBindingMode">To be added.</param>
+        <param name="parameterGetter">To be added.</param>
+        <param name="parameterSetter">To be added.</param>
+        <param name="parameterBindingMode">To be added.</param>
+        <param name="parameterSource">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="threshold">To be added.</param>
+        <summary>Add a <see cref="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" /> and bind to its Command and (optionally) CommandParameter properties</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindSwipeGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindSwipeGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt; (this TGestureElement gestureElement, Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt; getter, (Func&lt;TCommandBindingContext,object&gt;, string?)[] handlers, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode commandBindingMode = Microsoft.Maui.Controls.BindingMode.Default, Func&lt;TParameterBindingContext,TParameterSource&gt;? parameterGetter = default, (Func&lt;TParameterBindingContext,object&gt;, string?)[]? parameterHandlers = default, Action&lt;TParameterBindingContext,TParameterSource?&gt;? parameterSetter = default, Microsoft.Maui.Controls.BindingMode parameterBindingMode = Microsoft.Maui.Controls.BindingMode.Default, TParameterBindingContext? parameterSource = default, Microsoft.Maui.SwipeDirection? direction = default, uint? threshold = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class where TParameterBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindSwipeGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext, class TParameterBindingContext, TParameterSource&gt;(!!TGestureElement gestureElement, class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; getter, valuetype System.ValueTuple`2&lt;class System.Func`2&lt;!!TCommandBindingContext, object&gt;, string&gt;[] handlers, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode commandBindingMode, class System.Func`2&lt;!!TParameterBindingContext, !!TParameterSource&gt; parameterGetter, valuetype System.ValueTuple`2&lt;class System.Func`2&lt;!!TParameterBindingContext, object&gt;, string&gt;[] parameterHandlers, class System.Action`2&lt;!!TParameterBindingContext, !!TParameterSource&gt; parameterSetter, valuetype Microsoft.Maui.Controls.BindingMode parameterBindingMode, !!TParameterBindingContext parameterSource, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.SwipeDirection&gt; direction, valuetype System.Nullable`1&lt;unsigned int32&gt; threshold) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture``4(``0,System.Func{``1,System.Windows.Input.ICommand},System.ValueTuple{System.Func{``1,System.Object},System.String}[],System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Func{``2,``3},System.ValueTuple{System.Func{``2,System.Object},System.String}[],System.Action{``2,``3},Microsoft.Maui.Controls.BindingMode,``2,System.Nullable{Microsoft.Maui.SwipeDirection},System.Nullable{System.UInt32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindSwipeGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}, TParameterBindingContext As {BindableObject, IGestureRecognizers}, TParameterSource As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Func(Of TCommandBindingContext, ICommand), handlers As ValueTuple(Of Func(Of TCommandBindingContext, Object), String)(), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional commandBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterGetter As Func(Of TParameterBindingContext, TParameterSource) = Nothing, Optional parameterHandlers As ValueTuple(Of Func(Of TParameterBindingContext, Object), String)() = Nothing, Optional parameterSetter As Action(Of TParameterBindingContext, TParameterSource) = Nothing, Optional parameterBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterSource As TParameterBindingContext = Nothing, Optional direction As Nullable(Of SwipeDirection) = Nothing, Optional threshold As Nullable(Of UInteger) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindSwipeGesture : 'GestureElement * Func&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * ValueTuple&lt;Func&lt;'CommandBindingContext, obj&gt;, string&gt;[] * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * Func&lt;'ParameterBindingContext, 'ParameterSource (requires 'ParameterBindingContext : null)&gt; * ValueTuple&lt;Func&lt;'ParameterBindingContext, obj&gt;, string&gt;[] * Action&lt;'ParameterBindingContext, 'ParameterSource (requires 'ParameterBindingContext : null)&gt; * Microsoft.Maui.Controls.BindingMode * 'ParameterBindingContext * Nullable&lt;Microsoft.Maui.SwipeDirection&gt; * Nullable&lt;uint32&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null and 'ParameterBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindSwipeGesture (gestureElement, getter, handlers, setter, source, commandBindingMode, parameterGetter, parameterHandlers, parameterSetter, parameterBindingMode, parameterSource, direction, threshold)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterSource">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;" />
+        <Parameter Name="handlers" Type="System.ValueTuple&lt;System.Func&lt;TCommandBindingContext,System.Object&gt;,System.String&gt;[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="commandBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterGetter" Type="System.Func&lt;TParameterBindingContext,TParameterSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterHandlers" Type="System.ValueTuple&lt;System.Func&lt;TParameterBindingContext,System.Object&gt;,System.String&gt;[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 0, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 0, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSetter" Type="System.Action&lt;TParameterBindingContext,TParameterSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterSource" Type="TParameterBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="direction" Type="System.Nullable&lt;Microsoft.Maui.SwipeDirection&gt;" />
+        <Parameter Name="threshold" Type="System.Nullable&lt;System.UInt32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterSource">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="handlers">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="commandBindingMode">To be added.</param>
+        <param name="parameterGetter">To be added.</param>
+        <param name="parameterHandlers">To be added.</param>
+        <param name="parameterSetter">To be added.</param>
+        <param name="parameterBindingMode">To be added.</param>
+        <param name="parameterSource">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="threshold">To be added.</param>
+        <summary>Add a <see cref="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" /> and bind to its Command and (optionally) CommandParameter properties</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindTapGesture&lt;TGestureElement,TCommandBindingContext&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindTapGesture&lt;TGestureElement,TCommandBindingContext&gt; (this TGestureElement gestureElement, System.Linq.Expressions.Expression&lt;Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt; getter, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, int? numberOfTapsRequired = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindTapGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext&gt;(!!TGestureElement gestureElement, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt;&gt; getter, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode mode, valuetype System.Nullable`1&lt;int32&gt; numberOfTapsRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture``2(``0,System.Linq.Expressions.Expression{System.Func{``1,System.Windows.Input.ICommand}},System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindTapGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Expression(Of Func(Of TCommandBindingContext, ICommand)), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional numberOfTapsRequired As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindTapGesture : 'GestureElement * System.Linq.Expressions.Expression&lt;Func&lt;'CommandBindingContext, System.Windows.Input.ICommand&gt;&gt; * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture (gestureElement, getter, setter, source, mode, numberOfTapsRequired)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt;" />
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="numberOfTapsRequired" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="numberOfTapsRequired">To be added.</param>
+        <summary>Adds a <see cref="T:Microsoft.Maui.Controls.TapGestureRecognizer" /> and bind its Command</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindTapGesture&lt;TGestureElement,TCommandBindingContext&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindTapGesture&lt;TGestureElement,TCommandBindingContext&gt; (this TGestureElement gestureElement, Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt; getter, (Func&lt;TCommandBindingContext,object&gt;, string?)[] handlers, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, int? numberOfTapsRequired = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindTapGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext&gt;(!!TGestureElement gestureElement, class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; getter, valuetype System.ValueTuple`2&lt;class System.Func`2&lt;!!TCommandBindingContext, object&gt;, string&gt;[] handlers, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode mode, valuetype System.Nullable`1&lt;int32&gt; numberOfTapsRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture``2(``0,System.Func{``1,System.Windows.Input.ICommand},System.ValueTuple{System.Func{``1,System.Object},System.String}[],System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindTapGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Func(Of TCommandBindingContext, ICommand), handlers As ValueTuple(Of Func(Of TCommandBindingContext, Object), String)(), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional numberOfTapsRequired As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindTapGesture : 'GestureElement * Func&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * ValueTuple&lt;Func&lt;'CommandBindingContext, obj&gt;, string&gt;[] * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture (gestureElement, getter, handlers, setter, source, mode, numberOfTapsRequired)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;" />
+        <Parameter Name="handlers" Type="System.ValueTuple&lt;System.Func&lt;TCommandBindingContext,System.Object&gt;,System.String&gt;[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="numberOfTapsRequired" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="handlers">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="numberOfTapsRequired">To be added.</param>
+        <summary>Adds a <see cref="T:Microsoft.Maui.Controls.TapGestureRecognizer" /> and bind its Command </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindTapGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindTapGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt; (this TGestureElement gestureElement, System.Linq.Expressions.Expression&lt;Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt; getter, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode commandBindingMode = Microsoft.Maui.Controls.BindingMode.Default, System.Linq.Expressions.Expression&lt;Func&lt;TParameterBindingContext,TParameterSource&gt;&gt;? parameterGetter = default, Action&lt;TParameterBindingContext,TParameterSource?&gt;? parameterSetter = default, Microsoft.Maui.Controls.BindingMode parameterBindingMode = Microsoft.Maui.Controls.BindingMode.Default, TParameterBindingContext? parameterSource = default, int? numberOfTapsRequired = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class where TParameterBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindTapGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext, class TParameterBindingContext, TParameterSource&gt;(!!TGestureElement gestureElement, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt;&gt; getter, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode commandBindingMode, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TParameterBindingContext, !!TParameterSource&gt;&gt; parameterGetter, class System.Action`2&lt;!!TParameterBindingContext, !!TParameterSource&gt; parameterSetter, valuetype Microsoft.Maui.Controls.BindingMode parameterBindingMode, !!TParameterBindingContext parameterSource, valuetype System.Nullable`1&lt;int32&gt; numberOfTapsRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture``4(``0,System.Linq.Expressions.Expression{System.Func{``1,System.Windows.Input.ICommand}},System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Linq.Expressions.Expression{System.Func{``2,``3}},System.Action{``2,``3},Microsoft.Maui.Controls.BindingMode,``2,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindTapGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}, TParameterBindingContext As {BindableObject, IGestureRecognizers}, TParameterSource As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Expression(Of Func(Of TCommandBindingContext, ICommand)), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional commandBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterGetter As Expression(Of Func(Of TParameterBindingContext, TParameterSource)) = Nothing, Optional parameterSetter As Action(Of TParameterBindingContext, TParameterSource) = Nothing, Optional parameterBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterSource As TParameterBindingContext = Nothing, Optional numberOfTapsRequired As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindTapGesture : 'GestureElement * System.Linq.Expressions.Expression&lt;Func&lt;'CommandBindingContext, System.Windows.Input.ICommand&gt;&gt; * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * System.Linq.Expressions.Expression&lt;Func&lt;'ParameterBindingContext, 'ParameterSource&gt;&gt; * Action&lt;'ParameterBindingContext, 'ParameterSource (requires 'ParameterBindingContext : null)&gt; * Microsoft.Maui.Controls.BindingMode * 'ParameterBindingContext * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null and 'ParameterBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture (gestureElement, getter, setter, source, commandBindingMode, parameterGetter, parameterSetter, parameterBindingMode, parameterSource, numberOfTapsRequired)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterSource">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;&gt;" />
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="commandBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterGetter" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TParameterBindingContext,TParameterSource&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSetter" Type="System.Action&lt;TParameterBindingContext,TParameterSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterSource" Type="TParameterBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="numberOfTapsRequired" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterSource">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="commandBindingMode">To be added.</param>
+        <param name="parameterGetter">To be added.</param>
+        <param name="parameterSetter">To be added.</param>
+        <param name="parameterBindingMode">To be added.</param>
+        <param name="parameterSource">To be added.</param>
+        <param name="numberOfTapsRequired">To be added.</param>
+        <summary>Adds a <see cref="T:Microsoft.Maui.Controls.TapGestureRecognizer" /> and bind its Command and (optionally) CommandParameter properties</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindTapGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt;">
+      <MemberSignature Language="C#" Value="public static TGestureElement BindTapGesture&lt;TGestureElement,TCommandBindingContext,TParameterBindingContext,TParameterSource&gt; (this TGestureElement gestureElement, Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt; getter, (Func&lt;TCommandBindingContext,object&gt;, string?)[] handlers, Action&lt;TCommandBindingContext,System.Windows.Input.ICommand?&gt;? setter = default, TCommandBindingContext? source = default, Microsoft.Maui.Controls.BindingMode commandBindingMode = Microsoft.Maui.Controls.BindingMode.Default, Func&lt;TParameterBindingContext,TParameterSource&gt;? parameterGetter = default, (Func&lt;TParameterBindingContext,object&gt;, string?)[]? parameterHandlers = default, Action&lt;TParameterBindingContext,TParameterSource?&gt;? parameterSetter = default, Microsoft.Maui.Controls.BindingMode parameterBindingMode = Microsoft.Maui.Controls.BindingMode.Default, TParameterBindingContext? parameterSource = default, int? numberOfTapsRequired = default) where TGestureElement : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.IGestureRecognizers where TCommandBindingContext : class where TParameterBindingContext : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TGestureElement BindTapGesture&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.IGestureRecognizers) TGestureElement, class TCommandBindingContext, class TParameterBindingContext, TParameterSource&gt;(!!TGestureElement gestureElement, class System.Func`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; getter, valuetype System.ValueTuple`2&lt;class System.Func`2&lt;!!TCommandBindingContext, object&gt;, string&gt;[] handlers, class System.Action`2&lt;!!TCommandBindingContext, class System.Windows.Input.ICommand&gt; setter, !!TCommandBindingContext source, valuetype Microsoft.Maui.Controls.BindingMode commandBindingMode, class System.Func`2&lt;!!TParameterBindingContext, !!TParameterSource&gt; parameterGetter, valuetype System.ValueTuple`2&lt;class System.Func`2&lt;!!TParameterBindingContext, object&gt;, string&gt;[] parameterHandlers, class System.Action`2&lt;!!TParameterBindingContext, !!TParameterSource&gt; parameterSetter, valuetype Microsoft.Maui.Controls.BindingMode parameterBindingMode, !!TParameterBindingContext parameterSource, valuetype System.Nullable`1&lt;int32&gt; numberOfTapsRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture``4(``0,System.Func{``1,System.Windows.Input.ICommand},System.ValueTuple{System.Func{``1,System.Object},System.String}[],System.Action{``1,System.Windows.Input.ICommand},``1,Microsoft.Maui.Controls.BindingMode,System.Func{``2,``3},System.ValueTuple{System.Func{``2,System.Object},System.String}[],System.Action{``2,``3},Microsoft.Maui.Controls.BindingMode,``2,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindTapGesture(Of TGestureElement As {BindableObject, IGestureRecognizers}, TCommandBindingContext As {BindableObject, IGestureRecognizers}, TParameterBindingContext As {BindableObject, IGestureRecognizers}, TParameterSource As {BindableObject, IGestureRecognizers}) (gestureElement As TGestureElement, getter As Func(Of TCommandBindingContext, ICommand), handlers As ValueTuple(Of Func(Of TCommandBindingContext, Object), String)(), Optional setter As Action(Of TCommandBindingContext, ICommand) = Nothing, Optional source As TCommandBindingContext = Nothing, Optional commandBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterGetter As Func(Of TParameterBindingContext, TParameterSource) = Nothing, Optional parameterHandlers As ValueTuple(Of Func(Of TParameterBindingContext, Object), String)() = Nothing, Optional parameterSetter As Action(Of TParameterBindingContext, TParameterSource) = Nothing, Optional parameterBindingMode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional parameterSource As TParameterBindingContext = Nothing, Optional numberOfTapsRequired As Nullable(Of Integer) = Nothing) As TGestureElement" />
+      <MemberSignature Language="F#" Value="static member BindTapGesture : 'GestureElement * Func&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * ValueTuple&lt;Func&lt;'CommandBindingContext, obj&gt;, string&gt;[] * Action&lt;'CommandBindingContext, System.Windows.Input.ICommand (requires 'CommandBindingContext : null)&gt; * 'CommandBindingContext * Microsoft.Maui.Controls.BindingMode * Func&lt;'ParameterBindingContext, 'ParameterSource (requires 'ParameterBindingContext : null)&gt; * ValueTuple&lt;Func&lt;'ParameterBindingContext, obj&gt;, string&gt;[] * Action&lt;'ParameterBindingContext, 'ParameterSource (requires 'ParameterBindingContext : null)&gt; * Microsoft.Maui.Controls.BindingMode * 'ParameterBindingContext * Nullable&lt;int&gt; -&gt; 'GestureElement (requires 'GestureElement :&gt; Microsoft.Maui.Controls.BindableObject and 'GestureElement :&gt; Microsoft.Maui.Controls.IGestureRecognizers and 'CommandBindingContext : null and 'ParameterBindingContext : null)" Usage="CommunityToolkit.Maui.Markup.TypedGesturesExtensions.BindTapGesture (gestureElement, getter, handlers, setter, source, commandBindingMode, parameterGetter, parameterHandlers, parameterSetter, parameterBindingMode, parameterSource, numberOfTapsRequired)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TGestureElement</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TGestureElement">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.Controls.IGestureRecognizers</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TCommandBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterBindingContext">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TParameterSource">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="gestureElement" Type="TGestureElement" RefType="this" />
+        <Parameter Name="getter" Type="System.Func&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;" />
+        <Parameter Name="handlers" Type="System.ValueTuple&lt;System.Func&lt;TCommandBindingContext,System.Object&gt;,System.String&gt;[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="setter" Type="System.Action&lt;TCommandBindingContext,System.Windows.Input.ICommand&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="source" Type="TCommandBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="commandBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterGetter" Type="System.Func&lt;TParameterBindingContext,TParameterSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterHandlers" Type="System.ValueTuple&lt;System.Func&lt;TParameterBindingContext,System.Object&gt;,System.String&gt;[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 0, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 0, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSetter" Type="System.Action&lt;TParameterBindingContext,TParameterSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterBindingMode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="parameterSource" Type="TParameterBindingContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="numberOfTapsRequired" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TGestureElement">To be added.</typeparam>
+        <typeparam name="TCommandBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterBindingContext">To be added.</typeparam>
+        <typeparam name="TParameterSource">To be added.</typeparam>
+        <param name="gestureElement">To be added.</param>
+        <param name="getter">To be added.</param>
+        <param name="handlers">To be added.</param>
+        <param name="setter">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="commandBindingMode">To be added.</param>
+        <param name="parameterGetter">To be added.</param>
+        <param name="parameterHandlers">To be added.</param>
+        <param name="parameterSetter">To be added.</param>
+        <param name="parameterBindingMode">To be added.</param>
+        <param name="parameterSource">To be added.</param>
+        <param name="numberOfTapsRequired">To be added.</param>
+        <summary>Adds a <see cref="T:Microsoft.Maui.Controls.TapGestureRecognizer" /> and bind its Command and (optionally) CommandParameter properties</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

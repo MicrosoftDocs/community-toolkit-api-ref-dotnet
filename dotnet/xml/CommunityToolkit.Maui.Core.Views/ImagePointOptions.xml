@@ -1,0 +1,144 @@
+<Type Name="ImagePointOptions" FullName="CommunityToolkit.Maui.Core.Views.ImagePointOptions">
+  <TypeSignature Language="C#" Value="public class ImagePointOptions : CommunityToolkit.Maui.Core.Views.ImageOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImagePointOptions extends CommunityToolkit.Maui.Core.Views.ImageOptions" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.ImagePointOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImagePointOptions&#xA;Inherits ImageOptions" />
+  <TypeSignature Language="F#" Value="type ImagePointOptions = class&#xA;    inherit ImageOptions" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Core.Views.ImageOptions</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="points">The points that will result in a single line.</param>
+    <param name="desiredSize">The desired dimensions of the generated image. The image will be resized proportionally.</param>
+    <param name="lineWidth">The width of the line to render.</param>
+    <param name="strokeColor">The <see cref="T:Microsoft.Maui.Graphics.Color" /> of the line to render.</param>
+    <param name="background">The background <see cref="T:Microsoft.Maui.Graphics.Paint" /> to apply to the output image.</param>
+    <param name="canvasSize">The actual size of the canvas being displayed.
+            if a value is provided then the contents of the drawing inside these dimensions will be included in the output,
+            if <c>null</c> is provided then the resulting output will be the area covered by the top-left to the bottom-right most points.</param>
+    <summary>
+            Represents a set of options that controls how a set of points will be output to an image.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImagePointOptions (System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.PointF&gt; points, Microsoft.Maui.Graphics.Size desiredSize, float lineWidth, Microsoft.Maui.Graphics.Color strokeColor, Microsoft.Maui.Graphics.Paint? background, Microsoft.Maui.Graphics.Size? canvasSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; points, valuetype Microsoft.Maui.Graphics.Size desiredSize, float32 lineWidth, class Microsoft.Maui.Graphics.Color strokeColor, class Microsoft.Maui.Graphics.Paint background, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.Graphics.Size&gt; canvasSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.ImagePointOptions.#ctor(System.Collections.Generic.IList{Microsoft.Maui.Graphics.PointF},Microsoft.Maui.Graphics.Size,System.Single,Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Paint,System.Nullable{Microsoft.Maui.Graphics.Size})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (points As IList(Of PointF), desiredSize As Size, lineWidth As Single, strokeColor As Color, background As Paint, canvasSize As Nullable(Of Size))" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Views.ImagePointOptions : System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.PointF&gt; * Microsoft.Maui.Graphics.Size * single * Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Paint * Nullable&lt;Microsoft.Maui.Graphics.Size&gt; -&gt; CommunityToolkit.Maui.Core.Views.ImagePointOptions" Usage="new CommunityToolkit.Maui.Core.Views.ImagePointOptions (points, desiredSize, lineWidth, strokeColor, background, canvasSize)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="points" Type="System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.PointF&gt;" />
+        <Parameter Name="desiredSize" Type="Microsoft.Maui.Graphics.Size" />
+        <Parameter Name="lineWidth" Type="System.Single" />
+        <Parameter Name="strokeColor" Type="Microsoft.Maui.Graphics.Color" />
+        <Parameter Name="background" Type="Microsoft.Maui.Graphics.Paint">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="canvasSize" Type="System.Nullable&lt;Microsoft.Maui.Graphics.Size&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="points">The points that will result in a single line.</param>
+        <param name="desiredSize">The desired dimensions of the generated image. The image will be resized proportionally.</param>
+        <param name="lineWidth">The width of the line to render.</param>
+        <param name="strokeColor">The <see cref="T:Microsoft.Maui.Graphics.Color" /> of the line to render.</param>
+        <param name="background">The background <see cref="T:Microsoft.Maui.Graphics.Paint" /> to apply to the output image.</param>
+        <param name="canvasSize">The actual size of the canvas being displayed.
+            if a value is provided then the contents of the drawing inside these dimensions will be included in the output,
+            if <c>null</c> is provided then the resulting output will be the area covered by the top-left to the bottom-right most points.</param>
+        <summary>
+            Represents a set of options that controls how a set of points will be output to an image.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineWidth">
+      <MemberSignature Language="C#" Value="public float LineWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LineWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.ImagePointOptions.LineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.LineWidth : single" Usage="CommunityToolkit.Maui.Core.Views.ImagePointOptions.LineWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the width of the line to render.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Points">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.PointF&gt; Points { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; Points" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.ImagePointOptions.Points" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Points As IList(Of PointF)" />
+      <MemberSignature Language="F#" Value="member this.Points : System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.PointF&gt;" Usage="CommunityToolkit.Maui.Core.Views.ImagePointOptions.Points" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.PointF&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the points that will result in a single line.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StrokeColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color StrokeColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color StrokeColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.ImagePointOptions.StrokeColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StrokeColor As Color" />
+      <MemberSignature Language="F#" Value="member this.StrokeColor : Microsoft.Maui.Graphics.Color" Usage="CommunityToolkit.Maui.Core.Views.ImagePointOptions.StrokeColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:Microsoft.Maui.Graphics.Color" /> of the line to render.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

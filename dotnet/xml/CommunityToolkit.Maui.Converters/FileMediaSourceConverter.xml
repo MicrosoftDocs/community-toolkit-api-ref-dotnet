@@ -1,0 +1,89 @@
+<Type Name="FileMediaSourceConverter" FullName="CommunityToolkit.Maui.Converters.FileMediaSourceConverter">
+  <TypeSignature Language="C#" Value="public sealed class FileMediaSourceConverter : System.ComponentModel.TypeConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileMediaSourceConverter extends System.ComponentModel.TypeConverter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.FileMediaSourceConverter" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileMediaSourceConverter&#xA;Inherits TypeConverter" />
+  <TypeSignature Language="F#" Value="type FileMediaSourceConverter = class&#xA;    inherit TypeConverter" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>99.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.TypeConverter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(CommunityToolkit.Maui.Views.FileMediaSource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(CommunityToolkit.Maui.Views.FileMediaSource))&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A <see cref="T:System.ComponentModel.TypeConverter" /> specific to converting a string value to a <see cref="T:CommunityToolkit.Maui.Views.FileMediaSource" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileMediaSourceConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.FileMediaSourceConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override object ConvertFrom (System.ComponentModel.ITypeDescriptorContext? context, System.Globalization.CultureInfo? culture, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFrom(class System.ComponentModel.ITypeDescriptorContext context, class System.Globalization.CultureInfo culture, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.FileMediaSourceConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (context As ITypeDescriptorContext, culture As CultureInfo, value As Object) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : System.ComponentModel.ITypeDescriptorContext * System.Globalization.CultureInfo * obj -&gt; obj" Usage="fileMediaSourceConverter.ConvertFrom (context, culture, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>99.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="System.ComponentModel.ITypeDescriptorContext">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="culture">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+        <exception cref="T:System.InvalidOperationException">Thrown when <paramref name="value" /> is <see langword="null" /> or empty.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

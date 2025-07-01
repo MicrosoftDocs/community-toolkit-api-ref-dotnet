@@ -8,6 +8,10 @@
     <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -30,6 +34,10 @@
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -44,6 +52,61 @@
             Determines if a rectangle intersects with another rectangle.
             </summary>
         <returns>This method returns <see langword="true" /> if there is any intersection, otherwise <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToSize">
+      <MemberSignature Language="C#" Value="public static Windows.Foundation.Size ToSize (this Windows.Foundation.Rect rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Windows.Foundation.Size ToSize(valuetype Windows.Foundation.Rect rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.RectExtensions.ToSize(Windows.Foundation.Rect)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToSize (rect As Rect) As Size" />
+      <MemberSignature Language="F#" Value="static member ToSize : Windows.Foundation.Rect -&gt; Windows.Foundation.Size" Usage="CommunityToolkit.WinUI.RectExtensions.ToSize rect" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Foundation.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="Windows.Foundation.Rect" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="rect">Rectangle to size.</param>
+        <summary>
+            Creates a new <see cref="T:Windows.Foundation.Size" /> of the specified <see cref="T:Windows.Foundation.Rect" />'s width and height.
+            </summary>
+        <returns>Size of rectangle.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transform">
+      <MemberSignature Language="C#" Value="public static Windows.Foundation.Rect Transform (this Windows.Foundation.Rect rectangle, Microsoft.UI.Xaml.Media.Matrix matrix);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Windows.Foundation.Rect Transform(valuetype Windows.Foundation.Rect rectangle, valuetype Microsoft.UI.Xaml.Media.Matrix matrix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.RectExtensions.Transform(Windows.Foundation.Rect,Microsoft.UI.Xaml.Media.Matrix)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Transform (rectangle As Rect, matrix As Matrix) As Rect" />
+      <MemberSignature Language="F#" Value="static member Transform : Windows.Foundation.Rect * Microsoft.UI.Xaml.Media.Matrix -&gt; Windows.Foundation.Rect" Usage="CommunityToolkit.WinUI.RectExtensions.Transform (rectangle, matrix)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Foundation.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rectangle" Type="Windows.Foundation.Rect" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" RefType="this" />
+        <Parameter Name="matrix" Type="Microsoft.UI.Xaml.Media.Matrix" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
+      </Parameters>
+      <Docs>
+        <param name="rectangle">The rectangle to transform.</param>
+        <param name="matrix">The matrix to use to transform the rectangle.
+            </param>
+        <summary>
+            Implement WPF's <c>Rect.Transform(Matrix)</c> logic.
+            </summary>
+        <returns>The transformed rectangle.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

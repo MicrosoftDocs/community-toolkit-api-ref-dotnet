@@ -1,0 +1,126 @@
+<Type Name="GridRowsColumns+Columns" FullName="CommunityToolkit.Maui.Markup.GridRowsColumns+Columns">
+  <TypeSignature Language="C#" Value="public static class GridRowsColumns.Columns" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit GridRowsColumns/Columns extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.GridRowsColumns.Columns" />
+  <TypeSignature Language="VB.NET" Value="Public Class GridRowsColumns.Columns" />
+  <TypeSignature Language="F#" Value="type GridRowsColumns.Columns = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Grid Columns
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Define">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Controls.ColumnDefinitionCollection Define (scoped ReadOnlySpan&lt;Microsoft.Maui.GridLength&gt; widths);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ColumnDefinitionCollection Define(valuetype System.ReadOnlySpan`1&lt;valuetype Microsoft.Maui.GridLength&gt; widths) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridRowsColumns.Columns.Define(System.ReadOnlySpan{Microsoft.Maui.GridLength})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Define (widths As ReadOnlySpan(Of GridLength)) As ColumnDefinitionCollection" />
+      <MemberSignature Language="F#" Value="static member Define : ReadOnlySpan&lt;Microsoft.Maui.GridLength&gt; -&gt; Microsoft.Maui.Controls.ColumnDefinitionCollection" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.Columns.Define widths" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ColumnDefinitionCollection</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widths" Type="System.ReadOnlySpan&lt;Microsoft.Maui.GridLength&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="widths" />
+        <summary>
+            Define Columns
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Define&lt;TEnum&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Controls.ColumnDefinitionCollection Define&lt;TEnum&gt; (scoped ReadOnlySpan&lt;(TEnum Name, Microsoft.Maui.GridLength Width)&gt; columns) where TEnum : Enum;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ColumnDefinitionCollection Define&lt;(class System.Enum) TEnum&gt;(valuetype System.ReadOnlySpan`1&lt;valuetype System.ValueTuple`2&lt;!!TEnum, valuetype Microsoft.Maui.GridLength&gt;&gt; columns) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridRowsColumns.Columns.Define``1(System.ReadOnlySpan{System.ValueTuple{``0,Microsoft.Maui.GridLength}})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of TEnum As Enum) (columns As ReadOnlySpan(Of ValueTuple(Of TEnum, GridLength))) As ColumnDefinitionCollection" />
+      <MemberSignature Language="F#" Value="static member Define : ReadOnlySpan&lt;ValueTuple&lt;'Enum, Microsoft.Maui.GridLength&gt;&gt; -&gt; Microsoft.Maui.Controls.ColumnDefinitionCollection (requires 'Enum :&gt; Enum)" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.Columns.Define columns" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.ColumnDefinitionCollection</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TEnum">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>System.Enum</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="columns" Type="System.ReadOnlySpan&lt;System.ValueTuple&lt;TEnum,Microsoft.Maui.GridLength&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Name", "Width" })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Name", "Width" })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TEnum" />
+        <param name="columns" />
+        <summary>
+            Define Columns
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException" />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

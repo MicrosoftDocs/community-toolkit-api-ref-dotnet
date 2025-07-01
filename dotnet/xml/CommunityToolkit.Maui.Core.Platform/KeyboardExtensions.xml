@@ -1,0 +1,122 @@
+<Type Name="KeyboardExtensions" FullName="CommunityToolkit.Maui.Core.Platform.KeyboardExtensions">
+  <TypeSignature Language="C#" Value="public static class KeyboardExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit KeyboardExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Platform.KeyboardExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module KeyboardExtensions" />
+  <TypeSignature Language="F#" Value="type KeyboardExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for interacting with a platforms Soft Keyboard Pane
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HideKeyboardAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;bool&gt; HideKeyboardAsync (this Microsoft.Maui.ITextInput targetView, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; HideKeyboardAsync(class Microsoft.Maui.ITextInput targetView, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Platform.KeyboardExtensions.HideKeyboardAsync(Microsoft.Maui.ITextInput,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function HideKeyboardAsync (targetView As ITextInput, Optional token As CancellationToken = Nothing) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="static member HideKeyboardAsync : Microsoft.Maui.ITextInput * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="CommunityToolkit.Maui.Core.Platform.KeyboardExtensions.HideKeyboardAsync (targetView, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetView" Type="Microsoft.Maui.ITextInput" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="targetView" />
+        <param name="token">Cancellation token</param>
+        <summary>
+            If a soft input device is currently showing, this will attempt to hide it.
+            </summary>
+        <returns>
+            Returns <c>true</c> if the platform was able to hide the soft input device.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSoftKeyboardShowing">
+      <MemberSignature Language="C#" Value="public static bool IsSoftKeyboardShowing (this Microsoft.Maui.ITextInput targetView);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsSoftKeyboardShowing(class Microsoft.Maui.ITextInput targetView) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Platform.KeyboardExtensions.IsSoftKeyboardShowing(Microsoft.Maui.ITextInput)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsSoftKeyboardShowing (targetView As ITextInput) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsSoftKeyboardShowing : Microsoft.Maui.ITextInput -&gt; bool" Usage="CommunityToolkit.Maui.Core.Platform.KeyboardExtensions.IsSoftKeyboardShowing targetView" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetView" Type="Microsoft.Maui.ITextInput" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="targetView" />
+        <summary>
+            Checks to see if the platform is currently showing the soft input pane
+            </summary>
+        <returns>
+            Returns <c>true</c> if the soft input device is currently showing.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowKeyboardAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.ValueTask&lt;bool&gt; ShowKeyboardAsync (this Microsoft.Maui.ITextInput targetView, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; ShowKeyboardAsync(class Microsoft.Maui.ITextInput targetView, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Platform.KeyboardExtensions.ShowKeyboardAsync(Microsoft.Maui.ITextInput,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowKeyboardAsync (targetView As ITextInput, Optional token As CancellationToken = Nothing) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="static member ShowKeyboardAsync : Microsoft.Maui.ITextInput * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="CommunityToolkit.Maui.Core.Platform.KeyboardExtensions.ShowKeyboardAsync (targetView, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetView" Type="Microsoft.Maui.ITextInput" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="targetView" />
+        <param name="token">Cancellation token</param>
+        <summary>
+            If a soft input device is currently hiding, this will attempt to show it.
+            </summary>
+        <returns>
+            Returns <c>true</c> if the platform was able to show the soft input device.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

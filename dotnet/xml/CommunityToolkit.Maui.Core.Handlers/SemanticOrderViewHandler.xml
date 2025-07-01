@@ -1,0 +1,159 @@
+<Type Name="SemanticOrderViewHandler" FullName="CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler">
+  <TypeSignature Language="C#" Value="public class SemanticOrderViewHandler : Microsoft.Maui.Handlers.ContentViewHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SemanticOrderViewHandler extends Microsoft.Maui.Handlers.ContentViewHandler" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Class SemanticOrderViewHandler&#xA;Inherits ContentViewHandler" />
+  <TypeSignature Language="F#" Value="type SemanticOrderViewHandler = class&#xA;    inherit ContentViewHandler" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Handlers.ContentViewHandler</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Handler SemanticOrderView control
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SemanticOrderViewHandler ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Default Constructor for <see cref="T:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SemanticOrderViewHandler (Microsoft.Maui.IPropertyMapper? mapper, Microsoft.Maui.CommandMapper? commandMapper);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler" Usage="new CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler (mapper, commandMapper)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mapper" Type="Microsoft.Maui.IPropertyMapper" />
+        <Parameter Name="commandMapper" Type="Microsoft.Maui.CommandMapper" />
+      </Parameters>
+      <Docs>
+        <param name="mapper">Custom instance of <see cref="T:Microsoft.Maui.PropertyMapper" />, if it's null the <see cref="F:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SemanticOrderViewMapper" /> will be used</param>
+        <param name="commandMapper">Custom instance of <see cref="T:Microsoft.Maui.CommandMapper" />, if it's null the <see cref="F:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SemanticOrderViewCommandMapper" /> will be used</param>
+        <summary>
+            Constructor for <see cref="T:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePlatformView">
+      <MemberSignature Language="C#" Value="protected override object CreatePlatformView ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.CreatePlatformView" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
+      <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="semanticOrderViewHandler.CreatePlatformView " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SemanticOrderViewCommandMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.ISemanticOrderView,CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt; SemanticOrderViewCommandMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class CommunityToolkit.Maui.Core.ISemanticOrderView, class CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt; SemanticOrderViewCommandMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SemanticOrderViewCommandMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared SemanticOrderViewCommandMapper As CommandMapper(Of ISemanticOrderView, SemanticOrderViewHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable SemanticOrderViewCommandMapper : Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.ISemanticOrderView, CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SemanticOrderViewCommandMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.ISemanticOrderView,CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.CommandMapper" /> for SemanticOrderView Control.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SemanticOrderViewMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.ISemanticOrderView,CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt; SemanticOrderViewMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class CommunityToolkit.Maui.Core.ISemanticOrderView, class CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt; SemanticOrderViewMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SemanticOrderViewMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared SemanticOrderViewMapper As IPropertyMapper(Of ISemanticOrderView, SemanticOrderViewHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable SemanticOrderViewMapper : Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.ISemanticOrderView, CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SemanticOrderViewMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.ISemanticOrderView,CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            PropertyMapper for SemanticOrderView Control
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetVirtualView">
+      <MemberSignature Language="C#" Value="public override void SetVirtualView (Microsoft.Maui.IView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SetVirtualView(class Microsoft.Maui.IView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.SemanticOrderViewHandler.SetVirtualView(Microsoft.Maui.IView)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SetVirtualView (view As IView)" />
+      <MemberSignature Language="F#" Value="override this.SetVirtualView : Microsoft.Maui.IView -&gt; unit" Usage="semanticOrderViewHandler.SetVirtualView view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Maui.IView" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

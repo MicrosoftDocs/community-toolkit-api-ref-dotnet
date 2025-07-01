@@ -1,0 +1,187 @@
+<Type Name="PlaceholderExtensions" FullName="CommunityToolkit.Maui.Markup.PlaceholderExtensions">
+  <TypeSignature Language="C#" Value="public static class PlaceholderExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PlaceholderExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.PlaceholderExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PlaceholderExtensions" />
+  <TypeSignature Language="F#" Value="type PlaceholderExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.IPlaceholder" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Placeholder&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Placeholder&lt;TBindable&gt; (this TBindable bindable, string? text) where TBindable : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.IPlaceholder;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Placeholder&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.IPlaceholder) TBindable&gt;(!!TBindable bindable, string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.PlaceholderExtensions.Placeholder``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Placeholder(Of TBindable As {BindableObject, IPlaceholder}) (bindable As TBindable, text As String) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Placeholder : 'Bindable * string -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Bindable :&gt; Microsoft.Maui.IPlaceholder)" Usage="CommunityToolkit.Maui.Markup.PlaceholderExtensions.Placeholder (bindable, text)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.IPlaceholder</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="text" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">Bindable Object</typeparam>
+        <param name="bindable">The element on which to set <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /></param>
+        <param name="text">The <see cref="T:System.String" /> for the <see cref="P:Microsoft.Maui.IPlaceholder.Placeholder" /> text</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.IPlaceholder.Placeholder" /> Property/&gt;
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Placeholder&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Placeholder&lt;TBindable&gt; (this TBindable bindable, string? text, Microsoft.Maui.Graphics.Color? textColor) where TBindable : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.IPlaceholder;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Placeholder&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.IPlaceholder) TBindable&gt;(!!TBindable bindable, string text, class Microsoft.Maui.Graphics.Color textColor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.PlaceholderExtensions.Placeholder``1(``0,System.String,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Placeholder(Of TBindable As {BindableObject, IPlaceholder}) (bindable As TBindable, text As String, textColor As Color) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Placeholder : 'Bindable * string * Microsoft.Maui.Graphics.Color -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Bindable :&gt; Microsoft.Maui.IPlaceholder)" Usage="CommunityToolkit.Maui.Markup.PlaceholderExtensions.Placeholder (bindable, text, textColor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.IPlaceholder</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="text" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="textColor" Type="Microsoft.Maui.Graphics.Color">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">Bindable Object</typeparam>
+        <param name="bindable">The element on which to set <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /></param>
+        <param name="text">The <see cref="T:System.String" /> for the <see cref="P:Microsoft.Maui.IPlaceholder.Placeholder" /> text</param>
+        <param name="textColor">The <see cref="T:Microsoft.Maui.Graphics.Color" /> for <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /></param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.IPlaceholder.Placeholder" /> and <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /> Properties/&gt;
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlaceholderColor&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable PlaceholderColor&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Graphics.Color? textColor) where TBindable : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.IPlaceholder;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable PlaceholderColor&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.IPlaceholder) TBindable&gt;(!!TBindable bindable, class Microsoft.Maui.Graphics.Color textColor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.PlaceholderExtensions.PlaceholderColor``1(``0,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PlaceholderColor(Of TBindable As {BindableObject, IPlaceholder}) (bindable As TBindable, textColor As Color) As TBindable" />
+      <MemberSignature Language="F#" Value="static member PlaceholderColor : 'Bindable * Microsoft.Maui.Graphics.Color -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Bindable :&gt; Microsoft.Maui.IPlaceholder)" Usage="CommunityToolkit.Maui.Markup.PlaceholderExtensions.PlaceholderColor (bindable, textColor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.IPlaceholder</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="textColor" Type="Microsoft.Maui.Graphics.Color">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">Bindable Object</typeparam>
+        <param name="bindable">The element on which to set <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /></param>
+        <param name="textColor">The <see cref="T:Microsoft.Maui.Graphics.Color" /> for <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /></param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.IPlaceholder.PlaceholderColor" /> Property
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

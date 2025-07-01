@@ -1,0 +1,81 @@
+<Type Name="ICameraProvider" FullName="CommunityToolkit.Maui.Core.ICameraProvider">
+  <TypeSignature Language="C#" Value="public interface ICameraProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ICameraProvider" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.ICameraProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICameraProvider" />
+  <TypeSignature Language="F#" Value="type ICameraProvider = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Interface to retrieve available cameras
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AvailableCameras">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;? AvailableCameras { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class CommunityToolkit.Maui.Core.CameraInfo&gt; AvailableCameras" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ICameraProvider.AvailableCameras" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailableCameras As IReadOnlyList(Of CameraInfo)" />
+      <MemberSignature Language="F#" Value="member this.AvailableCameras : System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;" Usage="CommunityToolkit.Maui.Core.ICameraProvider.AvailableCameras" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Cameras available on device
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            List is initialized using <see cref="M:CommunityToolkit.Maui.Core.ICameraProvider.RefreshAvailableCameras(System.Threading.CancellationToken)" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshAvailableCameras">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask RefreshAvailableCameras (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask RefreshAvailableCameras(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.ICameraProvider.RefreshAvailableCameras(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RefreshAvailableCameras (token As CancellationToken) As ValueTask" />
+      <MemberSignature Language="F#" Value="abstract member RefreshAvailableCameras : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="iCameraProvider.RefreshAvailableCameras token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNull("AvailableCameras")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNull("AvailableCameras")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token" />
+        <summary>
+            Assigns <see cref="P:CommunityToolkit.Maui.Core.ICameraProvider.AvailableCameras" /> with the cameras available on device
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
