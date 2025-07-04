@@ -1,0 +1,50 @@
+<Type Name="DispatcherTimerExtensions" FullName="Microsoft.Toolkit.Uwp.UI.Extensions.DispatcherTimerExtensions">
+  <TypeSignature Language="C#" Value="public static class DispatcherTimerExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DispatcherTimerExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.Uwp.UI.Extensions.DispatcherTimerExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module DispatcherTimerExtensions" />
+  <TypeSignature Language="F#" Value="type DispatcherTimerExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.Uwp.UI</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Debounce">
+      <MemberSignature Language="C#" Value="public static void Debounce (this Windows.UI.Xaml.DispatcherTimer timer, Action action, TimeSpan interval, bool immediate = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Debounce(class Windows.UI.Xaml.DispatcherTimer timer, class System.Action action, valuetype System.TimeSpan interval, bool immediate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Uwp.UI.Extensions.DispatcherTimerExtensions.Debounce(Windows.UI.Xaml.DispatcherTimer,System.Action,System.TimeSpan,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Debounce (timer As DispatcherTimer, action As Action, interval As TimeSpan, Optional immediate As Boolean = false)" />
+      <MemberSignature Language="F#" Value="static member Debounce : Windows.UI.Xaml.DispatcherTimer * Action * TimeSpan * bool -&gt; unit" Usage="Microsoft.Toolkit.Uwp.UI.Extensions.DispatcherTimerExtensions.Debounce (timer, action, interval, immediate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.Uwp.UI</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timer" Type="Windows.UI.Xaml.DispatcherTimer" RefType="this" />
+        <Parameter Name="action" Type="System.Action" />
+        <Parameter Name="interval" Type="System.TimeSpan" />
+        <Parameter Name="immediate" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="timer">To be added.</param>
+        <param name="action">To be added.</param>
+        <param name="interval">To be added.</param>
+        <param name="immediate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

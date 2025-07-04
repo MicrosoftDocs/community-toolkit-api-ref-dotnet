@@ -2,8 +2,9 @@
   <TypeSignature Language="C#" Value="public static class SpinLockExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SpinLockExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.HighPerformance.SpinLockExtensions" />
-  <TypeSignature Language="VB.NET" Value="Public Module SpinLockExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SpinLockExtensions" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="F#" Value="type SpinLockExtensions = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class SpinLockExtensions" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
@@ -35,7 +36,7 @@
         <ReturnType>CommunityToolkit.HighPerformance.SpinLockExtensions+Lock</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="this" />
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="this" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="spinLock">The target <see cref="T:System.Threading.SpinLock" /> to use</param>
@@ -64,14 +65,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.Obsolete("Use SpinLockExtensions.Enter(ref SpinLock) instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Use SpinLockExtensions.Enter(ref SpinLock) instead.")&gt;]</AttributeName>
         </Attribute>
@@ -99,6 +101,32 @@
              </summary>
         <returns>A wrapper type that will release <paramref name="spinLock" /> when its <see cref="M:System.IDisposable.Dispose" /> method is called.</returns>
         <remarks>The returned <see cref="T:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock" /> value shouldn't be used directly: use this extension in a <see langword="using" /> block or statement.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.SpinLockExtensions.Lock Enter (object owner, ref System.Threading.SpinLock spinLock);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.SpinLockExtensions/Lock Enter(object owner, valuetype System.Threading.SpinLock&amp; spinLock) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpinLockExtensions.Enter(System.Object,System.Threading.SpinLock@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Enter (owner As Object, ByRef spinLock As SpinLock) As SpinLockExtensions.Lock" />
+      <MemberSignature Language="F#" Value="static member Enter : obj * SpinLock -&gt; CommunityToolkit.HighPerformance.SpinLockExtensions.Lock" Usage="CommunityToolkit.HighPerformance.SpinLockExtensions.Enter (owner, spinLock)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.SpinLockExtensions+Lock</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="owner" Type="System.Object" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="ref" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      </Parameters>
+      <Docs>
+        <param name="owner">To be added.</param>
+        <param name="spinLock">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

@@ -6,12 +6,13 @@
   <TypeSignature Language="F#" Value="type Ref&lt;'T&gt; = struct" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T">
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
@@ -23,19 +24,19 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
@@ -59,7 +60,7 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="pointer" Type="System.Void*" />
+        <Parameter Name="pointer" Type="System.Void*" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="pointer">The pointer to the target value.</param>
@@ -81,13 +82,35 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="value" Type="T" RefType="ref" />
+        <Parameter Name="value" Type="T" RefType="ref" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="value">The reference to the target <typeparamref name="T" /> value.</param>
         <summary>
             Initializes a new instance of the <see cref="T:CommunityToolkit.HighPerformance.Ref`1" /> struct.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Ref (object owner, ref T value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object owner, !T&amp; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.Ref`1.#ctor(System.Object,`0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (owner As Object, ByRef value As T)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.HighPerformance.Ref&lt;'T&gt; : obj * 'T -&gt; CommunityToolkit.HighPerformance.Ref&lt;'T&gt;" Usage="new CommunityToolkit.HighPerformance.Ref&lt;'T&gt; (owner, value)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="owner" Type="System.Object" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+        <Parameter Name="value" Type="T" RefType="ref" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      </Parameters>
+      <Docs>
+        <param name="owner">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,6 +123,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -108,7 +132,7 @@
       <Parameters>
         <Parameter Name="reference" Type="CommunityToolkit.HighPerformance.Ref&lt;T&gt;">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -133,9 +157,10 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Docs>

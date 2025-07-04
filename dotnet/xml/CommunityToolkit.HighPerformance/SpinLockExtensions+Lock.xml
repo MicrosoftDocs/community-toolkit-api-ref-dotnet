@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type SpinLockExtensions.Lock = struct" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -17,15 +18,15 @@
       <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
@@ -37,6 +38,28 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Lock (object owner, ref System.Threading.SpinLock spinLock);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object owner, valuetype System.Threading.SpinLock&amp; spinLock) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpinLockExtensions.Lock.#ctor(System.Object,System.Threading.SpinLock@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (owner As Object, ByRef spinLock As SpinLock)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.HighPerformance.SpinLockExtensions.Lock : obj * SpinLock -&gt; CommunityToolkit.HighPerformance.SpinLockExtensions.Lock" Usage="new CommunityToolkit.HighPerformance.SpinLockExtensions.Lock (owner, spinLock)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="owner" Type="System.Object" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="ref" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      </Parameters>
+      <Docs>
+        <param name="owner">To be added.</param>
+        <param name="spinLock">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Dispose">
       <MemberSignature Language="C#" Value="public void Dispose ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Dispose() cil managed" />
@@ -46,6 +69,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

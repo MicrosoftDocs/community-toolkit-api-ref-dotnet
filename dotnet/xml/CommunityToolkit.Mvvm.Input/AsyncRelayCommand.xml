@@ -1,9 +1,13 @@
 <Type Name="AsyncRelayCommand" FullName="CommunityToolkit.Mvvm.Input.AsyncRelayCommand">
-  <TypeSignature Language="C#" Value="public sealed class AsyncRelayCommand : CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, System.ComponentModel.INotifyPropertyChanged, System.Windows.Input.ICommand" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AsyncRelayCommand extends System.Object implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" />
+  <TypeSignature Language="C#" Value="public sealed class AsyncRelayCommand : CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, System.ComponentModel.INotifyPropertyChanged, System.Windows.Input.ICommand" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AsyncRelayCommand extends System.Object implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AsyncRelayCommand&#xA;Implements IAsyncRelayCommand, ICommand, INotifyPropertyChanged" />
-  <TypeSignature Language="F#" Value="type AsyncRelayCommand = class&#xA;    interface IAsyncRelayCommand&#xA;    interface IRelayCommand&#xA;    interface ICommand&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AsyncRelayCommand&#xA;Implements IAsyncRelayCommand, ICommand, INotifyPropertyChanged" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+  <TypeSignature Language="F#" Value="type AsyncRelayCommand = class&#xA;    interface IAsyncRelayCommand&#xA;    interface IRelayCommand&#xA;    interface ICommand&#xA;    interface INotifyPropertyChanged" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+  <TypeSignature Language="C#" Value="public sealed class AsyncRelayCommand : CommunityToolkit.Mvvm.ComponentModel.ObservableObject, CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, System.ComponentModel.INotifyPropertyChanged, System.Windows.Input.ICommand" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AsyncRelayCommand extends CommunityToolkit.Mvvm.ComponentModel.ObservableObject implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AsyncRelayCommand&#xA;Inherits ObservableObject&#xA;Implements IAsyncRelayCommand, ICommand, INotifyPropertyChanged" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+  <TypeSignature Language="F#" Value="type AsyncRelayCommand = class&#xA;    inherit ObservableObject&#xA;    interface IAsyncRelayCommand&#xA;    interface IRelayCommand&#xA;    interface ICommand&#xA;    interface INotifyPropertyChanged" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
@@ -11,6 +15,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="win-comm-toolkit-dotnet-7.0">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -27,7 +32,7 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
@@ -51,6 +56,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -74,6 +80,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -100,8 +107,8 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="cancelableExecute" Type="System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="cancelableExecute">The cancelable execution logic.</param>
@@ -122,6 +129,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -150,8 +158,8 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Func&lt;System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+        <Parameter Name="execute" Type="System.Func&lt;System.Threading.Tasks.Task&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="execute">The execution logic.</param>
@@ -172,6 +180,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -200,9 +209,9 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="cancelableExecute" Type="System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="canExecute" Type="System.Func&lt;System.Boolean&gt;" />
-        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+        <Parameter Name="cancelableExecute" Type="System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="canExecute" Type="System.Func&lt;System.Boolean&gt;" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="cancelableExecute">The cancelable execution logic.</param>
@@ -227,9 +236,9 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Func&lt;System.Threading.Tasks.Task&gt;" />
-        <Parameter Name="canExecute" Type="System.Func&lt;System.Boolean&gt;" />
-        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" />
+        <Parameter Name="execute" Type="System.Func&lt;System.Threading.Tasks.Task&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="canExecute" Type="System.Func&lt;System.Boolean&gt;" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="options" Type="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <param name="execute">The execution logic.</param>
@@ -254,6 +263,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -280,6 +290,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -309,6 +320,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -337,10 +349,11 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
@@ -366,6 +379,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -393,6 +407,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -401,7 +416,7 @@
       <Parameters>
         <Parameter Name="parameter" Type="System.Object">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -428,10 +443,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
@@ -461,6 +477,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -487,6 +504,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -513,6 +531,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -542,7 +561,7 @@
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>

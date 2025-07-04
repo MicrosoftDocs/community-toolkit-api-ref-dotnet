@@ -1,9 +1,10 @@
 <Type Name="IRelayCommand" FullName="CommunityToolkit.Mvvm.Input.IRelayCommand">
   <TypeSignature Language="C#" Value="public interface IRelayCommand : System.Windows.Input.ICommand" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IRelayCommand implements class System.Windows.Input.ICommand" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IRelayCommand implements class System.Windows.Input.ICommand" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.IRelayCommand" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRelayCommand&#xA;Implements ICommand" />
   <TypeSignature Language="F#" Value="type IRelayCommand = interface&#xA;    interface ICommand" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRelayCommand implements class System.Windows.Input.ICommand" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -1,9 +1,10 @@
 <Type Name="IRecipient&lt;TMessage&gt;" FullName="CommunityToolkit.Mvvm.Messaging.IRecipient&lt;TMessage&gt;">
   <TypeSignature Language="C#" Value="public interface IRecipient&lt;in TMessage&gt; where TMessage : class" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IRecipient`1&lt;class - TMessage&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IRecipient`1&lt;class - TMessage&gt;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Messaging.IRecipient`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRecipient(Of In TMessage)" />
   <TypeSignature Language="F#" Value="type IRecipient&lt;'Message (requires 'Message : null)&gt; = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRecipient`1&lt;class - TMessage&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

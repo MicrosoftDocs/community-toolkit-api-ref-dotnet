@@ -1,0 +1,469 @@
+<Type Name="ObservableGroupedCollectionExtensions" FullName="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions">
+  <TypeSignature Language="C#" Value="public static class ObservableGroupedCollectionExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ObservableGroupedCollectionExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ObservableGroupedCollectionExtensions" />
+  <TypeSignature Language="F#" Value="type ObservableGroupedCollectionExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Common</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddGroup&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; AddGroup&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, System.Collections.Generic.IEnumerable&lt;TValue&gt; collection);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; AddGroup&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, class System.Collections.Generic.IEnumerable`1&lt;!!TValue&gt; collection) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IEnumerable{``1})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddGroup(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, collection As IEnumerable(Of TValue)) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member AddGroup : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * seq&lt;'Value&gt; -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddGroup (source, key, collection)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="collection" Type="System.Collections.Generic.IEnumerable&lt;TValue&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="collection">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddGroup&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; AddGroup&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, TValue value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; AddGroup&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, !!TValue value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddGroup(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, value As TValue) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member AddGroup : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * 'Value -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddGroup (source, key, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="value" Type="TValue" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddGroup&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; AddGroup&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, params TValue[] collection);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; AddGroup&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, !!TValue[] collection) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,``1[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddGroup(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, ParamArray collection As TValue()) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member AddGroup : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * 'Value[] -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddGroup (source, key, collection)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="collection" Type="TValue[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="collection">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddItem&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; AddItem&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, TValue item);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; AddItem&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, !!TValue item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddItem``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddItem(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, item As TValue) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member AddItem : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * 'Value -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.AddItem (source, key, item)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="item" Type="TValue" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElementAt&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static TValue ElementAt&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TValue ElementAt&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.ElementAt``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ElementAt(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, index As Integer) As TValue" />
+      <MemberSignature Language="F#" Value="static member ElementAt : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * int -&gt; 'Value" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.ElementAt (source, key, index)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TValue</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElementAtOrDefault&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static TValue? ElementAtOrDefault&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TValue ElementAtOrDefault&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.ElementAtOrDefault``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ElementAtOrDefault(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, index As Integer) As TValue" />
+      <MemberSignature Language="F#" Value="static member ElementAtOrDefault : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * int -&gt; 'Value" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.ElementAtOrDefault (source, key, index)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TValue</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="First&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; First&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; First&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.First``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function First(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member First : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.First (source, key)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstOrDefault&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;? FirstOrDefault&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; FirstOrDefault&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.FirstOrDefault``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FirstOrDefault(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member FirstOrDefault : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.FirstOrDefault (source, key)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertItem&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; InsertItem&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, int index, TValue item);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; InsertItem&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, int32 index, !!TValue item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.InsertItem``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,System.Int32,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function InsertItem(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, index As Integer, item As TValue) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member InsertItem : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * int * 'Value -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.InsertItem (source, key, index, item)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="item" Type="TValue" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveGroup&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static void RemoveGroup&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RemoveGroup&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.RemoveGroup``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RemoveGroup(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey)" />
+      <MemberSignature Language="F#" Value="static member RemoveGroup : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key -&gt; unit" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.RemoveGroup (source, key)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveItem&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static void RemoveItem&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, TValue item, bool removeGroupIfEmpty = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RemoveItem&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, !!TValue item, bool removeGroupIfEmpty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.RemoveItem``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,``1,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RemoveItem(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, item As TValue, Optional removeGroupIfEmpty As Boolean = true)" />
+      <MemberSignature Language="F#" Value="static member RemoveItem : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * 'Value * bool -&gt; unit" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.RemoveItem (source, key, item, removeGroupIfEmpty)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="item" Type="TValue" />
+        <Parameter Name="removeGroupIfEmpty" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="item">To be added.</param>
+        <param name="removeGroupIfEmpty">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveItemAt&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static void RemoveItemAt&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, int index, bool removeGroupIfEmpty = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RemoveItemAt&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, int32 index, bool removeGroupIfEmpty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.RemoveItemAt``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,System.Int32,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RemoveItemAt(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, index As Integer, Optional removeGroupIfEmpty As Boolean = true)" />
+      <MemberSignature Language="F#" Value="static member RemoveItemAt : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * int * bool -&gt; unit" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.RemoveItemAt (source, key, index, removeGroupIfEmpty)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="removeGroupIfEmpty" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="removeGroupIfEmpty">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetItem&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt; SetItem&lt;TKey,TValue&gt; (this CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt; source, TKey key, int index, TValue item);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Common.Collections.ObservableGroup`2&lt;!!TKey, !!TValue&gt; SetItem&lt;TKey, TValue&gt;(class CommunityToolkit.Common.Collections.ObservableGroupedCollection`2&lt;!!TKey, !!TValue&gt; source, !!TKey key, int32 index, !!TValue item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.SetItem``2(CommunityToolkit.Common.Collections.ObservableGroupedCollection{``0,``1},``0,System.Int32,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetItem(Of TKey, TValue) (source As ObservableGroupedCollection(Of TKey, TValue), key As TKey, index As Integer, item As TValue) As ObservableGroup(Of TKey, TValue)" />
+      <MemberSignature Language="F#" Value="static member SetItem : CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;'Key, 'Value&gt; * 'Key * int * 'Value -&gt; CommunityToolkit.Common.Collections.ObservableGroup&lt;'Key, 'Value&gt;" Usage="CommunityToolkit.Common.Collections.ObservableGroupedCollectionExtensions.SetItem (source, key, index, item)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Common.Collections.ObservableGroup&lt;TKey,TValue&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="source" Type="CommunityToolkit.Common.Collections.ObservableGroupedCollection&lt;TKey,TValue&gt;" RefType="this" />
+        <Parameter Name="key" Type="TKey" />
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="item" Type="TValue" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

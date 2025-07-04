@@ -96,6 +96,12 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
+          <AttributeName Language="C#">[Windows.Foundation.Metadata.DefaultOverload]</AttributeName>
+          <AttributeName Language="F#">[&lt;Windows.Foundation.Metadata.DefaultOverload&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.UI.Xaml.Markup.IXamlType</ReturnType>
       </ReturnValue>

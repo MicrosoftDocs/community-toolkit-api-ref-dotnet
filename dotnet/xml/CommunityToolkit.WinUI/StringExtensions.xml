@@ -17,7 +17,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
@@ -30,11 +30,38 @@
   </Docs>
   <Members>
     <Member MemberName="GetLocalized">
-      <MemberSignature Language="C#" Value="public static string? GetLocalized (this string resourceKey, string resourcePath);" />
+      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLocalized(string resourceKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String) As String" />
+      <MemberSignature Language="F#" Value="static member GetLocalized : string -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetLocalized resourceKey" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceKey" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceKey">Resource key to retrieve.</param>
+        <summary>
+            Retrieves the provided resource for the given key for use independent of the UI thread.
+            </summary>
+        <returns>string value for given resource or empty string if not found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLocalized">
+      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey, string resourcePath);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLocalized(string resourceKey, string resourcePath) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, resourcePath As String) As String" />
       <MemberSignature Language="F#" Value="static member GetLocalized : string * string -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetLocalized (resourceKey, resourcePath)" />
+      <MemberSignature Language="C#" Value="public static string? GetLocalized (this string resourceKey, string resourcePath);" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
@@ -46,12 +73,6 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
-        <Attributes>
-          <Attribute>
-            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
-            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
-          </Attribute>
-        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceKey" Type="System.String" RefType="this" />
@@ -68,11 +89,13 @@
       </Docs>
     </Member>
     <Member MemberName="GetLocalized">
-      <MemberSignature Language="C#" Value="public static string? GetLocalized (this string resourceKey, Windows.UI.UIContext? uiContext = default);" />
+      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey, Windows.UI.UIContext uiContext);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLocalized(string resourceKey, class Windows.UI.UIContext uiContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String,Windows.UI.UIContext)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, Optional uiContext As UIContext = Nothing) As String" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, uiContext As UIContext) As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="F#" Value="static member GetLocalized : string * Windows.UI.UIContext -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetLocalized (resourceKey, uiContext)" />
+      <MemberSignature Language="C#" Value="public static string? GetLocalized (this string resourceKey, Windows.UI.UIContext? uiContext = default);" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, Optional uiContext As UIContext = Nothing) As String" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
@@ -82,13 +105,19 @@
         <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
         <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceKey" Type="System.String" RefType="this">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
             </Attribute>
@@ -103,6 +132,68 @@
             You can retrieve this from a UIElement.UIContext, XamlRoot.UIContext (XamlIslands), or Window.UIContext.</param>
         <summary>
             Retrieves the provided resource for the given key for use independent of the UI thread.
+            </summary>
+        <returns>string value for given resource or empty string if not found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetViewLocalized">
+      <MemberSignature Language="C#" Value="public static string GetViewLocalized (this string resourceKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetViewLocalized(string resourceKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetViewLocalized(System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetViewLocalized (resourceKey As String) As String" />
+      <MemberSignature Language="F#" Value="static member GetViewLocalized : string -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetViewLocalized resourceKey" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceKey" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceKey">Resource key to retrieve.</param>
+        <summary>
+            Retrieves the provided resource for the current view context.
+            </summary>
+        <returns>string value for given resource or empty string if not found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetViewLocalized">
+      <MemberSignature Language="C#" Value="public static string GetViewLocalized (this string resourceKey, Windows.UI.UIContext uiContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetViewLocalized(string resourceKey, class Windows.UI.UIContext uiContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetViewLocalized(System.String,Windows.UI.UIContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetViewLocalized (resourceKey As String, uiContext As UIContext) As String" />
+      <MemberSignature Language="F#" Value="static member GetViewLocalized : string * Windows.UI.UIContext -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetViewLocalized (resourceKey, uiContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceKey" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" RefType="this" />
+        <Parameter Name="uiContext" Type="Windows.UI.UIContext" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      </Parameters>
+      <Docs>
+        <param name="resourceKey">Resource key to retrieve.</param>
+        <param name="uiContext">
+          <see cref="T:Windows.UI.UIContext" /> to be used to get the <paramref name="resourceKey" /> from.
+            You can retrieve this from a UIElement.UIContext, XamlRoot.UIContext (XamlIslands), or Window.UIContext.</param>
+        <summary>
+            Retrieves the provided resource for the current view context.
             </summary>
         <returns>string value for given resource or empty string if not found.</returns>
         <remarks>To be added.</remarks>
@@ -123,7 +214,7 @@
         <ReturnType>System.Numerics.Quaternion</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" RefType="this" />
+        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       </Parameters>
       <Docs>
         <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
@@ -152,7 +243,7 @@
         <ReturnType>System.Numerics.Vector2</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" RefType="this" />
+        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       </Parameters>
       <Docs>
         <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
@@ -182,7 +273,7 @@
         <ReturnType>System.Numerics.Vector3</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" RefType="this" />
+        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       </Parameters>
       <Docs>
         <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
@@ -212,7 +303,7 @@
         <ReturnType>System.Numerics.Vector4</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" RefType="this" />
+        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       </Parameters>
       <Docs>
         <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>

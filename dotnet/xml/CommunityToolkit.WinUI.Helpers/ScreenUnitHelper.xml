@@ -17,7 +17,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
@@ -30,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="Convert">
-      <MemberSignature Language="C#" Value="public static float Convert (CommunityToolkit.WinUI.Helpers.ScreenUnit from, CommunityToolkit.WinUI.Helpers.ScreenUnit to, float value, Microsoft.UI.Xaml.XamlRoot? xamlRoot = default);" />
+      <MemberSignature Language="C#" Value="public static float Convert (CommunityToolkit.WinUI.Helpers.ScreenUnit from, CommunityToolkit.WinUI.Helpers.ScreenUnit to, float value, Microsoft.UI.Xaml.XamlRoot xamlRoot = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Convert(valuetype CommunityToolkit.WinUI.Helpers.ScreenUnit from, valuetype CommunityToolkit.WinUI.Helpers.ScreenUnit to, float32 value, class Microsoft.UI.Xaml.XamlRoot xamlRoot) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Helpers.ScreenUnitHelper.Convert(CommunityToolkit.WinUI.Helpers.ScreenUnit,CommunityToolkit.WinUI.Helpers.ScreenUnit,System.Single,Microsoft.UI.Xaml.XamlRoot)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Convert (from As ScreenUnit, to As ScreenUnit, value As Single, Optional xamlRoot As XamlRoot = Nothing) As Single" />
       <MemberSignature Language="F#" Value="static member Convert : CommunityToolkit.WinUI.Helpers.ScreenUnit * CommunityToolkit.WinUI.Helpers.ScreenUnit * single * Microsoft.UI.Xaml.XamlRoot -&gt; single" Usage="CommunityToolkit.WinUI.Helpers.ScreenUnitHelper.Convert (from, to, value, xamlRoot)" />
+      <MemberSignature Language="C#" Value="public static float Convert (CommunityToolkit.WinUI.Helpers.ScreenUnit from, CommunityToolkit.WinUI.Helpers.ScreenUnit to, float value, Microsoft.UI.Xaml.XamlRoot? xamlRoot = default);" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>

@@ -29,6 +29,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -37,7 +38,7 @@
       <TypeParameters>
         <TypeParameter Name="T">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
             </Attribute>
@@ -90,7 +91,7 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this">
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" RefType="this">
           <Attributes>
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
@@ -98,8 +99,8 @@
             </Attribute>
           </Attributes>
         </Parameter>
-        <Parameter Name="height" Type="System.Int32" />
-        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="width" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items in the input <see cref="T:System.Memory`1" /> instance.</typeparam>
@@ -143,7 +144,7 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this">
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" RefType="this">
           <Attributes>
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
@@ -151,10 +152,10 @@
             </Attribute>
           </Attributes>
         </Parameter>
-        <Parameter Name="offset" Type="System.Int32" />
-        <Parameter Name="height" Type="System.Int32" />
-        <Parameter Name="width" Type="System.Int32" />
-        <Parameter Name="pitch" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="height" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="width" Type="System.Int32" Index="3" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="pitch" Type="System.Int32" Index="4" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items in the input <see cref="T:System.Memory`1" /> instance.</typeparam>
@@ -185,12 +186,13 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
         <Attributes>
-          <Attribute>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
             <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
             <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
           </Attribute>
@@ -223,6 +225,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -231,7 +234,7 @@
       <TypeParameters>
         <TypeParameter Name="TFrom">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
             </Attribute>
@@ -244,7 +247,7 @@
         </TypeParameter>
         <TypeParameter Name="TTo">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.IsUnmanaged]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsUnmanaged&gt;]</AttributeName>
             </Attribute>

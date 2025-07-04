@@ -1,0 +1,70 @@
+<Type Name="SpinLockExtensions" FullName="Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions">
+  <TypeSignature Language="C#" Value="public static class SpinLockExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SpinLockExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Class SpinLockExtensions" />
+  <TypeSignature Language="F#" Value="type SpinLockExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.UnsafeLock Enter (System.Threading.SpinLock* spinLock);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions/UnsafeLock Enter(valuetype System.Threading.SpinLock* spinLock) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.Enter(System.Threading.SpinLock*)" />
+      <MemberSignature Language="F#" Value="static member Enter : nativeptr&lt;System.Threading.SpinLock&gt; -&gt; Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.UnsafeLock" Usage="Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.Enter spinLock" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions+UnsafeLock</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock*" />
+      </Parameters>
+      <Docs>
+        <param name="spinLock">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public static Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.Lock Enter (object owner, ref System.Threading.SpinLock spinLock);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions/Lock Enter(object owner, valuetype System.Threading.SpinLock&amp; spinLock) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.Enter(System.Object,System.Threading.SpinLock@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Enter (owner As Object, ByRef spinLock As SpinLock) As SpinLockExtensions.Lock" />
+      <MemberSignature Language="F#" Value="static member Enter : obj * SpinLock -&gt; Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.Lock" Usage="Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions.Enter (owner, spinLock)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Toolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Toolkit.HighPerformance.Extensions.SpinLockExtensions+Lock</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="owner" Type="System.Object" />
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="owner">To be added.</param>
+        <param name="spinLock">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

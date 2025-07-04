@@ -1,9 +1,10 @@
 <Type Name="IIncrementalSource&lt;TSource&gt;" FullName="CommunityToolkit.Common.Collections.IIncrementalSource&lt;TSource&gt;">
   <TypeSignature Language="C#" Value="public interface IIncrementalSource&lt;TSource&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IIncrementalSource`1&lt;TSource&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IIncrementalSource`1&lt;TSource&gt;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Common.Collections.IIncrementalSource`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IIncrementalSource(Of TSource)" />
   <TypeSignature Language="F#" Value="type IIncrementalSource&lt;'Source&gt; = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IIncrementalSource`1&lt;TSource&gt;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Common</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
@@ -12,7 +13,7 @@
   <TypeParameters>
     <TypeParameter Name="TSource">
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
@@ -37,6 +38,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

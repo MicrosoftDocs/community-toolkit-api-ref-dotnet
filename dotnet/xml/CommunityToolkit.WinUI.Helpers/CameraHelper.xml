@@ -21,7 +21,7 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
@@ -111,11 +111,12 @@
       </Docs>
     </Member>
     <Member MemberName="FrameArrived">
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt;? FrameArrived;" />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt; FrameArrived;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt; FrameArrived" />
       <MemberSignature Language="DocId" Value="E:CommunityToolkit.WinUI.Helpers.CameraHelper.FrameArrived" />
       <MemberSignature Language="VB.NET" Value="Public Event FrameArrived As EventHandler(Of FrameEventArgs) " />
       <MemberSignature Language="F#" Value="member this.FrameArrived : EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt; " Usage="member this.FrameArrived : System.EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt; " />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;CommunityToolkit.WinUI.Helpers.FrameEventArgs&gt;? FrameArrived;" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
@@ -126,7 +127,7 @@
         <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
         </Attribute>
@@ -142,11 +143,12 @@
       </Docs>
     </Member>
     <Member MemberName="FrameFormatsAvailable">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt;? FrameFormatsAvailable { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt; FrameFormatsAvailable { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Windows.Media.Capture.Frames.MediaFrameFormat&gt; FrameFormatsAvailable" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.CameraHelper.FrameFormatsAvailable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FrameFormatsAvailable As IReadOnlyList(Of MediaFrameFormat)" />
       <MemberSignature Language="F#" Value="member this.FrameFormatsAvailable : System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt;" Usage="CommunityToolkit.WinUI.Helpers.CameraHelper.FrameFormatsAvailable" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Windows.Media.Capture.Frames.MediaFrameFormat&gt;? FrameFormatsAvailable { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
@@ -157,7 +159,7 @@
         <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
         </Attribute>
@@ -256,11 +258,12 @@
       </Docs>
     </Member>
     <Member MemberName="PreviewFrameSource">
-      <MemberSignature Language="C#" Value="public Windows.Media.Capture.Frames.MediaFrameSource? PreviewFrameSource { get; }" />
+      <MemberSignature Language="C#" Value="public Windows.Media.Capture.Frames.MediaFrameSource PreviewFrameSource { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class Windows.Media.Capture.Frames.MediaFrameSource PreviewFrameSource" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.CameraHelper.PreviewFrameSource" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviewFrameSource As MediaFrameSource" />
       <MemberSignature Language="F#" Value="member this.PreviewFrameSource : Windows.Media.Capture.Frames.MediaFrameSource" Usage="CommunityToolkit.WinUI.Helpers.CameraHelper.PreviewFrameSource" />
+      <MemberSignature Language="C#" Value="public Windows.Media.Capture.Frames.MediaFrameSource? PreviewFrameSource { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
@@ -271,7 +274,7 @@
         <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>

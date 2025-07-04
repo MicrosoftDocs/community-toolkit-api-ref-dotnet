@@ -70,7 +70,7 @@
         <ReturnType>Windows.Foundation.Size</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rect" Type="Windows.Foundation.Rect" RefType="this" />
+        <Parameter Name="rect" Type="Windows.Foundation.Rect" RefType="this" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       </Parameters>
       <Docs>
         <param name="rect">Rectangle to size.</param>
@@ -96,8 +96,8 @@
         <ReturnType>Windows.Foundation.Rect</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rectangle" Type="Windows.Foundation.Rect" RefType="this" />
-        <Parameter Name="matrix" Type="Microsoft.UI.Xaml.Media.Matrix" />
+        <Parameter Name="rectangle" Type="Windows.Foundation.Rect" RefType="this" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
+        <Parameter Name="matrix" Type="Microsoft.UI.Xaml.Media.Matrix" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       </Parameters>
       <Docs>
         <param name="rectangle">The rectangle to transform.</param>

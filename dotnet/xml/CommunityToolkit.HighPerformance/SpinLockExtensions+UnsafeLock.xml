@@ -18,15 +18,15 @@
       <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
@@ -39,17 +39,17 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public UnsafeLock (System.Threading.SpinLock* spinLock);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Threading.SpinLock* spinLock) cil managed" />
-      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock.#ctor(System.Threading.SpinLock*)" />
-      <MemberSignature Language="F#" Value="new CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock : nativeptr&lt;System.Threading.SpinLock&gt; -&gt; CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock" Usage="new CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock spinLock" />
+      <MemberSignature Language="C#" Value="public UnsafeLock (System.Threading.SpinLock* spinLock);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Threading.SpinLock* spinLock) cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock.#ctor(System.Threading.SpinLock*)" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock : nativeptr&lt;System.Threading.SpinLock&gt; -&gt; CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock" Usage="new CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock spinLock" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="spinLock" Type="System.Threading.SpinLock*" />
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock*" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       </Parameters>
       <Docs>
         <param name="spinLock">The target <see cref="T:System.Threading.SpinLock" /> to use.</param>
@@ -68,6 +68,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
