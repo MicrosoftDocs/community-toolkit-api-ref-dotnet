@@ -1,17 +1,15 @@
 <Type Name="ICameraView" FullName="CommunityToolkit.Maui.Core.ICameraView">
-  <TypeSignature Language="C#" Value="public interface ICameraView : CommunityToolkit.Maui.Camera.IAsynchronousHandler, Microsoft.Maui.IView" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ICameraView implements class CommunityToolkit.Maui.Camera.IAsynchronousHandler, class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="C#" Value="public interface ICameraView : Microsoft.Maui.IView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ICameraView implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.ICameraView" />
-  <TypeSignature Language="VB.NET" Value="Public Interface ICameraView&#xA;Implements IAsynchronousHandler, IView" />
-  <TypeSignature Language="F#" Value="type ICameraView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IAsynchronousHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICameraView&#xA;Implements IView" />
+  <TypeSignature Language="F#" Value="type ICameraView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.3.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
-    <Interface>
-      <InterfaceName>CommunityToolkit.Maui.Camera.IAsynchronousHandler</InterfaceName>
-    </Interface>
     <Interface>
       <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
     </Interface>
@@ -30,18 +28,18 @@
   </Docs>
   <Members>
     <Member MemberName="CameraFlashMode">
-      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.Primitives.CameraFlashMode CameraFlashMode { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.Primitives.CameraFlashMode CameraFlashMode" />
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.CameraFlashMode CameraFlashMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.CameraFlashMode CameraFlashMode" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ICameraView.CameraFlashMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CameraFlashMode As CameraFlashMode" />
-      <MemberSignature Language="F#" Value="member this.CameraFlashMode : CommunityToolkit.Maui.Core.Primitives.CameraFlashMode" Usage="CommunityToolkit.Maui.Core.ICameraView.CameraFlashMode" />
+      <MemberSignature Language="F#" Value="member this.CameraFlashMode : CommunityToolkit.Maui.Core.CameraFlashMode" Usage="CommunityToolkit.Maui.Core.ICameraView.CameraFlashMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>CommunityToolkit.Maui.Core.Primitives.CameraFlashMode</ReturnType>
+        <ReturnType>CommunityToolkit.Maui.Core.CameraFlashMode</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -52,18 +50,18 @@
       </Docs>
     </Member>
     <Member MemberName="CaptureImage">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask CaptureImage (System.Threading.CancellationToken token);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask CaptureImage(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; CaptureImage (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; CaptureImage(valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.ICameraView.CaptureImage(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Function CaptureImage (token As CancellationToken) As ValueTask" />
-      <MemberSignature Language="F#" Value="abstract member CaptureImage : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="iCameraView.CaptureImage token" />
+      <MemberSignature Language="VB.NET" Value="Public Function CaptureImage (token As CancellationToken) As Task(Of Stream)" />
+      <MemberSignature Language="F#" Value="abstract member CaptureImage : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="iCameraView.CaptureImage token" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.IO.Stream&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="token" Type="System.Threading.CancellationToken" />
@@ -89,7 +87,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Collections.Generic.IReadOnlyList&lt;CommunityToolkit.Maui.Core.CameraInfo&gt;&gt;</ReturnType>
@@ -121,7 +119,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
@@ -143,7 +141,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -165,7 +163,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -187,7 +185,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -259,7 +257,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -281,18 +279,18 @@
       </Docs>
     </Member>
     <Member MemberName="StartCameraPreview">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask StartCameraPreview (System.Threading.CancellationToken token);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask StartCameraPreview(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task StartCameraPreview (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task StartCameraPreview(valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.ICameraView.StartCameraPreview(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Function StartCameraPreview (token As CancellationToken) As ValueTask" />
-      <MemberSignature Language="F#" Value="abstract member StartCameraPreview : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="iCameraView.StartCameraPreview token" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartCameraPreview (token As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member StartCameraPreview : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iCameraView.StartCameraPreview token" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="token" Type="System.Threading.CancellationToken" />
@@ -318,7 +316,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -343,7 +341,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>

@@ -1,449 +1,431 @@
 {
   "Assembly": "CommunityToolkit.Maui.Camera",
-  "GUID": "01C82786142A4A758C868C731020623DFFFFFFFF",
+  "GUID": "559E0E228AC34F5B95CDBB0915420960FFFFFFFF",
   "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
   "Types": [
     {
       "Members": [
         {
           "DocsId": "M:CommunityToolkit.Maui.AppBuilderExtensions.UseMauiCommunityToolkitCamera(Microsoft.Maui.Hosting.MauiAppBuilder)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/AppBuilderExtensions.shared.cs#L25C3-L28C18"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/AppBuilderExtensions.shared.cs#L25C3-L28C18"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.AppBuilderExtensions",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/AppBuilderExtensions.shared.cs"
-    },
-    {
-      "Members": [
-        {
-          "DocsId": "M:CommunityToolkit.Maui.Views.MediaCapturedEventArgs.#ctor(System.IO.Stream)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/MediaCapturedEventArgs.shared.cs#L12C33-L7C51"
-        },
-        {
-          "DocsId": "P:CommunityToolkit.Maui.Views.MediaCapturedEventArgs.Media",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/MediaCapturedEventArgs.shared.cs#L12C24-L12C28"
-        }
-      ],
-      "DocsId": "T:CommunityToolkit.Maui.Views.MediaCapturedEventArgs",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/MediaCapturedEventArgs.shared.cs"
-    },
-    {
-      "Members": [
-        {
-          "DocsId": "M:CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs.#ctor(System.String)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/MediaCaptureFailedEventArgs.shared.cs#L15C41-L10C63"
-        },
-        {
-          "DocsId": "P:CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs.FailureReason",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/MediaCaptureFailedEventArgs.shared.cs#L15C32-L15C36"
-        }
-      ],
-      "DocsId": "T:CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/MediaCaptureFailedEventArgs.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/AppBuilderExtensions.shared.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#get_IsAvailable",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L184C10-L184C21"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L184C10-L184C21"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#set_IsAvailable(System.Boolean)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L185C10-L185C49"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L185C10-L185C49"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#get_IsBusy",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L191C10-L191C22"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L191C10-L191C22"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#set_IsBusy(System.Boolean)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L192C10-L192C50"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L192C10-L192C50"
         },
         {
-          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Camera#IAsynchronousHandler#get_HandlerCompleteTCS",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L196C66-L196C85"
-        },
-        {
-          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.OnMediaCaptured(System.IO.Stream)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L201C3-L202C3"
-        },
-        {
-          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.OnMediaCapturedFailed(System.String)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L207C3-L208C3"
+          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.Dispose",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L200C3-L202C3"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.GetAvailableCameras(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CaptureImage(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.StartCameraPreview(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L255C3-L255C50"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.StopCameraPreview",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L251C3-L252C3"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L259C3-L259C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L264C3-L273C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#OnMediaCaptured(System.IO.Stream)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L277C3-L278C3"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#OnMediaCapturedFailed(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L282C3-L283C3"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Views.CameraView.#ctor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L84C2-L86C51"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L83C2-L84C53"
         },
         {
           "DocsId": "E:CommunityToolkit.Maui.Views.CameraView.MediaCaptureFailed",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L93C10-L93C49"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L93C10-L93C49"
         },
         {
           "DocsId": "E:CommunityToolkit.Maui.Views.CameraView.MediaCaptured",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L105C10-L105C49"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L105C10-L105C49"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.CameraFlashModeProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.IsTorchOnProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.IsAvailableProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.IsCameraBusyProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.SelectedCameraProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.ZoomFactorProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolutionProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommandProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommandProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommandProperty",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.IsAvailable",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L112C29-L112C64"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L112C29-L112C64"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.IsCameraBusy",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L117C30-L117C66"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L117C30-L117C66"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommand",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L125C59-L125C124"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L125C59-L125C124"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.StartCameraPreviewCommand",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L133C65-L133C136"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L133C65-L133C136"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.StopCameraPreviewCommand",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L138C46-L138C98"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L138C46-L138C98"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.CameraFlashMode",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L145C10-L145C60"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L145C10-L145C60"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.SelectedCamera",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L152C10-L152C55"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L152C10-L152C55"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.ZoomFactor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L159C10-L159C45"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L159C10-L159C45"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolution",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L166C10-L166C56"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L166C10-L166C56"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.IsTorchOn",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L175C10-L175C43"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L175C10-L175C43"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#IsAvailable",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L184C10-L184C21"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L184C10-L184C21"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#IsBusy",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L191C10-L191C22"
-        },
-        {
-          "DocsId": "P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Camera#IAsynchronousHandler#HandlerCompleteTCS",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L196C66-L196C85"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs#L191C10-L191C22"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Views.CameraView",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Views/CameraView.shared.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "P:CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/IAsynchronouseHandler.cs"
-        }
-      ],
-      "DocsId": "T:CommunityToolkit.Maui.Camera.IAsynchronousHandler",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/IAsynchronouseHandler.cs"
-    },
-    {
-      "Members": [
-        {
-          "DocsId": "M:CommunityToolkit.Maui.Core.CameraInfo.#ctor(System.String,System.String,CommunityToolkit.Maui.Core.Primitives.CameraPosition,System.Boolean,System.Single,System.Single,System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.Size})",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L43C32-L38C2"
+          "DocsId": "M:CommunityToolkit.Maui.Core.CameraInfo.#ctor(System.String,System.String,CommunityToolkit.Maui.Core.CameraPosition,System.Boolean,System.Single,System.Single,System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.Size})",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L42C32-L37C2"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.CameraInfo.ToString",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L92C3-L103C203"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L91C3-L102C203"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.Name",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L43C23-L43C27"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L42C23-L42C27"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.DeviceId",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L48C27-L48C31"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L47C27-L47C31"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.Position",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L53C35-L53C39"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L52C35-L52C39"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.IsFlashSupported",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L58C33-L58C37"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L57C33-L57C37"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.MinimumZoomFactor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L63C35-L63C39"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L62C35-L62C39"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.MaximumZoomFactor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L68C35-L68C39"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L67C35-L67C39"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraInfo.SupportedResolutions",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L73C52-L73C56"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs#L72C52-L72C56"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Core.CameraInfo",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/CameraInfo.shared.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.ICameraProvider.RefreshAvailableCameras(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraProvider.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraProvider.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraProvider.AvailableCameras",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraProvider.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraProvider.shared.cs"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Core.ICameraProvider",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraProvider.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraProvider.shared.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCaptured(System.IO.Stream)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
-        },
-        {
-          "DocsId": "M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCapturedFailed(System.String)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
-        },
-        {
           "DocsId": "M:CommunityToolkit.Maui.Core.ICameraView.CaptureImage(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.ICameraView.StartCameraPreview(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.ICameraView.StopCameraPreview",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.ICameraView.GetAvailableCameras(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.CameraFlashMode",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.ImageCaptureResolution",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.IsTorchOn",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.SelectedCamera",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.ZoomFactor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.IsAvailable",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.ICameraView.IsBusy",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Core.ICameraView",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Interfaces/ICameraView.shared.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.CameraException.#ctor(System.String)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraException.shared.cs#L8C48-L8C66"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraException.shared.cs#L8C48-L8C66"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Core.CameraException",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraException.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraException.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraFlashMode.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraFlashMode.Off",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraFlashMode.On",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraFlashMode.Auto",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.CameraFlashMode",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraPosition.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraPosition.Unknown",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraPosition.Rear",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.Maui.Core.CameraPosition.Front",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.Maui.Core.CameraPosition",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
     },
     {
       "Members": [
         {
           "DocsId": "F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsAvailable",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsTorchOn",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsCameraBusy",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Core.CameraViewDefaults.ZoomFactor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraViewDefaults.ImageCaptureResolution",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs#L40C46-L40C50"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs#L40C46-L40C50"
         },
         {
           "DocsId": "P:CommunityToolkit.Maui.Core.CameraViewDefaults.CameraFlashMode",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs#L45C50-L45C54"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs#L45C50-L45C54"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Core.CameraViewDefaults",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/CameraViewDefaults.shared.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.value__",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+          "DocsId": "M:CommunityToolkit.Maui.Core.MediaCapturedEventArgs.#ctor(System.IO.Stream)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/MediaCapturedEventArgs.shared.cs#L12C33-L7C51"
         },
         {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.Off",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
-        },
-        {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.On",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
-        },
-        {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.Auto",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+          "DocsId": "P:CommunityToolkit.Maui.Core.MediaCapturedEventArgs.Media",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/MediaCapturedEventArgs.shared.cs#L12C24-L12C28"
         }
       ],
-      "DocsId": "T:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraFlashMode.shared.cs"
+      "DocsId": "T:CommunityToolkit.Maui.Core.MediaCapturedEventArgs",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/MediaCapturedEventArgs.shared.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.value__",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+          "DocsId": "M:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.#ctor(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/MediaCaptureFailedEventArgs.shared.cs#L15C41-L10C63"
         },
         {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.Unknown",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
-        },
-        {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.Rear",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
-        },
-        {
-          "DocsId": "F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.Front",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+          "DocsId": "P:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.FailureReason",
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/MediaCaptureFailedEventArgs.shared.cs#L15C32-L15C36"
         }
       ],
-      "DocsId": "T:CommunityToolkit.Maui.Core.Primitives.CameraPosition",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Primitives/CameraPosition.shared.cs"
+      "DocsId": "T:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs",
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Primitives/MediaCaptureFailedEventArgs.shared.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.#ctor",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L39C2-L48C3"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L34C2-L43C3"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L39C2-L60C3"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L34C2-L55C3"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.Dispose",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L65C3-L67C3"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L60C3-L62C3"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.CreatePlatformView",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L74C3-L77C78"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L72C3-L75C78"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.ConnectHandler(Microsoft.Maui.IView)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.DisconnectHandler(Microsoft.Maui.IView)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L101C3-L103C3"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L99C3-L101C3"
         },
         {
           "DocsId": "M:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.Dispose(System.Boolean)",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L111C3-L116C3"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs#L109C3-L114C3"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.PropertyMapper",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
         },
         {
           "DocsId": "F:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler.CommandMapper",
-          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
+          "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
         }
       ],
       "DocsId": "T:CommunityToolkit.Maui.Core.Handlers.CameraViewHandler",
-      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/fea67c2ff72f89ed118be044a82d8a572e405bf0/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
+      "SourceLink": "https://github.com/CommunityToolkit/Maui/blob/3887270cd479f3fa02ceb7993c75498060f6c4c8/src/CommunityToolkit.Maui.Camera/Handlers/CameraViewHandler.shared.cs"
     }
   ]
 }

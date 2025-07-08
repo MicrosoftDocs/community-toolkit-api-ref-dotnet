@@ -43,6 +43,51 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CanBeDismissedByTappingOutsideOfPopup">
+      <MemberSignature Language="C#" Value="public bool CanBeDismissedByTappingOutsideOfPopup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanBeDismissedByTappingOutsideOfPopup As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanBeDismissedByTappingOutsideOfPopup : bool with get, set" Usage="CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            When true and the user taps outside the popup, it will dismiss.
+            On Android - when false the hardware back button is disabled.
+            </remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.IPopupOptions.CanBeDismissedByTappingOutsideOfPopup" />
+      </Docs>
+    </Member>
+    <Member MemberName="CanBeDismissedByTappingOutsideOfPopupProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CanBeDismissedByTappingOutsideOfPopupProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CanBeDismissedByTappingOutsideOfPopupProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopupProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CanBeDismissedByTappingOutsideOfPopupProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CanBeDismissedByTappingOutsideOfPopupProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopupProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopup" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CloseAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task CloseAsync (System.Threading.CancellationToken token = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task CloseAsync(valuetype System.Threading.CancellationToken token) cil managed" />

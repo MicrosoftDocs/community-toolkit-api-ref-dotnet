@@ -12,6 +12,12 @@
     <BaseTypeName>CommunityToolkit.Maui.Core.Options</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             .NET MAUI Community Toolkit Options.
@@ -35,6 +41,54 @@
             .NET MAUI Community Toolkit Options.
             </summary>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPopupDefaults">
+      <MemberSignature Language="C#" Value="public void SetPopupDefaults (CommunityToolkit.Maui.DefaultPopupSettings globalPopupSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetPopupDefaults(class CommunityToolkit.Maui.DefaultPopupSettings globalPopupSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.SetPopupDefaults(CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetPopupDefaults (globalPopupSettings As DefaultPopupSettings)" />
+      <MemberSignature Language="F#" Value="member this.SetPopupDefaults : CommunityToolkit.Maui.DefaultPopupSettings -&gt; unit" Usage="options.SetPopupDefaults globalPopupSettings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="globalPopupSettings" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+      </Parameters>
+      <Docs>
+        <param name="globalPopupSettings" />
+        <summary>
+            Sets the default settings for <see cref="T:CommunityToolkit.Maui.Views.Popup" /></summary>
+        <remarks>The settings passed in here will be set on initialization of every new Popup</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPopupOptionsDefaults">
+      <MemberSignature Language="C#" Value="public void SetPopupOptionsDefaults (CommunityToolkit.Maui.DefaultPopupOptionsSettings globalPopupOptionsSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetPopupOptionsDefaults(class CommunityToolkit.Maui.DefaultPopupOptionsSettings globalPopupOptionsSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Options.SetPopupOptionsDefaults(CommunityToolkit.Maui.DefaultPopupOptionsSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetPopupOptionsDefaults (globalPopupOptionsSettings As DefaultPopupOptionsSettings)" />
+      <MemberSignature Language="F#" Value="member this.SetPopupOptionsDefaults : CommunityToolkit.Maui.DefaultPopupOptionsSettings -&gt; unit" Usage="options.SetPopupOptionsDefaults globalPopupOptionsSettings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="globalPopupOptionsSettings" Type="CommunityToolkit.Maui.DefaultPopupOptionsSettings" />
+      </Parameters>
+      <Docs>
+        <param name="globalPopupOptionsSettings" />
+        <summary>
+            Sets the default settings for <see cref="T:CommunityToolkit.Maui.PopupOptions" /></summary>
+        <remarks>The settings passed in here will be used when <see cref="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions)" /> is called the <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> parameter is null</remarks>
       </Docs>
     </Member>
     <Member MemberName="SetShouldEnableSnackbarOnWindows">

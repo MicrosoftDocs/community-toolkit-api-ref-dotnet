@@ -83,30 +83,6 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs (System.Windows.Navigation.NavigatingCancelEventArgs args);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs op_Implicit(class System.Windows.Navigation.NavigatingCancelEventArgs args) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs.op_Implicit(System.Windows.Navigation.NavigatingCancelEventArgs)~Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (args As NavigatingCancelEventArgs) As WebViewControlContentLoadingEventArgs" />
-      <MemberSignature Language="F#" Value="static member op_Implicit : System.Windows.Navigation.NavigatingCancelEventArgs -&gt; Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs" Usage="Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs.op_Implicit args" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Toolkit.Wpf.UI.Controls.WebView</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue />
-      <Parameters>
-        <Parameter Name="args" Type="System.Windows.Navigation.NavigatingCancelEventArgs" />
-      </Parameters>
-      <Docs>
-        <param name="args">The <see cref="T:System.Windows.Navigation.NavigatingCancelEventArgs" /> instance containing the event data.</param>
-        <summary>
-            Performs an implicit conversion from <see cref="T:System.Windows.Navigation.NavigatingCancelEventArgs" /> to <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs" />.
-            </summary>
-        <returns>The result of the conversion.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs (Windows.Web.UI.WebViewControlContentLoadingEventArgs args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs op_Implicit(class Windows.Web.UI.WebViewControlContentLoadingEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs.op_Implicit(Windows.Web.UI.WebViewControlContentLoadingEventArgs)~Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlContentLoadingEventArgs" />

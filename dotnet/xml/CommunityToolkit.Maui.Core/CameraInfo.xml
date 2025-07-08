@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type CameraInfo = class" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.3.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,20 +27,20 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CameraInfo (string name, string deviceId, CommunityToolkit.Maui.Core.Primitives.CameraPosition cameraPosition, bool isFlashSupported, float minimumZoomFactor, float maximumZoomFactor, System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.Graphics.Size&gt; supportedResolutions);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string deviceId, valuetype CommunityToolkit.Maui.Core.Primitives.CameraPosition cameraPosition, bool isFlashSupported, float32 minimumZoomFactor, float32 maximumZoomFactor, class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Maui.Graphics.Size&gt; supportedResolutions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.CameraInfo.#ctor(System.String,System.String,CommunityToolkit.Maui.Core.Primitives.CameraPosition,System.Boolean,System.Single,System.Single,System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.Size})" />
+      <MemberSignature Language="C#" Value="public CameraInfo (string name, string deviceId, CommunityToolkit.Maui.Core.CameraPosition cameraPosition, bool isFlashSupported, float minimumZoomFactor, float maximumZoomFactor, System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.Graphics.Size&gt; supportedResolutions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string deviceId, valuetype CommunityToolkit.Maui.Core.CameraPosition cameraPosition, bool isFlashSupported, float32 minimumZoomFactor, float32 maximumZoomFactor, class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Maui.Graphics.Size&gt; supportedResolutions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.CameraInfo.#ctor(System.String,System.String,CommunityToolkit.Maui.Core.CameraPosition,System.Boolean,System.Single,System.Single,System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.Size})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, deviceId As String, cameraPosition As CameraPosition, isFlashSupported As Boolean, minimumZoomFactor As Single, maximumZoomFactor As Single, supportedResolutions As IEnumerable(Of Size))" />
-      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.CameraInfo : string * string * CommunityToolkit.Maui.Core.Primitives.CameraPosition * bool * single * single * seq&lt;Microsoft.Maui.Graphics.Size&gt; -&gt; CommunityToolkit.Maui.Core.CameraInfo" Usage="new CommunityToolkit.Maui.Core.CameraInfo (name, deviceId, cameraPosition, isFlashSupported, minimumZoomFactor, maximumZoomFactor, supportedResolutions)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.CameraInfo : string * string * CommunityToolkit.Maui.Core.CameraPosition * bool * single * single * seq&lt;Microsoft.Maui.Graphics.Size&gt; -&gt; CommunityToolkit.Maui.Core.CameraInfo" Usage="new CommunityToolkit.Maui.Core.CameraInfo (name, deviceId, cameraPosition, isFlashSupported, minimumZoomFactor, maximumZoomFactor, supportedResolutions)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="deviceId" Type="System.String" />
-        <Parameter Name="cameraPosition" Type="CommunityToolkit.Maui.Core.Primitives.CameraPosition" />
+        <Parameter Name="cameraPosition" Type="CommunityToolkit.Maui.Core.CameraPosition" />
         <Parameter Name="isFlashSupported" Type="System.Boolean" />
         <Parameter Name="minimumZoomFactor" Type="System.Single" />
         <Parameter Name="maximumZoomFactor" Type="System.Single" />
@@ -68,7 +69,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -90,7 +91,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -112,7 +113,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -134,7 +135,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -156,7 +157,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -170,22 +171,22 @@
       </Docs>
     </Member>
     <Member MemberName="Position">
-      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.Primitives.CameraPosition Position { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.Primitives.CameraPosition Position" />
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.CameraPosition Position { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.CameraPosition Position" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.CameraInfo.Position" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As CameraPosition" />
-      <MemberSignature Language="F#" Value="member this.Position : CommunityToolkit.Maui.Core.Primitives.CameraPosition" Usage="CommunityToolkit.Maui.Core.CameraInfo.Position" />
+      <MemberSignature Language="F#" Value="member this.Position : CommunityToolkit.Maui.Core.CameraPosition" Usage="CommunityToolkit.Maui.Core.CameraInfo.Position" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>CommunityToolkit.Maui.Core.Primitives.CameraPosition</ReturnType>
+        <ReturnType>CommunityToolkit.Maui.Core.CameraPosition</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the <see cref="T:CommunityToolkit.Maui.Core.Primitives.CameraPosition" /> of the camera device.
+            Gets the <see cref="T:CommunityToolkit.Maui.Core.CameraPosition" /> of the camera device.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -200,7 +201,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Graphics.Size&gt;</ReturnType>
@@ -222,7 +223,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
-        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -79,30 +79,6 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs (System.Windows.Navigation.NavigationEventArgs args);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs op_Implicit(class System.Windows.Navigation.NavigationEventArgs args) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs.op_Implicit(System.Windows.Navigation.NavigationEventArgs)~Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (args As NavigationEventArgs) As WebViewControlNavigationCompletedEventArgs" />
-      <MemberSignature Language="F#" Value="static member op_Implicit : System.Windows.Navigation.NavigationEventArgs -&gt; Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs" Usage="Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs.op_Implicit args" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Toolkit.Wpf.UI.Controls.WebView</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue />
-      <Parameters>
-        <Parameter Name="args" Type="System.Windows.Navigation.NavigationEventArgs" />
-      </Parameters>
-      <Docs>
-        <param name="args">The <see cref="T:System.Windows.Navigation.NavigationEventArgs" /> instance containing the event data.</param>
-        <summary>
-            Performs an implicit conversion from <see cref="T:System.Windows.Navigation.NavigationEventArgs" /> to <see cref="T:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs" />.
-            </summary>
-        <returns>The result of the conversion.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs (Windows.Web.UI.WebViewControlNavigationCompletedEventArgs args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs op_Implicit(class Windows.Web.UI.WebViewControlNavigationCompletedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs.op_Implicit(Windows.Web.UI.WebViewControlNavigationCompletedEventArgs)~Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlNavigationCompletedEventArgs" />

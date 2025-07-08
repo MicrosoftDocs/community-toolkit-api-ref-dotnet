@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="maui-comm-toolkit-dotnet">
   <Assemblies>
-    <Assembly Name="CommunityToolkit.Maui.Camera" Version="2.0.3.0" />
+    <Assembly Name="CommunityToolkit.Maui.Camera" Version="1.0.0.0" />
     <Assembly Name="CommunityToolkit.Maui.Core" Version="1.0.0.0" />
     <Assembly Name="CommunityToolkit.Maui" Version="1.0.0.0" />
     <Assembly Name="CommunityToolkit.Maui.Maps" Version="3.0.2.0" />
     <Assembly Name="CommunityToolkit.Maui.Markup" Version="1.0.0.0" />
-    <Assembly Name="CommunityToolkit.Maui.MediaElement" Version="99.0.0.0" />
+    <Assembly Name="CommunityToolkit.Maui.MediaElement" Version="1.0.0.0" />
   </Assemblies>
   <Namespace Name="CommunityToolkit.Maui.Alerts">
     <Type Name="CommunityToolkit.Maui.Alerts.Snackbar" Id="T:CommunityToolkit.Maui.Alerts.Snackbar">
@@ -64,7 +64,7 @@
     <Type Name="CommunityToolkit.Maui.AppBuilderExtensions" Id="T:CommunityToolkit.Maui.AppBuilderExtensions">
       <Member Id="M:CommunityToolkit.Maui.AppBuilderExtensions.UseMauiCommunityToolkit(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{CommunityToolkit.Maui.Options})" />
       <Member Id="M:CommunityToolkit.Maui.AppBuilderExtensions.UseMauiCommunityToolkitCamera(Microsoft.Maui.Hosting.MauiAppBuilder)" />
-      <Member Id="M:CommunityToolkit.Maui.AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(Microsoft.Maui.Hosting.MauiAppBuilder)" />
+      <Member Id="M:CommunityToolkit.Maui.AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{CommunityToolkit.Maui.Core.MediaElementOptions})" />
     </Type>
     <Type Name="CommunityToolkit.Maui.AppThemeColor" Id="T:CommunityToolkit.Maui.AppThemeColor">
       <Member Id="M:CommunityToolkit.Maui.AppThemeColor.#ctor" />
@@ -78,6 +78,43 @@
       <Member Id="P:CommunityToolkit.Maui.AppThemeObject`1.Dark" />
       <Member Id="P:CommunityToolkit.Maui.AppThemeObject`1.Default" />
       <Member Id="P:CommunityToolkit.Maui.AppThemeObject`1.Light" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.DefaultPopupOptionsSettings" Id="T:CommunityToolkit.Maui.DefaultPopupOptionsSettings">
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.#ctor" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.#ctor(CommunityToolkit.Maui.DefaultPopupOptionsSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.&lt;Clone&gt;$" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.Equals(CommunityToolkit.Maui.DefaultPopupOptionsSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.GetHashCode" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.op_Equality(CommunityToolkit.Maui.DefaultPopupOptionsSettings,CommunityToolkit.Maui.DefaultPopupOptionsSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.op_Inequality(CommunityToolkit.Maui.DefaultPopupOptionsSettings,CommunityToolkit.Maui.DefaultPopupOptionsSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.PrintMembers(System.Text.StringBuilder)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupOptionsSettings.ToString" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupOptionsSettings.CanBeDismissedByTappingOutsideOfPopup" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupOptionsSettings.EqualityContract" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupOptionsSettings.OnTappingOutsideOfPopup" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupOptionsSettings.PageOverlayColor" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupOptionsSettings.Shadow" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupOptionsSettings.Shape" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.DefaultPopupSettings" Id="T:CommunityToolkit.Maui.DefaultPopupSettings">
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.#ctor" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.#ctor(CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.&lt;Clone&gt;$" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.Equals(CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.GetHashCode" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.op_Equality(CommunityToolkit.Maui.DefaultPopupSettings,CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.op_Inequality(CommunityToolkit.Maui.DefaultPopupSettings,CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.PrintMembers(System.Text.StringBuilder)" />
+      <Member Id="M:CommunityToolkit.Maui.DefaultPopupSettings.ToString" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.BackgroundColor" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.CanBeDismissedByTappingOutsideOfPopup" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.EqualityContract" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.HorizontalOptions" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.Margin" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.Padding" />
+      <Member Id="P:CommunityToolkit.Maui.DefaultPopupSettings.VerticalOptions" />
     </Type>
     <Type Name="CommunityToolkit.Maui.IPopupOptions" Id="T:CommunityToolkit.Maui.IPopupOptions">
       <Member Id="P:CommunityToolkit.Maui.IPopupOptions.CanBeDismissedByTappingOutsideOfPopup" />
@@ -103,6 +140,8 @@
     </Type>
     <Type Name="CommunityToolkit.Maui.Options" Id="T:CommunityToolkit.Maui.Options">
       <Member Id="M:CommunityToolkit.Maui.Options.#ctor" />
+      <Member Id="M:CommunityToolkit.Maui.Options.SetPopupDefaults(CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <Member Id="M:CommunityToolkit.Maui.Options.SetPopupOptionsDefaults(CommunityToolkit.Maui.DefaultPopupOptionsSettings)" />
       <Member Id="M:CommunityToolkit.Maui.Options.SetShouldEnableSnackbarOnWindows(System.Boolean)" />
       <Member Id="M:CommunityToolkit.Maui.Options.SetShouldSuppressExceptionsInAnimations(System.Boolean)" />
       <Member Id="M:CommunityToolkit.Maui.Options.SetShouldSuppressExceptionsInBehaviors(System.Boolean)" />
@@ -551,11 +590,6 @@
       <Member Id="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnValueChanged" />
     </Type>
   </Namespace>
-  <Namespace Name="CommunityToolkit.Maui.Camera">
-    <Type Name="CommunityToolkit.Maui.Camera.IAsynchronousHandler" Id="T:CommunityToolkit.Maui.Camera.IAsynchronousHandler">
-      <Member Id="P:CommunityToolkit.Maui.Camera.IAsynchronousHandler.HandlerCompleteTCS" />
-    </Type>
-  </Namespace>
   <Namespace Name="CommunityToolkit.Maui.Converters">
     <Type Name="CommunityToolkit.Maui.Converters.BaseConverter`2" Id="T:CommunityToolkit.Maui.Converters.BaseConverter`2">
       <Member Id="M:CommunityToolkit.Maui.Converters.BaseConverter`2.#ctor" />
@@ -999,14 +1033,23 @@
     </Type>
   </Namespace>
   <Namespace Name="CommunityToolkit.Maui.Core">
+    <Type Name="CommunityToolkit.Maui.Core.AndroidViewType" Id="T:CommunityToolkit.Maui.Core.AndroidViewType">
+      <Member Id="F:CommunityToolkit.Maui.Core.AndroidViewType.SurfaceView" />
+      <Member Id="F:CommunityToolkit.Maui.Core.AndroidViewType.TextureView" />
+    </Type>
     <Type Name="CommunityToolkit.Maui.Core.AppBuilderExtensions" Id="T:CommunityToolkit.Maui.Core.AppBuilderExtensions">
       <Member Id="M:CommunityToolkit.Maui.Core.AppBuilderExtensions.UseMauiCommunityToolkitCore(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{CommunityToolkit.Maui.Core.Options})" />
     </Type>
     <Type Name="CommunityToolkit.Maui.Core.CameraException" Id="T:CommunityToolkit.Maui.Core.CameraException">
       <Member Id="M:CommunityToolkit.Maui.Core.CameraException.#ctor(System.String)" />
     </Type>
+    <Type Name="CommunityToolkit.Maui.Core.CameraFlashMode" Id="T:CommunityToolkit.Maui.Core.CameraFlashMode">
+      <Member Id="F:CommunityToolkit.Maui.Core.CameraFlashMode.Auto" />
+      <Member Id="F:CommunityToolkit.Maui.Core.CameraFlashMode.Off" />
+      <Member Id="F:CommunityToolkit.Maui.Core.CameraFlashMode.On" />
+    </Type>
     <Type Name="CommunityToolkit.Maui.Core.CameraInfo" Id="T:CommunityToolkit.Maui.Core.CameraInfo">
-      <Member Id="M:CommunityToolkit.Maui.Core.CameraInfo.#ctor(System.String,System.String,CommunityToolkit.Maui.Core.Primitives.CameraPosition,System.Boolean,System.Single,System.Single,System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.Size})" />
+      <Member Id="M:CommunityToolkit.Maui.Core.CameraInfo.#ctor(System.String,System.String,CommunityToolkit.Maui.Core.CameraPosition,System.Boolean,System.Single,System.Single,System.Collections.Generic.IEnumerable{Microsoft.Maui.Graphics.Size})" />
       <Member Id="M:CommunityToolkit.Maui.Core.CameraInfo.ToString" />
       <Member Id="P:CommunityToolkit.Maui.Core.CameraInfo.DeviceId" />
       <Member Id="P:CommunityToolkit.Maui.Core.CameraInfo.IsFlashSupported" />
@@ -1015,6 +1058,11 @@
       <Member Id="P:CommunityToolkit.Maui.Core.CameraInfo.Name" />
       <Member Id="P:CommunityToolkit.Maui.Core.CameraInfo.Position" />
       <Member Id="P:CommunityToolkit.Maui.Core.CameraInfo.SupportedResolutions" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.CameraPosition" Id="T:CommunityToolkit.Maui.Core.CameraPosition">
+      <Member Id="F:CommunityToolkit.Maui.Core.CameraPosition.Front" />
+      <Member Id="F:CommunityToolkit.Maui.Core.CameraPosition.Rear" />
+      <Member Id="F:CommunityToolkit.Maui.Core.CameraPosition.Unknown" />
     </Type>
     <Type Name="CommunityToolkit.Maui.Core.CameraViewDefaults" Id="T:CommunityToolkit.Maui.Core.CameraViewDefaults">
       <Member Id="F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsAvailable" />
@@ -1090,8 +1138,6 @@
     <Type Name="CommunityToolkit.Maui.Core.ICameraView" Id="T:CommunityToolkit.Maui.Core.ICameraView">
       <Member Id="M:CommunityToolkit.Maui.Core.ICameraView.CaptureImage(System.Threading.CancellationToken)" />
       <Member Id="M:CommunityToolkit.Maui.Core.ICameraView.GetAvailableCameras(System.Threading.CancellationToken)" />
-      <Member Id="M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCaptured(System.IO.Stream)" />
-      <Member Id="M:CommunityToolkit.Maui.Core.ICameraView.OnMediaCapturedFailed(System.String)" />
       <Member Id="M:CommunityToolkit.Maui.Core.ICameraView.StartCameraPreview(System.Threading.CancellationToken)" />
       <Member Id="M:CommunityToolkit.Maui.Core.ICameraView.StopCameraPreview" />
       <Member Id="P:CommunityToolkit.Maui.Core.ICameraView.CameraFlashMode" />
@@ -1143,7 +1189,7 @@
       <Member Id="E:CommunityToolkit.Maui.Core.IMediaElement.PositionChanged" />
       <Member Id="E:CommunityToolkit.Maui.Core.IMediaElement.StateChanged" />
       <Member Id="M:CommunityToolkit.Maui.Core.IMediaElement.MediaEnded" />
-      <Member Id="M:CommunityToolkit.Maui.Core.IMediaElement.MediaFailed(CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs)" />
+      <Member Id="M:CommunityToolkit.Maui.Core.IMediaElement.MediaFailed(CommunityToolkit.Maui.Core.MediaFailedEventArgs)" />
       <Member Id="M:CommunityToolkit.Maui.Core.IMediaElement.MediaOpened" />
       <Member Id="M:CommunityToolkit.Maui.Core.IMediaElement.Pause" />
       <Member Id="M:CommunityToolkit.Maui.Core.IMediaElement.Play" />
@@ -1241,6 +1287,39 @@
     <Type Name="CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs" Id="T:CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs">
       <Member Id="M:CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs.#ctor(Microsoft.Maui.Graphics.PointF)" />
       <Member Id="P:CommunityToolkit.Maui.Core.MauiOnDrawingEventArgs.Point" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaCapturedEventArgs" Id="T:CommunityToolkit.Maui.Core.MediaCapturedEventArgs">
+      <Member Id="M:CommunityToolkit.Maui.Core.MediaCapturedEventArgs.#ctor(System.IO.Stream)" />
+      <Member Id="P:CommunityToolkit.Maui.Core.MediaCapturedEventArgs.Media" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs" Id="T:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs">
+      <Member Id="M:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.#ctor(System.String)" />
+      <Member Id="P:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.FailureReason" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaElementOptions" Id="T:CommunityToolkit.Maui.Core.MediaElementOptions">
+      <Member Id="M:CommunityToolkit.Maui.Core.MediaElementOptions.SetDefaultAndroidViewType(CommunityToolkit.Maui.Core.AndroidViewType)" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaElementState" Id="T:CommunityToolkit.Maui.Core.MediaElementState">
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.Buffering" />
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.Failed" />
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.None" />
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.Opening" />
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.Paused" />
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.Playing" />
+      <Member Id="F:CommunityToolkit.Maui.Core.MediaElementState.Stopped" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaFailedEventArgs" Id="T:CommunityToolkit.Maui.Core.MediaFailedEventArgs">
+      <Member Id="M:CommunityToolkit.Maui.Core.MediaFailedEventArgs.#ctor(System.String)" />
+      <Member Id="P:CommunityToolkit.Maui.Core.MediaFailedEventArgs.ErrorMessage" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs" Id="T:CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs">
+      <Member Id="M:CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs.#ctor(System.TimeSpan)" />
+      <Member Id="P:CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs.Position" />
+    </Type>
+    <Type Name="CommunityToolkit.Maui.Core.MediaStateChangedEventArgs" Id="T:CommunityToolkit.Maui.Core.MediaStateChangedEventArgs">
+      <Member Id="M:CommunityToolkit.Maui.Core.MediaStateChangedEventArgs.#ctor(CommunityToolkit.Maui.Core.MediaElementState,CommunityToolkit.Maui.Core.MediaElementState)" />
+      <Member Id="P:CommunityToolkit.Maui.Core.MediaStateChangedEventArgs.NewState" />
+      <Member Id="P:CommunityToolkit.Maui.Core.MediaStateChangedEventArgs.PreviousState" />
     </Type>
     <Type Name="CommunityToolkit.Maui.Core.NavigationBarStyle" Id="T:CommunityToolkit.Maui.Core.NavigationBarStyle">
       <Member Id="F:CommunityToolkit.Maui.Core.NavigationBarStyle.DarkContent" />
@@ -1476,16 +1555,6 @@
     </Type>
   </Namespace>
   <Namespace Name="CommunityToolkit.Maui.Core.Primitives">
-    <Type Name="CommunityToolkit.Maui.Core.Primitives.CameraFlashMode" Id="T:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode">
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.Auto" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.Off" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.CameraFlashMode.On" />
-    </Type>
-    <Type Name="CommunityToolkit.Maui.Core.Primitives.CameraPosition" Id="T:CommunityToolkit.Maui.Core.Primitives.CameraPosition">
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.Front" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.Rear" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.CameraPosition.Unknown" />
-    </Type>
     <Type Name="CommunityToolkit.Maui.Core.Primitives.Folder" Id="T:CommunityToolkit.Maui.Core.Primitives.Folder">
       <Member Id="M:CommunityToolkit.Maui.Core.Primitives.Folder.#ctor(CommunityToolkit.Maui.Core.Primitives.Folder)" />
       <Member Id="M:CommunityToolkit.Maui.Core.Primitives.Folder.#ctor(System.String,System.String)" />
@@ -1501,28 +1570,6 @@
       <Member Id="P:CommunityToolkit.Maui.Core.Primitives.Folder.EqualityContract" />
       <Member Id="P:CommunityToolkit.Maui.Core.Primitives.Folder.Name" />
       <Member Id="P:CommunityToolkit.Maui.Core.Primitives.Folder.Path" />
-    </Type>
-    <Type Name="CommunityToolkit.Maui.Core.Primitives.MediaElementState" Id="T:CommunityToolkit.Maui.Core.Primitives.MediaElementState">
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Buffering" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Failed" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.None" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Opening" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Paused" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing" />
-      <Member Id="F:CommunityToolkit.Maui.Core.Primitives.MediaElementState.Stopped" />
-    </Type>
-    <Type Name="CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs" Id="T:CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs">
-      <Member Id="M:CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs.#ctor(System.String)" />
-      <Member Id="P:CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs.ErrorMessage" />
-    </Type>
-    <Type Name="CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs" Id="T:CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs">
-      <Member Id="M:CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs.#ctor(System.TimeSpan)" />
-      <Member Id="P:CommunityToolkit.Maui.Core.Primitives.MediaPositionChangedEventArgs.Position" />
-    </Type>
-    <Type Name="CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs" Id="T:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs">
-      <Member Id="M:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.#ctor(CommunityToolkit.Maui.Core.Primitives.MediaElementState,CommunityToolkit.Maui.Core.Primitives.MediaElementState)" />
-      <Member Id="P:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.NewState" />
-      <Member Id="P:CommunityToolkit.Maui.Core.Primitives.MediaStateChangedEventArgs.PreviousState" />
     </Type>
   </Namespace>
   <Namespace Name="CommunityToolkit.Maui.Core.Services">
@@ -2324,14 +2371,15 @@
       <Member Id="F:CommunityToolkit.Maui.Views.CameraView.ZoomFactorProperty" />
       <Member Id="M:CommunityToolkit.Maui.Views.CameraView.#ctor" />
       <Member Id="M:CommunityToolkit.Maui.Views.CameraView.CaptureImage(System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#OnMediaCaptured(System.IO.Stream)" />
+      <Member Id="M:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#OnMediaCapturedFailed(System.String)" />
+      <Member Id="M:CommunityToolkit.Maui.Views.CameraView.Dispose" />
+      <Member Id="M:CommunityToolkit.Maui.Views.CameraView.Dispose(System.Boolean)" />
       <Member Id="M:CommunityToolkit.Maui.Views.CameraView.GetAvailableCameras(System.Threading.CancellationToken)" />
-      <Member Id="M:CommunityToolkit.Maui.Views.CameraView.OnMediaCaptured(System.IO.Stream)" />
-      <Member Id="M:CommunityToolkit.Maui.Views.CameraView.OnMediaCapturedFailed(System.String)" />
       <Member Id="M:CommunityToolkit.Maui.Views.CameraView.StartCameraPreview(System.Threading.CancellationToken)" />
       <Member Id="M:CommunityToolkit.Maui.Views.CameraView.StopCameraPreview" />
       <Member Id="P:CommunityToolkit.Maui.Views.CameraView.CameraFlashMode" />
       <Member Id="P:CommunityToolkit.Maui.Views.CameraView.CaptureImageCommand" />
-      <Member Id="P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Camera#IAsynchronousHandler#HandlerCompleteTCS" />
       <Member Id="P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#IsAvailable" />
       <Member Id="P:CommunityToolkit.Maui.Views.CameraView.CommunityToolkit#Maui#Core#ICameraView#IsBusy" />
       <Member Id="P:CommunityToolkit.Maui.Views.CameraView.ImageCaptureResolution" />
@@ -2416,14 +2464,6 @@
       <Member Id="M:CommunityToolkit.Maui.Views.LazyView`1.#ctor" />
       <Member Id="M:CommunityToolkit.Maui.Views.LazyView`1.LoadViewAsync(System.Threading.CancellationToken)" />
     </Type>
-    <Type Name="CommunityToolkit.Maui.Views.MediaCapturedEventArgs" Id="T:CommunityToolkit.Maui.Views.MediaCapturedEventArgs">
-      <Member Id="M:CommunityToolkit.Maui.Views.MediaCapturedEventArgs.#ctor(System.IO.Stream)" />
-      <Member Id="P:CommunityToolkit.Maui.Views.MediaCapturedEventArgs.Media" />
-    </Type>
-    <Type Name="CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs" Id="T:CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs">
-      <Member Id="M:CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs.#ctor(System.String)" />
-      <Member Id="P:CommunityToolkit.Maui.Views.MediaCaptureFailedEventArgs.FailureReason" />
-    </Type>
     <Type Name="CommunityToolkit.Maui.Views.MediaElement" Id="T:CommunityToolkit.Maui.Views.MediaElement">
       <Member Id="E:CommunityToolkit.Maui.Views.MediaElement.MediaEnded" />
       <Member Id="E:CommunityToolkit.Maui.Views.MediaElement.MediaFailed" />
@@ -2449,9 +2489,9 @@
       <Member Id="F:CommunityToolkit.Maui.Views.MediaElement.SpeedProperty" />
       <Member Id="F:CommunityToolkit.Maui.Views.MediaElement.VolumeProperty" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.#ctor" />
-      <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#CurrentStateChanged(CommunityToolkit.Maui.Core.Primitives.MediaElementState)" />
+      <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#CurrentStateChanged(CommunityToolkit.Maui.Core.MediaElementState)" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaEnded" />
-      <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaFailed(CommunityToolkit.Maui.Core.Primitives.MediaFailedEventArgs)" />
+      <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaFailed(CommunityToolkit.Maui.Core.MediaFailedEventArgs)" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#MediaOpened" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#SeekCompleted" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.Dispose" />
@@ -2462,6 +2502,7 @@
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.Play" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.SeekTo(System.TimeSpan,System.Threading.CancellationToken)" />
       <Member Id="M:CommunityToolkit.Maui.Views.MediaElement.Stop" />
+      <Member Id="P:CommunityToolkit.Maui.Views.MediaElement.AndroidViewType" />
       <Member Id="P:CommunityToolkit.Maui.Views.MediaElement.Aspect" />
       <Member Id="P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IAsynchronousMediaElementHandler#SeekCompletedTCS" />
       <Member Id="P:CommunityToolkit.Maui.Views.MediaElement.CommunityToolkit#Maui#Core#IMediaElement#Duration" />
@@ -2498,12 +2539,14 @@
     <Type Name="CommunityToolkit.Maui.Views.Popup" Id="T:CommunityToolkit.Maui.Views.Popup">
       <Member Id="E:CommunityToolkit.Maui.Views.Popup.Closed" />
       <Member Id="E:CommunityToolkit.Maui.Views.Popup.Opened" />
+      <Member Id="F:CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopupProperty" />
       <Member Id="F:CommunityToolkit.Maui.Views.Popup.HorizontalOptionsProperty" />
       <Member Id="F:CommunityToolkit.Maui.Views.Popup.MarginProperty" />
       <Member Id="F:CommunityToolkit.Maui.Views.Popup.PaddingProperty" />
       <Member Id="F:CommunityToolkit.Maui.Views.Popup.VerticalOptionsProperty" />
       <Member Id="M:CommunityToolkit.Maui.Views.Popup.#ctor" />
       <Member Id="M:CommunityToolkit.Maui.Views.Popup.CloseAsync(System.Threading.CancellationToken)" />
+      <Member Id="P:CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopup" />
       <Member Id="P:CommunityToolkit.Maui.Views.Popup.HorizontalOptions" />
       <Member Id="P:CommunityToolkit.Maui.Views.Popup.Margin" />
       <Member Id="P:CommunityToolkit.Maui.Views.Popup.Padding" />
