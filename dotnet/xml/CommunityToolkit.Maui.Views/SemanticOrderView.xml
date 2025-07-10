@@ -1,0 +1,114 @@
+<Type Name="SemanticOrderView" FullName="CommunityToolkit.Maui.Views.SemanticOrderView">
+  <TypeSignature Language="C#" Value="public class SemanticOrderView : Microsoft.Maui.Controls.ContentView, CommunityToolkit.Maui.Core.ISemanticOrderView, Microsoft.Maui.IContentView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SemanticOrderView extends Microsoft.Maui.Controls.ContentView implements class CommunityToolkit.Maui.Core.ISemanticOrderView, class Microsoft.Maui.IContentView, class Microsoft.Maui.ICrossPlatformLayout, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.SemanticOrderView" />
+  <TypeSignature Language="VB.NET" Value="Public Class SemanticOrderView&#xA;Inherits ContentView&#xA;Implements IContentView, ISemanticOrderView" />
+  <TypeSignature Language="F#" Value="type SemanticOrderView = class&#xA;    inherit ContentView&#xA;    interface ISemanticOrderView&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface ICrossPlatformLayout" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.ContentView</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.ISemanticOrderView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IContentView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ICrossPlatformLayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IPadding</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.Maui.Core.ISemanticOrderView" />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SemanticOrderView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.SemanticOrderView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewOrder">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.IView&gt; ViewOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt; ViewOrder" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.SemanticOrderView.ViewOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewOrder As IEnumerable(Of IView)" />
+      <MemberSignature Language="F#" Value="member this.ViewOrder : seq&lt;Microsoft.Maui.IView&gt; with get, set" Usage="CommunityToolkit.Maui.Views.SemanticOrderView.ViewOrder" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.IView&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ViewOrderProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ViewOrderProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ViewOrderProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.SemanticOrderView.ViewOrderProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ViewOrderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ViewOrderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.SemanticOrderView.ViewOrderProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Views.SemanticOrderView.ViewOrder" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

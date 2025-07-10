@@ -1,0 +1,71 @@
+<Type Name="SpeechToTextRecognitionResultCompletedEventArgs" FullName="CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class SpeechToTextRecognitionResultCompletedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SpeechToTextRecognitionResultCompletedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SpeechToTextRecognitionResultCompletedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type SpeechToTextRecognitionResultCompletedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:System.EventArgs" /> for <see cref="E:CommunityToolkit.Maui.Media.ISpeechToText.RecognitionResultCompleted" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SpeechToTextRecognitionResultCompletedEventArgs (CommunityToolkit.Maui.Media.SpeechToTextResult recognitionResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.Media.SpeechToTextResult recognitionResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs.#ctor(CommunityToolkit.Maui.Media.SpeechToTextResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (recognitionResult As SpeechToTextResult)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs : CommunityToolkit.Maui.Media.SpeechToTextResult -&gt; CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs" Usage="new CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs recognitionResult" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="recognitionResult" Type="CommunityToolkit.Maui.Media.SpeechToTextResult" />
+      </Parameters>
+      <Docs>
+        <param name="recognitionResult">To be added.</param>
+        <summary>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognitionResult">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Media.SpeechToTextResult RecognitionResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Media.SpeechToTextResult RecognitionResult" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs.RecognitionResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecognitionResult As SpeechToTextResult" />
+      <MemberSignature Language="F#" Value="member this.RecognitionResult : CommunityToolkit.Maui.Media.SpeechToTextResult" Usage="CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs.RecognitionResult" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Media.SpeechToTextResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Speech recognition result
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

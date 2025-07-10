@@ -1,0 +1,1719 @@
+{
+  "Assembly": "CommunityToolkit.WinUI.Extensions",
+  "GUID": "95937A77B13B499695FC85BD54211EBEFFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DispatcherQueueExtensions.EnqueueAsync(Microsoft.UI.Dispatching.DispatcherQueue,System.Action,Microsoft.UI.Dispatching.DispatcherQueuePriority)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueExtensions.cs#L48C9-L87C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DispatcherQueueExtensions.EnqueueAsync``1(Microsoft.UI.Dispatching.DispatcherQueue,System.Func{``0},Microsoft.UI.Dispatching.DispatcherQueuePriority)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueExtensions.cs#L101C6-L136C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DispatcherQueueExtensions.EnqueueAsync(Microsoft.UI.Dispatching.DispatcherQueue,System.Func{System.Threading.Tasks.Task},Microsoft.UI.Dispatching.DispatcherQueuePriority)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueExtensions.cs#L153C9-L202C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DispatcherQueueExtensions.EnqueueAsync``1(Microsoft.UI.Dispatching.DispatcherQueue,System.Func{System.Threading.Tasks.Task{``0}},Microsoft.UI.Dispatching.DispatcherQueuePriority)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueExtensions.cs#L216C6-L265C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.DispatcherQueueExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DispatcherQueueTimerExtensions.Debounce(Microsoft.UI.Dispatching.DispatcherQueueTimer,System.Action,System.TimeSpan,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueTimerExtensions.cs#L48C9-L89C6"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.DispatcherQueueTimerExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Dispatcher/DispatcherQueueTimerExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.GetEnableActualSizeBinding(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs#L34C9-L34C68"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.SetEnableActualSizeBinding(Microsoft.UI.Xaml.FrameworkElement,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs#L44C9-L45C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.GetActualHeight(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs#L54C9-L54C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.SetActualHeight(Microsoft.UI.Xaml.FrameworkElement,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs#L64C9-L65C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.GetActualWidth(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs#L74C9-L74C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.SetActualWidth(Microsoft.UI.Xaml.FrameworkElement,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs#L84C9-L85C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.GetAncestor(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.RelativeAncestor.cs#L17C9-L17C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.SetAncestor(Microsoft.UI.Xaml.DependencyObject,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.RelativeAncestor.cs#L27C9-L28C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.GetAncestorType(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.RelativeAncestor.cs#L42C9-L42C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.SetAncestorType(Microsoft.UI.Xaml.FrameworkElement,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.RelativeAncestor.cs#L50C9-L51C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChild(Microsoft.UI.Xaml.FrameworkElement,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L26C9-L28C91"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChild``1(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L40C9-L42C77"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChild(Microsoft.UI.Xaml.FrameworkElement,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L53C9-L55C91"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChild``1(Microsoft.UI.Xaml.FrameworkElement,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L68C9-L70C79"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChild``2(Microsoft.UI.Xaml.FrameworkElement,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L85C9-L87C87"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChildOrSelf(Microsoft.UI.Xaml.FrameworkElement,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L250C9-L255C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChildOrSelf``1(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L267C9-L272C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChildOrSelf(Microsoft.UI.Xaml.FrameworkElement,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L283C9-L288C41"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChildOrSelf``1(Microsoft.UI.Xaml.FrameworkElement,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L301C9-L306C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChildOrSelf``2(Microsoft.UI.Xaml.FrameworkElement,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L321C9-L326C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindChildren(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParent(Microsoft.UI.Xaml.FrameworkElement,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L453C9-L455C92"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParent``1(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L467C9-L469C78"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParent(Microsoft.UI.Xaml.FrameworkElement,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L480C9-L482C92"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParent``1(Microsoft.UI.Xaml.FrameworkElement,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L495C9-L497C80"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParent``2(Microsoft.UI.Xaml.FrameworkElement,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L512C9-L514C88"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParentOrSelf(Microsoft.UI.Xaml.FrameworkElement,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L554C9-L559C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParentOrSelf``1(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L571C9-L576C39"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParentOrSelf(Microsoft.UI.Xaml.FrameworkElement,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L587C9-L592C42"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParentOrSelf``1(Microsoft.UI.Xaml.FrameworkElement,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L605C9-L610C47"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParentOrSelf``2(Microsoft.UI.Xaml.FrameworkElement,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L625C9-L630C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindParents(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.GetContentControl(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L670C9-L694C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.FindResource(Microsoft.UI.Xaml.FrameworkElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L710C9-L717C35"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.TryFindResource(Microsoft.UI.Xaml.FrameworkElement,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L733C9-L754C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FrameworkElementExtensions.TryFindResource(Microsoft.UI.Xaml.FrameworkElement,System.Object,System.Object@)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/FrameworkElementExtensions.LogicalTree.cs#L771C9-L771C76"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.FrameworkElementExtensions.EnableActualSizeBindingProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.FrameworkElementExtensions.ActualHeightProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.FrameworkElementExtensions.ActualWidthProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.FrameworkElementExtensions.AncestorProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.FrameworkElementExtensions.AncestorTypeProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.FrameworkElementExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/FrameworkElementExtensions.ActualSize.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.UIElementExtensions.GetClipToBounds(Microsoft.UI.Xaml.UIElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/UIElementExtensions.cs#L34C62-L34C106"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.UIElementExtensions.SetClipToBounds(Microsoft.UI.Xaml.UIElement,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/UIElementExtensions.cs#L41C74-L41C119"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.UIElementExtensions.CoordinatesFrom(Microsoft.UI.Xaml.UIElement,Microsoft.UI.Xaml.UIElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/UIElementExtensions.cs#L63C9-L63C80"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.UIElementExtensions.CoordinatesTo(Microsoft.UI.Xaml.UIElement,Microsoft.UI.Xaml.UIElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/UIElementExtensions.cs#L76C9-L76C80"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.UIElementExtensions.ClipToBoundsProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/UIElementExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.UIElementExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Element/UIElementExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.PointExtensions.ToRect(Windows.Foundation.Point,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/PointExtensions.cs#L30C9-L30C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.PointExtensions.ToRect(Windows.Foundation.Point,Windows.Foundation.Point)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/PointExtensions.cs#L43C9-L43C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.PointExtensions.ToRect(Windows.Foundation.Point,Windows.Foundation.Size)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/PointExtensions.cs#L56C9-L56C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.PointExtensions.ToVector3(Windows.Foundation.Point)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/PointExtensions.cs#L68C9-L68C51"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.PointExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/PointExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.RectExtensions.IntersectsWith(Windows.Foundation.Rect,Windows.Foundation.Rect)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/RectExtensions.cs#L27C9-L35C44"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.RectExtensions.ToSize(Windows.Foundation.Rect)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/RectExtensions.cs#L47C9-L47C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.RectExtensions.Transform(Windows.Foundation.Rect,Microsoft.UI.Xaml.Media.Matrix)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/RectExtensions.cs#L60C9-L70C59"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.RectExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/RectExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SizeExtensions.ToRect(Windows.Foundation.Size)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/SizeExtensions.cs#L27C9-L27C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SizeExtensions.ToRect(Windows.Foundation.Size,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/SizeExtensions.cs#L41C9-L41C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SizeExtensions.ToRect(Windows.Foundation.Size,Windows.Foundation.Point)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/SizeExtensions.cs#L54C9-L54C38"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.SizeExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Foundation/SizeExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.GetAlternateColor(Microsoft.UI.Xaml.Controls.ListViewBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs#L32C9-L32C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SetAlternateColor(Microsoft.UI.Xaml.Controls.ListViewBase,Microsoft.UI.Xaml.Media.Brush)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs#L42C9-L43C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.GetAlternateItemTemplate(Microsoft.UI.Xaml.Controls.ListViewBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs#L52C9-L52C74"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SetAlternateItemTemplate(Microsoft.UI.Xaml.Controls.ListViewBase,Microsoft.UI.Xaml.DataTemplate)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs#L62C9-L63C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.GetCommand(Microsoft.UI.Xaml.Controls.ListViewBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.Command.cs#L26C9-L26C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SetCommand(Microsoft.UI.Xaml.Controls.ListViewBase,System.Windows.Input.ICommand)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.Command.cs#L36C9-L37C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.DeselectItem``1(Microsoft.UI.Xaml.Controls.ListViewBase,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.Selection.cs#L21C9-L35C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.DeselectAll(Microsoft.UI.Xaml.Controls.ListViewBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.Selection.cs#L43C9-L53C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SelectAllSafe(Microsoft.UI.Xaml.Controls.ListViewBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.Selection.cs#L61C9-L71C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SmoothScrollIntoViewWithIndexAsync(Microsoft.UI.Xaml.Controls.ListViewBase,System.Int32,CommunityToolkit.WinUI.ScrollItemPlacement,System.Boolean,System.Boolean,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SmoothScrollIntoViewWithItemAsync(Microsoft.UI.Xaml.Controls.ListViewBase,System.Object,CommunityToolkit.WinUI.ScrollItemPlacement,System.Boolean,System.Boolean,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.GetItemContainerStretchDirection(Microsoft.UI.Xaml.Controls.ListViewBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.StretchItemContainer.cs#L24C9-L24C99"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ListViewExtensions.SetItemContainerStretchDirection(Microsoft.UI.Xaml.Controls.ListViewBase,CommunityToolkit.WinUI.ItemContainerStretchDirection)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.StretchItemContainer.cs#L34C9-L35C6"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.ListViewExtensions.AlternateColorProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.ListViewExtensions.AlternateItemTemplateProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.ListViewExtensions.CommandProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.ListViewExtensions.ItemContainerStretchDirectionProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.ListViewExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ListViewBase/ListViewExtensions.AlternateRows.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextIconExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L38C66-L38C102"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.FontSize",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L21C30-L21C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.SymbolThemeFontFamily",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L31C16-L31C96"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.FontWeight",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L38C52-L38C56"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.FontStyle",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L47C50-L47C54"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.Foreground",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L55C32-L55C36"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.IsTextScaleFactorEnabled",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L60C44-L60C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.TextIconExtension.MirroredWhenRightToLeft",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs#L65C43-L65C47"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.TextIconExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/Abstract/TextIconExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.BitmapIconExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconExtension.cs#L26C9-L30C11"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.BitmapIconExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.BitmapIconExtension.Source",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconExtension.cs#L16C26-L16C30"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.BitmapIconExtension.ShowAsMonochrome",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconExtension.cs#L21C36-L21C40"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.BitmapIconExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.BitmapIconSourceExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconSourceExtension.cs#L26C9-L30C11"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.BitmapIconSourceExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconSourceExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.BitmapIconSourceExtension.Source",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconSourceExtension.cs#L16C26-L16C30"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.BitmapIconSourceExtension.ShowAsMonochrome",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconSourceExtension.cs#L21C36-L21C40"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.BitmapIconSourceExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/BitmapIconSourceExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.EnumValuesExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/EnumValuesExtension.cs#L25C9-L25C38"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.EnumValuesExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/EnumValuesExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.EnumValuesExtension.Type",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/EnumValuesExtension.cs#L19C25-L19C29"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.EnumValuesExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/EnumValuesExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FontIconExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconExtension.cs#L26C9-L48C25"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FontIconExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.FontIconExtension.Glyph",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconExtension.cs#L16C28-L16C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.FontIconExtension.FontFamily",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconExtension.cs#L21C37-L21C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.FontIconExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FontIconSourceExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconSourceExtension.cs#L26C9-L46C25"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.FontIconSourceExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconSourceExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.FontIconSourceExtension.Glyph",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconSourceExtension.cs#L16C28-L16C32"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.FontIconSourceExtension.FontFamily",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconSourceExtension.cs#L21C37-L21C41"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.FontIconSourceExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/FontIconSourceExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.NullableBoolExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/NullableBoolExtension.cs#L27C9-L32C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.NullableBoolExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/NullableBoolExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.NullableBoolExtension.Value",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/NullableBoolExtension.cs#L17C25-L17C29"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.NullableBoolExtension.IsNull",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/NullableBoolExtension.cs#L22C26-L22C30"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.NullableBoolExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/NullableBoolExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.OnDeviceExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L66C9-L79C37"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.OnDeviceExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L28C44-L28C82"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.OnDeviceExtension.Default",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L33C30-L33C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.OnDeviceExtension.Desktop",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L38C30-L38C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.OnDeviceExtension.Holographic",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L43C34-L43C38"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.OnDeviceExtension.IoT",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L48C26-L48C30"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.OnDeviceExtension.Team",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L53C27-L53C31"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.OnDeviceExtension.Xbox",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs#L58C27-L58C31"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.OnDeviceExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/OnDeviceExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SymbolIconExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconExtension.cs#L21C9-L41C25"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SymbolIconExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SymbolIconExtension.Symbol",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconExtension.cs#L16C28-L16C32"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.SymbolIconExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SymbolIconSourceExtension.ProvideValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconSourceExtension.cs#L21C9-L41C25"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SymbolIconSourceExtension.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconSourceExtension.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SymbolIconSourceExtension.Symbol",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconSourceExtension.cs#L16C28-L16C32"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.SymbolIconSourceExtension",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Markup/SymbolIconSourceExtension.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.HasInverse(Microsoft.UI.Xaml.Media.Matrix)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L19C9-L19C77"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.Multiply(Microsoft.UI.Xaml.Media.Matrix,Microsoft.UI.Xaml.Media.Matrix)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L30C9-L36C98"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.Round(Microsoft.UI.Xaml.Media.Matrix,System.Int32)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L47C9-L53C29"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.Rotate(Microsoft.UI.Xaml.Media.Matrix,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L64C9-L64C90"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.RotateAt(Microsoft.UI.Xaml.Media.Matrix,System.Double,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L77C9-L77C108"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.Scale(Microsoft.UI.Xaml.Media.Matrix,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L89C9-L89C63"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.ScaleAt(Microsoft.UI.Xaml.Media.Matrix,System.Double,System.Double,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L103C9-L103C81"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.Skew(Microsoft.UI.Xaml.Media.Matrix,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L115C9-L115C121"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.MatrixExtensions.Translate(Microsoft.UI.Xaml.Media.Matrix,System.Double,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs#L127C9-L127C120"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.MatrixExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/MatrixExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.RotateTransformExtensions.GetMatrix(Microsoft.UI.Xaml.Media.RotateTransform)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/RotateTransformExtensions.cs#L20C9-L20C96"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.RotateTransformExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/RotateTransformExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ScaleTransformExtensions.GetMatrix(Microsoft.UI.Xaml.Media.ScaleTransform)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/ScaleTransformExtensions.cs#L20C9-L20C114"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.ScaleTransformExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/ScaleTransformExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SkewTransformExtensions.GetMatrix(Microsoft.UI.Xaml.Media.SkewTransform)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/SkewTransformExtensions.cs#L20C9-L41C23"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.SkewTransformExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/SkewTransformExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TranslateTransformExtensions.GetMatrix(Microsoft.UI.Xaml.Media.TranslateTransform)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/TranslateTransformExtensions.cs#L20C9-L20C68"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.TranslateTransformExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/TranslateTransformExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetVisual(Microsoft.UI.Xaml.UIElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L32C9-L32C68"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetAnchorPoint(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L42C9-L47C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetAnchorPoint(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L57C9-L63C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetCenterPoint(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L72C9-L77C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetCenterPoint(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L87C9-L93C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetOffset(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L102C9-L107C53"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetOffset(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L117C9-L123C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetTranslation(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L132C9-L137C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetTranslation(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L147C9-L153C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetOpacity(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L162C9-L167C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetOpacity(Microsoft.UI.Xaml.DependencyObject,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L177C9-L183C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetRotationAngle(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L192C9-L197C60"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetRotationAngle(Microsoft.UI.Xaml.DependencyObject,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L207C9-L213C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetRotationAngleInDegrees(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L222C9-L227C69"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetRotationAngleInDegrees(Microsoft.UI.Xaml.DependencyObject,System.Double)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L237C9-L243C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetRotationAxis(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L252C9-L257C59"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetRotationAxis(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L267C9-L273C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetScale(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L282C9-L287C52"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetScale(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L297C9-L303C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetSize(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L312C9-L317C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetSize(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L327C9-L333C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.GetNormalizedCenterPoint(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L343C9-L343C68"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.VisualExtensions.SetNormalizedCenterPoint(Microsoft.UI.Xaml.DependencyObject,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs#L354C9-L355C6"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.AnchorPointProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.CenterPointProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.OffsetProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.TranslationProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.OpacityProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.RotationAngleProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.RotationAngleInDegreesProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.RotationAxisProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.ScaleProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.SizeProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.VisualExtensions.NormalizedCenterPointProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.VisualExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Media/VisualExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ScrollViewerExtensions.GetVerticalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.Properties.cs#L29C9-L29C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ScrollViewerExtensions.SetVerticalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.Thickness)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.Properties.cs#L39C9-L40C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ScrollViewerExtensions.GetHorizontalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.Properties.cs#L49C9-L49C75"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ScrollViewerExtensions.SetHorizontalScrollBarMargin(Microsoft.UI.Xaml.FrameworkElement,Microsoft.UI.Xaml.Thickness)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.Properties.cs#L59C9-L60C6"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.ScrollViewerExtensions.HorizontalScrollBarMarginProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.ScrollViewerExtensions.VerticalScrollBarMarginProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.ScrollViewerExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/ScrollViewer/ScrollViewerExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedDropShadow.OnElementContextUninitialized(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L170C9-L186C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedDropShadow.SetElementChildVisual(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L191C9-L207C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedDropShadow.GetShadowMask(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L243C9-L327C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedDropShadow.OnSizeChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Windows.Foundation.Size,Windows.Foundation.Size)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L355C9-L364C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedDropShadow.OnPropertyChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Microsoft.UI.Xaml.DependencyProperty,System.Object,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L369C9-L387C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedDropShadow.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedDropShadow.IsMaskedProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedDropShadow.CornerRadiusProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedDropShadow.CastToProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedDropShadow.SupportsOnSizeChangedEvent",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L34C68-L34C72"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedDropShadow.IsMasked",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L50C15-L50C55"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedDropShadow.CornerRadius",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L65C16-L65C54"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedDropShadow.CastTo",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs#L84C15-L84C65"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.AttachedDropShadow",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedDropShadow.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnDependencyPropertyChanged(System.Object,Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L113C9-L114C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnElementContextInitialized(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L149C9-L156C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnElementContextUninitialized(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L164C9-L166C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.GetElementContext(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L171C9-L176C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.EnumerateElementContexts",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SetElementChildVisual(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L199C9-L200C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.GetShadowMask(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L221C9-L221C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.GetShadowClip(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L230C9-L230C21"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.UpdateShadowMask(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L238C9-L244C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.UpdateShadowClip(CommunityToolkit.WinUI.AttachedShadowElementContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L251C9-L257C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnPropertyChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Microsoft.UI.Xaml.DependencyProperty,System.Object,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L264C9-L285C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnSizeChanged(CommunityToolkit.WinUI.AttachedShadowElementContext,Windows.Foundation.Size,Windows.Foundation.Size)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L295C5-L295C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.Microsoft#UI#Xaml#IDependencyObjectStoreProvider#get_Store",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L51C65-L51C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.GetValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L52C52-L52C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SetValue(Microsoft.UI.Xaml.DependencyProperty,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L53C64-L53C91"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.ClearValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L54C52-L54C74"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.ReadLocalValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L55C58-L55C84"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.GetAnimationBaseValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L56C65-L56C98"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.RegisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.DependencyPropertyChangedCallback)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L57C117-L57C170"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.UnregisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,System.Int64)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L58C87-L58C139"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.ClearBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L82C4-L83C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.RestoreBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L92C4-L93C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.Uno#UI#DataBinding#IWeakReferenceProvider#get_WeakReference",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L100C5-L105C31"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L109C40-L109C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnDataContextChanged(Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L136C4-L137C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.OnTemplatedParentChanged(Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L168C3-L168C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SetBinding(System.Object,System.String,Microsoft.UI.Xaml.Data.BindingBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L174C4-L175C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SetBinding(System.String,Microsoft.UI.Xaml.Data.BindingBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L179C4-L180C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SetBinding(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.Data.BindingBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L184C4-L185C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SetBindingValue(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L189C4-L190C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.GetBindingExpression(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L201C8-L201C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.ResumeBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L204C6-L204C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.SuspendBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L207C4-L207C29"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowBase.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L73C124-L37C156"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.WinUI.AttachedShadowBase.DataContextChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedShadowBase.BlurRadiusProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedShadowBase.ColorProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedShadowBase.OffsetProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.AttachedShadowBase.OpacityProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.BlurRadius",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L78C16-L78C52"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.Opacity",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L85C16-L85C49"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.Offset",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L92C16-L92C48"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.Color",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs#L99C16-L99C46"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.SupportsOnSizeChangedEvent",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.Dispatcher",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L36C63-L36C136"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.DispatcherQueue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L37C77-L37C81"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.IsStoreInitialized",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L50C37-L50C64"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.Microsoft#UI#Xaml#IDependencyObjectStoreProvider#Store",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L51C65-L51C72"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.Uno#UI#DataBinding#IWeakReferenceProvider#WeakReference",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L100C5-L105C31"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.DataContext",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L116C11-L116C40"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.DataContextProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L121C58-L121C63"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.TemplatedParent",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L145C11-L145C62"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowBase.TemplatedParentProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.AttachedShadowBase.cs#L151C62-L151C67"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.AttachedShadowBase",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowBase.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.CreateResources",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L101C38-L101C54"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.AddResource``1(System.String,``0)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L187C9-L196C25"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.TryGetResource``1(System.String,``0@)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L208C9-L215C22"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.GetResource``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L226C9-L231C24"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.RemoveResource``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L242C9-L251C24"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.RemoveAndDisposeResource``1(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L263C9-L273C24"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.AttachedShadowElementContext.ClearAndDisposeResources",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L318C29-L324C6"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.IsInitialized",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L31C33-L31C37"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.Parent",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L36C40-L36C44"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.Element",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L41C39-L41C43"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.ElementVisual",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L46C36-L46C40"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.Compositor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L51C37-L51C41"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.SpriteVisual",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L56C41-L56C45"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.AttachedShadowElementContext.Shadow",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs#L61C33-L61C37"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.AttachedShadowElementContext",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/AttachedShadowElementContext.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.Effects.GetShadow(Microsoft.UI.Xaml.FrameworkElement)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/Effects.cs#L19C9-L19C65"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.Effects.SetShadow(Microsoft.UI.Xaml.FrameworkElement,CommunityToolkit.WinUI.AttachedShadowBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/Effects.cs#L29C9-L30C6"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.Effects.ShadowProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/Effects.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.Effects",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Shadows/Effects.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.HyperlinkExtensions.GetCommand(Microsoft.UI.Xaml.Documents.Hyperlink)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs#L38C57-L38C96"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.HyperlinkExtensions.SetCommand(Microsoft.UI.Xaml.Documents.Hyperlink,System.Windows.Input.ICommand)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs#L45C69-L45C105"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.HyperlinkExtensions.GetCommandParameter(Microsoft.UI.Xaml.Documents.Hyperlink)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs#L52C64-L52C102"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.HyperlinkExtensions.SetCommandParameter(Microsoft.UI.Xaml.Documents.Hyperlink,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs#L59C76-L59C121"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.HyperlinkExtensions.CommandProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.HyperlinkExtensions.CommandParameterProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.HyperlinkExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/HyperlinkExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String,Windows.UI.UIContext)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Localization.cs#L99C9-L106C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Localization.cs#L141C9-L153C27"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.StringExtensions.ToVector2(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Numerics.cs#L31C9-L63C28"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.StringExtensions.ToVector3(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Numerics.cs#L80C9-L115C28"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.StringExtensions.ToVector4(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Numerics.cs#L132C9-L172C28"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.StringExtensions.ToQuaternion(System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Numerics.cs#L188C9-L210C28"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.StringExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/StringExtensions.Localization.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.Microsoft#UI#Xaml#IDependencyObjectStoreProvider#get_Store",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L51C65-L51C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.GetValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L52C52-L52C72"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.SetValue(Microsoft.UI.Xaml.DependencyProperty,System.Object)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L53C64-L53C91"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.ClearValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L54C52-L54C74"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.ReadLocalValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L55C58-L55C84"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.GetAnimationBaseValue(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L56C65-L56C98"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.RegisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.DependencyPropertyChangedCallback)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L57C117-L57C170"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.UnregisterPropertyChangedCallback(Microsoft.UI.Xaml.DependencyProperty,System.Int64)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L58C87-L58C139"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.ClearBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L82C4-L83C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.RestoreBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L92C4-L93C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.Uno#UI#DataBinding#IWeakReferenceProvider#get_WeakReference",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L100C5-L105C31"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.ToString",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L109C40-L109C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.SetBinding(System.Object,System.String,Microsoft.UI.Xaml.Data.BindingBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L174C4-L175C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.SetBinding(System.String,Microsoft.UI.Xaml.Data.BindingBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L179C4-L180C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.SetBinding(Microsoft.UI.Xaml.DependencyProperty,Microsoft.UI.Xaml.Data.BindingBase)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L184C4-L185C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.SetBindingValue(System.Object,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L189C4-L190C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.GetBindingExpression(Microsoft.UI.Xaml.DependencyProperty)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L201C8-L201C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.ResumeBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L204C6-L204C30"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.SuspendBindings",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L207C4-L207C29"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.SurfaceDialOptions.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L24C63-L37C156"
+        },
+        {
+          "DocsId": "E:CommunityToolkit.WinUI.SurfaceDialOptions.DataContextChanged",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.Icon",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L24C49-L24C53"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.StepValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L30C31-L30C35"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.EnableHapticFeedback",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L36C40-L36C44"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.RotationResolutionInDegrees",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L41C49-L41C53"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.MinValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L47C30-L47C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.MaxValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L53C30-L53C34"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.EnableTapToNextControl",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L59C42-L59C46"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.EnableMinMaxValue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs#L64C37-L64C41"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.Dispatcher",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L36C63-L36C136"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.DispatcherQueue",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L37C77-L37C81"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.IsStoreInitialized",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L50C37-L50C64"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.Microsoft#UI#Xaml#IDependencyObjectStoreProvider#Store",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L51C65-L51C72"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.Uno#UI#DataBinding#IWeakReferenceProvider#WeakReference",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L100C5-L105C31"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.DataContext",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L116C11-L116C40"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.DataContextProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L121C58-L121C63"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.TemplatedParent",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L145C11-L145C62"
+        },
+        {
+          "DocsId": "P:CommunityToolkit.WinUI.SurfaceDialOptions.TemplatedParentProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.DependencyObject.DependencyObjectGenerator/CommunityToolkit.WinUI.SurfaceDialOptions.cs#L151C62-L151C67"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.SurfaceDialOptions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/SurfaceDialOptions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetMask(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Properties.cs#L39C50-L39C84"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetMask(Microsoft.UI.Xaml.Controls.TextBox,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Properties.cs#L46C62-L46C95"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetMaskPlaceholder(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Properties.cs#L53C61-L53C106"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetMaskPlaceholder(Microsoft.UI.Xaml.Controls.TextBox,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Properties.cs#L60C73-L60C117"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetCustomMask(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Properties.cs#L67C56-L67C96"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetCustomMask(Microsoft.UI.Xaml.Controls.TextBox,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Properties.cs#L74C68-L74C107"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetRegex(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L39C9-L39C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetRegex(Microsoft.UI.Xaml.Controls.TextBox,System.String)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L49C9-L50C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetIsValid(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L59C9-L59C56"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetIsValid(Microsoft.UI.Xaml.Controls.TextBox,System.Boolean)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L69C9-L70C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetValidationMode(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L79C9-L79C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetValidationMode(Microsoft.UI.Xaml.Controls.TextBox,CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L89C9-L90C6"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.GetValidationType(Microsoft.UI.Xaml.Controls.TextBox)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L99C9-L99C73"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.TextBoxExtensions.SetValidationType(Microsoft.UI.Xaml.Controls.TextBox,CommunityToolkit.WinUI.TextBoxExtensions.ValidationType)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Regex.Properties.cs#L109C9-L110C6"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.MaskProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.MaskPlaceholderProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.CustomMaskProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.RegexProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.IsValidProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationModeProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationTypeProperty",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "T:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.TextBoxExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode.Normal",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode.Forced",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode.Dynamic",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.TextBoxExtensions.ValidationMode",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.value__",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.Custom",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.Email",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.Number",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.Decimal",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.Characters",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        },
+        {
+          "DocsId": "F:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType.PhoneNumber",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.TextBoxExtensions.ValidationType",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Text/TextBoxExtensions.Mask.Internals.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendant(Microsoft.UI.Xaml.DependencyObject,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L23C9-L25C96"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendant``1(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L41C9-L43C82"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendant(Microsoft.UI.Xaml.DependencyObject,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L54C9-L56C96"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendant``1(Microsoft.UI.Xaml.DependencyObject,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L73C9-L75C84"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendant``2(Microsoft.UI.Xaml.DependencyObject,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L94C9-L96C92"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendantOrSelf(Microsoft.UI.Xaml.DependencyObject,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L146C9-L151C62"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendantOrSelf``1(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L167C9-L172C43"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendantOrSelf(Microsoft.UI.Xaml.DependencyObject,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L183C9-L188C46"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendantOrSelf``1(Microsoft.UI.Xaml.DependencyObject,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L205C9-L210C51"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendantOrSelf``2(Microsoft.UI.Xaml.DependencyObject,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L229C9-L234C58"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindDescendants(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendant(Microsoft.UI.Xaml.DependencyObject,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L275C9-L277C95"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendant``1(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L293C9-L295C81"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendant(Microsoft.UI.Xaml.DependencyObject,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L306C9-L308C95"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendant``1(Microsoft.UI.Xaml.DependencyObject,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L325C9-L327C83"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendant``2(Microsoft.UI.Xaml.DependencyObject,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L346C9-L348C91"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendantOrSelf(Microsoft.UI.Xaml.DependencyObject,System.String,System.StringComparison)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L394C9-L399C61"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendantOrSelf``1(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L415C9-L420C42"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendantOrSelf(Microsoft.UI.Xaml.DependencyObject,System.Type)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L431C9-L436C45"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendantOrSelf``1(Microsoft.UI.Xaml.DependencyObject,System.Func{``0,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L453C9-L458C50"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendantOrSelf``2(Microsoft.UI.Xaml.DependencyObject,``1,System.Func{``0,``1,System.Boolean})",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs#L477C9-L482C57"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.DependencyObjectExtensions.FindAscendants(Microsoft.UI.Xaml.DependencyObject)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.DependencyObjectExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Tree/DependencyObjectExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ExtensionsRns.GlobalStaticResources.Initialize",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.XamlGenerator.XamlCodeGenerator/GlobalStaticResources.cs#L28C4-L38C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ExtensionsRns.GlobalStaticResources.RegisterDefaultStyles",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.XamlGenerator.XamlCodeGenerator/GlobalStaticResources.cs#L41C4-L45C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ExtensionsRns.GlobalStaticResources.RegisterResourceDictionariesBySource",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.XamlGenerator.XamlCodeGenerator/GlobalStaticResources.cs#L49C4-L53C4"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.ExtensionsRns.GlobalStaticResources.#ctor",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.XamlGenerator.XamlCodeGenerator/GlobalStaticResources.cs"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.ExtensionsRns.GlobalStaticResources",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/obj/Release/net9.0/Uno.UI.SourceGenerators/Uno.UI.SourceGenerators.XamlGenerator.XamlCodeGenerator/GlobalStaticResources.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.Deferred.TypedEventHandlerExtensions.InvokeAsync``2(Windows.Foundation.TypedEventHandler{``0,``1},``0,``1)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Events/TypedEventHandlerExtensions.cs#L26C9-L26C85"
+        },
+        {
+          "DocsId": "M:CommunityToolkit.WinUI.Deferred.TypedEventHandlerExtensions.InvokeAsync``2(Windows.Foundation.TypedEventHandler{``0,``1},``0,``1,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Events/TypedEventHandlerExtensions.cs#L42C9-L63C36"
+        }
+      ],
+      "DocsId": "T:CommunityToolkit.WinUI.Deferred.TypedEventHandlerExtensions",
+      "SourceLink": "https://github.com/CommunityToolkit/Windows/blob/6d537b47e243a8193e36258a5319d4ec7ea3197c/components/Extensions/src/Events/TypedEventHandlerExtensions.cs"
+    }
+  ]
+}

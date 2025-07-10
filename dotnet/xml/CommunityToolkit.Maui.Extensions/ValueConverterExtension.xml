@@ -1,0 +1,106 @@
+<Type Name="ValueConverterExtension" FullName="CommunityToolkit.Maui.Extensions.ValueConverterExtension">
+  <TypeSignature Language="C#" Value="public abstract class ValueConverterExtension : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ValueConverterExtension extends Microsoft.Maui.Controls.BindableObject implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension, class Microsoft.Maui.Controls.Xaml.IMarkupExtension`1&lt;class CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Extensions.ValueConverterExtension" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ValueConverterExtension&#xA;Inherits BindableObject&#xA;Implements IMarkupExtension(Of ICommunityToolkitValueConverter)" />
+  <TypeSignature Language="F#" Value="type ValueConverterExtension = class&#xA;    inherit BindableObject&#xA;    interface IMarkupExtension&lt;ICommunityToolkitValueConverter&gt;&#xA;    interface IMarkupExtension" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.Xaml.IMarkupExtension</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:Microsoft.Maui.Controls.Xaml.IMarkupExtension" />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ValueConverterExtension ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.ValueConverterExtension.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue">
+      <MemberSignature Language="C#" Value="object IMarkupExtension.ProvideValue (IServiceProvider serviceProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.ValueConverterExtension.Microsoft#Maui#Controls#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
+      <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue : IServiceProvider -&gt; obj&#xA;override this.Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue : IServiceProvider -&gt; obj" Usage="valueConverterExtension.Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue serviceProvider" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
+      </Parameters>
+      <Docs>
+        <param name="serviceProvider">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvideValue">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter ProvideValue (IServiceProvider serviceProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.ValueConverterExtension.ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As ICommunityToolkitValueConverter" />
+      <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter&#xA;override this.ProvideValue : IServiceProvider -&gt; CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter" Usage="valueConverterExtension.ProvideValue serviceProvider" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.ICommunityToolkitValueConverter</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
+      </Parameters>
+      <Docs>
+        <param name="serviceProvider">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

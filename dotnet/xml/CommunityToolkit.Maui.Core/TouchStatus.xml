@@ -1,0 +1,85 @@
+<Type Name="TouchStatus" FullName="CommunityToolkit.Maui.Core.TouchStatus">
+  <TypeSignature Language="C#" Value="public enum TouchStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TouchStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.TouchStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TouchStatus" />
+  <TypeSignature Language="F#" Value="type TouchStatus = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Core.TouchStatus" />
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="Canceled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.TouchStatus Canceled = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.TouchStatus.Canceled" />
+      <MemberSignature Language="VB.NET" Value="Canceled" />
+      <MemberSignature Language="F#" Value="Canceled = 2" Usage="CommunityToolkit.Maui.Core.TouchStatus.Canceled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.TouchStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The touch interaction has been canceled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Completed">
+      <MemberSignature Language="C#" Value="Completed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.TouchStatus Completed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.TouchStatus.Completed" />
+      <MemberSignature Language="VB.NET" Value="Completed" />
+      <MemberSignature Language="F#" Value="Completed = 1" Usage="CommunityToolkit.Maui.Core.TouchStatus.Completed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.TouchStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The touch interaction has completed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Started">
+      <MemberSignature Language="C#" Value="Started" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.TouchStatus Started = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.TouchStatus.Started" />
+      <MemberSignature Language="VB.NET" Value="Started" />
+      <MemberSignature Language="F#" Value="Started = 0" Usage="CommunityToolkit.Maui.Core.TouchStatus.Started" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.TouchStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The touch interaction has started.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

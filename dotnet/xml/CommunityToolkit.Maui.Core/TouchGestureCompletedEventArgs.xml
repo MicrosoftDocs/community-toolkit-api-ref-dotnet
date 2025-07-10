@@ -1,0 +1,73 @@
+<Type Name="TouchGestureCompletedEventArgs" FullName="CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class TouchGestureCompletedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TouchGestureCompletedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class TouchGestureCompletedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type TouchGestureCompletedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs" />
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TouchGestureCompletedEventArgs (object? touchCommandParameter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object touchCommandParameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs.#ctor(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (touchCommandParameter As Object)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs : obj -&gt; CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs" Usage="new CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs touchCommandParameter" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="touchCommandParameter" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="touchCommandParameter">To be added.</param>
+        <summary>
+          <see cref="T:CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs" />
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TouchCommandParameter">
+      <MemberSignature Language="C#" Value="public object? TouchCommandParameter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TouchCommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs.TouchCommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TouchCommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.TouchCommandParameter : obj" Usage="CommunityToolkit.Maui.Core.TouchGestureCompletedEventArgs.TouchCommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the parameter associated with the touch event.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

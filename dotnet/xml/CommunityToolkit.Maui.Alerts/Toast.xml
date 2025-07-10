@@ -1,0 +1,255 @@
+<Type Name="Toast" FullName="CommunityToolkit.Maui.Alerts.Toast">
+  <TypeSignature Language="C#" Value="public class Toast : CommunityToolkit.Maui.Core.IToast, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Toast extends System.Object implements class CommunityToolkit.Maui.Core.IAlert, class CommunityToolkit.Maui.Core.IToast, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Alerts.Toast" />
+  <TypeSignature Language="VB.NET" Value="Public Class Toast&#xA;Implements IDisposable, IToast" />
+  <TypeSignature Language="F#" Value="type Toast = class&#xA;    interface IToast&#xA;    interface IAlert&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAlert</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IToast</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Toast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Toast.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dismiss">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task Dismiss (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task Dismiss(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Toast.Dismiss(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Dismiss (Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member Dismiss : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.Dismiss : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="toast.Dismiss token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.IAlert.Dismiss(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            Dismiss Toast
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Toast.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="toast.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Dispose Toast
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool isDisposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool isDisposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Toast.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (isDisposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="toast.Dispose isDisposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isDisposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isDisposing">To be added.</param>
+        <summary>
+            Dispose Toast
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.ToastDuration Duration { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.ToastDuration Duration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Toast.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As ToastDuration" />
+      <MemberSignature Language="F#" Value="member this.Duration : CommunityToolkit.Maui.Core.ToastDuration with get, set" Usage="CommunityToolkit.Maui.Alerts.Toast.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.ToastDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Make">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Core.IToast Make (string message, CommunityToolkit.Maui.Core.ToastDuration duration = CommunityToolkit.Maui.Core.ToastDuration.Short, double textSize = 14);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Maui.Core.IToast Make(string message, valuetype CommunityToolkit.Maui.Core.ToastDuration duration, float64 textSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Toast.Make(System.String,CommunityToolkit.Maui.Core.ToastDuration,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Make (message As String, Optional duration As ToastDuration = CommunityToolkit.Maui.Core.ToastDuration.Short, Optional textSize As Double = 14) As IToast" />
+      <MemberSignature Language="F#" Value="static member Make : string * CommunityToolkit.Maui.Core.ToastDuration * double -&gt; CommunityToolkit.Maui.Core.IToast" Usage="CommunityToolkit.Maui.Alerts.Toast.Make (message, duration, textSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.IToast</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="duration" Type="CommunityToolkit.Maui.Core.ToastDuration" />
+        <Parameter Name="textSize" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="message">Toast message</param>
+        <param name="duration">Toast duration</param>
+        <param name="textSize">Toast font size</param>
+        <summary>
+            Create new Toast
+            </summary>
+        <returns>New instance of Toast</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task Show (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task Show(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Toast.Show(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Show (Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member Show : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.Show : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="toast.Show token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.IAlert.Show(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            Show Toast
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Toast.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="CommunityToolkit.Maui.Alerts.Toast.Text" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="TextSize">
+      <MemberSignature Language="C#" Value="public double TextSize { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 TextSize" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Toast.TextSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextSize As Double" />
+      <MemberSignature Language="F#" Value="member this.TextSize : double with get, set" Usage="CommunityToolkit.Maui.Alerts.Toast.TextSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

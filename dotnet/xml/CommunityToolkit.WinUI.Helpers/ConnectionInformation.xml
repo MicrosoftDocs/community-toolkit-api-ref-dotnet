@@ -1,0 +1,230 @@
+<Type Name="ConnectionInformation" FullName="CommunityToolkit.WinUI.Helpers.ConnectionInformation">
+  <TypeSignature Language="C#" Value="public class ConnectionInformation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConnectionInformation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Helpers.ConnectionInformation" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConnectionInformation" />
+  <TypeSignature Language="F#" Value="type ConnectionInformation = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            This class exposes information about the network connectivity.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConnectionInformation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Helpers.ConnectionInformation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionCost">
+      <MemberSignature Language="C#" Value="public Windows.Networking.Connectivity.ConnectionCost? ConnectionCost { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Windows.Networking.Connectivity.ConnectionCost ConnectionCost" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectionCost" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionCost As ConnectionCost" />
+      <MemberSignature Language="F#" Value="member this.ConnectionCost : Windows.Networking.Connectivity.ConnectionCost" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectionCost" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Windows.Networking.Connectivity.ConnectionCost</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets connection cost for the current Internet Connection Profile.
+            </summary>
+        <value>value of <see cref="T:Windows.Networking.Connectivity.NetworkConnectivityLevel" /></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionType">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Helpers.ConnectionType ConnectionType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.Helpers.ConnectionType ConnectionType" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectionType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionType As ConnectionType" />
+      <MemberSignature Language="F#" Value="member this.ConnectionType : CommunityToolkit.WinUI.Helpers.ConnectionType" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Helpers.ConnectionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets connection type for the current Internet Connection Profile.
+            </summary>
+        <value>value of <see cref="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectionType" /></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectivityLevel">
+      <MemberSignature Language="C#" Value="public Windows.Networking.Connectivity.NetworkConnectivityLevel ConnectivityLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.Networking.Connectivity.NetworkConnectivityLevel ConnectivityLevel" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectivityLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectivityLevel As NetworkConnectivityLevel" />
+      <MemberSignature Language="F#" Value="member this.ConnectivityLevel : Windows.Networking.Connectivity.NetworkConnectivityLevel" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.ConnectivityLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Windows.Networking.Connectivity.NetworkConnectivityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets connectivity level for the current Internet Connection Profile.
+            </summary>
+        <value>value of <see cref="T:Windows.Networking.Connectivity.NetworkConnectivityLevel" /></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInternetAvailable">
+      <MemberSignature Language="C#" Value="public bool IsInternetAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInternetAvailable" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.IsInternetAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInternetAvailable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInternetAvailable : bool" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.IsInternetAvailable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether internet is available across all connections.
+            </summary>
+        <value>True if internet can be reached.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInternetOnMeteredConnection">
+      <MemberSignature Language="C#" Value="public bool IsInternetOnMeteredConnection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInternetOnMeteredConnection" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.IsInternetOnMeteredConnection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInternetOnMeteredConnection As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInternetOnMeteredConnection : bool" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.IsInternetOnMeteredConnection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether if the current internet connection is metered.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkNames">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; NetworkNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; NetworkNames" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.NetworkNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NetworkNames As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.NetworkNames : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.NetworkNames" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the network names associated with the current Internet Connection Profile.
+            </summary>
+        <value>value of <see cref="T:System.Collections.Generic.IReadOnlyList`1" /></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignalStrength">
+      <MemberSignature Language="C#" Value="public byte? SignalStrength { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;unsigned int8&gt; SignalStrength" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Helpers.ConnectionInformation.SignalStrength" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignalStrength As Nullable(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.SignalStrength : Nullable&lt;byte&gt;" Usage="CommunityToolkit.WinUI.Helpers.ConnectionInformation.SignalStrength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets signal strength for the current Internet Connection Profile.
+            </summary>
+        <value>value of <see cref="T:Windows.Networking.Connectivity.NetworkConnectivityLevel" /></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateConnectionInformation">
+      <MemberSignature Language="C#" Value="public void UpdateConnectionInformation (Windows.Networking.Connectivity.ConnectionProfile profile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateConnectionInformation(class Windows.Networking.Connectivity.ConnectionProfile profile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Helpers.ConnectionInformation.UpdateConnectionInformation(Windows.Networking.Connectivity.ConnectionProfile)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateConnectionInformation (profile As ConnectionProfile)" />
+      <MemberSignature Language="F#" Value="member this.UpdateConnectionInformation : Windows.Networking.Connectivity.ConnectionProfile -&gt; unit" Usage="connectionInformation.UpdateConnectionInformation profile" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Helpers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profile" Type="Windows.Networking.Connectivity.ConnectionProfile" />
+      </Parameters>
+      <Docs>
+        <param name="profile">instance of <see cref="T:Windows.Networking.Connectivity.ConnectionProfile" /></param>
+        <summary>
+            Updates  the current object based on profile passed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

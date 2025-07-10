@@ -7,11 +7,18 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Common</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Extensions to <see cref="T:System.EventHandler`1" /> for Deferred Events.
@@ -20,28 +27,43 @@
   </Docs>
   <Members>
     <Member MemberName="InvokeAsync&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task InvokeAsync&lt;T&gt; (this EventHandler&lt;T&gt; eventHandler, object sender, T eventArgs) where T : CommunityToolkit.Common.Deferred.DeferredEventArgs;" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task InvokeAsync&lt;T&gt; (this EventHandler&lt;T&gt;? eventHandler, object sender, T eventArgs) where T : CommunityToolkit.Common.Deferred.DeferredEventArgs;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task InvokeAsync&lt;(class CommunityToolkit.Common.Deferred.DeferredEventArgs) T&gt;(class System.EventHandler`1&lt;!!T&gt; eventHandler, object sender, !!T eventArgs) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Deferred.EventHandlerExtensions.InvokeAsync``1(System.EventHandler{``0},System.Object,``0)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function InvokeAsync(Of T As DeferredEventArgs) (eventHandler As EventHandler(Of T), sender As Object, eventArgs As T) As Task" />
       <MemberSignature Language="F#" Value="static member InvokeAsync : EventHandler&lt;'T (requires 'T :&gt; CommunityToolkit.Common.Deferred.DeferredEventArgs)&gt; * obj * 'T -&gt; System.Threading.Tasks.Task (requires 'T :&gt; CommunityToolkit.Common.Deferred.DeferredEventArgs)" Usage="CommunityToolkit.Common.Deferred.EventHandlerExtensions.InvokeAsync (eventHandler, sender, eventArgs)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task InvokeAsync&lt;T&gt; (this EventHandler&lt;T&gt; eventHandler, object sender, T eventArgs) where T : CommunityToolkit.Common.Deferred.DeferredEventArgs;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <BaseTypeName>CommunityToolkit.Common.Deferred.DeferredEventArgs</BaseTypeName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="eventHandler" Type="System.EventHandler&lt;T&gt;" RefType="this" />
+        <Parameter Name="eventHandler" Type="System.EventHandler&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="sender" Type="System.Object" />
         <Parameter Name="eventArgs" Type="T" />
       </Parameters>
@@ -62,28 +84,43 @@
       </Docs>
     </Member>
     <Member MemberName="InvokeAsync&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task InvokeAsync&lt;T&gt; (this EventHandler&lt;T&gt; eventHandler, object sender, T eventArgs, System.Threading.CancellationToken cancellationToken) where T : CommunityToolkit.Common.Deferred.DeferredEventArgs;" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task InvokeAsync&lt;T&gt; (this EventHandler&lt;T&gt;? eventHandler, object sender, T eventArgs, System.Threading.CancellationToken cancellationToken) where T : CommunityToolkit.Common.Deferred.DeferredEventArgs;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task InvokeAsync&lt;(class CommunityToolkit.Common.Deferred.DeferredEventArgs) T&gt;(class System.EventHandler`1&lt;!!T&gt; eventHandler, object sender, !!T eventArgs, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Common.Deferred.EventHandlerExtensions.InvokeAsync``1(System.EventHandler{``0},System.Object,``0,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function InvokeAsync(Of T As DeferredEventArgs) (eventHandler As EventHandler(Of T), sender As Object, eventArgs As T, cancellationToken As CancellationToken) As Task" />
       <MemberSignature Language="F#" Value="static member InvokeAsync : EventHandler&lt;'T (requires 'T :&gt; CommunityToolkit.Common.Deferred.DeferredEventArgs)&gt; * obj * 'T * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task (requires 'T :&gt; CommunityToolkit.Common.Deferred.DeferredEventArgs)" Usage="CommunityToolkit.Common.Deferred.EventHandlerExtensions.InvokeAsync (eventHandler, sender, eventArgs, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task InvokeAsync&lt;T&gt; (this EventHandler&lt;T&gt; eventHandler, object sender, T eventArgs, System.Threading.CancellationToken cancellationToken) where T : CommunityToolkit.Common.Deferred.DeferredEventArgs;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <BaseTypeName>CommunityToolkit.Common.Deferred.DeferredEventArgs</BaseTypeName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="eventHandler" Type="System.EventHandler&lt;T&gt;" RefType="this" />
+        <Parameter Name="eventHandler" Type="System.EventHandler&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="sender" Type="System.Object" />
         <Parameter Name="eventArgs" Type="T" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />

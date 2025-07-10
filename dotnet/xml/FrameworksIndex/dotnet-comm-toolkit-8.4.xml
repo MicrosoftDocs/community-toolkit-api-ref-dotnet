@@ -1,0 +1,1603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="dotnet-comm-toolkit-8.4">
+  <Assemblies>
+    <Assembly Name="CommunityToolkit.Common" Version="8.4.0.0" />
+    <Assembly Name="CommunityToolkit.Diagnostics" Version="8.4.0.0" />
+    <Assembly Name="CommunityToolkit.HighPerformance" Version="8.4.0.0" />
+    <Assembly Name="CommunityToolkit.Mvvm" Version="8.4.0.0" />
+  </Assemblies>
+  <Namespace Name="CommunityToolkit.Common">
+    <Type Name="CommunityToolkit.Common.ArrayExtensions" Id="T:CommunityToolkit.Common.ArrayExtensions">
+      <Member Id="M:CommunityToolkit.Common.ArrayExtensions.GetColumn``1(``0[][],System.Int32)" />
+      <Member Id="M:CommunityToolkit.Common.ArrayExtensions.ToArrayString``1(``0[])" />
+      <Member Id="M:CommunityToolkit.Common.ArrayExtensions.ToArrayString``1(``0[][])" />
+      <Member Id="M:CommunityToolkit.Common.ArrayExtensions.ToArrayString``1(``0[0:,0:])" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Converters" Id="T:CommunityToolkit.Common.Converters">
+      <Member Id="M:CommunityToolkit.Common.Converters.ToFileSizeString(System.Int64)" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.StringExtensions" Id="T:CommunityToolkit.Common.StringExtensions">
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.DecodeHtml(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.FixHtml(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.IsCharacterString(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.IsDecimal(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.IsEmail(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.IsNumeric(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.IsPhoneNumber(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.Truncate(System.String,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Common.StringExtensions.Truncate(System.String,System.Int32,System.Boolean)" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.TaskExtensions" Id="T:CommunityToolkit.Common.TaskExtensions">
+      <Member Id="M:CommunityToolkit.Common.TaskExtensions.GetResultOrDefault(System.Threading.Tasks.Task)" />
+      <Member Id="M:CommunityToolkit.Common.TaskExtensions.GetResultOrDefault``1(System.Threading.Tasks.Task{``0})" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Common.Collections">
+    <Type Name="CommunityToolkit.Common.Collections.IIncrementalSource`1" Id="T:CommunityToolkit.Common.Collections.IIncrementalSource`1">
+      <Member Id="M:CommunityToolkit.Common.Collections.IIncrementalSource`1.GetPagedItemsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Common.Deferred">
+    <Type Name="CommunityToolkit.Common.Deferred.DeferredCancelEventArgs" Id="T:CommunityToolkit.Common.Deferred.DeferredCancelEventArgs">
+      <Member Id="M:CommunityToolkit.Common.Deferred.DeferredCancelEventArgs.#ctor" />
+      <Member Id="P:CommunityToolkit.Common.Deferred.DeferredCancelEventArgs.Cancel" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Deferred.DeferredEventArgs" Id="T:CommunityToolkit.Common.Deferred.DeferredEventArgs">
+      <Member Id="M:CommunityToolkit.Common.Deferred.DeferredEventArgs.#ctor" />
+      <Member Id="M:CommunityToolkit.Common.Deferred.DeferredEventArgs.GetCurrentDeferralAndReset" />
+      <Member Id="M:CommunityToolkit.Common.Deferred.DeferredEventArgs.GetDeferral" />
+      <Member Id="P:CommunityToolkit.Common.Deferred.DeferredEventArgs.Empty" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Deferred.EventDeferral" Id="T:CommunityToolkit.Common.Deferred.EventDeferral">
+      <Member Id="M:CommunityToolkit.Common.Deferred.EventDeferral.Complete" />
+      <Member Id="M:CommunityToolkit.Common.Deferred.EventDeferral.Dispose" />
+      <Member Id="M:CommunityToolkit.Common.Deferred.EventDeferral.WaitForCompletion(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Deferred.EventHandlerExtensions" Id="T:CommunityToolkit.Common.Deferred.EventHandlerExtensions">
+      <Member Id="M:CommunityToolkit.Common.Deferred.EventHandlerExtensions.InvokeAsync``1(System.EventHandler{``0},System.Object,``0)" />
+      <Member Id="M:CommunityToolkit.Common.Deferred.EventHandlerExtensions.InvokeAsync``1(System.EventHandler{``0},System.Object,``0,System.Threading.CancellationToken)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Common.Extensions">
+    <Type Name="CommunityToolkit.Common.Extensions.ISettingsStorageHelperExtensions" Id="T:CommunityToolkit.Common.Extensions.ISettingsStorageHelperExtensions">
+      <Member Id="M:CommunityToolkit.Common.Extensions.ISettingsStorageHelperExtensions.Delete``1(CommunityToolkit.Helpers.ISettingsStorageHelper{``0},``0)" />
+      <Member Id="M:CommunityToolkit.Common.Extensions.ISettingsStorageHelperExtensions.GetValueOrDefault``2(CommunityToolkit.Helpers.ISettingsStorageHelper{``0},``0,``1)" />
+      <Member Id="M:CommunityToolkit.Common.Extensions.ISettingsStorageHelperExtensions.Read``2(CommunityToolkit.Helpers.ISettingsStorageHelper{``0},``0)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Common.Helpers">
+    <Type Name="CommunityToolkit.Common.Helpers.DirectoryItemType" Id="T:CommunityToolkit.Common.Helpers.DirectoryItemType">
+      <Member Id="F:CommunityToolkit.Common.Helpers.DirectoryItemType.File" />
+      <Member Id="F:CommunityToolkit.Common.Helpers.DirectoryItemType.Folder" />
+      <Member Id="F:CommunityToolkit.Common.Helpers.DirectoryItemType.None" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Helpers.IFileStorageHelper" Id="T:CommunityToolkit.Common.Helpers.IFileStorageHelper">
+      <Member Id="M:CommunityToolkit.Common.Helpers.IFileStorageHelper.CreateFileAsync``1(System.String,``0)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.IFileStorageHelper.CreateFolderAsync(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.IFileStorageHelper.ReadFileAsync``1(System.String,``0)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.IFileStorageHelper.ReadFolderAsync(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.IFileStorageHelper.TryDeleteItemAsync(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.IFileStorageHelper.TryRenameItemAsync(System.String,System.String)" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Helpers.IObjectSerializer" Id="T:CommunityToolkit.Common.Helpers.IObjectSerializer">
+      <Member Id="M:CommunityToolkit.Common.Helpers.IObjectSerializer.Deserialize``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.IObjectSerializer.Serialize``1(``0)" />
+    </Type>
+    <Type Name="CommunityToolkit.Common.Helpers.SystemSerializer" Id="T:CommunityToolkit.Common.Helpers.SystemSerializer">
+      <Member Id="M:CommunityToolkit.Common.Helpers.SystemSerializer.#ctor" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.SystemSerializer.Deserialize``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Common.Helpers.SystemSerializer.Serialize``1(``0)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Diagnostics">
+    <Type Name="CommunityToolkit.Diagnostics.Guard" Id="T:CommunityToolkit.Diagnostics.Guard">
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.CanRead(System.IO.Stream,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.CanSeek(System.IO.Stream,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.CanWrite(System.IO.Stream,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo(System.String,System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(``0[],``0[],System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(``0[],System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Memory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Memory{``0},System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlyMemory{``0},System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.ReadOnlySpan{``0},System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Span{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeEqualTo``1(System.Span{``0},System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(``0[],System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Collections.Generic.List{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Memory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.ReadOnlyMemory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.ReadOnlySpan{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThan``1(System.Span{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(``0[],System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Memory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeGreaterThanOrEqualTo``1(System.Span{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(``0[],System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Collections.Generic.List{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Memory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.ReadOnlyMemory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.ReadOnlySpan{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThan``1(System.Span{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo(System.String,System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(``0[],``0[],System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(``0[],System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Memory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Memory{``0},System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlyMemory{``0},System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.ReadOnlySpan{``0},System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Span{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeLessThanOrEqualTo``1(System.Span{``0},System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(``0[],System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Collections.Generic.ICollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Collections.Generic.List{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Memory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.ReadOnlyMemory{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.ReadOnlySpan{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasSizeNotEqualTo``1(System.Span{``0},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasStatusEqualTo(System.Threading.Tasks.Task,System.Threading.Tasks.TaskStatus,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.HasStatusNotEqualTo(System.Threading.Tasks.Task,System.Threading.Tasks.TaskStatus,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsAssignableToType(System.Object,System.Type,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsAssignableToType``1(System.Object,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsAtStartPosition(System.IO.Stream,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Byte,System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Char,System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Decimal,System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Int16,System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Int32,System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Int64,System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.IntPtr,System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.SByte,System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UInt16,System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UInt32,System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UInt64,System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetween``1(``0,``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Byte,System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Char,System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Decimal,System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Int16,System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Int32,System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Int64,System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.IntPtr,System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.SByte,System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UInt16,System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UInt32,System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UInt64,System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBetweenOrEqualTo``1(``0,``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsBitwiseEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCanceled(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Int32,System.Int32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Int64,System.Int64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.IntPtr,System.IntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCloseTo(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCompleted(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsCompletedSuccessfully(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsDefault``1(``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(``0[],System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Collections.Generic.IReadOnlyCollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Collections.Generic.List{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.ReadOnlyMemory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.ReadOnlySpan{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEmpty``1(System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo(System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalse(System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalse(System.Boolean,System.String,CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler@)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalse(System.Boolean,System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFaulted(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan(System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThan``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo(System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsGreaterThanOrEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Byte,System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Char,System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Decimal,System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Int16,System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Int32,System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Int64,System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.IntPtr,System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.SByte,System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UInt16,System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UInt32,System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UInt64,System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRange``1(``0,``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor(System.Int32,System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,``0[],System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Collections.Generic.IReadOnlyCollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Collections.Generic.List{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.ReadOnlyMemory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.ReadOnlySpan{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsInRangeFor``1(System.Int32,System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan(System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThan``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo(System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsLessThanOrEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotAssignableToType(System.Object,System.Type,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotAssignableToType``1(System.Object,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Byte,System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Char,System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Decimal,System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Int16,System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Int32,System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Int64,System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.IntPtr,System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.SByte,System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UInt16,System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UInt32,System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UInt64,System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetween``1(``0,``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Byte,System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Char,System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Decimal,System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Int16,System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Int32,System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Int64,System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.IntPtr,System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.SByte,System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UInt16,System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UInt32,System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UInt64,System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotBetweenOrEqualTo``1(``0,``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCanceled(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Int32,System.Int32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Int64,System.Int64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.IntPtr,System.IntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCloseTo(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCompleted(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotCompletedSuccessfully(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotDefault``1(``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(``0[],System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Collections.Generic.IReadOnlyCollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Collections.Generic.List{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.ReadOnlyMemory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.ReadOnlySpan{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEmpty``1(System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo(System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotFaulted(System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Byte,System.Byte,System.Byte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Char,System.Char,System.Char,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Decimal,System.Decimal,System.Decimal,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Double,System.Double,System.Double,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Int16,System.Int16,System.Int16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Int32,System.Int32,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Int64,System.Int64,System.Int64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.IntPtr,System.IntPtr,System.IntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.SByte,System.SByte,System.SByte,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.Single,System.Single,System.Single,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UInt16,System.UInt16,System.UInt16,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UInt32,System.UInt32,System.UInt32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UInt64,System.UInt64,System.UInt64,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange(System.UIntPtr,System.UIntPtr,System.UIntPtr,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRange``1(``0,``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor(System.Int32,System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,``0[],System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Collections.Generic.ICollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Collections.Generic.IReadOnlyCollection{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Collections.Generic.List{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Memory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.ReadOnlyMemory{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.ReadOnlySpan{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotInRangeFor``1(System.Int32,System.Span{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotNull``1(``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotNull``1(System.Nullable{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotNullOrEmpty(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotNullOrWhiteSpace(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotOfType(System.Object,System.Type,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotOfType``1(System.Object,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNotWhiteSpace(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNull``1(``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNull``1(System.Nullable{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNullOrEmpty(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsNullOrWhiteSpace(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsOfType(System.Object,System.Type,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsOfType``1(System.Object,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsReferenceEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsReferenceNotEqualTo``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrue(System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrue(System.Boolean,System.String,CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler@)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrue(System.Boolean,System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsWhiteSpace(System.String,System.String)" />
+    </Type>
+    <Type Name="CommunityToolkit.Diagnostics.Guard/IsFalseInterpolatedStringHandler" Id="T:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler">
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Boolean,System.Boolean@)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted(System.Object,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char})" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted``1(``0)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendFormatted``1(``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsFalseInterpolatedStringHandler.AppendLiteral(System.String)" />
+    </Type>
+    <Type Name="CommunityToolkit.Diagnostics.Guard/IsTrueInterpolatedStringHandler" Id="T:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler">
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Boolean,System.Boolean@)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted(System.Object,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char})" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char},System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted(System.String,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted``1(``0)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendFormatted``1(``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.Guard.IsTrueInterpolatedStringHandler.AppendLiteral(System.String)" />
+    </Type>
+    <Type Name="CommunityToolkit.Diagnostics.ThrowHelper" Id="T:CommunityToolkit.Diagnostics.ThrowHelper">
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException(System.String,System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentException``1(System.String,System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentNullException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String,System.Object,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String,System.Object,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArgumentOutOfRangeException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowArrayTypeMismatchException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException(System.String,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowCOMException``1(System.String,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException(System.String,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowExternalException``1(System.String,System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowFormatException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInsufficientMemoryException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidDataException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowInvalidOperationException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowLockRecursionException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingFieldException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMemberException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowMissingMethodException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowNotSupportedException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowObjectDisposedException``1(System.String,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String,System.Exception,System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException(System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String,System.Exception,System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowOperationCanceledException``1(System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowPlatformNotSupportedException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowSynchronizationLockException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowTimeoutException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowUnauthorizedAccessException``1(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception(System.String,System.Exception)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.Int32)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.Int32,System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.String)" />
+      <Member Id="M:CommunityToolkit.Diagnostics.ThrowHelper.ThrowWin32Exception``1(System.String,System.Exception)" />
+    </Type>
+    <Type Name="CommunityToolkit.Diagnostics.TypeExtensions" Id="T:CommunityToolkit.Diagnostics.TypeExtensions">
+      <Member Id="M:CommunityToolkit.Diagnostics.TypeExtensions.ToTypeString(System.Type)" />
+    </Type>
+    <Type Name="CommunityToolkit.Diagnostics.ValueTypeExtensions" Id="T:CommunityToolkit.Diagnostics.ValueTypeExtensions">
+      <Member Id="M:CommunityToolkit.Diagnostics.ValueTypeExtensions.ToHexString``1(``0)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Helpers">
+    <Type Name="CommunityToolkit.Helpers.ISettingsStorageHelper`1" Id="T:CommunityToolkit.Helpers.ISettingsStorageHelper`1">
+      <Member Id="M:CommunityToolkit.Helpers.ISettingsStorageHelper`1.Clear" />
+      <Member Id="M:CommunityToolkit.Helpers.ISettingsStorageHelper`1.Save``1(`0,``0)" />
+      <Member Id="M:CommunityToolkit.Helpers.ISettingsStorageHelper`1.TryDelete(`0)" />
+      <Member Id="M:CommunityToolkit.Helpers.ISettingsStorageHelper`1.TryRead``1(`0,``0@)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.HighPerformance">
+    <Type Name="CommunityToolkit.HighPerformance.ArrayExtensions" Id="T:CommunityToolkit.HighPerformance.ArrayExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory``1(``0[0:,0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory``1(``0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory2D``1(``0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory2D``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsMemory2D``1(``0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan``1(``0[0:,0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan``1(``0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan2D``1(``0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan2D``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.AsSpan2D``1(``0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.Count``1(``0[],``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.Count``1(``0[0:,0:,0:],``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.Count``1(``0[0:,0:],``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReference``1(``0[])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReference``1(``0[0:,0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReference``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReferenceAt``1(``0[],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReferenceAt``1(``0[0:,0:,0:],System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.DangerousGetReferenceAt``1(``0[0:,0:],System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.Enumerate``1(``0[])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetColumn``1(``0[0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetDjb2HashCode``1(``0[])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetDjb2HashCode``1(``0[0:,0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetDjb2HashCode``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetRow``1(``0[0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetRowMemory``1(``0[0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.GetRowSpan``1(``0[0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.IsCovariant``1(``0[])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.IsCovariant``1(``0[0:,0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.IsCovariant``1(``0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayExtensions.Tokenize``1(``0[],``0)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ArrayPoolBufferWriterExtensions" Id="T:CommunityToolkit.HighPerformance.ArrayPoolBufferWriterExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayPoolBufferWriterExtensions.AsStream(CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter{System.Byte})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ArrayPoolExtensions" Id="T:CommunityToolkit.HighPerformance.ArrayPoolExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayPoolExtensions.EnsureCapacity``1(System.Buffers.ArrayPool{``0},``0[]@,System.Int32,System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ArrayPoolExtensions.Resize``1(System.Buffers.ArrayPool{``0},``0[]@,System.Int32,System.Boolean)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.BoolExtensions" Id="T:CommunityToolkit.HighPerformance.BoolExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.BoolExtensions.ToBitwiseMask32(System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.BoolExtensions.ToBitwiseMask64(System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.BoolExtensions.ToByte(System.Boolean)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Box`1" Id="T:CommunityToolkit.HighPerformance.Box`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.DangerousGetFrom(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.GetFrom(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.GetHashCode" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.op_Implicit(`0)~CommunityToolkit.HighPerformance.Box{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.op_Implicit(CommunityToolkit.HighPerformance.Box{`0})~`0" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.ToString" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Box`1.TryGetFrom(System.Object,CommunityToolkit.HighPerformance.Box{`0}@)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.BoxExtensions" Id="T:CommunityToolkit.HighPerformance.BoxExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.BoxExtensions.GetReference``1(CommunityToolkit.HighPerformance.Box{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.HashCodeExtensions" Id="T:CommunityToolkit.HighPerformance.HashCodeExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.HashCodeExtensions.Add``1(System.HashCode@,System.ReadOnlySpan{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.IBufferWriterExtensions" Id="T:CommunityToolkit.HighPerformance.IBufferWriterExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.AsStream(System.Buffers.IBufferWriter{System.Byte})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{``0},``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{System.Byte},``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.IBufferWriterExtensions.Write``1(System.Buffers.IBufferWriter{System.Byte},System.ReadOnlySpan{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.IMemoryOwnerExtensions" Id="T:CommunityToolkit.HighPerformance.IMemoryOwnerExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.IMemoryOwnerExtensions.AsStream(System.Buffers.IMemoryOwner{System.Byte})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ListExtensions" Id="T:CommunityToolkit.HighPerformance.ListExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ListExtensions.AsSpan``1(System.Collections.Generic.List{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Memory2D`1" Id="T:CommunityToolkit.HighPerformance.Memory2D`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[],System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.CopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.CopyTo(System.Memory{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.DangerousCreate(System.Object,`0@,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.Equals(CommunityToolkit.HighPerformance.Memory2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.GetHashCode" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.Memory2D{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.Pin" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.ToArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.ToString" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.TryCopyTo(System.Memory{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Memory2D`1.TryGetMemory(System.Memory{`0}@)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.Empty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.Height" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.IsEmpty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.Item(System.Range,System.Range)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.Length" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.Span" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Memory2D`1.Width" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.MemoryExtensions" Id="T:CommunityToolkit.HighPerformance.MemoryExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.MemoryExtensions.AsBytes``1(System.Memory{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.MemoryExtensions.AsMemory2D``1(System.Memory{``0},System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.MemoryExtensions.AsMemory2D``1(System.Memory{``0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.MemoryExtensions.AsStream(System.Memory{System.Byte})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.MemoryExtensions.Cast``2(System.Memory{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.NullableExtensions" Id="T:CommunityToolkit.HighPerformance.NullableExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableExtensions.DangerousGetValueOrDefaultReference``1(System.Nullable{``0}@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableExtensions.DangerousGetValueOrNullReference``1(System.Nullable{``0}@)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.NullableReadOnlyRef`1" Id="T:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.#ctor(`0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.op_Explicit(CommunityToolkit.HighPerformance.NullableReadOnlyRef{`0})~`0" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.op_Implicit(CommunityToolkit.HighPerformance.NullableRef{`0})~CommunityToolkit.HighPerformance.NullableReadOnlyRef{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.op_Implicit(CommunityToolkit.HighPerformance.ReadOnlyRef{`0})~CommunityToolkit.HighPerformance.NullableReadOnlyRef{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.op_Implicit(CommunityToolkit.HighPerformance.Ref{`0})~CommunityToolkit.HighPerformance.NullableReadOnlyRef{`0}" />
+      <Member Id="P:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.HasValue" />
+      <Member Id="P:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.Null" />
+      <Member Id="P:CommunityToolkit.HighPerformance.NullableReadOnlyRef`1.Value" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.NullableRef`1" Id="T:CommunityToolkit.HighPerformance.NullableRef`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableRef`1.#ctor(`0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableRef`1.op_Explicit(CommunityToolkit.HighPerformance.NullableRef{`0})~`0" />
+      <Member Id="M:CommunityToolkit.HighPerformance.NullableRef`1.op_Implicit(CommunityToolkit.HighPerformance.Ref{`0})~CommunityToolkit.HighPerformance.NullableRef{`0}" />
+      <Member Id="P:CommunityToolkit.HighPerformance.NullableRef`1.HasValue" />
+      <Member Id="P:CommunityToolkit.HighPerformance.NullableRef`1.Null" />
+      <Member Id="P:CommunityToolkit.HighPerformance.NullableRef`1.Value" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1" Id="T:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[],System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(System.String,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.CopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.CopyTo(System.Memory{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.DangerousCreate(System.Object,`0@,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Equals(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.GetHashCode" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.ReadOnlyMemory2D{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.op_Implicit(CommunityToolkit.HighPerformance.Memory2D{`0})~CommunityToolkit.HighPerformance.ReadOnlyMemory2D{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Pin" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.ToArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.ToString" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Memory2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.TryCopyTo(System.Memory{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.TryGetMemory(System.ReadOnlyMemory{`0}@)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Empty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Height" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.IsEmpty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Item(System.Range,System.Range)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Length" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Span" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyMemory2D`1.Width" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions" Id="T:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.AsBytes``1(System.ReadOnlyMemory{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.AsMemory2D``1(System.ReadOnlyMemory{``0},System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.AsMemory2D``1(System.ReadOnlyMemory{``0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.AsStream(System.ReadOnlyMemory{System.Byte})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyMemoryExtensions.Cast``2(System.ReadOnlyMemory{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlyRef`1" Id="T:CommunityToolkit.HighPerformance.ReadOnlyRef`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyRef`1.#ctor(`0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyRef`1.#ctor(System.Void*)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyRef`1.op_Implicit(CommunityToolkit.HighPerformance.ReadOnlyRef{`0})~`0" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlyRef`1.op_Implicit(CommunityToolkit.HighPerformance.Ref{`0})~CommunityToolkit.HighPerformance.ReadOnlyRef{`0}" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlyRef`1.Value" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions" Id="T:CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions.AsStream(System.Buffers.ReadOnlySequence{System.Byte})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" Id="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[],System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.#ctor(System.Void*,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.CopyTo(CommunityToolkit.HighPerformance.Span2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.CopyTo(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.DangerousCreate(`0@,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.DangerousGetReference" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.DangerousGetReferenceAt(System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetColumn(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetHashCode" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetPinnableReference" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetRow(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetRowSpan(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Equality(CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0},CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Implicit(CommunityToolkit.HighPerformance.Span2D{`0})~CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.op_Inequality(CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0},CommunityToolkit.HighPerformance.ReadOnlySpan2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.ToArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.ToString" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Span2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.TryCopyTo(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.TryGetSpan(System.ReadOnlySpan{`0}@)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Empty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Height" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.IsEmpty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Index,System.Index)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Int32,System.Int32)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Range,System.Range)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Length" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Width" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlySpan2D`1/Enumerator" Id="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Enumerator.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.ReadOnlySpanExtensions" Id="T:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.AsBytes``1(System.ReadOnlySpan{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.AsSpan2D``1(System.ReadOnlySpan{``0},System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.AsSpan2D``1(System.ReadOnlySpan{``0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Cast``2(System.ReadOnlySpan{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.CopyTo``1(System.ReadOnlySpan{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Count``1(System.ReadOnlySpan{``0},``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetLookupReferenceAt``1(System.ReadOnlySpan{``0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetReference``1(System.ReadOnlySpan{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetReferenceAt``1(System.ReadOnlySpan{``0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.DangerousGetReferenceAt``1(System.ReadOnlySpan{``0},System.IntPtr)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Enumerate``1(System.ReadOnlySpan{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.GetDjb2HashCode``1(System.ReadOnlySpan{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.IndexOf``1(System.ReadOnlySpan{``0},``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.Tokenize``1(System.ReadOnlySpan{``0},``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.ReadOnlySpanExtensions.TryCopyTo``1(System.ReadOnlySpan{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Ref`1" Id="T:CommunityToolkit.HighPerformance.Ref`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Ref`1.#ctor(`0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Ref`1.#ctor(System.Void*)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Ref`1.op_Implicit(CommunityToolkit.HighPerformance.Ref{`0})~`0" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Ref`1.Value" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Span2D`1" Id="T:CommunityToolkit.HighPerformance.Span2D`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[],System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:,0:],System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:])" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(`0[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.#ctor(System.Void*,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.Clear" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.CopyTo(CommunityToolkit.HighPerformance.Span2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.CopyTo(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.DangerousCreate(`0@,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.DangerousGetReference" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.DangerousGetReferenceAt(System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.Equals(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.Fill(`0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.GetColumn(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.GetHashCode" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.GetPinnableReference" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.GetRow(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.GetRowSpan(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.op_Equality(CommunityToolkit.HighPerformance.Span2D{`0},CommunityToolkit.HighPerformance.Span2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.op_Implicit(`0[0:,0:])~CommunityToolkit.HighPerformance.Span2D{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.op_Inequality(CommunityToolkit.HighPerformance.Span2D{`0},CommunityToolkit.HighPerformance.Span2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.ToArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.ToString" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.TryCopyTo(CommunityToolkit.HighPerformance.Span2D{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.TryCopyTo(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.TryGetSpan(System.Span{`0}@)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Empty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Height" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.IsEmpty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Item(System.Index,System.Index)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Item(System.Int32,System.Int32)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Item(System.Range,System.Range)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Length" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Width" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Span2D`1/Enumerator" Id="T:CommunityToolkit.HighPerformance.Span2D`1.Enumerator">
+      <Member Id="M:CommunityToolkit.HighPerformance.Span2D`1.Enumerator.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Span2D`1.Enumerator.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.SpanExtensions" Id="T:CommunityToolkit.HighPerformance.SpanExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.AsBytes``1(System.Span{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.AsSpan2D``1(System.Span{``0},System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.AsSpan2D``1(System.Span{``0},System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.Cast``2(System.Span{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.CopyTo``1(System.Span{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.Count``1(System.Span{``0},``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReference``1(System.Span{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReferenceAt``1(System.Span{``0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.DangerousGetReferenceAt``1(System.Span{``0},System.IntPtr)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.Enumerate``1(System.Span{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.GetDjb2HashCode``1(System.Span{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.IndexOf``1(System.Span{``0},``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.Tokenize``1(System.Span{``0},``0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpanExtensions.TryCopyTo``1(System.Span{``0},CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{``0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.SpinLockExtensions" Id="T:CommunityToolkit.HighPerformance.SpinLockExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.SpinLockExtensions.Enter(System.Threading.SpinLock*)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.SpinLockExtensions.Enter(System.Threading.SpinLock@)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.SpinLockExtensions/Lock" Id="T:CommunityToolkit.HighPerformance.SpinLockExtensions.Lock">
+      <Member Id="M:CommunityToolkit.HighPerformance.SpinLockExtensions.Lock.Dispose" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.SpinLockExtensions/UnsafeLock" Id="T:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock">
+      <Member Id="M:CommunityToolkit.HighPerformance.SpinLockExtensions.UnsafeLock.Dispose" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.StreamExtensions" Id="T:CommunityToolkit.HighPerformance.StreamExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.StreamExtensions.Read(System.IO.Stream,System.Span{System.Byte})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StreamExtensions.Read``1(System.IO.Stream)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StreamExtensions.ReadAsync(System.IO.Stream,System.Memory{System.Byte},System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StreamExtensions.Write(System.IO.Stream,System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StreamExtensions.Write``1(System.IO.Stream,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StreamExtensions.WriteAsync(System.IO.Stream,System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.StringExtensions" Id="T:CommunityToolkit.HighPerformance.StringExtensions">
+      <Member Id="M:CommunityToolkit.HighPerformance.StringExtensions.Count(System.String,System.Char)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StringExtensions.DangerousGetReference(System.String)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StringExtensions.DangerousGetReferenceAt(System.String,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StringExtensions.Enumerate(System.String)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StringExtensions.GetDjb2HashCode(System.String)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.StringExtensions.Tokenize(System.String,System.Char)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.HighPerformance.Buffers">
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.AllocationMode" Id="T:CommunityToolkit.HighPerformance.Buffers.AllocationMode">
+      <Member Id="F:CommunityToolkit.HighPerformance.Buffers.AllocationMode.Clear" />
+      <Member Id="F:CommunityToolkit.HighPerformance.Buffers.AllocationMode.Default" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1" Id="T:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor(System.Buffers.ArrayPool{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor(System.Buffers.ArrayPool{`0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.#ctor(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Advance(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Clear" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.DangerousGetArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Dispose" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.GetMemory(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.GetSpan(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.ToString" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.Capacity" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.FreeCapacity" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.System#Buffers#IMemoryOwner&lt;T&gt;#Memory" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.WrittenCount" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.WrittenMemory" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.ArrayPoolBufferWriter`1.WrittenSpan" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.IBuffer`1" Id="T:CommunityToolkit.HighPerformance.Buffers.IBuffer`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.Clear" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.Capacity" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.FreeCapacity" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.WrittenCount" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.WrittenMemory" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.IBuffer`1.WrittenSpan" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1" Id="T:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.#ctor(System.Memory{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.Advance(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.Clear" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.GetMemory(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.GetSpan(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.ToString" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.Capacity" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.FreeCapacity" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.WrittenCount" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.WrittenMemory" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryBufferWriter`1.WrittenSpan" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1" Id="T:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32,CommunityToolkit.HighPerformance.Buffers.AllocationMode)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0},CommunityToolkit.HighPerformance.Buffers.AllocationMode)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.DangerousGetArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.DangerousGetReference" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Dispose" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Slice(System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.ToString" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Empty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Length" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Memory" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.MemoryOwner`1.Span" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.SpanOwner`1" Id="T:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32,CommunityToolkit.HighPerformance.Buffers.AllocationMode)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Allocate(System.Int32,System.Buffers.ArrayPool{`0},CommunityToolkit.HighPerformance.Buffers.AllocationMode)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.DangerousGetArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.DangerousGetReference" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Dispose" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.ToString" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Empty" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Length" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.SpanOwner`1.Span" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Buffers.StringPool" Id="T:CommunityToolkit.HighPerformance.Buffers.StringPool">
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.#ctor" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.#ctor(System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.Add(System.String)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.GetOrAdd(System.ReadOnlySpan{System.Byte},System.Text.Encoding)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.GetOrAdd(System.ReadOnlySpan{System.Char})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.GetOrAdd(System.String)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.Reset" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Buffers.StringPool.TryGet(System.ReadOnlySpan{System.Char},System.String@)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.StringPool.Shared" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Buffers.StringPool.Size" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.HighPerformance.Enumerables">
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1" Id="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.CopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.CopyTo(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.DangerousCreate(`0@,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.op_Implicit(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})~CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable{`0}" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.ToArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.TryCopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.TryCopyTo(System.Span{`0})" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Item(System.Index)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Item(System.Int32)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Length" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1/Enumerator" Id="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Enumerator.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1" Id="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.#ctor(System.ReadOnlySpan{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1/Item" Id="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item.#ctor(`0@,System.Int32)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item.Index" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanEnumerable`1.Item.Value" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1" Id="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.#ctor(System.ReadOnlySpan{`0},`0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlySpanTokenizer`1.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1" Id="T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Clear" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.CopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.CopyTo(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.DangerousCreate(`0@,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Fill(`0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.ToArray" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.TryCopyFrom(System.ReadOnlySpan{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.TryCopyTo(CommunityToolkit.HighPerformance.Enumerables.RefEnumerable{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.TryCopyTo(System.Span{`0})" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Item(System.Index)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Item(System.Int32)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Length" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1/Enumerator" Id="T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.Enumerator.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1" Id="T:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.#ctor(System.Span{`0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Current" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1/Item" Id="T:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item.#ctor(`0@,System.Int32)" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item.Index" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.SpanEnumerable`1.Item.Value" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1" Id="T:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.#ctor(System.Span{`0},`0)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.MoveNext" />
+      <Member Id="P:CommunityToolkit.HighPerformance.Enumerables.SpanTokenizer`1.Current" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.HighPerformance.Helpers">
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.BitHelper" Id="T:CommunityToolkit.HighPerformance.Helpers.BitHelper">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.ExtractRange(System.UInt32,System.Byte,System.Byte)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.ExtractRange(System.UInt64,System.Byte,System.Byte)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasByteEqualTo(System.UInt32,System.Byte)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasByteEqualTo(System.UInt64,System.Byte)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasFlag(System.UInt32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasFlag(System.UInt64,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasLookupFlag(System.UInt32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasLookupFlag(System.UInt64,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasZeroByte(System.UInt32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.HasZeroByte(System.UInt64)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt32,System.Int32,System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt32@,System.Int32,System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt64,System.Int32,System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetFlag(System.UInt64@,System.Int32,System.Boolean)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt32,System.Byte,System.Byte,System.UInt32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt32@,System.Byte,System.Byte,System.UInt32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt64,System.Byte,System.Byte,System.UInt64)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.BitHelper.SetRange(System.UInt64@,System.Byte,System.Byte,System.UInt64)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.HashCode`1" Id="T:CommunityToolkit.HighPerformance.Helpers.HashCode`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.HashCode`1.Combine(System.ReadOnlySpan{`0})" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.IAction" Id="T:CommunityToolkit.HighPerformance.Helpers.IAction">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.IAction.Invoke(System.Int32)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.IAction2D" Id="T:CommunityToolkit.HighPerformance.Helpers.IAction2D">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.IAction2D.Invoke(System.Int32,System.Int32)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.IInAction`1" Id="T:CommunityToolkit.HighPerformance.Helpers.IInAction`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.IInAction`1.Invoke(`0@|System.Runtime.InteropServices.InAttribute)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.IRefAction`1" Id="T:CommunityToolkit.HighPerformance.Helpers.IRefAction`1">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.IRefAction`1.Invoke(`0@)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.ObjectMarshal" Id="T:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.DangerousGetObjectDataByteOffset``1(System.Object,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.DangerousGetObjectDataReferenceAt``1(System.Object,System.IntPtr)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.DangerousUnbox``1(System.Object)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ObjectMarshal.TryUnbox``1(System.Object,``0@)" />
+    </Type>
+    <Type Name="CommunityToolkit.HighPerformance.Helpers.ParallelHelper" Id="T:CommunityToolkit.HighPerformance.Helpers.ParallelHelper">
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32,``0@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Range)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Range,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Range,``0@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For``1(System.Range,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle,``0@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Drawing.Rectangle,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32,``0@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Range,System.Range)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Range,System.Range,``0@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Range,System.Range,``0@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.For2D``1(System.Range,System.Range,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0},``1@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0},``1@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.Memory2D{``0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0},``1@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0},``1@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(CommunityToolkit.HighPerformance.ReadOnlyMemory2D{``0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0},``1@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0},``1@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.Memory{``0},System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0})" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0},``1@)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0},``1@,System.Int32)" />
+      <Member Id="M:CommunityToolkit.HighPerformance.Helpers.ParallelHelper.ForEach``2(System.ReadOnlyMemory{``0},System.Int32)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.Collections">
+    <Type Name="CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup" Id="T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup">
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup.Count" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup.Item(System.Int32)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup.Key" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`1" Id="T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`1">
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`1.Key" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2" Id="T:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2">
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.IReadOnlyObservableGroup`2.Item(System.Int32)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.ObservableGroup`2" Id="T:CommunityToolkit.Mvvm.Collections.ObservableGroup`2">
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.#ctor(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.#ctor(`0,System.Collections.Generic.IEnumerable{`1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.#ctor(System.Linq.IGrouping{`0,`1})" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Item(System.Int32)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Key" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ObservableGroup`2.Key" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2" Id="T:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2">
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.#ctor(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{`0,`1}})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Collections#Generic#IEnumerable&lt;System#Linq#IGrouping&lt;TKey,TElement&gt;&gt;#GetEnumerator" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Linq#ILookup&lt;TKey,TElement&gt;#Contains(`0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection`2.System#Linq#ILookup&lt;TKey,TElement&gt;#Item(`0)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions" Id="T:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions">
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IEnumerable{``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},System.Linq.IGrouping{``0,``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.AddItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.FirstGroupByKey``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.FirstGroupByKeyOrDefault``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IComparer{``0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IEnumerable{``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},System.Linq.IGrouping{``0,``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},System.Linq.IGrouping{``0,``1},System.Collections.Generic.IComparer{``0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.InsertItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,System.Collections.Generic.IComparer{``0},``1,System.Collections.Generic.IComparer{``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.RemoveGroup``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ObservableGroupedCollectionExtensions.RemoveItem``2(CommunityToolkit.Mvvm.Collections.ObservableGroupedCollection{``0,``1},``0,``1,System.Boolean)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2" Id="T:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2">
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.#ctor(`0,System.Collections.ObjectModel.ObservableCollection{`1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.#ctor(CommunityToolkit.Mvvm.Collections.ObservableGroup{`0,`1})" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Item(System.Int32)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.CommunityToolkit#Mvvm#Collections#IReadOnlyObservableGroup#Key" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup`2.Key" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2" Id="T:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2">
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.#ctor(System.Collections.ObjectModel.ObservableCollection{CommunityToolkit.Mvvm.Collections.ObservableGroup{`0,`1}})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.#ctor(System.Collections.ObjectModel.ObservableCollection{CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroup{`0,`1}})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Collections#Generic#IEnumerable&lt;System#Linq#IGrouping&lt;TKey,TElement&gt;&gt;#GetEnumerator" />
+      <Member Id="M:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Linq#ILookup&lt;TKey,TElement&gt;#Contains(`0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Collections.ReadOnlyObservableGroupedCollection`2.System#Linq#ILookup&lt;TKey,TElement&gt;#Item(`0)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.ComponentModel.__Internals">
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorHelper" Id="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorHelper">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorHelper.ValidateProperty(CommunityToolkit.Mvvm.ComponentModel.ObservableValidator,System.Object,System.String)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions" Id="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.GetAwaitableWithoutEndValidation(System.Threading.Tasks.Task)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions/TaskAwaitableWithoutEndValidation" Id="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.#ctor(System.Threading.Tasks.Task)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.GetAwaiter" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions/TaskAwaitableWithoutEndValidation/Awaiter" Id="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.#ctor(System.Threading.Tasks.Task)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.GetResult" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.OnCompleted(System.Action)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.UnsafeOnCompleted(System.Action)" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.__Internals.__TaskExtensions.TaskAwaitableWithoutEndValidation.Awaiter.IsCompleted" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.ComponentModel">
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute.#ctor" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute.IncludeAdditionalHelperMethods" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute.#ctor(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute.#ctor(System.String,System.String[])" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.NotifyCanExecuteChangedForAttribute.CommandNames" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.NotifyDataErrorInfoAttribute.#ctor" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute.#ctor(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute.#ctor(System.String,System.String[])" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedForAttribute.PropertyNames" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute.#ctor" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableObject" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject">
+      <Member Id="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanged" />
+      <Member Id="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanging" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanged(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanging(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0,``0,System.Action{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``1(``0@,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier@,System.Threading.Tasks.Task,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion``1(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.SetPropertyAndNotifyOnCompletion``1(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableObject/TaskNotifier" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier.op_Implicit(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier)~System.Threading.Tasks.Task" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableObject/TaskNotifier`1" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier`1.op_Implicit(CommunityToolkit.Mvvm.ComponentModel.ObservableObject.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute.#ctor" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute.#ctor" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.#ctor(CommunityToolkit.Mvvm.Messaging.IMessenger)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.Broadcast``1(``0,``0,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnActivated" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnDeactivated" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0,``0,System.Action{``0},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0@,``0,System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Boolean,System.String)" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.IsActive" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.Messenger" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableRecipientAttribute" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipientAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipientAttribute.#ctor" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.ComponentModel.ObservableValidator" Id="T:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator">
+      <Member Id="E:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ErrorsChanged" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor(System.Collections.Generic.IDictionary{System.Object,System.Object})" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor(System.ComponentModel.DataAnnotations.ValidationContext)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.#ctor(System.IServiceProvider,System.Collections.Generic.IDictionary{System.Object,System.Object})" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ClearErrors(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.GetErrors(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0,``0,System.Action{``0},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0@,``0,System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Boolean,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.System#ComponentModel#INotifyDataErrorInfo#GetErrors(System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0,``0,System.Action{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0@,``0,System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ValidateAllProperties" />
+      <Member Id="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ValidateProperty(System.Object,System.String)" />
+      <Member Id="P:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.HasErrors" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.DependencyInjection">
+    <Type Name="CommunityToolkit.Mvvm.DependencyInjection.Ioc" Id="T:CommunityToolkit.Mvvm.DependencyInjection.Ioc">
+      <Member Id="M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.ConfigureServices(System.IServiceProvider)" />
+      <Member Id="M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.GetRequiredService``1" />
+      <Member Id="M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.GetService(System.Type)" />
+      <Member Id="M:CommunityToolkit.Mvvm.DependencyInjection.Ioc.GetService``1" />
+      <Member Id="P:CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.Input">
+    <Type Name="CommunityToolkit.Mvvm.Input.AsyncRelayCommand" Id="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand">
+      <Member Id="E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CanExecuteChanged" />
+      <Member Id="E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.PropertyChanged" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Func{System.Boolean})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Func{System.Boolean},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.Cancel" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CanExecute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.Execute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.ExecuteAsync(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.NotifyCanExecuteChanged" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.CanBeCanceled" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.ExecutionTask" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.IsCancellationRequested" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand.IsRunning" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1" Id="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1">
+      <Member Id="E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanExecuteChanged" />
+      <Member Id="E:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.PropertyChanged" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Predicate{`0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Predicate{`0},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Predicate{`0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Predicate{`0},CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.Cancel" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanExecute(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanExecute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.Execute(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.Execute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.ExecuteAsync(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.ExecuteAsync(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.NotifyCanExecuteChanged" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.CanBeCanceled" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.ExecutionTask" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.IsCancellationRequested" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.AsyncRelayCommand`1.IsRunning" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions" Id="T:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions">
+      <Member Id="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.AllowConcurrentExecutions" />
+      <Member Id="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.FlowExceptionsToTaskScheduler" />
+      <Member Id="F:CommunityToolkit.Mvvm.Input.AsyncRelayCommandOptions.None" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" Id="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand">
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.Cancel" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.ExecuteAsync(System.Object)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.CanBeCanceled" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.ExecutionTask" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.IsCancellationRequested" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand.IsRunning" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1" Id="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1.ExecuteAsync(`0)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions" Id="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions">
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IAsyncRelayCommandExtensions.CreateCancelCommand(CommunityToolkit.Mvvm.Input.IAsyncRelayCommand)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.IRelayCommand" Id="T:CommunityToolkit.Mvvm.Input.IRelayCommand">
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IRelayCommand.NotifyCanExecuteChanged" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.IRelayCommand`1" Id="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IRelayCommand`1.CanExecute(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.IRelayCommand`1.Execute(`0)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.RelayCommand" Id="T:CommunityToolkit.Mvvm.Input.RelayCommand">
+      <Member Id="E:CommunityToolkit.Mvvm.Input.RelayCommand.CanExecuteChanged" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand.#ctor(System.Action)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand.#ctor(System.Action,System.Func{System.Boolean})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand.CanExecute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand.Execute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand.NotifyCanExecuteChanged" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.RelayCommand`1" Id="T:CommunityToolkit.Mvvm.Input.RelayCommand`1">
+      <Member Id="E:CommunityToolkit.Mvvm.Input.RelayCommand`1.CanExecuteChanged" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0},System.Predicate{`0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.CanExecute(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.CanExecute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.Execute(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.Execute(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.NotifyCanExecuteChanged" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Input.RelayCommandAttribute" Id="T:CommunityToolkit.Mvvm.Input.RelayCommandAttribute">
+      <Member Id="M:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.#ctor" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.AllowConcurrentExecutions" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.CanExecute" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.FlowExceptionsToTaskScheduler" />
+      <Member Id="P:CommunityToolkit.Mvvm.Input.RelayCommandAttribute.IncludeCancelCommand" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.Messaging">
+    <Type Name="CommunityToolkit.Mvvm.Messaging.IMessenger" Id="T:CommunityToolkit.Mvvm.Messaging.IMessenger">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.Cleanup" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.IsRegistered``2(System.Object,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.Register``3(``0,``2,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.Reset" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.Send``2(``0,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.Unregister``2(System.Object,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.UnregisterAll(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessenger.UnregisterAll``1(System.Object,``0)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.IMessengerExtensions" Id="T:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable``1(CommunityToolkit.Mvvm.Messaging.IMessenger)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.IsRegistered``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``1(CommunityToolkit.Mvvm.Messaging.IMessenger,CommunityToolkit.Mvvm.Messaging.IRecipient{``0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,CommunityToolkit.Mvvm.Messaging.MessageHandler{System.Object,``0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``0,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``2(CommunityToolkit.Mvvm.Messaging.IMessenger,CommunityToolkit.Mvvm.Messaging.IRecipient{``0},``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Register``2(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,``1,CommunityToolkit.Mvvm.Messaging.MessageHandler{System.Object,``0})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.RegisterAll(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.RegisterAll``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``1(CommunityToolkit.Mvvm.Messaging.IMessenger)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``1(CommunityToolkit.Mvvm.Messaging.IMessenger,``0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Unregister``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.IRecipient`1" Id="T:CommunityToolkit.Mvvm.Messaging.IRecipient`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.IRecipient`1.Receive(`0)" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.MessageHandler`2" Id="T:CommunityToolkit.Mvvm.Messaging.MessageHandler`2" />
+    <Type Name="CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger" Id="T:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.CommunityToolkit#Mvvm#Messaging#IMessenger#Cleanup" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.IsRegistered``2(System.Object,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Register``3(``0,``2,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Reset" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Send``2(``0,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Unregister``2(System.Object,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.UnregisterAll(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.UnregisterAll``1(System.Object,``0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.StrongReferenceMessenger.Default" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger" Id="T:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Cleanup" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.IsRegistered``2(System.Object,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Register``3(``0,``2,CommunityToolkit.Mvvm.Messaging.MessageHandler{``0,``1})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Reset" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Send``2(``0,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Unregister``2(System.Object,``1)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.UnregisterAll(System.Object)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.UnregisterAll``1(System.Object,``0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger.Default" />
+    </Type>
+  </Namespace>
+  <Namespace Name="CommunityToolkit.Mvvm.Messaging.Messages">
+    <Type Name="CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1" Id="T:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.GetAsyncEnumerator(System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.GetResponsesAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.Reply(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.Reply(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}})" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.Reply(System.Threading.Tasks.Task{`0})" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.AsyncCollectionRequestMessage`1.CancellationToken" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1" Id="T:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.GetAwaiter" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.Reply(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.Reply(System.Threading.Tasks.Task{`0})" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.HasReceivedResponse" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.AsyncRequestMessage`1.Response" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1" Id="T:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.GetEnumerator" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.Reply(`0)" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.CollectionRequestMessage`1.Responses" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1" Id="T:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.#ctor(System.Object,System.String,`0,`0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.NewValue" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.OldValue" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.PropertyName" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1.Sender" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1" Id="T:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.#ctor" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.op_Implicit(CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage{`0})~`0" />
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.Reply(`0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.HasReceivedResponse" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.RequestMessage`1.Response" />
+    </Type>
+    <Type Name="CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1" Id="T:CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1">
+      <Member Id="M:CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1.#ctor(`0)" />
+      <Member Id="P:CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage`1.Value" />
+    </Type>
+  </Namespace>
+</Framework>

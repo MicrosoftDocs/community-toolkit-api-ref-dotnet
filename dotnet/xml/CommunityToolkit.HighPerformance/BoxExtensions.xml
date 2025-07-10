@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,8 +30,9 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
@@ -43,7 +45,14 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="box" Type="CommunityToolkit.HighPerformance.Box&lt;T&gt;" RefType="this" />
+        <Parameter Name="box" Type="CommunityToolkit.HighPerformance.Box&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of reference to retrieve.</typeparam>

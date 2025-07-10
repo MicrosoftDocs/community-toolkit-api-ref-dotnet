@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -17,13 +18,17 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
       <AttributeName Language="C#">[System.CodeDom.Compiler.GeneratedCode("Microsoft.UI.Xaml.Markup.Compiler", " 0.0.0.0")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.CodeDom.Compiler.GeneratedCode("Microsoft.UI.Xaml.Markup.Compiler", " 0.0.0.0")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Diagnostics.DebuggerNonUserCode]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerNonUserCode&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.1">
+      <AttributeName Language="C#">[System.CodeDom.Compiler.GeneratedCode("Microsoft.UI.Xaml.Markup.Compiler", " 1.0.0.0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.CodeDom.Compiler.GeneratedCode("Microsoft.UI.Xaml.Markup.Compiler", " 1.0.0.0")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -40,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -60,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.UI.Xaml.Markup.IXamlType</ReturnType>
@@ -87,9 +94,10 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
           <AttributeName Language="C#">[Windows.Foundation.Metadata.DefaultOverload]</AttributeName>
           <AttributeName Language="F#">[&lt;Windows.Foundation.Metadata.DefaultOverload&gt;]</AttributeName>
         </Attribute>
@@ -120,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI.DeveloperTools</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.UI.Xaml.Markup.XmlnsDefinition[]</ReturnType>
