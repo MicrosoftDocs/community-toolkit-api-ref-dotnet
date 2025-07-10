@@ -1,0 +1,98 @@
+<Type Name="AppThemeObjectExtensions" FullName="CommunityToolkit.Maui.Extensions.AppThemeObjectExtensions">
+  <TypeSignature Language="C#" Value="public static class AppThemeObjectExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppThemeObjectExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Extensions.AppThemeObjectExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AppThemeObjectExtensions" />
+  <TypeSignature Language="F#" Value="type AppThemeObjectExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            This class contains static extension methods for use with <see cref="T:Microsoft.Maui.Controls.BindableObject" /> objects.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SetAppTheme&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static void SetAppTheme&lt;T&gt; (this Microsoft.Maui.Controls.BindableObject self, Microsoft.Maui.Controls.BindableProperty targetProperty, CommunityToolkit.Maui.AppThemeObject&lt;T&gt; appThemeResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAppTheme&lt;T&gt;(class Microsoft.Maui.Controls.BindableObject self, class Microsoft.Maui.Controls.BindableProperty targetProperty, class CommunityToolkit.Maui.AppThemeObject`1&lt;!!T&gt; appThemeResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.AppThemeObjectExtensions.SetAppTheme``1(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty,CommunityToolkit.Maui.AppThemeObject{``0})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetAppTheme(Of T) (self As BindableObject, targetProperty As BindableProperty, appThemeResource As AppThemeObject(Of T))" />
+      <MemberSignature Language="F#" Value="static member SetAppTheme : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.BindableProperty * CommunityToolkit.Maui.AppThemeObject&lt;'T&gt; -&gt; unit" Usage="CommunityToolkit.Maui.Extensions.AppThemeObjectExtensions.SetAppTheme (self, targetProperty, appThemeResource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="self" Type="Microsoft.Maui.Controls.BindableObject" RefType="this" />
+        <Parameter Name="targetProperty" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="appThemeResource" Type="CommunityToolkit.Maui.AppThemeObject&lt;T&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="self">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> on which the <paramref name="appThemeResource" /> will be applied to the provided property in <paramref name="targetProperty" />.</param>
+        <param name="targetProperty">The <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> on which to set the <paramref name="appThemeResource" />.</param>
+        <param name="appThemeResource">The <see cref="T:CommunityToolkit.Maui.AppThemeObject" /> to apply to <paramref name="targetProperty" />.</param>
+        <summary>
+            Sets the <see cref="T:CommunityToolkit.Maui.AppThemeObject" /> to the provided <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> of the given <see cref="T:Microsoft.Maui.Controls.BindableObject" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAppThemeColor">
+      <MemberSignature Language="C#" Value="public static void SetAppThemeColor (this Microsoft.Maui.Controls.BindableObject self, Microsoft.Maui.Controls.BindableProperty targetProperty, CommunityToolkit.Maui.AppThemeColor appThemeColor);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAppThemeColor(class Microsoft.Maui.Controls.BindableObject self, class Microsoft.Maui.Controls.BindableProperty targetProperty, class CommunityToolkit.Maui.AppThemeColor appThemeColor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.AppThemeObjectExtensions.SetAppThemeColor(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty,CommunityToolkit.Maui.AppThemeColor)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetAppThemeColor (self As BindableObject, targetProperty As BindableProperty, appThemeColor As AppThemeColor)" />
+      <MemberSignature Language="F#" Value="static member SetAppThemeColor : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.BindableProperty * CommunityToolkit.Maui.AppThemeColor -&gt; unit" Usage="CommunityToolkit.Maui.Extensions.AppThemeObjectExtensions.SetAppThemeColor (self, targetProperty, appThemeColor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="self" Type="Microsoft.Maui.Controls.BindableObject" RefType="this" />
+        <Parameter Name="targetProperty" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="appThemeColor" Type="CommunityToolkit.Maui.AppThemeColor" />
+      </Parameters>
+      <Docs>
+        <param name="self">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> on which the <paramref name="appThemeColor" /> will be applied to the provided property in <paramref name="targetProperty" />.</param>
+        <param name="targetProperty">The <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> on which to set the <paramref name="appThemeColor" />.</param>
+        <param name="appThemeColor">The <see cref="T:CommunityToolkit.Maui.AppThemeColor" /> to apply to <paramref name="targetProperty" />.</param>
+        <summary>
+            Sets the <see cref="T:CommunityToolkit.Maui.AppThemeColor" /> to the provided <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> of the given <see cref="T:Microsoft.Maui.Controls.BindableObject" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

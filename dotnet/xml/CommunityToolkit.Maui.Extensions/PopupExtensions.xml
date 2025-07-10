@@ -1,0 +1,569 @@
+<Type Name="PopupExtensions" FullName="CommunityToolkit.Maui.Extensions.PopupExtensions">
+  <TypeSignature Language="C#" Value="public static class PopupExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PopupExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Extensions.PopupExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PopupExtensions" />
+  <TypeSignature Language="F#" Value="type PopupExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods that provide support for the display of a popup.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClosePopupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt; ClosePopupAsync (this Microsoft.Maui.Controls.INavigation navigation, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult&gt; ClosePopupAsync(class Microsoft.Maui.Controls.INavigation navigation, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync(Microsoft.Maui.Controls.INavigation,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ClosePopupAsync (navigation As INavigation, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult)" />
+      <MemberSignature Language="F#" Value="static member ClosePopupAsync : Microsoft.Maui.Controls.INavigation * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync (navigation, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="navigation" Type="Microsoft.Maui.Controls.INavigation" RefType="this" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="navigation">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Closes the most recent popup and returns an <see cref="T:CommunityToolkit.Maui.Core.IPopupResult" /> that provides details about the closure.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosePopupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt; ClosePopupAsync (this Microsoft.Maui.Controls.Page page, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult&gt; ClosePopupAsync(class Microsoft.Maui.Controls.Page page, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync(Microsoft.Maui.Controls.Page,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ClosePopupAsync (page As Page, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult)" />
+      <MemberSignature Language="F#" Value="static member ClosePopupAsync : Microsoft.Maui.Controls.Page * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync (page, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" RefType="this" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="page">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Closes the most recent popup and returns an <see cref="T:CommunityToolkit.Maui.Core.IPopupResult" /> that provides details about the closure.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosePopupAsync&lt;TResult&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt; ClosePopupAsync&lt;TResult&gt; (this Microsoft.Maui.Controls.INavigation navigation, TResult result, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult`1&lt;!!TResult&gt;&gt; ClosePopupAsync&lt;TResult&gt;(class Microsoft.Maui.Controls.INavigation navigation, !!TResult result, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync``1(Microsoft.Maui.Controls.INavigation,``0,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ClosePopupAsync(Of TResult) (navigation As INavigation, result As TResult, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult(Of TResult))" />
+      <MemberSignature Language="F#" Value="static member ClosePopupAsync : Microsoft.Maui.Controls.INavigation * 'Result * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;'Result&gt;&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync (navigation, result, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="navigation" Type="Microsoft.Maui.Controls.INavigation" RefType="this" />
+        <Parameter Name="result" Type="TResult" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResult">To be added.</typeparam>
+        <param name="navigation">To be added.</param>
+        <param name="result">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Closes the most recent popup and returns an <see cref="T:CommunityToolkit.Maui.Core.IPopupResult`1" /> that provides details about the closure.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosePopupAsync&lt;TResult&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt; ClosePopupAsync&lt;TResult&gt; (this Microsoft.Maui.Controls.Page page, TResult result, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult`1&lt;!!TResult&gt;&gt; ClosePopupAsync&lt;TResult&gt;(class Microsoft.Maui.Controls.Page page, !!TResult result, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync``1(Microsoft.Maui.Controls.Page,``0,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ClosePopupAsync(Of TResult) (page As Page, result As TResult, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult(Of TResult))" />
+      <MemberSignature Language="F#" Value="static member ClosePopupAsync : Microsoft.Maui.Controls.Page * 'Result * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;'Result&gt;&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ClosePopupAsync (page, result, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" RefType="this" />
+        <Parameter Name="result" Type="TResult" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResult">To be added.</typeparam>
+        <param name="page">To be added.</param>
+        <param name="result">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Closes the most recent popup and returns an <see cref="T:CommunityToolkit.Maui.Core.IPopupResult`1" /> that provides details about the closure.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopup">
+      <MemberSignature Language="C#" Value="public static void ShowPopup (this Microsoft.Maui.Controls.INavigation navigation, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ShowPopup(class Microsoft.Maui.Controls.INavigation navigation, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup(Microsoft.Maui.Controls.INavigation,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ShowPopup (navigation As INavigation, view As View, Optional options As IPopupOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="static member ShowPopup : Microsoft.Maui.Controls.INavigation * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions -&gt; unit" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup (navigation, view, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="navigation" Type="Microsoft.Maui.Controls.INavigation" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="navigation">The <see cref="T:Microsoft.Maui.Controls.INavigation" /> implementation responsible for displaying the popup. Make sure to use the one associated with the <see cref="T:Microsoft.Maui.Controls.Window" /> that you wish the popup to be displayed on.</param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <remarks>This is an <see langword="async" /><see langword="void" /> method. Use <see cref="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" /> to <see langword="await" /> this method</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopup">
+      <MemberSignature Language="C#" Value="public static void ShowPopup (this Microsoft.Maui.Controls.Page page, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ShowPopup(class Microsoft.Maui.Controls.Page page, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ShowPopup (page As Page, view As View, Optional options As IPopupOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="static member ShowPopup : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions -&gt; unit" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup (page, view, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="page">The current page that provides access to the <see cref="T:Microsoft.Maui.Controls.INavigation" /> implementation.</param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <remarks>This is an <see langword="async" /><see langword="void" /> method. Use <see cref="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" /> to <see langword="await" /> this method and return <see cref="T:CommunityToolkit.Maui.PopupResult`1" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopup">
+      <MemberSignature Language="C#" Value="public static void ShowPopup (this Microsoft.Maui.Controls.Shell shell, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default, System.Collections.Generic.IDictionary&lt;string,object&gt;? shellParameters = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ShowPopup(class Microsoft.Maui.Controls.Shell shell, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; shellParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup(Microsoft.Maui.Controls.Shell,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ShowPopup (shell As Shell, view As View, Optional options As IPopupOptions = Nothing, Optional shellParameters As IDictionary(Of String, Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="static member ShowPopup : Microsoft.Maui.Controls.Shell * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Collections.Generic.IDictionary&lt;string, obj&gt; -&gt; unit" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopup (shell, view, options, shellParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="shell" Type="Microsoft.Maui.Controls.Shell" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="shellParameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="shell">Current <see cref="T:Microsoft.Maui.Controls.Shell" /></param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="shellParameters">Parameters that will be passed into the <paramref name="view" /> or its associated BindingContext if they implement <see cref="T:Microsoft.Maui.Controls.IQueryAttributable" />.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <remarks>This is an <see langword="async" /><see langword="void" /> method. Use <see cref="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" /> to <see langword="await" /> this method</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt; ShowPopupAsync (this Microsoft.Maui.Controls.INavigation navigation, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult&gt; ShowPopupAsync(class Microsoft.Maui.Controls.INavigation navigation, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync(Microsoft.Maui.Controls.INavigation,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowPopupAsync (navigation As INavigation, view As View, options As IPopupOptions, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult)" />
+      <MemberSignature Language="F#" Value="static member ShowPopupAsync : Microsoft.Maui.Controls.INavigation * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync (navigation, view, options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="navigation" Type="Microsoft.Maui.Controls.INavigation" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="navigation">The <see cref="T:Microsoft.Maui.Controls.INavigation" /> implementation responsible for displaying the popup. Make sure to use the one associated with the <see cref="T:Microsoft.Maui.Controls.Window" /> that you wish the popup to be displayed on.</param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="token">A <see cref="T:System.Threading.CancellationToken" /> providing support for canceling the wait for a result to be returned. This will <b>not</b> close the popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Maui.Core.IPopupResult" /> when the popup is closed or the <paramref name="token" /> is canceled. Make sure to check the <see cref="P:CommunityToolkit.Maui.Core.IPopupResult.WasDismissedByTappingOutsideOfPopup" /> value to determine how the popup was closed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt; ShowPopupAsync (this Microsoft.Maui.Controls.Page page, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult&gt; ShowPopupAsync(class Microsoft.Maui.Controls.Page page, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowPopupAsync (page As Page, view As View, Optional options As IPopupOptions = Nothing, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult)" />
+      <MemberSignature Language="F#" Value="static member ShowPopupAsync : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync (page, view, options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="page">The current page that provides access to the <see cref="T:Microsoft.Maui.Controls.INavigation" /> implementation.</param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="token">A <see cref="T:System.Threading.CancellationToken" /> providing support for canceling the wait for a result to be returned. This will <b>not</b> close the popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Maui.Core.IPopupResult" /> when the popup is closed or the <paramref name="token" /> is canceled. Make sure to check the <see cref="P:CommunityToolkit.Maui.Core.IPopupResult.WasDismissedByTappingOutsideOfPopup" /> value to determine how the popup was closed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt; ShowPopupAsync (this Microsoft.Maui.Controls.Shell shell, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options, System.Collections.Generic.IDictionary&lt;string,object&gt;? shellParameters = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult&gt; ShowPopupAsync(class Microsoft.Maui.Controls.Shell shell, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; shellParameters, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync(Microsoft.Maui.Controls.Shell,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowPopupAsync (shell As Shell, view As View, options As IPopupOptions, Optional shellParameters As IDictionary(Of String, Object) = Nothing, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult)" />
+      <MemberSignature Language="F#" Value="static member ShowPopupAsync : Microsoft.Maui.Controls.Shell * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Collections.Generic.IDictionary&lt;string, obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync (shell, view, options, shellParameters, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="shell" Type="Microsoft.Maui.Controls.Shell" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="shellParameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="shell">Current <see cref="T:Microsoft.Maui.Controls.Shell" /></param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="shellParameters">Parameters that will be passed into the <paramref name="view" /> or its associated BindingContext if they implement <see cref="T:Microsoft.Maui.Controls.IQueryAttributable" />.</param>
+        <param name="token">A <see cref="T:System.Threading.CancellationToken" /> providing support for canceling the wait for a result to be returned. This will <b>not</b> close the popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Maui.Core.IPopupResult" /> when the popup is closed or the <paramref name="token" /> is cancelled. Make sure to check the <see cref="P:CommunityToolkit.Maui.Core.IPopupResult.WasDismissedByTappingOutsideOfPopup" /> value to determine how the popup was closed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopupAsync&lt;TResult&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt; ShowPopupAsync&lt;TResult&gt; (this Microsoft.Maui.Controls.INavigation navigation, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult`1&lt;!!TResult&gt;&gt; ShowPopupAsync&lt;TResult&gt;(class Microsoft.Maui.Controls.INavigation navigation, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync``1(Microsoft.Maui.Controls.INavigation,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowPopupAsync(Of TResult) (navigation As INavigation, view As View, Optional options As IPopupOptions = Nothing, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult(Of TResult))" />
+      <MemberSignature Language="F#" Value="static member ShowPopupAsync : Microsoft.Maui.Controls.INavigation * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;'Result&gt;&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync (navigation, view, options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="navigation" Type="Microsoft.Maui.Controls.INavigation" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResult">To be added.</typeparam>
+        <param name="navigation">The <see cref="T:Microsoft.Maui.Controls.INavigation" /> implementation responsible for displaying the popup. Make sure to use the one associated with the <see cref="T:Microsoft.Maui.Controls.Window" /> that you wish the popup to be displayed on.</param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="token">A <see cref="T:System.Threading.CancellationToken" /> providing support for canceling the wait for a result to be returned. This will <b>not</b> close the popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Maui.Core.IPopupResult`1" /> when the popup is closed or the <paramref name="token" /> is canceled. Make sure to check the <see cref="P:CommunityToolkit.Maui.Core.IPopupResult.WasDismissedByTappingOutsideOfPopup" /> value to determine how the popup was closed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopupAsync&lt;TResult&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt; ShowPopupAsync&lt;TResult&gt; (this Microsoft.Maui.Controls.Page page, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult`1&lt;!!TResult&gt;&gt; ShowPopupAsync&lt;TResult&gt;(class Microsoft.Maui.Controls.Page page, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync``1(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowPopupAsync(Of TResult) (page As Page, view As View, Optional options As IPopupOptions = Nothing, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult(Of TResult))" />
+      <MemberSignature Language="F#" Value="static member ShowPopupAsync : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;'Result&gt;&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync (page, view, options, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="page" Type="Microsoft.Maui.Controls.Page" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResult">To be added.</typeparam>
+        <param name="page">The current page that provides access to the <see cref="T:Microsoft.Maui.Controls.INavigation" /> implementation.</param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="token">A <see cref="T:System.Threading.CancellationToken" /> providing support for canceling the wait for a result to be returned. This will <b>not</b> close the popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Maui.Core.IPopupResult" /> when the popup is closed or the <paramref name="token" /> is canceled. Make sure to check the <see cref="P:CommunityToolkit.Maui.Core.IPopupResult.WasDismissedByTappingOutsideOfPopup" /> value to determine how the popup was closed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPopupAsync&lt;TResult&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt; ShowPopupAsync&lt;TResult&gt; (this Microsoft.Maui.Controls.Shell shell, Microsoft.Maui.Controls.View view, CommunityToolkit.Maui.IPopupOptions? options = default, System.Collections.Generic.IDictionary&lt;string,object&gt;? shellParameters = default, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Core.IPopupResult`1&lt;!!TResult&gt;&gt; ShowPopupAsync&lt;TResult&gt;(class Microsoft.Maui.Controls.Shell shell, class Microsoft.Maui.Controls.View view, class CommunityToolkit.Maui.IPopupOptions options, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; shellParameters, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync``1(Microsoft.Maui.Controls.Shell,Microsoft.Maui.Controls.View,CommunityToolkit.Maui.IPopupOptions,System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowPopupAsync(Of TResult) (shell As Shell, view As View, Optional options As IPopupOptions = Nothing, Optional shellParameters As IDictionary(Of String, Object) = Nothing, Optional token As CancellationToken = Nothing) As Task(Of IPopupResult(Of TResult))" />
+      <MemberSignature Language="F#" Value="static member ShowPopupAsync : Microsoft.Maui.Controls.Shell * Microsoft.Maui.Controls.View * CommunityToolkit.Maui.IPopupOptions * System.Collections.Generic.IDictionary&lt;string, obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;'Result&gt;&gt;" Usage="CommunityToolkit.Maui.Extensions.PopupExtensions.ShowPopupAsync (shell, view, options, shellParameters, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Core.IPopupResult&lt;TResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="shell" Type="Microsoft.Maui.Controls.Shell" RefType="this" />
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.View" />
+        <Parameter Name="options" Type="CommunityToolkit.Maui.IPopupOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="shellParameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResult">To be added.</typeparam>
+        <param name="shell">Current <see cref="T:Microsoft.Maui.Controls.Shell" /></param>
+        <param name="view">The <see cref="T:Microsoft.Maui.Controls.View" /> that will be displayed as the content in the popup.</param>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.IPopupOptions" /> that enable support for customizing the display and behavior of the presented popup.</param>
+        <param name="shellParameters">Parameters that will be passed into the <paramref name="view" /> or its associated BindingContext if they implement <see cref="T:Microsoft.Maui.Controls.IQueryAttributable" />.</param>
+        <param name="token">A <see cref="T:System.Threading.CancellationToken" /> providing support for canceling the wait for a result to be returned. This will <b>not</b> close the popup.</param>
+        <summary>
+            Shows a popup with the specified options.
+            </summary>
+        <returns>An <see cref="T:CommunityToolkit.Maui.Core.IPopupResult`1" /> when the popup is closed or the <paramref name="token" /> is canceled. Make sure to check the <see cref="P:CommunityToolkit.Maui.Core.IPopupResult.WasDismissedByTappingOutsideOfPopup" /> value to determine how the popup was closed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

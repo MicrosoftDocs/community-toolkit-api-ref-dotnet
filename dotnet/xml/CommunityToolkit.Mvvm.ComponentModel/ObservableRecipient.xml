@@ -7,11 +7,18 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>CommunityToolkit.Mvvm.ComponentModel.ObservableObject</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             A base class for observable objects that also acts as recipients for messages. This class is an extension of
@@ -29,6 +36,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -51,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="messenger" Type="CommunityToolkit.Mvvm.Messaging.IMessenger" />
@@ -61,6 +70,7 @@
             Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient" /> class.
             </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Broadcast&lt;T&gt;">
@@ -73,17 +83,32 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
         <Parameter Name="newValue" Type="T" />
-        <Parameter Name="propertyName" Type="System.String" />
+        <Parameter Name="propertyName" Type="System.String">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the property that changed.</typeparam>
@@ -110,7 +135,18 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[set: System.Diagnostics.CodeAnalysis.RequiresDynamicCode("When this property is set to true, the OnActivated() method will be invoked, which will register all necessary message handlers for this recipient. This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If that is present, the method is AOT safe, as the only methods being invoked to register the messages will be the ones produced by the source generator. If it isn't, this method will need to dynamically create the generic methods to register messages, which might not be available at runtime. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Diagnostics.CodeAnalysis.RequiresDynamicCode("When this property is set to true, the OnActivated() method will be invoked, which will register all necessary message handlers for this recipient. This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If that is present, the method is AOT safe, as the only methods being invoked to register the messages will be the ones produced by the source generator. If it isn't, this method will need to dynamically create the generic methods to register messages, which might not be available at runtime. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[set: System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("When this property is set to true, the OnActivated() method will be invoked, which will register all necessary message handlers for this recipient. This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("When this property is set to true, the OnActivated() method will be invoked, which will register all necessary message handlers for this recipient. This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -132,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.Mvvm.Messaging.IMessenger</ReturnType>
@@ -154,14 +191,25 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresDynamicCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If that is present, the method is AOT safe, as the only methods being invoked to register the messages will be the ones produced by the source generator. If it isn't, this method will need to dynamically create the generic methods to register messages, which might not be available at runtime. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresDynamicCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If that is present, the method is AOT safe, as the only methods being invoked to register the messages will be the ones produced by the source generator. If it isn't, this method will need to dynamically create the generic methods to register messages, which might not be available at runtime. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type. Alternatively, OnActivated() can be manually overwritten, and registration can be done individually for each required message for this recipient.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
         <summary>
-            Raised whenever the <see cref="P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.IsActive" /> property is set to <see langword="true" />.
+            Invoked whenever the <see cref="P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.IsActive" /> property is set to <see langword="true" />.
             Use this method to register to messages and do other initialization for this instance.
             </summary>
         <remarks>
@@ -183,6 +231,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -190,7 +239,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Raised whenever the <see cref="P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.IsActive" /> property is set to <see langword="false" />.
+            Invoked whenever the <see cref="P:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.IsActive" /> property is set to <see langword="false" />.
             Use this method to unregister from messages and do general cleanup for this instance.
             </summary>
         <remarks>
@@ -211,15 +260,30 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="field" Type="T" RefType="ref" />
+        <Parameter Name="field" Type="T" RefType="ref">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="newValue" Type="T" />
         <Parameter Name="broadcast" Type="System.Boolean" />
         <Parameter Name="propertyName" Type="System.String">
@@ -227,6 +291,10 @@
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -262,12 +330,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -279,6 +355,10 @@
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -305,6 +385,7 @@
             the <see cref="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanging" /> and <see cref="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanged" /> events
             are not raised if the current and new value for the target property are the same.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="callback" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;T&gt;">
@@ -317,15 +398,30 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="field" Type="T" RefType="ref" />
+        <Parameter Name="field" Type="T" RefType="ref">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="newValue" Type="T" />
         <Parameter Name="comparer" Type="System.Collections.Generic.IEqualityComparer&lt;T&gt;" />
         <Parameter Name="broadcast" Type="System.Boolean" />
@@ -334,6 +430,10 @@
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -354,6 +454,7 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;T&gt;">
@@ -366,12 +467,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -384,6 +493,10 @@
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -405,6 +518,7 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" /> or <paramref name="callback" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;TModel,T&gt;">
@@ -417,6 +531,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -427,7 +542,14 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -440,6 +562,10 @@
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -464,6 +590,7 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="model" /> or <paramref name="callback" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;TModel,T&gt;">
@@ -476,6 +603,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -486,7 +614,14 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -500,6 +635,10 @@
             <Attribute>
               <AttributeName Language="C#">[System.Runtime.CompilerServices.CallerMemberName]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CallerMemberName&gt;]</AttributeName>
+            </Attribute>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -526,6 +665,7 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" />, <paramref name="model" /> or <paramref name="callback" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
   </Members>

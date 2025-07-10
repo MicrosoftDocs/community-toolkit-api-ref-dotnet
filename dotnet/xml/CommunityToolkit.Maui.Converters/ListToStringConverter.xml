@@ -1,0 +1,142 @@
+<Type Name="ListToStringConverter" FullName="CommunityToolkit.Maui.Converters.ListToStringConverter">
+  <TypeSignature Language="C#" Value="public class ListToStringConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;System.Collections.IEnumerable,string,string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ListToStringConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`3&lt;class System.Collections.IEnumerable, string, string&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.ListToStringConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class ListToStringConverter&#xA;Inherits BaseConverterOneWay(Of IEnumerable, String, String)" />
+  <TypeSignature Language="F#" Value="type ListToStringConverter = class&#xA;    inherit BaseConverterOneWay&lt;IEnumerable, string, string&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;System.Collections.IEnumerable,System.String,System.String&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Collections.IEnumerable</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.String</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Concatenates the members of a collection, using the specified separator between each member.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ListToStringConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ListToStringConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override string ConvertFrom (System.Collections.IEnumerable value, string? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ConvertFrom(class System.Collections.IEnumerable value, string parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ListToStringConverter.ConvertFrom(System.Collections.IEnumerable,System.String,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As IEnumerable, Optional parameter As String = Nothing, Optional culture As CultureInfo = Nothing) As String" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : System.Collections.IEnumerable * string * System.Globalization.CultureInfo -&gt; string" Usage="listToStringConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Collections.IEnumerable" />
+        <Parameter Name="parameter" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">The collection to convert.</param>
+        <param name="parameter">The separator that should be between each collection item. This overrides the value in <see cref="P:CommunityToolkit.Maui.Converters.ListToStringConverter.Separator" />.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Concatenates the items of a collection, using the specified <see cref="P:CommunityToolkit.Maui.Converters.ListToStringConverter.Separator" /> between each item. On each item ToString() will be called.
+            </summary>
+        <returns>Concatenated members string separated by <see cref="P:CommunityToolkit.Maui.Converters.ListToStringConverter.Separator" /> or, if set, <paramref name="parameter" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override string DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.ListToStringConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As String" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : string with get, set" Usage="CommunityToolkit.Maui.Converters.ListToStringConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Separator">
+      <MemberSignature Language="C#" Value="public string Separator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Separator" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.ListToStringConverter.Separator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Separator As String" />
+      <MemberSignature Language="F#" Value="member this.Separator : string with get, set" Usage="CommunityToolkit.Maui.Converters.ListToStringConverter.Separator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value that separates each item in the collection
+            This value is superseded by the ConverterParameter, if provided
+            If ConverterParameter is null, this Separator property will be used for the <see cref="T:CommunityToolkit.Maui.Converters.ListToStringConverter" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

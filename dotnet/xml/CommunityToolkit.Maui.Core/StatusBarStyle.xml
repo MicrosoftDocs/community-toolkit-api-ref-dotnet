@@ -1,0 +1,85 @@
+<Type Name="StatusBarStyle" FullName="CommunityToolkit.Maui.Core.StatusBarStyle">
+  <TypeSignature Language="C#" Value="public enum StatusBarStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StatusBarStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.StatusBarStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StatusBarStyle" />
+  <TypeSignature Language="F#" Value="type StatusBarStyle = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Enum that represents the possible style values for the device
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DarkContent">
+      <MemberSignature Language="C#" Value="DarkContent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.StatusBarStyle DarkContent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.StatusBarStyle.DarkContent" />
+      <MemberSignature Language="VB.NET" Value="DarkContent" />
+      <MemberSignature Language="F#" Value="DarkContent = 2" Usage="CommunityToolkit.Maui.Core.StatusBarStyle.DarkContent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.StatusBarStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Dark style value
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.StatusBarStyle Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.StatusBarStyle.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="CommunityToolkit.Maui.Core.StatusBarStyle.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.StatusBarStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The default style value
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LightContent">
+      <MemberSignature Language="C#" Value="LightContent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.StatusBarStyle LightContent = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.StatusBarStyle.LightContent" />
+      <MemberSignature Language="VB.NET" Value="LightContent" />
+      <MemberSignature Language="F#" Value="LightContent = 1" Usage="CommunityToolkit.Maui.Core.StatusBarStyle.LightContent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.StatusBarStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Light style value
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

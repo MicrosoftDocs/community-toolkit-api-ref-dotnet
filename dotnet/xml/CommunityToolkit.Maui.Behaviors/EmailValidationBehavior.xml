@@ -1,0 +1,217 @@
+<Type Name="EmailValidationBehavior" FullName="CommunityToolkit.Maui.Behaviors.EmailValidationBehavior">
+  <TypeSignature Language="C#" Value="public class EmailValidationBehavior : CommunityToolkit.Maui.Behaviors.TextValidationBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailValidationBehavior extends CommunityToolkit.Maui.Behaviors.TextValidationBehavior" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailValidationBehavior&#xA;Inherits TextValidationBehavior" />
+  <TypeSignature Language="F#" Value="type EmailValidationBehavior = class&#xA;    inherit TextValidationBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.TextValidationBehavior</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("EmailValidationBehavior is not trim safe because it uses bindings with string paths.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("EmailValidationBehavior is not trim safe because it uses bindings with string paths.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior" /> is a behavior that allows users to determine whether or not text input is a valid e-mail address. 
+            For example, an <see cref="T:Microsoft.Maui.Controls.Entry" /> control can be styled differently depending on whether a valid or an invalid e-mail address is provided.
+            The validation is achieved through a regular expression that is used to verify whether or not the text input is a valid e-mail address.
+            It can be overridden to customize the validation through the properties it inherits from <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailValidationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailDomainRegex">
+      <MemberSignature Language="C#" Value="protected static System.Text.RegularExpressions.Regex EmailDomainRegex ();" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig class System.Text.RegularExpressions.Regex EmailDomainRegex() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.EmailDomainRegex" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function EmailDomainRegex () As Regex" />
+      <MemberSignature Language="F#" Value="static member EmailDomainRegex : unit -&gt; System.Text.RegularExpressions.Regex" Usage="CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.EmailDomainRegex " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.CodeDom.Compiler.GeneratedCode("System.Text.RegularExpressions.Generator", "9.0.12.26613")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CodeDom.Compiler.GeneratedCode("System.Text.RegularExpressions.Generator", "9.0.12.26613")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.RegularExpressions.GeneratedRegex("(@)(.+)$", System.Text.RegularExpressions.RegexOptions.None, 250)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.RegularExpressions.GeneratedRegex("(@)(.+)$", System.Text.RegularExpressions.RegexOptions.None, 250)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Text.RegularExpressions.Regex</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Pattern:<br /><code>(@)(.+)$</code><br />
+            Explanation:<br /><code>
+            ○ 1st capture group.<br />
+                ○ Match '@'.<br />
+            ○ 2nd capture group.<br />
+                ○ Match a character other than '\n' greedily at least once.<br />
+            ○ Match if at the end of the string or if before an ending newline.<br /></code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailRegex">
+      <MemberSignature Language="C#" Value="protected static System.Text.RegularExpressions.Regex EmailRegex ();" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig class System.Text.RegularExpressions.Regex EmailRegex() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.EmailRegex" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function EmailRegex () As Regex" />
+      <MemberSignature Language="F#" Value="static member EmailRegex : unit -&gt; System.Text.RegularExpressions.Regex" Usage="CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.EmailRegex " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.CodeDom.Compiler.GeneratedCode("System.Text.RegularExpressions.Generator", "9.0.12.26613")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CodeDom.Compiler.GeneratedCode("System.Text.RegularExpressions.Generator", "9.0.12.26613")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.RegularExpressions.GeneratedRegex("^[^@\s]+@[^@\s]+\.[^@\s]+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase, 250)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.RegularExpressions.GeneratedRegex("^[^@\s]+@[^@\s]+\.[^@\s]+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase, 250)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Text.RegularExpressions.Regex</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Pattern:<br /><code>^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$</code><br />
+            Options:<br /><code>RegexOptions.IgnoreCase</code><br />
+            Explanation:<br /><code>
+            ○ Match if at the beginning of the string.<br />
+            ○ Match a character in the set [^@\s] atomically at least once.<br />
+            ○ Match '@'.<br />
+            ○ Match a character in the set [^@\s] greedily at least once.<br />
+            ○ Match '.'.<br />
+            ○ Match a character in the set [^@\s] atomically at least once.<br />
+            ○ Match if at the end of the string or if before an ending newline.<br /></code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.OnAttachedTo(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="emailValidationBehavior.OnAttachedTo bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachingFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachingFrom (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachingFrom(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.OnDetachingFrom(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachingFrom (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="emailValidationBehavior.OnDetachingFrom bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAsync">
+      <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.ValueTask&lt;bool&gt; ValidateAsync (string? value, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; ValidateAsync(string value, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EmailValidationBehavior.ValidateAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function ValidateAsync (value As String, token As CancellationToken) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="override this.ValidateAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="emailValidationBehavior.ValidateAsync (value, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

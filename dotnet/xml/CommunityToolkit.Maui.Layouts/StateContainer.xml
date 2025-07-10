@@ -1,0 +1,371 @@
+<Type Name="StateContainer" FullName="CommunityToolkit.Maui.Layouts.StateContainer">
+  <TypeSignature Language="C#" Value="public static class StateContainer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StateContainer extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Layouts.StateContainer" />
+  <TypeSignature Language="VB.NET" Value="Public Class StateContainer" />
+  <TypeSignature Language="F#" Value="type StateContainer = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Layouts.StateContainer" /> attached properties enable any <see cref="T:Microsoft.Maui.Controls.Layout" /> inheriting element to become state-aware.
+            States are defined in the <see cref="F:CommunityToolkit.Maui.Layouts.StateContainer.StateViewsProperty" /> with <see cref="T:CommunityToolkit.Maui.Layouts.StateView" /> attached properties.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CanStateChangeProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CanStateChangeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CanStateChangeProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Layouts.StateContainer.CanStateChangeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CanStateChangeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CanStateChangeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Layouts.StateContainer.CanStateChangeProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="M:CommunityToolkit.Maui.Layouts.StateContainer.GetCanStateChange(Microsoft.Maui.Controls.BindableObject)" /> method.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeStateWithAnimation">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ChangeStateWithAnimation (Microsoft.Maui.Controls.BindableObject bindable, string? state, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ChangeStateWithAnimation(class Microsoft.Maui.Controls.BindableObject bindable, string state, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.ChangeStateWithAnimation(Microsoft.Maui.Controls.BindableObject,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ChangeStateWithAnimation (bindable As BindableObject, state As String, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="static member ChangeStateWithAnimation : Microsoft.Maui.Controls.BindableObject * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="CommunityToolkit.Maui.Layouts.StateContainer.ChangeStateWithAnimation (bindable, state, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="state" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Change state using the default fade animation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeStateWithAnimation">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ChangeStateWithAnimation (Microsoft.Maui.Controls.BindableObject bindable, string? state, Microsoft.Maui.Controls.Animation? beforeStateChange, Microsoft.Maui.Controls.Animation? afterStateChange, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ChangeStateWithAnimation(class Microsoft.Maui.Controls.BindableObject bindable, string state, class Microsoft.Maui.Controls.Animation beforeStateChange, class Microsoft.Maui.Controls.Animation afterStateChange, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.ChangeStateWithAnimation(Microsoft.Maui.Controls.BindableObject,System.String,Microsoft.Maui.Controls.Animation,Microsoft.Maui.Controls.Animation,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ChangeStateWithAnimation (bindable As BindableObject, state As String, beforeStateChange As Animation, afterStateChange As Animation, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="static member ChangeStateWithAnimation : Microsoft.Maui.Controls.BindableObject * string * Microsoft.Maui.Controls.Animation * Microsoft.Maui.Controls.Animation * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="CommunityToolkit.Maui.Layouts.StateContainer.ChangeStateWithAnimation (bindable, state, beforeStateChange, afterStateChange, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.BindableObject">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="beforeStateChange" Type="Microsoft.Maui.Controls.Animation" />
+        <Parameter Name="afterStateChange" Type="Microsoft.Maui.Controls.Animation" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="beforeStateChange">To be added.</param>
+        <param name="afterStateChange">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Change state with custom animation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeStateWithAnimation">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ChangeStateWithAnimation (Microsoft.Maui.Controls.BindableObject bindable, string? state, Func&lt;Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;? beforeStateChange, Func&lt;Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;? afterStateChange, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ChangeStateWithAnimation(class Microsoft.Maui.Controls.BindableObject bindable, string state, class System.Func`3&lt;class Microsoft.Maui.Controls.VisualElement, valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task&gt; beforeStateChange, class System.Func`3&lt;class Microsoft.Maui.Controls.VisualElement, valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task&gt; afterStateChange, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.ChangeStateWithAnimation(Microsoft.Maui.Controls.BindableObject,System.String,System.Func{Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Func{Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ChangeStateWithAnimation (bindable As BindableObject, state As String, beforeStateChange As Func(Of VisualElement, CancellationToken, Task), afterStateChange As Func(Of VisualElement, CancellationToken, Task), Optional cancellationToken As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="static member ChangeStateWithAnimation : Microsoft.Maui.Controls.BindableObject * string * Func&lt;Microsoft.Maui.Controls.VisualElement, System.Threading.CancellationToken, System.Threading.Tasks.Task&gt; * Func&lt;Microsoft.Maui.Controls.VisualElement, System.Threading.CancellationToken, System.Threading.Tasks.Task&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="CommunityToolkit.Maui.Layouts.StateContainer.ChangeStateWithAnimation (bindable, state, beforeStateChange, afterStateChange, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="state" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="beforeStateChange" Type="System.Func&lt;Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="afterStateChange" Type="System.Func&lt;Microsoft.Maui.Controls.VisualElement,System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="beforeStateChange">To be added.</param>
+        <param name="afterStateChange">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Change state with custom animation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentStateProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CurrentStateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentStateProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Layouts.StateContainer.CurrentStateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentStateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentStateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Layouts.StateContainer.CurrentStateProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="M:CommunityToolkit.Maui.Layouts.StateContainer.GetCurrentState(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:CommunityToolkit.Maui.Layouts.StateContainer.SetCurrentState(Microsoft.Maui.Controls.BindableObject,System.String)" /> methods.
+            To ensure <see cref="T:CommunityToolkit.Maui.Layouts.StateContainer" /> does not throw a <see cref="T:CommunityToolkit.Maui.Layouts.StateContainerException" /> due to active animations, first verify <see cref="F:CommunityToolkit.Maui.Layouts.StateContainer.CanStateChangeProperty" /> is <see langword="true" /> before changing <see cref="F:CommunityToolkit.Maui.Layouts.StateContainer.CurrentStateProperty" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCanStateChange">
+      <MemberSignature Language="C#" Value="public static bool GetCanStateChange (Microsoft.Maui.Controls.BindableObject b);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetCanStateChange(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.GetCanStateChange(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCanStateChange (b As BindableObject) As Boolean" />
+      <MemberSignature Language="F#" Value="static member GetCanStateChange : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="CommunityToolkit.Maui.Layouts.StateContainer.GetCanStateChange b" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="b">To be added.</param>
+        <summary>
+            Get the CanStateChange property
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCurrentState">
+      <MemberSignature Language="C#" Value="public static string GetCurrentState (Microsoft.Maui.Controls.BindableObject b);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCurrentState(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.GetCurrentState(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCurrentState (b As BindableObject) As String" />
+      <MemberSignature Language="F#" Value="static member GetCurrentState : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="CommunityToolkit.Maui.Layouts.StateContainer.GetCurrentState b" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="b">To be added.</param>
+        <summary>
+            Get the CurrentState property
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStateViews">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.View&gt; GetStateViews (Microsoft.Maui.Controls.BindableObject b);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.View&gt; GetStateViews(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.GetStateViews(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetStateViews (b As BindableObject) As IList(Of View)" />
+      <MemberSignature Language="F#" Value="static member GetStateViews : Microsoft.Maui.Controls.BindableObject -&gt; System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.View&gt;" Usage="CommunityToolkit.Maui.Layouts.StateContainer.GetStateViews b" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.View&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="b">To be added.</param>
+        <summary>
+            Get the StateViews property
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCurrentState">
+      <MemberSignature Language="C#" Value="public static void SetCurrentState (Microsoft.Maui.Controls.BindableObject b, string? value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetCurrentState(class Microsoft.Maui.Controls.BindableObject b, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.SetCurrentState(Microsoft.Maui.Controls.BindableObject,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetCurrentState (b As BindableObject, value As String)" />
+      <MemberSignature Language="F#" Value="static member SetCurrentState : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="CommunityToolkit.Maui.Layouts.StateContainer.SetCurrentState (b, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="b">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>
+            Set the CurrentState property
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStateViews">
+      <MemberSignature Language="C#" Value="public static void SetStateViews (Microsoft.Maui.Controls.BindableObject b, System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.View&gt; value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetStateViews(class Microsoft.Maui.Controls.BindableObject b, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.View&gt; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.StateContainer.SetStateViews(Microsoft.Maui.Controls.BindableObject,System.Collections.Generic.IList{Microsoft.Maui.Controls.View})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetStateViews (b As BindableObject, value As IList(Of View))" />
+      <MemberSignature Language="F#" Value="static member SetStateViews : Microsoft.Maui.Controls.BindableObject * System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.View&gt; -&gt; unit" Usage="CommunityToolkit.Maui.Layouts.StateContainer.SetStateViews (b, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="b" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.View&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="b">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>
+            Set the StateViews property
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateViewsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty StateViewsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StateViewsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Layouts.StateContainer.StateViewsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StateViewsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StateViewsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Layouts.StateContainer.StateViewsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for the <see cref="M:CommunityToolkit.Maui.Layouts.StateContainer.GetStateViews(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:CommunityToolkit.Maui.Layouts.StateContainer.SetStateViews(Microsoft.Maui.Controls.BindableObject,System.Collections.Generic.IList{Microsoft.Maui.Controls.View})" /> methods.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

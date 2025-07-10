@@ -7,9 +7,17 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T" />
+    <TypeParameter Name="T">
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
   </TypeParameters>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -26,7 +34,7 @@
             hashing the same <see cref="T:System.ReadOnlySpan`1" /> collection multiple times in the same process will always
             result in the same hash code, while the same collection being hashed again from another process
             (or another instance of the same process) is not guaranteed to result in the same final value.
-            For more info, see <see href="https://docs.microsoft.com/en-us/dotnet/api/system.object.gethashcode#remarks" />.
+            For more info, see <see href="https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode#remarks" />.
             </remarks>
   </Docs>
   <Members>
@@ -40,12 +48,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="span">The input <see cref="T:System.ReadOnlySpan`1" /> instance</param>

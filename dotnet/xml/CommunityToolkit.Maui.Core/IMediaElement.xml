@@ -1,0 +1,620 @@
+<Type Name="IMediaElement" FullName="CommunityToolkit.Maui.Core.IMediaElement">
+  <TypeSignature Language="C#" Value="public interface IMediaElement : CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler, Microsoft.Maui.IView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IMediaElement implements class CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler, class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.IMediaElement" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMediaElement&#xA;Implements IAsynchronousMediaElementHandler, IView" />
+  <TypeSignature Language="F#" Value="type IMediaElement = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IAsynchronousMediaElementHandler" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAsynchronousMediaElementHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            With MediaElement you can play multimedia inside your app.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Aspect">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Aspect Aspect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Aspect" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.Aspect" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Aspect As Aspect" />
+      <MemberSignature Language="F#" Value="member this.Aspect : Microsoft.Maui.Aspect" Usage="CommunityToolkit.Maui.Core.IMediaElement.Aspect" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Aspect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the media aspect ratio.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Not functional for non-visual media.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentState">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.MediaElementState CurrentState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.MediaElementState CurrentState" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.CurrentState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentState As MediaElementState" />
+      <MemberSignature Language="F#" Value="member this.CurrentState : CommunityToolkit.Maui.Core.MediaElementState" Usage="CommunityToolkit.Maui.Core.IMediaElement.CurrentState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.MediaElementState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The current state of the <see cref="T:CommunityToolkit.Maui.Views.MediaElement" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.Duration : TimeSpan with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets total duration of the loaded media.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Might not be available for some types, like live streams.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaEnded">
+      <MemberSignature Language="C#" Value="public void MediaEnded ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MediaEnded() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.MediaEnded" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MediaEnded ()" />
+      <MemberSignature Language="F#" Value="abstract member MediaEnded : unit -&gt; unit" Usage="iMediaElement.MediaEnded " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Occurs when the media has ended playing successfully.
+            </summary>
+        <remarks>This does not trigger when the media has failed during playback.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaFailed">
+      <MemberSignature Language="C#" Value="public void MediaFailed (CommunityToolkit.Maui.Core.MediaFailedEventArgs args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MediaFailed(class CommunityToolkit.Maui.Core.MediaFailedEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.MediaFailed(CommunityToolkit.Maui.Core.MediaFailedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MediaFailed (args As MediaFailedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member MediaFailed : CommunityToolkit.Maui.Core.MediaFailedEventArgs -&gt; unit" Usage="iMediaElement.MediaFailed args" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="CommunityToolkit.Maui.Core.MediaFailedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="args">Event arguments containing extra information about this event.</param>
+        <summary>
+            Occurs when the media has failed loading.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaHeight">
+      <MemberSignature Language="C#" Value="public int MediaHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MediaHeight" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.MediaHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MediaHeight As Integer" />
+      <MemberSignature Language="F#" Value="member this.MediaHeight : int" Usage="CommunityToolkit.Maui.Core.IMediaElement.MediaHeight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the height (in pixels) of the loaded media in pixels.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Not reported for non-visual media.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaOpened">
+      <MemberSignature Language="C#" Value="public void MediaOpened ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MediaOpened() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.MediaOpened" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MediaOpened ()" />
+      <MemberSignature Language="F#" Value="abstract member MediaOpened : unit -&gt; unit" Usage="iMediaElement.MediaOpened " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Occurs when the media has been loaded and is ready to play.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaWidth">
+      <MemberSignature Language="C#" Value="public int MediaWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MediaWidth" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.MediaWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MediaWidth As Integer" />
+      <MemberSignature Language="F#" Value="member this.MediaWidth : int" Usage="CommunityToolkit.Maui.Core.IMediaElement.MediaWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the width (in pixels) of the loaded media in pixels.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Not reported for non-visual media.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MetadataArtist">
+      <MemberSignature Language="C#" Value="public string MetadataArtist { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MetadataArtist" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.MetadataArtist" />
+      <MemberSignature Language="VB.NET" Value="Public Property MetadataArtist As String" />
+      <MemberSignature Language="F#" Value="member this.MetadataArtist : string with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.MetadataArtist" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the artist of the media.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MetadataArtworkUrl">
+      <MemberSignature Language="C#" Value="public string MetadataArtworkUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MetadataArtworkUrl" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.MetadataArtworkUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property MetadataArtworkUrl As String" />
+      <MemberSignature Language="F#" Value="member this.MetadataArtworkUrl : string with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.MetadataArtworkUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the artwork Image Url.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MetadataTitle">
+      <MemberSignature Language="C#" Value="public string MetadataTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MetadataTitle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.MetadataTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property MetadataTitle As String" />
+      <MemberSignature Language="F#" Value="member this.MetadataTitle : string with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.MetadataTitle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the title of the media.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pause">
+      <MemberSignature Language="C#" Value="public void Pause ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Pause() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.Pause" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Pause ()" />
+      <MemberSignature Language="F#" Value="abstract member Pause : unit -&gt; unit" Usage="iMediaElement.Pause " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Pauses the currently playing media.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public void Play ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Play() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.Play" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Play ()" />
+      <MemberSignature Language="F#" Value="abstract member Play : unit -&gt; unit" Usage="iMediaElement.Play " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Starts playing the loaded media.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public TimeSpan Position { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Position" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.Position" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.Position : TimeSpan" Usage="CommunityToolkit.Maui.Core.IMediaElement.Position" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The current position of the playing media.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PositionChanged">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs&gt; PositionChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs&gt; PositionChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Core.IMediaElement.PositionChanged" />
+      <MemberSignature Language="VB.NET" Value="Event PositionChanged As EventHandler(Of MediaPositionChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PositionChanged : EventHandler&lt;CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs&gt; " Usage="member this.PositionChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.MediaPositionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Occurs when the <see cref="P:CommunityToolkit.Maui.Core.IMediaElement.Position" /> changes;
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SeekTo">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SeekTo (TimeSpan position, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SeekTo(valuetype System.TimeSpan position, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.SeekTo(System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SeekTo (position As TimeSpan, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member SeekTo : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iMediaElement.SeekTo (position, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="System.TimeSpan" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="position">The requested position to seek to.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />.</param>
+        <summary>
+            Seek to a specific position in the currently playing media.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>If <paramref name="position" /> is outside of the range of the current media item, nothing will happen.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldAutoPlay">
+      <MemberSignature Language="C#" Value="public bool ShouldAutoPlay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldAutoPlay" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.ShouldAutoPlay" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldAutoPlay As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldAutoPlay : bool with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.ShouldAutoPlay" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets whether the media should start playing as soon as it's loaded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldKeepScreenOn">
+      <MemberSignature Language="C#" Value="public bool ShouldKeepScreenOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldKeepScreenOn" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.ShouldKeepScreenOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldKeepScreenOn As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldKeepScreenOn : bool with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.ShouldKeepScreenOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets if media playback will prevent the device display from going to sleep.
+            </summary>
+        <value>To be added.</value>
+        <remarks>If media is paused, stopped or has completed playing, the display will turn off.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldLoopPlayback">
+      <MemberSignature Language="C#" Value="public bool ShouldLoopPlayback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldLoopPlayback" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.ShouldLoopPlayback" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldLoopPlayback As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldLoopPlayback : bool with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.ShouldLoopPlayback" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets if the media playback will restart from the beginning when it reaches the end.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldMute">
+      <MemberSignature Language="C#" Value="public bool ShouldMute { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldMute" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.ShouldMute" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldMute As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldMute : bool with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.ShouldMute" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets if audio should be muted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldShowPlaybackControls">
+      <MemberSignature Language="C#" Value="public bool ShouldShowPlaybackControls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldShowPlaybackControls" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.ShouldShowPlaybackControls" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldShowPlaybackControls As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldShowPlaybackControls : bool with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.ShouldShowPlaybackControls" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets whether the player should show the platform playback controls.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Views.MediaSource? Source { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Views.MediaSource Source" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Property Source As MediaSource" />
+      <MemberSignature Language="F#" Value="member this.Source : CommunityToolkit.Maui.Views.MediaSource with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.Source" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Views.MediaSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the source of the media to play.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Speed">
+      <MemberSignature Language="C#" Value="public double Speed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Speed" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.Speed" />
+      <MemberSignature Language="VB.NET" Value="Public Property Speed As Double" />
+      <MemberSignature Language="F#" Value="member this.Speed : double with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.Speed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the speed with which the media should be played.
+            </summary>
+        <value>To be added.</value>
+        <remarks>A value of 1 means normal speed.
+            Anything more than 1 is faster speed, anything less than 1 is slower speed.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanged">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;CommunityToolkit.Maui.Core.MediaStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Core.MediaStateChangedEventArgs&gt; StateChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Core.IMediaElement.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Event StateChanged As EventHandler(Of MediaStateChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;CommunityToolkit.Maui.Core.MediaStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;CommunityToolkit.Maui.Core.MediaStateChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Core.MediaStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Occurs when <see cref="P:CommunityToolkit.Maui.Core.IMediaElement.CurrentState" /> changed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Stop() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.IMediaElement.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Stop ()" />
+      <MemberSignature Language="F#" Value="abstract member Stop : unit -&gt; unit" Usage="iMediaElement.Stop " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Stops playing the currently playing media and resets the <see cref="P:CommunityToolkit.Maui.Core.IMediaElement.Position" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Volume">
+      <MemberSignature Language="C#" Value="public double Volume { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Volume" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IMediaElement.Volume" />
+      <MemberSignature Language="VB.NET" Value="Public Property Volume As Double" />
+      <MemberSignature Language="F#" Value="member this.Volume : double with get, set" Usage="CommunityToolkit.Maui.Core.IMediaElement.Volume" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the volume of the audio for the media.
+            </summary>
+        <value>To be added.</value>
+        <remarks>A value of 1 means full volume, 0 is silence.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

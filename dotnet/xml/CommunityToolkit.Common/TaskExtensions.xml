@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Common</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,9 +30,22 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method uses reflection to try to access the Task&lt;T&gt;.Result property of the input Task instance.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method uses reflection to try to access the Task&lt;T&gt;.Result property of the input Task instance.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="task" Type="System.Threading.Tasks.Task" RefType="this" />
@@ -59,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Common</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -67,7 +82,14 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="task" Type="System.Threading.Tasks.Task&lt;T&gt;" RefType="this" />
+        <Parameter Name="task" Type="System.Threading.Tasks.Task&lt;T&gt;" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <typeparam name="T">The type of <see cref="T:System.Threading.Tasks.Task`1" /> to get the result for.</typeparam>

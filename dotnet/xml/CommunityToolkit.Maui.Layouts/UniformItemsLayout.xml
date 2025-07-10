@@ -1,0 +1,207 @@
+<Type Name="UniformItemsLayout" FullName="CommunityToolkit.Maui.Layouts.UniformItemsLayout">
+  <TypeSignature Language="C#" Value="public class UniformItemsLayout : Microsoft.Maui.Controls.Layout, CommunityToolkit.Maui.Core.IUniformItemsLayout, Microsoft.Maui.ILayout, System.Collections.Generic.ICollection&lt;Microsoft.Maui.IView&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.IView&gt;, System.Collections.Generic.IList&lt;Microsoft.Maui.IView&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UniformItemsLayout extends Microsoft.Maui.Controls.Layout implements class CommunityToolkit.Maui.Core.IUniformItemsLayout, class Microsoft.Maui.IContainer, class Microsoft.Maui.ICrossPlatformLayout, class Microsoft.Maui.IElement, class Microsoft.Maui.ILayout, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISafeAreaView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Layouts.UniformItemsLayout" />
+  <TypeSignature Language="VB.NET" Value="Public Class UniformItemsLayout&#xA;Inherits Layout&#xA;Implements ICollection(Of IView), IEnumerable(Of IView), ILayout, IList(Of IView), IUniformItemsLayout" />
+  <TypeSignature Language="F#" Value="type UniformItemsLayout = class&#xA;    inherit Layout&#xA;    interface IUniformItemsLayout&#xA;    interface ILayout&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IContainer&#xA;    interface IList&lt;IView&gt;&#xA;    interface ICollection&lt;IView&gt;&#xA;    interface seq&lt;IView&gt;&#xA;    interface IEnumerable&#xA;    interface ISafeAreaView&#xA;    interface IPadding&#xA;    interface ICrossPlatformLayout" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.Layout</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IUniformItemsLayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IContainer</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ICrossPlatformLayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IPadding</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ISafeAreaView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITransform</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.IView</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;Microsoft.Maui.IView&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Maui.IView&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IList&lt;Microsoft.Maui.IView&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Layouts.UniformItemsLayout" /> is just like the <see cref="T:Microsoft.Maui.Controls.Grid" />, with the possibility of multiple rows and columns, but with one important difference:
+            All rows and columns will have the same size.
+            Use this when you need the Grid behavior without the need to specify different sizes for the rows and columns.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UniformItemsLayout ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.UniformItemsLayout.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateLayoutManager">
+      <MemberSignature Language="C#" Value="protected override Microsoft.Maui.Layouts.ILayoutManager CreateLayoutManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Maui.Layouts.ILayoutManager CreateLayoutManager() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Layouts.UniformItemsLayout.CreateLayoutManager" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateLayoutManager () As ILayoutManager" />
+      <MemberSignature Language="F#" Value="override this.CreateLayoutManager : unit -&gt; Microsoft.Maui.Layouts.ILayoutManager" Usage="uniformItemsLayout.CreateLayoutManager " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Layouts.ILayoutManager</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="MaxColumns">
+      <MemberSignature Language="C#" Value="public int MaxColumns { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxColumns" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxColumns As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxColumns : int with get, set" Usage="CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxColumns" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Max columns
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxColumnsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MaxColumnsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaxColumnsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxColumnsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxColumnsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxColumnsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxColumnsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxColumns" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxRows">
+      <MemberSignature Language="C#" Value="public int MaxRows { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxRows" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxRows" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxRows As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxRows : int with get, set" Usage="CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxRows" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Max rows
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxRowsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MaxRowsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaxRowsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxRowsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxRowsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxRowsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxRowsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Layouts.UniformItemsLayout.MaxRows" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

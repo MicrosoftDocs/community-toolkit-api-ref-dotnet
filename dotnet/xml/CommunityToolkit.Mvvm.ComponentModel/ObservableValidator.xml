@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>CommunityToolkit.Mvvm.ComponentModel.ObservableObject</BaseTypeName>
@@ -16,6 +17,12 @@
       <InterfaceName>System.ComponentModel.INotifyDataErrorInfo</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             A base class for objects implementing the <see cref="T:System.ComponentModel.INotifyDataErrorInfo" /> interface. This class
@@ -33,7 +40,14 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters />
       <Docs>
         <summary>
@@ -55,9 +69,23 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters>
-        <Parameter Name="items" Type="System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;" />
+        <Parameter Name="items" Type="System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="items">A set of key/value pairs to make available to consumers.</param>
@@ -79,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="validationContext" Type="System.ComponentModel.DataAnnotations.ValidationContext" />
@@ -98,6 +127,7 @@
             and it will use it to validate all properties for the current viewmodel.
             </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="validationContext" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -110,10 +140,24 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters>
         <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
-        <Parameter Name="items" Type="System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;" />
+        <Parameter Name="items" Type="System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="serviceProvider">An <see cref="T:System.IServiceProvider" /> instance to make available during validation.</param>
@@ -136,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -167,13 +212,21 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;System.ComponentModel.DataErrorsChangedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="GetErrors">
@@ -186,18 +239,27 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="propertyName" Type="System.String" />
+        <Parameter Name="propertyName" Type="System.String">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="propertyName">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc cref="M:System.ComponentModel.INotifyDataErrorInfo.GetErrors(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="HasErrors">
@@ -213,7 +275,14 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.ComponentModel.DataAnnotations.Display(AutoGenerateField=false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DataAnnotations.Display(AutoGenerateField=false)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -221,27 +290,50 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (ref T field, T newValue, bool validate, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (ref T field, T newValue, bool validate, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SetProperty&lt;T&gt;(!!T&amp; field, !!T newValue, bool validate, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0@,``0,System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SetProperty(Of T) (ByRef field As T, newValue As T, validate As Boolean, Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="override this.SetProperty : 'T * 'T * bool * string -&gt; bool" Usage="observableValidator.SetProperty (field, newValue, validate, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (ref T field, T newValue, bool validate, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="field" Type="T" RefType="ref" />
+        <Parameter Name="field" Type="T" RefType="ref">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="newValue" Type="T" />
         <Parameter Name="validate" Type="System.Boolean" />
         <Parameter Name="propertyName" Type="System.String">
@@ -273,24 +365,40 @@
             the <see cref="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanging" /> and <see cref="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanged" /> events
             are not raised if the current and new value for the target property are the same.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="propertyName" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (T oldValue, T newValue, Action&lt;T&gt; callback, bool validate, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (T oldValue, T newValue, Action&lt;T&gt; callback, bool validate, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SetProperty&lt;T&gt;(!!T oldValue, !!T newValue, class System.Action`1&lt;!!T&gt; callback, bool validate, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0,``0,System.Action{``0},System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SetProperty(Of T) (oldValue As T, newValue As T, callback As Action(Of T), validate As Boolean, Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="override this.SetProperty : 'T * 'T * Action&lt;'T&gt; * bool * string -&gt; bool" Usage="observableValidator.SetProperty (oldValue, newValue, callback, validate, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (T oldValue, T newValue, Action&lt;T&gt; callback, bool validate, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -328,27 +436,50 @@
             the <see cref="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanging" /> and <see cref="E:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.PropertyChanged" /> events
             are not raised if the current and new value for the target property are the same.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (ref T field, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, bool validate, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (ref T field, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, bool validate, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SetProperty&lt;T&gt;(!!T&amp; field, !!T newValue, class System.Collections.Generic.IEqualityComparer`1&lt;!!T&gt; comparer, bool validate, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SetProperty(Of T) (ByRef field As T, newValue As T, comparer As IEqualityComparer(Of T), validate As Boolean, Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="override this.SetProperty : 'T * 'T * System.Collections.Generic.IEqualityComparer&lt;'T&gt; * bool * string -&gt; bool" Usage="observableValidator.SetProperty (field, newValue, comparer, validate, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (ref T field, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, bool validate, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="field" Type="T" RefType="ref" />
+        <Parameter Name="field" Type="T" RefType="ref">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("newValue")&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="newValue" Type="T" />
         <Parameter Name="comparer" Type="System.Collections.Generic.IEqualityComparer&lt;T&gt;" />
         <Parameter Name="validate" Type="System.Boolean" />
@@ -377,24 +508,40 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, bool validate, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, bool validate, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SetProperty&lt;T&gt;(!!T oldValue, !!T newValue, class System.Collections.Generic.IEqualityComparer`1&lt;!!T&gt; comparer, class System.Action`1&lt;!!T&gt; callback, bool validate, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SetProperty(Of T) (oldValue As T, newValue As T, comparer As IEqualityComparer(Of T), callback As Action(Of T), validate As Boolean, Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="override this.SetProperty : 'T * 'T * System.Collections.Generic.IEqualityComparer&lt;'T&gt; * Action&lt;'T&gt; * bool * string -&gt; bool" Usage="observableValidator.SetProperty (oldValue, newValue, comparer, callback, validate, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, bool validate, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -428,19 +575,28 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" />, <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;TModel,T&gt;">
-      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;TModel,T&gt; (T oldValue, T newValue, TModel model, Action&lt;TModel,T&gt; callback, bool validate, string? propertyName = default) where TModel : class;" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;TModel,T&gt; (T oldValue, T newValue, TModel model, Action&lt;TModel,T&gt; callback, bool validate, string propertyName = default) where TModel : class;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SetProperty&lt;class TModel, T&gt;(!!T oldValue, !!T newValue, !!TModel model, class System.Action`2&lt;!!TModel, !!T&gt; callback, bool validate, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SetProperty(Of TModel As Class, T As Class) (oldValue As T, newValue As T, model As TModel, callback As Action(Of TModel, T), validate As Boolean, Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="override this.SetProperty : 'T * 'T * 'Model * Action&lt;'Model, 'T (requires 'Model : null)&gt; * bool * string -&gt; bool (requires 'Model : null)" Usage="observableValidator.SetProperty (oldValue, newValue, model, callback, validate, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;TModel,T&gt; (T oldValue, T newValue, TModel model, Action&lt;TModel,T&gt; callback, bool validate, string? propertyName = default) where TModel : class;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -450,7 +606,14 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -487,19 +650,28 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="model" />, <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetProperty&lt;TModel,T&gt;">
-      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;TModel,T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel,T&gt; callback, bool validate, string? propertyName = default) where TModel : class;" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;TModel,T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel,T&gt; callback, bool validate, string propertyName = default) where TModel : class;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SetProperty&lt;class TModel, T&gt;(!!T oldValue, !!T newValue, class System.Collections.Generic.IEqualityComparer`1&lt;!!T&gt; comparer, !!TModel model, class System.Action`2&lt;!!TModel, !!T&gt; callback, bool validate, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SetProperty(Of TModel As Class, T As Class) (oldValue As T, newValue As T, comparer As IEqualityComparer(Of T), model As TModel, callback As Action(Of TModel, T), validate As Boolean, Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="override this.SetProperty : 'T * 'T * System.Collections.Generic.IEqualityComparer&lt;'T&gt; * 'Model * Action&lt;'Model, 'T (requires 'Model : null)&gt; * bool * string -&gt; bool (requires 'Model : null)" Usage="observableValidator.SetProperty (oldValue, newValue, comparer, model, callback, validate, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool SetProperty&lt;TModel,T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel,T&gt; callback, bool validate, string? propertyName = default) where TModel : class;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -509,7 +681,14 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -549,6 +728,7 @@
         <returns>
           <see langword="true" /> if the property was changed, <see langword="false" /> otherwise.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" />, <paramref name="model" />, <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="System.ComponentModel.INotifyDataErrorInfo.GetErrors">
@@ -564,36 +744,60 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerable</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="propertyName" Type="System.String" />
+        <Parameter Name="propertyName" Type="System.String">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="propertyName">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="TrySetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (ref T field, T newValue, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (ref T field, T newValue, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool TrySetProperty&lt;T&gt;(!!T&amp; field, !!T newValue, [out] class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.ComponentModel.DataAnnotations.ValidationResult&gt;&amp; errors, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0@,``0,System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function TrySetProperty(Of T) (ByRef field As T, newValue As T, ByRef errors As IReadOnlyCollection(Of ValidationResult), Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TrySetProperty : 'T * 'T * IReadOnlyCollection * string -&gt; bool" Usage="observableValidator.TrySetProperty (field, newValue, errors, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (ref T field, T newValue, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="field" Type="T" RefType="ref" />
@@ -620,24 +824,40 @@
             </summary>
         <returns>Whether the validation was successful and the property value changed as well.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="propertyName" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="TrySetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (T oldValue, T newValue, Action&lt;T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (T oldValue, T newValue, Action&lt;T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool TrySetProperty&lt;T&gt;(!!T oldValue, !!T newValue, class System.Action`1&lt;!!T&gt; callback, [out] class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.ComponentModel.DataAnnotations.ValidationResult&gt;&amp; errors, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0,``0,System.Action{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function TrySetProperty(Of T) (oldValue As T, newValue As T, callback As Action(Of T), ByRef errors As IReadOnlyCollection(Of ValidationResult), Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TrySetProperty : 'T * 'T * Action&lt;'T&gt; * IReadOnlyCollection * string -&gt; bool" Usage="observableValidator.TrySetProperty (oldValue, newValue, callback, errors, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (T oldValue, T newValue, Action&lt;T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -666,24 +886,40 @@
             </summary>
         <returns>Whether the validation was successful and the property value changed as well.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="TrySetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (ref T field, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (ref T field, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool TrySetProperty&lt;T&gt;(!!T&amp; field, !!T newValue, class System.Collections.Generic.IEqualityComparer`1&lt;!!T&gt; comparer, [out] class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.ComponentModel.DataAnnotations.ValidationResult&gt;&amp; errors, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function TrySetProperty(Of T) (ByRef field As T, newValue As T, comparer As IEqualityComparer(Of T), ByRef errors As IReadOnlyCollection(Of ValidationResult), Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TrySetProperty : 'T * 'T * System.Collections.Generic.IEqualityComparer&lt;'T&gt; * IReadOnlyCollection * string -&gt; bool" Usage="observableValidator.TrySetProperty (field, newValue, comparer, errors, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (ref T field, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="field" Type="T" RefType="ref" />
@@ -712,24 +948,40 @@
             </summary>
         <returns>Whether the validation was successful and the property value changed as well.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="TrySetProperty&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool TrySetProperty&lt;T&gt;(!!T oldValue, !!T newValue, class System.Collections.Generic.IEqualityComparer`1&lt;!!T&gt; comparer, class System.Action`1&lt;!!T&gt; callback, [out] class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.ComponentModel.DataAnnotations.ValidationResult&gt;&amp; errors, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function TrySetProperty(Of T) (oldValue As T, newValue As T, comparer As IEqualityComparer(Of T), callback As Action(Of T), ByRef errors As IReadOnlyCollection(Of ValidationResult), Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TrySetProperty : 'T * 'T * System.Collections.Generic.IEqualityComparer&lt;'T&gt; * Action&lt;'T&gt; * IReadOnlyCollection * string -&gt; bool" Usage="observableValidator.TrySetProperty (oldValue, newValue, comparer, callback, errors, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -760,19 +1012,28 @@
             </summary>
         <returns>Whether the validation was successful and the property value changed as well.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" />, <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="TrySetProperty&lt;TModel,T&gt;">
-      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;TModel,T&gt; (T oldValue, T newValue, TModel model, Action&lt;TModel,T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default) where TModel : class;" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;TModel,T&gt; (T oldValue, T newValue, TModel model, Action&lt;TModel,T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string propertyName = default) where TModel : class;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool TrySetProperty&lt;class TModel, T&gt;(!!T oldValue, !!T newValue, !!TModel model, class System.Action`2&lt;!!TModel, !!T&gt; callback, [out] class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.ComponentModel.DataAnnotations.ValidationResult&gt;&amp; errors, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``2(``1,``1,``0,System.Action{``0,``1},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function TrySetProperty(Of TModel As Class, T As Class) (oldValue As T, newValue As T, model As TModel, callback As Action(Of TModel, T), ByRef errors As IReadOnlyCollection(Of ValidationResult), Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TrySetProperty : 'T * 'T * 'Model * Action&lt;'Model, 'T (requires 'Model : null)&gt; * IReadOnlyCollection * string -&gt; bool (requires 'Model : null)" Usage="observableValidator.TrySetProperty (oldValue, newValue, model, callback, errors, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;TModel,T&gt; (T oldValue, T newValue, TModel model, Action&lt;TModel,T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default) where TModel : class;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -782,7 +1043,14 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -814,19 +1082,28 @@
             </summary>
         <returns>Whether the validation was successful and the property value changed as well.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="model" />, <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="TrySetProperty&lt;TModel,T&gt;">
-      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;TModel,T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel,T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default) where TModel : class;" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;TModel,T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel,T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string propertyName = default) where TModel : class;" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool TrySetProperty&lt;class TModel, T&gt;(!!T oldValue, !!T newValue, class System.Collections.Generic.IEqualityComparer`1&lt;!!T&gt; comparer, !!TModel model, class System.Action`2&lt;!!TModel, !!T&gt; callback, [out] class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.ComponentModel.DataAnnotations.ValidationResult&gt;&amp; errors, string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.TrySetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.Collections.Generic.IReadOnlyCollection{System.ComponentModel.DataAnnotations.ValidationResult}@,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function TrySetProperty(Of TModel As Class, T As Class) (oldValue As T, newValue As T, comparer As IEqualityComparer(Of T), model As TModel, callback As Action(Of TModel, T), ByRef errors As IReadOnlyCollection(Of ValidationResult), Optional propertyName As String = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TrySetProperty : 'T * 'T * System.Collections.Generic.IEqualityComparer&lt;'T&gt; * 'Model * Action&lt;'Model, 'T (requires 'Model : null)&gt; * IReadOnlyCollection * string -&gt; bool (requires 'Model : null)" Usage="observableValidator.TrySetProperty (oldValue, newValue, comparer, model, callback, errors, propertyName)" />
+      <MemberSignature Language="C#" Value="protected bool TrySetProperty&lt;TModel,T&gt; (T oldValue, T newValue, System.Collections.Generic.IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel,T&gt; callback, out System.Collections.Generic.IReadOnlyCollection&lt;System.ComponentModel.DataAnnotations.ValidationResult&gt; errors, string? propertyName = default) where TModel : class;" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -836,7 +1113,14 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="oldValue" Type="T" />
@@ -870,6 +1154,7 @@
             </summary>
         <returns>Whether the validation was successful and the property value changed as well.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="comparer" />, <paramref name="model" />, <paramref name="callback" /> or <paramref name="propertyName" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="ValidateAllProperties">
@@ -882,7 +1167,14 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type. Additionally, due to the usage of validation APIs, the type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.ComponentModel.__Internals.__ObservableValidatorExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type. Additionally, due to the usage of validation APIs, the type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -901,21 +1193,38 @@
       </Docs>
     </Member>
     <Member MemberName="ValidateProperty">
-      <MemberSignature Language="C#" Value="protected void ValidateProperty (object? value, string? propertyName = default);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ValidateProperty(object value, string propertyName) cil managed" />
+      <MemberSignature Language="C#" Value="protected internal void ValidateProperty (object? value, string propertyName = default);" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance void ValidateProperty(object value, string propertyName) cil managed" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservableValidator.ValidateProperty(System.Object,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Protected Sub ValidateProperty (value As Object, Optional propertyName As String = Nothing)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub ValidateProperty (value As Object, Optional propertyName As String = Nothing)" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="F#" Value="member this.ValidateProperty : obj * string -&gt; unit" Usage="observableValidator.ValidateProperty (value, propertyName)" />
+      <MemberSignature Language="C#" Value="protected void ValidateProperty (object? value, string? propertyName = default);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ValidateProperty(object value, string propertyName) cil managed" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub ValidateProperty (value As Object, Optional propertyName As String = Nothing)" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("The type of the current instance cannot be statically discovered.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="propertyName" Type="System.String">
           <Attributes>
             <Attribute>
@@ -934,6 +1243,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="propertyName" /> is <see langword="null" />.</exception>
+        <exception cref="T:CommunityToolkit.Mvvm.ArgumentNullException">Thrown when <paramref name="propertyName" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
   </Members>

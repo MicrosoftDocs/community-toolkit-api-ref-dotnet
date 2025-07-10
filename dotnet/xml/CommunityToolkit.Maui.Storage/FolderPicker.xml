@@ -1,0 +1,145 @@
+<Type Name="FolderPicker" FullName="CommunityToolkit.Maui.Storage.FolderPicker">
+  <TypeSignature Language="C#" Value="public static class FolderPicker" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FolderPicker extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Storage.FolderPicker" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderPicker" />
+  <TypeSignature Language="F#" Value="type FolderPicker = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc cref="T:CommunityToolkit.Maui.Storage.IFolderPicker" />
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Storage.IFolderPicker Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class CommunityToolkit.Maui.Storage.IFolderPicker Default" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FolderPicker.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IFolderPicker" />
+      <MemberSignature Language="F#" Value="static member Default : CommunityToolkit.Maui.Storage.IFolderPicker" Usage="CommunityToolkit.Maui.Storage.FolderPicker.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Storage.IFolderPicker</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default implementation of <see cref="T:CommunityToolkit.Maui.Storage.IFolderPicker" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt; PickAsync (System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FolderPickerResult&gt; PickAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPicker.PickAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PickAsync (cancellationToken As CancellationToken) As Task(Of FolderPickerResult)" />
+      <MemberSignature Language="F#" Value="static member PickAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt;" Usage="CommunityToolkit.Maui.Storage.FolderPicker.PickAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Tizen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Tizen")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Storage.IFolderPicker.PickAsync(System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+    <Member MemberName="PickAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt; PickAsync (string initialPath, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class CommunityToolkit.Maui.Storage.FolderPickerResult&gt; PickAsync(string initialPath, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPicker.PickAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PickAsync (initialPath As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of FolderPickerResult)" />
+      <MemberSignature Language="F#" Value="static member PickAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt;" Usage="CommunityToolkit.Maui.Storage.FolderPicker.PickAsync (initialPath, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Android26.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Android26.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("iOS14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("MacCatalyst14.0")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Tizen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Tizen")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="initialPath" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="initialPath">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="M:CommunityToolkit.Maui.Storage.IFolderPicker.PickAsync(System.String,System.Threading.CancellationToken)" />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

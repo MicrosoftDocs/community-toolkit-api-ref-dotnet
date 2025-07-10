@@ -1,0 +1,395 @@
+<Type Name="DefaultPopupSettings" FullName="CommunityToolkit.Maui.DefaultPopupSettings">
+  <TypeSignature Language="C#" Value="public class DefaultPopupSettings : IEquatable&lt;CommunityToolkit.Maui.DefaultPopupSettings&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DefaultPopupSettings extends System.Object implements class System.IEquatable`1&lt;class CommunityToolkit.Maui.DefaultPopupSettings&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.DefaultPopupSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class DefaultPopupSettings&#xA;Implements IEquatable(Of DefaultPopupSettings)" />
+  <TypeSignature Language="F#" Value="type DefaultPopupSettings = class&#xA;    interface IEquatable&lt;DefaultPopupSettings&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;CommunityToolkit.Maui.DefaultPopupSettings&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Sets global app defaults for <see cref="T:CommunityToolkit.Maui.Views.Popup" /></summary>
+    <remarks>Set in .UseMauiCommunityToolkit(Options)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DefaultPopupSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected DefaultPopupSettings (CommunityToolkit.Maui.DefaultPopupSettings original);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.DefaultPopupSettings original) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.#ctor(CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (original As DefaultPopupSettings)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="original" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+      </Parameters>
+      <Docs>
+        <param name="original">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="&lt;Clone&gt;$">
+      <MemberSignature Language="C#" Value="public virtual CommunityToolkit.Maui.DefaultPopupSettings &lt;Clone&gt;$ ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class CommunityToolkit.Maui.DefaultPopupSettings &lt;Clone&gt;$() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.&lt;Clone&gt;$" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function &lt;Clone&gt;$ () As DefaultPopupSettings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.DefaultPopupSettings</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackgroundColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color BackgroundColor { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.BackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.DefaultPopupSettings.BackgroundColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:Microsoft.Maui.Controls.VisualElement.BackgroundColor" />
+      </Docs>
+    </Member>
+    <Member MemberName="CanBeDismissedByTappingOutsideOfPopup">
+      <MemberSignature Language="C#" Value="public bool CanBeDismissedByTappingOutsideOfPopup { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanBeDismissedByTappingOutsideOfPopup As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanBeDismissedByTappingOutsideOfPopup : bool with get, set" Usage="CommunityToolkit.Maui.DefaultPopupSettings.CanBeDismissedByTappingOutsideOfPopup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Views.Popup.CanBeDismissedByTappingOutsideOfPopup" />
+      </Docs>
+    </Member>
+    <Member MemberName="EqualityContract">
+      <MemberSignature Language="C#" Value="protected virtual Type EqualityContract { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.EqualityContract" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
+      <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="CommunityToolkit.Maui.DefaultPopupSettings.EqualityContract" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public virtual bool Equals (CommunityToolkit.Maui.DefaultPopupSettings? other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class CommunityToolkit.Maui.DefaultPopupSettings other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.Equals(CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Equals (other As DefaultPopupSettings) As Boolean" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.LayoutOptions HorizontalOptions { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.LayoutOptions HorizontalOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.HorizontalOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalOptions As LayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.HorizontalOptions : Microsoft.Maui.Controls.LayoutOptions with get, set" Usage="CommunityToolkit.Maui.DefaultPopupSettings.HorizontalOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.LayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Views.Popup.HorizontalOptions" />
+      </Docs>
+    </Member>
+    <Member MemberName="Margin">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Thickness Margin { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Margin" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.Margin" />
+      <MemberSignature Language="VB.NET" Value="Public Property Margin As Thickness" />
+      <MemberSignature Language="F#" Value="member this.Margin : Microsoft.Maui.Thickness with get, set" Usage="CommunityToolkit.Maui.DefaultPopupSettings.Margin" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Thickness</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Views.Popup.Margin" />
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (CommunityToolkit.Maui.DefaultPopupSettings? left, CommunityToolkit.Maui.DefaultPopupSettings? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class CommunityToolkit.Maui.DefaultPopupSettings left, class CommunityToolkit.Maui.DefaultPopupSettings right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.op_Equality(CommunityToolkit.Maui.DefaultPopupSettings,CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As DefaultPopupSettings, right As DefaultPopupSettings) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+        <Parameter Name="right" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (CommunityToolkit.Maui.DefaultPopupSettings? left, CommunityToolkit.Maui.DefaultPopupSettings? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class CommunityToolkit.Maui.DefaultPopupSettings left, class CommunityToolkit.Maui.DefaultPopupSettings right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.op_Inequality(CommunityToolkit.Maui.DefaultPopupSettings,CommunityToolkit.Maui.DefaultPopupSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As DefaultPopupSettings, right As DefaultPopupSettings) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+        <Parameter Name="right" Type="CommunityToolkit.Maui.DefaultPopupSettings" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Padding">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Thickness Padding { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Padding" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.Padding" />
+      <MemberSignature Language="VB.NET" Value="Public Property Padding As Thickness" />
+      <MemberSignature Language="F#" Value="member this.Padding : Microsoft.Maui.Thickness with get, set" Usage="CommunityToolkit.Maui.DefaultPopupSettings.Padding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Thickness</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Views.Popup.Padding" />
+      </Docs>
+    </Member>
+    <Member MemberName="PrintMembers">
+      <MemberSignature Language="C#" Value="protected virtual bool PrintMembers (System.Text.StringBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool PrintMembers(class System.Text.StringBuilder builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.PrintMembers(System.Text.StringBuilder)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PrintMembers (builder As StringBuilder) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="builder" Type="System.Text.StringBuilder" />
+      </Parameters>
+      <Docs>
+        <param name="builder">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.DefaultPopupSettings.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.LayoutOptions VerticalOptions { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.LayoutOptions VerticalOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.DefaultPopupSettings.VerticalOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalOptions As LayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.VerticalOptions : Microsoft.Maui.Controls.LayoutOptions with get, set" Usage="CommunityToolkit.Maui.DefaultPopupSettings.VerticalOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.LayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc cref="P:CommunityToolkit.Maui.Views.Popup.VerticalOptions" />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

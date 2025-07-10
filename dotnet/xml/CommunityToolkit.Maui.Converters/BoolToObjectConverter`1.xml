@@ -1,0 +1,206 @@
+<Type Name="BoolToObjectConverter&lt;TObject&gt;" FullName="CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;TObject&gt;">
+  <TypeSignature Language="C#" Value="public class BoolToObjectConverter&lt;TObject&gt; : CommunityToolkit.Maui.Converters.BaseConverter&lt;bool,TObject&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BoolToObjectConverter`1&lt;TObject&gt; extends CommunityToolkit.Maui.Converters.BaseConverter`2&lt;bool, !TObject&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class BoolToObjectConverter(Of TObject)&#xA;Inherits BaseConverter(Of Boolean, TObject)" />
+  <TypeSignature Language="F#" Value="type BoolToObjectConverter&lt;'Object&gt; = class&#xA;    inherit BaseConverter&lt;bool, 'Object&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TObject">
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverter&lt;System.Boolean,TObject&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Boolean</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">TObject</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TObject">To be added.</typeparam>
+    <summary>
+            Converts <see cref="T:System.Boolean" /> to object and vice versa.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BoolToObjectConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBackTo">
+      <MemberSignature Language="C#" Value="public override bool ConvertBackTo (TObject? value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ConvertBackTo(!TObject value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.ConvertBackTo(`0,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertBackTo (value As TObject, Optional culture As CultureInfo = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.ConvertBackTo : 'Object * System.Globalization.CultureInfo -&gt; bool" Usage="boolToObjectConverter.ConvertBackTo (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="TObject" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <param name="culture">The culture to use in the converter.  This is not implemented.</param>
+        <summary>
+            Converts back the object to <see cref="T:System.Boolean" />.
+            </summary>
+        <returns>True if value equals <see cref="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.TrueObject" />, otherwise False.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override TObject? ConvertFrom (bool value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !TObject ConvertFrom(bool value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.ConvertFrom(System.Boolean,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As Boolean, Optional culture As CultureInfo = Nothing) As TObject" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : bool * System.Globalization.CultureInfo -&gt; 'Object" Usage="boolToObjectConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <param name="culture">The culture to use in the converter.  This is not implemented.</param>
+        <summary>
+            Converts <see cref="T:System.Boolean" /> to object.
+            </summary>
+        <returns>The object assigned to <see cref="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.TrueObject" /> if value equals True, otherwise the value assigned to <see cref="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.FalseObject" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="public override bool DefaultConvertBackReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertBackReturnValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertBackReturnValue : bool with get, set" Usage="CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;'Object&gt;.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override TObject? DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TObject DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As TObject" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : 'Object with get, set" Usage="CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;'Object&gt;.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="FalseObject">
+      <MemberSignature Language="C#" Value="public TObject? FalseObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TObject FalseObject" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.FalseObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property FalseObject As TObject" />
+      <MemberSignature Language="F#" Value="member this.FalseObject : 'Object with get, set" Usage="CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;'Object&gt;.FalseObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The object that corresponds to False value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrueObject">
+      <MemberSignature Language="C#" Value="public TObject? TrueObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TObject TrueObject" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.BoolToObjectConverter`1.TrueObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property TrueObject As TObject" />
+      <MemberSignature Language="F#" Value="member this.TrueObject : 'Object with get, set" Usage="CommunityToolkit.Maui.Converters.BoolToObjectConverter&lt;'Object&gt;.TrueObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The object that corresponds to True value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

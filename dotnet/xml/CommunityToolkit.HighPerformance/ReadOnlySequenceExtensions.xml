@@ -1,0 +1,60 @@
+<Type Name="ReadOnlySequenceExtensions" FullName="CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions">
+  <TypeSignature Language="C#" Value="public static class ReadOnlySequenceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ReadOnlySequenceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ReadOnlySequenceExtensions" />
+  <TypeSignature Language="F#" Value="type ReadOnlySequenceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Helpers for working with the <see cref="T:System.Buffers.ReadOnlySequence`1" /> type.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsStream">
+      <MemberSignature Language="C#" Value="public static System.IO.Stream AsStream (this System.Buffers.ReadOnlySequence&lt;byte&gt; sequence);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Stream AsStream(valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; sequence) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions.AsStream(System.Buffers.ReadOnlySequence{System.Byte})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsStream (sequence As ReadOnlySequence(Of Byte)) As Stream" />
+      <MemberSignature Language="F#" Value="static member AsStream : System.Buffers.ReadOnlySequence&lt;byte&gt; -&gt; System.IO.Stream" Usage="CommunityToolkit.HighPerformance.ReadOnlySequenceExtensions.AsStream sequence" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sequence" Type="System.Buffers.ReadOnlySequence&lt;System.Byte&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="sequence">The input <see cref="T:System.Buffers.ReadOnlySequence`1" /> of <see cref="T:System.Byte" /> instance.</param>
+        <summary>
+            Returns a <see cref="T:System.IO.Stream" /> wrapping the contents of the given <see cref="T:System.Memory`1" /> of <see cref="T:System.Byte" /> instance.
+            </summary>
+        <returns>A <see cref="T:System.IO.Stream" /> wrapping the data within <paramref name="sequence" />.</returns>
+        <remarks>
+            Since this method only receives a <see cref="T:System.Buffers.ReadOnlySequence`1" /> instance, which does not track
+            the lifetime of its underlying buffer, it is responsibility of the caller to manage that.
+            In particular, the caller must ensure that the target buffer is not disposed as long
+            as the returned <see cref="T:System.IO.Stream" /> is in use, to avoid unexpected issues.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

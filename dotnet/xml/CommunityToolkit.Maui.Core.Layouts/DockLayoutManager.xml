@@ -1,0 +1,107 @@
+<Type Name="DockLayoutManager" FullName="CommunityToolkit.Maui.Core.Layouts.DockLayoutManager">
+  <TypeSignature Language="C#" Value="public class DockLayoutManager : Microsoft.Maui.Layouts.LayoutManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DockLayoutManager extends Microsoft.Maui.Layouts.LayoutManager" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Layouts.DockLayoutManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class DockLayoutManager&#xA;Inherits LayoutManager" />
+  <TypeSignature Language="F#" Value="type DockLayoutManager = class&#xA;    inherit LayoutManager" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Layouts.LayoutManager</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:Microsoft.Maui.Layouts.LayoutManager" /> for <see cref="T:CommunityToolkit.Maui.Core.IDockLayout" />.
+            </summary>
+    <remarks>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Core.Layouts.DockLayoutManager" />.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DockLayoutManager (CommunityToolkit.Maui.Core.IDockLayout dockLayout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.Core.IDockLayout dockLayout) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Layouts.DockLayoutManager.#ctor(CommunityToolkit.Maui.Core.IDockLayout)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (dockLayout As IDockLayout)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Layouts.DockLayoutManager : CommunityToolkit.Maui.Core.IDockLayout -&gt; CommunityToolkit.Maui.Core.Layouts.DockLayoutManager" Usage="new CommunityToolkit.Maui.Core.Layouts.DockLayoutManager dockLayout" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="dockLayout" Type="CommunityToolkit.Maui.Core.IDockLayout" />
+      </Parameters>
+      <Docs>
+        <param name="dockLayout">To be added.</param>
+        <summary>
+          <see cref="T:Microsoft.Maui.Layouts.LayoutManager" /> for <see cref="T:CommunityToolkit.Maui.Core.IDockLayout" />.
+            </summary>
+        <remarks>
+            Initialize a new instance of <see cref="T:CommunityToolkit.Maui.Core.Layouts.DockLayoutManager" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArrangeChildren">
+      <MemberSignature Language="C#" Value="public override Microsoft.Maui.Graphics.Size ArrangeChildren (Microsoft.Maui.Graphics.Rect bounds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeChildren(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Layouts.DockLayoutManager.ArrangeChildren(Microsoft.Maui.Graphics.Rect)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ArrangeChildren (bounds As Rect) As Size" />
+      <MemberSignature Language="F#" Value="override this.ArrangeChildren : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="dockLayoutManager.ArrangeChildren bounds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bounds" Type="Microsoft.Maui.Graphics.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="bounds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Measure">
+      <MemberSignature Language="C#" Value="public override Microsoft.Maui.Graphics.Size Measure (double widthConstraint, double heightConstraint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size Measure(float64 widthConstraint, float64 heightConstraint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Layouts.DockLayoutManager.Measure(System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Measure (widthConstraint As Double, heightConstraint As Double) As Size" />
+      <MemberSignature Language="F#" Value="override this.Measure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="dockLayoutManager.Measure (widthConstraint, heightConstraint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widthConstraint" Type="System.Double" />
+        <Parameter Name="heightConstraint" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="widthConstraint">To be added.</param>
+        <param name="heightConstraint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

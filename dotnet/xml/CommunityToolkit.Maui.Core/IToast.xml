@@ -1,0 +1,71 @@
+<Type Name="IToast" FullName="CommunityToolkit.Maui.Core.IToast">
+  <TypeSignature Language="C#" Value="public interface IToast : CommunityToolkit.Maui.Core.IAlert, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IToast implements class CommunityToolkit.Maui.Core.IAlert, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.IToast" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IToast&#xA;Implements IAlert, IDisposable" />
+  <TypeSignature Language="F#" Value="type IToast = interface&#xA;    interface IAlert&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAlert</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Toast
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.ToastDuration Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Core.ToastDuration Duration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IToast.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As ToastDuration" />
+      <MemberSignature Language="F#" Value="member this.Duration : CommunityToolkit.Maui.Core.ToastDuration" Usage="CommunityToolkit.Maui.Core.IToast.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.ToastDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Toast duration
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextSize">
+      <MemberSignature Language="C#" Value="public double TextSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 TextSize" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.IToast.TextSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextSize As Double" />
+      <MemberSignature Language="F#" Value="member this.TextSize : double" Usage="CommunityToolkit.Maui.Core.IToast.TextSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Toast font size
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

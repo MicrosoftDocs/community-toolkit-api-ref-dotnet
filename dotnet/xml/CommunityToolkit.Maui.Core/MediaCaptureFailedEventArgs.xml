@@ -1,0 +1,78 @@
+<Type Name="MediaCaptureFailedEventArgs" FullName="CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs">
+  <TypeSignature Language="C#" Value="public class MediaCaptureFailedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaCaptureFailedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaCaptureFailedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type MediaCaptureFailedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="failureReason">A string containing the reason why the capture attempt failed.</param>
+    <summary>
+            Event args containing all contextual information related to a media capture failure event.
+            </summary>
+    <remarks>
+            Creates a new instance of <see cref="T:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs" />.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaCaptureFailedEventArgs (string failureReason);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string failureReason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (failureReason As String)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs : string -&gt; CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs" Usage="new CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs failureReason" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="failureReason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="failureReason">A string containing the reason why the capture attempt failed.</param>
+        <summary>
+            Event args containing all contextual information related to a media capture failure event.
+            </summary>
+        <remarks>
+            Creates a new instance of <see cref="T:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailureReason">
+      <MemberSignature Language="C#" Value="public string FailureReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FailureReason" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.FailureReason" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailureReason As String" />
+      <MemberSignature Language="F#" Value="member this.FailureReason : string" Usage="CommunityToolkit.Maui.Core.MediaCaptureFailedEventArgs.FailureReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the reason why the capture attempt failed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

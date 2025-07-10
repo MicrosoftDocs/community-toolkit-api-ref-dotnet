@@ -44,6 +44,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-detect.
             </para>
         </remarks>
+        <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -52,7 +53,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
-        <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
       </Docs>
     </Member>
     <Member MemberName="DetectLanguagesWithResponseAsync">
@@ -83,6 +83,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-detect.
             </para>
         </remarks>
+        <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
         <exception cref="T:System.ArgumentException">
           <list type="bullet">
             <term>The <paramref name="input" /> parameter doesn't contain any element.</term>
@@ -97,7 +98,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
-        <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
       </Docs>
     </Member>
     <Member MemberName="DetectLanguageWithResponseAsync">
@@ -128,6 +128,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-detect.
             </para>
         </remarks>
+        <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -136,7 +137,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
-        <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
       </Docs>
     </Member>
     <Member MemberName="GetLanguageNamesAsync">
@@ -337,6 +337,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -346,7 +347,6 @@
         <exception cref="T:System.ArgumentException">The <paramref name="input" /> parameter is longer than 1000 characters.</exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateAsync">
@@ -381,6 +381,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -390,7 +391,6 @@
         <exception cref="T:System.ArgumentException">The <paramref name="input" /> parameter is longer than 1000 characters.</exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -423,6 +423,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -437,7 +438,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -470,6 +470,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -484,7 +485,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -517,6 +517,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -526,7 +527,6 @@
         <exception cref="T:System.ArgumentException">The <paramref name="input" /> parameter is longer than 1000 characters.</exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -561,6 +561,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -575,7 +576,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -610,6 +610,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -624,7 +625,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -659,6 +659,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -673,7 +674,6 @@
         </exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
     <Member MemberName="TranslateWithResponseAsync">
@@ -708,6 +708,7 @@
           <para>For more information, go to https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate.
             </para>
         </remarks>
+        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
         <exception cref="T:System.ArgumentNullException">
           <list type="bullet">
             <term>The <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> property hasn't been set.</term>
@@ -717,7 +718,6 @@
         <exception cref="T:System.ArgumentException">The <paramref name="input" /> parameter is longer than 1000 characters.</exception>
         <exception cref="T:Microsoft.Toolkit.Services.MicrosoftTranslator.TranslatorServiceException">The provided <see cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.SubscriptionKey" /> isn't valid or has expired.</exception>
         <altmember cref="P:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.Language" />
-        <altmember cref="M:Microsoft.Toolkit.Services.MicrosoftTranslator.ITranslatorService.GetLanguagesAsync" />
       </Docs>
     </Member>
   </Members>

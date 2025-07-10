@@ -7,11 +7,18 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Helpers for working with types.
@@ -29,6 +36,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Diagnostics</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -39,9 +47,9 @@
       <Docs>
         <param name="type">The input type.</param>
         <summary>
-            Returns a simple string representation of a type.
+            Returns a simple <see cref="T:System.String" /> representation of a type.
             </summary>
-        <returns>The string representation of <paramref name="type" />.</returns>
+        <returns>The <see cref="T:System.String" /> representation of <paramref name="type" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

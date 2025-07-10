@@ -1,0 +1,130 @@
+<Type Name="ImageOptions" FullName="CommunityToolkit.Maui.Core.Views.ImageOptions">
+  <TypeSignature Language="C#" Value="public abstract class ImageOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ImageOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.ImageOptions" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ImageOptions" />
+  <TypeSignature Language="F#" Value="type ImageOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="desiredSize">The desired dimensions of the generated image. The image will be resized proportionally.</param>
+    <param name="background">The background <see cref="T:Microsoft.Maui.Graphics.Paint" /> to apply to the output image.</param>
+    <param name="canvasSize">The actual size of the canvas being displayed.
+            if a value is provided then the contents of the drawing inside these dimensions will be included in the output,
+            if <c>null</c> is provided then the resulting output will be the area covered by the top-left to the bottom-right most points.</param>
+    <summary>
+            Base class set of options used for generating an image from an <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ImageOptions (Microsoft.Maui.Graphics.Size desiredSize, Microsoft.Maui.Graphics.Paint? background, Microsoft.Maui.Graphics.Size? canvasSize);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.Size desiredSize, class Microsoft.Maui.Graphics.Paint background, valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.Graphics.Size&gt; canvasSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.ImageOptions.#ctor(Microsoft.Maui.Graphics.Size,Microsoft.Maui.Graphics.Paint,System.Nullable{Microsoft.Maui.Graphics.Size})" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (desiredSize As Size, background As Paint, canvasSize As Nullable(Of Size))" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Views.ImageOptions : Microsoft.Maui.Graphics.Size * Microsoft.Maui.Graphics.Paint * Nullable&lt;Microsoft.Maui.Graphics.Size&gt; -&gt; CommunityToolkit.Maui.Core.Views.ImageOptions" Usage="new CommunityToolkit.Maui.Core.Views.ImageOptions (desiredSize, background, canvasSize)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="desiredSize" Type="Microsoft.Maui.Graphics.Size" />
+        <Parameter Name="background" Type="Microsoft.Maui.Graphics.Paint" />
+        <Parameter Name="canvasSize" Type="System.Nullable&lt;Microsoft.Maui.Graphics.Size&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="desiredSize">The desired dimensions of the generated image. The image will be resized proportionally.</param>
+        <param name="background">The background <see cref="T:Microsoft.Maui.Graphics.Paint" /> to apply to the output image.</param>
+        <param name="canvasSize">The actual size of the canvas being displayed.
+            if a value is provided then the contents of the drawing inside these dimensions will be included in the output,
+            if <c>null</c> is provided then the resulting output will be the area covered by the top-left to the bottom-right most points.</param>
+        <summary>
+            Base class set of options used for generating an image from an <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Background">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Paint? Background { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Background" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.ImageOptions.Background" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Background As Paint" />
+      <MemberSignature Language="F#" Value="member this.Background : Microsoft.Maui.Graphics.Paint" Usage="CommunityToolkit.Maui.Core.Views.ImageOptions.Background" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Paint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the background <see cref="T:Microsoft.Maui.Graphics.Paint" /> to apply to the output image.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanvasSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Size? CanvasSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.Graphics.Size&gt; CanvasSize" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.ImageOptions.CanvasSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanvasSize As Nullable(Of Size)" />
+      <MemberSignature Language="F#" Value="member this.CanvasSize : Nullable&lt;Microsoft.Maui.Graphics.Size&gt;" Usage="CommunityToolkit.Maui.Core.Views.ImageOptions.CanvasSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Maui.Graphics.Size&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the actual size of the canvas being displayed.
+            if a value is provided then the contents of the drawing inside these dimensions will be included in the output,
+            if <c>null</c> is provided then the resulting output will be the area covered by the top-left to the bottom-right most points.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DesiredSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Size DesiredSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Size DesiredSize" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.ImageOptions.DesiredSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DesiredSize As Size" />
+      <MemberSignature Language="F#" Value="member this.DesiredSize : Microsoft.Maui.Graphics.Size" Usage="CommunityToolkit.Maui.Core.Views.ImageOptions.DesiredSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the desired dimensions of the generated image. The image will be resized proportionally.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

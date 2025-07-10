@@ -1,15 +1,23 @@
 <Type Name="IAsyncRelayCommand&lt;T&gt;" FullName="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand&lt;T&gt;">
   <TypeSignature Language="C#" Value="public interface IAsyncRelayCommand&lt;in T&gt; : CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, CommunityToolkit.Mvvm.Input.IRelayCommand&lt;in T&gt;, System.ComponentModel.INotifyPropertyChanged, System.Windows.Input.ICommand" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAsyncRelayCommand`1&lt;- T&gt; implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand`1&lt;!T&gt;, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IAsyncRelayCommand`1&lt;- T&gt; implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand`1&lt;!T&gt;, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAsyncRelayCommand(Of In T)&#xA;Implements IAsyncRelayCommand, ICommand, INotifyPropertyChanged, IRelayCommand(Of In T)" />
   <TypeSignature Language="F#" Value="type IAsyncRelayCommand&lt;'T&gt; = interface&#xA;    interface IAsyncRelayCommand&#xA;    interface IRelayCommand&#xA;    interface ICommand&#xA;    interface INotifyPropertyChanged&#xA;    interface IRelayCommand&lt;'T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAsyncRelayCommand`1&lt;- T&gt; implements class CommunityToolkit.Mvvm.Input.IAsyncRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand, class CommunityToolkit.Mvvm.Input.IRelayCommand`1&lt;!T&gt;, class System.ComponentModel.INotifyPropertyChanged, class System.Windows.Input.ICommand" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T">
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
@@ -50,12 +58,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="parameter" Type="T" />
+        <Parameter Name="parameter" Type="T">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="parameter">The input parameter.</param>

@@ -7,14 +7,40 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T" />
+    <TypeParameter Name="T">
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
   </TypeParameters>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <typeparam name="T">The type of items to enumerate.</typeparam>
     <summary>
@@ -33,12 +59,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;" />
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The destination <see cref="T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1" /> instance.</param>
@@ -61,12 +95,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Span&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The destination <see cref="T:System.Span`1" /> instance.</param>
@@ -79,6 +121,50 @@
             </exception>
       </Docs>
     </Member>
+    <Member MemberName="DangerousCreate">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt; DangerousCreate (in T value, int length, int step);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1&lt;!T&gt; DangerousCreate([in]!T&amp; value, int32 length, int32 step) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.DangerousCreate(`0@,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DangerousCreate (ByRef value As T, length As Integer, step As Integer) As ReadOnlyRefEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member DangerousCreate : 'T * int * int -&gt; CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;'T&gt;.DangerousCreate (value, length, step)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="T" RefType="ref" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="length" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="step" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="value">The reference to the first <typeparamref name="T" /> item to map.</param>
+        <param name="length">The number of items in the sequence.</param>
+        <param name="step">The distance between items in the sequence to enumerate.</param>
+        <summary>
+            Creates a new instance of the <see cref="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1" /> struct with the specified parameters.
+            </summary>
+        <returns>A <see cref="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1" /> instance with the specified parameters.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when one of the parameters are negative.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="GetEnumerator">
       <MemberSignature Language="C#" Value="public CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt;.Enumerator GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1/Enumerator&lt;!T&gt; GetEnumerator() cil managed" />
@@ -89,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt;+Enumerator</ReturnType>
@@ -99,6 +186,99 @@
         <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
         <remarks>To be added.</remarks>
         <filterpriority>2</filterpriority>
+        <inheritdoc cref="M:System.Collections.IEnumerable.GetEnumerator" />
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ref readonly T this[Index index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Item(valuetype System.Index)" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Item(System.Index)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Index) As T" />
+      <MemberSignature Language="F#" Value="member this.Item(Index) : 'T" Usage="CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;'T&gt;.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Index" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the element.</param>
+        <summary>
+            Gets the element at the specified zero-based index.
+            </summary>
+        <value>A reference to the element at the specified index.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.IndexOutOfRangeException">
+            Thrown when <paramref name="index" /> is invalid.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ref readonly T this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As T" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : 'T" Usage="CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;'T&gt;.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the element.</param>
+        <summary>
+            Gets the element at the specified zero-based index.
+            </summary>
+        <value>A reference to the element at the specified index.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.IndexOutOfRangeException">
+            Thrown when <paramref name="index" /> is invalid.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public int Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
+      <MemberSignature Language="F#" Value="member this.Length : int" Usage="CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;'T&gt;.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the total available length for the sequence.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -111,12 +291,26 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="enumerable" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;" />
+        <Parameter Name="enumerable" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="enumerable">To be added.</param>
@@ -135,6 +329,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T[]</ReturnType>
@@ -149,6 +344,7 @@
             This method will allocate a new <typeparamref name="T" /> array, so only
             use it if you really need to copy the target items in a new memory location.
             </remarks>
+        <inheritdoc cref="M:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1.ToArray" />
       </Docs>
     </Member>
     <Member MemberName="TryCopyTo">
@@ -161,12 +357,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;" />
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Enumerables.RefEnumerable&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The target <see cref="T:CommunityToolkit.HighPerformance.Enumerables.RefEnumerable`1" /> of the copy operation.</param>
@@ -187,12 +391,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Span&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The target <see cref="T:System.Span`1" /> of the copy operation.</param>

@@ -1,0 +1,98 @@
+<Type Name="ObservablePropertyAttribute" FullName="CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute">
+  <TypeSignature Language="C#" Value="public sealed class ObservablePropertyAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ObservablePropertyAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ObservablePropertyAttribute&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type ObservablePropertyAttribute = class&#xA;    inherit Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=false, Inherited=false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=false, Inherited=false)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+             An attribute that indicates that a given partial property should be implemented by the source generator.
+             In order to use this attribute, the containing type has to inherit from <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject" />, or it
+             must be using <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute" /> or <see cref="T:CommunityToolkit.Mvvm.ComponentModel.INotifyPropertyChangedAttribute" />.
+             If the containing type also implements the <see cref="T:System.ComponentModel.INotifyPropertyChanging" /> (that is, if it either inherits from
+             <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject" /> or is using <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute" />), then the generated code will
+             also invoke <see cref="M:CommunityToolkit.Mvvm.ComponentModel.ObservableObject.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)" /> to signal that event.
+             <para>
+             This attribute can be used as follows:
+             <code>
+             partial class MyViewModel : ObservableObject
+             {
+                 [ObservableProperty]
+                 public partial string Name { get; set; }
+            
+                 [ObservableProperty]
+                 public partial bool IsEnabled { get; set; }
+             }
+             </code></para>
+             And with this, code analogous to this will be generated:
+             <code>
+             partial class MyViewModel
+             {
+                 public partial string Name
+                 {
+                     get =&gt; field;
+                     set =&gt; SetProperty(ref field, value);
+                 }
+            
+                 public partial bool IsEnabled
+                 {
+                     get =&gt; field;
+                     set =&gt; SetProperty(ref field, value);
+                 }
+             }
+             </code></summary>
+    <remarks>
+      <para>
+             In order to use this attribute on partial properties, the .NET 9 SDK is required, and C# preview must
+             be used. If that is not available, this attribute can be used to annotate fields instead, like so:
+             <code>
+             partial class MyViewModel : ObservableObject
+             {
+                 [ObservableProperty]
+                 private string name;
+            
+                 [ObservableProperty]
+                 private bool isEnabled;
+             }
+             </code></para>
+      <para>
+             The generated properties will automatically use the <c>UpperCamelCase</c> format for their names,
+             which will be derived from the field names. The generator can also recognize fields using either
+             the <c>_lowerCamel</c> or <c>m_lowerCamel</c> naming scheme. Otherwise, the first character in the
+             source field name will be converted to uppercase (eg. <c>isEnabled</c> to <c>IsEnabled</c>).
+             </para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ObservablePropertyAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

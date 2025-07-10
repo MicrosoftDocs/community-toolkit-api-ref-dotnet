@@ -7,9 +7,17 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T" />
+    <TypeParameter Name="T">
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
   </TypeParameters>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -23,6 +31,22 @@
     <Attribute>
       <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(CommunityToolkit.HighPerformance.Buffers.Views.MemoryDebugView&lt;&gt;))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(CommunityToolkit.HighPerformance.Buffers.Views.MemoryDebugView&lt;&gt;))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -58,9 +82,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Buffers.SpanOwner&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="size" Type="System.Int32" />
@@ -85,9 +116,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Buffers.SpanOwner&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="size" Type="System.Int32" />
@@ -114,9 +152,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Buffers.SpanOwner&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="size" Type="System.Int32" />
@@ -143,9 +188,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Buffers.SpanOwner&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="size" Type="System.Int32" />
@@ -174,9 +226,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ArraySegment&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -202,8 +261,9 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Parameters />
@@ -225,6 +285,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -247,7 +308,14 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Buffers.SpanOwner&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -269,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -291,7 +360,14 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -313,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -323,6 +400,7 @@
         <returns>A <see cref="T:System.String" /> containing a fully qualified type name.</returns>
         <remarks>To be added.</remarks>
         <filterpriority>2</filterpriority>
+        <inheritdoc />
       </Docs>
     </Member>
   </Members>

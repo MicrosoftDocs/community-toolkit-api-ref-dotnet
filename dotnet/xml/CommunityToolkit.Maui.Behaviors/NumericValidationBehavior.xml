@@ -1,0 +1,287 @@
+<Type Name="NumericValidationBehavior" FullName="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior">
+  <TypeSignature Language="C#" Value="public class NumericValidationBehavior : CommunityToolkit.Maui.Behaviors.ValidationBehavior&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NumericValidationBehavior extends CommunityToolkit.Maui.Behaviors.ValidationBehavior`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class NumericValidationBehavior&#xA;Inherits ValidationBehavior(Of String)" />
+  <TypeSignature Language="F#" Value="type NumericValidationBehavior = class&#xA;    inherit ValidationBehavior&lt;string&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.ValidationBehavior&lt;System.String&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">System.String</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("NumericValidationBehavior is not trim safe because it uses bindings with string paths.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("NumericValidationBehavior is not trim safe because it uses bindings with string paths.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior" /> is a behavior that allows the user to determine if text input is a valid numeric value. For example, an <see cref="T:Microsoft.Maui.Controls.Entry" /> control can be styled differently depending on whether a valid or an invalid numeric input is provided. Additional properties handling validation are inherited from <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NumericValidationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Decorate">
+      <MemberSignature Language="C#" Value="protected override string? Decorate (string? value);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string Decorate(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.Decorate(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Decorate (value As String) As String" />
+      <MemberSignature Language="F#" Value="override this.Decorate : string -&gt; string" Usage="numericValidationBehavior.Decorate value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumDecimalPlaces">
+      <MemberSignature Language="C#" Value="public int MaximumDecimalPlaces { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumDecimalPlaces" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumDecimalPlaces" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumDecimalPlaces As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumDecimalPlaces : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumDecimalPlaces" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The maximum number of decimal places that will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumDecimalPlacesProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MaximumDecimalPlacesProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaximumDecimalPlacesProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumDecimalPlacesProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumDecimalPlacesProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaximumDecimalPlacesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumDecimalPlacesProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumDecimalPlaces" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumValue">
+      <MemberSignature Language="C#" Value="public double MaximumValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 MaximumValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumValue As Double" />
+      <MemberSignature Language="F#" Value="member this.MaximumValue : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The maximum numeric value that will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumValueProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MaximumValueProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaximumValueProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumValueProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaximumValueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumValueProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MaximumValue" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumDecimalPlaces">
+      <MemberSignature Language="C#" Value="public int MinimumDecimalPlaces { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumDecimalPlaces" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumDecimalPlaces" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumDecimalPlaces As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumDecimalPlaces : int with get, set" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumDecimalPlaces" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The minimum number of decimal places that will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumDecimalPlacesProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MinimumDecimalPlacesProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinimumDecimalPlacesProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumDecimalPlacesProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumDecimalPlacesProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumDecimalPlacesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumDecimalPlacesProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumDecimalPlaces" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumValue">
+      <MemberSignature Language="C#" Value="public double MinimumValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 MinimumValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumValue As Double" />
+      <MemberSignature Language="F#" Value="member this.MinimumValue : double with get, set" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The minimum numeric value that will be allowed. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumValueProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty MinimumValueProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinimumValueProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumValueProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumValueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumValueProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.MinimumValue" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAsync">
+      <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.ValueTask&lt;bool&gt; ValidateAsync (string? value, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; ValidateAsync(string value, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.NumericValidationBehavior.ValidateAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function ValidateAsync (value As String, token As CancellationToken) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="override this.ValidateAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="numericValidationBehavior.ValidateAsync (value, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

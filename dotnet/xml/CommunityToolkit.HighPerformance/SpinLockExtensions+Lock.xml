@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -16,6 +17,18 @@
     <Attribute>
       <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -37,8 +50,8 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="owner" Type="System.Object" />
-        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="ref" />
+        <Parameter Name="owner" Type="System.Object" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
+        <Parameter Name="spinLock" Type="System.Threading.SpinLock" RefType="ref" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       </Parameters>
       <Docs>
         <param name="owner">To be added.</param>
@@ -57,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

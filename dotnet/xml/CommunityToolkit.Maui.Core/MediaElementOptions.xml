@@ -1,0 +1,48 @@
+<Type Name="MediaElementOptions" FullName="CommunityToolkit.Maui.Core.MediaElementOptions">
+  <TypeSignature Language="C#" Value="public class MediaElementOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaElementOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.MediaElementOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaElementOptions" />
+  <TypeSignature Language="F#" Value="type MediaElementOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Construction options for MediaElement, for example, to create an Android SurfaceView or TextureView
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SetDefaultAndroidViewType">
+      <MemberSignature Language="C#" Value="public void SetDefaultAndroidViewType (CommunityToolkit.Maui.Core.AndroidViewType androidViewType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDefaultAndroidViewType(valuetype CommunityToolkit.Maui.Core.AndroidViewType androidViewType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.MediaElementOptions.SetDefaultAndroidViewType(CommunityToolkit.Maui.Core.AndroidViewType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDefaultAndroidViewType (androidViewType As AndroidViewType)" />
+      <MemberSignature Language="F#" Value="member this.SetDefaultAndroidViewType : CommunityToolkit.Maui.Core.AndroidViewType -&gt; unit" Usage="mediaElementOptions.SetDefaultAndroidViewType androidViewType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="androidViewType" Type="CommunityToolkit.Maui.Core.AndroidViewType" />
+      </Parameters>
+      <Docs>
+        <param name="androidViewType">To be added.</param>
+        <summary>
+            Set Android View type for MediaElement as SurfaceView or TextureView on construction
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

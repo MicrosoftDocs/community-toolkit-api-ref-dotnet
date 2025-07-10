@@ -1,0 +1,165 @@
+<Type Name="SemanticPropertiesExtensions" FullName="CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions">
+  <TypeSignature Language="C#" Value="public static class SemanticPropertiesExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SemanticPropertiesExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SemanticPropertiesExtensions" />
+  <TypeSignature Language="F#" Value="type SemanticPropertiesExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods for setting <see cref="T:Microsoft.Maui.Controls.SemanticProperties" /> on <see cref="T:Microsoft.Maui.Controls.BindableObject" />s.
+            These methods provide helpful ways of fluently setting properties.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SemanticDescription&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable SemanticDescription&lt;TBindable&gt; (this TBindable bindable, string description) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable SemanticDescription&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, string description) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticDescription``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SemanticDescription(Of TBindable As BindableObject) (bindable As TBindable, description As String) As TBindable" />
+      <MemberSignature Language="F#" Value="static member SemanticDescription : 'Bindable * string -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticDescription (bindable, description)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of bindable object being updated.</typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> to provide the <paramref name="description" /> for.</param>
+        <param name="description">The short, descriptive string that the platforms screen reader uses to announce the <paramref name="bindable" />.</param>
+        <summary>
+            Sets a short, descriptive string that the platforms screen reader uses to announce the <paramref name="bindable" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="bindable" /> with the <see cref="F:Microsoft.Maui.Controls.SemanticProperties.DescriptionProperty" /> set
+            to the supplied <paramref name="description" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SemanticHeadingLevel&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable SemanticHeadingLevel&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.SemanticHeadingLevel headingLevel) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable SemanticHeadingLevel&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.SemanticHeadingLevel headingLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticHeadingLevel``1(``0,Microsoft.Maui.SemanticHeadingLevel)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SemanticHeadingLevel(Of TBindable As BindableObject) (bindable As TBindable, headingLevel As SemanticHeadingLevel) As TBindable" />
+      <MemberSignature Language="F#" Value="static member SemanticHeadingLevel : 'Bindable * Microsoft.Maui.SemanticHeadingLevel -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticHeadingLevel (bindable, headingLevel)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="headingLevel" Type="Microsoft.Maui.SemanticHeadingLevel" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of bindable object being updated.</typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> to provide the <paramref name="headingLevel" /> for.</param>
+        <param name="headingLevel">The heading level to enable the <paramref name="bindable" /> to be marked as a heading to organize the UI and make it easier to navigate.</param>
+        <summary>
+            Sets a heading level to enable the <paramref name="bindable" /> to be marked as a heading to organize the UI and make it easier to navigate.
+            </summary>
+        <returns>
+            The supplied <paramref name="bindable" /> with the <see cref="F:Microsoft.Maui.Controls.SemanticProperties.HeadingLevelProperty" /> set
+            to the supplied <paramref name="headingLevel" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SemanticHint&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable SemanticHint&lt;TBindable&gt; (this TBindable bindable, string hint) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable SemanticHint&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, string hint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticHint``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SemanticHint(Of TBindable As BindableObject) (bindable As TBindable, hint As String) As TBindable" />
+      <MemberSignature Language="F#" Value="static member SemanticHint : 'Bindable * string -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticHint (bindable, hint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="hint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of bindable object being updated.</typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> to provide the <paramref name="hint" /> for.</param>
+        <param name="hint">The additional context to that set in <see cref="M:CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticDescription``1(``0,System.String)" />, such as the purpose of the <paramref name="bindable" />.</param>
+        <summary>
+            Sets an additional context to that set in <see cref="M:CommunityToolkit.Maui.Markup.SemanticPropertiesExtensions.SemanticDescription``1(``0,System.String)" />, such as the purpose of the <paramref name="bindable" />.
+            </summary>
+        <returns>
+            The supplied <paramref name="bindable" /> with the <see cref="F:Microsoft.Maui.Controls.SemanticProperties.HintProperty" /> set
+            to the supplied <paramref name="hint" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

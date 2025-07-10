@@ -1,0 +1,174 @@
+<Type Name="CameraViewDefaults" FullName="CommunityToolkit.Maui.Core.CameraViewDefaults">
+  <TypeSignature Language="C#" Value="public static class CameraViewDefaults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CameraViewDefaults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.CameraViewDefaults" />
+  <TypeSignature Language="VB.NET" Value="Public Class CameraViewDefaults" />
+  <TypeSignature Language="F#" Value="type CameraViewDefaults = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows10.0.10240.0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows10.0.10240.0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("android21.0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("android21.0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("ios")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("ios")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("tizen")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("tizen")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Default Values for <see cref="T:CommunityToolkit.Maui.Core.ICameraView" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CameraFlashMode">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Core.CameraFlashMode CameraFlashMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype CommunityToolkit.Maui.Core.CameraFlashMode CameraFlashMode" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.CameraViewDefaults.CameraFlashMode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CameraFlashMode As CameraFlashMode" />
+      <MemberSignature Language="F#" Value="static member CameraFlashMode : CommunityToolkit.Maui.Core.CameraFlashMode" Usage="CommunityToolkit.Maui.Core.CameraViewDefaults.CameraFlashMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.CameraFlashMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default value for <see cref="P:CommunityToolkit.Maui.Core.ICameraView.CameraFlashMode" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageCaptureResolution">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Graphics.Size ImageCaptureResolution { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Graphics.Size ImageCaptureResolution" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.CameraViewDefaults.ImageCaptureResolution" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageCaptureResolution As Size" />
+      <MemberSignature Language="F#" Value="static member ImageCaptureResolution : Microsoft.Maui.Graphics.Size" Usage="CommunityToolkit.Maui.Core.CameraViewDefaults.ImageCaptureResolution" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Size</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default value for <see cref="P:CommunityToolkit.Maui.Core.ICameraView.ImageCaptureResolution" /></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAvailable">
+      <MemberSignature Language="C#" Value="public const bool IsAvailable;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal bool IsAvailable" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Const IsAvailable As Boolean " />
+      <MemberSignature Language="F#" Value="val mutable IsAvailable : bool" Usage="CommunityToolkit.Maui.Core.CameraViewDefaults.IsAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default value for <see cref="P:CommunityToolkit.Maui.Core.ICameraView.IsAvailable" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCameraBusy">
+      <MemberSignature Language="C#" Value="public const bool IsCameraBusy;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal bool IsCameraBusy" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsCameraBusy" />
+      <MemberSignature Language="VB.NET" Value="Public Const IsCameraBusy As Boolean " />
+      <MemberSignature Language="F#" Value="val mutable IsCameraBusy : bool" Usage="CommunityToolkit.Maui.Core.CameraViewDefaults.IsCameraBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default value for <see cref="P:CommunityToolkit.Maui.Core.ICameraView.IsBusy" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTorchOn">
+      <MemberSignature Language="C#" Value="public const bool IsTorchOn;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal bool IsTorchOn" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.CameraViewDefaults.IsTorchOn" />
+      <MemberSignature Language="VB.NET" Value="Public Const IsTorchOn As Boolean " />
+      <MemberSignature Language="F#" Value="val mutable IsTorchOn : bool" Usage="CommunityToolkit.Maui.Core.CameraViewDefaults.IsTorchOn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default value for <see cref="P:CommunityToolkit.Maui.Core.ICameraView.IsTorchOn" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZoomFactor">
+      <MemberSignature Language="C#" Value="public const float ZoomFactor = 1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 ZoomFactor = (1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.CameraViewDefaults.ZoomFactor" />
+      <MemberSignature Language="VB.NET" Value="Public Const ZoomFactor As Single  = 1" />
+      <MemberSignature Language="F#" Value="val mutable ZoomFactor : single" Usage="CommunityToolkit.Maui.Core.CameraViewDefaults.ZoomFactor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Default value for <see cref="P:CommunityToolkit.Maui.Core.ICameraView.ZoomFactor" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

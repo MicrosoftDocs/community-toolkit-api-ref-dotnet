@@ -1,0 +1,423 @@
+<Type Name="FileSaverResult" FullName="CommunityToolkit.Maui.Storage.FileSaverResult">
+  <TypeSignature Language="C#" Value="public class FileSaverResult : IEquatable&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileSaverResult extends System.Object implements class System.IEquatable`1&lt;class CommunityToolkit.Maui.Storage.FileSaverResult&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Storage.FileSaverResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileSaverResult&#xA;Implements IEquatable(Of FileSaverResult)" />
+  <TypeSignature Language="F#" Value="type FileSaverResult = class&#xA;    interface IEquatable&lt;FileSaverResult&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;CommunityToolkit.Maui.Storage.FileSaverResult&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="FilePath">The saved file path</param>
+    <param name="Exception">Exception if operation failed</param>
+    <summary>
+            Result of the <see cref="T:CommunityToolkit.Maui.Storage.IFileSaver" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected FileSaverResult (CommunityToolkit.Maui.Storage.FileSaverResult original);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.Storage.FileSaverResult original) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.#ctor(CommunityToolkit.Maui.Storage.FileSaverResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (original As FileSaverResult)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="original" Type="CommunityToolkit.Maui.Storage.FileSaverResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="original">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileSaverResult (string? FilePath, Exception? Exception);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string FilePath, class System.Exception Exception) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (FilePath As String, Exception As Exception)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Storage.FileSaverResult : string * Exception -&gt; CommunityToolkit.Maui.Storage.FileSaverResult" Usage="new CommunityToolkit.Maui.Storage.FileSaverResult (FilePath, Exception)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="FilePath" Type="System.String" />
+        <Parameter Name="Exception" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="FilePath">The saved file path</param>
+        <param name="Exception">Exception if operation failed</param>
+        <summary>
+            Result of the <see cref="T:CommunityToolkit.Maui.Storage.IFileSaver" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="&lt;Clone&gt;$">
+      <MemberSignature Language="C#" Value="public virtual CommunityToolkit.Maui.Storage.FileSaverResult &lt;Clone&gt;$ ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class CommunityToolkit.Maui.Storage.FileSaverResult &lt;Clone&gt;$() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.&lt;Clone&gt;$" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function &lt;Clone&gt;$ () As FileSaverResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Storage.FileSaverResult</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deconstruct">
+      <MemberSignature Language="C#" Value="public void Deconstruct (out string? FilePath, out Exception? Exception);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] string&amp; FilePath, [out] class System.Exception&amp; Exception) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.Deconstruct(System.String@,System.Exception@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef FilePath As String, ByRef Exception As Exception)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FilePath" Type="System.String" RefType="out" />
+        <Parameter Name="Exception" Type="System.Exception" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="FilePath">To be added.</param>
+        <param name="Exception">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnsureSuccess">
+      <MemberSignature Language="C#" Value="public void EnsureSuccess ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnsureSuccess() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.EnsureSuccess" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnsureSuccess ()" />
+      <MemberSignature Language="F#" Value="member this.EnsureSuccess : unit -&gt; unit" Usage="fileSaverResult.EnsureSuccess " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNull("FilePath")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNull("FilePath")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Check if the operation was successful.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EqualityContract">
+      <MemberSignature Language="C#" Value="protected virtual Type EqualityContract { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FileSaverResult.EqualityContract" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
+      <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="CommunityToolkit.Maui.Storage.FileSaverResult.EqualityContract" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public virtual bool Equals (CommunityToolkit.Maui.Storage.FileSaverResult? other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class CommunityToolkit.Maui.Storage.FileSaverResult other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.Equals(CommunityToolkit.Maui.Storage.FileSaverResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Equals (other As FileSaverResult) As Boolean" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="CommunityToolkit.Maui.Storage.FileSaverResult" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="public Exception? Exception { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Exception Exception" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FileSaverResult.Exception" />
+      <MemberSignature Language="VB.NET" Value="Public Property Exception As Exception" />
+      <MemberSignature Language="F#" Value="member this.Exception : Exception with get, set" Usage="CommunityToolkit.Maui.Storage.FileSaverResult.Exception" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exception if operation failed</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilePath">
+      <MemberSignature Language="C#" Value="public string? FilePath { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FilePath" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FileSaverResult.FilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilePath As String" />
+      <MemberSignature Language="F#" Value="member this.FilePath : string with get, set" Usage="CommunityToolkit.Maui.Storage.FileSaverResult.FilePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The saved file path</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSuccessful">
+      <MemberSignature Language="C#" Value="public bool IsSuccessful { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSuccessful" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FileSaverResult.IsSuccessful" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSuccessful As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSuccessful : bool" Usage="CommunityToolkit.Maui.Storage.FileSaverResult.IsSuccessful" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "FilePath")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "FilePath")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "FilePath")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "FilePath")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Check if the operation was successful.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (CommunityToolkit.Maui.Storage.FileSaverResult? left, CommunityToolkit.Maui.Storage.FileSaverResult? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class CommunityToolkit.Maui.Storage.FileSaverResult left, class CommunityToolkit.Maui.Storage.FileSaverResult right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.op_Equality(CommunityToolkit.Maui.Storage.FileSaverResult,CommunityToolkit.Maui.Storage.FileSaverResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As FileSaverResult, right As FileSaverResult) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="CommunityToolkit.Maui.Storage.FileSaverResult" />
+        <Parameter Name="right" Type="CommunityToolkit.Maui.Storage.FileSaverResult" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (CommunityToolkit.Maui.Storage.FileSaverResult? left, CommunityToolkit.Maui.Storage.FileSaverResult? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class CommunityToolkit.Maui.Storage.FileSaverResult left, class CommunityToolkit.Maui.Storage.FileSaverResult right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.op_Inequality(CommunityToolkit.Maui.Storage.FileSaverResult,CommunityToolkit.Maui.Storage.FileSaverResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As FileSaverResult, right As FileSaverResult) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="CommunityToolkit.Maui.Storage.FileSaverResult" />
+        <Parameter Name="right" Type="CommunityToolkit.Maui.Storage.FileSaverResult" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintMembers">
+      <MemberSignature Language="C#" Value="protected virtual bool PrintMembers (System.Text.StringBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool PrintMembers(class System.Text.StringBuilder builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.PrintMembers(System.Text.StringBuilder)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PrintMembers (builder As StringBuilder) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="builder" Type="System.Text.StringBuilder" />
+      </Parameters>
+      <Docs>
+        <param name="builder">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FileSaverResult.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

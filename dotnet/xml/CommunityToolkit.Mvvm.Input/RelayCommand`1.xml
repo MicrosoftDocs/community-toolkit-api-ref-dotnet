@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
@@ -25,6 +26,12 @@
       <InterfaceName>System.Windows.Input.ICommand</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <typeparam name="T">The type of parameter being passed as input to the callbacks.</typeparam>
     <summary>
@@ -46,9 +53,17 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Action&lt;T&gt;" />
+        <Parameter Name="execute" Type="System.Action&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="execute">The execution logic.</param>
@@ -60,6 +75,7 @@
             nullable <see cref="T:System.Object" /> parameter, it is recommended that if <typeparamref name="T" /> is a reference type,
             you should always declare it as nullable, and to always perform checks within <paramref name="execute" />.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="execute" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -72,10 +88,25 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="execute" Type="System.Action&lt;T&gt;" />
-        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;" />
+        <Parameter Name="execute" Type="System.Action&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="canExecute" Type="System.Predicate&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="execute">The execution logic.</param>
@@ -84,6 +115,7 @@
             Initializes a new instance of the <see cref="T:CommunityToolkit.Mvvm.Input.RelayCommand`1" /> class.
             </summary>
         <remarks>See notes in <see cref="M:CommunityToolkit.Mvvm.Input.RelayCommand`1.#ctor(System.Action{`0})" />.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="execute" /> or <paramref name="canExecute" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="CanExecute">
@@ -99,6 +131,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -111,6 +144,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CanExecute">
@@ -126,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -138,6 +173,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CanExecuteChanged">
@@ -153,6 +189,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler</ReturnType>
@@ -160,6 +197,7 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -175,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -186,6 +225,7 @@
         <param name="parameter">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -201,6 +241,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -212,6 +253,7 @@
         <param name="parameter">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="NotifyCanExecuteChanged">
@@ -227,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -237,6 +280,7 @@
             Notifies that the <see cref="M:System.Windows.Input.ICommand.CanExecute(System.Object)" /> property has changed.
             </summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
   </Members>

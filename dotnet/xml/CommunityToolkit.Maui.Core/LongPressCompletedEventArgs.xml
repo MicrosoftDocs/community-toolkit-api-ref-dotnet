@@ -1,0 +1,73 @@
+<Type Name="LongPressCompletedEventArgs" FullName="CommunityToolkit.Maui.Core.LongPressCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class LongPressCompletedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LongPressCompletedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.LongPressCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class LongPressCompletedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type LongPressCompletedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:CommunityToolkit.Maui.Core.LongPressCompletedEventArgs" />
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LongPressCompletedEventArgs (object? longPressCommandParameter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object longPressCommandParameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.LongPressCompletedEventArgs.#ctor(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (longPressCommandParameter As Object)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.LongPressCompletedEventArgs : obj -&gt; CommunityToolkit.Maui.Core.LongPressCompletedEventArgs" Usage="new CommunityToolkit.Maui.Core.LongPressCompletedEventArgs longPressCommandParameter" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="longPressCommandParameter" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="longPressCommandParameter">To be added.</param>
+        <summary>
+          <see cref="T:CommunityToolkit.Maui.Core.LongPressCompletedEventArgs" />
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPressCommandParameter">
+      <MemberSignature Language="C#" Value="public object? LongPressCommandParameter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LongPressCommandParameter" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.LongPressCompletedEventArgs.LongPressCommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LongPressCommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.LongPressCommandParameter : obj" Usage="CommunityToolkit.Maui.Core.LongPressCompletedEventArgs.LongPressCommandParameter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Parameter
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

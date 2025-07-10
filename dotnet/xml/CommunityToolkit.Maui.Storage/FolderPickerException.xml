@@ -1,0 +1,44 @@
+<Type Name="FolderPickerException" FullName="CommunityToolkit.Maui.Storage.FolderPickerException">
+  <TypeSignature Language="C#" Value="public sealed class FolderPickerException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderPickerException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Storage.FolderPickerException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderPickerException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type FolderPickerException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Exception occurred if error has occurred during picking the folder
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPickerException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Storage.FolderPickerException : string -&gt; CommunityToolkit.Maui.Storage.FolderPickerException" Usage="new CommunityToolkit.Maui.Storage.FolderPickerException message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Storage.FolderPickerException" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

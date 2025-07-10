@@ -1,0 +1,203 @@
+<Type Name="SnackbarOptions" FullName="CommunityToolkit.Maui.Core.SnackbarOptions">
+  <TypeSignature Language="C#" Value="public class SnackbarOptions : Microsoft.Maui.ITextStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SnackbarOptions extends System.Object implements class Microsoft.Maui.ITextStyle" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.SnackbarOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class SnackbarOptions&#xA;Implements ITextStyle" />
+  <TypeSignature Language="F#" Value="type SnackbarOptions = class&#xA;    interface ITextStyle" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.ITextStyle</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Snackbar visual options
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SnackbarOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.SnackbarOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionButtonFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Font ActionButtonFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font ActionButtonFont" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.ActionButtonFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionButtonFont As Font" />
+      <MemberSignature Language="F#" Value="member this.ActionButtonFont : Microsoft.Maui.Font with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.ActionButtonFont" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar button font
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionButtonTextColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color ActionButtonTextColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color ActionButtonTextColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.ActionButtonTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionButtonTextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.ActionButtonTextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.ActionButtonTextColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar action button text color
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackgroundColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color BackgroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.BackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.BackgroundColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar background color
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharacterSpacing">
+      <MemberSignature Language="C#" Value="public double CharacterSpacing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 CharacterSpacing" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.CharacterSpacing" />
+      <MemberSignature Language="VB.NET" Value="Public Property CharacterSpacing As Double" />
+      <MemberSignature Language="F#" Value="member this.CharacterSpacing : double with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.CharacterSpacing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar message character spacing
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CornerRadius">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.CornerRadius CornerRadius { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.CornerRadius CornerRadius" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.CornerRadius" />
+      <MemberSignature Language="VB.NET" Value="Public Property CornerRadius As CornerRadius" />
+      <MemberSignature Language="F#" Value="member this.CornerRadius : Microsoft.Maui.CornerRadius with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.CornerRadius" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CornerRadius</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar corner radius
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Font Font { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Font" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.Font" />
+      <MemberSignature Language="VB.NET" Value="Public Property Font As Font" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Maui.Font with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.Font" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar message font
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Graphics.Color TextColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TextColor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.SnackbarOptions.TextColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="CommunityToolkit.Maui.Core.SnackbarOptions.TextColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Graphics.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar message text color
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

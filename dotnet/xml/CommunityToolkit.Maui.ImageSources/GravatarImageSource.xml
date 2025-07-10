@@ -1,0 +1,362 @@
+<Type Name="GravatarImageSource" FullName="CommunityToolkit.Maui.ImageSources.GravatarImageSource">
+  <TypeSignature Language="C#" Value="public class GravatarImageSource : Microsoft.Maui.Controls.StreamImageSource, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GravatarImageSource extends Microsoft.Maui.Controls.StreamImageSource implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.ImageSources.GravatarImageSource" />
+  <TypeSignature Language="VB.NET" Value="Public Class GravatarImageSource&#xA;Inherits StreamImageSource&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type GravatarImageSource = class&#xA;    inherit StreamImageSource&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.StreamImageSource</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Gravatar image source.</summary>
+    <remarks>Note that <see cref="T:Microsoft.Maui.Controls.UriImageSource" /> is sealed and can't be used as a parent!</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GravatarImageSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ImageSources.GravatarImageSource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.ImageSources.GravatarImageSource" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheValidity">
+      <MemberSignature Language="C#" Value="public TimeSpan CacheValidity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan CacheValidity" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.CacheValidity" />
+      <MemberSignature Language="VB.NET" Value="Public Property CacheValidity As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.CacheValidity : TimeSpan with get, set" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.CacheValidity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a <see cref="T:System.TimeSpan" /> structure that indicates the length of time after which the image cache becomes invalid.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheValidityProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CacheValidityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CacheValidityProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.ImageSources.GravatarImageSource.CacheValidityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CacheValidityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CacheValidityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.CacheValidityProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.CacheValidity" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CachingEnabled">
+      <MemberSignature Language="C#" Value="public bool CachingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CachingEnabled" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.CachingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property CachingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CachingEnabled : bool with get, set" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.CachingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a Boolean value that indicates whether caching is enabled on this <see cref="T:CommunityToolkit.Maui.ImageSources.GravatarImageSource" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CachingEnabledProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty CachingEnabledProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CachingEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.ImageSources.GravatarImageSource.CachingEnabledProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CachingEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CachingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.CachingEnabledProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.CachingEnabled" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="gravatarImageSource.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Dispose <see cref="T:CommunityToolkit.Maui.ImageSources.GravatarImageSource" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool isDisposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool isDisposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (isDisposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="gravatarImageSource.Dispose isDisposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isDisposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isDisposing">Is disposing.</param>
+        <summary>Dispose <see cref="T:CommunityToolkit.Maui.ImageSources.GravatarImageSource" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="public string? Email { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Email" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Email" />
+      <MemberSignature Language="VB.NET" Value="Public Property Email As String" />
+      <MemberSignature Language="F#" Value="member this.Email : string with get, set" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.Email" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the email address.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty EmailProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EmailProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.ImageSources.GravatarImageSource.EmailProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable EmailProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.EmailProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Email" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.ImageSources.DefaultImage Image { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.ImageSources.DefaultImage Image" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Image" />
+      <MemberSignature Language="VB.NET" Value="Public Property Image As DefaultImage" />
+      <MemberSignature Language="F#" Value="member this.Image : CommunityToolkit.Maui.ImageSources.DefaultImage with get, set" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.Image" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.ImageSources.DefaultImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the default image.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ImageProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ImageProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.ImageSources.GravatarImageSource.ImageProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImageProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ImageProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.ImageProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backing store for the <see cref="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Image" /> bindable property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDisposed">
+      <MemberSignature Language="C#" Value="public bool IsDisposed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDisposed" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.IsDisposed" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDisposed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDisposed : bool with get, set" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.IsDisposed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value indicating whether <see cref="T:CommunityToolkit.Maui.ImageSources.GravatarImageSource" /> has been disposed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEmpty">
+      <MemberSignature Language="C#" Value="public override bool IsEmpty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.IsEmpty" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsEmpty As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.IsEmpty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value indicating whether the control email is empty.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnParentSet">
+      <MemberSignature Language="C#" Value="protected override void OnParentSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ImageSources.GravatarImageSource.OnParentSet" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
+      <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="gravatarImageSource.OnParentSet " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>On parent set.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.ImageSources.GravatarImageSource.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="gravatarImageSource.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the Uri as a string.</summary>
+        <returns>String of the URI.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public Uri Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Uri" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.ImageSources.GravatarImageSource.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public Property Uri As Uri" />
+      <MemberSignature Language="F#" Value="member this.Uri : Uri with get, set" Usage="CommunityToolkit.Maui.ImageSources.GravatarImageSource.Uri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.UriTypeConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(Microsoft.Maui.Controls.UriTypeConverter))&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the URI for the image to get.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

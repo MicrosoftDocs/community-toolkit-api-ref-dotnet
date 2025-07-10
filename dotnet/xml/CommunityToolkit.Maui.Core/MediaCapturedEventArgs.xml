@@ -1,0 +1,74 @@
+<Type Name="MediaCapturedEventArgs" FullName="CommunityToolkit.Maui.Core.MediaCapturedEventArgs">
+  <TypeSignature Language="C#" Value="public class MediaCapturedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaCapturedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.MediaCapturedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaCapturedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type MediaCapturedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="stream">The <see cref="T:System.IO.Stream" /> pointing to the newly captured media.</param>
+    <summary>
+            Event args containing all contextual information related to media capture event.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaCapturedEventArgs (System.IO.Stream stream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.MediaCapturedEventArgs.#ctor(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (stream As Stream)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.MediaCapturedEventArgs : System.IO.Stream -&gt; CommunityToolkit.Maui.Core.MediaCapturedEventArgs" Usage="new CommunityToolkit.Maui.Core.MediaCapturedEventArgs stream" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="stream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="stream">The <see cref="T:System.IO.Stream" /> pointing to the newly captured media.</param>
+        <summary>
+            Event args containing all contextual information related to media capture event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Media">
+      <MemberSignature Language="C#" Value="public System.IO.Stream Media { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream Media" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.MediaCapturedEventArgs.Media" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Media As Stream" />
+      <MemberSignature Language="F#" Value="member this.Media : System.IO.Stream" Usage="CommunityToolkit.Maui.Core.MediaCapturedEventArgs.Media" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Camera</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:System.IO.Stream" /> pointing to the newly captured media.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

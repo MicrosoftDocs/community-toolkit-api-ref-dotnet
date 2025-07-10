@@ -1,0 +1,149 @@
+<Type Name="ISnackbar" FullName="CommunityToolkit.Maui.Core.ISnackbar">
+  <TypeSignature Language="C#" Value="public interface ISnackbar : CommunityToolkit.Maui.Core.IAlert, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ISnackbar implements class CommunityToolkit.Maui.Core.IAlert, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.ISnackbar" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISnackbar&#xA;Implements IAlert, IDisposable" />
+  <TypeSignature Language="F#" Value="type ISnackbar = interface&#xA;    interface IAlert&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAlert</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Snackbar
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Action">
+      <MemberSignature Language="C#" Value="public Action? Action { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Action Action" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ISnackbar.Action" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Action As Action" />
+      <MemberSignature Language="F#" Value="member this.Action : Action" Usage="CommunityToolkit.Maui.Core.ISnackbar.Action" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Action</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Action to invoke on action button click
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionButtonText">
+      <MemberSignature Language="C#" Value="public string ActionButtonText { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionButtonText" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ISnackbar.ActionButtonText" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActionButtonText As String" />
+      <MemberSignature Language="F#" Value="member this.ActionButtonText : string" Usage="CommunityToolkit.Maui.Core.ISnackbar.ActionButtonText" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar action button text
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Anchor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.IView? Anchor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Anchor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ISnackbar.Anchor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Anchor As IView" />
+      <MemberSignature Language="F#" Value="member this.Anchor : Microsoft.Maui.IView" Usage="CommunityToolkit.Maui.Core.ISnackbar.Anchor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar anchor. Snackbar appears near this view
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ISnackbar.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.Duration : TimeSpan" Usage="CommunityToolkit.Maui.Core.ISnackbar.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar duration
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisualOptions">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.SnackbarOptions VisualOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Core.SnackbarOptions VisualOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.ISnackbar.VisualOptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VisualOptions As SnackbarOptions" />
+      <MemberSignature Language="F#" Value="member this.VisualOptions : CommunityToolkit.Maui.Core.SnackbarOptions" Usage="CommunityToolkit.Maui.Core.ISnackbar.VisualOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.SnackbarOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Snackbar visual options
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

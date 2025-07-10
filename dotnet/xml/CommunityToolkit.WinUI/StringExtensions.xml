@@ -8,10 +8,20 @@
     <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             UWP specific helpers for working with strings.
@@ -34,7 +44,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceKey" Type="System.String" RefType="this" />
+        <Parameter Name="resourceKey" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" RefType="this" />
       </Parameters>
       <Docs>
         <param name="resourceKey">Resource key to retrieve.</param>
@@ -46,15 +56,20 @@
       </Docs>
     </Member>
     <Member MemberName="GetLocalized">
-      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey, string resourcePath);" />
+      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey, string resourcePath);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLocalized(string resourceKey, string resourcePath) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, resourcePath As String) As String" />
       <MemberSignature Language="F#" Value="static member GetLocalized : string * string -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetLocalized (resourceKey, resourcePath)" />
+      <MemberSignature Language="C#" Value="public static string? GetLocalized (this string resourceKey, string resourcePath);" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -74,18 +89,24 @@
       </Docs>
     </Member>
     <Member MemberName="GetLocalized">
-      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey, Windows.UI.UIContext uiContext);" />
+      <MemberSignature Language="C#" Value="public static string GetLocalized (this string resourceKey, Windows.UI.UIContext uiContext);" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLocalized(string resourceKey, class Windows.UI.UIContext uiContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.GetLocalized(System.String,Windows.UI.UIContext)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, uiContext As UIContext) As String" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, uiContext As UIContext) As String" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberSignature Language="F#" Value="static member GetLocalized : string * Windows.UI.UIContext -&gt; string" Usage="CommunityToolkit.WinUI.StringExtensions.GetLocalized (resourceKey, uiContext)" />
+      <MemberSignature Language="C#" Value="public static string? GetLocalized (this string resourceKey, Windows.UI.UIContext? uiContext = default);" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetLocalized (resourceKey As String, Optional uiContext As UIContext = Nothing) As String" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.WinUI</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")&gt;]</AttributeName>
         </Attribute>
@@ -94,7 +115,14 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceKey" Type="System.String" RefType="this" />
+        <Parameter Name="resourceKey" Type="System.String" RefType="this">
+          <Attributes>
+            <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-8.2">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="uiContext" Type="Windows.UI.UIContext" />
       </Parameters>
       <Docs>
@@ -124,7 +152,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceKey" Type="System.String" RefType="this" />
+        <Parameter Name="resourceKey" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" RefType="this" />
       </Parameters>
       <Docs>
         <param name="resourceKey">Resource key to retrieve.</param>
@@ -147,7 +175,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("Windows10.0.18362.0")&gt;]</AttributeName>
         </Attribute>
@@ -156,8 +184,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceKey" Type="System.String" RefType="this" />
-        <Parameter Name="uiContext" Type="Windows.UI.UIContext" />
+        <Parameter Name="resourceKey" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" RefType="this" />
+        <Parameter Name="uiContext" Type="Windows.UI.UIContext" Index="1" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       </Parameters>
       <Docs>
         <param name="resourceKey">Resource key to retrieve.</param>
@@ -169,6 +197,125 @@
             </summary>
         <returns>string value for given resource or empty string if not found.</returns>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToQuaternion">
+      <MemberSignature Language="C#" Value="public static System.Numerics.Quaternion ToQuaternion (this string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Quaternion ToQuaternion(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.ToQuaternion(System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToQuaternion (text As String) As Quaternion" />
+      <MemberSignature Language="F#" Value="static member ToQuaternion : string -&gt; System.Numerics.Quaternion" Usage="CommunityToolkit.WinUI.StringExtensions.ToQuaternion text" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> value to a <see cref="T:System.Numerics.Quaternion" /> value.
+            This method always assumes the invariant culture for parsing values (',' separates numbers, '.' is the decimal separator).
+            Additionally, the format "&lt;float, float, float, float&gt;" is also allowed (though less efficient to parse).
+            </summary>
+        <returns>The parsed <see cref="T:System.Numerics.Quaternion" /> value.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">Thrown when <paramref name="text" /> doesn't represent a valid <see cref="T:System.Numerics.Quaternion" /> value.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToVector2">
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector2 ToVector2 (this string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector2 ToVector2(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.ToVector2(System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToVector2 (text As String) As Vector2" />
+      <MemberSignature Language="F#" Value="static member ToVector2 : string -&gt; System.Numerics.Vector2" Usage="CommunityToolkit.WinUI.StringExtensions.ToVector2 text" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> value to a <see cref="T:System.Numerics.Vector2" /> value.
+            This method always assumes the invariant culture for parsing values (',' separates numbers, '.' is the decimal separator).
+            The input text can either represents a single number (mapped to <see cref="M:System.Numerics.Vector2.#ctor(System.Single)" />, or multiple components.
+            Additionally, the format "&lt;float, float&gt;" is also allowed (though less efficient to parse).
+            </summary>
+        <returns>The parsed <see cref="T:System.Numerics.Vector2" /> value.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">Thrown when <paramref name="text" /> doesn't represent a valid <see cref="T:System.Numerics.Vector2" /> value.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToVector3">
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 ToVector3 (this string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector3 ToVector3(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.ToVector3(System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToVector3 (text As String) As Vector3" />
+      <MemberSignature Language="F#" Value="static member ToVector3 : string -&gt; System.Numerics.Vector3" Usage="CommunityToolkit.WinUI.StringExtensions.ToVector3 text" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> value to a <see cref="T:System.Numerics.Vector3" /> value.
+            This method always assumes the invariant culture for parsing values (',' separates numbers, '.' is the decimal separator).
+            The input text can either represents a single number (mapped to <see cref="M:System.Numerics.Vector3.#ctor(System.Single)" />, or multiple components.
+            Additionally, the format "&lt;float, float, float&gt;" is also allowed (though less efficient to parse).
+            </summary>
+        <returns>The parsed <see cref="T:System.Numerics.Vector3" /> value.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">Thrown when <paramref name="text" /> doesn't represent a valid <see cref="T:System.Numerics.Vector3" /> value.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToVector4">
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector4 ToVector4 (this string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector4 ToVector4(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.StringExtensions.ToVector4(System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToVector4 (text As String) As Vector4" />
+      <MemberSignature Language="F#" Value="static member ToVector4 : string -&gt; System.Numerics.Vector4" Usage="CommunityToolkit.WinUI.StringExtensions.ToVector4 text" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Extensions</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Vector4</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" Index="0" FrameworkAlternate="win-comm-toolkit-dotnet-8.2" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="text">A <see cref="T:System.String" /> with the values to parse.</param>
+        <summary>
+            Converts a <see cref="T:System.String" /> value to a <see cref="T:System.Numerics.Vector4" /> value.
+            This method always assumes the invariant culture for parsing values (',' separates numbers, '.' is the decimal separator).
+            The input text can either represents a single number (mapped to <see cref="M:System.Numerics.Vector4.#ctor(System.Single)" />, or multiple components.
+            Additionally, the format "&lt;float, float, float, float&gt;" is also allowed (though less efficient to parse).
+            </summary>
+        <returns>The parsed <see cref="T:System.Numerics.Vector4" /> value.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">Thrown when <paramref name="text" /> doesn't represent a valid <see cref="T:System.Numerics.Vector4" /> value.</exception>
       </Docs>
     </Member>
   </Members>

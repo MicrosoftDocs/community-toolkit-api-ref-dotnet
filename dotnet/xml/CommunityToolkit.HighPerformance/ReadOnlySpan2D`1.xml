@@ -7,9 +7,17 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T" />
+    <TypeParameter Name="T">
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+    </TypeParameter>
   </TypeParameters>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -24,11 +32,30 @@
       <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(CommunityToolkit.HighPerformance.Memory.Views.MemoryDebugView2D&lt;&gt;))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(CommunityToolkit.HighPerformance.Memory.Views.MemoryDebugView2D&lt;&gt;))&gt;]</AttributeName>
     </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RefStructs")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
   </Attributes>
   <Docs>
-    <typeparam name="T">To be added.</typeparam>
-    <summary>To be added.</summary>
+    <typeparam name="T">The type of items in the current <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> instance.</typeparam>
+    <summary>
+            A readonly version of <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" />.
+            </summary>
     <remarks>To be added.</remarks>
+    <inheritdoc />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -41,9 +68,17 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" />
+        <Parameter Name="array" Type="T[,]">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="array">The given 2D array to wrap.</param>
@@ -63,6 +98,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" />
@@ -88,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="array" Type="T[]" />
@@ -116,6 +153,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="pointer" Type="System.Void*" />
@@ -145,9 +183,17 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" />
+        <Parameter Name="array" Type="T[,]">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
         <Parameter Name="row" Type="System.Int32" />
         <Parameter Name="column" Type="System.Int32" />
         <Parameter Name="height" Type="System.Int32" />
@@ -179,6 +225,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="array" Type="T[]" />
@@ -215,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="array" Type="T[,,]" />
@@ -248,12 +296,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Span2D&lt;T&gt;" />
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Span2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The destination <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" /> instance.</param>
@@ -277,12 +333,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Span&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The destination <see cref="T:System.Span`1" /> instance.</param>
@@ -295,6 +359,52 @@
             </exception>
       </Docs>
     </Member>
+    <Member MemberName="DangerousCreate">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt; DangerousCreate (in T value, int height, int width, int pitch);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype CommunityToolkit.HighPerformance.ReadOnlySpan2D`1&lt;!T&gt; DangerousCreate([in]!T&amp; value, int32 height, int32 width, int32 pitch) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.DangerousCreate(`0@,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DangerousCreate (ByRef value As T, height As Integer, width As Integer, pitch As Integer) As ReadOnlySpan2D(Of T)" />
+      <MemberSignature Language="F#" Value="static member DangerousCreate : 'T * int * int * int -&gt; CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;'T&gt;.DangerousCreate (value, height, width, pitch)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="T" RefType="ref" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="height" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="width" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="pitch" Type="System.Int32" Index="3" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="value">The reference to the first <typeparamref name="T" /> item to map.</param>
+        <param name="height">The height of the 2D memory area to map.</param>
+        <param name="width">The width of the 2D memory area to map.</param>
+        <param name="pitch">The pitch of the 2D memory area to map (the distance between each row).</param>
+        <summary>
+            Creates a new instance of the <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> struct with the specified parameters.
+            </summary>
+        <returns>A <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> instance with the specified parameters.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when one of the parameters are negative.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="DangerousGetReference">
       <MemberSignature Language="C#" Value="public ref T DangerousGetReference ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !T DangerousGetReference() cil managed" />
@@ -305,8 +415,9 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Parameters />
@@ -328,8 +439,9 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Parameters>
@@ -356,7 +468,14 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -378,6 +497,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -401,6 +521,7 @@
         <returns>true if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, false. </returns>
         <remarks>To be added.</remarks>
         <filterpriority>2</filterpriority>
+        <inheritdoc cref="M:System.ReadOnlySpan`1.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="GetColumn">
@@ -413,9 +534,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="column" Type="System.Int32" />
@@ -439,6 +567,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;+Enumerator</ReturnType>
@@ -464,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -484,18 +614,21 @@
         <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
         <remarks>To be added.</remarks>
         <filterpriority>2</filterpriority>
+        <inheritdoc cref="M:System.ReadOnlySpan`1.GetHashCode" />
       </Docs>
     </Member>
     <Member MemberName="GetPinnableReference">
-      <MemberSignature Language="C#" Value="public ref T GetPinnableReference ();" />
+      <MemberSignature Language="C#" Value="public ref readonly T GetPinnableReference ();" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !T GetPinnableReference() cil managed" />
       <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetPinnableReference" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPinnableReference () As T" />
       <MemberSignature Language="F#" Value="member this.GetPinnableReference : unit -&gt; 'T" Usage="readOnlySpan2D.GetPinnableReference " />
+      <MemberSignature Language="C#" Value="public ref T GetPinnableReference ();" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -503,8 +636,14 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
-      <ReturnValue>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -527,9 +666,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="row" Type="System.Int32" />
@@ -543,6 +689,39 @@
         <remarks>The returned <see cref="T:CommunityToolkit.HighPerformance.Enumerables.ReadOnlyRefEnumerable`1" /> value shouldn't be used directly: use this extension in a <see langword="foreach" /> loop.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetRowSpan">
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;T&gt; GetRowSpan (int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlySpan`1&lt;!T&gt; GetRowSpan(int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.GetRowSpan(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRowSpan (row As Integer) As ReadOnlySpan(Of T)" />
+      <MemberSignature Language="F#" Value="member this.GetRowSpan : int -&gt; ReadOnlySpan&lt;'T&gt;" Usage="readOnlySpan2D.GetRowSpan row" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="row">The index of the target row to retrieve.</param>
+        <summary>
+            Gets a <see cref="T:System.ReadOnlySpan`1" /> for a specified row.
+            </summary>
+        <returns>The resulting row <see cref="T:System.ReadOnlySpan`1" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Throw when <paramref name="row" /> is out of range.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="Height">
       <MemberSignature Language="C#" Value="public int Height { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
@@ -553,6 +732,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -575,6 +755,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -588,6 +769,43 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ref readonly T this[Index row, Index column] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Item(valuetype System.Index, valuetype System.Index)" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Index,System.Index)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(row As Index, column As Index) As T" />
+      <MemberSignature Language="F#" Value="member this.Item(Index * Index) : 'T" Usage="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;'T&gt;.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="System.Index" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="column" Type="System.Index" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="row">The target row to get the element from.</param>
+        <param name="column">The target column to get the element from.</param>
+        <summary>
+            Gets the element at the specified zero-based indices.
+            </summary>
+        <value>A reference to the element at the specified indices.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.IndexOutOfRangeException">
+            Thrown when either <paramref name="row" /> or <paramref name="column" /> are invalid.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
       <MemberSignature Language="C#" Value="public ref readonly T this[int row, int column] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance !T Item(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Int32,System.Int32)" />
@@ -597,8 +815,15 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue RefType="Ref">
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Parameters>
@@ -618,19 +843,58 @@
             </exception>
       </Docs>
     </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt; this[Range rows, Range columns] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.HighPerformance.ReadOnlySpan2D`1&lt;!T&gt; Item(valuetype System.Range, valuetype System.Range)" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Item(System.Range,System.Range)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(rows As Range, columns As Range) As ReadOnlySpan2D(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Item(Range * Range) : CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;'T&gt;" Usage="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;'T&gt;.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rows" Type="System.Range" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+        <Parameter Name="columns" Type="System.Range" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <param name="rows">The target range of rows to select.</param>
+        <param name="columns">The target range of columns to select.</param>
+        <summary>
+            Slices the current instance with the specified parameters.
+            </summary>
+        <value>A new <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> instance representing a slice of the current one.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+            Thrown when either <paramref name="rows" /> or <paramref name="columns" /> are invalid.
+            </exception>
+      </Docs>
+    </Member>
     <Member MemberName="Length">
-      <MemberSignature Language="C#" Value="public nint Length { get; }" />
+      <MemberSignature Language="C#" Value="public IntPtr Length { get; }" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
       <MemberSignature Language="ILAsm" Value=".property instance native int Length" />
       <MemberSignature Language="DocId" Value="P:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1.Length" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As IntPtr" />
       <MemberSignature Language="F#" Value="member this.Length : nativeint" Usage="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;'T&gt;.Length" />
+      <MemberSignature Language="C#" Value="public nint Length { get; }" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="win-comm-toolkit-dotnet-7.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
         </Attribute>
@@ -656,13 +920,28 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;" />
-        <Parameter Name="right" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;" />
+        <Parameter Name="left" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="right" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="left">The first <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> instance to compare.</param>
@@ -684,12 +963,26 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="CommunityToolkit.HighPerformance.Span2D&lt;T&gt;" />
+        <Parameter Name="span" Type="CommunityToolkit.HighPerformance.Span2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="span">To be added.</param>
@@ -708,12 +1001,26 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="array" Type="T[,]" />
+        <Parameter Name="array" Type="T[,]">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="array">To be added.</param>
@@ -732,13 +1039,28 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;" />
-        <Parameter Name="right" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;" />
+        <Parameter Name="left" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="right" Type="CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="left">The first <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> instance to compare.</param>
@@ -760,9 +1082,16 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>CommunityToolkit.HighPerformance.ReadOnlySpan2D&lt;T&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="row" Type="System.Int32" />
@@ -779,8 +1108,12 @@
             Slices the current instance with the specified parameters.
             </summary>
         <returns>A new <see cref="T:CommunityToolkit.HighPerformance.ReadOnlySpan2D`1" /> instance representing a slice of the current one.</returns>
-        <remarks>To be added.</remarks>
+        <remarks>See additional remarks in the <see cref="M:CommunityToolkit.HighPerformance.Span2D`1.Slice(System.Int32,System.Int32,System.Int32,System.Int32)" /> docs.</remarks>
         <exception cref="T:System.ArgumentException">
+            Thrown when either <paramref name="height" />, <paramref name="width" /> or <paramref name="height" />
+            are negative or not within the bounds that are valid for the current instance.
+            </exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">
             Thrown when either <paramref name="height" />, <paramref name="width" /> or <paramref name="height" />
             are negative or not within the bounds that are valid for the current instance.
             </exception>
@@ -796,6 +1129,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T[,]</ReturnType>
@@ -819,6 +1153,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -829,6 +1164,7 @@
         <returns>A <see cref="T:System.String" /> containing a fully qualified type name.</returns>
         <remarks>To be added.</remarks>
         <filterpriority>2</filterpriority>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="TryCopyTo">
@@ -841,12 +1177,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Span2D&lt;T&gt;" />
+        <Parameter Name="destination" Type="CommunityToolkit.HighPerformance.Span2D&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The target <see cref="T:CommunityToolkit.HighPerformance.Span2D`1" /> of the copy operation.</param>
@@ -867,12 +1211,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Span&lt;T&gt;">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="destination">The target <see cref="T:System.Span`1" /> of the copy operation.</param>
@@ -893,12 +1245,20 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="out" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="out">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="span">The resulting <see cref="T:System.ReadOnlySpan`1" />, in case of success.</param>
@@ -919,6 +1279,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.HighPerformance</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

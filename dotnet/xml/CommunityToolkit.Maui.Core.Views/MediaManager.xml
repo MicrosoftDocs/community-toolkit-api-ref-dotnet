@@ -1,0 +1,778 @@
+<Type Name="MediaManager" FullName="CommunityToolkit.Maui.Core.Views.MediaManager">
+  <TypeSignature Language="C#" Value="public class MediaManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaManager extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Views.MediaManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaManager" />
+  <TypeSignature Language="F#" Value="type MediaManager = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            A class that acts as a manager for an <see cref="T:CommunityToolkit.Maui.Core.IMediaElement" /> instance.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaManager (Microsoft.Maui.IMauiContext context, CommunityToolkit.Maui.Core.IMediaElement mediaElement, Microsoft.Maui.Dispatching.IDispatcher dispatcher);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IMauiContext context, class CommunityToolkit.Maui.Core.IMediaElement mediaElement, class Microsoft.Maui.Dispatching.IDispatcher dispatcher) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.#ctor(Microsoft.Maui.IMauiContext,CommunityToolkit.Maui.Core.IMediaElement,Microsoft.Maui.Dispatching.IDispatcher)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (context As IMauiContext, mediaElement As IMediaElement, dispatcher As IDispatcher)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Views.MediaManager : Microsoft.Maui.IMauiContext * CommunityToolkit.Maui.Core.IMediaElement * Microsoft.Maui.Dispatching.IDispatcher -&gt; CommunityToolkit.Maui.Core.Views.MediaManager" Usage="new CommunityToolkit.Maui.Core.Views.MediaManager (context, mediaElement, dispatcher)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Maui.IMauiContext" />
+        <Parameter Name="mediaElement" Type="CommunityToolkit.Maui.Core.IMediaElement" />
+        <Parameter Name="dispatcher" Type="Microsoft.Maui.Dispatching.IDispatcher" />
+      </Parameters>
+      <Docs>
+        <param name="context">This application's <see cref="T:Microsoft.Maui.IMauiContext" />.</param>
+        <param name="mediaElement">The <see cref="T:CommunityToolkit.Maui.Core.IMediaElement" /> instance that is managed through this class.</param>
+        <param name="dispatcher">The <see cref="T:Microsoft.Maui.Dispatching.IDispatcher" /> instance that allows propagation to the main thread.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Views.MediaManager" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AreFloatingPointNumbersEqual">
+      <MemberSignature Language="C#" Value="public static bool AreFloatingPointNumbersEqual (in double number1, in double number2, double tolerance = 0.01);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool AreFloatingPointNumbersEqual([in]float64&amp; number1, [in]float64&amp; number2, float64 tolerance) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.AreFloatingPointNumbersEqual(System.Double@,System.Double@,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AreFloatingPointNumbersEqual (ByRef number1 As Double, ByRef number2 As Double, Optional tolerance As Double = 0.01) As Boolean" />
+      <MemberSignature Language="F#" Value="static member AreFloatingPointNumbersEqual : double * double * double -&gt; bool" Usage="CommunityToolkit.Maui.Core.Views.MediaManager.AreFloatingPointNumbersEqual (number1, number2, tolerance)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="number1" Type="System.Double" RefType="ref">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="number2" Type="System.Double" RefType="ref">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="tolerance" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="number1" />
+        <param name="number2" />
+        <param name="tolerance" />
+        <summary>
+            A helper method to determine if two floating-point numbers are equal.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispatcher">
+      <MemberSignature Language="C#" Value="protected Microsoft.Maui.Dispatching.IDispatcher Dispatcher { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Dispatching.IDispatcher Dispatcher" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MediaManager.Dispatcher" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property Dispatcher As IDispatcher" />
+      <MemberSignature Language="F#" Value="member this.Dispatcher : Microsoft.Maui.Dispatching.IDispatcher" Usage="CommunityToolkit.Maui.Core.Views.MediaManager.Dispatcher" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Dispatching.IDispatcher</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.Dispatching.IDispatcher" /> that allows propagation to the main thread
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Logger">
+      <MemberSignature Language="C#" Value="protected Microsoft.Extensions.Logging.ILogger Logger { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Extensions.Logging.ILogger Logger" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MediaManager.Logger" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property Logger As ILogger" />
+      <MemberSignature Language="F#" Value="member this.Logger : Microsoft.Extensions.Logging.ILogger" Usage="CommunityToolkit.Maui.Core.Views.MediaManager.Logger" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.Logging.ILogger</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="T:Microsoft.Extensions.Logging.ILogger" /> instance for logging purposes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MauiContext">
+      <MemberSignature Language="C#" Value="protected Microsoft.Maui.IMauiContext MauiContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IMauiContext MauiContext" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MediaManager.MauiContext" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property MauiContext As IMauiContext" />
+      <MemberSignature Language="F#" Value="member this.MauiContext : Microsoft.Maui.IMauiContext" Usage="CommunityToolkit.Maui.Core.Views.MediaManager.MauiContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IMauiContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.IMauiContext" /> used by this class.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaElement">
+      <MemberSignature Language="C#" Value="protected CommunityToolkit.Maui.Core.IMediaElement MediaElement { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Core.IMediaElement MediaElement" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.Views.MediaManager.MediaElement" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property MediaElement As IMediaElement" />
+      <MemberSignature Language="F#" Value="member this.MediaElement : CommunityToolkit.Maui.Core.IMediaElement" Usage="CommunityToolkit.Maui.Core.Views.MediaManager.MediaElement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.IMediaElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:CommunityToolkit.Maui.Core.IMediaElement" /> instance managed by this manager.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pause">
+      <MemberSignature Language="C#" Value="public void Pause ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Pause() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.Pause" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Pause ()" />
+      <MemberSignature Language="F#" Value="member this.Pause : unit -&gt; unit" Usage="mediaManager.Pause " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the pause operation on the platform element.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformPause">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformPause ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformPause() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformPause" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformPause ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformPause : unit -&gt; unit&#xA;override this.PlatformPause : unit -&gt; unit" Usage="mediaManager.PlatformPause " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform pause functionality and pauses media playback.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformPlay">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformPlay ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformPlay() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformPlay" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformPlay ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformPlay : unit -&gt; unit&#xA;override this.PlatformPlay : unit -&gt; unit" Usage="mediaManager.PlatformPlay " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform play functionality and starts media playback.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformSeek">
+      <MemberSignature Language="C#" Value="protected virtual System.Threading.Tasks.Task PlatformSeek (TimeSpan position, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task PlatformSeek(valuetype System.TimeSpan position, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformSeek(System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PlatformSeek (position As TimeSpan, token As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member PlatformSeek : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.PlatformSeek : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="mediaManager.PlatformSeek (position, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="System.TimeSpan" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="position">The position to seek to.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Invokes the platform seek functionality and seeks to a specific position.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformStop">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformStop ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformStop() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformStop" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformStop ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformStop : unit -&gt; unit&#xA;override this.PlatformStop : unit -&gt; unit" Usage="mediaManager.PlatformStop " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform stop functionality and stops media playback.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateAspect">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateAspect ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateAspect() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateAspect" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateAspect ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateAspect : unit -&gt; unit&#xA;override this.PlatformUpdateAspect : unit -&gt; unit" Usage="mediaManager.PlatformUpdateAspect " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to update the media aspect.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdatePosition">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdatePosition ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdatePosition() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdatePosition" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdatePosition ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdatePosition : unit -&gt; unit&#xA;override this.PlatformUpdatePosition : unit -&gt; unit" Usage="mediaManager.PlatformUpdatePosition " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to update the media playback position.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateShouldKeepScreenOn">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateShouldKeepScreenOn ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateShouldKeepScreenOn() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldKeepScreenOn" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateShouldKeepScreenOn ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateShouldKeepScreenOn : unit -&gt; unit&#xA;override this.PlatformUpdateShouldKeepScreenOn : unit -&gt; unit" Usage="mediaManager.PlatformUpdateShouldKeepScreenOn " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to toggle keeping the screen on
+            during media playback.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateShouldLoopPlayback">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateShouldLoopPlayback ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateShouldLoopPlayback() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldLoopPlayback" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateShouldLoopPlayback ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateShouldLoopPlayback : unit -&gt; unit&#xA;override this.PlatformUpdateShouldLoopPlayback : unit -&gt; unit" Usage="mediaManager.PlatformUpdateShouldLoopPlayback " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to toggle the media playback loop behavior.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateShouldMute">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateShouldMute ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateShouldMute() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldMute" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateShouldMute ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateShouldMute : unit -&gt; unit&#xA;override this.PlatformUpdateShouldMute : unit -&gt; unit" Usage="mediaManager.PlatformUpdateShouldMute " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to toggle muting the audio.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateShouldShowPlaybackControls">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateShouldShowPlaybackControls ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateShouldShowPlaybackControls() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateShouldShowPlaybackControls" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateShouldShowPlaybackControls ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateShouldShowPlaybackControls : unit -&gt; unit&#xA;override this.PlatformUpdateShouldShowPlaybackControls : unit -&gt; unit" Usage="mediaManager.PlatformUpdateShouldShowPlaybackControls " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to show or hide the platform playback controls.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateSource">
+      <MemberSignature Language="C#" Value="protected virtual System.Threading.Tasks.ValueTask PlatformUpdateSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask PlatformUpdateSource() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateSource" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PlatformUpdateSource () As ValueTask" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateSource : unit -&gt; System.Threading.Tasks.ValueTask&#xA;override this.PlatformUpdateSource : unit -&gt; System.Threading.Tasks.ValueTask" Usage="mediaManager.PlatformUpdateSource " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to update the media source.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateSpeed">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateSpeed ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateSpeed() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateSpeed" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateSpeed ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateSpeed : unit -&gt; unit&#xA;override this.PlatformUpdateSpeed : unit -&gt; unit" Usage="mediaManager.PlatformUpdateSpeed " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to update the media playback speed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformUpdateVolume">
+      <MemberSignature Language="C#" Value="protected virtual void PlatformUpdateVolume ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void PlatformUpdateVolume() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.PlatformUpdateVolume" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub PlatformUpdateVolume ()" />
+      <MemberSignature Language="F#" Value="abstract member PlatformUpdateVolume : unit -&gt; unit&#xA;override this.PlatformUpdateVolume : unit -&gt; unit" Usage="mediaManager.PlatformUpdateVolume " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the platform functionality to update the media playback volume.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public void Play ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Play() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.Play" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Play ()" />
+      <MemberSignature Language="F#" Value="member this.Play : unit -&gt; unit" Usage="mediaManager.Play " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the play operation on the platform element.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Seek">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task Seek (TimeSpan position, System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task Seek(valuetype System.TimeSpan position, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.Seek(System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Seek (position As TimeSpan, Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="member this.Seek : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="mediaManager.Seek (position, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="System.TimeSpan" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="position">The position to seek to.</param>
+        <param name="token">
+          <see cref="T:System.Threading.CancellationToken" /> &gt;</param>
+        <summary>
+            Invokes the seek operation on the platform element.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Stop() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Stop ()" />
+      <MemberSignature Language="F#" Value="member this.Stop : unit -&gt; unit" Usage="mediaManager.Stop " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Invokes the stop operation on the platform element.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAspect">
+      <MemberSignature Language="C#" Value="public void UpdateAspect ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateAspect() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateAspect" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateAspect ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateAspect : unit -&gt; unit" Usage="mediaManager.UpdateAspect " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update the media aspect.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateShouldKeepScreenOn">
+      <MemberSignature Language="C#" Value="public void UpdateShouldKeepScreenOn ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateShouldKeepScreenOn() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldKeepScreenOn" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateShouldKeepScreenOn ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateShouldKeepScreenOn : unit -&gt; unit" Usage="mediaManager.UpdateShouldKeepScreenOn " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update whether the screen should stay on while media is being played.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateShouldLoopPlayback">
+      <MemberSignature Language="C#" Value="public void UpdateShouldLoopPlayback ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateShouldLoopPlayback() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldLoopPlayback" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateShouldLoopPlayback ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateShouldLoopPlayback : unit -&gt; unit" Usage="mediaManager.UpdateShouldLoopPlayback " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update whether the media should start playing from the beginning
+            when it reached the end.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateShouldMute">
+      <MemberSignature Language="C#" Value="public void UpdateShouldMute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateShouldMute() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldMute" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateShouldMute ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateShouldMute : unit -&gt; unit" Usage="mediaManager.UpdateShouldMute " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update whether the audio should be muted.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateShouldShowPlaybackControls">
+      <MemberSignature Language="C#" Value="public void UpdateShouldShowPlaybackControls ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateShouldShowPlaybackControls() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateShouldShowPlaybackControls" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateShouldShowPlaybackControls ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateShouldShowPlaybackControls : unit -&gt; unit" Usage="mediaManager.UpdateShouldShowPlaybackControls " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update whether to show the platform playback controls.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSource">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask UpdateSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.Tasks.ValueTask UpdateSource() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateSource" />
+      <MemberSignature Language="VB.NET" Value="Public Function UpdateSource () As ValueTask" />
+      <MemberSignature Language="F#" Value="member this.UpdateSource : unit -&gt; System.Threading.Tasks.ValueTask" Usage="mediaManager.UpdateSource " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update the media source.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSpeed">
+      <MemberSignature Language="C#" Value="public void UpdateSpeed ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateSpeed() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateSpeed" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateSpeed ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateSpeed : unit -&gt; unit" Usage="mediaManager.UpdateSpeed " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update the media playback speed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateStatus">
+      <MemberSignature Language="C#" Value="public void UpdateStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateStatus() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateStatus ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateStatus : unit -&gt; unit" Usage="mediaManager.UpdateStatus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update the media player status.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateVolume">
+      <MemberSignature Language="C#" Value="public void UpdateVolume ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateVolume() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Views.MediaManager.UpdateVolume" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateVolume ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateVolume : unit -&gt; unit" Usage="mediaManager.UpdateVolume " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Update the media playback volume.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

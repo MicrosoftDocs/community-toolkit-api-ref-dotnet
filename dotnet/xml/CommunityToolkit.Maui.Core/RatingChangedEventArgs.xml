@@ -1,0 +1,62 @@
+<Type Name="RatingChangedEventArgs" FullName="CommunityToolkit.Maui.Core.RatingChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class RatingChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RatingChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.RatingChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class RatingChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type RatingChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <param name="rating">The new rating value.</param>
+    <summary>Event args containing all contextual information related to rating changed event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RatingChangedEventArgs (double rating);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 rating) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.RatingChangedEventArgs.#ctor(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (rating As Double)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.RatingChangedEventArgs : double -&gt; CommunityToolkit.Maui.Core.RatingChangedEventArgs" Usage="new CommunityToolkit.Maui.Core.RatingChangedEventArgs rating" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rating" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="rating">The new rating value.</param>
+        <summary>Event args containing all contextual information related to rating changed event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rating">
+      <MemberSignature Language="C#" Value="public double Rating { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Rating" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.RatingChangedEventArgs.Rating" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rating As Double" />
+      <MemberSignature Language="F#" Value="member this.Rating : double" Usage="CommunityToolkit.Maui.Core.RatingChangedEventArgs.Rating" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the rating for the rating changed event.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

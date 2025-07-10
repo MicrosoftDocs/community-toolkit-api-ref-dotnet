@@ -7,18 +7,110 @@
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Extensions for the <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> type.
             </summary>
     <remarks>To be added.</remarks>
+    <inheritdoc />
   </Docs>
   <Members>
+    <Member MemberName="CreateObservable&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public static IObservable&lt;TMessage&gt; CreateObservable&lt;TMessage&gt; (this CommunityToolkit.Mvvm.Messaging.IMessenger messenger) where TMessage : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IObservable`1&lt;!!TMessage&gt; CreateObservable&lt;class TMessage&gt;(class CommunityToolkit.Mvvm.Messaging.IMessenger messenger) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable``1(CommunityToolkit.Mvvm.Messaging.IMessenger)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateObservable(Of TMessage As Class) (messenger As IMessenger) As IObservable(Of TMessage)" />
+      <MemberSignature Language="F#" Value="static member CreateObservable : CommunityToolkit.Mvvm.Messaging.IMessenger -&gt; IObservable&lt;'Message (requires 'Message : null)&gt; (requires 'Message : null)" Usage="CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable messenger" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IObservable&lt;TMessage&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="messenger" Type="CommunityToolkit.Mvvm.Messaging.IMessenger" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">The type of message to use to receive notification for through the resulting <see cref="T:System.IObservable`1" /> instance.</typeparam>
+        <param name="messenger">The <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> instance to use to register the recipient.</param>
+        <summary>
+            Creates an <see cref="T:System.IObservable`1" /> instance that can be used to be notified whenever a message of a given type is broadcast by a messenger.
+            </summary>
+        <returns>An <see cref="T:System.IObservable`1" /> instance to receive notifications for <typeparamref name="TMessage" /> messages being broadcast.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> is <see langword="null" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateObservable&lt;TMessage,TToken&gt;">
+      <MemberSignature Language="C#" Value="public static IObservable&lt;TMessage&gt; CreateObservable&lt;TMessage,TToken&gt; (this CommunityToolkit.Mvvm.Messaging.IMessenger messenger, TToken token) where TMessage : class where TToken : IEquatable&lt;TToken&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IObservable`1&lt;!!TMessage&gt; CreateObservable&lt;class TMessage, (class System.IEquatable`1&lt;!!TToken&gt;) TToken&gt;(class CommunityToolkit.Mvvm.Messaging.IMessenger messenger, !!TToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable``2(CommunityToolkit.Mvvm.Messaging.IMessenger,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateObservable(Of TMessage As Class, TToken As Class) (messenger As IMessenger, token As TToken) As IObservable(Of TMessage)" />
+      <MemberSignature Language="F#" Value="static member CreateObservable : CommunityToolkit.Mvvm.Messaging.IMessenger * 'oken -&gt; IObservable&lt;'Message (requires 'Message : null)&gt; (requires 'Message : null and 'oken :&gt; IEquatable&lt;'oken&gt;)" Usage="CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.CreateObservable (messenger, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IObservable&lt;TMessage&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="messenger" Type="CommunityToolkit.Mvvm.Messaging.IMessenger" Index="0" FrameworkAlternate="dotnet-comm-toolkit-8.4" RefType="this" />
+        <Parameter Name="token" Type="TToken" Index="1" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">The type of message to use to receive notification for through the resulting <see cref="T:System.IObservable`1" /> instance.</typeparam>
+        <typeparam name="TToken">The type of token to identify what channel to use to receive messages.</typeparam>
+        <param name="messenger">The <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> instance to use to register the recipient.</param>
+        <param name="token">A token used to determine the receiving channel to use.</param>
+        <summary>
+            Creates an <see cref="T:System.IObservable`1" /> instance that can be used to be notified whenever a message of a given type is broadcast by a messenger.
+            </summary>
+        <returns>An <see cref="T:System.IObservable`1" /> instance to receive notifications for <typeparamref name="TMessage" /> messages being broadcast.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="token" /> are <see langword="null" />.</exception>
+      </Docs>
+    </Member>
     <Member MemberName="IsRegistered&lt;TMessage&gt;">
       <MemberSignature Language="C#" Value="public static bool IsRegistered&lt;TMessage&gt; (this CommunityToolkit.Mvvm.Messaging.IMessenger messenger, object recipient) where TMessage : class;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsRegistered&lt;class TMessage&gt;(class CommunityToolkit.Mvvm.Messaging.IMessenger messenger, object recipient) cil managed" />
@@ -29,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -53,6 +146,7 @@
             </summary>
         <returns>Whether or not <paramref name="recipient" /> has already been registered for the specified message.</returns>
         <remarks>This method will use the default channel to check for the requested registration.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="recipient" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TMessage&gt;">
@@ -65,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -89,6 +184,7 @@
             </summary>
         <remarks>This method will use the default channel to perform the requested registration.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="recipient" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TMessage&gt;">
@@ -101,6 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -127,6 +224,7 @@
             </summary>
         <remarks>This method will use the default channel to perform the requested registration.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" />, <paramref name="recipient" /> or <paramref name="handler" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TMessage,TToken&gt;">
@@ -139,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -150,6 +249,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -171,6 +276,7 @@
             </summary>
         <remarks>This method will use the default channel to perform the requested registration.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" />, <paramref name="recipient" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TMessage,TToken&gt;">
@@ -183,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -194,6 +301,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -217,6 +330,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" />, <paramref name="recipient" /> or <paramref name="handler" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Register&lt;TRecipient,TMessage&gt;">
@@ -229,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -261,6 +376,7 @@
             </summary>
         <remarks>This method will use the default channel to perform the requested registration.</remarks>
         <exception cref="T:System.InvalidOperationException">Thrown when trying to register the same message twice.</exception>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" />, <paramref name="recipient" /> or <paramref name="handler" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="RegisterAll">
@@ -273,7 +389,18 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresDynamicCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If that is present, the method is AOT safe, as the only methods being invoked to register the messages will be the ones produced by the source generator. If it isn't, this method will need to dynamically create the generic methods to register messages, which might not be available at runtime.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresDynamicCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If that is present, the method is AOT safe, as the only methods being invoked to register the messages will be the ones produced by the source generator. If it isn't, this method will need to dynamically create the generic methods to register messages, which might not be available at runtime.")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -288,6 +415,7 @@
             Registers all declared message handlers for a given recipient, using the default channel.
             </summary>
         <remarks>See notes for <see cref="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.RegisterAll``1(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Object,``0)" /> for more info.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="recipient" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="RegisterAll&lt;TToken&gt;">
@@ -300,12 +428,29 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresDynamicCode("The generic methods to register messages might not be available at runtime.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresDynamicCode("The generic methods to register messages might not be available at runtime.")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("This method requires the generated CommunityToolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions type not to be removed to use the fast path. If this type is removed by the linker, or if the target recipient was created dynamically and was missed by the source generator, a slower fallback path using a compiled LINQ expression will be used. This will have more overhead in the first invocation of this method for any given recipient type.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -331,6 +476,7 @@
             Once the registration is complete though, the performance will be exactly the same as with handlers
             registered directly through any of the other generic extensions for the <see cref="T:CommunityToolkit.Mvvm.Messaging.IMessenger" /> interface.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" />, <paramref name="recipient" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Send&lt;TMessage&gt;">
@@ -343,6 +489,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TMessage</ReturnType>
@@ -370,6 +517,7 @@
             message type exposes a parameterless constructor: it will automatically create
             a new <typeparamref name="TMessage" /> instance and send that to its recipients.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Send&lt;TMessage&gt;">
@@ -382,6 +530,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TMessage</ReturnType>
@@ -406,6 +555,7 @@
             </summary>
         <returns>The message that was sent (ie. <paramref name="message" />).</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="message" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Send&lt;TMessage,TToken&gt;">
@@ -418,6 +568,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TMessage</ReturnType>
@@ -430,6 +581,12 @@
           </Constraints>
         </TypeParameter>
         <TypeParameter Name="TToken">
+          <Attributes>
+            <Attribute FrameworkAlternate="dotnet-comm-toolkit-8.4">
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
           <Constraints>
             <InterfaceName>System.IEquatable&lt;TToken&gt;</InterfaceName>
           </Constraints>
@@ -447,11 +604,12 @@
         <summary>
             Sends a message of the specified type to all registered recipients.
             </summary>
-        <returns>The message that has been sen.</returns>
+        <returns>The message that has been sent.</returns>
         <remarks>
             This method will automatically create a new <typeparamref name="TMessage" /> instance
             just like <see cref="M:CommunityToolkit.Mvvm.Messaging.IMessengerExtensions.Send``1(CommunityToolkit.Mvvm.Messaging.IMessenger)" />, and then send it to the right recipients.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="token" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Unregister&lt;TMessage&gt;">
@@ -464,6 +622,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -490,6 +649,7 @@
             This method will unregister the target recipient only from the default channel.
             If the recipient has no registered handler, this method does nothing.
             </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="messenger" /> or <paramref name="recipient" /> are <see langword="null" />.</exception>
       </Docs>
     </Member>
   </Members>

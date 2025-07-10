@@ -1,12 +1,14 @@
 <Type Name="IRelayCommand&lt;T&gt;" FullName="CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;">
   <TypeSignature Language="C#" Value="public interface IRelayCommand&lt;in T&gt; : CommunityToolkit.Mvvm.Input.IRelayCommand, System.Windows.Input.ICommand" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRelayCommand`1&lt;- T&gt; implements class CommunityToolkit.Mvvm.Input.IRelayCommand, class System.Windows.Input.ICommand" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IRelayCommand`1&lt;- T&gt; implements class CommunityToolkit.Mvvm.Input.IRelayCommand, class System.Windows.Input.ICommand" FrameworkAlternate="dotnet-comm-toolkit-8.4" />
   <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRelayCommand(Of In T)&#xA;Implements ICommand, IRelayCommand" />
   <TypeSignature Language="F#" Value="type IRelayCommand&lt;'T&gt; = interface&#xA;    interface IRelayCommand&#xA;    interface ICommand" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRelayCommand`1&lt;- T&gt; implements class CommunityToolkit.Mvvm.Input.IRelayCommand, class System.Windows.Input.ICommand" FrameworkAlternate="win-comm-toolkit-dotnet-7.0" />
   <AssemblyInfo>
     <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T">
@@ -41,6 +43,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

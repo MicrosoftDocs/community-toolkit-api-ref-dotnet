@@ -1,0 +1,174 @@
+<Type Name="IndexToArrayItemConverter" FullName="CommunityToolkit.Maui.Converters.IndexToArrayItemConverter">
+  <TypeSignature Language="C#" Value="public class IndexToArrayItemConverter : CommunityToolkit.Maui.Converters.BaseConverter&lt;int,object,Array&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IndexToArrayItemConverter extends CommunityToolkit.Maui.Converters.BaseConverter`3&lt;int32, object, class System.Array&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.IndexToArrayItemConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class IndexToArrayItemConverter&#xA;Inherits BaseConverter(Of Integer, Object, Array)" />
+  <TypeSignature Language="F#" Value="type IndexToArrayItemConverter = class&#xA;    inherit BaseConverter&lt;int, obj, Array&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverter&lt;System.Int32,System.Object,System.Array&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.Int32</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Object</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Array</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts an <see cref="T:System.Int32" /> index to corresponding array item and vice versa.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IndexToArrayItemConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBackTo">
+      <MemberSignature Language="C#" Value="public override int ConvertBackTo (object? value, Array parameter, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 ConvertBackTo(object value, class System.Array parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.ConvertBackTo(System.Object,System.Array,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertBackTo (value As Object, parameter As Array, Optional culture As CultureInfo = Nothing) As Integer" />
+      <MemberSignature Language="F#" Value="override this.ConvertBackTo : obj * Array * System.Globalization.CultureInfo -&gt; int" Usage="indexToArrayItemConverter.ConvertBackTo (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="parameter" Type="System.Array">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The item from the array.</param>
+        <param name="parameter">The item array.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts back an array item to the corresponding index of the item in the array.
+            </summary>
+        <returns>The index of the item from the array.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override object? ConvertFrom (int value, Array parameter, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFrom(int32 value, class System.Array parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.ConvertFrom(System.Int32,System.Array,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As Integer, parameter As Array, Optional culture As CultureInfo = Nothing) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : int * Array * System.Globalization.CultureInfo -&gt; obj" Usage="indexToArrayItemConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="parameter" Type="System.Array">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.AllowNull]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.AllowNull&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The index of items array.</param>
+        <param name="parameter">The items array.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts an <see cref="T:System.Int32" /> index to corresponding array item.
+            </summary>
+        <returns>The item from the array that corresponds to passed index.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertBackReturnValue">
+      <MemberSignature Language="C#" Value="public override int DefaultConvertBackReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DefaultConvertBackReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.DefaultConvertBackReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertBackReturnValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertBackReturnValue : int with get, set" Usage="CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.DefaultConvertBackReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override object? DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Object" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : obj with get, set" Usage="CommunityToolkit.Maui.Converters.IndexToArrayItemConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

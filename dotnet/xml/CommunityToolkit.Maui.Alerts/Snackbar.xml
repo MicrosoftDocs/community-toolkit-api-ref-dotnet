@@ -1,0 +1,422 @@
+<Type Name="Snackbar" FullName="CommunityToolkit.Maui.Alerts.Snackbar">
+  <TypeSignature Language="C#" Value="public class Snackbar : CommunityToolkit.Maui.Core.ISnackbar, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Snackbar extends System.Object implements class CommunityToolkit.Maui.Core.IAlert, class CommunityToolkit.Maui.Core.ISnackbar, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Alerts.Snackbar" />
+  <TypeSignature Language="VB.NET" Value="Public Class Snackbar&#xA;Implements IDisposable, ISnackbar" />
+  <TypeSignature Language="F#" Value="type Snackbar = class&#xA;    interface ISnackbar&#xA;    interface IAlert&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.IAlert</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.ISnackbar</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <inheritdoc />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Snackbar ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Snackbar.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Alerts.Snackbar" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Action">
+      <MemberSignature Language="C#" Value="public Action? Action { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Action Action" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.Action" />
+      <MemberSignature Language="VB.NET" Value="Public Property Action As Action" />
+      <MemberSignature Language="F#" Value="member this.Action : Action with get, set" Usage="CommunityToolkit.Maui.Alerts.Snackbar.Action" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Action</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionButtonText">
+      <MemberSignature Language="C#" Value="public string ActionButtonText { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionButtonText" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.ActionButtonText" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionButtonText As String" />
+      <MemberSignature Language="F#" Value="member this.ActionButtonText : string with get, set" Usage="CommunityToolkit.Maui.Alerts.Snackbar.ActionButtonText" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Anchor">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.IView? Anchor { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Anchor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.Anchor" />
+      <MemberSignature Language="VB.NET" Value="Public Property Anchor As IView" />
+      <MemberSignature Language="F#" Value="member this.Anchor : Microsoft.Maui.IView with get, set" Usage="CommunityToolkit.Maui.Alerts.Snackbar.Anchor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dismiss">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task Dismiss (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task Dismiss(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Snackbar.Dismiss(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Dismiss (Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member Dismiss : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.Dismiss : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="snackbar.Dismiss token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.IAlert.Dismiss(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            Dismiss Snackbar
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dismissed">
+      <MemberSignature Language="C#" Value="public static event EventHandler Dismissed;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Dismissed" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Alerts.Snackbar.Dismissed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Custom Event Dismissed As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Dismissed : EventHandler " Usage="member this.Dismissed : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Occurs when Snackbar is dismissed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Snackbar.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="snackbar.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Dispose Snackbar
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool isDisposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool isDisposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Snackbar.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (isDisposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="snackbar.Dispose isDisposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isDisposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isDisposing">To be added.</param>
+        <summary>
+            Dispose Snackbar
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.Duration : TimeSpan with get, set" Usage="CommunityToolkit.Maui.Alerts.Snackbar.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="IsShown">
+      <MemberSignature Language="C#" Value="public static bool IsShown { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property bool IsShown" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.IsShown" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsShown As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsShown : bool" Usage="CommunityToolkit.Maui.Alerts.Snackbar.IsShown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns <see langword="true" /> if the <see cref="T:CommunityToolkit.Maui.Alerts.Snackbar" /> is currently visible.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Make">
+      <MemberSignature Language="C#" Value="public static CommunityToolkit.Maui.Core.ISnackbar Make (string message, Action? action = default, string actionButtonText = &quot;OK&quot;, TimeSpan? duration = default, CommunityToolkit.Maui.Core.SnackbarOptions? visualOptions = default, Microsoft.Maui.IView? anchor = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class CommunityToolkit.Maui.Core.ISnackbar Make(string message, class System.Action action, string actionButtonText, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; duration, class CommunityToolkit.Maui.Core.SnackbarOptions visualOptions, class Microsoft.Maui.IView anchor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Snackbar.Make(System.String,System.Action,System.String,System.Nullable{System.TimeSpan},CommunityToolkit.Maui.Core.SnackbarOptions,Microsoft.Maui.IView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Make (message As String, Optional action As Action = Nothing, Optional actionButtonText As String = &quot;OK&quot;, Optional duration As Nullable(Of TimeSpan) = Nothing, Optional visualOptions As SnackbarOptions = Nothing, Optional anchor As IView = Nothing) As ISnackbar" />
+      <MemberSignature Language="F#" Value="static member Make : string * Action * string * Nullable&lt;TimeSpan&gt; * CommunityToolkit.Maui.Core.SnackbarOptions * Microsoft.Maui.IView -&gt; CommunityToolkit.Maui.Core.ISnackbar" Usage="CommunityToolkit.Maui.Alerts.Snackbar.Make (message, action, actionButtonText, duration, visualOptions, anchor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.ISnackbar</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="action" Type="System.Action">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="actionButtonText" Type="System.String" />
+        <Parameter Name="duration" Type="System.Nullable&lt;System.TimeSpan&gt;" />
+        <Parameter Name="visualOptions" Type="CommunityToolkit.Maui.Core.SnackbarOptions">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="anchor" Type="Microsoft.Maui.IView">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="message">Snackbar message</param>
+        <param name="actionButtonText">Snackbar action button text</param>
+        <param name="duration">Snackbar duration</param>
+        <param name="action">Snackbar action</param>
+        <param name="visualOptions">Snackbar visual options</param>
+        <param name="anchor">Snackbar anchor</param>
+        <summary>
+            Create new Snackbar
+            </summary>
+        <returns>New instance of Snackbar</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task Show (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task Show(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Alerts.Snackbar.Show(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Show (Optional token As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member Show : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.Show : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="snackbar.Show token" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.IAlert.Show(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            Show Snackbar
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shown">
+      <MemberSignature Language="C#" Value="public static event EventHandler Shown;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Shown" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Alerts.Snackbar.Shown" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Custom Event Shown As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Shown : EventHandler " Usage="member this.Shown : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Occurs when <see cref="P:CommunityToolkit.Maui.Alerts.Snackbar.IsShown" /> changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="CommunityToolkit.Maui.Alerts.Snackbar.Text" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="VisualOptions">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.SnackbarOptions VisualOptions { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Core.SnackbarOptions VisualOptions" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Alerts.Snackbar.VisualOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property VisualOptions As SnackbarOptions" />
+      <MemberSignature Language="F#" Value="member this.VisualOptions : CommunityToolkit.Maui.Core.SnackbarOptions with get, set" Usage="CommunityToolkit.Maui.Alerts.Snackbar.VisualOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.SnackbarOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,122 @@
+<Type Name="SetFocusOnEntryCompletedBehavior" FullName="CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior">
+  <TypeSignature Language="C#" Value="public class SetFocusOnEntryCompletedBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SetFocusOnEntryCompletedBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.VisualElement&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Class SetFocusOnEntryCompletedBehavior&#xA;Inherits BaseBehavior(Of VisualElement)" />
+  <TypeSignature Language="F#" Value="type SetFocusOnEntryCompletedBehavior = class&#xA;    inherit BaseBehavior&lt;VisualElement&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.VisualElement</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior" /> is an attached property for entries that allows the user to specify what <see cref="T:Microsoft.Maui.Controls.VisualElement" /> should gain focus after the user completes that entry.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetFocusOnEntryCompletedBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNextElement">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.Controls.VisualElement GetNextElement (Microsoft.Maui.Controls.BindableObject view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.VisualElement GetNextElement(class Microsoft.Maui.Controls.BindableObject view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.GetNextElement(Microsoft.Maui.Controls.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetNextElement (view As BindableObject) As VisualElement" />
+      <MemberSignature Language="F#" Value="static member GetNextElement : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.VisualElement" Usage="CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.GetNextElement view" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.VisualElement</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <summary>
+            Required <see cref="M:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.GetNextElement(Microsoft.Maui.Controls.BindableObject)" /> accessor for <see cref="F:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.NextElementProperty" /> attached property.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextElementProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty NextElementProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty NextElementProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.NextElementProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NextElementProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable NextElementProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.NextElementProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="F:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.NextElementProperty" /> attached property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNextElement">
+      <MemberSignature Language="C#" Value="public static void SetNextElement (Microsoft.Maui.Controls.BindableObject view, Microsoft.Maui.Controls.VisualElement value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNextElement(class Microsoft.Maui.Controls.BindableObject view, class Microsoft.Maui.Controls.VisualElement value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.SetNextElement(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetNextElement (view As BindableObject, value As VisualElement)" />
+      <MemberSignature Language="F#" Value="static member SetNextElement : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.SetNextElement (view, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="value" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>
+            Required <see cref="M:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.SetNextElement(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.VisualElement)" /> accessor for <see cref="F:CommunityToolkit.Maui.Behaviors.SetFocusOnEntryCompletedBehavior.NextElementProperty" /> attached property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
