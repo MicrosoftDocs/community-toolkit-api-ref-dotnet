@@ -1,0 +1,40 @@
+<Type Name="BasePlatformBehavior&lt;TView&gt;" FullName="CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;TView&gt;">
+  <TypeSignature Language="C#" Value="public abstract class BasePlatformBehavior&lt;TView&gt; : CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;TView,object&gt; where TView : Element" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BasePlatformBehavior`1&lt;(class Microsoft.Maui.Controls.Element) TView&gt; extends CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`2&lt;!TView, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.BasePlatformBehavior`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BasePlatformBehavior(Of TView)&#xA;Inherits BasePlatformBehavior(Of TView, Object)" />
+  <TypeSignature Language="F#" Value="type BasePlatformBehavior&lt;'View (requires 'View :&gt; Element)&gt; = class&#xA;    inherit BasePlatformBehavior&lt;'View, obj (requires 'View :&gt; Element)&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TView">
+      <Constraints>
+        <BaseTypeName>Microsoft.Maui.Controls.Element</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BasePlatformBehavior&lt;TView,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">TView</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TPlatformView">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TView">The <see cref="T:Microsoft.Maui.Controls.VisualElement" /> that the behavior can be applied to</typeparam>
+    <summary>
+            Abstract class for our behaviors to inherit.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

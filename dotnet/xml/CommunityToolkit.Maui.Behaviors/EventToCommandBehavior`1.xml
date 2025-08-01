@@ -1,0 +1,75 @@
+<Type Name="EventToCommandBehavior&lt;TType&gt;" FullName="CommunityToolkit.Maui.Behaviors.EventToCommandBehavior&lt;TType&gt;">
+  <TypeSignature Language="C#" Value="public sealed class EventToCommandBehavior&lt;TType&gt; : CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EventToCommandBehavior`1&lt;TType&gt; extends CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior`1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EventToCommandBehavior(Of TType)&#xA;Inherits EventToCommandBehavior" />
+  <TypeSignature Language="F#" Value="type EventToCommandBehavior&lt;'ype&gt; = class&#xA;    inherit EventToCommandBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TType" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.EventToCommandBehavior</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TType">The type that you want to receive in your <see cref="T:Microsoft.Maui.Controls.Command" /></typeparam>
+    <summary>
+            This <see cref="T:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior" /> cast the sender object to a specific type defined by the user.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventToCommandBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior`1.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnTriggerHandled">
+      <MemberSignature Language="C#" Value="protected override void OnTriggerHandled (object? sender = default, object? eventArgs = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnTriggerHandled(object sender, object eventArgs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.EventToCommandBehavior`1.OnTriggerHandled(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnTriggerHandled (Optional sender As Object = Nothing, Optional eventArgs As Object = Nothing)" />
+      <MemberSignature Language="F#" Value="override this.OnTriggerHandled : obj * obj -&gt; unit" Usage="eventToCommandBehavior.OnTriggerHandled (sender, eventArgs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="eventArgs" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="eventArgs">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

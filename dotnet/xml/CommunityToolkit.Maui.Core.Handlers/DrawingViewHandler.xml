@@ -1,0 +1,359 @@
+<Type Name="DrawingViewHandler" FullName="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler">
+  <TypeSignature Language="C#" Value="public class DrawingViewHandler : Microsoft.Maui.Handlers.ViewHandler&lt;CommunityToolkit.Maui.Core.IDrawingView,object&gt;, CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DrawingViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class CommunityToolkit.Maui.Core.IDrawingView, object&gt; implements class CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Class DrawingViewHandler&#xA;Inherits ViewHandler(Of IDrawingView, Object)&#xA;Implements IDrawingViewHandler" />
+  <TypeSignature Language="F#" Value="type DrawingViewHandler = class&#xA;    inherit ViewHandler&lt;IDrawingView, obj&gt;&#xA;    interface IDrawingViewHandler" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Handlers.ViewHandler&lt;CommunityToolkit.Maui.Core.IDrawingView,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">CommunityToolkit.Maui.Core.IDrawingView</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            DrawingView handler
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DrawingViewHandler ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialize new instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DrawingViewHandler (Microsoft.Maui.IPropertyMapper? mapper, Microsoft.Maui.CommandMapper? commandMapper);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" Usage="new CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler (mapper, commandMapper)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mapper" Type="Microsoft.Maui.IPropertyMapper" />
+        <Parameter Name="commandMapper" Type="Microsoft.Maui.CommandMapper" />
+      </Parameters>
+      <Docs>
+        <param name="mapper">Custom instance of <see cref="T:Microsoft.Maui.PropertyMapper" />, if it's null the <see cref="F:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.DrawingViewMapper" /> will be used</param>
+        <param name="commandMapper">Custom instance of <see cref="T:Microsoft.Maui.CommandMapper" /></param>
+        <summary>
+            Initialize new instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePlatformView">
+      <MemberSignature Language="C#" Value="protected override object CreatePlatformView ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.CreatePlatformView" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
+      <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="drawingViewHandler.CreatePlatformView " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="DrawingViewCommandMapper">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.IDrawingView,CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt; DrawingViewCommandMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.CommandMapper`2&lt;class CommunityToolkit.Maui.Core.IDrawingView, class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt; DrawingViewCommandMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.DrawingViewCommandMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DrawingViewCommandMapper As CommandMapper(Of IDrawingView, DrawingViewHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable DrawingViewCommandMapper : Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.IDrawingView, CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.DrawingViewCommandMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Core.IDrawingView,CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.CommandMapper" /> for DrawingView Control.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawingViewMapper">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.IDrawingView,CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt; DrawingViewMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.IPropertyMapper`2&lt;class CommunityToolkit.Maui.Core.IDrawingView, class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt; DrawingViewMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.DrawingViewMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DrawingViewMapper As IPropertyMapper(Of IDrawingView, DrawingViewHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable DrawingViewMapper : Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.IDrawingView, CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.DrawingViewMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Core.IDrawingView,CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Microsoft.Maui.PropertyMapper" /> for DrawingView Control.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapDrawAction">
+      <MemberSignature Language="C#" Value="public static void MapDrawAction (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapDrawAction(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapDrawAction(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapDrawAction (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapDrawAction : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapDrawAction (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.DrawAction" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapDrawingViewBackground">
+      <MemberSignature Language="C#" Value="public static void MapDrawingViewBackground (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapDrawingViewBackground(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapDrawingViewBackground(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapDrawingViewBackground (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapDrawingViewBackground : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapDrawingViewBackground (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView Background property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapIsMultiLineModeEnabled">
+      <MemberSignature Language="C#" Value="public static void MapIsMultiLineModeEnabled (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsMultiLineModeEnabled(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapIsMultiLineModeEnabled(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsMultiLineModeEnabled (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapIsMultiLineModeEnabled : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapIsMultiLineModeEnabled (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.IsMultiLineModeEnabled" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapLineColor">
+      <MemberSignature Language="C#" Value="public static void MapLineColor (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapLineColor(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapLineColor(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapLineColor (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapLineColor : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapLineColor (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.LineColor" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapLines">
+      <MemberSignature Language="C#" Value="public static void MapLines (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapLines(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapLines(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapLines (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapLines : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapLines (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.Lines" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapLineWidth">
+      <MemberSignature Language="C#" Value="public static void MapLineWidth (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapLineWidth(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapLineWidth(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapLineWidth (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapLineWidth : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapLineWidth (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.LineWidth" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapShouldClearOnFinish">
+      <MemberSignature Language="C#" Value="public static void MapShouldClearOnFinish (CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, CommunityToolkit.Maui.Core.IDrawingView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapShouldClearOnFinish(class CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler handler, class CommunityToolkit.Maui.Core.IDrawingView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapShouldClearOnFinish(CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler,CommunityToolkit.Maui.Core.IDrawingView)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapShouldClearOnFinish (handler As DrawingViewHandler, view As IDrawingView)" />
+      <MemberSignature Language="F#" Value="static member MapShouldClearOnFinish : CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler * CommunityToolkit.Maui.Core.IDrawingView -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.MapShouldClearOnFinish (handler, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />
+        <Parameter Name="view" Type="CommunityToolkit.Maui.Core.IDrawingView" />
+      </Parameters>
+      <Docs>
+        <param name="handler">An instance of <see cref="T:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler" />.</param>
+        <param name="view">An instance of <see cref="T:CommunityToolkit.Maui.Core.IDrawingView" />.</param>
+        <summary>
+            Action that's triggered when the DrawingView <see cref="P:CommunityToolkit.Maui.Core.IDrawingView.ShouldClearOnFinish" /> property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDrawingLineAdapter">
+      <MemberSignature Language="C#" Value="public void SetDrawingLineAdapter (CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter drawingLineAdapter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDrawingLineAdapter(class CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter drawingLineAdapter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.DrawingViewHandler.SetDrawingLineAdapter(CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDrawingLineAdapter (drawingLineAdapter As IDrawingLineAdapter)" />
+      <MemberSignature Language="F#" Value="abstract member SetDrawingLineAdapter : CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter -&gt; unit&#xA;override this.SetDrawingLineAdapter : CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter -&gt; unit" Usage="drawingViewHandler.SetDrawingLineAdapter drawingLineAdapter" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Core.Handlers.IDrawingViewHandler.SetDrawingLineAdapter(CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="drawingLineAdapter" Type="CommunityToolkit.Maui.Core.Handlers.IDrawingLineAdapter" />
+      </Parameters>
+      <Docs>
+        <param name="drawingLineAdapter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

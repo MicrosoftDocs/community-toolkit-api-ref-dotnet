@@ -1,0 +1,510 @@
+<Type Name="MediaElementHandler" FullName="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler">
+  <TypeSignature Language="C#" Value="public class MediaElementHandler : Microsoft.Maui.Handlers.ViewHandler&lt;CommunityToolkit.Maui.Views.MediaElement,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaElementHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class CommunityToolkit.Maui.Views.MediaElement, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaElementHandler&#xA;Inherits ViewHandler(Of MediaElement, Object)" />
+  <TypeSignature Language="F#" Value="type MediaElementHandler = class&#xA;    inherit ViewHandler&lt;MediaElement, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Handlers.ViewHandler&lt;CommunityToolkit.Maui.Views.MediaElement,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">CommunityToolkit.Maui.Views.MediaElement</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Handler class for <see cref="T:CommunityToolkit.Maui.Views.MediaElement" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaElementHandler ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaElementHandler (Microsoft.Maui.IPropertyMapper? mapper, Microsoft.Maui.CommandMapper? commandMapper);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.Handlers.MediaElementHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" Usage="new CommunityToolkit.Maui.Core.Handlers.MediaElementHandler (mapper, commandMapper)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mapper" Type="Microsoft.Maui.IPropertyMapper" />
+        <Parameter Name="commandMapper" Type="Microsoft.Maui.CommandMapper" />
+      </Parameters>
+      <Docs>
+        <param name="mapper">The custom property mapper to use.</param>
+        <param name="commandMapper">The custom command mapper to use.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" /> class
+            with custom property and command mappers.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Views.MediaElement,CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt; CommandMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class CommunityToolkit.Maui.Views.MediaElement, class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt; CommandMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.CommandMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of MediaElement, MediaElementHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Views.MediaElement, CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.CommandMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.CommandMapper&lt;CommunityToolkit.Maui.Views.MediaElement,CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The default command mapper for this handler.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePlatformView">
+      <MemberSignature Language="C#" Value="protected override object CreatePlatformView ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.CreatePlatformView" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
+      <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="mediaElementHandler.CreatePlatformView " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="MapAspect">
+      <MemberSignature Language="C#" Value="public static void MapAspect (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapAspect(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapAspect(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapAspect (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapAspect : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapAspect (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapPauseRequested">
+      <MemberSignature Language="C#" Value="public static void MapPauseRequested (CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, CommunityToolkit.Maui.Views.MediaElement MediaElement, object? args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPauseRequested(class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement, object args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPauseRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPauseRequested (handler As MediaElementHandler, MediaElement As MediaElement, args As Object)" />
+      <MemberSignature Language="F#" Value="static member MapPauseRequested : CommunityToolkit.Maui.Core.Handlers.MediaElementHandler * CommunityToolkit.Maui.Views.MediaElement * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPauseRequested (handler, MediaElement, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+        <Parameter Name="args" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapPlayRequested">
+      <MemberSignature Language="C#" Value="public static void MapPlayRequested (CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, CommunityToolkit.Maui.Views.MediaElement MediaElement, object? args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPlayRequested(class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement, object args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPlayRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPlayRequested (handler As MediaElementHandler, MediaElement As MediaElement, args As Object)" />
+      <MemberSignature Language="F#" Value="static member MapPlayRequested : CommunityToolkit.Maui.Core.Handlers.MediaElementHandler * CommunityToolkit.Maui.Views.MediaElement * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPlayRequested (handler, MediaElement, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+        <Parameter Name="args" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapPosition">
+      <MemberSignature Language="C#" Value="public static void MapPosition (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPosition(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPosition(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPosition (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapPosition : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapPosition (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapSeekRequested">
+      <MemberSignature Language="C#" Value="public static void MapSeekRequested (CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, CommunityToolkit.Maui.Views.MediaElement MediaElement, object? args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSeekRequested(class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement, object args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSeekRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSeekRequested (handler As MediaElementHandler, MediaElement As MediaElement, args As Object)" />
+      <MemberSignature Language="F#" Value="static member MapSeekRequested : CommunityToolkit.Maui.Core.Handlers.MediaElementHandler * CommunityToolkit.Maui.Views.MediaElement * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSeekRequested (handler, MediaElement, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+        <Parameter Name="args" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapShouldKeepScreenOn">
+      <MemberSignature Language="C#" Value="public static void MapShouldKeepScreenOn (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapShouldKeepScreenOn(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldKeepScreenOn(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapShouldKeepScreenOn (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapShouldKeepScreenOn : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldKeepScreenOn (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapShouldMute">
+      <MemberSignature Language="C#" Value="public static void MapShouldMute (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapShouldMute(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldMute(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapShouldMute (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapShouldMute : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldMute (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapShouldShowPlaybackControls">
+      <MemberSignature Language="C#" Value="public static void MapShouldShowPlaybackControls (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapShouldShowPlaybackControls(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldShowPlaybackControls(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapShouldShowPlaybackControls (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapShouldShowPlaybackControls : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapShouldShowPlaybackControls (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapSource">
+      <MemberSignature Language="C#" Value="public static void MapSource (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSource(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSource(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSource (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapSource : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSource (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapSpeed">
+      <MemberSignature Language="C#" Value="public static void MapSpeed (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSpeed(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSpeed(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSpeed (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapSpeed : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapSpeed (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapStatusUpdated">
+      <MemberSignature Language="C#" Value="public static void MapStatusUpdated (CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, CommunityToolkit.Maui.Views.MediaElement MediaElement, object? args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStatusUpdated(class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement, object args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapStatusUpdated(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStatusUpdated (handler As MediaElementHandler, MediaElement As MediaElement, args As Object)" />
+      <MemberSignature Language="F#" Value="static member MapStatusUpdated : CommunityToolkit.Maui.Core.Handlers.MediaElementHandler * CommunityToolkit.Maui.Views.MediaElement * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapStatusUpdated (handler, MediaElement, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+        <Parameter Name="args" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapStopRequested">
+      <MemberSignature Language="C#" Value="public static void MapStopRequested (CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, CommunityToolkit.Maui.Views.MediaElement MediaElement, object? args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStopRequested(class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement, object args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapStopRequested(CommunityToolkit.Maui.Core.Handlers.MediaElementHandler,CommunityToolkit.Maui.Views.MediaElement,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStopRequested (handler As MediaElementHandler, MediaElement As MediaElement, args As Object)" />
+      <MemberSignature Language="F#" Value="static member MapStopRequested : CommunityToolkit.Maui.Core.Handlers.MediaElementHandler * CommunityToolkit.Maui.Views.MediaElement * obj -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapStopRequested (handler, MediaElement, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+        <Parameter Name="args" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapVolume">
+      <MemberSignature Language="C#" Value="public static void MapVolume (object handler, CommunityToolkit.Maui.Views.MediaElement MediaElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVolume(object handler, class CommunityToolkit.Maui.Views.MediaElement MediaElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapVolume(System.Object,CommunityToolkit.Maui.Views.MediaElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVolume (handler As Object, MediaElement As MediaElement)" />
+      <MemberSignature Language="F#" Value="static member MapVolume : obj * CommunityToolkit.Maui.Views.MediaElement -&gt; unit" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.MapVolume (handler, MediaElement)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Object" />
+        <Parameter Name="MediaElement" Type="CommunityToolkit.Maui.Views.MediaElement" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <param name="MediaElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyMapper">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Views.MediaElement,CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt; PropertyMapper;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class CommunityToolkit.Maui.Views.MediaElement, class CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt; PropertyMapper" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.PropertyMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Shared PropertyMapper As IPropertyMapper(Of MediaElement, MediaElementHandler) " />
+      <MemberSignature Language="F#" Value=" staticval mutable PropertyMapper : Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Views.MediaElement, CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt;" Usage="CommunityToolkit.Maui.Core.Handlers.MediaElementHandler.PropertyMapper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.MediaElement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.IPropertyMapper&lt;CommunityToolkit.Maui.Views.MediaElement,CommunityToolkit.Maui.Core.Handlers.MediaElementHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The default property mapper for this handler.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

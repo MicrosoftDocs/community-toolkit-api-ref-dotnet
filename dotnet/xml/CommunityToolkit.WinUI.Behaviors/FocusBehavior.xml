@@ -1,0 +1,188 @@
+<Type Name="FocusBehavior" FullName="CommunityToolkit.WinUI.Behaviors.FocusBehavior">
+  <TypeSignature Language="C#" Value="public sealed class FocusBehavior : CommunityToolkit.WinUI.Behaviors.BehaviorBase&lt;Microsoft.UI.Xaml.UIElement&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FocusBehavior extends CommunityToolkit.WinUI.Behaviors.BehaviorBase`1&lt;class Microsoft.UI.Xaml.UIElement&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Behaviors.FocusBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FocusBehavior&#xA;Inherits BehaviorBase(Of UIElement)" />
+  <TypeSignature Language="F#" Value="type FocusBehavior = class&#xA;    inherit BehaviorBase&lt;UIElement&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.WinUI.Behaviors.BehaviorBase&lt;Microsoft.UI.Xaml.UIElement&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.UI.Xaml.UIElement</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.Markup.ContentProperty(Name="Targets")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.Markup.ContentProperty(Name="Targets")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            This behavior sets the focus on the first control of <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.Targets" /> which accepts it.
+            The focus will be set following the <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.Targets" /> order. The first control being ready
+            and accepting the focus will receive it.
+            The focus can be set to another control with a higher priority if it loads before <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.FocusEngagementTimeout" />.
+            The focus can be set to another control if some controls will be loaded/unloaded later.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FocusBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Behaviors.FocusBehavior" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FocusEngagementTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan FocusEngagementTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan FocusEngagementTimeout" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.FocusEngagementTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property FocusEngagementTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.FocusEngagementTimeout : TimeSpan with get, set" Usage="CommunityToolkit.WinUI.Behaviors.FocusBehavior.FocusEngagementTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the timeout before the <see cref="T:CommunityToolkit.WinUI.Behaviors.FocusBehavior" /> stops trying to set the focus to a control with
+            a higher priority.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FocusEngagementTimeoutProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty FocusEngagementTimeoutProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty FocusEngagementTimeoutProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.FocusBehavior.FocusEngagementTimeoutProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FocusEngagementTimeoutProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FocusEngagementTimeoutProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Behaviors.FocusBehavior.FocusEngagementTimeoutProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The DP to store the <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.FocusEngagementTimeout" /> property value.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAssociatedObjectLoaded">
+      <MemberSignature Language="C#" Value="protected override void OnAssociatedObjectLoaded ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAssociatedObjectLoaded() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusBehavior.OnAssociatedObjectLoaded" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAssociatedObjectLoaded ()" />
+      <MemberSignature Language="F#" Value="override this.OnAssociatedObjectLoaded : unit -&gt; unit" Usage="focusBehavior.OnAssociatedObjectLoaded " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Targets">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Behaviors.FocusTargetList Targets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.WinUI.Behaviors.FocusTargetList Targets" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.Targets" />
+      <MemberSignature Language="VB.NET" Value="Public Property Targets As FocusTargetList" />
+      <MemberSignature Language="F#" Value="member this.Targets : CommunityToolkit.WinUI.Behaviors.FocusTargetList with get, set" Usage="CommunityToolkit.WinUI.Behaviors.FocusBehavior.Targets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Behaviors.FocusTargetList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the ordered list of controls which should receive the focus when the associated object is loaded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty TargetsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty TargetsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Behaviors.FocusBehavior.TargetsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TargetsProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TargetsProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Behaviors.FocusBehavior.TargetsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The DP to store the <see cref="P:CommunityToolkit.WinUI.Behaviors.FocusBehavior.Targets" /> property value.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uninitialize">
+      <MemberSignature Language="C#" Value="protected override bool Uninitialize ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool Uninitialize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Behaviors.FocusBehavior.Uninitialize" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function Uninitialize () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Uninitialize : unit -&gt; bool" Usage="focusBehavior.Uninitialize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Behaviors</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

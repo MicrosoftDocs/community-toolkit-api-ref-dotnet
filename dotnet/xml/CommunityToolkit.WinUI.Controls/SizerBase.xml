@@ -1,0 +1,602 @@
+<Type Name="SizerBase" FullName="CommunityToolkit.WinUI.Controls.SizerBase">
+  <TypeSignature Language="C#" Value="public abstract class SizerBase : Microsoft.UI.Xaml.Controls.Control" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SizerBase extends Microsoft.UI.Xaml.Controls.Control" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SizerBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SizerBase&#xA;Inherits Control" />
+  <TypeSignature Language="F#" Value="type SizerBase = class&#xA;    inherit Control" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.Control</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Normal")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Normal")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="PointerOver")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="PointerOver")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Pressed")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Pressed")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Disabled")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Disabled")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="OrientationStates", Name="Horizontal")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="OrientationStates", Name="Horizontal")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="OrientationStates", Name="Vertical")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="OrientationStates", Name="Vertical")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ThumbVisibilityStates", Name="Visible")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ThumbVisibilityStates", Name="Visible")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ThumbVisibilityStates", Name="Collapsed")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ThumbVisibilityStates", Name="Collapsed")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Base class for splitting/resizing type controls like <see cref="T:CommunityToolkit.WinUI.Controls.GridSplitter" /> and <see cref="T:CommunityToolkit.WinUI.Controls.ContentSizer" />. Acts similar to an enlarged <see cref="T:Microsoft.UI.Xaml.Controls.Primitives.Thumb" /> type control, but with keyboard support. Subclasses should override the various abstract methods here to implement their behavior.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SizerBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.SizerBase" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cursor">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Input.InputSystemCursorShape Cursor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.UI.Input.InputSystemCursorShape Cursor" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SizerBase.Cursor" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cursor As InputSystemCursorShape" />
+      <MemberSignature Language="F#" Value="member this.Cursor : Microsoft.UI.Input.InputSystemCursorShape with get, set" Usage="CommunityToolkit.WinUI.Controls.SizerBase.Cursor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Input.InputSystemCursorShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the cursor to use when hovering over the gripper bar. If left as <c>null</c>, the control will manage the cursor automatically based on the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.Orientation" /> property value (default).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CursorProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty CursorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty CursorProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SizerBase.CursorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CursorProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CursorProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SizerBase.CursorProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.Cursor" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragIncrement">
+      <MemberSignature Language="C#" Value="public double DragIncrement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DragIncrement" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SizerBase.DragIncrement" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragIncrement As Double" />
+      <MemberSignature Language="F#" Value="member this.DragIncrement : double with get, set" Usage="CommunityToolkit.WinUI.Controls.SizerBase.DragIncrement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the incremental amount of change for dragging with the mouse or touch of a sizer control. Effectively a snapping increment for changes. The default is 1.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This value is independent of the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrement" /> property. If you need to provide consistent snapping when moving regardless of input device, set these properties to the same value.
+            </remarks>
+        <example>
+            For instance, if the DragIncrement is set to 16. Then when a component is resized with the sizer, it will only increase or decrease in size in that increment. I.e. -16, 0, 16, 32, 48, etc...
+            </example>
+      </Docs>
+    </Member>
+    <Member MemberName="DragIncrementProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty DragIncrementProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty DragIncrementProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SizerBase.DragIncrementProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DragIncrementProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DragIncrementProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SizerBase.DragIncrementProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.DragIncrement" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsThumbVisible">
+      <MemberSignature Language="C#" Value="public bool IsThumbVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsThumbVisible" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SizerBase.IsThumbVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsThumbVisible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsThumbVisible : bool with get, set" Usage="CommunityToolkit.WinUI.Controls.SizerBase.IsThumbVisible" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets if the Thumb is visible. If not visible, only the background and cursor will be shown on MouseOver or Pressed states.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsThumbVisibleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IsThumbVisibleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IsThumbVisibleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SizerBase.IsThumbVisibleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsThumbVisibleProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsThumbVisibleProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SizerBase.IsThumbVisibleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.IsThumbVisible" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValidHeight">
+      <MemberSignature Language="C#" Value="protected static bool IsValidHeight (Microsoft.UI.Xaml.FrameworkElement target, double newHeight, double parentActualHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig bool IsValidHeight(class Microsoft.UI.Xaml.FrameworkElement target, float64 newHeight, float64 parentActualHeight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.IsValidHeight(Microsoft.UI.Xaml.FrameworkElement,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function IsValidHeight (target As FrameworkElement, newHeight As Double, parentActualHeight As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsValidHeight : Microsoft.UI.Xaml.FrameworkElement * double * double -&gt; bool" Usage="CommunityToolkit.WinUI.Controls.SizerBase.IsValidHeight (target, newHeight, parentActualHeight)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="Microsoft.UI.Xaml.FrameworkElement" />
+        <Parameter Name="newHeight" Type="System.Double" />
+        <Parameter Name="parentActualHeight" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="target">Target control being resized</param>
+        <param name="newHeight">The requested new height</param>
+        <param name="parentActualHeight">The parent control's ActualHeight</param>
+        <summary>
+            Check for new requested vertical size is valid or not
+            </summary>
+        <returns>Bool result if requested vertical change is valid or not</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValidWidth">
+      <MemberSignature Language="C#" Value="protected static bool IsValidWidth (Microsoft.UI.Xaml.FrameworkElement target, double newWidth, double parentActualWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig bool IsValidWidth(class Microsoft.UI.Xaml.FrameworkElement target, float64 newWidth, float64 parentActualWidth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.IsValidWidth(Microsoft.UI.Xaml.FrameworkElement,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function IsValidWidth (target As FrameworkElement, newWidth As Double, parentActualWidth As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsValidWidth : Microsoft.UI.Xaml.FrameworkElement * double * double -&gt; bool" Usage="CommunityToolkit.WinUI.Controls.SizerBase.IsValidWidth (target, newWidth, parentActualWidth)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="Microsoft.UI.Xaml.FrameworkElement" />
+        <Parameter Name="newWidth" Type="System.Double" />
+        <Parameter Name="parentActualWidth" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="target">Target control being resized</param>
+        <param name="newWidth">The requested new width</param>
+        <param name="parentActualWidth">The parent control's ActualWidth</param>
+        <summary>
+            Check for new requested horizontal size is valid or not
+            </summary>
+        <returns>Bool result if requested horizontal change is valid or not</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyboardIncrement">
+      <MemberSignature Language="C#" Value="public double KeyboardIncrement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 KeyboardIncrement" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrement" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyboardIncrement As Double" />
+      <MemberSignature Language="F#" Value="member this.KeyboardIncrement : double with get, set" Usage="CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the distance each press of an arrow key moves a sizer control. The default is 8.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This value is independent of the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.DragIncrement" /> setting when using mouse/touch. If you want a consistent behavior regardless of input device, set them to the same value if snapping is required.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyboardIncrementProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty KeyboardIncrementProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty KeyboardIncrementProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrementProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly KeyboardIncrementProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable KeyboardIncrementProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrementProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrement" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="protected override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="sizerBase.OnApplyTemplate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; Microsoft.UI.Xaml.Automation.Peers.AutomationPeer" Usage="sizerBase.OnCreateAutomationPeer " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates AutomationPeer (<see cref="M:Microsoft.UI.Xaml.UIElement.OnCreateAutomationPeer" />)
+            </summary>
+        <returns>An automation peer for this <see cref="T:CommunityToolkit.WinUI.Controls.SizerBase" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragHorizontal">
+      <MemberSignature Language="C#" Value="protected abstract bool OnDragHorizontal (double horizontalChange);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool OnDragHorizontal(float64 horizontalChange) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragHorizontal(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnDragHorizontal (horizontalChange As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member OnDragHorizontal : double -&gt; bool" Usage="sizerBase.OnDragHorizontal horizontalChange" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="horizontalChange" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="horizontalChange">The <see cref="P:Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Cumulative" /> horizontal change amount from the start in device-independent pixels DIP.</param>
+        <summary>
+            Method to process the requested horizontal resize.
+            </summary>
+        <returns>
+          <see cref="T:System.Boolean" /> indicates if a change was made</returns>
+        <remarks>
+            The value provided here is the cumulative change from the beginning of the
+            manipulation. This method will be used regardless of input device. It will already
+            be adjusted for RightToLeft <see cref="T:Microsoft.UI.Xaml.FlowDirection" /> of the containing
+            layout/settings. It will also already account for any settings such as
+            <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.DragIncrement" /> or <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrement" />. The implementer
+            just needs to use the provided value to manipulate their baseline stored
+            in <see cref="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragStarting" /> to provide the desired change.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragStarting">
+      <MemberSignature Language="C#" Value="protected abstract void OnDragStarting ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDragStarting() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragStarting" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub OnDragStarting ()" />
+      <MemberSignature Language="F#" Value="override this.OnDragStarting : unit -&gt; unit" Usage="sizerBase.OnDragStarting " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Called when the <see cref="T:CommunityToolkit.WinUI.Controls.SizerBase" /> control starts to be dragged by the user.
+            Implementer should record current state of manipulated target at this point in time.
+            They will receive the cumulative change in <see cref="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragHorizontal(System.Double)" /> or
+            <see cref="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragVertical(System.Double)" /> based on the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.Orientation" /> property.
+            </summary>
+        <remarks>
+            This method is also called at the start of a keyboard interaction. Keyboard strokes use the same pattern to emulate a mouse movement for a single change. The appropriate
+            <see cref="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragHorizontal(System.Double)" /> or <see cref="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragVertical(System.Double)" />
+            method will also be called after when the keyboard is used.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDragVertical">
+      <MemberSignature Language="C#" Value="protected abstract bool OnDragVertical (double verticalChange);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool OnDragVertical(float64 verticalChange) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragVertical(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnDragVertical (verticalChange As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member OnDragVertical : double -&gt; bool" Usage="sizerBase.OnDragVertical verticalChange" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verticalChange" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="verticalChange">The <see cref="P:Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Cumulative" /> vertical change amount from the start in device-independent pixels DIP.</param>
+        <summary>
+            Method to process the requested vertical resize.
+            </summary>
+        <returns>
+          <see cref="T:System.Boolean" /> indicates if a change was made</returns>
+        <remarks>
+            The value provided here is the cumulative change from the beginning of the
+            manipulation. This method will be used regardless of input device. It will also
+            already account for any settings such as <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.DragIncrement" /> or
+            <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.KeyboardIncrement" />. The implementer just needs
+            to use the provided value to manipulate their baseline stored
+            in <see cref="M:CommunityToolkit.WinUI.Controls.SizerBase.OnDragStarting" /> to provide the desired change.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnKeyDown">
+      <MemberSignature Language="C#" Value="protected override void OnKeyDown (Microsoft.UI.Xaml.Input.KeyRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnKeyDown(class Microsoft.UI.Xaml.Input.KeyRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnKeyDown(Microsoft.UI.Xaml.Input.KeyRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnKeyDown : Microsoft.UI.Xaml.Input.KeyRoutedEventArgs -&gt; unit" Usage="sizerBase.OnKeyDown e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.KeyRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnLoaded">
+      <MemberSignature Language="C#" Value="protected virtual void OnLoaded (Microsoft.UI.Xaml.RoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnLoaded(class Microsoft.UI.Xaml.RoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnLoaded(Microsoft.UI.Xaml.RoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnLoaded (e As RoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnLoaded : Microsoft.UI.Xaml.RoutedEventArgs -&gt; unit" Usage="sizerBase.OnLoaded e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.RoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">Loaded event args.</param>
+        <summary>
+            Called when the control has been initialized.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnManipulationDelta">
+      <MemberSignature Language="C#" Value="protected override void OnManipulationDelta (Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnManipulationDelta(class Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnManipulationDelta(Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnManipulationDelta (e As ManipulationDeltaRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnManipulationDelta : Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs -&gt; unit" Usage="sizerBase.OnManipulationDelta e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnManipulationStarting">
+      <MemberSignature Language="C#" Value="protected override void OnManipulationStarting (Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnManipulationStarting(class Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SizerBase.OnManipulationStarting(Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnManipulationStarting (e As ManipulationStartingRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnManipulationStarting : Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs -&gt; unit" Usage="sizerBase.OnManipulationStarting e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Orientation">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.Orientation Orientation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.UI.Xaml.Controls.Orientation Orientation" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SizerBase.Orientation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Orientation As Orientation" />
+      <MemberSignature Language="F#" Value="member this.Orientation : Microsoft.UI.Xaml.Controls.Orientation with get, set" Usage="CommunityToolkit.WinUI.Controls.SizerBase.Orientation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.Orientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the orientation the sizer will be and how it will interact with other elements. Defaults to <see cref="F:Microsoft.UI.Xaml.Controls.Orientation.Vertical" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Note if using <see cref="T:CommunityToolkit.WinUI.Controls.GridSplitter" />, use the <see cref="P:CommunityToolkit.WinUI.Controls.GridSplitter.ResizeDirection" /> property instead.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrientationProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty OrientationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty OrientationProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SizerBase.OrientationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OrientationProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OrientationProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SizerBase.OrientationProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Sizers</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Identifies the <see cref="P:CommunityToolkit.WinUI.Controls.SizerBase.Orientation" /> dependency property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

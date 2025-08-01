@@ -1,0 +1,168 @@
+<Type Name="ImageExtensions" FullName="CommunityToolkit.Maui.Markup.ImageExtensions">
+  <TypeSignature Language="C#" Value="public static class ImageExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.ImageExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ImageExtensions" />
+  <TypeSignature Language="F#" Value="type ImageExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods for IImage
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Aspect&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Aspect&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Aspect aspect) where TBindable : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.IImage;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Aspect&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.IImage) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Aspect aspect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ImageExtensions.Aspect``1(``0,Microsoft.Maui.Aspect)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Aspect(Of TBindable As {BindableObject, IImage}) (bindable As TBindable, aspect As Aspect) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Aspect : 'Bindable * Microsoft.Maui.Aspect -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Bindable :&gt; Microsoft.Maui.IImage)" Usage="CommunityToolkit.Maui.Markup.ImageExtensions.Aspect (bindable, aspect)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.IImage</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="aspect" Type="Microsoft.Maui.Aspect" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">
+          <see cref="T:Microsoft.Maui.Controls.BindableObject" /> : <see cref="T:Microsoft.Maui.IImage" /></typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> on which to set the <see cref="P:Microsoft.Maui.IImage.Aspect" /> Property</param>
+        <param name="aspect">The <see cref="T:Microsoft.Maui.Aspect" /> vaue</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.IImage.Aspect" /> Property/&gt;
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOpaque&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable IsOpaque&lt;TBindable&gt; (this TBindable bindable, bool isOpaque) where TBindable : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.IImage;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable IsOpaque&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.IImage) TBindable&gt;(!!TBindable bindable, bool isOpaque) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ImageExtensions.IsOpaque``1(``0,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsOpaque(Of TBindable As {BindableObject, IImage}) (bindable As TBindable, isOpaque As Boolean) As TBindable" />
+      <MemberSignature Language="F#" Value="static member IsOpaque : 'Bindable * bool -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Bindable :&gt; Microsoft.Maui.IImage)" Usage="CommunityToolkit.Maui.Markup.ImageExtensions.IsOpaque (bindable, isOpaque)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.IImage</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="isOpaque" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">
+          <see cref="T:Microsoft.Maui.Controls.BindableObject" /> : <see cref="T:Microsoft.Maui.IImage" /></typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> on which to set the <see cref="P:Microsoft.Maui.IImage.IsOpaque" /> Property</param>
+        <param name="isOpaque">The <see cref="T:System.Boolean" /> vaue</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.IImage.IsOpaque" /> Property/&gt;
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Source&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Controls.ImageSource? imageSource) where TBindable : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.IImageSourcePart;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Source&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.IImageSourcePart) TBindable&gt;(!!TBindable bindable, class Microsoft.Maui.Controls.ImageSource imageSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ImageExtensions.Source``1(``0,Microsoft.Maui.Controls.ImageSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Source(Of TBindable As {BindableObject, IImageSourcePart}) (bindable As TBindable, imageSource As ImageSource) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Source : 'Bindable * Microsoft.Maui.Controls.ImageSource -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject and 'Bindable :&gt; Microsoft.Maui.IImageSourcePart)" Usage="CommunityToolkit.Maui.Markup.ImageExtensions.Source (bindable, imageSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.IImageSourcePart</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="imageSource" Type="Microsoft.Maui.Controls.ImageSource">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">
+          <see cref="T:Microsoft.Maui.Controls.BindableObject" /> : <see cref="T:Microsoft.Maui.IImageSourcePart" /></typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> on which to set the <see cref="P:Microsoft.Maui.IImageSourcePart.Source" /> Property</param>
+        <param name="imageSource">The <see cref="T:Microsoft.Maui.Controls.ImageSource" /> value</param>
+        <summary>
+            Sets the <see cref="P:Microsoft.Maui.IImageSourcePart.Source" /> Property/&gt;
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

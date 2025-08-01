@@ -1,0 +1,429 @@
+<Type Name="FolderPickerResult" FullName="CommunityToolkit.Maui.Storage.FolderPickerResult">
+  <TypeSignature Language="C#" Value="public class FolderPickerResult : IEquatable&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FolderPickerResult extends System.Object implements class System.IEquatable`1&lt;class CommunityToolkit.Maui.Storage.FolderPickerResult&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Storage.FolderPickerResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderPickerResult&#xA;Implements IEquatable(Of FolderPickerResult)" />
+  <TypeSignature Language="F#" Value="type FolderPickerResult = class&#xA;    interface IEquatable&lt;FolderPickerResult&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;CommunityToolkit.Maui.Storage.FolderPickerResult&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="Folder">
+      <see cref="P:CommunityToolkit.Maui.Storage.FolderPickerResult.Folder" />
+    </param>
+    <param name="Exception">Exception if operation failed</param>
+    <summary>
+            Result of the <see cref="T:CommunityToolkit.Maui.Storage.IFolderPicker" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected FolderPickerResult (CommunityToolkit.Maui.Storage.FolderPickerResult original);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.Storage.FolderPickerResult original) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.#ctor(CommunityToolkit.Maui.Storage.FolderPickerResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (original As FolderPickerResult)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="original" Type="CommunityToolkit.Maui.Storage.FolderPickerResult">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="original">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPickerResult (CommunityToolkit.Maui.Core.Primitives.Folder? Folder, Exception? Exception);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class CommunityToolkit.Maui.Core.Primitives.Folder Folder, class System.Exception Exception) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.#ctor(CommunityToolkit.Maui.Core.Primitives.Folder,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Folder As Folder, Exception As Exception)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Storage.FolderPickerResult : CommunityToolkit.Maui.Core.Primitives.Folder * Exception -&gt; CommunityToolkit.Maui.Storage.FolderPickerResult" Usage="new CommunityToolkit.Maui.Storage.FolderPickerResult (Folder, Exception)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="Folder" Type="CommunityToolkit.Maui.Core.Primitives.Folder" />
+        <Parameter Name="Exception" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">
+          <see cref="P:CommunityToolkit.Maui.Storage.FolderPickerResult.Folder" />
+        </param>
+        <param name="Exception">Exception if operation failed</param>
+        <summary>
+            Result of the <see cref="T:CommunityToolkit.Maui.Storage.IFolderPicker" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="&lt;Clone&gt;$">
+      <MemberSignature Language="C#" Value="public virtual CommunityToolkit.Maui.Storage.FolderPickerResult &lt;Clone&gt;$ ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class CommunityToolkit.Maui.Storage.FolderPickerResult &lt;Clone&gt;$() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.&lt;Clone&gt;$" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function &lt;Clone&gt;$ () As FolderPickerResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Storage.FolderPickerResult</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deconstruct">
+      <MemberSignature Language="C#" Value="public void Deconstruct (out CommunityToolkit.Maui.Core.Primitives.Folder? Folder, out Exception? Exception);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] class CommunityToolkit.Maui.Core.Primitives.Folder&amp; Folder, [out] class System.Exception&amp; Exception) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.Deconstruct(CommunityToolkit.Maui.Core.Primitives.Folder@,System.Exception@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef Folder As Folder, ByRef Exception As Exception)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="CommunityToolkit.Maui.Core.Primitives.Folder" RefType="out" />
+        <Parameter Name="Exception" Type="System.Exception" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <param name="Exception">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnsureSuccess">
+      <MemberSignature Language="C#" Value="public void EnsureSuccess ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnsureSuccess() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.EnsureSuccess" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnsureSuccess ()" />
+      <MemberSignature Language="F#" Value="member this.EnsureSuccess : unit -&gt; unit" Usage="folderPickerResult.EnsureSuccess " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNull("Folder")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNull("Folder")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Check if operation was successful.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EqualityContract">
+      <MemberSignature Language="C#" Value="protected virtual Type EqualityContract { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FolderPickerResult.EqualityContract" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
+      <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="CommunityToolkit.Maui.Storage.FolderPickerResult.EqualityContract" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public virtual bool Equals (CommunityToolkit.Maui.Storage.FolderPickerResult? other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class CommunityToolkit.Maui.Storage.FolderPickerResult other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.Equals(CommunityToolkit.Maui.Storage.FolderPickerResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Equals (other As FolderPickerResult) As Boolean" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="CommunityToolkit.Maui.Storage.FolderPickerResult" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="public Exception? Exception { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Exception Exception" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FolderPickerResult.Exception" />
+      <MemberSignature Language="VB.NET" Value="Public Property Exception As Exception" />
+      <MemberSignature Language="F#" Value="member this.Exception : Exception with get, set" Usage="CommunityToolkit.Maui.Storage.FolderPickerResult.Exception" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exception if operation failed</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Folder">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Core.Primitives.Folder? Folder { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class CommunityToolkit.Maui.Core.Primitives.Folder Folder" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FolderPickerResult.Folder" />
+      <MemberSignature Language="VB.NET" Value="Public Property Folder As Folder" />
+      <MemberSignature Language="F#" Value="member this.Folder : CommunityToolkit.Maui.Core.Primitives.Folder with get, set" Usage="CommunityToolkit.Maui.Storage.FolderPickerResult.Folder" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.Primitives.Folder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:CommunityToolkit.Maui.Storage.FolderPickerResult.Folder" />
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSuccessful">
+      <MemberSignature Language="C#" Value="public bool IsSuccessful { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSuccessful" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Storage.FolderPickerResult.IsSuccessful" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSuccessful As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSuccessful : bool" Usage="CommunityToolkit.Maui.Storage.FolderPickerResult.IsSuccessful" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "Folder")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "Folder")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "Folder")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, "Folder")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Diagnostics.CodeAnalysis.MemberNotNullWhen(false, "Exception")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Check if operation was successful.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (CommunityToolkit.Maui.Storage.FolderPickerResult? left, CommunityToolkit.Maui.Storage.FolderPickerResult? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class CommunityToolkit.Maui.Storage.FolderPickerResult left, class CommunityToolkit.Maui.Storage.FolderPickerResult right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.op_Equality(CommunityToolkit.Maui.Storage.FolderPickerResult,CommunityToolkit.Maui.Storage.FolderPickerResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As FolderPickerResult, right As FolderPickerResult) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="CommunityToolkit.Maui.Storage.FolderPickerResult" />
+        <Parameter Name="right" Type="CommunityToolkit.Maui.Storage.FolderPickerResult" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (CommunityToolkit.Maui.Storage.FolderPickerResult? left, CommunityToolkit.Maui.Storage.FolderPickerResult? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class CommunityToolkit.Maui.Storage.FolderPickerResult left, class CommunityToolkit.Maui.Storage.FolderPickerResult right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.op_Inequality(CommunityToolkit.Maui.Storage.FolderPickerResult,CommunityToolkit.Maui.Storage.FolderPickerResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As FolderPickerResult, right As FolderPickerResult) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="CommunityToolkit.Maui.Storage.FolderPickerResult" />
+        <Parameter Name="right" Type="CommunityToolkit.Maui.Storage.FolderPickerResult" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintMembers">
+      <MemberSignature Language="C#" Value="protected virtual bool PrintMembers (System.Text.StringBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool PrintMembers(class System.Text.StringBuilder builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.PrintMembers(System.Text.StringBuilder)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PrintMembers (builder As StringBuilder) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="builder" Type="System.Text.StringBuilder" />
+      </Parameters>
+      <Docs>
+        <param name="builder">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Storage.FolderPickerResult.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

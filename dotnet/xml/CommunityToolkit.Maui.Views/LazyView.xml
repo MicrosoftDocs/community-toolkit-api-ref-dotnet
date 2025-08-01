@@ -1,0 +1,161 @@
+<Type Name="LazyView" FullName="CommunityToolkit.Maui.Views.LazyView">
+  <TypeSignature Language="C#" Value="public abstract class LazyView : Microsoft.Maui.Controls.ContentView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit LazyView extends Microsoft.Maui.Controls.ContentView" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Views.LazyView" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class LazyView&#xA;Inherits ContentView" />
+  <TypeSignature Language="F#" Value="type LazyView = class&#xA;    inherit ContentView" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Maui.Controls.ContentView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Abstract base class for <see cref="T:CommunityToolkit.Maui.Views.LazyView`1" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected LazyView ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.LazyView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLazyViewLoaded">
+      <MemberSignature Language="C#" Value="public bool HasLazyViewLoaded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasLazyViewLoaded" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Views.LazyView.HasLazyViewLoaded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasLazyViewLoaded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasLazyViewLoaded : bool" Usage="CommunityToolkit.Maui.Views.LazyView.HasLazyViewLoaded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is a read-only property that indicates when the view is loaded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLazyViewLoadedProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty HasLazyViewLoadedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HasLazyViewLoadedProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Views.LazyView.HasLazyViewLoadedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasLazyViewLoadedProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HasLazyViewLoadedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Views.LazyView.HasLazyViewLoadedProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is a read-only <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> that indicates when the view is loaded.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadViewAsync">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.ValueTask LoadViewAsync (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask LoadViewAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.LazyView.LoadViewAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function LoadViewAsync (Optional token As CancellationToken = Nothing) As ValueTask" />
+      <MemberSignature Language="F#" Value="abstract member LoadViewAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="lazyView.LoadViewAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            Use this method to do the initialization of the <see cref="T:Microsoft.Maui.Controls.View" /> and change the status HasViewLoaded value here.
+            </summary>
+        <returns>
+          <see cref="T:System.Threading.Tasks.ValueTask" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnBindingContextChanged">
+      <MemberSignature Language="C#" Value="protected override void OnBindingContextChanged ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.LazyView.OnBindingContextChanged" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="lazyView.OnBindingContextChanged " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="SetHasLazyViewLoaded">
+      <MemberSignature Language="C#" Value="protected void SetHasLazyViewLoaded (bool hasLoaded);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void SetHasLazyViewLoaded(bool hasLoaded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Views.LazyView.SetHasLazyViewLoaded(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub SetHasLazyViewLoaded (hasLoaded As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SetHasLazyViewLoaded : bool -&gt; unit" Usage="lazyView.SetHasLazyViewLoaded hasLoaded" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hasLoaded" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="hasLoaded" />
+        <summary>
+            This method changes the value of the <see cref="P:CommunityToolkit.Maui.Views.LazyView.HasLazyViewLoaded" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

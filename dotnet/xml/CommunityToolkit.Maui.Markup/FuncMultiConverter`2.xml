@@ -1,0 +1,260 @@
+<Type Name="FuncMultiConverter&lt;TDest,TParam&gt;" FullName="CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;TDest,TParam&gt;">
+  <TypeSignature Language="C#" Value="public class FuncMultiConverter&lt;TDest,TParam&gt; : Microsoft.Maui.Controls.IMultiValueConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FuncMultiConverter`2&lt;TDest, TParam&gt; extends System.Object implements class Microsoft.Maui.Controls.IMultiValueConverter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`2" />
+  <TypeSignature Language="VB.NET" Value="Public Class FuncMultiConverter(Of TDest, TParam)&#xA;Implements IMultiValueConverter" />
+  <TypeSignature Language="F#" Value="type FuncMultiConverter&lt;'Dest, 'Param&gt; = class&#xA;    interface IMultiValueConverter" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TDest" />
+    <TypeParameter Name="TParam" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.IMultiValueConverter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TDest">The type of the value going to the target of the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.</typeparam>
+    <typeparam name="TParam">The type of the <c>ConverterParameter</c>.</typeparam>
+    <summary>
+            An <see cref="T:Microsoft.Maui.Controls.IMultiValueConverter" /> implementation that provides the ability to define type safe <c>Func</c> implementations that will be used in the conversion process.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FuncMultiConverter (Func&lt;object?[],TDest&gt;? convert = default, Func&lt;TDest?,object?[]&gt;? convertBack = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;object[], !TDest&gt; convert, class System.Func`2&lt;!TDest, object[]&gt; convertBack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncMultiConverter`2.#ctor(System.Func{System.Object[],`0},System.Func{`0,System.Object[]})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional convert As Func(Of Object(), TDest) = Nothing, Optional convertBack As Func(Of TDest, Object()) = Nothing)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt; : Func&lt;obj[], 'Dest&gt; * Func&lt;'Dest, obj[]&gt; -&gt; CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt;" Usage="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt; (convert, convertBack)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="convert" Type="System.Func&lt;System.Object[],TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;TDest,System.Object[]&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="convert">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <param name="convertBack">
+            The <see cref="T:System.Func`2" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <summary>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`2" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FuncMultiConverter (Func&lt;object[],TParam?,System.Globalization.CultureInfo,TDest&gt;? convertWithParamAndCulture = default, Func&lt;TDest?,TParam?,System.Globalization.CultureInfo,object[]&gt;? convertBackWithParamAndCulture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`4&lt;object[], !TParam, class System.Globalization.CultureInfo, !TDest&gt; convertWithParamAndCulture, class System.Func`4&lt;!TDest, !TParam, class System.Globalization.CultureInfo, object[]&gt; convertBackWithParamAndCulture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncMultiConverter`2.#ctor(System.Func{System.Object[],`1,System.Globalization.CultureInfo,`0},System.Func{`0,`1,System.Globalization.CultureInfo,System.Object[]})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional convertWithParamAndCulture As Func(Of Object(), TParam, CultureInfo, TDest) = Nothing, Optional convertBackWithParamAndCulture As Func(Of TDest, TParam, CultureInfo, Object()) = Nothing)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt; : Func&lt;obj[], 'Param, System.Globalization.CultureInfo, 'Dest&gt; * Func&lt;'Dest, 'Param, System.Globalization.CultureInfo, obj[]&gt; -&gt; CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt;" Usage="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt; (convertWithParamAndCulture, convertBackWithParamAndCulture)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="convertWithParamAndCulture" Type="System.Func&lt;System.Object[],TParam,System.Globalization.CultureInfo,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 2, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 2, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBackWithParamAndCulture" Type="System.Func&lt;TDest,TParam,System.Globalization.CultureInfo,System.Object[]&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1, 1, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1, 1, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="convertWithParamAndCulture">
+            The <see cref="T:System.Func`4" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <param name="convertBackWithParamAndCulture">
+            The <see cref="T:System.Func`4" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <summary>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`2" /> that allows support for accessing the <c>parameter</c> and <see cref="T:System.Globalization.CultureInfo" /> in the conversion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FuncMultiConverter (Func&lt;object[],TParam?,TDest&gt;? convertWithParam = default, Func&lt;TDest?,TParam?,object?[]&gt;? convertBackWithParam = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`3&lt;object[], !TParam, !TDest&gt; convertWithParam, class System.Func`3&lt;!TDest, !TParam, object[]&gt; convertBackWithParam) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncMultiConverter`2.#ctor(System.Func{System.Object[],`1,`0},System.Func{`0,`1,System.Object[]})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional convertWithParam As Func(Of Object(), TParam, TDest) = Nothing, Optional convertBackWithParam As Func(Of TDest, TParam, Object()) = Nothing)" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt; : Func&lt;obj[], 'Param, 'Dest&gt; * Func&lt;'Dest, 'Param, obj[]&gt; -&gt; CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt;" Usage="new CommunityToolkit.Maui.Markup.FuncMultiConverter&lt;'Dest, 'Param&gt; (convertWithParam, convertBackWithParam)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="convertWithParam" Type="System.Func&lt;System.Object[],TParam,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBackWithParam" Type="System.Func&lt;TDest,TParam,System.Object[]&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="convertWithParam">
+            The <see cref="T:System.Func`3" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <param name="convertBackWithParam">
+            The <see cref="T:System.Func`3" /> implementation that will provide the conversion for the underlying <see cref="M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" /> method.
+            </param>
+        <summary>
+            Initializes a new instance of <see cref="T:CommunityToolkit.Maui.Markup.FuncMultiConverter`2" /> that allows support for accessing the <c>parameter</c> in the conversion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Convert">
+      <MemberSignature Language="C#" Value="public object? Convert (object[] values, Type targetType, object? parameter, System.Globalization.CultureInfo culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Convert(object[] values, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncMultiConverter`2.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Convert (values As Object(), targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="funcMultiConverter.Convert (values, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Object[]" />
+        <Parameter Name="targetType" Type="System.Type" />
+        <Parameter Name="parameter" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="values">To be added.</param>
+        <param name="targetType">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBack">
+      <MemberSignature Language="C#" Value="public object?[]? ConvertBack (object? value, Type[] targetTypes, object? parameter, System.Globalization.CultureInfo culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object[] ConvertBack(object value, class System.Type[] targetTypes, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.FuncMultiConverter`2.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetTypes As Type(), parameter As Object, culture As CultureInfo) As Object()" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]&#xA;override this.ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]" Usage="funcMultiConverter.ConvertBack (value, targetTypes, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Maui.Controls.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetTypes" Type="System.Type[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="targetTypes">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

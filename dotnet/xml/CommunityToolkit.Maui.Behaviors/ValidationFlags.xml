@@ -1,0 +1,140 @@
+<Type Name="ValidationFlags" FullName="CommunityToolkit.Maui.Behaviors.ValidationFlags">
+  <TypeSignature Language="C#" Value="public enum ValidationFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ValidationFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.ValidationFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ValidationFlags" />
+  <TypeSignature Language="F#" Value="type ValidationFlags = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Validation flags</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ForceMakeValidWhenFocused">
+      <MemberSignature Language="C#" Value="ForceMakeValidWhenFocused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags ForceMakeValidWhenFocused = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.ForceMakeValidWhenFocused" />
+      <MemberSignature Language="VB.NET" Value="ForceMakeValidWhenFocused" />
+      <MemberSignature Language="F#" Value="ForceMakeValidWhenFocused = 16" Usage="CommunityToolkit.Maui.Behaviors.ValidationFlags.ForceMakeValidWhenFocused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Force make valid when focused</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.Maui.Behaviors.ValidationFlags.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> No validation</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateOnAttaching">
+      <MemberSignature Language="C#" Value="ValidateOnAttaching" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags ValidateOnAttaching = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnAttaching" />
+      <MemberSignature Language="VB.NET" Value="ValidateOnAttaching" />
+      <MemberSignature Language="F#" Value="ValidateOnAttaching = 1" Usage="CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnAttaching" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Validate on attaching</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateOnFocused">
+      <MemberSignature Language="C#" Value="ValidateOnFocused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags ValidateOnFocused = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnFocused" />
+      <MemberSignature Language="VB.NET" Value="ValidateOnFocused" />
+      <MemberSignature Language="F#" Value="ValidateOnFocused = 2" Usage="CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnFocused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary> Validate on focusing</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateOnUnfocused">
+      <MemberSignature Language="C#" Value="ValidateOnUnfocused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags ValidateOnUnfocused = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnUnfocused" />
+      <MemberSignature Language="VB.NET" Value="ValidateOnUnfocused" />
+      <MemberSignature Language="F#" Value="ValidateOnUnfocused = 4" Usage="CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnUnfocused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Validate on unfocus</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateOnValueChanged">
+      <MemberSignature Language="C#" Value="ValidateOnValueChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags ValidateOnValueChanged = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnValueChanged" />
+      <MemberSignature Language="VB.NET" Value="ValidateOnValueChanged" />
+      <MemberSignature Language="F#" Value="ValidateOnValueChanged = 8" Usage="CommunityToolkit.Maui.Behaviors.ValidationFlags.ValidateOnValueChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Validate upon value changed</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

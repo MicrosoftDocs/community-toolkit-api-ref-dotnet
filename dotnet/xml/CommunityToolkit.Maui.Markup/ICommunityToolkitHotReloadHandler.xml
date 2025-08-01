@@ -1,0 +1,45 @@
+<Type Name="ICommunityToolkitHotReloadHandler" FullName="CommunityToolkit.Maui.Markup.ICommunityToolkitHotReloadHandler">
+  <TypeSignature Language="C#" Value="public interface ICommunityToolkitHotReloadHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ICommunityToolkitHotReloadHandler" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.ICommunityToolkitHotReloadHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommunityToolkitHotReloadHandler" />
+  <TypeSignature Language="F#" Value="type ICommunityToolkitHotReloadHandler = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Interface for handling C# Hot Reload requests
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnHotReload">
+      <MemberSignature Language="C#" Value="public void OnHotReload (System.Collections.Generic.IReadOnlyList&lt;Type&gt; types);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnHotReload(class System.Collections.Generic.IReadOnlyList`1&lt;class System.Type&gt; types) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ICommunityToolkitHotReloadHandler.OnHotReload(System.Collections.Generic.IReadOnlyList{System.Type})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnHotReload (types As IReadOnlyList(Of Type))" />
+      <MemberSignature Language="F#" Value="abstract member OnHotReload : System.Collections.Generic.IReadOnlyList&lt;Type&gt; -&gt; unit" Usage="iCommunityToolkitHotReloadHandler.OnHotReload types" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="types" Type="System.Collections.Generic.IReadOnlyList&lt;System.Type&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="types">A <see cref="T:System.Collections.Generic.IReadOnlyList`1" /> contianing the types that have been changed in code.</param>
+        <summary>
+            Executes when C# Hot Reload is invoked
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

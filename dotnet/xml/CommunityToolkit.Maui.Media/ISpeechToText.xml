@@ -1,0 +1,195 @@
+<Type Name="ISpeechToText" FullName="CommunityToolkit.Maui.Media.ISpeechToText">
+  <TypeSignature Language="C#" Value="public interface ISpeechToText : IAsyncDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ISpeechToText implements class System.IAsyncDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Media.ISpeechToText" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISpeechToText&#xA;Implements IAsyncDisposable" />
+  <TypeSignature Language="F#" Value="type ISpeechToText = interface&#xA;    interface IAsyncDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IAsyncDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Allows the user to convert speech to text in real time.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CurrentState">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Media.SpeechToTextState CurrentState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Media.SpeechToTextState CurrentState" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Media.ISpeechToText.CurrentState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentState As SpeechToTextState" />
+      <MemberSignature Language="F#" Value="member this.CurrentState : CommunityToolkit.Maui.Media.SpeechToTextState" Usage="CommunityToolkit.Maui.Media.ISpeechToText.CurrentState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Media.SpeechToTextState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Current listening state
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognitionResultCompleted">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs&gt; RecognitionResultCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs&gt; RecognitionResultCompleted" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Media.ISpeechToText.RecognitionResultCompleted" />
+      <MemberSignature Language="VB.NET" Value="Event RecognitionResultCompleted As EventHandler(Of SpeechToTextRecognitionResultCompletedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.RecognitionResultCompleted : EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs&gt; " Usage="member this.RecognitionResultCompleted : System.EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultCompletedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Triggers when SpeechToText has completed
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognitionResultUpdated">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultUpdatedEventArgs&gt; RecognitionResultUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultUpdatedEventArgs&gt; RecognitionResultUpdated" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Media.ISpeechToText.RecognitionResultUpdated" />
+      <MemberSignature Language="VB.NET" Value="Event RecognitionResultUpdated As EventHandler(Of SpeechToTextRecognitionResultUpdatedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.RecognitionResultUpdated : EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultUpdatedEventArgs&gt; " Usage="member this.RecognitionResultUpdated : System.EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultUpdatedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextRecognitionResultUpdatedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Triggers when SpeechToText has real time updates
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestPermissions">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; RequestPermissions (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; RequestPermissions(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.ISpeechToText.RequestPermissions(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RequestPermissions (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RequestPermissions : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iSpeechToText.RequestPermissions cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Request permissions for speech to text.
+            </summary>
+        <returns>True if permissions granted</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartListenAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task StartListenAsync (CommunityToolkit.Maui.Media.SpeechToTextOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task StartListenAsync(class CommunityToolkit.Maui.Media.SpeechToTextOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.ISpeechToText.StartListenAsync(CommunityToolkit.Maui.Media.SpeechToTextOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartListenAsync (options As SpeechToTextOptions, Optional cancellationToken As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member StartListenAsync : CommunityToolkit.Maui.Media.SpeechToTextOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iSpeechToText.StartListenAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="CommunityToolkit.Maui.Media.SpeechToTextOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The <see cref="T:CommunityToolkit.Maui.Media.SpeechToTextOptions" /> used to customize how the speech will be detected and converted to text.</param>
+        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> that provides the ability to cancel the starting process. Note that listening has started then you can only stop listening by calling <see cref="M:CommunityToolkit.Maui.Media.ISpeechToText.StopListenAsync(System.Threading.CancellationToken)" />.</param>
+        <summary>
+            Starts the SpeechToText service
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Real time speech recognition results will be surfaced via <see cref="E:CommunityToolkit.Maui.Media.ISpeechToText.RecognitionResultUpdated" /> and <see cref="E:CommunityToolkit.Maui.Media.ISpeechToText.RecognitionResultCompleted" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanged">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class CommunityToolkit.Maui.Media.SpeechToTextStateChangedEventArgs&gt; StateChanged" />
+      <MemberSignature Language="DocId" Value="E:CommunityToolkit.Maui.Media.ISpeechToText.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Event StateChanged As EventHandler(Of SpeechToTextStateChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextStateChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;CommunityToolkit.Maui.Media.SpeechToTextStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Triggers when <see cref="P:CommunityToolkit.Maui.Media.ISpeechToText.CurrentState" /> has changed
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopListenAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task StopListenAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task StopListenAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.ISpeechToText.StopListenAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StopListenAsync (Optional cancellationToken As CancellationToken = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member StopListenAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iSpeechToText.StopListenAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">
+          <see cref="T:System.Threading.CancellationToken" />
+        </param>
+        <summary>
+            Stops the SpeechToText service
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Speech recognition results will be surfaced via <see cref="E:CommunityToolkit.Maui.Media.ISpeechToText.RecognitionResultCompleted" /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
