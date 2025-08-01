@@ -1,0 +1,790 @@
+<Type Name="BindableObjectExtensions" FullName="CommunityToolkit.Maui.Markup.BindableObjectExtensions">
+  <TypeSignature Language="C#" Value="public static class BindableObjectExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BindableObjectExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.BindableObjectExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module BindableObjectExtensions" />
+  <TypeSignature Language="F#" Value="type BindableObjectExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension Methods for Bindable Objects
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppThemeBinding&lt;TBindable,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable AppThemeBinding&lt;TBindable,TValue&gt; (this TBindable bindable, Microsoft.Maui.Controls.BindableProperty bindableProperty, TValue light, TValue dark) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable AppThemeBinding&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, TValue&gt;(!!TBindable bindable, class Microsoft.Maui.Controls.BindableProperty bindableProperty, !!TValue light, !!TValue dark) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.AppThemeBinding``2(``0,Microsoft.Maui.Controls.BindableProperty,``1,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AppThemeBinding(Of TBindable As BindableObject, TValue As BindableObject) (bindable As TBindable, bindableProperty As BindableProperty, light As TValue, dark As TValue) As TBindable" />
+      <MemberSignature Language="F#" Value="static member AppThemeBinding : 'Bindable * Microsoft.Maui.Controls.BindableProperty * 'Value * 'Value -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.AppThemeBinding (bindable, bindableProperty, light, dark)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TValue">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="bindableProperty" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="light" Type="TValue" />
+        <Parameter Name="dark" Type="TValue" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of the <paramref name="bindable" /> object.</typeparam>
+        <typeparam name="TValue">The value type to be set for <paramref name="light" /> and <paramref name="dark" /> theme.</typeparam>
+        <param name="bindable">The bindable object to <c>SetAppTheme</c> on.</param>
+        <param name="bindableProperty">The property to apply to the <paramref name="light" /> and <paramref name="dark" /> values to.</param>
+        <param name="light">The value to use when the device is configured to use a light theme.</param>
+        <param name="dark">The value to use when the device is configured to use a dark theme.</param>
+        <summary>
+            Sets the property values for <paramref name="light" /> and <paramref name="dark" /> themes respectively.
+            </summary>
+        <returns>The <paramref name="bindable" /> instance to allow for fluently building the user interface.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppThemeColorBinding&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable AppThemeColorBinding&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Controls.BindableProperty bindableProperty, Microsoft.Maui.Graphics.Color light, Microsoft.Maui.Graphics.Color dark) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable AppThemeColorBinding&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, class Microsoft.Maui.Controls.BindableProperty bindableProperty, class Microsoft.Maui.Graphics.Color light, class Microsoft.Maui.Graphics.Color dark) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.AppThemeColorBinding``1(``0,Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AppThemeColorBinding(Of TBindable As BindableObject) (bindable As TBindable, bindableProperty As BindableProperty, light As Color, dark As Color) As TBindable" />
+      <MemberSignature Language="F#" Value="static member AppThemeColorBinding : 'Bindable * Microsoft.Maui.Controls.BindableProperty * Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.AppThemeColorBinding (bindable, bindableProperty, light, dark)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="bindableProperty" Type="Microsoft.Maui.Controls.BindableProperty" />
+        <Parameter Name="light" Type="Microsoft.Maui.Graphics.Color" />
+        <Parameter Name="dark" Type="Microsoft.Maui.Graphics.Color" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of the <paramref name="bindable" /> object.</typeparam>
+        <param name="bindable">The bindable object to <c>SetAppThemeColor</c> on.</param>
+        <param name="bindableProperty">The property to apply to the <paramref name="light" /> and <paramref name="dark" /> values to.</param>
+        <param name="light">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to use when the device is configured to use a light theme.</param>
+        <param name="dark">The <see cref="T:Microsoft.Maui.Graphics.Color" /> to use when the device is configured to use a dark theme.</param>
+        <summary>
+            Set the app theme color for <paramref name="light" /> and <paramref name="dark" /> themes respectively.
+            </summary>
+        <returns>The <paramref name="bindable" /> instance to allow for fluently building the user interface.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Bind&lt;TBindable&gt; (this TBindable bindable, string path = &quot;.&quot;, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Microsoft.Maui.Controls.IValueConverter? converter = default, object? converterParameter = default, string? stringFormat = default, object? source = default, object? targetNullValue = default, object? fallbackValue = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Bind&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, string path, valuetype Microsoft.Maui.Controls.BindingMode mode, class Microsoft.Maui.Controls.IValueConverter converter, object converterParameter, string stringFormat, object source, object targetNullValue, object fallbackValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind``1(``0,System.String,Microsoft.Maui.Controls.BindingMode,Microsoft.Maui.Controls.IValueConverter,System.Object,System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bind(Of TBindable As BindableObject) (bindable As TBindable, Optional path As String = &quot;.&quot;, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional converter As IValueConverter = Nothing, Optional converterParameter As Object = Nothing, Optional stringFormat As String = Nothing, Optional source As Object = Nothing, Optional targetNullValue As Object = Nothing, Optional fallbackValue As Object = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Bind : 'Bindable * string * Microsoft.Maui.Controls.BindingMode * Microsoft.Maui.Controls.IValueConverter * obj * string * obj * obj * obj -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind (bindable, path, mode, converter, converterParameter, stringFormat, source, targetNullValue, fallbackValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="path" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="converter" Type="Microsoft.Maui.Controls.IValueConverter" />
+        <Parameter Name="converterParameter" Type="System.Object" />
+        <Parameter Name="stringFormat" Type="System.String" />
+        <Parameter Name="source" Type="System.Object" />
+        <Parameter Name="targetNullValue" Type="System.Object" />
+        <Parameter Name="fallbackValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <param name="bindable">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="converter">To be added.</param>
+        <param name="converterParameter">To be added.</param>
+        <param name="stringFormat">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="targetNullValue">To be added.</param>
+        <param name="fallbackValue">To be added.</param>
+        <summary>Bind to the default property</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Bind&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Controls.BindableProperty targetProperty, string path = &quot;.&quot;, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Microsoft.Maui.Controls.IValueConverter? converter = default, object? converterParameter = default, string? stringFormat = default, object? source = default, object? targetNullValue = default, object? fallbackValue = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Bind&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, class Microsoft.Maui.Controls.BindableProperty targetProperty, string path, valuetype Microsoft.Maui.Controls.BindingMode mode, class Microsoft.Maui.Controls.IValueConverter converter, object converterParameter, string stringFormat, object source, object targetNullValue, object fallbackValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind``1(``0,Microsoft.Maui.Controls.BindableProperty,System.String,Microsoft.Maui.Controls.BindingMode,Microsoft.Maui.Controls.IValueConverter,System.Object,System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bind(Of TBindable As BindableObject) (bindable As TBindable, targetProperty As BindableProperty, Optional path As String = &quot;.&quot;, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional converter As IValueConverter = Nothing, Optional converterParameter As Object = Nothing, Optional stringFormat As String = Nothing, Optional source As Object = Nothing, Optional targetNullValue As Object = Nothing, Optional fallbackValue As Object = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Bind : 'Bindable * Microsoft.Maui.Controls.BindableProperty * string * Microsoft.Maui.Controls.BindingMode * Microsoft.Maui.Controls.IValueConverter * obj * string * obj * obj * obj -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind (bindable, targetProperty, path, mode, converter, converterParameter, stringFormat, source, targetNullValue, fallbackValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="targetProperty" Type="Microsoft.Maui.Controls.BindableProperty">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="path" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="converter" Type="Microsoft.Maui.Controls.IValueConverter" />
+        <Parameter Name="converterParameter" Type="System.Object" />
+        <Parameter Name="stringFormat" Type="System.String" />
+        <Parameter Name="source" Type="System.Object" />
+        <Parameter Name="targetNullValue" Type="System.Object" />
+        <Parameter Name="fallbackValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <param name="bindable">To be added.</param>
+        <param name="targetProperty">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="converter">To be added.</param>
+        <param name="converterParameter">To be added.</param>
+        <param name="stringFormat">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="targetNullValue">To be added.</param>
+        <param name="fallbackValue">To be added.</param>
+        <summary>Bind to a specified property</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind&lt;TBindable,TSource,TDest&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Bind&lt;TBindable,TSource,TDest&gt; (this TBindable bindable, string path = &quot;.&quot;, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Func&lt;TSource?,TDest&gt;? convert = default, Func&lt;TDest?,TSource&gt;? convertBack = default, string? stringFormat = default, object? source = default, TDest? targetNullValue = default, TDest? fallbackValue = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Bind&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, TSource, TDest&gt;(!!TBindable bindable, string path, valuetype Microsoft.Maui.Controls.BindingMode mode, class System.Func`2&lt;!!TSource, !!TDest&gt; convert, class System.Func`2&lt;!!TDest, !!TSource&gt; convertBack, string stringFormat, object source, !!TDest targetNullValue, !!TDest fallbackValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind``3(``0,System.String,Microsoft.Maui.Controls.BindingMode,System.Func{``1,``2},System.Func{``2,``1},System.String,System.Object,``2,``2)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bind(Of TBindable As BindableObject, TSource As BindableObject, TDest As BindableObject) (bindable As TBindable, Optional path As String = &quot;.&quot;, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional convert As Func(Of TSource, TDest) = Nothing, Optional convertBack As Func(Of TDest, TSource) = Nothing, Optional stringFormat As String = Nothing, Optional source As Object = Nothing, Optional targetNullValue As TDest = Nothing, Optional fallbackValue As TDest = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Bind : 'Bindable * string * Microsoft.Maui.Controls.BindingMode * Func&lt;'Source, 'Dest&gt; * Func&lt;'Dest, 'Source&gt; * string * obj * 'Dest * 'Dest -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind (bindable, path, mode, convert, convertBack, stringFormat, source, targetNullValue, fallbackValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TDest" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="path" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="convert" Type="System.Func&lt;TSource,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;TDest,TSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="stringFormat" Type="System.String" />
+        <Parameter Name="source" Type="System.Object" />
+        <Parameter Name="targetNullValue" Type="TDest" />
+        <Parameter Name="fallbackValue" Type="TDest" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <typeparam name="TSource">To be added.</typeparam>
+        <typeparam name="TDest">To be added.</typeparam>
+        <param name="bindable">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="convert">To be added.</param>
+        <param name="convertBack">To be added.</param>
+        <param name="stringFormat">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="targetNullValue">To be added.</param>
+        <param name="fallbackValue">To be added.</param>
+        <summary>Bind to the default property with inline conversion</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind&lt;TBindable,TSource,TDest&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Bind&lt;TBindable,TSource,TDest&gt; (this TBindable bindable, Microsoft.Maui.Controls.BindableProperty targetProperty, string path = &quot;.&quot;, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Func&lt;TSource?,TDest&gt;? convert = default, Func&lt;TDest?,TSource&gt;? convertBack = default, string? stringFormat = default, object? source = default, TDest? targetNullValue = default, TDest? fallbackValue = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Bind&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, TSource, TDest&gt;(!!TBindable bindable, class Microsoft.Maui.Controls.BindableProperty targetProperty, string path, valuetype Microsoft.Maui.Controls.BindingMode mode, class System.Func`2&lt;!!TSource, !!TDest&gt; convert, class System.Func`2&lt;!!TDest, !!TSource&gt; convertBack, string stringFormat, object source, !!TDest targetNullValue, !!TDest fallbackValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind``3(``0,Microsoft.Maui.Controls.BindableProperty,System.String,Microsoft.Maui.Controls.BindingMode,System.Func{``1,``2},System.Func{``2,``1},System.String,System.Object,``2,``2)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bind(Of TBindable As BindableObject, TSource As BindableObject, TDest As BindableObject) (bindable As TBindable, targetProperty As BindableProperty, Optional path As String = &quot;.&quot;, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional convert As Func(Of TSource, TDest) = Nothing, Optional convertBack As Func(Of TDest, TSource) = Nothing, Optional stringFormat As String = Nothing, Optional source As Object = Nothing, Optional targetNullValue As TDest = Nothing, Optional fallbackValue As TDest = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Bind : 'Bindable * Microsoft.Maui.Controls.BindableProperty * string * Microsoft.Maui.Controls.BindingMode * Func&lt;'Source, 'Dest&gt; * Func&lt;'Dest, 'Source&gt; * string * obj * 'Dest * 'Dest -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind (bindable, targetProperty, path, mode, convert, convertBack, stringFormat, source, targetNullValue, fallbackValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TDest" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="targetProperty" Type="Microsoft.Maui.Controls.BindableProperty">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="path" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="convert" Type="System.Func&lt;TSource,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;TDest,TSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="stringFormat" Type="System.String" />
+        <Parameter Name="source" Type="System.Object" />
+        <Parameter Name="targetNullValue" Type="TDest" />
+        <Parameter Name="fallbackValue" Type="TDest" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <typeparam name="TSource">To be added.</typeparam>
+        <typeparam name="TDest">To be added.</typeparam>
+        <param name="bindable">To be added.</param>
+        <param name="targetProperty">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="convert">To be added.</param>
+        <param name="convertBack">To be added.</param>
+        <param name="stringFormat">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="targetNullValue">To be added.</param>
+        <param name="fallbackValue">To be added.</param>
+        <summary>Bind to a specified property with inline conversion</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind&lt;TBindable,TSource,TParam,TDest&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Bind&lt;TBindable,TSource,TParam,TDest&gt; (this TBindable bindable, string path = &quot;.&quot;, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Func&lt;TSource?,TParam?,TDest&gt;? convert = default, Func&lt;TDest?,TParam?,TSource&gt;? convertBack = default, TParam? converterParameter = default, string? stringFormat = default, object? source = default, TDest? targetNullValue = default, TDest? fallbackValue = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Bind&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, TSource, TParam, TDest&gt;(!!TBindable bindable, string path, valuetype Microsoft.Maui.Controls.BindingMode mode, class System.Func`3&lt;!!TSource, !!TParam, !!TDest&gt; convert, class System.Func`3&lt;!!TDest, !!TParam, !!TSource&gt; convertBack, !!TParam converterParameter, string stringFormat, object source, !!TDest targetNullValue, !!TDest fallbackValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind``4(``0,System.String,Microsoft.Maui.Controls.BindingMode,System.Func{``1,``2,``3},System.Func{``3,``2,``1},``2,System.String,System.Object,``3,``3)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bind(Of TBindable As BindableObject, TSource As BindableObject, TParam As BindableObject, TDest As BindableObject) (bindable As TBindable, Optional path As String = &quot;.&quot;, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional convert As Func(Of TSource, TParam, TDest) = Nothing, Optional convertBack As Func(Of TDest, TParam, TSource) = Nothing, Optional converterParameter As TParam = Nothing, Optional stringFormat As String = Nothing, Optional source As Object = Nothing, Optional targetNullValue As TDest = Nothing, Optional fallbackValue As TDest = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Bind : 'Bindable * string * Microsoft.Maui.Controls.BindingMode * Func&lt;'Source, 'Param, 'Dest&gt; * Func&lt;'Dest, 'Param, 'Source&gt; * 'Param * string * obj * 'Dest * 'Dest -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind (bindable, path, mode, convert, convertBack, converterParameter, stringFormat, source, targetNullValue, fallbackValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TParam" />
+        <TypeParameter Name="TDest" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="path" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="convert" Type="System.Func&lt;TSource,TParam,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;TDest,TParam,TSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="converterParameter" Type="TParam" />
+        <Parameter Name="stringFormat" Type="System.String" />
+        <Parameter Name="source" Type="System.Object" />
+        <Parameter Name="targetNullValue" Type="TDest" />
+        <Parameter Name="fallbackValue" Type="TDest" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <typeparam name="TSource">To be added.</typeparam>
+        <typeparam name="TParam">To be added.</typeparam>
+        <typeparam name="TDest">To be added.</typeparam>
+        <param name="bindable">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="convert">To be added.</param>
+        <param name="convertBack">To be added.</param>
+        <param name="converterParameter">To be added.</param>
+        <param name="stringFormat">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="targetNullValue">To be added.</param>
+        <param name="fallbackValue">To be added.</param>
+        <summary>Bind to the default property with inline conversion and conversion parameter</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind&lt;TBindable,TSource,TParam,TDest&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable Bind&lt;TBindable,TSource,TParam,TDest&gt; (this TBindable bindable, Microsoft.Maui.Controls.BindableProperty targetProperty, string path = &quot;.&quot;, Microsoft.Maui.Controls.BindingMode mode = Microsoft.Maui.Controls.BindingMode.Default, Func&lt;TSource?,TParam?,TDest&gt;? convert = default, Func&lt;TDest?,TParam?,TSource&gt;? convertBack = default, TParam? converterParameter = default, string? stringFormat = default, object? source = default, TDest? targetNullValue = default, TDest? fallbackValue = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable Bind&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable, TSource, TParam, TDest&gt;(!!TBindable bindable, class Microsoft.Maui.Controls.BindableProperty targetProperty, string path, valuetype Microsoft.Maui.Controls.BindingMode mode, class System.Func`3&lt;!!TSource, !!TParam, !!TDest&gt; convert, class System.Func`3&lt;!!TDest, !!TParam, !!TSource&gt; convertBack, !!TParam converterParameter, string stringFormat, object source, !!TDest targetNullValue, !!TDest fallbackValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind``4(``0,Microsoft.Maui.Controls.BindableProperty,System.String,Microsoft.Maui.Controls.BindingMode,System.Func{``1,``2,``3},System.Func{``3,``2,``1},``2,System.String,System.Object,``3,``3)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Bind(Of TBindable As BindableObject, TSource As BindableObject, TParam As BindableObject, TDest As BindableObject) (bindable As TBindable, targetProperty As BindableProperty, Optional path As String = &quot;.&quot;, Optional mode As BindingMode = Microsoft.Maui.Controls.BindingMode.Default, Optional convert As Func(Of TSource, TParam, TDest) = Nothing, Optional convertBack As Func(Of TDest, TParam, TSource) = Nothing, Optional converterParameter As TParam = Nothing, Optional stringFormat As String = Nothing, Optional source As Object = Nothing, Optional targetNullValue As TDest = Nothing, Optional fallbackValue As TDest = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member Bind : 'Bindable * Microsoft.Maui.Controls.BindableProperty * string * Microsoft.Maui.Controls.BindingMode * Func&lt;'Source, 'Param, 'Dest&gt; * Func&lt;'Dest, 'Param, 'Source&gt; * 'Param * string * obj * 'Dest * 'Dest -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.Bind (bindable, targetProperty, path, mode, convert, convertBack, converterParameter, stringFormat, source, targetNullValue, fallbackValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TParam" />
+        <TypeParameter Name="TDest" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="targetProperty" Type="Microsoft.Maui.Controls.BindableProperty">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="path" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="mode" Type="Microsoft.Maui.Controls.BindingMode" />
+        <Parameter Name="convert" Type="System.Func&lt;TSource,TParam,TDest&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="convertBack" Type="System.Func&lt;TDest,TParam,TSource&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 2, 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="converterParameter" Type="TParam" />
+        <Parameter Name="stringFormat" Type="System.String" />
+        <Parameter Name="source" Type="System.Object" />
+        <Parameter Name="targetNullValue" Type="TDest" />
+        <Parameter Name="fallbackValue" Type="TDest" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <typeparam name="TSource">To be added.</typeparam>
+        <typeparam name="TParam">To be added.</typeparam>
+        <typeparam name="TDest">To be added.</typeparam>
+        <param name="bindable">To be added.</param>
+        <param name="targetProperty">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="convert">To be added.</param>
+        <param name="convertBack">To be added.</param>
+        <param name="converterParameter">To be added.</param>
+        <param name="stringFormat">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="targetNullValue">To be added.</param>
+        <param name="fallbackValue">To be added.</param>
+        <summary>Bind to a specified property with inline conversion and conversion parameter</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindCommand&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable BindCommand&lt;TBindable&gt; (this TBindable bindable, string path = &quot;.&quot;, object? source = default, string? parameterPath = &quot;.&quot;, object? parameterSource = default) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable BindCommand&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, string path, object source, string parameterPath, object parameterSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableObjectExtensions.BindCommand``1(``0,System.String,System.Object,System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BindCommand(Of TBindable As BindableObject) (bindable As TBindable, Optional path As String = &quot;.&quot;, Optional source As Object = Nothing, Optional parameterPath As String = &quot;.&quot;, Optional parameterSource As Object = Nothing) As TBindable" />
+      <MemberSignature Language="F#" Value="static member BindCommand : 'Bindable * string * obj * string * obj -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.BindableObjectExtensions.BindCommand (bindable, path, source, parameterPath, parameterSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Using bindings with string paths is not trim safe. Use expression-based binding instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="source" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterPath" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameterSource" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">To be added.</typeparam>
+        <param name="bindable">The Bindable Object</param>
+        <param name="path">Binding Path</param>
+        <param name="source">Binding Source</param>
+        <param name="parameterPath">If null, no binding is created for the CommandParameter property</param>
+        <param name="parameterSource">Parameter Binding Source</param>
+        <summary>Bind to the <typeparamref name="TBindable" />'s default Command and CommandParameter properties </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

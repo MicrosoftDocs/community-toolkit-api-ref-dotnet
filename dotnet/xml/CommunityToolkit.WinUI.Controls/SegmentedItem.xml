@@ -1,0 +1,169 @@
+<Type Name="SegmentedItem" FullName="CommunityToolkit.WinUI.Controls.SegmentedItem">
+  <TypeSignature Language="C#" Value="public class SegmentedItem : Microsoft.UI.Xaml.Controls.ListViewItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SegmentedItem extends Microsoft.UI.Xaml.Controls.ListViewItem" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SegmentedItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class SegmentedItem&#xA;Inherits ListViewItem" />
+  <TypeSignature Language="F#" Value="type SegmentedItem = class&#xA;    inherit ListViewItem" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.ListViewItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.Markup.ContentProperty(Name="Content")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.Markup.ContentProperty(Name="Content")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents an item in a <see cref="T:CommunityToolkit.WinUI.Controls.Segmented" /> control.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SegmentedItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SegmentedItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new instance of <see cref="T:CommunityToolkit.WinUI.Controls.SegmentedItem" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Icon">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.IconElement Icon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.IconElement Icon" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SegmentedItem.Icon" />
+      <MemberSignature Language="VB.NET" Value="Public Property Icon As IconElement" />
+      <MemberSignature Language="F#" Value="member this.Icon : Microsoft.UI.Xaml.Controls.IconElement with get, set" Usage="CommunityToolkit.WinUI.Controls.SegmentedItem.Icon" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.IconElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the icon.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IconProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IconProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SegmentedItem.IconProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IconProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SegmentedItem.IconProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SegmentedItem.Icon" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="protected override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SegmentedItem.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="segmentedItem.OnApplyTemplate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnContentChanged">
+      <MemberSignature Language="C#" Value="protected override void OnContentChanged (object oldContent, object newContent);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnContentChanged(object oldContent, object newContent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SegmentedItem.OnContentChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnContentChanged (oldContent As Object, newContent As Object)" />
+      <MemberSignature Language="F#" Value="override this.OnContentChanged : obj * obj -&gt; unit" Usage="segmentedItem.OnContentChanged (oldContent, newContent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldContent" Type="System.Object" />
+        <Parameter Name="newContent" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldContent">To be added.</param>
+        <param name="newContent">To be added.</param>
+        <summary>
+            Handles changes to the Content property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIconPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnIconPropertyChanged (Microsoft.UI.Xaml.Controls.IconElement oldValue, Microsoft.UI.Xaml.Controls.IconElement newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnIconPropertyChanged(class Microsoft.UI.Xaml.Controls.IconElement oldValue, class Microsoft.UI.Xaml.Controls.IconElement newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SegmentedItem.OnIconPropertyChanged(Microsoft.UI.Xaml.Controls.IconElement,Microsoft.UI.Xaml.Controls.IconElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIconPropertyChanged (oldValue As IconElement, newValue As IconElement)" />
+      <MemberSignature Language="F#" Value="abstract member OnIconPropertyChanged : Microsoft.UI.Xaml.Controls.IconElement * Microsoft.UI.Xaml.Controls.IconElement -&gt; unit&#xA;override this.OnIconPropertyChanged : Microsoft.UI.Xaml.Controls.IconElement * Microsoft.UI.Xaml.Controls.IconElement -&gt; unit" Usage="segmentedItem.OnIconPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.Segmented</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="Microsoft.UI.Xaml.Controls.IconElement" />
+        <Parameter Name="newValue" Type="Microsoft.UI.Xaml.Controls.IconElement" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            Handles changes to the Icon property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

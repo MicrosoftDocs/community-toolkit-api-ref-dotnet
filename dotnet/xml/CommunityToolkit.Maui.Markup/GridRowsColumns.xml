@@ -1,0 +1,164 @@
+<Type Name="GridRowsColumns" FullName="CommunityToolkit.Maui.Markup.GridRowsColumns">
+  <TypeSignature Language="C#" Value="public static class GridRowsColumns" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GridRowsColumns extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.GridRowsColumns" />
+  <TypeSignature Language="VB.NET" Value="Public Module GridRowsColumns" />
+  <TypeSignature Language="F#" Value="type GridRowsColumns = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Grid Rows and Column Extensions
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All&lt;TEnum&gt;">
+      <MemberSignature Language="C#" Value="public static int All&lt;TEnum&gt; () where TEnum : struct;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 All&lt;struct .ctor (class System.Enum, class System.ValueType) TEnum&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridRowsColumns.All``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function All(Of TEnum As Structure) () As Integer" />
+      <MemberSignature Language="F#" Value="static member All : unit -&gt; int (requires 'Enum : struct)" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.All " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TEnum">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.Enum</BaseTypeName>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="TEnum" />
+        <summary>
+            Get Enum Value Count
+            </summary>
+        <returns>Count of enum values</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException" />
+        <exception cref="T:System.InvalidOperationException" />
+      </Docs>
+    </Member>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.GridLength Auto { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.GridLength Auto" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Markup.GridRowsColumns.Auto" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Auto As GridLength" />
+      <MemberSignature Language="F#" Value="static member Auto : Microsoft.Maui.GridLength" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.Auto" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.GridLength</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            GridLength.Auto
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Last&lt;TEnum&gt;">
+      <MemberSignature Language="C#" Value="public static int Last&lt;TEnum&gt; () where TEnum : struct;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 Last&lt;struct .ctor (class System.Enum, class System.ValueType) TEnum&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridRowsColumns.Last``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function Last(Of TEnum As Structure) () As Integer" />
+      <MemberSignature Language="F#" Value="static member Last : unit -&gt; int (requires 'Enum : struct)" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.Last " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TEnum">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.Enum</BaseTypeName>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="TEnum" />
+        <summary>
+            Get Last Enum value
+            </summary>
+        <returns>Last value in Enum</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException" />
+      </Docs>
+    </Member>
+    <Member MemberName="Star">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.GridLength Star { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.GridLength Star" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Markup.GridRowsColumns.Star" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Star As GridLength" />
+      <MemberSignature Language="F#" Value="static member Star : Microsoft.Maui.GridLength" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.Star" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.GridLength</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            GridLength.Star
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stars">
+      <MemberSignature Language="C#" Value="public static Microsoft.Maui.GridLength Stars (double value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.GridLength Stars(float64 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.GridRowsColumns.Stars(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Stars (value As Double) As GridLength" />
+      <MemberSignature Language="F#" Value="static member Stars : double -&gt; Microsoft.Maui.GridLength" Usage="CommunityToolkit.Maui.Markup.GridRowsColumns.Stars value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.GridLength</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="value" />
+        <summary>
+            new GridLength(value, GridUnitType.Star)
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

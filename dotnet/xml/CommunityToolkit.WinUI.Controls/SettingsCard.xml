@@ -1,0 +1,735 @@
+<Type Name="SettingsCard" FullName="CommunityToolkit.WinUI.Controls.SettingsCard">
+  <TypeSignature Language="C#" Value="public class SettingsCard : Microsoft.UI.Xaml.Controls.Primitives.ButtonBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SettingsCard extends Microsoft.UI.Xaml.Controls.Primitives.ButtonBase" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.WinUI.Controls.SettingsCard" />
+  <TypeSignature Language="VB.NET" Value="Public Class SettingsCard&#xA;Inherits ButtonBase" />
+  <TypeSignature Language="F#" Value="type SettingsCard = class&#xA;    inherit ButtonBase" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+    <AssemblyVersion>8.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.UI.Xaml.Controls.Primitives.ButtonBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_ActionIconPresenterHolder", Type=typeof(Microsoft.UI.Xaml.Controls.Viewbox))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_ActionIconPresenterHolder", Type=typeof(Microsoft.UI.Xaml.Controls.Viewbox))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_HeaderPresenter", Type=typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_HeaderPresenter", Type=typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_DescriptionPresenter", Type=typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_DescriptionPresenter", Type=typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplatePart(Name="PART_HeaderIconPresenterHolder", Type=typeof(Microsoft.UI.Xaml.Controls.Viewbox))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplatePart(Name="PART_HeaderIconPresenterHolder", Type=typeof(Microsoft.UI.Xaml.Controls.Viewbox))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Normal")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Normal")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="PointerOver")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="PointerOver")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Pressed")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Pressed")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Disabled")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="CommonStates", Name="Disabled")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="Right")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="Right")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="RightWrapped")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="RightWrapped")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="RightWrappedNoIcon")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="RightWrappedNoIcon")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="Left")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="Left")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="Vertical")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentAlignmentStates", Name="Vertical")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentSpacingStates", Name="NoContentSpacing")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentSpacingStates", Name="NoContentSpacing")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentSpacingStates", Name="ContentSpacing")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.UI.Xaml.TemplateVisualState(GroupName="ContentSpacingStates", Name="ContentSpacing")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            This is the base control to create consistent settings experiences, inline with the Windows 11 design language.
+            A SettingsCard can also be hosted within a SettingsExpander.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SettingsCard ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new instance of the <see cref="T:CommunityToolkit.WinUI.Controls.SettingsCard" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionIcon">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.IconElement ActionIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.IconElement ActionIcon" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.ActionIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionIcon As IconElement" />
+      <MemberSignature Language="F#" Value="member this.ActionIcon : Microsoft.UI.Xaml.Controls.IconElement with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.ActionIcon" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.IconElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the icon that is shown when IsClickEnabled is set to true.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionIconProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ActionIconProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ActionIconProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ActionIconProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ActionIconProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.ActionIcon" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionIconToolTip">
+      <MemberSignature Language="C#" Value="public string ActionIconToolTip { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionIconToolTip" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconToolTip" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionIconToolTip As String" />
+      <MemberSignature Language="F#" Value="member this.ActionIconToolTip : string with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconToolTip" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tooltip of the ActionIcon.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionIconToolTipProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ActionIconToolTipProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ActionIconToolTipProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconToolTipProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ActionIconToolTipProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ActionIconToolTipProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconToolTipProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.ActionIconToolTip" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignment">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.WinUI.Controls.ContentAlignment ContentAlignment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.WinUI.Controls.ContentAlignment ContentAlignment" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.ContentAlignment" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentAlignment As ContentAlignment" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignment : CommunityToolkit.WinUI.Controls.ContentAlignment with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.ContentAlignment" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.WinUI.Controls.ContentAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the alignment of the Content
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty ContentAlignmentProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty ContentAlignmentProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.ContentAlignmentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentAlignmentProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ContentAlignmentProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.ContentAlignmentProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.ContentAlignment" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Control_PointerEntered">
+      <MemberSignature Language="C#" Value="public void Control_PointerEntered (object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Control_PointerEntered(object sender, class Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.Control_PointerEntered(System.Object,Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Control_PointerEntered (sender As Object, e As PointerRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="member this.Control_PointerEntered : obj * Microsoft.UI.Xaml.Input.PointerRoutedEventArgs -&gt; unit" Usage="settingsCard.Control_PointerEntered (sender, e)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.PointerRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>
+            Handles the PointerEntered event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Control_PointerExited">
+      <MemberSignature Language="C#" Value="public void Control_PointerExited (object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Control_PointerExited(object sender, class Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.Control_PointerExited(System.Object,Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Control_PointerExited (sender As Object, e As PointerRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="member this.Control_PointerExited : obj * Microsoft.UI.Xaml.Input.PointerRoutedEventArgs -&gt; unit" Usage="settingsCard.Control_PointerExited (sender, e)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.PointerRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>
+            Handles the PointerExited event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public object Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Description" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As Object" />
+      <MemberSignature Language="F#" Value="member this.Description : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the description.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescriptionProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty DescriptionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty DescriptionProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.DescriptionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DescriptionProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DescriptionProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.DescriptionProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.Description" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Header">
+      <MemberSignature Language="C#" Value="public object Header { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Header" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.Header" />
+      <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
+      <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.Header" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Header.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderIcon">
+      <MemberSignature Language="C#" Value="public Microsoft.UI.Xaml.Controls.IconElement HeaderIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.UI.Xaml.Controls.IconElement HeaderIcon" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.HeaderIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeaderIcon As IconElement" />
+      <MemberSignature Language="F#" Value="member this.HeaderIcon : Microsoft.UI.Xaml.Controls.IconElement with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.HeaderIcon" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Controls.IconElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the icon on the left.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderIconProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HeaderIconProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HeaderIconProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.HeaderIconProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderIconProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderIconProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.HeaderIconProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.HeaderIcon" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty HeaderProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty HeaderProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.HeaderProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.HeaderProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.Header" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsActionIconVisible">
+      <MemberSignature Language="C#" Value="public bool IsActionIconVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsActionIconVisible" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.IsActionIconVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsActionIconVisible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsActionIconVisible : bool with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.IsActionIconVisible" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets if the ActionIcon is shown.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsActionIconVisibleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IsActionIconVisibleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IsActionIconVisibleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.IsActionIconVisibleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsActionIconVisibleProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsActionIconVisibleProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.IsActionIconVisibleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.IsActionIconVisible" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClickEnabled">
+      <MemberSignature Language="C#" Value="public bool IsClickEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsClickEnabled" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.WinUI.Controls.SettingsCard.IsClickEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsClickEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsClickEnabled : bool with get, set" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.IsClickEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets if the card can be clicked.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClickEnabledProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.UI.Xaml.DependencyProperty IsClickEnabledProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.UI.Xaml.DependencyProperty IsClickEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.WinUI.Controls.SettingsCard.IsClickEnabledProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsClickEnabledProperty As DependencyProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsClickEnabledProperty : Microsoft.UI.Xaml.DependencyProperty" Usage="CommunityToolkit.WinUI.Controls.SettingsCard.IsClickEnabledProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty" /> for the <see cref="P:CommunityToolkit.WinUI.Controls.SettingsCard.IsClickEnabled" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="protected override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="settingsCard.OnApplyTemplate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override Microsoft.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; Microsoft.UI.Xaml.Automation.Peers.AutomationPeer" Usage="settingsCard.OnCreateAutomationPeer " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.UI.Xaml.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates AutomationPeer
+            </summary>
+        <returns>An automation peer for <see cref="T:CommunityToolkit.WinUI.Controls.SettingsCard" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDescriptionPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnDescriptionPropertyChanged (object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDescriptionPropertyChanged(object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnDescriptionPropertyChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDescriptionPropertyChanged (oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnDescriptionPropertyChanged : obj * obj -&gt; unit&#xA;override this.OnDescriptionPropertyChanged : obj * obj -&gt; unit" Usage="settingsCard.OnDescriptionPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            Called when the Description property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnHeaderIconPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnHeaderIconPropertyChanged (Microsoft.UI.Xaml.Controls.IconElement oldValue, Microsoft.UI.Xaml.Controls.IconElement newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnHeaderIconPropertyChanged(class Microsoft.UI.Xaml.Controls.IconElement oldValue, class Microsoft.UI.Xaml.Controls.IconElement newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnHeaderIconPropertyChanged(Microsoft.UI.Xaml.Controls.IconElement,Microsoft.UI.Xaml.Controls.IconElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnHeaderIconPropertyChanged (oldValue As IconElement, newValue As IconElement)" />
+      <MemberSignature Language="F#" Value="abstract member OnHeaderIconPropertyChanged : Microsoft.UI.Xaml.Controls.IconElement * Microsoft.UI.Xaml.Controls.IconElement -&gt; unit&#xA;override this.OnHeaderIconPropertyChanged : Microsoft.UI.Xaml.Controls.IconElement * Microsoft.UI.Xaml.Controls.IconElement -&gt; unit" Usage="settingsCard.OnHeaderIconPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="Microsoft.UI.Xaml.Controls.IconElement" />
+        <Parameter Name="newValue" Type="Microsoft.UI.Xaml.Controls.IconElement" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            Called when the HeaderIcon property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnHeaderPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnHeaderPropertyChanged (object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnHeaderPropertyChanged(object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnHeaderPropertyChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnHeaderPropertyChanged (oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnHeaderPropertyChanged : obj * obj -&gt; unit&#xA;override this.OnHeaderPropertyChanged : obj * obj -&gt; unit" Usage="settingsCard.OnHeaderPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            Called when the Header property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsActionIconVisiblePropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnIsActionIconVisiblePropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnIsActionIconVisiblePropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnIsActionIconVisiblePropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsActionIconVisiblePropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member OnIsActionIconVisiblePropertyChanged : bool * bool -&gt; unit&#xA;override this.OnIsActionIconVisiblePropertyChanged : bool * bool -&gt; unit" Usage="settingsCard.OnIsActionIconVisiblePropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            Called when the IsActionIconVisible property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsClickEnabledPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnIsClickEnabledPropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnIsClickEnabledPropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnIsClickEnabledPropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsClickEnabledPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member OnIsClickEnabledPropertyChanged : bool * bool -&gt; unit&#xA;override this.OnIsClickEnabledPropertyChanged : bool * bool -&gt; unit" Usage="settingsCard.OnIsClickEnabledPropertyChanged (oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>
+            Called when the IsClickEnabled property changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointerPressed">
+      <MemberSignature Language="C#" Value="protected override void OnPointerPressed (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPointerPressed(class Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnPointerPressed(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPointerPressed (e As PointerRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnPointerPressed : Microsoft.UI.Xaml.Input.PointerRoutedEventArgs -&gt; unit" Usage="settingsCard.OnPointerPressed e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.PointerRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>
+            Handles the PointerPressed event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointerReleased">
+      <MemberSignature Language="C#" Value="protected override void OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPointerReleased(class Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.WinUI.Controls.SettingsCard.OnPointerReleased(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPointerReleased (e As PointerRoutedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnPointerReleased : Microsoft.UI.Xaml.Input.PointerRoutedEventArgs -&gt; unit" Usage="settingsCard.OnPointerReleased e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.WinUI.Controls.SettingsControls</AssemblyName>
+        <AssemblyVersion>8.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="Microsoft.UI.Xaml.Input.PointerRoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>
+            Handles the PointerReleased event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

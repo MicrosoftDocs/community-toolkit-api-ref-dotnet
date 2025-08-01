@@ -1,0 +1,202 @@
+<Type Name="VariableMultiValueConverter" FullName="CommunityToolkit.Maui.Converters.VariableMultiValueConverter">
+  <TypeSignature Language="C#" Value="public class VariableMultiValueConverter : CommunityToolkit.Maui.Extensions.MultiValueConverterExtension, CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter, Microsoft.Maui.Controls.IMultiValueConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VariableMultiValueConverter extends CommunityToolkit.Maui.Extensions.MultiValueConverterExtension implements class CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter, class Microsoft.Maui.Controls.IMultiValueConverter" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.VariableMultiValueConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class VariableMultiValueConverter&#xA;Inherits MultiValueConverterExtension&#xA;Implements ICommunityToolkitMultiValueConverter, IMultiValueConverter" />
+  <TypeSignature Language="F#" Value="type VariableMultiValueConverter = class&#xA;    inherit MultiValueConverterExtension&#xA;    interface ICommunityToolkitMultiValueConverter&#xA;    interface IMultiValueConverter" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Extensions.MultiValueConverterExtension</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Maui.Controls.IMultiValueConverter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Converters.VariableMultiValueConverter" /> is a converter that allows users to convert multiple <see cref="T:System.Boolean" /> value bindings to a single <see cref="T:System.Boolean" />. It does this by enabling them to specify whether All, Any, None or a specific number of values are true as specified in <see cref="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.ConditionType" />. This is useful when combined with the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VariableMultiValueConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionType">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Converters.MultiBindingCondition ConditionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Converters.MultiBindingCondition ConditionType" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.ConditionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConditionType As MultiBindingCondition" />
+      <MemberSignature Language="F#" Value="member this.ConditionType : CommunityToolkit.Maui.Converters.MultiBindingCondition with get, set" Usage="CommunityToolkit.Maui.Converters.VariableMultiValueConverter.ConditionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.MultiBindingCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates how many values should be true out of the provided boolean values in the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />. Supports the following values: All, None, Any, GreaterThan, LessThan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Convert">
+      <MemberSignature Language="C#" Value="public object Convert (object[]? values, Type targetType, object? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Convert(object[] values, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Convert (values As Object(), targetType As Type, Optional parameter As Object = Nothing, Optional culture As CultureInfo = Nothing) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Convert : obj[] * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="variableMultiValueConverter.Convert (values, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.Microsoft#Maui#Controls#IMultiValueConverter#Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="targetType" Type="System.Type" />
+        <Parameter Name="parameter" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="values">The values (of type <see cref="T:System.Boolean" />) that should be converted.</param>
+        <param name="targetType">The type of the binding target property. This is not implemented.</param>
+        <param name="parameter">Additional parameter for the converter to handle. This is not implemented.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts multiple <see cref="T:System.Boolean" /> value bindings to a single <see cref="T:System.Boolean" />. It does this by enabling them to specify whether All, Any, None or a specific number of values are true as specified in <see cref="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.ConditionType" />. This is useful when combined with the <see cref="T:Microsoft.Maui.Controls.MultiBinding" />.
+            </summary>
+        <returns>A single <see cref="T:System.Boolean" /> value dependent on the configuration for this converter.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBack">
+      <MemberSignature Language="C#" Value="public object[]? ConvertBack (object? value, Type[] targetTypes, object? parameter, System.Globalization.CultureInfo? culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object[] ConvertBack(object value, class System.Type[] targetTypes, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetTypes As Type(), parameter As Object, culture As CultureInfo) As Object()" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]&#xA;override this.ConvertBack : obj * Type[] * obj * System.Globalization.CultureInfo -&gt; obj[]" Usage="variableMultiValueConverter.ConvertBack (value, targetTypes, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+        <InterfaceMember>M:CommunityToolkit.Maui.Converters.ICommunityToolkitMultiValueConverter.Microsoft#Maui#Controls#IMultiValueConverter#ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetTypes" Type="System.Type[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The <see cref="T:System.Boolean" /> value that should be converted.</param>
+        <param name="targetTypes">The types of the binding target properties.</param>
+        <param name="parameter">Additional parameter for the converter to handle. This is not implemented.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts one <see cref="T:System.Boolean" /> value. Returns null if <paramref name="value" /> is not a <see cref="T:System.Boolean" /> value or when not all <paramref name="targetTypes" /> can be assigned from <see cref="T:System.Boolean" />.
+            </summary>
+        <returns>All bindings that evaluate to true if <paramref name="value" /> is true. Or null if <paramref name="value" /> is not a <see cref="T:System.Boolean" /> value or <paramref name="value" /> is false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int with get, set" Usage="CommunityToolkit.Maui.Converters.VariableMultiValueConverter.Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of values that should be true when using <see cref="P:CommunityToolkit.Maui.Converters.VariableMultiValueConverter.ConditionType" /> GreaterThan, LessThan or Exact.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

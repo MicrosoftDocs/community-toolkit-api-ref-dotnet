@@ -1,0 +1,477 @@
+<Type Name="AbsoluteLayoutExtensions" FullName="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions">
+  <TypeSignature Language="C#" Value="public static class AbsoluteLayoutExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AbsoluteLayoutExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AbsoluteLayoutExtensions" />
+  <TypeSignature Language="F#" Value="type AbsoluteLayoutExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Absolute Layout Extension Methods
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClearLayoutFlags&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable ClearLayoutFlags&lt;TBindable&gt; (this TBindable bindable) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable ClearLayoutFlags&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.ClearLayoutFlags``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ClearLayoutFlags(Of TBindable As BindableObject) (bindable As TBindable) As TBindable" />
+      <MemberSignature Language="F#" Value="static member ClearLayoutFlags : 'Bindable -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.ClearLayoutFlags bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <summary>
+            Removes all <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" />, reverting to the default configuraion of <see cref="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.None" />.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Graphics.Point point) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Graphics.Point point) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,Microsoft.Maui.Graphics.Point)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (bindable As TBindable, point As Point) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * Microsoft.Maui.Graphics.Point -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (bindable, point)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="point" Type="Microsoft.Maui.Graphics.Point" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="point" />
+        <summary>
+            Set the position and of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" />, the <see cref="T:Microsoft.Maui.Controls.View" /> will size itself
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Graphics.Rect bounds) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,Microsoft.Maui.Graphics.Rect)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (bindable As TBindable, bounds As Rect) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * Microsoft.Maui.Graphics.Rect -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (bindable, bounds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="bounds" Type="Microsoft.Maui.Graphics.Rect" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="bounds" />
+        <summary> 
+            Set the position and size of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" /></summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Graphics.Point point, Microsoft.Maui.Graphics.Size size) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Graphics.Point point, valuetype Microsoft.Maui.Graphics.Size size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Size)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (bindable As TBindable, point As Point, size As Size) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Size -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (bindable, point, size)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="point" Type="Microsoft.Maui.Graphics.Point" />
+        <Parameter Name="size" Type="Microsoft.Maui.Graphics.Size" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="point" />
+        <param name="size" />
+        <summary> 
+            Set the position and size of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" /></summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable bindable, double x, double y) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, float64 x, float64 y) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (bindable As TBindable, x As Double, y As Double) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * double * double -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (bindable, x, y)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="x" Type="System.Double" />
+        <Parameter Name="y" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="x" />
+        <param name="y" />
+        <summary>
+            Set the position and of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" />, the <see cref="T:Microsoft.Maui.Controls.View" /> will size itself
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Graphics.Point point, double width, double height) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Graphics.Point point, float64 width, float64 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,Microsoft.Maui.Graphics.Point,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (bindable As TBindable, point As Point, width As Double, height As Double) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * Microsoft.Maui.Graphics.Point * double * double -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (bindable, point, width, height)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="point" Type="Microsoft.Maui.Graphics.Point" />
+        <Parameter Name="width" Type="System.Double" />
+        <Parameter Name="height" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="point" />
+        <param name="width" />
+        <param name="height" />
+        <summary>
+            Set the position and size of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" /></summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable view, double x, double y, Microsoft.Maui.Graphics.Size size) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable view, float64 x, float64 y, valuetype Microsoft.Maui.Graphics.Size size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,System.Double,System.Double,Microsoft.Maui.Graphics.Size)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (view As TBindable, x As Double, y As Double, size As Size) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * double * double * Microsoft.Maui.Graphics.Size -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (view, x, y, size)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="view" Type="TBindable" RefType="this" />
+        <Parameter Name="x" Type="System.Double" />
+        <Parameter Name="y" Type="System.Double" />
+        <Parameter Name="size" Type="Microsoft.Maui.Graphics.Size" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="view" />
+        <param name="x" />
+        <param name="y" />
+        <param name="size" />
+        <summary>
+            Set the position and size of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" /></summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBounds&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutBounds&lt;TBindable&gt; (this TBindable bindable, double x, double y, double width, double height) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutBounds&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, float64 x, float64 y, float64 width, float64 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds``1(``0,System.Double,System.Double,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutBounds(Of TBindable As BindableObject) (bindable As TBindable, x As Double, y As Double, width As Double, height As Double) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutBounds : 'Bindable * double * double * double * double -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutBounds (bindable, x, y, width, height)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="x" Type="System.Double" />
+        <Parameter Name="y" Type="System.Double" />
+        <Parameter Name="width" Type="System.Double" />
+        <Parameter Name="height" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="x" />
+        <param name="y" />
+        <param name="width" />
+        <param name="height" />
+        <summary>
+            Set the position and size of a <see cref="T:Microsoft.Maui.Controls.View" /> in an <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" /></summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutFlags&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutFlags&lt;TBindable&gt; (this TBindable bindable, Microsoft.Maui.Layouts.AbsoluteLayoutFlags flag) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutFlags&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags flag) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutFlags``1(``0,Microsoft.Maui.Layouts.AbsoluteLayoutFlags)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutFlags(Of TBindable As BindableObject) (bindable As TBindable, flag As AbsoluteLayoutFlags) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutFlags : 'Bindable * Microsoft.Maui.Layouts.AbsoluteLayoutFlags -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutFlags (bindable, flag)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="flag" Type="Microsoft.Maui.Layouts.AbsoluteLayoutFlags" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="flag" />
+        <summary>
+            Set an <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" /> that indicates whether the layout bounds position and size values for a child are proportional to the size of the <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" />.
+            Appends <paramref name="flag" /> to existing <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" /></summary>
+        <returns />
+        <remarks>
+            To clear existing <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" />, use <see cref="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.ClearLayoutFlags``1(``0)" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutFlags&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable LayoutFlags&lt;TBindable&gt; (this TBindable bindable, scoped ReadOnlySpan&lt;Microsoft.Maui.Layouts.AbsoluteLayoutFlags&gt; flags) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable LayoutFlags&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype System.ReadOnlySpan`1&lt;valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags&gt; flags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutFlags``1(``0,System.ReadOnlySpan{Microsoft.Maui.Layouts.AbsoluteLayoutFlags})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LayoutFlags(Of TBindable As BindableObject) (bindable As TBindable, flags As ReadOnlySpan(Of AbsoluteLayoutFlags)) As TBindable" />
+      <MemberSignature Language="F#" Value="static member LayoutFlags : 'Bindable * ReadOnlySpan&lt;Microsoft.Maui.Layouts.AbsoluteLayoutFlags&gt; -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.LayoutFlags (bindable, flags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="flags" Type="System.ReadOnlySpan&lt;Microsoft.Maui.Layouts.AbsoluteLayoutFlags&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ParamCollection]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ParamCollection&gt;]</AttributeName>
+            </Attribute>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.ScopedRef]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.ScopedRef&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable" />
+        <param name="bindable" />
+        <param name="flags" />
+        <summary>
+            Set an <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" /> that indicates whether the layout bounds position and size values for a child are proportional to the size of the <see cref="T:Microsoft.Maui.Controls.AbsoluteLayout" />.
+            </summary>
+        <returns />
+        <remarks>
+            To clear existing <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" />, use <see cref="M:CommunityToolkit.Maui.Markup.AbsoluteLayoutExtensions.ClearLayoutFlags``1(``0)" /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

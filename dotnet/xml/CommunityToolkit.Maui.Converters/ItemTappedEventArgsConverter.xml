@@ -1,0 +1,108 @@
+<Type Name="ItemTappedEventArgsConverter" FullName="CommunityToolkit.Maui.Converters.ItemTappedEventArgsConverter">
+  <TypeSignature Language="C#" Value="public class ItemTappedEventArgsConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;Microsoft.Maui.Controls.ItemTappedEventArgs,object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemTappedEventArgsConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`2&lt;class Microsoft.Maui.Controls.ItemTappedEventArgs, object&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.ItemTappedEventArgsConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemTappedEventArgsConverter&#xA;Inherits BaseConverterOneWay(Of ItemTappedEventArgs, Object)" />
+  <TypeSignature Language="F#" Value="type ItemTappedEventArgsConverter = class&#xA;    inherit BaseConverterOneWay&lt;ItemTappedEventArgs, obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;Microsoft.Maui.Controls.ItemTappedEventArgs,System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">Microsoft.Maui.Controls.ItemTappedEventArgs</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts/Extracts the incoming value from <see cref="T:Microsoft.Maui.Controls.ItemTappedEventArgs" /> object and returns the value of <see cref="P:Microsoft.Maui.Controls.ItemTappedEventArgs.Item" /> property from it.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemTappedEventArgsConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ItemTappedEventArgsConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override object? ConvertFrom (Microsoft.Maui.Controls.ItemTappedEventArgs? value, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFrom(class Microsoft.Maui.Controls.ItemTappedEventArgs value, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.ItemTappedEventArgsConverter.ConvertFrom(Microsoft.Maui.Controls.ItemTappedEventArgs,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As ItemTappedEventArgs, Optional culture As CultureInfo = Nothing) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : Microsoft.Maui.Controls.ItemTappedEventArgs * System.Globalization.CultureInfo -&gt; obj" Usage="itemTappedEventArgsConverter.ConvertFrom (value, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Maui.Controls.ItemTappedEventArgs" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <param name="culture">(Not Used)</param>
+        <summary>
+            Converts/Extracts the incoming value from <see cref="T:Microsoft.Maui.Controls.ItemTappedEventArgs" /> object and returns the value of <see cref="P:Microsoft.Maui.Controls.ItemTappedEventArgs.Item" /> property from it.
+            </summary>
+        <returns>A <see cref="P:Microsoft.Maui.Controls.ItemTappedEventArgs.Item" /> object from object of type <see cref="T:Microsoft.Maui.Controls.ItemTappedEventArgs" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override object? DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.ItemTappedEventArgsConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As Object" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : obj with get, set" Usage="CommunityToolkit.Maui.Converters.ItemTappedEventArgsConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

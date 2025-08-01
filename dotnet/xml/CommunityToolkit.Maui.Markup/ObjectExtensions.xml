@@ -1,0 +1,118 @@
+<Type Name="ObjectExtensions" FullName="CommunityToolkit.Maui.Markup.ObjectExtensions">
+  <TypeSignature Language="C#" Value="public static class ObjectExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ObjectExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.ObjectExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ObjectExtensions" />
+  <TypeSignature Language="F#" Value="type ObjectExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension Methods for Unconstrained Objects
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Assign&lt;TAssignable,TVariable&gt;">
+      <MemberSignature Language="C#" Value="public static TAssignable Assign&lt;TAssignable,TVariable&gt; (this TAssignable assignable, out TVariable variable) where TAssignable : TVariable;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TAssignable Assign&lt;(!!TVariable) TAssignable, TVariable&gt;(!!TAssignable assignable, [out] !!TVariable&amp; variable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ObjectExtensions.Assign``2(``0,``1@)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Assign(Of TAssignable As TVariable, TVariable As TVariable) (assignable As TAssignable, ByRef variable As TVariable) As TAssignable" />
+      <MemberSignature Language="F#" Value="static member Assign : 'Assignable * 'Variable -&gt; 'Assignable" Usage="CommunityToolkit.Maui.Markup.ObjectExtensions.Assign (assignable, variable)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TAssignable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TAssignable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>TVariable</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TVariable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="assignable" Type="TAssignable" RefType="this" />
+        <Parameter Name="variable" Type="TVariable" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TAssignable" />
+        <typeparam name="TVariable" />
+        <param name="assignable" />
+        <param name="variable" />
+        <summary>
+            Assign <typeparamref name="TAssignable" /> to a variable
+            </summary>
+        <returns>TBindable</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invoke&lt;TAssignable&gt;">
+      <MemberSignature Language="C#" Value="public static TAssignable Invoke&lt;TAssignable&gt; (this TAssignable assignable, Action&lt;TAssignable&gt; action);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TAssignable Invoke&lt;TAssignable&gt;(!!TAssignable assignable, class System.Action`1&lt;!!TAssignable&gt; action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.ObjectExtensions.Invoke``1(``0,System.Action{``0})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Invoke(Of TAssignable) (assignable As TAssignable, action As Action(Of TAssignable)) As TAssignable" />
+      <MemberSignature Language="F#" Value="static member Invoke : 'Assignable * Action&lt;'Assignable&gt; -&gt; 'Assignable" Usage="CommunityToolkit.Maui.Markup.ObjectExtensions.Invoke (assignable, action)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TAssignable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TAssignable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="assignable" Type="TAssignable" RefType="this" />
+        <Parameter Name="action" Type="System.Action&lt;TAssignable&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TAssignable" />
+        <param name="assignable" />
+        <param name="action" />
+        <summary>
+            Perform an action on <typeparamref name="TAssignable" /></summary>
+        <returns>TBindable</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

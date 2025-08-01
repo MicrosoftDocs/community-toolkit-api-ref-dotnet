@@ -1,0 +1,64 @@
+<Type Name="ExpandDirection" FullName="CommunityToolkit.Maui.Core.ExpandDirection">
+  <TypeSignature Language="C#" Value="public enum ExpandDirection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExpandDirection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.ExpandDirection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExpandDirection" />
+  <TypeSignature Language="F#" Value="type ExpandDirection = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Direction of expansion
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Down">
+      <MemberSignature Language="C#" Value="Down" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.ExpandDirection Down = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.ExpandDirection.Down" />
+      <MemberSignature Language="VB.NET" Value="Down" />
+      <MemberSignature Language="F#" Value="Down = 0" Usage="CommunityToolkit.Maui.Core.ExpandDirection.Down" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.ExpandDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Expander expands down
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Up">
+      <MemberSignature Language="C#" Value="Up" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Core.ExpandDirection Up = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Core.ExpandDirection.Up" />
+      <MemberSignature Language="VB.NET" Value="Up" />
+      <MemberSignature Language="F#" Value="Up = 1" Usage="CommunityToolkit.Maui.Core.ExpandDirection.Up" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Core.ExpandDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Expander expands up
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

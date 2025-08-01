@@ -1,0 +1,120 @@
+<Type Name="AutomationPropertiesExtensions" FullName="CommunityToolkit.Maui.Markup.AutomationPropertiesExtensions">
+  <TypeSignature Language="C#" Value="public static class AutomationPropertiesExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AutomationPropertiesExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.AutomationPropertiesExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AutomationPropertiesExtensions" />
+  <TypeSignature Language="F#" Value="type AutomationPropertiesExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extension methods for setting <see cref="T:Microsoft.Maui.Controls.AutomationProperties" /> on <see cref="T:Microsoft.Maui.Controls.BindableObject" />s.
+            These methods provide helpful ways of fluently setting properties.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutomationExcludedWithChildren&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable AutomationExcludedWithChildren&lt;TBindable&gt; (this TBindable bindable, bool? isExcludedWithChildren) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable AutomationExcludedWithChildren&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype System.Nullable`1&lt;bool&gt; isExcludedWithChildren) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AutomationPropertiesExtensions.AutomationExcludedWithChildren``1(``0,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AutomationExcludedWithChildren(Of TBindable As BindableObject) (bindable As TBindable, isExcludedWithChildren As Nullable(Of Boolean)) As TBindable" />
+      <MemberSignature Language="F#" Value="static member AutomationExcludedWithChildren : 'Bindable * Nullable&lt;bool&gt; -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AutomationPropertiesExtensions.AutomationExcludedWithChildren (bindable, isExcludedWithChildren)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="isExcludedWithChildren" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of bindable object being updated.</typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> to determine whether it should be excluded from the accessibility tree including its children.</param>
+        <param name="isExcludedWithChildren">The value determining if the <paramref name="bindable" /> and its children should be excluded from the accessibility tree.</param>
+        <summary>
+            Sets a value determining if the <paramref name="bindable" /> and its children should be excluded from the accessibility tree.
+            </summary>
+        <returns>
+            The supplied <paramref name="bindable" /> with the <see cref="F:Microsoft.Maui.Controls.AutomationProperties.ExcludedWithChildrenProperty" /> set
+            to the supplied <paramref name="isExcludedWithChildren" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomationIsInAccessibleTree&lt;TBindable&gt;">
+      <MemberSignature Language="C#" Value="public static TBindable AutomationIsInAccessibleTree&lt;TBindable&gt; (this TBindable bindable, bool? isInAccessibleTree) where TBindable : Microsoft.Maui.Controls.BindableObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TBindable AutomationIsInAccessibleTree&lt;(class Microsoft.Maui.Controls.BindableObject) TBindable&gt;(!!TBindable bindable, valuetype System.Nullable`1&lt;bool&gt; isInAccessibleTree) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.AutomationPropertiesExtensions.AutomationIsInAccessibleTree``1(``0,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AutomationIsInAccessibleTree(Of TBindable As BindableObject) (bindable As TBindable, isInAccessibleTree As Nullable(Of Boolean)) As TBindable" />
+      <MemberSignature Language="F#" Value="static member AutomationIsInAccessibleTree : 'Bindable * Nullable&lt;bool&gt; -&gt; 'Bindable (requires 'Bindable :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="CommunityToolkit.Maui.Markup.AutomationPropertiesExtensions.AutomationIsInAccessibleTree (bindable, isInAccessibleTree)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TBindable</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBindable">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="bindable" Type="TBindable" RefType="this" />
+        <Parameter Name="isInAccessibleTree" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBindable">The type of bindable object being updated.</typeparam>
+        <param name="bindable">The <see cref="T:Microsoft.Maui.Controls.BindableObject" /> to determine whether it should be visible to screen readers.</param>
+        <param name="isInAccessibleTree">The value determining if the <paramref name="bindable" /> is visible to screen readers..</param>
+        <summary>
+            Sets a value determining if the <paramref name="bindable" /> is visible to screen readers.
+            </summary>
+        <returns>
+            The supplied <paramref name="bindable" /> with the <see cref="F:Microsoft.Maui.Controls.AutomationProperties.IsInAccessibleTreeProperty" /> set
+            to the supplied <paramref name="isInAccessibleTree" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,330 @@
+<Type Name="BindableLayoutExtensions" FullName="CommunityToolkit.Maui.Markup.BindableLayoutExtensions">
+  <TypeSignature Language="C#" Value="public static class BindableLayoutExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BindableLayoutExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Markup.BindableLayoutExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module BindableLayoutExtensions" />
+  <TypeSignature Language="F#" Value="type BindableLayoutExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Extensions for Bindable Layouts
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EmptyView&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout EmptyView&lt;TLayout&gt; (this TLayout layout, object view) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout EmptyView&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, object view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.EmptyView``1(``0,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EmptyView(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, view As Object) As TLayout" />
+      <MemberSignature Language="F#" Value="static member EmptyView : 'Layout * obj -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.EmptyView (layout, view)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="view" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="view" />
+        <summary>
+            Adds an EmptyView to a Layout
+            </summary>
+        <returns>Layout with Empty View</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyViewTemplate&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout EmptyViewTemplate&lt;TLayout&gt; (this TLayout layout, Microsoft.Maui.Controls.DataTemplate template) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout EmptyViewTemplate&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, class Microsoft.Maui.Controls.DataTemplate template) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.EmptyViewTemplate``1(``0,Microsoft.Maui.Controls.DataTemplate)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EmptyViewTemplate(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, template As DataTemplate) As TLayout" />
+      <MemberSignature Language="F#" Value="static member EmptyViewTemplate : 'Layout * Microsoft.Maui.Controls.DataTemplate -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.EmptyViewTemplate (layout, template)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="template" Type="Microsoft.Maui.Controls.DataTemplate" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="template" />
+        <summary>
+            SetEmptyViewTemplate 
+            </summary>
+        <returns>Layout with Empty View Tempalte</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyViewTemplate&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout EmptyViewTemplate&lt;TLayout&gt; (this TLayout layout, Func&lt;object&gt; loadTemplate) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout EmptyViewTemplate&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, class System.Func`1&lt;object&gt; loadTemplate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.EmptyViewTemplate``1(``0,System.Func{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EmptyViewTemplate(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, loadTemplate As Func(Of Object)) As TLayout" />
+      <MemberSignature Language="F#" Value="static member EmptyViewTemplate : 'Layout * Func&lt;obj&gt; -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.EmptyViewTemplate (layout, loadTemplate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="loadTemplate" Type="System.Func&lt;System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="loadTemplate" />
+        <summary>
+            SetEmptyViewTemplate 
+            </summary>
+        <returns>Layout with Empty View Tempalte</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsSource&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout ItemsSource&lt;TLayout&gt; (this TLayout layout, System.Collections.IEnumerable source) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout ItemsSource&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, class System.Collections.IEnumerable source) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemsSource``1(``0,System.Collections.IEnumerable)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemsSource(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, source As IEnumerable) As TLayout" />
+      <MemberSignature Language="F#" Value="static member ItemsSource : 'Layout * System.Collections.IEnumerable -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemsSource (layout, source)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="source" Type="System.Collections.IEnumerable" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="source" />
+        <summary>
+            Set Item Source
+            </summary>
+        <returns>Layout with Item Source</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTemplate&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout ItemTemplate&lt;TLayout&gt; (this TLayout layout, Microsoft.Maui.Controls.DataTemplate template) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout ItemTemplate&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, class Microsoft.Maui.Controls.DataTemplate template) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemTemplate``1(``0,Microsoft.Maui.Controls.DataTemplate)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemTemplate(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, template As DataTemplate) As TLayout" />
+      <MemberSignature Language="F#" Value="static member ItemTemplate : 'Layout * Microsoft.Maui.Controls.DataTemplate -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemTemplate (layout, template)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="template" Type="Microsoft.Maui.Controls.DataTemplate" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="template" />
+        <summary>
+            Set Item Template
+            </summary>
+        <returns>Layout with Item Template</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTemplate&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout ItemTemplate&lt;TLayout&gt; (this TLayout layout, Func&lt;object&gt; loadTemplate) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout ItemTemplate&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, class System.Func`1&lt;object&gt; loadTemplate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemTemplate``1(``0,System.Func{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemTemplate(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, loadTemplate As Func(Of Object)) As TLayout" />
+      <MemberSignature Language="F#" Value="static member ItemTemplate : 'Layout * Func&lt;obj&gt; -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemTemplate (layout, loadTemplate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="loadTemplate" Type="System.Func&lt;System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="loadTemplate" />
+        <summary>
+            Set Item Template
+            </summary>
+        <returns>Layout with Item Template</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTemplateSelector&lt;TLayout&gt;">
+      <MemberSignature Language="C#" Value="public static TLayout ItemTemplateSelector&lt;TLayout&gt; (this TLayout layout, Microsoft.Maui.Controls.DataTemplateSelector selector) where TLayout : Microsoft.Maui.Controls.BindableObject, Microsoft.Maui.ILayout;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TLayout ItemTemplateSelector&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.ILayout) TLayout&gt;(!!TLayout layout, class Microsoft.Maui.Controls.DataTemplateSelector selector) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemTemplateSelector``1(``0,Microsoft.Maui.Controls.DataTemplateSelector)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ItemTemplateSelector(Of TLayout As {BindableObject, ILayout}) (layout As TLayout, selector As DataTemplateSelector) As TLayout" />
+      <MemberSignature Language="F#" Value="static member ItemTemplateSelector : 'Layout * Microsoft.Maui.Controls.DataTemplateSelector -&gt; 'Layout (requires 'Layout :&gt; Microsoft.Maui.Controls.BindableObject and 'Layout :&gt; Microsoft.Maui.ILayout)" Usage="CommunityToolkit.Maui.Markup.BindableLayoutExtensions.ItemTemplateSelector (layout, selector)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Markup</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TLayout</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TLayout">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+          <Constraints>
+            <BaseTypeName>Microsoft.Maui.Controls.BindableObject</BaseTypeName>
+            <InterfaceName>Microsoft.Maui.ILayout</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="layout" Type="TLayout" RefType="this" />
+        <Parameter Name="selector" Type="Microsoft.Maui.Controls.DataTemplateSelector" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TLayout" />
+        <param name="layout" />
+        <param name="selector" />
+        <summary>
+            Sets Item Template Selector
+            </summary>
+        <returns>Layout with Item Template Selector</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

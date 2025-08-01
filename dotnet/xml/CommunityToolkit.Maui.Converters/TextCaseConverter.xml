@@ -1,0 +1,137 @@
+<Type Name="TextCaseConverter" FullName="CommunityToolkit.Maui.Converters.TextCaseConverter">
+  <TypeSignature Language="C#" Value="public class TextCaseConverter : CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;string,string,CommunityToolkit.Maui.Converters.TextCaseType?&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TextCaseConverter extends CommunityToolkit.Maui.Converters.BaseConverterOneWay`3&lt;string, string, valuetype System.Nullable`1&lt;valuetype CommunityToolkit.Maui.Converters.TextCaseType&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.TextCaseConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class TextCaseConverter&#xA;Inherits BaseConverterOneWay(Of String, String, Nullable(Of TextCaseType))" />
+  <TypeSignature Language="F#" Value="type TextCaseConverter = class&#xA;    inherit BaseConverterOneWay&lt;string, string, Nullable&lt;TextCaseType&gt;&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Converters.BaseConverterOneWay&lt;System.String,System.String,System.Nullable&lt;CommunityToolkit.Maui.Converters.TextCaseType&gt;&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TFrom">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TTo">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TParam">System.Nullable&lt;CommunityToolkit.Maui.Converters.TextCaseType&gt;</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.ContentProperty("Type")]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.ContentProperty("Type")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider]</AttributeName>
+      <AttributeName Language="F#">[&lt;Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProvider&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 2 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 2, 2 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Converts text (string, char) to a certain case as specified with <see cref="P:CommunityToolkit.Maui.Converters.TextCaseConverter.Type" /> or the parameter of the Convert method.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextCaseConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.TextCaseConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFrom">
+      <MemberSignature Language="C#" Value="public override string? ConvertFrom (string? value, CommunityToolkit.Maui.Converters.TextCaseType? parameter = default, System.Globalization.CultureInfo? culture = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ConvertFrom(string value, valuetype System.Nullable`1&lt;valuetype CommunityToolkit.Maui.Converters.TextCaseType&gt; parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Converters.TextCaseConverter.ConvertFrom(System.String,System.Nullable{CommunityToolkit.Maui.Converters.TextCaseType},System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (value As String, Optional parameter As Nullable(Of TextCaseType) = Nothing, Optional culture As CultureInfo = Nothing) As String" />
+      <MemberSignature Language="F#" Value="override this.ConvertFrom : string * Nullable&lt;CommunityToolkit.Maui.Converters.TextCaseType&gt; * System.Globalization.CultureInfo -&gt; string" Usage="textCaseConverter.ConvertFrom (value, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="parameter" Type="System.Nullable&lt;CommunityToolkit.Maui.Converters.TextCaseType&gt;" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">The text to convert.</param>
+        <param name="parameter">The desired text case that the text should be converted to. Must match <see cref="T:CommunityToolkit.Maui.Converters.TextCaseType" /> enum value.</param>
+        <param name="culture">The culture to use in the converter. This is not implemented.</param>
+        <summary>
+            Converts text (string, char) to a certain case.
+            </summary>
+        <returns>The converted text representation with the desired casing.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultConvertReturnValue">
+      <MemberSignature Language="C#" Value="public override string? DefaultConvertReturnValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultConvertReturnValue" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.TextCaseConverter.DefaultConvertReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property DefaultConvertReturnValue As String" />
+      <MemberSignature Language="F#" Value="member this.DefaultConvertReturnValue : string with get, set" Usage="CommunityToolkit.Maui.Converters.TextCaseConverter.DefaultConvertReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Converters.TextCaseType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Converters.TextCaseType Type" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Converters.TextCaseConverter.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As TextCaseType" />
+      <MemberSignature Language="F#" Value="member this.Type : CommunityToolkit.Maui.Converters.TextCaseType with get, set" Usage="CommunityToolkit.Maui.Converters.TextCaseConverter.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.TextCaseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The desired text case that the text should be converted to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,139 @@
+<Type Name="MathOperator" FullName="CommunityToolkit.Maui.Core.MathOperator">
+  <TypeSignature Language="C#" Value="public sealed class MathOperator" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MathOperator extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Core.MathOperator" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MathOperator" />
+  <TypeSignature Language="F#" Value="type MathOperator = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <param name="name">Name</param>
+    <param name="numericCount">Number of Numerals</param>
+    <param name="calculateFunc">Calculation Function</param>
+    <summary>
+            Math Operator
+            </summary>
+    <remarks>
+            Initialize <see cref="T:CommunityToolkit.Maui.Core.MathOperator" /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MathOperator (string name, int numericCount, Func&lt;object?[],object?&gt; calculateFunc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, int32 numericCount, class System.Func`2&lt;object[], object&gt; calculateFunc) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Core.MathOperator.#ctor(System.String,System.Int32,System.Func{System.Object[],System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, numericCount As Integer, calculateFunc As Func(Of Object(), Object))" />
+      <MemberSignature Language="F#" Value="new CommunityToolkit.Maui.Core.MathOperator : string * int * Func&lt;obj[], obj&gt; -&gt; CommunityToolkit.Maui.Core.MathOperator" Usage="new CommunityToolkit.Maui.Core.MathOperator (name, numericCount, calculateFunc)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="numericCount" Type="System.Int32" />
+        <Parameter Name="calculateFunc" Type="System.Func&lt;System.Object[],System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="name">Name</param>
+        <param name="numericCount">Number of Numerals</param>
+        <param name="calculateFunc">Calculation Function</param>
+        <summary>
+            Math Operator
+            </summary>
+        <remarks>
+            Initialize <see cref="T:CommunityToolkit.Maui.Core.MathOperator" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculateFunc">
+      <MemberSignature Language="C#" Value="public Func&lt;object?[],object?&gt; CalculateFunc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;object[], object&gt; CalculateFunc" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.MathOperator.CalculateFunc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CalculateFunc As Func(Of Object(), Object)" />
+      <MemberSignature Language="F#" Value="member this.CalculateFunc : Func&lt;obj[], obj&gt;" Usage="CommunityToolkit.Maui.Core.MathOperator.CalculateFunc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 2 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 2 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Func&lt;System.Object[],System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Calculation Function
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.MathOperator.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="CommunityToolkit.Maui.Core.MathOperator.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumericCount">
+      <MemberSignature Language="C#" Value="public int NumericCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumericCount" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Core.MathOperator.NumericCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumericCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumericCount : int" Usage="CommunityToolkit.Maui.Core.MathOperator.NumericCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Number of Numerals
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,98 @@
+<Type Name="TextCaseType" FullName="CommunityToolkit.Maui.Converters.TextCaseType">
+  <TypeSignature Language="C#" Value="public enum TextCaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TextCaseType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Converters.TextCaseType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TextCaseType" />
+  <TypeSignature Language="F#" Value="type TextCaseType = " />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The text cases that can be used with <see cref="T:CommunityToolkit.Maui.Converters.TextCaseConverter" /> to convert text to a specific case.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FirstUpperRestLower">
+      <MemberSignature Language="C#" Value="FirstUpperRestLower" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.TextCaseType FirstUpperRestLower = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.TextCaseType.FirstUpperRestLower" />
+      <MemberSignature Language="VB.NET" Value="FirstUpperRestLower" />
+      <MemberSignature Language="F#" Value="FirstUpperRestLower = 3" Usage="CommunityToolkit.Maui.Converters.TextCaseType.FirstUpperRestLower" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.TextCaseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Converts the first letter to upper only</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Lower">
+      <MemberSignature Language="C#" Value="Lower" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.TextCaseType Lower = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.TextCaseType.Lower" />
+      <MemberSignature Language="VB.NET" Value="Lower" />
+      <MemberSignature Language="F#" Value="Lower = 2" Usage="CommunityToolkit.Maui.Converters.TextCaseType.Lower" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.TextCaseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Convert to lowercase</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.TextCaseType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.TextCaseType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="CommunityToolkit.Maui.Converters.TextCaseType.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.TextCaseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Should not be converted</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Upper">
+      <MemberSignature Language="C#" Value="Upper" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype CommunityToolkit.Maui.Converters.TextCaseType Upper = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Converters.TextCaseType.Upper" />
+      <MemberSignature Language="VB.NET" Value="Upper" />
+      <MemberSignature Language="F#" Value="Upper = 1" Usage="CommunityToolkit.Maui.Converters.TextCaseType.Upper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Converters.TextCaseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Convert to uppercase</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

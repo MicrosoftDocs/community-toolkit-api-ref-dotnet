@@ -1,0 +1,109 @@
+<Type Name="SpeechToTextOptions" FullName="CommunityToolkit.Maui.Media.SpeechToTextOptions">
+  <TypeSignature Language="C#" Value="public class SpeechToTextOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SpeechToTextOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Media.SpeechToTextOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class SpeechToTextOptions" />
+  <TypeSignature Language="F#" Value="type SpeechToTextOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.RequiredMember]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.RequiredMember&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Options for configuring speech recognition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SpeechToTextOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Media.SpeechToTextOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Constructors of types with required members are not supported in this version of your compiler.", true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Constructors of types with required members are not supported in this version of your compiler.", true)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.CompilerFeatureRequired("RequiredMembers")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.CompilerFeatureRequired("RequiredMembers")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public System.Globalization.CultureInfo Culture { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Globalization.CultureInfo Culture" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Media.SpeechToTextOptions.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As CultureInfo" />
+      <MemberSignature Language="F#" Value="member this.Culture : System.Globalization.CultureInfo with get, set" Usage="CommunityToolkit.Maui.Media.SpeechToTextOptions.Culture" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.RequiredMember]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.RequiredMember&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Globalization.CultureInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The culture to use for speech recognition.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldReportPartialResults">
+      <MemberSignature Language="C#" Value="public bool ShouldReportPartialResults { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShouldReportPartialResults" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Media.SpeechToTextOptions.ShouldReportPartialResults" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShouldReportPartialResults As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldReportPartialResults : bool with get, set" Usage="CommunityToolkit.Maui.Media.SpeechToTextOptions.ShouldReportPartialResults" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Include partial recognition results.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

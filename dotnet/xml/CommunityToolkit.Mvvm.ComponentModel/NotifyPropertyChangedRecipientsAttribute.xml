@@ -1,0 +1,72 @@
+<Type Name="NotifyPropertyChangedRecipientsAttribute" FullName="CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute">
+  <TypeSignature Language="C#" Value="public sealed class NotifyPropertyChangedRecipientsAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NotifyPropertyChangedRecipientsAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NotifyPropertyChangedRecipientsAttribute&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type NotifyPropertyChangedRecipientsAttribute = class&#xA;    inherit Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=false, Inherited=false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple=false, Inherited=false)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            An attribute that can be used to support <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute" /> in generated properties, when applied to fields and properties
+            contained in a type that is either inheriting from <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient" />, or annotated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipientAttribute" />.
+            When this attribute is used, the generated property setter will also call <see cref="M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.Broadcast``1(``0,``0,System.String)" />.
+            This allows generated properties to opt-in into broadcasting behavior without having to fallback into a full explicit observable property.
+            <para>
+            This attribute can be used as follows:
+            <code>
+            partial class MyViewModel : ObservableRecipient
+            {
+                [ObservableProperty]
+                [NotifyPropertyChangedRecipients]
+                public partial string Username;
+            }
+            </code></para><para>
+            And with this, code analogous to this will be generated:
+            <code>
+            partial class MyViewModel
+            {
+                public partial string Username
+                {
+                    get =&gt; field;
+                    set =&gt; SetProperty(ref field, value, broadcast: true);
+                }
+            }
+            </code></para><para>
+            This attribute can also be added to a class, and if so it will affect all generated properties in that type and inherited types.
+            </para></summary>
+    <remarks>
+            Just like <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute" />, this attribute can also be used on fields as well.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NotifyPropertyChangedRecipientsAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Mvvm.ComponentModel.NotifyPropertyChangedRecipientsAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Mvvm</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

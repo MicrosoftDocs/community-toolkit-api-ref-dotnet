@@ -1,0 +1,822 @@
+<Type Name="ValidationBehavior" FullName="CommunityToolkit.Maui.Behaviors.ValidationBehavior">
+  <TypeSignature Language="C#" Value="public abstract class ValidationBehavior : CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ValidationBehavior extends CommunityToolkit.Maui.Behaviors.BaseBehavior`1&lt;class Microsoft.Maui.Controls.VisualElement&gt; implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ValidationBehavior&#xA;Inherits BaseBehavior(Of VisualElement)&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type ValidationBehavior = class&#xA;    inherit BaseBehavior&lt;VisualElement&gt;&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>CommunityToolkit.Maui.Behaviors.BaseBehavior&lt;Microsoft.Maui.Controls.VisualElement&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TView">Microsoft.Maui.Controls.VisualElement</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.All)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("ValidationBehavior is not trim safe because it uses bindings with string paths.")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("ValidationBehavior is not trim safe because it uses bindings with string paths.")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 0, 1 })&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" /> allows users to create custom validation behaviors. All the validation behaviors in the Xamarin Community Toolkit inherit from this behavior, to expose a number of shared properties. Users can inherit from this class to create a custom validation behavior currently not supported through the Xamarin Community Toolkit. This behavios cannot be used directly as it's abstract.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ValidationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialize a new instance of ValidationBehavior
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Decorate">
+      <MemberSignature Language="C#" Value="protected virtual object? Decorate (object? value);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance object Decorate(object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Decorate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function Decorate (value As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Decorate : obj -&gt; obj&#xA;override this.Decorate : obj -&gt; obj" Usage="validationBehavior.Decorate value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>
+            Decorate value
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultForceValidateCommand">
+      <MemberSignature Language="C#" Value="protected virtual Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt; DefaultForceValidateCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Command`1&lt;valuetype System.Threading.CancellationToken&gt; DefaultForceValidateCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.DefaultForceValidateCommand" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property DefaultForceValidateCommand As Command(Of CancellationToken)" />
+      <MemberSignature Language="F#" Value="member this.DefaultForceValidateCommand : Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.DefaultForceValidateCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Command&lt;System.Threading.CancellationToken&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default force validate command
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultValuePropertyName">
+      <MemberSignature Language="C#" Value="protected virtual string DefaultValuePropertyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultValuePropertyName" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.DefaultValuePropertyName" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property DefaultValuePropertyName As String" />
+      <MemberSignature Language="F#" Value="member this.DefaultValuePropertyName : string" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.DefaultValuePropertyName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default value property name
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="validationBehavior.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="validationBehavior.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing" />
+        <summary>
+            Disposes of managed resources
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ValidationBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="validationBehavior.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Finalizer
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public CommunityToolkit.Maui.Behaviors.ValidationFlags Flags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype CommunityToolkit.Maui.Behaviors.ValidationFlags Flags" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Flags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flags As ValidationFlags" />
+      <MemberSignature Language="F#" Value="member this.Flags : CommunityToolkit.Maui.Behaviors.ValidationFlags with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>CommunityToolkit.Maui.Behaviors.ValidationFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides an enumerated value that specifies how to handle validation. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagsProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty FlagsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FlagsProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.FlagsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FlagsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FlagsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.FlagsProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Flags" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceValidate">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask ForceValidate (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.Tasks.ValueTask ForceValidate(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidate(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ForceValidate (Optional token As CancellationToken = Nothing) As ValueTask" />
+      <MemberSignature Language="F#" Value="member this.ForceValidate : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="validationBehavior.ForceValidate token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>
+            Forces the behavior to make a validation pass.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceValidateCommand">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand ForceValidateCommand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand ForceValidateCommand" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidateCommand" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForceValidateCommand As ICommand" />
+      <MemberSignature Language="F#" Value="member this.ForceValidateCommand : System.Windows.Input.ICommand with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidateCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Allows the user to provide a custom <see cref="T:System.Windows.Input.ICommand" /> that handles forcing validation. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            The Default Value for <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidateCommand" /> has a <see cref="T:System.Type" /> of Command&lt;CancellationToken&gt; which requires a <see cref="T:System.Threading.CancellationToken" /> as a CommandParameter. See <see cref="T:Microsoft.Maui.Controls.Command`1" /> and <see cref="M:System.Windows.Input.ICommand.Execute(System.Object)" /> for more information on passing a <see cref="T:System.Threading.CancellationToken" /> into <see cref="T:Microsoft.Maui.Controls.Command`1" /> as a CommandParameter"
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceValidateCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ForceValidateCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ForceValidateCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidateCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ForceValidateCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ForceValidateCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidateCommandProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ForceValidateCommand" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.Style? InvalidStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Style InvalidStyle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvalidStyle As Style" />
+      <MemberSignature Language="F#" Value="member this.InvalidStyle : Microsoft.Maui.Controls.Style with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidStyle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.Controls.Style" /> to apply to the element when validation fails. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidStyleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty InvalidStyleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty InvalidStyleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidStyleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InvalidStyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable InvalidStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidStyleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidStyle" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidVisualState">
+      <MemberSignature Language="C#" Value="public const string InvalidVisualState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidVisualState" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidVisualState" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidVisualState As String " />
+      <MemberSignature Language="F#" Value="val mutable InvalidVisualState : string" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.InvalidVisualState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Invalid visual state
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotValid">
+      <MemberSignature Language="C#" Value="public bool IsNotValid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNotValid" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsNotValid" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsNotValid As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNotValid : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsNotValid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the current value is considered not valid. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotValidProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsNotValidProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsNotValidProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsNotValidProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsNotValidProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsNotValidProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsNotValidProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsNotValid" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRunning">
+      <MemberSignature Language="C#" Value="public bool IsRunning { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRunning" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsRunning" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRunning As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRunning : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsRunning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the validation is in progress now (waiting for an asynchronous call is finished).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRunningProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsRunningProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsRunningProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsRunningProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRunningProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsRunningProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsRunningProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsRunning" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public bool IsValid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsValid" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsValid As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsValid : bool with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsValid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the current value is considered valid. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValidProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty IsValidProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsValidProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsValidProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsValidProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsValidProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsValidProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.IsValid" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected override void OnAttachedTo (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.OnAttachedTo(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="validationBehavior.OnAttachedTo bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachingFrom">
+      <MemberSignature Language="C#" Value="protected override void OnDetachingFrom (Microsoft.Maui.Controls.VisualElement bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachingFrom(class Microsoft.Maui.Controls.VisualElement bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.OnDetachingFrom(Microsoft.Maui.Controls.VisualElement)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachingFrom (bindable As VisualElement)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="validationBehavior.OnDetachingFrom bindable" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.VisualElement" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="OnValidationPropertyChanged">
+      <MemberSignature Language="C#" Value="protected static void OnValidationPropertyChanged (Microsoft.Maui.Controls.BindableObject bindable, object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig void OnValidationPropertyChanged(class Microsoft.Maui.Controls.BindableObject bindable, object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.OnValidationPropertyChanged(Microsoft.Maui.Controls.BindableObject,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Sub OnValidationPropertyChanged (bindable As BindableObject, oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="F#" Value="static member OnValidationPropertyChanged : Microsoft.Maui.Controls.BindableObject * obj * obj -&gt; unit" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.OnValidationPropertyChanged (bindable, oldValue, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Microsoft.Maui.Controls.BindableObject" />
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bindable" />
+        <param name="oldValue" />
+        <param name="newValue" />
+        <summary>
+            Used when a property in <see cref="T:CommunityToolkit.Maui.Behaviors.ValidationBehavior" /> changes to update the validation state
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnViewPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnViewPropertyChanged (Microsoft.Maui.Controls.VisualElement sender, System.ComponentModel.PropertyChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnViewPropertyChanged(class Microsoft.Maui.Controls.VisualElement sender, class System.ComponentModel.PropertyChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.OnViewPropertyChanged(Microsoft.Maui.Controls.VisualElement,System.ComponentModel.PropertyChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnViewPropertyChanged (sender As VisualElement, e As PropertyChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="override this.OnViewPropertyChanged : Microsoft.Maui.Controls.VisualElement * System.ComponentModel.PropertyChangedEventArgs -&gt; unit" Usage="validationBehavior.OnViewPropertyChanged (sender, e)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Microsoft.Maui.Controls.VisualElement" />
+        <Parameter Name="e" Type="System.ComponentModel.PropertyChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAsync">
+      <MemberSignature Language="C#" Value="protected abstract System.Threading.Tasks.ValueTask&lt;bool&gt; ValidateAsync (object? value, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;bool&gt; ValidateAsync(object value, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidateAsync(System.Object,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function ValidateAsync (value As Object, token As CancellationToken) As ValueTask(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member ValidateAsync : obj * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;bool&gt;" Usage="validationBehavior.ValidateAsync (value, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>
+            Validate value
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Maui.Controls.Style? ValidStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Style ValidStyle" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property ValidStyle As Style" />
+      <MemberSignature Language="F#" Value="member this.ValidStyle : Microsoft.Maui.Controls.Style with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidStyle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The <see cref="T:Microsoft.Maui.Controls.Style" /> to apply to the element when validation is successful. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidStyleProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ValidStyleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ValidStyleProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidStyleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ValidStyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ValidStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidStyleProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidStyle" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidVisualState">
+      <MemberSignature Language="C#" Value="public const string ValidVisualState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ValidVisualState" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidVisualState" />
+      <MemberSignature Language="VB.NET" Value="Public Const ValidVisualState As String " />
+      <MemberSignature Language="F#" Value="val mutable ValidVisualState : string" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValidVisualState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Valid visual state
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object? Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value to validate. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ValueProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ValueProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValueProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ValueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValueProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.Value" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValuePropertyName">
+      <MemberSignature Language="C#" Value="public string? ValuePropertyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ValuePropertyName" />
+      <MemberSignature Language="DocId" Value="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValuePropertyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ValuePropertyName As String" />
+      <MemberSignature Language="F#" Value="member this.ValuePropertyName : string with get, set" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValuePropertyName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Allows the user to override the property that will be used as the value to validate. This is a bindable property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValuePropertyNameProperty">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Maui.Controls.BindableProperty ValuePropertyNameProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ValuePropertyNameProperty" />
+      <MemberSignature Language="DocId" Value="F:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValuePropertyNameProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ValuePropertyNameProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ValuePropertyNameProperty : Microsoft.Maui.Controls.BindableProperty" Usage="CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValuePropertyNameProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CommunityToolkit.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Backing BindableProperty for the <see cref="P:CommunityToolkit.Maui.Behaviors.ValidationBehavior.ValuePropertyName" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
